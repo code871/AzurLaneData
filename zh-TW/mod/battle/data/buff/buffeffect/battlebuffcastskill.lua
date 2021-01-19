@@ -155,11 +155,21 @@ function slot1.enterCoolDown(slot0, slot1)
 	end
 end
 
+function slot1.Interrupt(slot0)
+	uv0.super.Interrupt(slot0)
+
+	if slot0._skill then
+		slot0._skill:Interrupt()
+	end
+end
+
 function slot1.Clear(slot0)
 	uv0.super.Clear(slot0)
 
 	if slot0._skill then
 		slot0._skill:Clear()
+
+		slot0._skill = nil
 	end
 end
 

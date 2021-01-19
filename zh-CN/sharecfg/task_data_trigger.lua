@@ -528,6 +528,39 @@ pg.task_data_trigger = {
 			}
 		}
 	},
+	[52] = {
+		group_id = 20402,
+		id = 52,
+		activity_id = 2049,
+		args = {
+			{
+				1,
+				5531
+			}
+		}
+	},
+	[53] = {
+		group_id = 40301,
+		id = 53,
+		activity_id = 2050,
+		args = {
+			{
+				1,
+				5541
+			}
+		}
+	},
+	[54] = {
+		group_id = 20303,
+		id = 54,
+		activity_id = 2051,
+		args = {
+			{
+				1,
+				5551
+			}
+		}
+	},
 	all = {
 		1,
 		3,
@@ -576,6 +609,9 @@ pg.task_data_trigger = {
 		48,
 		49,
 		50,
-		51
+		51,
+		52,
+		53,
+		54
 	}
 }

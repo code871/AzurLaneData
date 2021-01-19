@@ -85,11 +85,22 @@ function slot1(slot0)
 		slot0 = string.gsub(slot0, i18n("word_secondseach"), "")
 	end
 
-	slot0 = string.gsub(slot0, " ", "")
+	if #{
+		string.match(string.gsub(slot0, " ", ""), "~(%d+)")
+	} > 0 then
+		slot0 = string.gsub(slot0, "~" .. slot1[1], "")
+	end
 
-	while string.match(slot0, "(%d+)x(%d+)") do
-		slot1, slot2 = string.match(slot0, "(%d+)x(%d+)")
-		slot0 = string.gsub(slot0, slot1 .. "x" .. slot2, slot1 * slot2, 1)
+	slot1 = {
+		string.match(slot0, "(%d+)x(%d+)")
+	}
+
+	while #slot1 > 0 do
+		slot2 = slot1[1]
+		slot3 = slot1[2]
+		slot1 = {
+			string.match(string.gsub(slot0, slot2 .. "x" .. slot3, slot2 * slot3, 1), "(%d+)x(%d+)")
+		}
 	end
 
 	return tonumber(slot0)
@@ -179,10 +190,6 @@ function slot0.GetPropertiesInfo(slot0)
 
 	if slot0:GetSonarProperty() then
 		table.insert(slot2.attrs, {
-			type = AttributeType.SonarInterval,
-			value = slot3[AttributeType.SonarInterval]
-		})
-		table.insert(slot2.attrs, {
 			type = AttributeType.SonarRange,
 			value = slot3[AttributeType.SonarRange]
 		})
@@ -190,7 +197,7 @@ function slot0.GetPropertiesInfo(slot0)
 
 	slot2.weapon = {
 		lock_open = true,
-		name = i18n(EquipType.isAircraft(slot0.configId) and "equip_info_24" or "equip_info_5"),
+		name = i18n(slot0:isAircraftExtend() and "equip_info_24" or "equip_info_5"),
 		sub = {}
 	}
 
@@ -295,6 +302,11 @@ function slot0.GetWeaponInfo(slot0, slot1, slot2, slot3)
 			type = AttributeType.CD,
 			value = pg.weapon_property[slot2].reload_max
 		}
+	elseif slot1 == 13 then
+		return {
+			name = i18n("attribute_max_distance_damage"),
+			value = (1 - pg.bullet_template[slot4].hit_type.decay) * 100 .. "%"
+		}
 	end
 end
 
@@ -384,15 +396,9 @@ function slot0.GetWeaponID(slot0)
 end
 
 function slot0.GetSonarProperty(slot0)
-	slot1 = slot0.config.equip_parameters
-	slot3 = slot1.interval
-	slot4 = slot1.duration
-
-	if slot1.range and slot3 and slot4 then
+	if slot0.config.equip_parameters.range then
 		return {
-			[AttributeType.SonarRange] = slot2,
-			[AttributeType.SonarInterval] = slot3,
-			[AttributeType.SonarDuration] = slot4
+			[AttributeType.SonarRange] = slot2
 		}
 	else
 		return nil
@@ -469,6 +475,22 @@ end
 
 function slot0.isUnique(slot0)
 	return slot0.config.equip_limit ~= 0
+end
+
+function slot0.isDevice(slot0)
+	slot1 = pg.equip_data_template[slot0.configId].type
+
+	return underscore.any(EquipType.DeviceEquipTypes, function (slot0)
+		return slot0 == uv0
+	end)
+end
+
+function slot0.isAircraftExtend(slot0)
+	slot1 = pg.equip_data_template[slot0.configId].type
+
+	return underscore.any(EquipType.AirExtendEquipTypes, function (slot0)
+		return slot0 == uv0
+	end)
 end
 
 function slot0.MigrateTo(slot0, slot1)

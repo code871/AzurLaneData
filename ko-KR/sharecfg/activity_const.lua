@@ -22,7 +22,7 @@ pg.activity_const = {
 		act_id = 171
 	},
 	ACT_NPC_SHIP_ID = {
-		act_id = 20450
+		act_id = 20594
 	},
 	SANLI_7DAYS_LOGIN = {
 		act_id = 274
@@ -31,7 +31,7 @@ pg.activity_const = {
 		act_id = 270
 	},
 	ACTIVITY_PRAY_POOL = {
-		act_id = 602
+		act_id = 20565
 	},
 	DAY7_LOGIN_ACTIVITY_ID = {
 		act_id = 3
@@ -198,15 +198,6 @@ pg.activity_const = {
 	MORAN_RE_PT_ID = {
 		act_id = 20346
 	},
-	FAXI_PREVIEW_ID = {
-		act_id = 20152
-	},
-	FAXI_PT_ID = {
-		act_id = 20156
-	},
-	FAXI_RES_ID = {
-		act_id = 20160
-	},
 	XIAOJIAJIA_PREVIEW_ID = {
 		act_id = 20164
 	},
@@ -277,10 +268,10 @@ pg.activity_const = {
 		act_id = 20226
 	},
 	ACTIVITY_ID_CHALLENGE_RANK = {
-		act_id = 20484
+		act_id = 20617
 	},
 	ACTIVITY_ID_CHALLENGE = {
-		act_id = 20485
+		act_id = 20618
 	},
 	FRANCE_RE_BUILD = {
 		act_id = 0
@@ -352,7 +343,7 @@ pg.activity_const = {
 		act_id = 20272
 	},
 	CARDPAIR_ZQ = {
-		act_id = 20273
+		act_id = 20570
 	},
 	CHUIXUE_RE_PT = {
 		act_id = 378
@@ -469,7 +460,10 @@ pg.activity_const = {
 		act_id = 20359
 	},
 	NEWYEAR_SHRINE_PAGE_ID = {
-		act_id = 20360
+		act_id = 20645
+	},
+	NEWYEAR_SNACK_PAGE_ID = {
+		act_id = 20650
 	},
 	NEWYEAR_ACTIVITY = {
 		act_id = 20361
@@ -625,10 +619,34 @@ pg.activity_const = {
 		act_id = 20478
 	},
 	ACTIVITY_BOSS_AISAIKESI_PT = {
-		act_id = 623
+		act_id = 20530
 	},
 	U557_RED_POCKET_RE = {
 		act_id = 673
+	},
+	SHINANO_EXP_ACT_ID = {
+		act_id = 20536
+	},
+	JIUJIU_ADVENTURE_ID = {
+		act_id = 20545
+	},
+	UR_ITEM_ACT_ID = {
+		act_id = 20560
+	},
+	UR_TASK_ACT_ID = {
+		act_id = 20562
+	},
+	DOA_MEDAL_ACT_ID = {
+		act_id = 20610
+	},
+	MUSIC_FESTIVAL_ID_2 = {
+		act_id = 20590
+	},
+	HMS_Hunter_PT_ID = {
+		act_id = 20597
+	},
+	DOA_COLLECTION_FURNITURE = {
+		act_id = 20610
 	},
 	SUMMER_REMAKE = {
 		act_id = 20248
@@ -716,5 +734,20 @@ pg.activity_const = {
 	},
 	NEW_ORLEANS_Map_BATTLE = {
 		act_id = 20492
+	},
+	DOA_MAP_ACT_ID = {
+		act_id = 20604
+	},
+	DOA_PT_ID = {
+		act_id = 20606
+	},
+	ELITE_AWARD_ACTIVITY_ID = {
+		act_id = 20135
+	},
+	NEWYEAR_SNACKSTREET_MINIGAME = {
+		act_id = 20646
+	},
+	NEWYEAR_SNOWBALL_FIGHT = {
+		act_id = 20644
 	}
 }

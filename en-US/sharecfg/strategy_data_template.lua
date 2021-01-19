@@ -84,6 +84,15 @@ pg.strategy_data_template = {
 			area_scout
 		}
 	},
+	[47] = {
+		buff_id = 0,
+		name = "High-Efficiency Operation",
+		type = 10,
+		id = 47,
+		icon = "tebiezuozhan",
+		desc = "Increases the Oil spent on this current stage by 100%;\nIn the process, increases the Commander EXP, Meowfficer EXP, and Ship EXP gained by 100%, and grants an additional drop chance. Mood consumption and Affection gain are both increased by 100%. ",
+		arg = {}
+	},
 	[90] = {
 		buff_id = 90,
 		name = "RED ALERT!",
@@ -122,11 +131,119 @@ pg.strategy_data_template = {
 	},
 	[8650] = {
 		buff_id = 8650,
-		name = "聚光灯",
+		name = "Searchlight",
 		type = 10,
 		id = 8650,
 		icon = "",
-		desc = "聚光灯效果",
+		desc = "Under the effect of a searchlight.",
+		arg = {}
+	},
+	[8732] = {
+		buff_id = 8732,
+		name = "Blessing of the Butterfly",
+		type = 10,
+		id = 8732,
+		icon = "8732",
+		desc = "When activated: Shinano fires 3 rounds of supporting fire and increases your fleet's FP, TRP, and AVI by 5.0%.",
+		arg = {}
+	},
+	[8744] = {
+		buff_id = 8744,
+		name = "Blessing of the Butterfly",
+		type = 10,
+		id = 8744,
+		icon = "8732",
+		desc = "When activated: Shinano fires 3 rounds of supporting fire and increases your fleet's FP, TRP, and AVI by 5.0%.",
+		arg = {}
+	},
+	[8745] = {
+		buff_id = 8745,
+		name = "Blessing of the Butterfly",
+		type = 10,
+		id = 8745,
+		icon = "8732",
+		desc = "When activated: Shinano fires 3 rounds of supporting fire and increases your fleet's FP, TRP, and AVI by 5.0%.",
+		arg = {}
+	},
+	[8746] = {
+		buff_id = 8746,
+		name = "Blessing of the Butterfly",
+		type = 10,
+		id = 8746,
+		icon = "8732",
+		desc = "When activated: Shinano fires 3 rounds of supporting fire and increases your fleet's FP, TRP, and AVI by 5.0%.",
+		arg = {}
+	},
+	[8750] = {
+		buff_id = 8750,
+		name = "Searchlight",
+		type = 10,
+		id = 8750,
+		icon = "",
+		desc = "Under the effect of a searchlight.",
+		arg = {}
+	},
+	[8801] = {
+		buff_id = 8801,
+		name = "Control Lost",
+		type = 10,
+		id = 8801,
+		icon = "8801",
+		desc = "You've lost control of the Floating Fortress! During battle, enemy forces will be reinforced by additional aircraft!",
+		arg = {}
+	},
+	[8802] = {
+		buff_id = 8802,
+		name = "Secured Control",
+		type = 10,
+		id = 8802,
+		icon = "8802",
+		desc = "You've secured the Floating Fortress! During battle, allied aircraft will arrive to attack the enemies!",
+		arg = {}
+	},
+	[8803] = {
+		buff_id = 8803,
+		name = "Allied Air Support",
+		type = 10,
+		id = 8803,
+		icon = "",
+		desc = "Allied Air Support",
+		arg = {}
+	},
+	[8806] = {
+		buff_id = 8806,
+		name = "Allied Air Support",
+		type = 10,
+		id = 8806,
+		icon = "",
+		desc = "Allied Air Support",
+		arg = {}
+	},
+	[8809] = {
+		buff_id = 8809,
+		name = "Allied Air Support",
+		type = 10,
+		id = 8809,
+		icon = "",
+		desc = "Allied Air Support",
+		arg = {}
+	},
+	[8812] = {
+		buff_id = 8812,
+		name = "Allied Air Support",
+		type = 10,
+		id = 8812,
+		icon = "",
+		desc = "Allied Air Support",
+		arg = {}
+	},
+	[8815] = {
+		buff_id = 8815,
+		name = "Allied Air Support",
+		type = 10,
+		id = 8815,
+		icon = "",
+		desc = "Allied Air Support",
 		arg = {}
 	},
 	[9500] = {
@@ -152,7 +269,7 @@ pg.strategy_data_template = {
 		name = "Iron Blood Aerial Support",
 		type = 10,
 		id = 9505,
-		icon = "10015",
+		icon = "10017",
 		desc = "Enemy Air Squads will appear on this stage, and your fleets will take 10% more damage from Airstrikes.",
 		arg = {}
 	},
@@ -238,6 +355,15 @@ pg.strategy_data_template = {
 			0
 		}
 	},
+	[10021] = {
+		buff_id = 8761,
+		name = "Fever Mode",
+		type = 1000,
+		id = 10021,
+		icon = "10021",
+		desc = "Your fleet is in Fever Mode, and will restore 2% Max HP at the beginning of battle.",
+		arg = {}
+	},
 	all = {
 		1,
 		2,
@@ -247,11 +373,24 @@ pg.strategy_data_template = {
 		10,
 		11,
 		12,
+		47,
 		90,
 		91,
 		92,
 		93,
 		8650,
+		8732,
+		8744,
+		8745,
+		8746,
+		8750,
+		8801,
+		8802,
+		8803,
+		8806,
+		8809,
+		8812,
+		8815,
 		9500,
 		9502,
 		9505,
@@ -262,6 +401,7 @@ pg.strategy_data_template = {
 		10012,
 		10013,
 		10014,
-		10015
+		10015,
+		10021
 	}
 }

@@ -123,7 +123,9 @@ function slot0.register(slot0)
 		}))
 	end)
 	slot0:bind(uv0.OPEN_COMMANDER, function (slot0)
-		uv0:sendNotification(GAME.GO_SCENE, SCENE.COMMANDROOM)
+		uv0:sendNotification(GAME.GO_SCENE, SCENE.COMMANDROOM, {
+			fromMain = true
+		})
 	end)
 	slot0.viewComponent:updateTraningCampBtn()
 	slot0.viewComponent:updateRefluxBtn()
@@ -344,7 +346,7 @@ function slot0.register(slot0)
 	slot0:bind(uv0.ON_ACTIVITY_MAP, function (slot0, slot1)
 		slot2, slot3 = getProxy(ChapterProxy):getLastMapForActivity()
 
-		if not slot2 or not getProxy(ActivityProxy):getActivityById(pg.expedition_data_by_map[slot2].on_activity) or slot4:isEnd() then
+		if not (slot2 and Map.StaticIsMapBindedActivityActive(slot2) and not Map.StaticIsMapRemaster(slot2)) then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("common_activity_end"))
 
 			return
@@ -517,7 +519,7 @@ function slot0.updateCommissionNotices(slot0)
 	slot3 = getProxy(NavalAcademyProxy)
 	slot5 = getProxy(PlayerProxy):getData()
 
-	slot0.viewComponent:updateCommissionNotices(getProxy(EventProxy):hasFinishState() or slot3:GetOilVO():isCommissionNotify(slot5.oilField) or slot3:GetGoldVO():isCommissionNotify(slot5.goldField))
+	slot0.viewComponent:updateCommissionNotices(getProxy(EventProxy):hasFinishState() or slot3:GetOilVO():isCommissionNotify(slot5.oilField) or slot3:GetGoldVO():isCommissionNotify(slot5.goldField) or NotifyTipHelper.ShouldShowUrTip())
 end
 
 function slot0.updateBackYardNotices(slot0)
@@ -659,7 +661,8 @@ function slot0.listNotificationInterests(slot0)
 		GAME.SEND_MINI_GAME_OP_DONE,
 		GAME.ON_OPEN_INS_LAYER,
 		PileGameConst.OPEN_PILEGAME,
-		ShopsProxy.CHARGED_LIST_UPDATED
+		ShopsProxy.CHARGED_LIST_UPDATED,
+		GAME.ZERO_HOUR_OP_DONE
 	}
 end
 
@@ -807,7 +810,8 @@ function slot0.handleNotification(slot0, slot1)
 			})
 		end
 	elseif slot2 == MiniGameProxy.ON_HUB_DATA_UPDATE then
-		slot0.viewComponent:UpdateActivityBtn("activity_newyear")
+		slot0:getViewComponent():HandleMiniGameBtns()
+		slot0:handlingActivityBtn()
 	elseif slot2 == VoteProxy.VOTE_ORDER_BOOK_DELETE or VoteProxy.VOTE_ORDER_BOOK_UPDATE == slot2 then
 		slot0.viewComponent:updateVoteBookBtn(slot3)
 	elseif slot2 == GAME.SEND_MINI_GAME_OP_DONE then
@@ -819,17 +823,24 @@ function slot0.handleNotification(slot0, slot1)
 	elseif slot2 == ShopsProxy.CHARGED_LIST_UPDATED then
 		slot0.viewComponent:updateMallBtnSellTag(slot3)
 		slot0.viewComponent:UpdateMallBtnMonthcardTag()
+	elseif slot2 == GAME.ZERO_HOUR_OP_DONE then
+		slot0.viewComponent:UpdateActivityBtn("activity_map_btn")
 	end
 end
 
-function slot0.onChapterTimeUp(slot0)
-	if getProxy(ChapterProxy):getActiveChapter() and not slot2:inWartime() then
-		slot0.retreateMapType = slot2:getMapType()
+function slot0.onChapterTimeUp(slot0, slot1)
+	if getProxy(ChapterProxy):getActiveChapter() and (not slot3:inWartime() or not Chapter.StaticIsChapterBindedActivityActive(slot3.id)) then
+		slot0.retreateMapType = slot3:getMapType()
 
-		slot0:sendNotification(GAME.CHAPTER_OP, {
-			type = ChapterConst.OpRetreat
-		})
-		pg.TipsMgr.GetInstance():ShowTips(i18n("levelScene_chapter_timeout"))
+		ChapterOpCommand.PrepareChapterRetreat(function ()
+			pg.TipsMgr.GetInstance():ShowTips(i18n("levelScene_chapter_timeout"))
+
+			if uv0 then
+				uv0()
+			end
+		end)
+	elseif slot1 then
+		slot1()
 	end
 end
 
@@ -903,7 +914,22 @@ function slot0.handleEnterMainUI(slot0)
 				uv0:tryPlayGuide()
 			end
 
-			uv0:onChapterTimeUp()
+			slot5 = false
+
+			uv0:onChapterTimeUp(function ()
+				if not uv0 then
+					uv0 = false
+					uv1 = false
+
+					uv2()
+				end
+			end)
+
+			if true then
+				slot5 = true
+
+				coroutine.yield()
+			end
 
 			if not LOCK_SUBMARINE then
 				uv0:tryRequestMainSub()
@@ -926,6 +952,8 @@ function slot0.handleEnterMainUI(slot0)
 			if true then
 				coroutine.yield()
 			end
+
+			HXSet.calcLocalizationUse()
 		end))
 
 		return

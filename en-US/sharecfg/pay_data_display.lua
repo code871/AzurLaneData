@@ -51,7 +51,8 @@ pg.pay_data_display = {
 				20001,
 				1
 			}
-		}
+		},
+		ignorePlatform = {}
 	},
 	{
 		limit_arg = 1,
@@ -104,7 +105,8 @@ pg.pay_data_display = {
 				20001,
 				2
 			}
-		}
+		},
+		ignorePlatform = {}
 	},
 	{
 		limit_arg = 10,
@@ -125,7 +127,8 @@ pg.pay_data_display = {
 		extra_gem = 0,
 		id = 3,
 		airijp_id = "com.yostaren.azurlane.diamond1",
-		display = {}
+		display = {},
+		ignorePlatform = {}
 	},
 	{
 		limit_arg = 10,
@@ -146,7 +149,8 @@ pg.pay_data_display = {
 		extra_gem = 30,
 		id = 4,
 		airijp_id = "com.yostaren.azurlane.diamond2",
-		display = {}
+		display = {},
+		ignorePlatform = {}
 	},
 	{
 		limit_arg = 0,
@@ -167,7 +171,8 @@ pg.pay_data_display = {
 		extra_gem = 150,
 		id = 5,
 		airijp_id = "com.yostaren.azurlane.diamond3",
-		display = {}
+		display = {},
+		ignorePlatform = {}
 	},
 	{
 		limit_arg = 0,
@@ -188,7 +193,8 @@ pg.pay_data_display = {
 		extra_gem = 360,
 		id = 6,
 		airijp_id = "com.yostaren.azurlane.diamond4",
-		display = {}
+		display = {},
+		ignorePlatform = {}
 	},
 	{
 		limit_arg = 0,
@@ -209,7 +215,8 @@ pg.pay_data_display = {
 		extra_gem = 880,
 		id = 7,
 		airijp_id = "com.yostaren.azurlane.diamond5",
-		display = {}
+		display = {},
+		ignorePlatform = {}
 	},
 	{
 		limit_arg = 0,
@@ -230,7 +237,305 @@ pg.pay_data_display = {
 		extra_gem = 2500,
 		id = 8,
 		airijp_id = "com.yostaren.azurlane.diamond6",
-		display = {}
+		display = {},
+		ignorePlatform = {}
+	},
+	[24] = {
+		limit_arg = 1,
+		descrip_extra = "*After your purchase, the Lucky Bag will be sent to your mailbox. \n*If you receive a ship skin that you already own, you will instead be given the corresponding skin's value in Gems. ",
+		name = "2020 Party Dress Lucky Bag",
+		descrip = "Contains a random character outfit, 2020 Gems, and a large amount of supplies. ",
+		subject = "2020 Party Dress Lucky Bag",
+		extra_service = 3,
+		money = 2999,
+		tag = 2,
+		gem = 0,
+		limit_type = 2,
+		picture = "lihe3_l",
+		id_str = "com.yostaren.azurlane.diamond138",
+		first_pay_double = 0,
+		extra_gem = 0,
+		id = 24,
+		airijp_id = "com.yostaren.azurlane.diamond138",
+		extra_service_item = {
+			{
+				2,
+				69911,
+				1
+			},
+			{
+				1,
+				4,
+				2020
+			},
+			{
+				2,
+				42026,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2020,
+					9,
+					24
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					10,
+					11
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				69911,
+				1
+			},
+			{
+				1,
+				4,
+				2020
+			},
+			{
+				2,
+				42026,
+				2
+			}
+		},
+		ignorePlatform = {}
+	},
+	[25] = {
+		limit_arg = 1,
+		descrip_extra = "*After your purchase, the Lucky Bag will be sent to your mailbox. \n*If you receive a ship skin that you already own, you will instead be given the corresponding skin's value in Gems. ",
+		name = "Shougatsu Lucky Bag 2021 ",
+		descrip = "Contains a random character outfit, 2021 Gems, and a large amount of supplies. ",
+		subject = "Shougatsu Lucky Bag 2021",
+		extra_service = 3,
+		money = 2999,
+		tag = 2,
+		gem = 0,
+		limit_type = 2,
+		picture = "fudai3",
+		id_str = "com.yostaren.azurlane.diamond142",
+		first_pay_double = 0,
+		extra_gem = 0,
+		id = 25,
+		airijp_id = "com.yostaren.azurlane.diamond142",
+		extra_service_item = {
+			{
+				2,
+				69912,
+				1
+			},
+			{
+				1,
+				4,
+				2021
+			},
+			{
+				2,
+				42026,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2020,
+					12,
+					29
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					1,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				69912,
+				1
+			},
+			{
+				1,
+				4,
+				2021
+			},
+			{
+				2,
+				42026,
+				2
+			}
+		},
+		ignorePlatform = {}
+	},
+	[26] = {
+		limit_arg = 1,
+		descrip_extra = "*After your purchase, the Lucky Bag will be sent to your mailbox. \n*If you receive a ship skin that you already own, you will instead be given the corresponding skin's value in Gems. ",
+		name = "Shougatsu Lucky Bag 2020 ",
+		descrip = "Contains a random character outfit, 2020 Gems, and a large amount of supplies. ",
+		subject = "Shougatsu Lucky Bag 2020",
+		extra_service = 3,
+		money = 2999,
+		tag = 2,
+		gem = 0,
+		limit_type = 2,
+		picture = "fudai1",
+		id_str = "com.yostaren.azurlane.diamond126",
+		first_pay_double = 0,
+		extra_gem = 0,
+		id = 26,
+		airijp_id = "com.yostaren.azurlane.diamond126",
+		extra_service_item = {
+			{
+				2,
+				69908,
+				1
+			},
+			{
+				1,
+				4,
+				2020
+			},
+			{
+				2,
+				42017,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2020,
+					12,
+					29
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					1,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				69908,
+				1
+			},
+			{
+				1,
+				4,
+				2020
+			},
+			{
+				2,
+				42017,
+				2
+			}
+		},
+		ignorePlatform = {}
 	},
 	[100] = {
 		limit_arg = 1,
@@ -323,7 +628,8 @@ pg.pay_data_display = {
 				30303,
 				3
 			}
-		}
+		},
+		ignorePlatform = {}
 	},
 	[101] = {
 		limit_arg = 1,
@@ -426,7 +732,8 @@ pg.pay_data_display = {
 				30305,
 				3
 			}
-		}
+		},
+		ignorePlatform = {}
 	},
 	[102] = {
 		limit_arg = 1,
@@ -519,7 +826,8 @@ pg.pay_data_display = {
 				30306,
 				3
 			}
-		}
+		},
+		ignorePlatform = {}
 	},
 	[103] = {
 		limit_arg = 1,
@@ -602,7 +910,8 @@ pg.pay_data_display = {
 				50006,
 				5
 			}
-		}
+		},
+		ignorePlatform = {}
 	},
 	[104] = {
 		limit_arg = 1,
@@ -690,7 +999,8 @@ pg.pay_data_display = {
 				1,
 				3000
 			}
-		}
+		},
+		ignorePlatform = {}
 	},
 	[105] = {
 		limit_arg = 1,
@@ -783,7 +1093,8 @@ pg.pay_data_display = {
 				17003,
 				20
 			}
-		}
+		},
+		ignorePlatform = {}
 	},
 	[106] = {
 		limit_arg = 1,
@@ -881,7 +1192,8 @@ pg.pay_data_display = {
 				18013,
 				1
 			}
-		}
+		},
+		ignorePlatform = {}
 	},
 	[107] = {
 		limit_arg = 1,
@@ -974,7 +1286,8 @@ pg.pay_data_display = {
 				30311,
 				3
 			}
-		}
+		},
+		ignorePlatform = {}
 	},
 	[108] = {
 		limit_arg = 1,
@@ -1067,7 +1380,8 @@ pg.pay_data_display = {
 				15008,
 				100
 			}
-		}
+		},
+		ignorePlatform = {}
 	},
 	[109] = {
 		limit_arg = 1,
@@ -1155,7 +1469,8 @@ pg.pay_data_display = {
 				20001,
 				6
 			}
-		}
+		},
+		ignorePlatform = {}
 	},
 	[110] = {
 		limit_arg = 1,
@@ -1248,7 +1563,8 @@ pg.pay_data_display = {
 				15008,
 				50
 			}
-		}
+		},
+		ignorePlatform = {}
 	},
 	[111] = {
 		limit_arg = 1,
@@ -1341,7 +1657,8 @@ pg.pay_data_display = {
 				15008,
 				50
 			}
-		}
+		},
+		ignorePlatform = {}
 	},
 	[112] = {
 		limit_arg = 1,
@@ -1434,7 +1751,8 @@ pg.pay_data_display = {
 				20013,
 				1
 			}
-		}
+		},
+		ignorePlatform = {}
 	},
 	[113] = {
 		limit_arg = 1,
@@ -1527,7 +1845,8 @@ pg.pay_data_display = {
 				15008,
 				50
 			}
-		}
+		},
+		ignorePlatform = {}
 	},
 	[114] = {
 		limit_arg = 1,
@@ -1625,7 +1944,8 @@ pg.pay_data_display = {
 				54035,
 				1
 			}
-		}
+		},
+		ignorePlatform = {}
 	},
 	[115] = {
 		limit_arg = 1,
@@ -1718,7 +2038,8 @@ pg.pay_data_display = {
 				2,
 				2000
 			}
-		}
+		},
+		ignorePlatform = {}
 	},
 	[116] = {
 		limit_arg = 1,
@@ -1816,7 +2137,8 @@ pg.pay_data_display = {
 				42017,
 				2
 			}
-		}
+		},
+		ignorePlatform = {}
 	},
 	[117] = {
 		limit_arg = 1,
@@ -1909,7 +2231,8 @@ pg.pay_data_display = {
 				15008,
 				50
 			}
-		}
+		},
+		ignorePlatform = {}
 	},
 	[118] = {
 		limit_arg = 1,
@@ -2007,7 +2330,8 @@ pg.pay_data_display = {
 				42017,
 				2
 			}
-		}
+		},
+		ignorePlatform = {}
 	},
 	[119] = {
 		limit_arg = 1,
@@ -2100,7 +2424,8 @@ pg.pay_data_display = {
 				15008,
 				50
 			}
-		}
+		},
+		ignorePlatform = {}
 	},
 	[120] = {
 		limit_arg = 1,
@@ -2178,7 +2503,8 @@ pg.pay_data_display = {
 				100001,
 				1
 			}
-		}
+		},
+		ignorePlatform = {}
 	},
 	[121] = {
 		limit_arg = 1,
@@ -2281,7 +2607,8 @@ pg.pay_data_display = {
 				30121,
 				4
 			}
-		}
+		},
+		ignorePlatform = {}
 	},
 	[122] = {
 		limit_arg = 1,
@@ -2389,7 +2716,8 @@ pg.pay_data_display = {
 				30121,
 				8
 			}
-		}
+		},
+		ignorePlatform = {}
 	},
 	[123] = {
 		limit_arg = 1,
@@ -2482,7 +2810,8 @@ pg.pay_data_display = {
 				15008,
 				50
 			}
-		}
+		},
+		ignorePlatform = {}
 	},
 	[124] = {
 		limit_arg = 1,
@@ -2580,7 +2909,8 @@ pg.pay_data_display = {
 				42017,
 				2
 			}
-		}
+		},
+		ignorePlatform = {}
 	},
 	[125] = {
 		limit_arg = 1,
@@ -2673,7 +3003,8 @@ pg.pay_data_display = {
 				20001,
 				20
 			}
-		}
+		},
+		ignorePlatform = {}
 	},
 	[126] = {
 		limit_arg = 1,
@@ -2766,7 +3097,8 @@ pg.pay_data_display = {
 				15008,
 				50
 			}
-		}
+		},
+		ignorePlatform = {}
 	},
 	[127] = {
 		limit_arg = 1,
@@ -2859,7 +3191,305 @@ pg.pay_data_display = {
 				15008,
 				50
 			}
-		}
+		},
+		ignorePlatform = {}
+	},
+	[128] = {
+		limit_arg = 1,
+		descrip_extra = "*The contents of the Lucky Bag will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit. ",
+		name = "Shining Star Lucky Bag ",
+		descrip = "Contains a random character outfit and a large amount of supplies ",
+		subject = "Shining Star Lucky Bag ",
+		extra_service = 3,
+		money = 2999,
+		tag = 2,
+		gem = 0,
+		limit_type = 2,
+		picture = "fudai66",
+		id_str = "com.yostaren.azurlane.diamond139",
+		first_pay_double = 0,
+		extra_gem = 0,
+		id = 128,
+		airijp_id = "com.yostaren.azurlane.diamond139",
+		extra_service_item = {
+			{
+				2,
+				69965,
+				1
+			},
+			{
+				1,
+				4,
+				2020
+			},
+			{
+				2,
+				42026,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2020,
+					10,
+					29
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					11,
+					11
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				69965,
+				1
+			},
+			{
+				1,
+				4,
+				2020
+			},
+			{
+				2,
+				42026,
+				2
+			}
+		},
+		ignorePlatform = {}
+	},
+	[129] = {
+		limit_arg = 1,
+		descrip_extra = "*The contents of the Lucky Bag will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit. ",
+		name = "Azur Black Friday Lucky Box ",
+		descrip = "Contains a random character outfit and a large amount of supplies ",
+		subject = "Azur Black Friday Lucky Box ",
+		extra_service = 3,
+		money = 2999,
+		tag = 2,
+		gem = 0,
+		limit_type = 2,
+		picture = "fudai67",
+		id_str = "com.yostaren.azurlane.diamond140",
+		first_pay_double = 0,
+		extra_gem = 0,
+		id = 129,
+		airijp_id = "com.yostaren.azurlane.diamond140",
+		extra_service_item = {
+			{
+				2,
+				69966,
+				1
+			},
+			{
+				1,
+				4,
+				2020
+			},
+			{
+				2,
+				42026,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				34
+			},
+			{
+				2,
+				15003,
+				12
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2020,
+					11,
+					18
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					12,
+					2
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				69966,
+				1
+			},
+			{
+				1,
+				4,
+				2020
+			},
+			{
+				2,
+				20001,
+				34
+			}
+		},
+		ignorePlatform = {}
+	},
+	[130] = {
+		limit_arg = 1,
+		descrip_extra = "*The contents of the Lucky Bag will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit. ",
+		name = "Crimson Black Friday Lucky Box ",
+		descrip = "Contains a random character outfit and a large amount of supplies ",
+		subject = "Crimson Black Friday Lucky Box ",
+		extra_service = 3,
+		money = 2999,
+		tag = 2,
+		gem = 0,
+		limit_type = 2,
+		picture = "fudai68",
+		id_str = "com.yostaren.azurlane.diamond141",
+		first_pay_double = 0,
+		extra_gem = 0,
+		id = 130,
+		airijp_id = "com.yostaren.azurlane.diamond141",
+		extra_service_item = {
+			{
+				2,
+				69967,
+				1
+			},
+			{
+				1,
+				4,
+				2020
+			},
+			{
+				2,
+				42026,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				34
+			},
+			{
+				2,
+				15003,
+				12
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2020,
+					11,
+					18
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					12,
+					2
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				69967,
+				1
+			},
+			{
+				1,
+				4,
+				2020
+			},
+			{
+				2,
+				20001,
+				34
+			}
+		},
+		ignorePlatform = {}
 	},
 	all = {
 		1,
@@ -2870,6 +3500,9 @@ pg.pay_data_display = {
 		6,
 		7,
 		8,
+		24,
+		25,
+		26,
 		100,
 		101,
 		102,
@@ -2897,6 +3530,9 @@ pg.pay_data_display = {
 		124,
 		125,
 		126,
-		127
+		127,
+		128,
+		129,
+		130
 	}
 }

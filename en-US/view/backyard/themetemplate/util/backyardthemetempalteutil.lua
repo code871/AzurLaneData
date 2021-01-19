@@ -45,7 +45,7 @@ function slot11(slot0, slot1, slot2)
 		return
 	end
 
-	pg.OSSMgr:GetInstance():GetTexture2D(uv2(slot0), uv1(slot0), false, uv3, uv4, function (slot0, slot1)
+	pg.OSSMgr.GetInstance():GetTexture2D(uv2(slot0), uv1(slot0), false, uv3, uv4, function (slot0, slot1)
 		if slot0 and slot1 then
 			uv0(slot1)
 		else
@@ -61,7 +61,7 @@ function slot12(slot0, slot1, slot2)
 		return
 	end
 
-	pg.OSSMgr:GetInstance():GetTexture2D(uv2(slot0), uv1(slot0), true, uv3, uv4, function (slot0, slot1)
+	pg.OSSMgr.GetInstance():GetTexture2D(uv2(slot0), uv1(slot0), true, uv3, uv4, function (slot0, slot1)
 		if slot0 and slot1 and uv0 == uv1(uv2) then
 			uv3(slot1)
 		else
@@ -79,7 +79,7 @@ function slot13(slot0, slot1)
 
 	slot2 = uv1(slot0)
 
-	pg.OSSMgr:GetInstance():DeleteObject(uv2(slot0), slot1)
+	pg.OSSMgr.GetInstance():DeleteObject(uv2(slot0), slot1)
 end
 
 function slot14(slot0, slot1)
@@ -89,7 +89,7 @@ function slot14(slot0, slot1)
 		return
 	end
 
-	pg.OSSMgr:GetInstance():AsynUpdateLoad(uv2(slot0), uv1(slot0), slot1)
+	pg.OSSMgr.GetInstance():AsynUpdateLoad(uv2(slot0), uv1(slot0), slot1)
 end
 
 function slot15()
@@ -98,7 +98,7 @@ function slot15()
 	table.insert(uv0.HideGos, GameObject.Find("/UICamera/Canvas/UIMain/BackYardUI(Clone)/backyardmainui/back"))
 	table.insert(uv0.HideGos, GameObject.Find("/UICamera/Canvas/UIMain/BackYardUI(Clone)/bg000"))
 
-	slot0 = GameObject.Find("/UICamera/Canvas/UIMain/BackYardUI(Clone)/backyardmainui")
+	slot0 = GameObject.Find("/UICamera/Canvas/UIMain/BackYardUI(Clone)/backyardmainui/scroll_view")
 	slot1 = GameObject.Find("/UICamera/Canvas/UIMain/BackYardUI(Clone)/backyardmainui/bg").transform
 	slot1.localScale = Vector2(uv0.TakeScale, uv0.TakeScale, 1)
 
@@ -134,7 +134,7 @@ function slot16()
 	uv0.ScaleGos = {}
 	uv0.HideGos = {}
 
-	scrollTo(GameObject.Find("/UICamera/Canvas/UIMain/BackYardUI(Clone)/backyardmainui"), uv0.normalizedPosition.x, uv0.normalizedPosition.y)
+	scrollTo(GameObject.Find("/UICamera/Canvas/UIMain/BackYardUI(Clone)/backyardmainui/scroll_view"), uv0.normalizedPosition.x, uv0.normalizedPosition.y)
 
 	uv0.normalizedPosition = nil
 end

@@ -49,7 +49,7 @@ function slot4.createMajorEmitter(slot0, slot1, slot2)
 
 		if uv0._strikePoint then
 			slot5 = uv0._strikePoint
-			slot4 = uv0:SpawnPointBullet(uv0._bulletList[uv1], uv0._strikePoint)
+			slot4 = uv0:SpawnPointBullet(uv0._emitBulletIDList[uv1], uv0._strikePoint)
 		else
 			uv0._lockList[#uv0._lockList] = nil
 
@@ -161,6 +161,7 @@ function slot4.DoAttack(slot0, slot1)
 
 	slot0._lockList = slot3
 
+	slot0:cacheBulletID()
 	slot0:TriggerBuffOnSteday()
 
 	for slot8, slot9 in ipairs(slot0._majorEmitterList) do
@@ -311,7 +312,7 @@ function slot4.handleCoolDown(slot0)
 end
 
 function slot4.FlushReloadRequire(slot0)
-	if slot0.super.FlushReloadRequire(slot0) then
+	if uv0.super.FlushReloadRequire(slot0) then
 		return true
 	end
 

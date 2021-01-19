@@ -43,7 +43,6 @@ function slot5.Clear(slot0)
 end
 
 function slot5.Dispose(slot0)
-	slot0._skill:Dispose()
 	uv0.EventDispatcher.DetachEventDispatcher(slot0)
 end
 
@@ -235,7 +234,7 @@ function slot5.JammingEliminate(slot0)
 end
 
 function slot5.CLSBullet(slot0)
-	uv0.Battle.BattleDataProxy.GetInstance():CLSBullet(slot0._host:GetIFF() * -1)
+	uv0.Battle.BattleDataProxy.GetInstance():CLSBullet(slot0._host:GetIFF() * -1, true)
 end
 
 function slot5.DispatchBlink(slot0, slot1)

@@ -276,6 +276,135 @@ pg.equip_data_statistics = {
 		equip_parameters = {},
 		label = {}
 	},
+	[20] = {
+		name = "U556关卡单发鱼雷-弹药2",
+		speciality = "锁定",
+		type = 5,
+		rarity = 1,
+		tech = 1,
+		descrip = "序章用",
+		value_2 = 0,
+		icon = "2700",
+		nationality = 4,
+		ammo = "通常",
+		value_3 = 0,
+		id = 20,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			1
+		},
+		ammo_info = {},
+		equip_info = {
+			{
+				6
+			}
+		},
+		weapon_id = {
+			20
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			2,
+			3,
+			18
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			18
+		},
+		equip_parameters = {},
+		label = {}
+	},
+	[21] = {
+		name = "U556关卡单发鱼雷-弹药4",
+		speciality = "锁定",
+		type = 5,
+		rarity = 1,
+		tech = 1,
+		descrip = "序章用",
+		value_2 = 0,
+		icon = "2700",
+		nationality = 4,
+		ammo = "通常",
+		value_3 = 0,
+		id = 21,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			1
+		},
+		ammo_info = {},
+		equip_info = {
+			{
+				6
+			}
+		},
+		weapon_id = {
+			20
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			2,
+			3,
+			18
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			18
+		},
+		equip_parameters = {},
+		label = {}
+	},
+	[22] = {
+		name = "U556关卡单发鱼雷-弹药6",
+		speciality = "锁定",
+		type = 5,
+		rarity = 1,
+		tech = 1,
+		descrip = "序章用",
+		value_2 = 0,
+		icon = "2700",
+		nationality = 4,
+		ammo = "通常",
+		value_3 = 0,
+		id = 22,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			1
+		},
+		ammo_info = {},
+		equip_info = {
+			{
+				6
+			}
+		},
+		weapon_id = {
+			20
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			2,
+			3,
+			18
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			18
+		},
+		equip_parameters = {},
+		label = {}
+	},
 	[100] = {
 		name = "預設驅逐武器",
 		speciality = "鎖定",
@@ -315,7 +444,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -487,7 +617,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			1,
@@ -499,7 +630,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -1393,6 +1525,81 @@ pg.equip_data_statistics = {
 			"DC"
 		}
 	},
+	[144] = {
+		name = "默认潜母水侦",
+		speciality = "轰炸",
+		type = 12,
+		tech = 1,
+		rarity = 1,
+		attribute_3 = "air",
+		value_2 = 5,
+		icon = "39200",
+		descrip = "默认装备",
+		nationality = 3,
+		ammo = "通常",
+		value_3 = 0,
+		id = 144,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			{
+				6
+			}
+		},
+		weapon_id = {
+			144
+		},
+		skill_id = {},
+		part_main = {
+			10,
+			17
+		},
+		part_sub = {
+			10,
+			17
+		},
+		equip_parameters = {},
+		label = {
+			"SCOUT"
+		}
+	},
+	[147] = {
+		name = "默认深水炸弹_轻巡",
+		speciality = "反潜",
+		type = 10,
+		rarity = 1,
+		tech = 1,
+		descrip = "默认装备",
+		value_2 = 0,
+		icon = "1",
+		nationality = 0,
+		ammo = "通常",
+		value_3 = 0,
+		id = 147,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			{
+				6
+			}
+		},
+		weapon_id = {
+			147
+		},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"UN",
+			"ST",
+			"DC"
+		}
+	},
 	[201] = {
 		name = "白鷹雷擊輕巡副炮T1",
 		speciality = "鎖定",
@@ -1432,7 +1639,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -1519,7 +1727,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -1611,7 +1820,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -1698,7 +1908,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -1779,7 +1990,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -1866,7 +2078,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -1953,7 +2166,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -2040,7 +2254,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -2121,7 +2336,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -2208,7 +2424,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -2289,7 +2506,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -2371,7 +2589,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -2578,7 +2797,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -3625,6 +3845,365 @@ pg.equip_data_statistics = {
 		torpedo_ammo = 0,
 		property_rate = {}
 	},
+	[720] = {
+		name = "約定的證明",
+		tech = 0,
+		type = 10,
+		speciality = "無",
+		id = 720,
+		value_2 = 80,
+		icon = "720",
+		value_1 = "12",
+		attribute_2 = "durability",
+		rarity = 5,
+		descrip = "寫著真誠誓言的“保證書”——「就算用拖的，我也會將俾斯麥安全帶回家的！」",
+		nationality = 4,
+		ammo = "無",
+		value_3 = 0,
+		attribute_1 = "dodge",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			{
+				6
+			}
+		},
+		weapon_id = {},
+		skill_id = {
+			6410
+		},
+		part_main = {
+			4,
+			5,
+			8,
+			17
+		},
+		part_sub = {
+			4,
+			5,
+			8,
+			17
+		},
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
+	},
+	[721] = {
+		id = 721,
+		base = 720,
+		value_2 = 85,
+		value_1 = "13",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[722] = {
+		id = 722,
+		base = 720,
+		value_2 = 90,
+		value_1 = "13",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[723] = {
+		id = 723,
+		base = 720,
+		value_2 = 95,
+		value_1 = "14",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[724] = {
+		id = 724,
+		base = 720,
+		value_2 = 100,
+		value_1 = "14",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[725] = {
+		id = 725,
+		base = 720,
+		value_2 = 105,
+		value_1 = "15",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[726] = {
+		id = 726,
+		base = 720,
+		value_2 = 110,
+		value_1 = "16",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[727] = {
+		id = 727,
+		base = 720,
+		value_2 = 120,
+		value_1 = "17",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[728] = {
+		id = 728,
+		base = 720,
+		value_2 = 130,
+		value_1 = "18",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[729] = {
+		id = 729,
+		base = 720,
+		value_2 = 140,
+		value_1 = "19",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[730] = {
+		id = 730,
+		base = 720,
+		value_2 = 150,
+		value_1 = "20",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[740] = {
+		name = "Fl-282直升機",
+		tech = 0,
+		type = 17,
+		speciality = "無",
+		id = 740,
+		value_2 = 0,
+		icon = "740",
+		value_1 = "9",
+		descrip = "鐵血公國輕型艦載直升機Fl-282“蜂鳥”",
+		rarity = 4,
+		nationality = 4,
+		ammo = "無",
+		value_3 = 0,
+		attribute_1 = "antisub",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			{
+				6
+			}
+		},
+		weapon_id = {},
+		skill_id = {},
+		part_main = {
+			2
+		},
+		part_sub = {
+			2
+		},
+		equip_parameters = {},
+		label = {
+			"HELI"
+		}
+	},
+	[741] = {
+		base = 740,
+		id = 741,
+		value_1 = "10",
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {}
+	},
+	[742] = {
+		base = 740,
+		id = 742,
+		value_1 = "11",
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {}
+	},
+	[743] = {
+		base = 740,
+		id = 743,
+		value_1 = "12",
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {}
+	},
+	[744] = {
+		base = 740,
+		id = 744,
+		value_1 = "13",
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {}
+	},
+	[745] = {
+		base = 740,
+		id = 745,
+		value_1 = "14",
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {}
+	},
+	[746] = {
+		base = 740,
+		id = 746,
+		value_1 = "16",
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {}
+	},
+	[747] = {
+		base = 740,
+		id = 747,
+		value_1 = "18",
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {}
+	},
+	[748] = {
+		base = 740,
+		id = 748,
+		value_1 = "20",
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {}
+	},
+	[749] = {
+		base = 740,
+		id = 749,
+		value_1 = "22",
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {}
+	},
+	[750] = {
+		base = 740,
+		id = 750,
+		value_1 = "24",
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {}
+	},
+	[760] = {
+		name = "偵察報告·紐約近海",
+		tech = 0,
+		type = 10,
+		speciality = "無",
+		id = 760,
+		value_2 = 50,
+		icon = "760",
+		value_1 = "5",
+		attribute_2 = "durability",
+		rarity = 4,
+		descrip = "針對紐約近海塞壬控制區的正式偵查報告書，雖因干擾導致行動提前結束，但依然收集了豐富數據",
+		nationality = 0,
+		ammo = "無",
+		value_3 = 0,
+		attribute_1 = "dodge",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			{
+				6
+			}
+		},
+		weapon_id = {},
+		skill_id = {
+			6440
+		},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
+	},
+	[761] = {
+		id = 761,
+		base = 760,
+		value_2 = 55,
+		value_1 = "6",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[762] = {
+		id = 762,
+		base = 760,
+		value_2 = 60,
+		value_1 = "7",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[763] = {
+		id = 763,
+		base = 760,
+		value_2 = 65,
+		value_1 = "8",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[764] = {
+		id = 764,
+		base = 760,
+		value_2 = 70,
+		value_1 = "9",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[765] = {
+		id = 765,
+		base = 760,
+		value_2 = 75,
+		value_1 = "10",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[766] = {
+		id = 766,
+		base = 760,
+		value_2 = 80,
+		value_1 = "11",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[767] = {
+		id = 767,
+		base = 760,
+		value_2 = 90,
+		value_1 = "12",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[768] = {
+		id = 768,
+		base = 760,
+		value_2 = 100,
+		value_1 = "13",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[769] = {
+		id = 769,
+		base = 760,
+		value_2 = 110,
+		value_1 = "14",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[770] = {
+		id = 770,
+		base = 760,
+		value_2 = 120,
+		value_1 = "15",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
 	[1000] = {
 		name = "艦艇維修設備",
 		tech = 1,
@@ -4296,7 +4875,8 @@ pg.equip_data_statistics = {
 			5,
 			10,
 			13,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			3,
@@ -4304,7 +4884,8 @@ pg.equip_data_statistics = {
 			5,
 			10,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -4366,7 +4947,8 @@ pg.equip_data_statistics = {
 			5,
 			10,
 			13,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			3,
@@ -4374,7 +4956,8 @@ pg.equip_data_statistics = {
 			5,
 			10,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -4462,7 +5045,8 @@ pg.equip_data_statistics = {
 			5,
 			10,
 			13,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			3,
@@ -4470,7 +5054,8 @@ pg.equip_data_statistics = {
 			5,
 			10,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -4722,7 +5307,8 @@ pg.equip_data_statistics = {
 			11,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			2,
@@ -4735,7 +5321,8 @@ pg.equip_data_statistics = {
 			11,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -4802,7 +5389,8 @@ pg.equip_data_statistics = {
 			11,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			2,
@@ -4815,7 +5403,8 @@ pg.equip_data_statistics = {
 			11,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -4903,7 +5492,8 @@ pg.equip_data_statistics = {
 			11,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			2,
@@ -4916,7 +5506,8 @@ pg.equip_data_statistics = {
 			11,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -5368,7 +5959,8 @@ pg.equip_data_statistics = {
 			12,
 			13,
 			17,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			1,
@@ -5382,7 +5974,8 @@ pg.equip_data_statistics = {
 			12,
 			13,
 			17,
-			18
+			18,
+			19
 		},
 		equip_parameters = {
 			avoid_extra = 500,
@@ -5482,7 +6075,8 @@ pg.equip_data_statistics = {
 			12,
 			13,
 			17,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			1,
@@ -5496,7 +6090,8 @@ pg.equip_data_statistics = {
 			12,
 			13,
 			17,
-			18
+			18,
+			19
 		},
 		equip_parameters = {
 			avoid_extra = 800,
@@ -5627,7 +6222,8 @@ pg.equip_data_statistics = {
 			12,
 			13,
 			17,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			1,
@@ -5641,7 +6237,8 @@ pg.equip_data_statistics = {
 			12,
 			13,
 			17,
-			18
+			18,
+			19
 		},
 		equip_parameters = {
 			avoid_extra = 1200,
@@ -5769,7 +6366,8 @@ pg.equip_data_statistics = {
 			12,
 			13,
 			17,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			1,
@@ -5783,7 +6381,8 @@ pg.equip_data_statistics = {
 			12,
 			13,
 			17,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -5855,7 +6454,8 @@ pg.equip_data_statistics = {
 			12,
 			13,
 			17,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			1,
@@ -5869,7 +6469,8 @@ pg.equip_data_statistics = {
 			12,
 			13,
 			17,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -5938,7 +6539,8 @@ pg.equip_data_statistics = {
 			12,
 			13,
 			17,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			1,
@@ -5952,7 +6554,8 @@ pg.equip_data_statistics = {
 			12,
 			13,
 			17,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -7329,7 +7932,8 @@ pg.equip_data_statistics = {
 			12,
 			13,
 			17,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			1,
@@ -7343,7 +7947,8 @@ pg.equip_data_statistics = {
 			12,
 			13,
 			17,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -7410,7 +8015,8 @@ pg.equip_data_statistics = {
 			12,
 			13,
 			17,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			1,
@@ -7424,7 +8030,8 @@ pg.equip_data_statistics = {
 			12,
 			13,
 			17,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -7516,7 +8123,8 @@ pg.equip_data_statistics = {
 			12,
 			13,
 			17,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			1,
@@ -7530,7 +8138,8 @@ pg.equip_data_statistics = {
 			12,
 			13,
 			17,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -7654,7 +8263,8 @@ pg.equip_data_statistics = {
 			12,
 			13,
 			17,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			1,
@@ -7668,7 +8278,8 @@ pg.equip_data_statistics = {
 			12,
 			13,
 			17,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -7734,7 +8345,8 @@ pg.equip_data_statistics = {
 			12,
 			13,
 			17,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			1,
@@ -7748,7 +8360,8 @@ pg.equip_data_statistics = {
 			12,
 			13,
 			17,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -7840,7 +8453,8 @@ pg.equip_data_statistics = {
 			12,
 			13,
 			17,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			1,
@@ -7854,7 +8468,8 @@ pg.equip_data_statistics = {
 			12,
 			13,
 			17,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -8904,9 +9519,7 @@ pg.equip_data_statistics = {
 			2
 		},
 		equip_parameters = {
-			interval = 5,
-			range = 45,
-			duration = 7
+			range = 3
 		},
 		label = {
 			"DEV"
@@ -8972,9 +9585,7 @@ pg.equip_data_statistics = {
 			2
 		},
 		equip_parameters = {
-			interval = 4.8,
-			range = 45,
-			duration = 7
+			range = 3
 		},
 		label = {
 			"DEV"
@@ -9054,7 +9665,9 @@ pg.equip_data_statistics = {
 			}
 		},
 		weapon_id = {},
-		skill_id = {},
+		skill_id = {
+			6620
+		},
 		part_main = {
 			1,
 			2
@@ -9064,9 +9677,7 @@ pg.equip_data_statistics = {
 			2
 		},
 		equip_parameters = {
-			interval = 4.5,
-			range = 45,
-			duration = 7
+			range = 5
 		},
 		label = {
 			"DEV"
@@ -9188,9 +9799,7 @@ pg.equip_data_statistics = {
 			2
 		},
 		equip_parameters = {
-			interval = 4,
-			range = 48,
-			duration = 7
+			range = 5
 		},
 		label = {
 			"DEV"
@@ -9280,9 +9889,7 @@ pg.equip_data_statistics = {
 			2
 		},
 		equip_parameters = {
-			interval = 3.8,
-			range = 48,
-			duration = 7
+			range = 5
 		},
 		label = {
 			"DEV"
@@ -9394,7 +10001,9 @@ pg.equip_data_statistics = {
 			}
 		},
 		weapon_id = {},
-		skill_id = {},
+		skill_id = {
+			6650
+		},
 		part_main = {
 			1,
 			2
@@ -9404,9 +10013,7 @@ pg.equip_data_statistics = {
 			2
 		},
 		equip_parameters = {
-			interval = 3.5,
-			range = 48,
-			duration = 7
+			range = 8
 		},
 		label = {
 			"DEV"
@@ -9838,9 +10445,9 @@ pg.equip_data_statistics = {
 		descrip = "說明未填寫",
 		value_2 = 0,
 		icon = "4000",
-		damage = "31 x 1",
+		damage = "16 x 3",
 		nationality = 2,
-		ammo = "通常",
+		ammo = "定深式 ",
 		value_3 = 0,
 		id = 4000,
 		torpedo_ammo = 0,
@@ -9848,7 +10455,7 @@ pg.equip_data_statistics = {
 		ammo_icon = {},
 		ammo_info = {
 			{
-				2,
+				7,
 				1811
 			}
 		},
@@ -9875,7 +10482,7 @@ pg.equip_data_statistics = {
 		}
 	},
 	[4001] = {
-		damage = "34 x 1",
+		damage = "17 x 3",
 		base = 4000,
 		id = 4001,
 		torpedo_ammo = 0,
@@ -9885,7 +10492,7 @@ pg.equip_data_statistics = {
 		}
 	},
 	[4002] = {
-		damage = "37 x 1",
+		damage = "18 x 3",
 		base = 4000,
 		id = 4002,
 		torpedo_ammo = 0,
@@ -9895,7 +10502,7 @@ pg.equip_data_statistics = {
 		}
 	},
 	[4003] = {
-		damage = "40 x 1",
+		damage = "20 x 3",
 		base = 4000,
 		id = 4003,
 		torpedo_ammo = 0,
@@ -9914,9 +10521,9 @@ pg.equip_data_statistics = {
 		icon = "4000",
 		attribute_2 = "antisub",
 		rarity = 2,
-		damage = "38 x 1",
+		damage = "19 x 3",
 		nationality = 2,
-		ammo = "通常",
+		ammo = "定深式 ",
 		value_3 = 0,
 		id = 4020,
 		torpedo_ammo = 0,
@@ -9924,7 +10531,7 @@ pg.equip_data_statistics = {
 		ammo_icon = {},
 		ammo_info = {
 			{
-				2,
+				7,
 				1811
 			}
 		},
@@ -9951,7 +10558,7 @@ pg.equip_data_statistics = {
 		}
 	},
 	[4021] = {
-		damage = "41 x 1",
+		damage = "20 x 3",
 		base = 4020,
 		id = 4021,
 		torpedo_ammo = 0,
@@ -9961,7 +10568,7 @@ pg.equip_data_statistics = {
 		}
 	},
 	[4022] = {
-		damage = "44 x 1",
+		damage = "22 x 3",
 		base = 4020,
 		id = 4022,
 		torpedo_ammo = 0,
@@ -9971,7 +10578,7 @@ pg.equip_data_statistics = {
 		}
 	},
 	[4023] = {
-		damage = "48 x 1",
+		damage = "24 x 3",
 		base = 4020,
 		id = 4023,
 		torpedo_ammo = 0,
@@ -9990,9 +10597,9 @@ pg.equip_data_statistics = {
 		icon = "4000",
 		attribute_2 = "antisub",
 		rarity = 3,
-		damage = "45 x 1",
+		damage = "22 x 3",
 		nationality = 2,
-		ammo = "通常",
+		ammo = "定深式 ",
 		value_3 = 0,
 		id = 4040,
 		torpedo_ammo = 0,
@@ -10000,7 +10607,7 @@ pg.equip_data_statistics = {
 		ammo_icon = {},
 		ammo_info = {
 			{
-				2,
+				7,
 				1811
 			}
 		},
@@ -10027,7 +10634,7 @@ pg.equip_data_statistics = {
 		}
 	},
 	[4041] = {
-		damage = "49 x 1",
+		damage = "24 x 3",
 		base = 4040,
 		id = 4041,
 		torpedo_ammo = 0,
@@ -10037,7 +10644,7 @@ pg.equip_data_statistics = {
 		}
 	},
 	[4042] = {
-		damage = "53 x 1",
+		damage = "26 x 3",
 		base = 4040,
 		id = 4042,
 		torpedo_ammo = 0,
@@ -10047,7 +10654,7 @@ pg.equip_data_statistics = {
 		}
 	},
 	[4043] = {
-		damage = "58 x 1",
+		damage = "29 x 3",
 		base = 4040,
 		id = 4043,
 		torpedo_ammo = 0,
@@ -10057,7 +10664,7 @@ pg.equip_data_statistics = {
 		}
 	},
 	[4044] = {
-		damage = "63 x 1",
+		damage = "31 x 3",
 		base = 4040,
 		id = 4044,
 		torpedo_ammo = 0,
@@ -10067,7 +10674,7 @@ pg.equip_data_statistics = {
 		}
 	},
 	[4045] = {
-		damage = "68 x 1",
+		damage = "34 x 3",
 		base = 4040,
 		id = 4045,
 		torpedo_ammo = 0,
@@ -10077,7 +10684,7 @@ pg.equip_data_statistics = {
 		}
 	},
 	[4046] = {
-		damage = "73 x 1",
+		damage = "37 x 3",
 		base = 4040,
 		id = 4046,
 		torpedo_ammo = 0,
@@ -10096,9 +10703,9 @@ pg.equip_data_statistics = {
 		icon = "4100",
 		attribute_2 = "antisub",
 		rarity = 2,
-		damage = "41 x 1",
+		damage = "20 x 3",
 		nationality = 1,
-		ammo = "通常",
+		ammo = "定深式 ",
 		value_3 = 0,
 		id = 4100,
 		torpedo_ammo = 0,
@@ -10106,7 +10713,7 @@ pg.equip_data_statistics = {
 		ammo_icon = {},
 		ammo_info = {
 			{
-				2,
+				7,
 				1812
 			}
 		},
@@ -10133,7 +10740,7 @@ pg.equip_data_statistics = {
 		}
 	},
 	[4101] = {
-		damage = "44 x 1",
+		damage = "22 x 3",
 		base = 4100,
 		id = 4101,
 		torpedo_ammo = 0,
@@ -10143,7 +10750,7 @@ pg.equip_data_statistics = {
 		}
 	},
 	[4102] = {
-		damage = "48 x 1",
+		damage = "24 x 3",
 		base = 4100,
 		id = 4102,
 		torpedo_ammo = 0,
@@ -10153,7 +10760,7 @@ pg.equip_data_statistics = {
 		}
 	},
 	[4103] = {
-		damage = "52 x 1",
+		damage = "26 x 3",
 		base = 4100,
 		id = 4103,
 		torpedo_ammo = 0,
@@ -10172,9 +10779,9 @@ pg.equip_data_statistics = {
 		icon = "4100",
 		attribute_2 = "antisub",
 		rarity = 3,
-		damage = "48 x 1",
+		damage = "24 x 3",
 		nationality = 1,
-		ammo = "通常",
+		ammo = "定深式 ",
 		value_3 = 0,
 		id = 4120,
 		torpedo_ammo = 0,
@@ -10182,7 +10789,7 @@ pg.equip_data_statistics = {
 		ammo_icon = {},
 		ammo_info = {
 			{
-				2,
+				7,
 				1812
 			}
 		},
@@ -10209,7 +10816,7 @@ pg.equip_data_statistics = {
 		}
 	},
 	[4121] = {
-		damage = "53 x 1",
+		damage = "26 x 3",
 		base = 4120,
 		id = 4121,
 		torpedo_ammo = 0,
@@ -10219,7 +10826,7 @@ pg.equip_data_statistics = {
 		}
 	},
 	[4122] = {
-		damage = "58 x 1",
+		damage = "28 x 3",
 		base = 4120,
 		id = 4122,
 		torpedo_ammo = 0,
@@ -10229,7 +10836,7 @@ pg.equip_data_statistics = {
 		}
 	},
 	[4123] = {
-		damage = "63 x 1",
+		damage = "30 x 3",
 		base = 4120,
 		id = 4123,
 		torpedo_ammo = 0,
@@ -10239,7 +10846,7 @@ pg.equip_data_statistics = {
 		}
 	},
 	[4124] = {
-		damage = "68 x 1",
+		damage = "33 x 3",
 		base = 4120,
 		id = 4124,
 		torpedo_ammo = 0,
@@ -10249,7 +10856,7 @@ pg.equip_data_statistics = {
 		}
 	},
 	[4125] = {
-		damage = "73 x 1",
+		damage = "36 x 3",
 		base = 4120,
 		id = 4125,
 		torpedo_ammo = 0,
@@ -10259,7 +10866,7 @@ pg.equip_data_statistics = {
 		}
 	},
 	[4126] = {
-		damage = "78 x 1",
+		damage = "39 x 3",
 		base = 4120,
 		id = 4126,
 		torpedo_ammo = 0,
@@ -10278,9 +10885,9 @@ pg.equip_data_statistics = {
 		icon = "4100",
 		attribute_2 = "antisub",
 		rarity = 4,
-		damage = "55 x 1",
+		damage = "27 x 3",
 		nationality = 1,
-		ammo = "通常",
+		ammo = "定深式 ",
 		value_3 = 0,
 		id = 4140,
 		torpedo_ammo = 0,
@@ -10288,7 +10895,7 @@ pg.equip_data_statistics = {
 		ammo_icon = {},
 		ammo_info = {
 			{
-				2,
+				7,
 				1812
 			}
 		},
@@ -10315,7 +10922,7 @@ pg.equip_data_statistics = {
 		}
 	},
 	[4141] = {
-		damage = "61 x 1",
+		damage = "30 x 3",
 		base = 4140,
 		id = 4141,
 		torpedo_ammo = 0,
@@ -10325,7 +10932,7 @@ pg.equip_data_statistics = {
 		}
 	},
 	[4142] = {
-		damage = "67 x 1",
+		damage = "33 x 3",
 		base = 4140,
 		id = 4142,
 		torpedo_ammo = 0,
@@ -10335,7 +10942,7 @@ pg.equip_data_statistics = {
 		}
 	},
 	[4143] = {
-		damage = "73 x 1",
+		damage = "36 x 3",
 		base = 4140,
 		id = 4143,
 		torpedo_ammo = 0,
@@ -10345,7 +10952,7 @@ pg.equip_data_statistics = {
 		}
 	},
 	[4144] = {
-		damage = "79 x 1",
+		damage = "39 x 3",
 		base = 4140,
 		id = 4144,
 		torpedo_ammo = 0,
@@ -10355,7 +10962,7 @@ pg.equip_data_statistics = {
 		}
 	},
 	[4145] = {
-		damage = "85 x 1",
+		damage = "42 x 3",
 		base = 4140,
 		id = 4145,
 		torpedo_ammo = 0,
@@ -10365,7 +10972,7 @@ pg.equip_data_statistics = {
 		}
 	},
 	[4146] = {
-		damage = "92 x 1",
+		damage = "45 x 3",
 		base = 4140,
 		id = 4146,
 		torpedo_ammo = 0,
@@ -10375,7 +10982,7 @@ pg.equip_data_statistics = {
 		}
 	},
 	[4147] = {
-		damage = "99 x 1",
+		damage = "49 x 3",
 		base = 4140,
 		id = 4147,
 		torpedo_ammo = 0,
@@ -10385,7 +10992,7 @@ pg.equip_data_statistics = {
 		}
 	},
 	[4148] = {
-		damage = "106 x 1",
+		damage = "53 x 3",
 		base = 4140,
 		id = 4148,
 		torpedo_ammo = 0,
@@ -10395,7 +11002,7 @@ pg.equip_data_statistics = {
 		}
 	},
 	[4149] = {
-		damage = "113 x 1",
+		damage = "57 x 3",
 		base = 4140,
 		id = 4149,
 		torpedo_ammo = 0,
@@ -10405,7 +11012,7 @@ pg.equip_data_statistics = {
 		}
 	},
 	[4150] = {
-		damage = "120 x 1",
+		damage = "61 x 3",
 		base = 4140,
 		id = 4150,
 		torpedo_ammo = 0,
@@ -10433,7 +11040,7 @@ pg.equip_data_statistics = {
 		ammo_icon = {},
 		ammo_info = {
 			{
-				5,
+				8,
 				53100
 			}
 		},
@@ -10464,7 +11071,7 @@ pg.equip_data_statistics = {
 		property_rate = {},
 		ammo_info = {
 			{
-				5,
+				8,
 				53101
 			}
 		},
@@ -10479,7 +11086,7 @@ pg.equip_data_statistics = {
 		property_rate = {},
 		ammo_info = {
 			{
-				5,
+				8,
 				53102
 			}
 		},
@@ -10494,7 +11101,7 @@ pg.equip_data_statistics = {
 		property_rate = {},
 		ammo_info = {
 			{
-				5,
+				8,
 				53103
 			}
 		},
@@ -10521,7 +11128,7 @@ pg.equip_data_statistics = {
 		ammo_icon = {},
 		ammo_info = {
 			{
-				5,
+				8,
 				53120
 			}
 		},
@@ -10552,7 +11159,7 @@ pg.equip_data_statistics = {
 		property_rate = {},
 		ammo_info = {
 			{
-				5,
+				8,
 				53121
 			}
 		},
@@ -10567,7 +11174,7 @@ pg.equip_data_statistics = {
 		property_rate = {},
 		ammo_info = {
 			{
-				5,
+				8,
 				53122
 			}
 		},
@@ -10582,7 +11189,7 @@ pg.equip_data_statistics = {
 		property_rate = {},
 		ammo_info = {
 			{
-				5,
+				8,
 				53123
 			}
 		},
@@ -10597,7 +11204,7 @@ pg.equip_data_statistics = {
 		property_rate = {},
 		ammo_info = {
 			{
-				5,
+				8,
 				53124
 			}
 		},
@@ -10612,7 +11219,7 @@ pg.equip_data_statistics = {
 		property_rate = {},
 		ammo_info = {
 			{
-				5,
+				8,
 				53125
 			}
 		},
@@ -10627,7 +11234,7 @@ pg.equip_data_statistics = {
 		property_rate = {},
 		ammo_info = {
 			{
-				5,
+				8,
 				53126
 			}
 		},
@@ -10654,7 +11261,7 @@ pg.equip_data_statistics = {
 		ammo_icon = {},
 		ammo_info = {
 			{
-				5,
+				8,
 				53140
 			}
 		},
@@ -10685,7 +11292,7 @@ pg.equip_data_statistics = {
 		property_rate = {},
 		ammo_info = {
 			{
-				5,
+				8,
 				53141
 			}
 		},
@@ -10700,7 +11307,7 @@ pg.equip_data_statistics = {
 		property_rate = {},
 		ammo_info = {
 			{
-				5,
+				8,
 				53142
 			}
 		},
@@ -10715,7 +11322,7 @@ pg.equip_data_statistics = {
 		property_rate = {},
 		ammo_info = {
 			{
-				5,
+				8,
 				53143
 			}
 		},
@@ -10730,7 +11337,7 @@ pg.equip_data_statistics = {
 		property_rate = {},
 		ammo_info = {
 			{
-				5,
+				8,
 				53144
 			}
 		},
@@ -10745,7 +11352,7 @@ pg.equip_data_statistics = {
 		property_rate = {},
 		ammo_info = {
 			{
-				5,
+				8,
 				53145
 			}
 		},
@@ -10760,7 +11367,7 @@ pg.equip_data_statistics = {
 		property_rate = {},
 		ammo_info = {
 			{
-				5,
+				8,
 				53146
 			}
 		},
@@ -10775,7 +11382,7 @@ pg.equip_data_statistics = {
 		property_rate = {},
 		ammo_info = {
 			{
-				5,
+				8,
 				53147
 			}
 		},
@@ -10790,7 +11397,7 @@ pg.equip_data_statistics = {
 		property_rate = {},
 		ammo_info = {
 			{
-				5,
+				8,
 				53148
 			}
 		},
@@ -10805,7 +11412,7 @@ pg.equip_data_statistics = {
 		property_rate = {},
 		ammo_info = {
 			{
-				5,
+				8,
 				53149
 			}
 		},
@@ -10820,7 +11427,7 @@ pg.equip_data_statistics = {
 		property_rate = {},
 		ammo_info = {
 			{
-				5,
+				8,
 				53150
 			}
 		},
@@ -10847,7 +11454,7 @@ pg.equip_data_statistics = {
 		ammo_icon = {},
 		ammo_info = {
 			{
-				5,
+				8,
 				53200
 			}
 		},
@@ -10878,7 +11485,7 @@ pg.equip_data_statistics = {
 		property_rate = {},
 		ammo_info = {
 			{
-				5,
+				8,
 				53201
 			}
 		},
@@ -10893,7 +11500,7 @@ pg.equip_data_statistics = {
 		property_rate = {},
 		ammo_info = {
 			{
-				5,
+				8,
 				53202
 			}
 		},
@@ -10908,7 +11515,7 @@ pg.equip_data_statistics = {
 		property_rate = {},
 		ammo_info = {
 			{
-				5,
+				8,
 				53203
 			}
 		},
@@ -10935,7 +11542,7 @@ pg.equip_data_statistics = {
 		ammo_icon = {},
 		ammo_info = {
 			{
-				5,
+				8,
 				53220
 			}
 		},
@@ -10966,7 +11573,7 @@ pg.equip_data_statistics = {
 		property_rate = {},
 		ammo_info = {
 			{
-				5,
+				8,
 				53221
 			}
 		},
@@ -10981,7 +11588,7 @@ pg.equip_data_statistics = {
 		property_rate = {},
 		ammo_info = {
 			{
-				5,
+				8,
 				53222
 			}
 		},
@@ -10996,7 +11603,7 @@ pg.equip_data_statistics = {
 		property_rate = {},
 		ammo_info = {
 			{
-				5,
+				8,
 				53223
 			}
 		},
@@ -11011,7 +11618,7 @@ pg.equip_data_statistics = {
 		property_rate = {},
 		ammo_info = {
 			{
-				5,
+				8,
 				53224
 			}
 		},
@@ -11026,7 +11633,7 @@ pg.equip_data_statistics = {
 		property_rate = {},
 		ammo_info = {
 			{
-				5,
+				8,
 				53225
 			}
 		},
@@ -11041,7 +11648,7 @@ pg.equip_data_statistics = {
 		property_rate = {},
 		ammo_info = {
 			{
-				5,
+				8,
 				53226
 			}
 		},
@@ -11068,7 +11675,7 @@ pg.equip_data_statistics = {
 		ammo_icon = {},
 		ammo_info = {
 			{
-				5,
+				8,
 				53240
 			}
 		},
@@ -11099,7 +11706,7 @@ pg.equip_data_statistics = {
 		property_rate = {},
 		ammo_info = {
 			{
-				5,
+				8,
 				53241
 			}
 		},
@@ -11114,7 +11721,7 @@ pg.equip_data_statistics = {
 		property_rate = {},
 		ammo_info = {
 			{
-				5,
+				8,
 				53242
 			}
 		},
@@ -11129,7 +11736,7 @@ pg.equip_data_statistics = {
 		property_rate = {},
 		ammo_info = {
 			{
-				5,
+				8,
 				53243
 			}
 		},
@@ -11144,7 +11751,7 @@ pg.equip_data_statistics = {
 		property_rate = {},
 		ammo_info = {
 			{
-				5,
+				8,
 				53244
 			}
 		},
@@ -11159,7 +11766,7 @@ pg.equip_data_statistics = {
 		property_rate = {},
 		ammo_info = {
 			{
-				5,
+				8,
 				53245
 			}
 		},
@@ -11174,7 +11781,7 @@ pg.equip_data_statistics = {
 		property_rate = {},
 		ammo_info = {
 			{
-				5,
+				8,
 				53246
 			}
 		},
@@ -11189,7 +11796,7 @@ pg.equip_data_statistics = {
 		property_rate = {},
 		ammo_info = {
 			{
-				5,
+				8,
 				53247
 			}
 		},
@@ -11204,7 +11811,7 @@ pg.equip_data_statistics = {
 		property_rate = {},
 		ammo_info = {
 			{
-				5,
+				8,
 				53248
 			}
 		},
@@ -11219,7 +11826,7 @@ pg.equip_data_statistics = {
 		property_rate = {},
 		ammo_info = {
 			{
-				5,
+				8,
 				53249
 			}
 		},
@@ -11234,7 +11841,7 @@ pg.equip_data_statistics = {
 		property_rate = {},
 		ammo_info = {
 			{
-				5,
+				8,
 				53250
 			}
 		},
@@ -13223,7 +13830,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			1,
@@ -13235,7 +13843,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -13312,7 +13921,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			1,
@@ -13324,7 +13934,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -13401,7 +14012,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			1,
@@ -13413,7 +14025,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -13519,7 +14132,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			1,
@@ -13531,7 +14145,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -13608,7 +14223,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			1,
@@ -13620,7 +14236,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -13697,7 +14314,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			1,
@@ -13709,7 +14327,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -14405,7 +15024,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -14497,7 +15117,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -14619,7 +15240,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -14938,7 +15560,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -15175,7 +15798,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -15266,7 +15890,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -15357,7 +15982,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -15478,7 +16104,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -15569,7 +16196,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -15690,7 +16318,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -15853,7 +16482,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -15975,7 +16605,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -16138,7 +16769,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -16891,6 +17523,164 @@ pg.equip_data_statistics = {
 		property_rate = {},
 		weapon_id = {
 			12150
+		}
+	},
+	[12200] = {
+		name = "試作型三聯裝152mm高平兩用炮Mk17",
+		speciality = "鎖定",
+		type = 2,
+		attribute_3 = "antiaircraft",
+		tech = 0,
+		value_2 = 30,
+		icon = "12200",
+		attribute_2 = "cannon",
+		descrip = "說明未填寫",
+		rarity = 5,
+		damage = "5 x 6",
+		nationality = 1,
+		ammo = "高爆彈",
+		value_3 = 15,
+		id = 12200,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			3
+		},
+		ammo_info = {
+			{
+				1,
+				1008
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			{
+				3,
+				1008
+			},
+			{
+				4,
+				1109
+			},
+			6
+		},
+		weapon_id = {
+			12200
+		},
+		skill_id = {},
+		part_main = {
+			2
+		},
+		part_sub = {
+			5
+		},
+		equip_parameters = {},
+		label = {
+			"USS",
+			"CL",
+			"MG",
+			"HE"
+		}
+	},
+	[12201] = {
+		damage = "6 x 6",
+		base = 12200,
+		id = 12201,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			12201
+		}
+	},
+	[12202] = {
+		damage = "7 x 6",
+		base = 12200,
+		id = 12202,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			12202
+		}
+	},
+	[12203] = {
+		damage = "8 x 6",
+		base = 12200,
+		id = 12203,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			12203
+		}
+	},
+	[12204] = {
+		damage = "9 x 6",
+		base = 12200,
+		id = 12204,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			12204
+		}
+	},
+	[12205] = {
+		damage = "10 x 6",
+		base = 12200,
+		id = 12205,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			12205
+		}
+	},
+	[12206] = {
+		damage = "11 x 6",
+		base = 12200,
+		id = 12206,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			12206
+		}
+	},
+	[12207] = {
+		damage = "12 x 6",
+		base = 12200,
+		id = 12207,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			12207
+		}
+	},
+	[12208] = {
+		damage = "13 x 6",
+		base = 12200,
+		id = 12208,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			12208
+		}
+	},
+	[12209] = {
+		damage = "14 x 6",
+		base = 12200,
+		id = 12209,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			12209
+		}
+	},
+	[12210] = {
+		damage = "15 x 6",
+		base = 12200,
+		id = 12210,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			12210
 		}
 	},
 	[13000] = {
@@ -18484,6 +19274,156 @@ pg.equip_data_statistics = {
 			14350
 		}
 	},
+	[14500] = {
+		name = "試作型雙聯裝457mm主炮MKA",
+		speciality = "跨射",
+		type = 4,
+		tech = 0,
+		descrip = "說明未填寫",
+		value_2 = 65,
+		icon = "14500",
+		attribute_2 = "cannon",
+		rarity = 6,
+		damage = "78 x 2",
+		nationality = 1,
+		ammo = "穿甲彈",
+		value_3 = 0,
+		id = 14500,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			2
+		},
+		ammo_info = {
+			{
+				2,
+				1503
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			6
+		},
+		weapon_id = {
+			14500
+		},
+		skill_id = {},
+		part_main = {
+			4,
+			5,
+			10,
+			13
+		},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"USS",
+			"BB",
+			"MG",
+			"AP"
+		}
+	},
+	[14501] = {
+		damage = "91 x 2",
+		base = 14500,
+		id = 14501,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			14501
+		}
+	},
+	[14502] = {
+		damage = "102 x 2",
+		base = 14500,
+		id = 14502,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			14502
+		}
+	},
+	[14503] = {
+		damage = "116 x 2",
+		base = 14500,
+		id = 14503,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			14503
+		}
+	},
+	[14504] = {
+		damage = "129 x 2",
+		base = 14500,
+		id = 14504,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			14504
+		}
+	},
+	[14505] = {
+		damage = "143 x 2",
+		base = 14500,
+		id = 14505,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			14505
+		}
+	},
+	[14506] = {
+		damage = "156 x 2",
+		base = 14500,
+		id = 14506,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			14506
+		}
+	},
+	[14507] = {
+		damage = "167 x 2",
+		base = 14500,
+		id = 14507,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			14507
+		}
+	},
+	[14508] = {
+		damage = "180 x 2",
+		base = 14500,
+		id = 14508,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			14508
+		}
+	},
+	[14509] = {
+		damage = "194 x 2",
+		base = 14500,
+		id = 14509,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			14509
+		}
+	},
+	[14510] = {
+		damage = "207 x 2",
+		base = 14500,
+		id = 14510,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			14510
+		}
+	},
 	[15000] = {
 		name = "潛艇用Mark14魚雷",
 		speciality = "雷擊",
@@ -19307,7 +20247,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			1,
@@ -19319,7 +20260,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -19396,7 +20338,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			1,
@@ -19408,7 +20351,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -19485,7 +20429,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			1,
@@ -19497,7 +20442,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -19604,7 +20550,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			1,
@@ -19616,7 +20563,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -19693,7 +20641,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			1,
@@ -19705,7 +20654,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -19812,7 +20762,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			1,
@@ -19824,7 +20775,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -19971,7 +20923,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			1,
@@ -19983,7 +20936,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -20060,7 +21014,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			1,
@@ -20072,7 +21027,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -20179,7 +21135,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			1,
@@ -20191,7 +21148,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -20338,7 +21296,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			1,
@@ -20350,7 +21309,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -20427,7 +21387,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			1,
@@ -20439,7 +21400,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -20546,7 +21508,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			1,
@@ -20558,7 +21521,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -20705,7 +21669,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			1,
@@ -20717,7 +21682,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -20824,7 +21790,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			1,
@@ -20836,7 +21803,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -20983,7 +21951,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			1,
@@ -20995,7 +21964,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -24104,6 +25074,279 @@ pg.equip_data_statistics = {
 			18046
 		}
 	},
+	[18060] = {
+		name = "TBD蹂躪者(VT-8中隊)",
+		type = 8,
+		speciality = "雷擊",
+		rarity = 5,
+		tech = 0,
+		descrip = "中途島海戰中，大黃蜂號所屬VT-8中隊，約翰·沃爾德倫少校所率領的TBD蹂躪者魚雷機機隊",
+		value_2 = 45,
+		icon = "18060",
+		attribute_2 = "air",
+		nationality = 1,
+		ammo = "通常",
+		value_3 = 0,
+		id = 18060,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				6,
+				59560
+			},
+			{
+				4,
+				59580
+			}
+		},
+		equip_info = {
+			6,
+			7,
+			9
+		},
+		weapon_id = {
+			18060
+		},
+		skill_id = {
+			6320
+		},
+		part_main = {
+			6,
+			7
+		},
+		part_sub = {
+			6,
+			7
+		},
+		equip_parameters = {},
+		label = {
+			"USS",
+			"CV",
+			"TB"
+		}
+	},
+	[18061] = {
+		base = 18060,
+		id = 18061,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				59561
+			},
+			{
+				4,
+				59581
+			}
+		},
+		weapon_id = {
+			18061
+		},
+		skill_id = {
+			6321
+		}
+	},
+	[18062] = {
+		base = 18060,
+		id = 18062,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				59562
+			},
+			{
+				4,
+				59582
+			}
+		},
+		weapon_id = {
+			18062
+		},
+		skill_id = {
+			6322
+		}
+	},
+	[18063] = {
+		base = 18060,
+		id = 18063,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				59563
+			},
+			{
+				4,
+				59583
+			}
+		},
+		weapon_id = {
+			18063
+		},
+		skill_id = {
+			6323
+		}
+	},
+	[18064] = {
+		base = 18060,
+		id = 18064,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				59564
+			},
+			{
+				4,
+				59584
+			}
+		},
+		weapon_id = {
+			18064
+		},
+		skill_id = {
+			6324
+		}
+	},
+	[18065] = {
+		base = 18060,
+		id = 18065,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				59565
+			},
+			{
+				4,
+				59585
+			}
+		},
+		weapon_id = {
+			18065
+		},
+		skill_id = {
+			6325
+		}
+	},
+	[18066] = {
+		base = 18060,
+		id = 18066,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				59566
+			},
+			{
+				4,
+				59586
+			}
+		},
+		weapon_id = {
+			18066
+		},
+		skill_id = {
+			6326
+		}
+	},
+	[18067] = {
+		base = 18060,
+		id = 18067,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				59567
+			},
+			{
+				4,
+				59587
+			}
+		},
+		weapon_id = {
+			18067
+		},
+		skill_id = {
+			6327
+		}
+	},
+	[18068] = {
+		base = 18060,
+		id = 18068,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				59568
+			},
+			{
+				4,
+				59588
+			}
+		},
+		weapon_id = {
+			18068
+		},
+		skill_id = {
+			6328
+		}
+	},
+	[18069] = {
+		base = 18060,
+		id = 18069,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				59569
+			},
+			{
+				4,
+				59589
+			}
+		},
+		weapon_id = {
+			18069
+		},
+		skill_id = {
+			6329
+		}
+	},
+	[18070] = {
+		base = 18060,
+		id = 18070,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				59570
+			},
+			{
+				4,
+				59590
+			}
+		},
+		weapon_id = {
+			18070
+		},
+		skill_id = {
+			6330
+		}
+	},
 	[18100] = {
 		name = "TBF復仇者",
 		type = 8,
@@ -25056,6 +26299,249 @@ pg.equip_data_statistics = {
 		},
 		weapon_id = {
 			19046
+		}
+	},
+	[19060] = {
+		name = "SBD無畏(麥克拉斯基隊)",
+		type = 9,
+		speciality = "轟炸",
+		rarity = 5,
+		tech = 0,
+		descrip = "中途島英雄，企業號的麥克拉斯基少校所率領的SBD無畏式俯衝轟炸機機隊",
+		value_2 = 45,
+		icon = "19060",
+		attribute_2 = "air",
+		nationality = 1,
+		ammo = "通常",
+		value_3 = 0,
+		id = 19060,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				5,
+				52960
+			},
+			{
+				5,
+				52160
+			}
+		},
+		equip_info = {
+			6,
+			7,
+			9
+		},
+		weapon_id = {
+			19060
+		},
+		skill_id = {
+			6240
+		},
+		part_main = {
+			6,
+			7
+		},
+		part_sub = {
+			6,
+			7
+		},
+		equip_parameters = {},
+		label = {
+			"USS",
+			"CV",
+			"DB"
+		}
+	},
+	[19061] = {
+		base = 19060,
+		id = 19061,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				5,
+				52961
+			},
+			{
+				5,
+				52161
+			}
+		},
+		weapon_id = {
+			19061
+		}
+	},
+	[19062] = {
+		base = 19060,
+		id = 19062,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				5,
+				52962
+			},
+			{
+				5,
+				52162
+			}
+		},
+		weapon_id = {
+			19062
+		}
+	},
+	[19063] = {
+		base = 19060,
+		id = 19063,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				5,
+				52963
+			},
+			{
+				5,
+				52163
+			}
+		},
+		weapon_id = {
+			19063
+		}
+	},
+	[19064] = {
+		base = 19060,
+		id = 19064,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				5,
+				52964
+			},
+			{
+				5,
+				52164
+			}
+		},
+		weapon_id = {
+			19064
+		}
+	},
+	[19065] = {
+		base = 19060,
+		id = 19065,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				5,
+				52965
+			},
+			{
+				5,
+				52165
+			}
+		},
+		weapon_id = {
+			19065
+		}
+	},
+	[19066] = {
+		base = 19060,
+		id = 19066,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				5,
+				52966
+			},
+			{
+				5,
+				52166
+			}
+		},
+		weapon_id = {
+			19066
+		}
+	},
+	[19067] = {
+		base = 19060,
+		id = 19067,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				5,
+				52967
+			},
+			{
+				5,
+				52167
+			}
+		},
+		weapon_id = {
+			19067
+		}
+	},
+	[19068] = {
+		base = 19060,
+		id = 19068,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				5,
+				52968
+			},
+			{
+				5,
+				52168
+			}
+		},
+		weapon_id = {
+			19068
+		}
+	},
+	[19069] = {
+		base = 19060,
+		id = 19069,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				5,
+				52969
+			},
+			{
+				5,
+				52169
+			}
+		},
+		weapon_id = {
+			19069
+		}
+	},
+	[19070] = {
+		base = 19060,
+		id = 19070,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				5,
+				52970
+			},
+			{
+				5,
+				52170
+			}
+		},
+		weapon_id = {
+			19070
 		}
 	},
 	[19100] = {
@@ -26359,7 +27845,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -26450,7 +27937,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -26541,7 +28029,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -26661,7 +28150,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -26752,7 +28242,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -26843,7 +28334,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -26964,7 +28456,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -27055,7 +28548,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -27176,7 +28670,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -27336,7 +28831,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -27427,7 +28923,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -27518,7 +29015,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -27639,7 +29137,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -27730,7 +29229,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -27851,7 +29351,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -28013,7 +29514,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -28105,7 +29607,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -28228,7 +29731,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -31319,6 +32823,152 @@ pg.equip_data_statistics = {
 			24350
 		}
 	},
+	[25800] = {
+		name = "刺蝟彈",
+		speciality = "反潛",
+		type = 14,
+		tech = 0,
+		descrip = "说明未填写",
+		value_2 = 45,
+		icon = "25800",
+		attribute_2 = "antisub",
+		rarity = 5,
+		damage = "85 ~ 170",
+		nationality = 2,
+		ammo = "觸發式",
+		value_3 = 0,
+		id = 25800,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				7,
+				9008
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			6
+		},
+		weapon_id = {
+			25800
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			2
+		},
+		part_sub = {
+			1,
+			2
+		},
+		equip_parameters = {},
+		label = {
+			"DC"
+		}
+	},
+	[25801] = {
+		damage = "94 ~ 188",
+		base = 25800,
+		id = 25801,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			25801
+		}
+	},
+	[25802] = {
+		damage = "103 ~ 206",
+		base = 25800,
+		id = 25802,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			25802
+		}
+	},
+	[25803] = {
+		damage = "112 ~ 224",
+		base = 25800,
+		id = 25803,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			25803
+		}
+	},
+	[25804] = {
+		damage = "122 ~ 244",
+		base = 25800,
+		id = 25804,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			25804
+		}
+	},
+	[25805] = {
+		damage = "132 ~ 264",
+		base = 25800,
+		id = 25805,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			25805
+		}
+	},
+	[25806] = {
+		damage = "142 ~ 284",
+		base = 25800,
+		id = 25806,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			25806
+		}
+	},
+	[25807] = {
+		damage = "153 ~ 306",
+		base = 25800,
+		id = 25807,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			25807
+		}
+	},
+	[25808] = {
+		damage = "164 ~ 328",
+		base = 25800,
+		id = 25808,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			25808
+		}
+	},
+	[25809] = {
+		damage = "175 ~ 350",
+		base = 25800,
+		id = 25809,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			25809
+		}
+	},
+	[25810] = {
+		damage = "186 ~ 372",
+		base = 25800,
+		id = 25810,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			25810
+		}
+	},
 	[26000] = {
 		name = "雙聯裝40mm“砰砰”炮",
 		speciality = "防空",
@@ -31356,7 +33006,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			1,
@@ -31368,7 +33019,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -31445,7 +33097,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			1,
@@ -31457,7 +33110,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -31534,7 +33188,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			1,
@@ -31546,7 +33201,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -31653,7 +33309,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			1,
@@ -31665,7 +33322,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -31742,7 +33400,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			1,
@@ -31754,7 +33413,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -31861,7 +33521,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			1,
@@ -31873,7 +33534,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -32020,7 +33682,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			1,
@@ -32032,7 +33695,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -32139,7 +33803,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			1,
@@ -32151,7 +33816,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -32298,7 +33964,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			1,
@@ -32310,7 +33977,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -32457,7 +34125,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			1,
@@ -32469,7 +34138,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -32546,7 +34216,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			1,
@@ -32558,7 +34229,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -32665,7 +34337,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			1,
@@ -32677,7 +34350,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -32824,7 +34498,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			1,
@@ -32836,7 +34511,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -32913,7 +34589,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			1,
@@ -32925,7 +34602,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -33032,7 +34710,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			1,
@@ -33044,7 +34723,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -33191,7 +34871,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			1,
@@ -33203,7 +34884,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -33310,7 +34992,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			1,
@@ -33322,7 +35005,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -33469,7 +35153,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			1,
@@ -33481,7 +35166,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -33629,7 +35315,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			1,
@@ -33641,7 +35328,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -33748,6 +35436,168 @@ pg.equip_data_statistics = {
 		property_rate = {},
 		weapon_id = {
 			26610
+		}
+	},
+	[26620] = {
+		name = "雙聯裝40mm波佛斯海茲梅耶",
+		speciality = "防空",
+		type = 6,
+		attribute_3 = "hit",
+		tech = 0,
+		value_2 = 45,
+		icon = "26620",
+		attribute_2 = "antiaircraft",
+		descrip = "說明未填寫",
+		rarity = 5,
+		damage = "38/輪",
+		nationality = 2,
+		ammo = "通常",
+		value_3 = 5,
+		id = 26620,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			1,
+			2,
+			6
+		},
+		weapon_id = {
+			26620
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"ST",
+			"AA"
+		}
+	},
+	[26621] = {
+		damage = "43/輪",
+		base = 26620,
+		id = 26621,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			26621
+		}
+	},
+	[26622] = {
+		damage = "48/輪",
+		base = 26620,
+		id = 26622,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			26622
+		}
+	},
+	[26623] = {
+		damage = "54/輪",
+		base = 26620,
+		id = 26623,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			26623
+		}
+	},
+	[26624] = {
+		damage = "60/輪",
+		base = 26620,
+		id = 26624,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			26624
+		}
+	},
+	[26625] = {
+		damage = "66/輪",
+		base = 26620,
+		id = 26625,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			26625
+		}
+	},
+	[26626] = {
+		damage = "72/輪",
+		base = 26620,
+		id = 26626,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			26626
+		}
+	},
+	[26627] = {
+		damage = "78/輪",
+		base = 26620,
+		id = 26627,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			26627
+		}
+	},
+	[26628] = {
+		damage = "84/輪",
+		base = 26620,
+		id = 26628,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			26628
+		}
+	},
+	[26629] = {
+		damage = "90/輪",
+		base = 26620,
+		id = 26629,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			26629
+		}
+	},
+	[26630] = {
+		damage = "96/輪",
+		base = 26620,
+		id = 26630,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			26630
 		}
 	},
 	[27000] = {
@@ -38823,7 +40673,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -38945,7 +40796,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -39107,7 +40959,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -39267,7 +41120,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -39358,7 +41212,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -39449,7 +41304,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -39570,7 +41426,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -39661,7 +41518,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -39782,7 +41640,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -41839,6 +43698,153 @@ pg.equip_data_statistics = {
 		property_rate = {},
 		weapon_id = {
 			33070
+		}
+	},
+	[33100] = {
+		name = "試作型三聯裝310mm主炮",
+		speciality = "跨射",
+		type = 11,
+		tech = 0,
+		descrip = "說明未填寫",
+		value_2 = 45,
+		icon = "33100",
+		attribute_2 = "cannon",
+		rarity = 5,
+		damage = "36 x 6",
+		nationality = 3,
+		ammo = "高爆彈",
+		value_3 = 0,
+		id = 33100,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			3
+		},
+		ammo_info = {
+			{
+				2,
+				1414
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			6
+		},
+		weapon_id = {
+			33100
+		},
+		skill_id = {},
+		part_main = {
+			18
+		},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"CB",
+			"MG",
+			"HE"
+		}
+	},
+	[33101] = {
+		damage = "38 x 6",
+		base = 33100,
+		id = 33101,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			33101
+		}
+	},
+	[33102] = {
+		damage = "40 x 6",
+		base = 33100,
+		id = 33102,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			33102
+		}
+	},
+	[33103] = {
+		damage = "42 x 6",
+		base = 33100,
+		id = 33103,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			33103
+		}
+	},
+	[33104] = {
+		damage = "44 x 6",
+		base = 33100,
+		id = 33104,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			33104
+		}
+	},
+	[33105] = {
+		damage = "46 x 6",
+		base = 33100,
+		id = 33105,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			33105
+		}
+	},
+	[33106] = {
+		damage = "48 x 6",
+		base = 33100,
+		id = 33106,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			33106
+		}
+	},
+	[33107] = {
+		damage = "50 x 6",
+		base = 33100,
+		id = 33107,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			33107
+		}
+	},
+	[33108] = {
+		damage = "52 x 6",
+		base = 33100,
+		id = 33108,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			33108
+		}
+	},
+	[33109] = {
+		damage = "54 x 6",
+		base = 33100,
+		id = 33109,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			33109
+		}
+	},
+	[33110] = {
+		damage = "56 x 6",
+		base = 33100,
+		id = 33110,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			33110
 		}
 	},
 	[34000] = {
@@ -44672,7 +46678,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			1,
@@ -44684,7 +46691,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -44761,7 +46769,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			1,
@@ -44773,7 +46782,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -44850,7 +46860,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			1,
@@ -44862,7 +46873,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -44969,7 +46981,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			1,
@@ -44981,7 +46994,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -45058,7 +47072,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			1,
@@ -45070,7 +47085,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -45177,7 +47193,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			1,
@@ -45189,7 +47206,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -45336,7 +47354,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			1,
@@ -45348,7 +47367,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -45425,7 +47445,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			1,
@@ -45437,7 +47458,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -45544,7 +47566,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			1,
@@ -45556,7 +47579,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -45703,7 +47727,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			1,
@@ -45715,7 +47740,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -45792,7 +47818,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			1,
@@ -45804,7 +47831,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -45911,7 +47939,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			1,
@@ -45923,7 +47952,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -46070,7 +48100,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			1,
@@ -46082,7 +48113,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -46159,7 +48191,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			1,
@@ -46171,7 +48204,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -46278,7 +48312,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			1,
@@ -46290,7 +48325,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -46437,7 +48473,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			1,
@@ -46449,7 +48486,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -46596,7 +48634,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			1,
@@ -46608,7 +48647,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -46685,7 +48725,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			1,
@@ -46697,7 +48738,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -46804,7 +48846,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			1,
@@ -46816,7 +48859,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -46923,6 +48967,167 @@ pg.equip_data_statistics = {
 		property_rate = {},
 		weapon_id = {
 			36650
+		}
+	},
+	[36700] = {
+		name = "試作型五式40mm高射機關炮",
+		speciality = "防空",
+		type = 6,
+		tech = 0,
+		descrip = "說明未填寫",
+		value_2 = 45,
+		icon = "36700",
+		attribute_2 = "antiaircraft",
+		rarity = 5,
+		damage = "47/輪",
+		nationality = 3,
+		ammo = "通常",
+		value_3 = 0,
+		id = 36700,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			1,
+			2,
+			6
+		},
+		weapon_id = {
+			36700
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"ST",
+			"AA"
+		}
+	},
+	[36701] = {
+		damage = "51/輪",
+		base = 36700,
+		id = 36701,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			36701
+		}
+	},
+	[36702] = {
+		damage = "55/輪",
+		base = 36700,
+		id = 36702,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			36702
+		}
+	},
+	[36703] = {
+		damage = "59/輪",
+		base = 36700,
+		id = 36703,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			36703
+		}
+	},
+	[36704] = {
+		damage = "63/輪",
+		base = 36700,
+		id = 36704,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			36704
+		}
+	},
+	[36705] = {
+		damage = "67/輪",
+		base = 36700,
+		id = 36705,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			36705
+		}
+	},
+	[36706] = {
+		damage = "71/輪",
+		base = 36700,
+		id = 36706,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			36706
+		}
+	},
+	[36707] = {
+		damage = "75/輪",
+		base = 36700,
+		id = 36707,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			36707
+		}
+	},
+	[36708] = {
+		damage = "79/輪",
+		base = 36700,
+		id = 36708,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			36708
+		}
+	},
+	[36709] = {
+		damage = "83/輪",
+		base = 36700,
+		id = 36709,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			36709
+		}
+	},
+	[36710] = {
+		damage = "87/輪",
+		base = 36700,
+		id = 36710,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			36710
 		}
 	},
 	[37000] = {
@@ -53028,7 +55233,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -53120,7 +55326,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -53212,7 +55419,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -53335,7 +55543,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -53429,7 +55638,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -53553,7 +55763,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -56407,6 +58618,156 @@ pg.equip_data_statistics = {
 			44150
 		}
 	},
+	[44200] = {
+		name = "試作型雙聯裝406mmSKC主炮",
+		speciality = "跨射",
+		type = 4,
+		tech = 0,
+		descrip = "說明未填寫",
+		value_2 = 45,
+		icon = "44200",
+		attribute_2 = "cannon",
+		rarity = 5,
+		damage = "58 x 2",
+		nationality = 4,
+		ammo = "高爆彈",
+		value_3 = 0,
+		id = 44200,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			3
+		},
+		ammo_info = {
+			{
+				2,
+				1502
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			6
+		},
+		weapon_id = {
+			44200
+		},
+		skill_id = {},
+		part_main = {
+			4,
+			5,
+			10,
+			13
+		},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"KMS",
+			"BB",
+			"MG",
+			"HE"
+		}
+	},
+	[44201] = {
+		damage = "68 x 2",
+		base = 44200,
+		id = 44201,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			44201
+		}
+	},
+	[44202] = {
+		damage = "76 x 2",
+		base = 44200,
+		id = 44202,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			44202
+		}
+	},
+	[44203] = {
+		damage = "86 x 2",
+		base = 44200,
+		id = 44203,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			44203
+		}
+	},
+	[44204] = {
+		damage = "96 x 2",
+		base = 44200,
+		id = 44204,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			44204
+		}
+	},
+	[44205] = {
+		damage = "106 x 2",
+		base = 44200,
+		id = 44205,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			44205
+		}
+	},
+	[44206] = {
+		damage = "116 x 2",
+		base = 44200,
+		id = 44206,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			44206
+		}
+	},
+	[44207] = {
+		damage = "124 x 2",
+		base = 44200,
+		id = 44207,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			44207
+		}
+	},
+	[44208] = {
+		damage = "134 x 2",
+		base = 44200,
+		id = 44208,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			44208
+		}
+	},
+	[44209] = {
+		damage = "144 x 2",
+		base = 44200,
+		id = 44209,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			44209
+		}
+	},
+	[44210] = {
+		damage = "154 x 2",
+		base = 44200,
+		id = 44210,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			44210
+		}
+	},
 	[45000] = {
 		name = "三聯裝533mm磁性魚雷",
 		speciality = "雷擊",
@@ -58511,7 +60872,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			1,
@@ -58523,7 +60885,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -58600,7 +60963,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			1,
@@ -58612,7 +60976,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -58689,7 +61054,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			1,
@@ -58701,7 +61067,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -58807,7 +61174,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			1,
@@ -58819,7 +61187,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -58896,7 +61265,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			1,
@@ -58908,7 +61278,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -58985,7 +61356,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			1,
@@ -58997,7 +61369,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -59104,7 +61477,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			1,
@@ -59116,7 +61490,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -59193,7 +61568,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			1,
@@ -59205,7 +61581,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -59312,7 +61689,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			1,
@@ -59324,7 +61702,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -59471,7 +61850,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			1,
@@ -59483,7 +61863,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -59590,7 +61971,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			1,
@@ -59602,7 +61984,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -59749,7 +62132,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			1,
@@ -59761,7 +62145,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -62989,7 +65374,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {}
@@ -63031,7 +65417,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {}
@@ -63073,7 +65460,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {}
@@ -64630,6 +67018,162 @@ pg.equip_data_statistics = {
 			60533
 		}
 	},
+	[60541] = {
+		name = "航空攻击展示-千岁I",
+		tech = 1,
+		speciality = "无",
+		type = 99,
+		rarity = 1,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		descrip = "航母空袭展示用",
+		nationality = 0,
+		ammo = "无",
+		value_3 = 0,
+		id = 60541,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			{
+				6
+			}
+		},
+		weapon_id = {
+			60541
+		},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {}
+	},
+	[60542] = {
+		name = "航空攻击展示-千岁II",
+		base = 60541,
+		id = 60542,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			60542
+		}
+	},
+	[60543] = {
+		name = "航空攻击展示-千岁III",
+		base = 60541,
+		id = 60543,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			60543
+		}
+	},
+	[60551] = {
+		name = "航空攻击展示-千代田I",
+		tech = 1,
+		speciality = "无",
+		type = 99,
+		rarity = 1,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		descrip = "航母空袭展示用",
+		nationality = 0,
+		ammo = "无",
+		value_3 = 0,
+		id = 60551,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			{
+				6
+			}
+		},
+		weapon_id = {
+			60551
+		},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {}
+	},
+	[60552] = {
+		name = "航空攻击展示-千代田II",
+		base = 60551,
+		id = 60552,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			60552
+		}
+	},
+	[60553] = {
+		name = "航空攻击展示-千代田III",
+		base = 60551,
+		id = 60553,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			60553
+		}
+	},
+	[60561] = {
+		name = "航空攻击展示-信浓I",
+		tech = 1,
+		speciality = "无",
+		type = 99,
+		rarity = 1,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		descrip = "航母空袭展示用",
+		nationality = 0,
+		ammo = "无",
+		value_3 = 0,
+		id = 60561,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			{
+				6
+			}
+		},
+		weapon_id = {
+			60561
+		},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {}
+	},
+	[60562] = {
+		name = "航空攻击展示-信浓II",
+		base = 60561,
+		id = 60562,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			60562
+		}
+	},
+	[60563] = {
+		name = "航空攻击展示-信浓III",
+		base = 60561,
+		id = 60563,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			60563
+		}
+	},
 	[61007] = {
 		name = "約克镇技能隨機掃射海面LV1",
 		tech = 1,
@@ -64667,7 +67211,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {}
@@ -64729,7 +67274,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {}
@@ -64791,7 +67337,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {}
@@ -64833,7 +67380,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {}
@@ -65165,7 +67713,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {}
@@ -65207,7 +67756,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {}
@@ -65249,7 +67799,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {}
@@ -65301,7 +67852,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {}
@@ -65353,7 +67905,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {}
@@ -65405,7 +67958,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {}
@@ -65457,7 +68011,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {}
@@ -65509,7 +68064,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {}
@@ -65561,7 +68117,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {}
@@ -65613,7 +68170,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {}
@@ -65665,7 +68223,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {}
@@ -65717,7 +68276,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {}
@@ -65769,7 +68329,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {}
@@ -65821,7 +68382,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {}
@@ -65873,7 +68435,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {}
@@ -65925,7 +68488,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {}
@@ -65977,7 +68541,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {}
@@ -65993,7 +68558,7 @@ pg.equip_data_statistics = {
 		}
 	},
 	[70241] = {
-		name = "全彈發射-新奧爾良級I",
+		name = "全彈發射-紐奧良級I",
 		tech = 1,
 		speciality = "無",
 		type = 1,
@@ -66029,13 +68594,14 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {}
 	},
 	[70242] = {
-		name = "全彈發射-新奧爾良級II",
+		name = "全彈發射-紐奧良級II",
 		base = 70241,
 		id = 70242,
 		torpedo_ammo = 0,
@@ -66081,7 +68647,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {}
@@ -66133,7 +68700,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {}
@@ -66185,7 +68753,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {}
@@ -66237,7 +68806,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {}
@@ -66289,7 +68859,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {}
@@ -66341,7 +68912,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {}
@@ -66393,7 +68965,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {}
@@ -66445,7 +69018,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {}
@@ -66497,7 +69071,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {}
@@ -66549,7 +69124,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {}
@@ -66601,7 +69177,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {}
@@ -66653,7 +69230,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {}
@@ -66705,7 +69283,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {}
@@ -66757,7 +69336,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {}
@@ -66809,7 +69389,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {}
@@ -66861,7 +69442,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {}
@@ -66913,7 +69495,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {}
@@ -66965,7 +69548,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {}
@@ -67017,7 +69601,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {}
@@ -67069,7 +69654,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {}
@@ -67121,7 +69707,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {}
@@ -67173,7 +69760,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {}
@@ -67225,7 +69813,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {}
@@ -67277,7 +69866,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {}
@@ -67329,7 +69919,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {}
@@ -67381,7 +69972,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {}
@@ -67433,7 +70025,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {}
@@ -67485,7 +70078,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {}
@@ -67537,7 +70131,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {}
@@ -67589,7 +70184,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {}
@@ -67641,7 +70237,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {}
@@ -67693,7 +70290,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {}
@@ -67745,7 +70343,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {}
@@ -67797,7 +70396,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {}
@@ -67849,7 +70449,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {}
@@ -67901,7 +70502,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {}
@@ -67953,7 +70555,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {}
@@ -68005,7 +70608,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {}
@@ -68057,7 +70661,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {}
@@ -68109,7 +70714,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {}
@@ -68161,7 +70767,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {}
@@ -68213,7 +70820,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {}
@@ -68265,7 +70873,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {}
@@ -68317,7 +70926,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {}
@@ -68369,7 +70979,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {}
@@ -68421,7 +71032,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {}
@@ -68473,7 +71085,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {}
@@ -68525,7 +71138,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {}
@@ -68659,7 +71273,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {}
@@ -68711,7 +71326,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {}
@@ -68724,6 +71340,59 @@ pg.equip_data_statistics = {
 		property_rate = {},
 		weapon_id = {
 			72312
+		}
+	},
+	[72411] = {
+		name = "全弹发射-樫野I",
+		tech = 1,
+		speciality = "无",
+		type = 1,
+		rarity = 1,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		descrip = "技能弹幕",
+		nationality = 0,
+		ammo = "无",
+		value_3 = 0,
+		id = 72411,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			{
+				6
+			}
+		},
+		weapon_id = {
+			72411
+		},
+		skill_id = {},
+		part_main = {
+			1
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18,
+			19
+		},
+		equip_parameters = {},
+		label = {}
+	},
+	[72412] = {
+		name = "全弹发射-樫野II",
+		base = 72411,
+		id = 72412,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			72412
 		}
 	},
 	[73011] = {
@@ -68763,7 +71432,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {}
@@ -68815,7 +71485,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {}
@@ -68867,7 +71538,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {}
@@ -68919,7 +71591,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {}
@@ -68971,7 +71644,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {}
@@ -69023,7 +71697,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {}
@@ -69075,7 +71750,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {}
@@ -69127,7 +71803,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {}
@@ -69179,7 +71856,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {}
@@ -69231,7 +71909,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {}
@@ -69283,7 +71962,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {}
@@ -69335,7 +72015,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {}
@@ -69387,7 +72068,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {}
@@ -69439,7 +72121,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {}
@@ -69491,7 +72174,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {}
@@ -69543,7 +72227,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {}
@@ -69595,7 +72280,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {}
@@ -69647,7 +72333,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {}
@@ -69699,7 +72386,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {}
@@ -69751,7 +72439,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {}
@@ -69803,7 +72492,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {}
@@ -69855,7 +72545,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {}
@@ -69907,7 +72598,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {}
@@ -69959,7 +72651,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {}
@@ -70011,7 +72704,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {}
@@ -70063,7 +72757,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {}
@@ -70115,7 +72810,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {}
@@ -70167,7 +72863,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {}
@@ -70219,7 +72916,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {}
@@ -70271,7 +72969,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {}
@@ -70323,7 +73022,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {}
@@ -70375,7 +73075,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {}
@@ -70427,7 +73128,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {}
@@ -70479,7 +73181,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {}
@@ -70531,7 +73234,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {}
@@ -70583,7 +73287,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {}
@@ -70635,7 +73340,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {}
@@ -70687,7 +73393,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {}
@@ -70739,7 +73446,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {}
@@ -70791,7 +73499,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {}
@@ -70843,7 +73552,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {}
@@ -70895,7 +73605,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {}
@@ -70947,7 +73658,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {}
@@ -70999,7 +73711,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {}
@@ -71051,7 +73764,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {}
@@ -71103,7 +73817,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {}
@@ -71155,7 +73870,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {}
@@ -71207,7 +73923,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {}
@@ -71259,7 +73976,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {}
@@ -71311,7 +74029,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {}
@@ -71363,7 +74082,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {}
@@ -71415,7 +74135,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {}
@@ -71467,7 +74188,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {}
@@ -71519,7 +74241,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {}
@@ -71571,7 +74294,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {}
@@ -71623,7 +74347,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {}
@@ -71675,7 +74400,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {}
@@ -71727,7 +74453,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {}
@@ -71779,7 +74506,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {}
@@ -71831,7 +74559,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {}
@@ -71883,7 +74612,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {}
@@ -71935,7 +74665,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {}
@@ -71987,7 +74718,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {}
@@ -72039,7 +74771,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {}
@@ -72091,7 +74824,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {}
@@ -72143,7 +74877,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {}
@@ -72195,7 +74930,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {}
@@ -72247,7 +74983,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {}
@@ -72299,7 +75036,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {}
@@ -72351,7 +75089,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {}
@@ -72403,7 +75142,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {}
@@ -72455,7 +75195,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {}
@@ -72507,7 +75248,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {}
@@ -72559,7 +75301,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {}
@@ -72611,7 +75354,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {}
@@ -72663,7 +75407,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {}
@@ -72715,7 +75460,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {}
@@ -72767,7 +75513,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {}
@@ -72819,7 +75566,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {}
@@ -72870,7 +75618,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {}
@@ -72921,7 +75670,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {}
@@ -72972,7 +75722,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {}
@@ -73024,7 +75775,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {}
@@ -73037,6 +75789,429 @@ pg.equip_data_statistics = {
 		property_rate = {},
 		weapon_id = {
 			79582
+		}
+	},
+	[79591] = {
+		name = "专属弹幕-U96I",
+		tech = 1,
+		speciality = "无",
+		type = 1,
+		rarity = 1,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		descrip = "技能弹幕",
+		nationality = 0,
+		ammo = "无",
+		value_3 = 0,
+		id = 79591,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			{
+				6
+			}
+		},
+		weapon_id = {
+			79591
+		},
+		skill_id = {},
+		part_main = {
+			1
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
+		equip_parameters = {},
+		label = {}
+	},
+	[79592] = {
+		name = "专属弹幕-U96II",
+		base = 79591,
+		id = 79592,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			79592
+		}
+	},
+	[79601] = {
+		name = "专属弹幕-凉月I",
+		tech = 1,
+		speciality = "无",
+		type = 1,
+		rarity = 1,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		descrip = "技能弹幕",
+		nationality = 0,
+		ammo = "无",
+		value_3 = 0,
+		id = 79601,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			{
+				6
+			}
+		},
+		weapon_id = {
+			60571
+		},
+		skill_id = {},
+		part_main = {
+			1
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18,
+			19
+		},
+		equip_parameters = {},
+		label = {}
+	},
+	[79602] = {
+		name = "专属弹幕-凉月II",
+		base = 79601,
+		id = 79602,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			60572
+		}
+	},
+	[79611] = {
+		name = "专属弹幕-罗恩μI",
+		tech = 1,
+		speciality = "无",
+		type = 1,
+		rarity = 1,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		descrip = "技能弹幕",
+		nationality = 0,
+		ammo = "无",
+		value_3 = 0,
+		id = 79611,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			{
+				6
+			}
+		},
+		weapon_id = {
+			79611
+		},
+		skill_id = {},
+		part_main = {
+			1
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18,
+			19
+		},
+		equip_parameters = {},
+		label = {}
+	},
+	[79612] = {
+		name = "专属弹幕-罗恩μII",
+		base = 79611,
+		id = 79612,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			79612
+		}
+	},
+	[79621] = {
+		name = "专属弹幕-恶毒μI",
+		tech = 1,
+		speciality = "无",
+		type = 1,
+		rarity = 1,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		descrip = "技能弹幕",
+		nationality = 0,
+		ammo = "无",
+		value_3 = 0,
+		id = 79621,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			{
+				6
+			}
+		},
+		weapon_id = {
+			60581
+		},
+		skill_id = {},
+		part_main = {
+			1
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18,
+			19
+		},
+		equip_parameters = {},
+		label = {}
+	},
+	[79622] = {
+		name = "专属弹幕-恶毒μII",
+		base = 79621,
+		id = 79622,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			60582
+		}
+	},
+	[79631] = {
+		name = "专属弹幕-黛朵μI",
+		tech = 1,
+		speciality = "无",
+		type = 1,
+		rarity = 1,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		descrip = "技能弹幕",
+		nationality = 0,
+		ammo = "无",
+		value_3 = 0,
+		id = 79631,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			{
+				6
+			}
+		},
+		weapon_id = {
+			79631
+		},
+		skill_id = {},
+		part_main = {
+			1
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18,
+			19
+		},
+		equip_parameters = {},
+		label = {}
+	},
+	[79632] = {
+		name = "专属弹幕-黛朵μII",
+		base = 79631,
+		id = 79632,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			79632
+		}
+	},
+	[79641] = {
+		name = "专属弹幕-塔什干μI",
+		tech = 1,
+		speciality = "无",
+		type = 1,
+		rarity = 1,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		descrip = "技能弹幕",
+		nationality = 0,
+		ammo = "无",
+		value_3 = 0,
+		id = 79641,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			{
+				6
+			}
+		},
+		weapon_id = {
+			79641
+		},
+		skill_id = {},
+		part_main = {
+			1
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18,
+			19
+		},
+		equip_parameters = {},
+		label = {}
+	},
+	[79642] = {
+		name = "专属弹幕-塔什干μII",
+		base = 79641,
+		id = 79642,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			79642
+		}
+	},
+	[79651] = {
+		name = "专属弹幕-大青花鱼μI",
+		tech = 1,
+		speciality = "无",
+		type = 1,
+		rarity = 1,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		descrip = "技能弹幕",
+		nationality = 0,
+		ammo = "无",
+		value_3 = 0,
+		id = 79651,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			{
+				6
+			}
+		},
+		weapon_id = {
+			79651
+		},
+		skill_id = {},
+		part_main = {
+			1
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18,
+			19
+		},
+		equip_parameters = {},
+		label = {}
+	},
+	[79652] = {
+		name = "专属弹幕-大青花鱼μII",
+		base = 79651,
+		id = 79652,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			79652
+		}
+	},
+	[79661] = {
+		name = "专属弹幕-巴尔的摩μI",
+		tech = 1,
+		speciality = "无",
+		type = 1,
+		rarity = 1,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		descrip = "技能弹幕",
+		nationality = 0,
+		ammo = "无",
+		value_3 = 0,
+		id = 79661,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			{
+				6
+			}
+		},
+		weapon_id = {
+			79661
+		},
+		skill_id = {},
+		part_main = {
+			1
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18,
+			19
+		},
+		equip_parameters = {},
+		label = {}
+	},
+	[79662] = {
+		name = "专属弹幕-巴尔的摩μII",
+		base = 79661,
+		id = 79662,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			79662
 		}
 	},
 	[90000] = {
@@ -73091,7 +76266,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -73183,7 +76359,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -73275,7 +76452,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -73397,7 +76575,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -73519,7 +76698,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -73682,7 +76862,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -74828,6 +78009,167 @@ pg.equip_data_statistics = {
 			90450
 		}
 	},
+	[90600] = {
+		name = "雙聯37mm高射炮Mle1936",
+		speciality = "防空",
+		type = 6,
+		tech = 0,
+		descrip = "說明未填寫",
+		value_2 = 45,
+		icon = "50600",
+		attribute_2 = "antiaircraft",
+		rarity = 5,
+		damage = "38/輪",
+		nationality = 8,
+		ammo = "通常",
+		value_3 = 0,
+		id = 90600,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			1,
+			2,
+			6
+		},
+		weapon_id = {
+			90600
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		equip_parameters = {},
+		label = {
+			"FFNF",
+			"DD",
+			"AA"
+		}
+	},
+	[90601] = {
+		damage = "42/輪",
+		base = 90600,
+		id = 90601,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			90601
+		}
+	},
+	[90602] = {
+		damage = "46/輪",
+		base = 90600,
+		id = 90602,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			90602
+		}
+	},
+	[90603] = {
+		damage = "50/輪",
+		base = 90600,
+		id = 90603,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			90603
+		}
+	},
+	[90604] = {
+		damage = "54/輪",
+		base = 90600,
+		id = 90604,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			90604
+		}
+	},
+	[90605] = {
+		damage = "58/輪",
+		base = 90600,
+		id = 90605,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			90605
+		}
+	},
+	[90606] = {
+		damage = "62/輪",
+		base = 90600,
+		id = 90606,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			90606
+		}
+	},
+	[90607] = {
+		damage = "66/輪",
+		base = 90600,
+		id = 90607,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			90607
+		}
+	},
+	[90608] = {
+		damage = "70/輪",
+		base = 90600,
+		id = 90608,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			90608
+		}
+	},
+	[90609] = {
+		damage = "74/輪",
+		base = 90600,
+		id = 90609,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			90609
+		}
+	},
+	[90610] = {
+		damage = "78/輪",
+		base = 90600,
+		id = 90610,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			90610
+		}
+	},
 	[100000] = {
 		name = "裝備模板",
 		tech = 1,
@@ -75137,7 +78479,8 @@ pg.equip_data_statistics = {
 			5,
 			8,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -75367,6 +78710,673 @@ pg.equip_data_statistics = {
 		},
 		label = {}
 	},
+	[960001] = {
+		name = "【翻格子活动】驱逐主炮",
+		damage = "15 x 5",
+		base = 90140,
+		id = 960001,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			90150
+		}
+	},
+	[960002] = {
+		name = "【翻格子活动】驱逐三联鱼雷",
+		damage = "206 x 3",
+		base = 35140,
+		id = 960002,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			35150
+		}
+	},
+	[960003] = {
+		name = "【翻格子活动】驱逐四联磁雷",
+		damage = "156 x 4",
+		base = 5140,
+		id = 960003,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			5150
+		}
+	},
+	[960004] = {
+		name = "【翻格子活动】驱逐五联鱼雷",
+		damage = "156 x 5",
+		base = 5240,
+		id = 960004,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			5250
+		}
+	},
+	[960005] = {
+		name = "【翻格子活动】战列双联主炮",
+		damage = "132 x 2",
+		base = 44140,
+		id = 960005,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			44150
+		}
+	},
+	[960006] = {
+		name = "【翻格子活动】战列三联主炮",
+		damage = "156 x 3",
+		base = 14340,
+		id = 960006,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			14350
+		}
+	},
+	[960007] = {
+		name = "【翻格子活动】战列四联主炮（法）",
+		damage = "120 x 4",
+		base = 90440,
+		id = 960007,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			90450
+		}
+	},
+	[960008] = {
+		name = "【翻格子活动】战列四联主炮（英）",
+		damage = "108 x 4",
+		base = 24040,
+		id = 960008,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			24050
+		}
+	},
+	[960009] = {
+		name = "【翻格子活动】铁血战斗机",
+		speciality = "空战",
+		type = 7,
+		rarity = 1,
+		tech = 1,
+		descrip = "默认装备",
+		value_2 = 0,
+		icon = "1",
+		nationality = 3,
+		ammo = "通常",
+		value_3 = 0,
+		id = 960009,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			{
+				6
+			}
+		},
+		weapon_id = {
+			121,
+			124
+		},
+		skill_id = {},
+		part_main = {
+			6,
+			7
+		},
+		part_sub = {
+			6,
+			7
+		},
+		equip_parameters = {},
+		label = {
+			"KMS",
+			"CV",
+			"FT"
+		}
+	},
+	[960010] = {
+		name = "【翻格子活动】铁血轰炸机",
+		speciality = "轰炸",
+		type = 9,
+		rarity = 1,
+		tech = 1,
+		descrip = "默认装备",
+		value_2 = 0,
+		icon = "1",
+		nationality = 3,
+		ammo = "通常",
+		value_3 = 0,
+		id = 960010,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			{
+				6
+			}
+		},
+		weapon_id = {
+			123
+		},
+		skill_id = {},
+		part_main = {
+			6,
+			7
+		},
+		part_sub = {
+			6,
+			7
+		},
+		equip_parameters = {},
+		label = {
+			"KMS",
+			"CV",
+			"DB"
+		}
+	},
+	[960011] = {
+		name = "【翻格子活动】重樱战斗机",
+		speciality = "空战",
+		type = 7,
+		rarity = 1,
+		tech = 1,
+		descrip = "默认装备",
+		value_2 = 0,
+		icon = "1",
+		nationality = 3,
+		ammo = "通常",
+		value_3 = 0,
+		id = 960011,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			{
+				6
+			}
+		},
+		weapon_id = {
+			117,
+			120
+		},
+		skill_id = {},
+		part_main = {
+			6,
+			7
+		},
+		part_sub = {
+			6,
+			7
+		},
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"CV",
+			"FT"
+		}
+	},
+	[960012] = {
+		name = "【翻格子活动】重樱鱼雷机",
+		speciality = "雷击",
+		type = 8,
+		rarity = 1,
+		tech = 1,
+		descrip = "默认装备",
+		value_2 = 0,
+		icon = "1",
+		nationality = 3,
+		ammo = "通常",
+		value_3 = 0,
+		id = 960012,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			{
+				6
+			}
+		},
+		weapon_id = {
+			118
+		},
+		skill_id = {},
+		part_main = {
+			6,
+			7
+		},
+		part_sub = {
+			6,
+			7
+		},
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"CV",
+			"TB"
+		}
+	},
+	[960013] = {
+		name = "【翻格子活动】重樱轰炸机",
+		speciality = "轰炸",
+		type = 9,
+		rarity = 1,
+		tech = 1,
+		descrip = "默认装备",
+		value_2 = 0,
+		icon = "1",
+		nationality = 3,
+		ammo = "通常",
+		value_3 = 0,
+		id = 960013,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			{
+				6
+			}
+		},
+		weapon_id = {
+			119
+		},
+		skill_id = {},
+		part_main = {
+			6,
+			7
+		},
+		part_sub = {
+			6,
+			7
+		},
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"CV",
+			"DB"
+		}
+	},
+	[960014] = {
+		name = "【翻格子活动】白鹰战斗机",
+		speciality = "空战",
+		type = 7,
+		rarity = 1,
+		tech = 1,
+		descrip = "默认装备",
+		value_2 = 0,
+		icon = "1",
+		nationality = 1,
+		ammo = "通常",
+		value_3 = 0,
+		id = 960014,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			{
+				6
+			}
+		},
+		weapon_id = {
+			109,
+			112
+		},
+		skill_id = {},
+		part_main = {
+			6,
+			7
+		},
+		part_sub = {
+			6,
+			7
+		},
+		equip_parameters = {},
+		label = {
+			"USS",
+			"CV",
+			"FT"
+		}
+	},
+	[960015] = {
+		name = "【翻格子活动】白鹰鱼雷机",
+		speciality = "雷击",
+		type = 8,
+		rarity = 1,
+		tech = 1,
+		descrip = "默认装备",
+		value_2 = 0,
+		icon = "1",
+		nationality = 1,
+		ammo = "通常",
+		value_3 = 0,
+		id = 960015,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			{
+				6
+			}
+		},
+		weapon_id = {
+			110
+		},
+		skill_id = {},
+		part_main = {
+			6,
+			7
+		},
+		part_sub = {
+			6,
+			7
+		},
+		equip_parameters = {},
+		label = {
+			"USS",
+			"CV",
+			"TB"
+		}
+	},
+	[960016] = {
+		name = "【翻格子活动】白鹰轰炸机",
+		speciality = "轰炸",
+		type = 9,
+		rarity = 1,
+		tech = 1,
+		descrip = "默认装备",
+		value_2 = 0,
+		icon = "1",
+		nationality = 1,
+		ammo = "通常",
+		value_3 = 0,
+		id = 960016,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			{
+				6
+			}
+		},
+		weapon_id = {
+			111
+		},
+		skill_id = {},
+		part_main = {
+			6,
+			7
+		},
+		part_sub = {
+			6,
+			7
+		},
+		equip_parameters = {},
+		label = {
+			"USS",
+			"CV",
+			"DB"
+		}
+	},
+	[960017] = {
+		name = "【翻格子活动】皇家战斗机",
+		speciality = "空战",
+		type = 7,
+		rarity = 1,
+		tech = 1,
+		descrip = "默认装备",
+		value_2 = 0,
+		icon = "1",
+		nationality = 2,
+		ammo = "通常",
+		value_3 = 0,
+		id = 960017,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			{
+				6
+			}
+		},
+		weapon_id = {
+			113,
+			116
+		},
+		skill_id = {},
+		part_main = {
+			6,
+			7
+		},
+		part_sub = {
+			6,
+			7
+		},
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"CV",
+			"FT"
+		}
+	},
+	[960018] = {
+		name = "【翻格子活动】皇家鱼雷机",
+		speciality = "雷击",
+		type = 8,
+		rarity = 1,
+		tech = 1,
+		descrip = "默认装备",
+		value_2 = 0,
+		icon = "1",
+		nationality = 2,
+		ammo = "通常",
+		value_3 = 0,
+		id = 960018,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			{
+				6
+			}
+		},
+		weapon_id = {
+			114
+		},
+		skill_id = {},
+		part_main = {
+			6,
+			7
+		},
+		part_sub = {
+			6,
+			7
+		},
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"CV",
+			"TB"
+		}
+	},
+	[960019] = {
+		name = "【翻格子活动】皇家轰炸机",
+		speciality = "轰炸",
+		type = 9,
+		rarity = 1,
+		tech = 1,
+		descrip = "默认装备",
+		value_2 = 0,
+		icon = "1",
+		nationality = 2,
+		ammo = "通常",
+		value_3 = 0,
+		id = 960019,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			{
+				6
+			}
+		},
+		weapon_id = {
+			115
+		},
+		skill_id = {},
+		part_main = {
+			6,
+			7
+		},
+		part_sub = {
+			6,
+			7
+		},
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"CV",
+			"DB"
+		}
+	},
+	[960020] = {
+		name = "【翻格子活动】鸢尾战斗机",
+		speciality = "空战",
+		type = 7,
+		rarity = 1,
+		tech = 1,
+		descrip = "默认装备",
+		value_2 = 0,
+		icon = "1",
+		nationality = 3,
+		ammo = "通常",
+		value_3 = 0,
+		id = 960020,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			{
+				6
+			}
+		},
+		weapon_id = {
+			125,
+			128
+		},
+		skill_id = {},
+		part_main = {
+			6,
+			7
+		},
+		part_sub = {
+			6,
+			7
+		},
+		equip_parameters = {},
+		label = {
+			"FFNF",
+			"CV",
+			"FT"
+		}
+	},
+	[960021] = {
+		name = "【翻格子活动】鸢尾鱼雷机",
+		speciality = "雷击",
+		type = 8,
+		rarity = 1,
+		tech = 1,
+		descrip = "默认装备",
+		value_2 = 0,
+		icon = "1",
+		nationality = 3,
+		ammo = "通常",
+		value_3 = 0,
+		id = 960021,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			{
+				6
+			}
+		},
+		weapon_id = {
+			126
+		},
+		skill_id = {},
+		part_main = {
+			6,
+			7
+		},
+		part_sub = {
+			6,
+			7
+		},
+		equip_parameters = {},
+		label = {
+			"FFNF",
+			"CV",
+			"TB"
+		}
+	},
+	[960022] = {
+		name = "【翻格子活动】鸢尾轰炸机",
+		speciality = "轰炸",
+		type = 9,
+		rarity = 1,
+		tech = 1,
+		descrip = "默认装备",
+		value_2 = 0,
+		icon = "1",
+		nationality = 3,
+		ammo = "通常",
+		value_3 = 0,
+		id = 960022,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			{
+				6
+			}
+		},
+		weapon_id = {
+			127
+		},
+		skill_id = {},
+		part_main = {
+			6,
+			7
+		},
+		part_sub = {
+			6,
+			7
+		},
+		equip_parameters = {},
+		label = {
+			"FFNF",
+			"CV",
+			"DB"
+		}
+	},
 	all = {
 		2,
 		3,
@@ -75375,6 +79385,9 @@ pg.equip_data_statistics = {
 		6,
 		7,
 		8,
+		20,
+		21,
+		22,
 		100,
 		101,
 		102,
@@ -75401,6 +79414,8 @@ pg.equip_data_statistics = {
 		127,
 		140,
 		141,
+		144,
+		147,
 		201,
 		202,
 		203,
@@ -75550,6 +79565,39 @@ pg.equip_data_statistics = {
 		688,
 		689,
 		690,
+		720,
+		721,
+		722,
+		723,
+		724,
+		725,
+		726,
+		727,
+		728,
+		729,
+		730,
+		740,
+		741,
+		742,
+		743,
+		744,
+		745,
+		746,
+		747,
+		748,
+		749,
+		750,
+		760,
+		761,
+		762,
+		763,
+		764,
+		765,
+		766,
+		767,
+		768,
+		769,
+		770,
 		1000,
 		1001,
 		1002,
@@ -76464,6 +80512,17 @@ pg.equip_data_statistics = {
 		12148,
 		12149,
 		12150,
+		12200,
+		12201,
+		12202,
+		12203,
+		12204,
+		12205,
+		12206,
+		12207,
+		12208,
+		12209,
+		12210,
 		13000,
 		13001,
 		13002,
@@ -76560,6 +80619,17 @@ pg.equip_data_statistics = {
 		14348,
 		14349,
 		14350,
+		14500,
+		14501,
+		14502,
+		14503,
+		14504,
+		14505,
+		14506,
+		14507,
+		14508,
+		14509,
+		14510,
 		15000,
 		15001,
 		15002,
@@ -76846,6 +80916,17 @@ pg.equip_data_statistics = {
 		18044,
 		18045,
 		18046,
+		18060,
+		18061,
+		18062,
+		18063,
+		18064,
+		18065,
+		18066,
+		18067,
+		18068,
+		18069,
+		18070,
 		18100,
 		18101,
 		18102,
@@ -76883,6 +80964,17 @@ pg.equip_data_statistics = {
 		19044,
 		19045,
 		19046,
+		19060,
+		19061,
+		19062,
+		19063,
+		19064,
+		19065,
+		19066,
+		19067,
+		19068,
+		19069,
+		19070,
 		19100,
 		19101,
 		19102,
@@ -77239,6 +81331,17 @@ pg.equip_data_statistics = {
 		24348,
 		24349,
 		24350,
+		25800,
+		25801,
+		25802,
+		25803,
+		25804,
+		25805,
+		25806,
+		25807,
+		25808,
+		25809,
+		25810,
 		26000,
 		26001,
 		26002,
@@ -77389,6 +81492,17 @@ pg.equip_data_statistics = {
 		26608,
 		26609,
 		26610,
+		26620,
+		26621,
+		26622,
+		26623,
+		26624,
+		26625,
+		26626,
+		26627,
+		26628,
+		26629,
+		26630,
 		27000,
 		27001,
 		27002,
@@ -77792,6 +81906,17 @@ pg.equip_data_statistics = {
 		33068,
 		33069,
 		33070,
+		33100,
+		33101,
+		33102,
+		33103,
+		33104,
+		33105,
+		33106,
+		33107,
+		33108,
+		33109,
+		33110,
 		34000,
 		34001,
 		34002,
@@ -78104,6 +82229,17 @@ pg.equip_data_statistics = {
 		36648,
 		36649,
 		36650,
+		36700,
+		36701,
+		36702,
+		36703,
+		36704,
+		36705,
+		36706,
+		36707,
+		36708,
+		36709,
+		36710,
 		37000,
 		37001,
 		37002,
@@ -78554,6 +82690,17 @@ pg.equip_data_statistics = {
 		44148,
 		44149,
 		44150,
+		44200,
+		44201,
+		44202,
+		44203,
+		44204,
+		44205,
+		44206,
+		44207,
+		44208,
+		44209,
+		44210,
 		45000,
 		45001,
 		45002,
@@ -79007,6 +83154,15 @@ pg.equip_data_statistics = {
 		60531,
 		60532,
 		60533,
+		60541,
+		60542,
+		60543,
+		60551,
+		60552,
+		60553,
+		60561,
+		60562,
+		60563,
 		61007,
 		61008,
 		61009,
@@ -79161,6 +83317,8 @@ pg.equip_data_statistics = {
 		72262,
 		72311,
 		72312,
+		72411,
+		72412,
 		73011,
 		73012,
 		73031,
@@ -79327,6 +83485,22 @@ pg.equip_data_statistics = {
 		79572,
 		79581,
 		79582,
+		79591,
+		79592,
+		79601,
+		79602,
+		79611,
+		79612,
+		79621,
+		79622,
+		79631,
+		79632,
+		79641,
+		79642,
+		79651,
+		79652,
+		79661,
+		79662,
 		90000,
 		90001,
 		90002,
@@ -79437,6 +83611,17 @@ pg.equip_data_statistics = {
 		90448,
 		90449,
 		90450,
+		90600,
+		90601,
+		90602,
+		90603,
+		90604,
+		90605,
+		90606,
+		90607,
+		90608,
+		90609,
+		90610,
 		100000,
 		594017,
 		594018,
@@ -79456,6 +83641,28 @@ pg.equip_data_statistics = {
 		800006,
 		800007,
 		800008,
-		800009
+		800009,
+		960001,
+		960002,
+		960003,
+		960004,
+		960005,
+		960006,
+		960007,
+		960008,
+		960009,
+		960010,
+		960011,
+		960012,
+		960013,
+		960014,
+		960015,
+		960016,
+		960017,
+		960018,
+		960019,
+		960020,
+		960021,
+		960022
 	}
 }

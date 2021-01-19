@@ -370,6 +370,76 @@ pg.player_resource = {
 		name = "skinTicket8",
 		itemid = 59175
 	},
+	[168] = {
+		id = 168,
+		name = "union4_pt",
+		itemid = 59176
+	},
+	[170] = {
+		id = 170,
+		name = "skinTicket9",
+		itemid = 59181
+	},
+	[171] = {
+		id = 171,
+		name = "shinano_pt",
+		itemid = 59182
+	},
+	[169] = {
+		id = 169,
+		name = "shinanoframept",
+		itemid = 59180
+	},
+	[172] = {
+		id = 172,
+		name = "pulinsidun_pt",
+		itemid = 59183
+	},
+	[173] = {
+		id = 173,
+		name = "skinTicket10",
+		itemid = 59186
+	},
+	[175] = {
+		id = 175,
+		name = "ouxiang2_pt",
+		itemid = 59185
+	},
+	[176] = {
+		id = 176,
+		name = "naerweikehaogan2",
+		itemid = 59188
+	},
+	[177] = {
+		id = 177,
+		name = "DOApt",
+		itemid = 59189
+	},
+	[178] = {
+		id = 178,
+		name = "skinTicket11",
+		itemid = 59190
+	},
+	[179] = {
+		id = 179,
+		name = "dexiv3framept",
+		itemid = 59191
+	},
+	[180] = {
+		id = 180,
+		name = "dexiv3_pt",
+		itemid = 59192
+	},
+	[181] = {
+		id = 181,
+		name = "skinTicket12",
+		itemid = 59193
+	},
+	[182] = {
+		id = 182,
+		name = "yidalifukeframept",
+		itemid = 59195
+	},
 	[1001] = {
 		id = 1001,
 		name = "vote2019_pt",
@@ -400,6 +470,16 @@ pg.player_resource = {
 		name = "nvpu_ticket",
 		itemid = 59968
 	},
+	[3001] = {
+		id = 3001,
+		name = "synchronize_ark",
+		itemid = 21901
+	},
+	[3002] = {
+		id = 3002,
+		name = "dashijiechongzhi",
+		itemid = 110002
+	},
 	[2006] = {
 		id = 2006,
 		name = "contribution_worldboss624",
@@ -409,6 +489,11 @@ pg.player_resource = {
 		id = 2007,
 		name = "worldboss624_ticket",
 		itemid = 60058
+	},
+	[3000] = {
+		id = 3000,
+		name = "guild_boss_damage",
+		itemid = 69000
 	},
 	get_id_list_by_name = {
 		gold = {
@@ -633,6 +718,48 @@ pg.player_resource = {
 		skinTicket8 = {
 			167
 		},
+		union4_pt = {
+			168
+		},
+		skinTicket9 = {
+			170
+		},
+		shinano_pt = {
+			171
+		},
+		shinanoframept = {
+			169
+		},
+		pulinsidun_pt = {
+			172
+		},
+		skinTicket10 = {
+			173
+		},
+		ouxiang2_pt = {
+			175
+		},
+		naerweikehaogan2 = {
+			176
+		},
+		DOApt = {
+			177
+		},
+		skinTicket11 = {
+			178
+		},
+		dexiv3framept = {
+			179
+		},
+		dexiv3_pt = {
+			180
+		},
+		skinTicket12 = {
+			181
+		},
+		yidalifukeframept = {
+			182
+		},
 		vote2019_pt = {
 			1001
 		},
@@ -651,11 +778,20 @@ pg.player_resource = {
 		nvpu_ticket = {
 			2005
 		},
+		synchronize_ark = {
+			3001
+		},
+		dashijiechongzhi = {
+			3002
+		},
 		contribution_worldboss624 = {
 			2006
 		},
 		worldboss624_ticket = {
 			2007
+		},
+		guild_boss_damage = {
+			3000
 		}
 	},
 	all = {
@@ -733,13 +869,30 @@ pg.player_resource = {
 		165,
 		166,
 		167,
+		168,
+		170,
+		171,
+		169,
+		172,
+		173,
+		175,
+		176,
+		177,
+		178,
+		179,
+		180,
+		181,
+		182,
 		1001,
 		2001,
 		2002,
 		2003,
 		2004,
 		2005,
+		3001,
+		3002,
 		2006,
-		2007
+		2007,
+		3000
 	}
 }

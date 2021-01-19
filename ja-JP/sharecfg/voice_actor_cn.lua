@@ -377,11 +377,11 @@ pg.voice_actor_CN = {
 		code = 94
 	},
 	{
-		actor_name = "春村奈々 ",
+		actor_name = "春村奈々",
 		code = 95
 	},
 	{
-		actor_name = "新名彩乃 ",
+		actor_name = "新名彩乃",
 		code = 96
 	},
 	{
@@ -761,7 +761,7 @@ pg.voice_actor_CN = {
 		code = 190
 	},
 	{
-		actor_name = "高橋未奈美",
+		actor_name = "高橋ミナミ",
 		code = 191
 	},
 	{
@@ -947,5 +947,73 @@ pg.voice_actor_CN = {
 	[242] = {
 		actor_name = "田口宏子",
 		code = 242
+	},
+	[243] = {
+		actor_name = "近藤玲奈",
+		code = 243
+	},
+	[244] = {
+		actor_name = "関根瞳",
+		code = 244
+	},
+	[245] = {
+		actor_name = "小岩井ことり",
+		code = 245
+	},
+	[246] = {
+		actor_name = "峯田茉優",
+		code = 246
+	},
+	[247] = {
+		actor_name = "天野聡美",
+		code = 247
+	},
+	[248] = {
+		actor_name = "高橋春香",
+		code = 248
+	},
+	[249] = {
+		actor_name = "汐見雪菜",
+		code = 249
+	},
+	[250] = {
+		actor_name = "桑島法子",
+		code = 250
+	},
+	[251] = {
+		actor_name = "野中藍",
+		code = 251
+	},
+	[252] = {
+		actor_name = "相沢舞",
+		code = 252
+	},
+	[253] = {
+		actor_name = "佐藤朱",
+		code = 253
+	},
+	[254] = {
+		actor_name = "原由実",
+		code = 254
+	},
+	[255] = {
+		actor_name = "新田ひより",
+		code = 255
+	},
+	[256] = {
+		actor_name = "七瀬彩夏",
+		code = 256
+	},
+	[257] = {
+		actor_name = "木村千咲",
+		code = 257
+	},
+	[258] = {
+		actor_name = "遠野ひかる",
+		code = 258
+	},
+	[259] = {
+		actor_name = "西本りみ",
+		code = 259
 	}
 }

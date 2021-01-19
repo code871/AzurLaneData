@@ -262,9 +262,14 @@ function scrollTo(slot0, slot1, slot2)
 
 	slot3 = GetComponent(slot0, typeof(ScrollRect))
 	slot4 = Vector2(slot1 or slot3.normalizedPosition.x, slot2 or slot3.normalizedPosition.y)
-	slot3.normalizedPosition = slot4
 
-	slot3.onValueChanged:Invoke(slot4)
+	onNextTick(function ()
+		if not IsNil(uv0) then
+			uv1.normalizedPosition = uv2
+
+			uv1.onValueChanged:Invoke(uv2)
+		end
+	end)
 end
 
 function scrollToBottom(slot0)
@@ -296,6 +301,14 @@ function ClearEventTrigger(slot0)
 	slot0:RemoveMoveFunc()
 end
 
+function ClearLScrollrect(slot0)
+	slot0.onStart = nil
+	slot0.onItemsUpdated = nil
+	slot0.onInitItem = nil
+	slot0.onUpdateItem = nil
+	slot0.onReturnItem = nil
+end
+
 function GetComponent(slot0, slot1)
 	return slot0:GetComponent(slot1)
 end
@@ -322,6 +335,10 @@ function RemoveComponent(slot0, slot1)
 
 		Object.Destroy(slot2)
 	end
+end
+
+function SetCompomentEnabled(slot0, slot1, slot2)
+	slot0:GetComponent(slot1).enabled = tobool(slot2)
 end
 
 function GetInChildren(slot0, slot1)
@@ -372,21 +389,33 @@ function seriesAsync(slot0, slot1)
 	end()
 end
 
-function parallelAsync(slot0, slot1)
-	if #slot0 == 0 then
-		slot1()
+function seriesAsyncExtend(slot0, slot1)
+	slot2 = nil
 
-		return
+	function ()
+		if #uv0 > 0 then
+			table.remove(uv0, 1)(uv1)
+		elseif uv2 then
+			uv2()
+		end
+	end()
+end
+
+function parallelAsync(slot0, slot1)
+	function slot3()
+		uv0 = uv0 - 1
+
+		if uv0 == 0 and uv1 then
+			uv1()
+		end
 	end
 
-	for slot7, slot8 in ipairs(slot0) do
-		slot8(function ()
-			uv0 = uv0 - 1
-
-			if uv0 == 0 then
-				uv1()
-			end
-		end)
+	if #slot0 > 0 then
+		for slot7, slot8 in ipairs(slot0) do
+			slot8(slot3)
+		end
+	elseif slot1 then
+		slot1()
 	end
 end
 
@@ -396,6 +425,8 @@ function limitedParallelAsync(slot0, slot1, slot2)
 
 		return
 	end
+
+	slot6 = nil
 
 	for slot10 = 1, math.min(slot1, slot3) do
 		slot0[slot10](function ()
@@ -469,6 +500,14 @@ function setAnchoredPosition(slot0, slot1)
 	slot2.anchoredPosition = slot1
 end
 
+function setAnchoredPosition3D(slot0, slot1)
+	slot3 = rtf(slot0).anchoredPosition3D
+	slot1.x = slot1.x or slot3.x
+	slot1.y = slot1.y or slot3.y
+	slot1.z = slot1.y or slot3.z
+	slot2.anchoredPosition3D = slot1
+end
+
 function getAnchoredPosition(slot0)
 	return rtf(slot0).anchoredPosition
 end
@@ -520,8 +559,12 @@ function setImageAlpha(slot0, slot1)
 	slot2.color = slot3
 end
 
-function getImageAlpha(slot0)
-	return GetComponent(slot0, typeof(Image)).color.a
+function getCanvasGroupAlpha(slot0)
+	return GetComponent(slot0, typeof(CanvasGroup)).alpha
+end
+
+function setCanvasGroupAlpha(slot0, slot1)
+	GetComponent(slot0, typeof(CanvasGroup)).alpha = slot1
 end
 
 function getTextColor(slot0)
@@ -631,7 +674,7 @@ end
 
 function setGray(slot0, slot1, slot2)
 	if slot1 and GetOrAddComponent(slot0, "UIGrayScale") or GetComponent(slot0, "UIGrayScale") then
-		slot3.recursive = slot2 ~= nil and slot2 or true
+		slot3.recursive = defaultValue(slot2, true)
 		slot3.enabled = slot1
 	end
 end

@@ -1,6 +1,10 @@
 slot1 = BilibiliSdkMgr.inst
 slot2 = "BLHX3hZ20200514"
 slot3 = "FTBLHX20190524WW"
+slot4 = 1
+slot5 = 2
+slot6 = 3
+slot7 = 4
 
 function StartSdkLogin()
 	Timer.New(function ()
@@ -135,9 +139,21 @@ function ShowMsgBox(slot0)
 	})
 end
 
+function OnShowLicenceFailed()
+end
+
+function OnShowPrivateFailed()
+end
+
+function CloseAgreementView()
+end
+
 return {
 	CheckPretest = function ()
 		return NetConst.GATEWAY_HOST == "line1-test-login-ios-blhx.bilibiligame.net" and (NetConst.GATEWAY_PORT == 80 or NetConst.GATEWAY_PORT == 10080) or NetConst.GATEWAY_HOST == "line1-test-login-bili-blhx.bilibiligame.net" and (NetConst.GATEWAY_PORT == 80 or NetConst.GATEWAY_PORT == 10080) or Application.isEditor
+	end,
+	CheckWorldTest = function ()
+		return NetConst.GATEWAY_PORT == 10080 and NetConst.GATEWAY_HOST == "blhx-test-world-ios-game.bilibiligame.net"
 	end,
 	InitSDK = function ()
 		if PLATFORM_CHT == PLATFORM_CODE then
@@ -197,6 +213,28 @@ return {
 	end,
 	OnAndoridBackPress = function ()
 		uv0:onBackPressed()
+	end,
+	ShowPrivate = function ()
+		slot0 = LuaHelper.GetCHPackageType()
+
+		print(slot0)
+
+		if slot0 == uv0 or slot0 == uv1 then
+			Application.OpenURL("https://game.bilibili.com/uosdk_privacy/h5?game_id=209&privacyProtocol=1")
+		elseif slot0 ~= uv2 then
+			uv3:ShowPrivate()
+		end
+	end,
+	ShowLicence = function ()
+		slot0 = LuaHelper.GetCHPackageType()
+
+		print(slot0)
+
+		if slot0 == uv0 or slot0 == uv1 then
+			Application.OpenURL("https://game.bilibili.com/uosdk_privacy/h5?game_id=209&userProtocol=1")
+		elseif slot0 ~= uv2 then
+			uv3:ShowLicence()
+		end
 	end,
 	GetBiliServerId = function ()
 		slot0 = uv0.serverId

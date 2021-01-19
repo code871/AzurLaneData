@@ -5,8 +5,6 @@ slot0 = pg.OSSMgr
 function slot0.Ctor(slot0)
 	slot0.instance = OSSStarter.ins
 	slot0.isIninted = false
-
-	ReflectionHelp.RefSetField(typeof("OSSStarter"), "debug", slot0.instance, false)
 end
 
 function slot0.InitConfig(slot0)
@@ -14,7 +12,15 @@ function slot0.InitConfig(slot0)
 		OSS_STS_URL = ""
 		OSS_ENDPOINT = "oss-cn-hangzhou.aliyuncs.com"
 		OSSBUCKETNAME = "blhx-dorm-oss"
-		FOLDERNAME = "dorm_bili/"
+		slot2 = pg.SdkMgr.GetInstance():GetChannelUID() == "cps" or slot1 == "yun" or slot1 == "0"
+
+		if PLATFORM == 8 then
+			FOLDERNAME = "dorm_ios/"
+		elseif slot2 then
+			FOLDERNAME = "dorm_bili/"
+		else
+			FOLDERNAME = "dorm_uo/"
+		end
 	elseif PLATFORM_CODE == PLATFORM_US then
 		OSS_STS_URL = ""
 		OSS_ENDPOINT = "oss-us-east-1.aliyuncs.com"

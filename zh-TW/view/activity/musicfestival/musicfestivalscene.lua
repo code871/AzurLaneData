@@ -109,7 +109,7 @@ function slot0.didEnter(slot0)
 	slot0:InitFacility(slot0.door, function ()
 		slot0, slot1 = getProxy(ChapterProxy):getLastMapForActivity()
 
-		if not slot0 or not getProxy(ActivityProxy):getActivityById(pg.expedition_data_by_map[slot0].on_activity) or slot2:isEnd() then
+		if not (slot0 and Map.StaticIsMapBindedActivityActive(slot0) and not Map.StaticIsMapRemaster(slot0)) then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("common_activity_end"))
 
 			return
@@ -140,7 +140,7 @@ function slot0.UpdateView(slot0)
 	setActive(slot0.btn_actskin:Find("tip"), slot1:getActivityById(ActivityConst.MUSIC_CHUIXUE7DAY_ID) and not slot5:isEnd() and slot5:readyToAchieve())
 	setActive(slot0.btn_ins:Find("tip"), getProxy(InstagramProxy):ShouldShowTip())
 	setActive(slot0.screen:Find("tip"), IdolPTPage.NeedTip())
-	setActive(slot0.foutain:Find("tip"), IdolMedalCollectionView.isHaveActivableMedal())
+	setActive(slot0.foutain:Find("tip"), IdolMedalCollectionMediator.isHaveActivableMedal())
 	setActive(slot0.stage:Find("tip"), getProxy(MiniGameProxy):GetHubByHubId(slot0.HUB_ID).count > 0)
 end
 

@@ -24,6 +24,22 @@ pg.item_data_frame = {
 		desc = "항구에서 2년 동안 계속해서 분투를 하신 지휘관 님들께 바칩니다.\n<color=#A7A7AAFF>2주년 한정 이벤트에 참여하면 획득할 수 있습니다.</color>",
 		scene = {}
 	},
+	[103] = {
+		name = "천일의 기념",
+		time_second = 0,
+		id = 103,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>다음 번에도, 그 다음 번에도, 무수한 다음 번의 천일을 함께 하고 싶어~ 쥬!</color>\n벽람항로 모항 개설 1000일 보상",
+		scene = {}
+	},
+	[104] = {
+		name = "3주년 기념",
+		time_second = 0,
+		id = 104,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>3년 동안 모항에서 분투해 온 지휘관들에게 바칩니다.</color>\n3주년 한정 이벤트에 참여하여 획득",
+		scene = {}
+	},
 	[201] = {
 		name = "한계 챌린저 ",
 		time_second = 0,
@@ -62,6 +78,22 @@ pg.item_data_frame = {
 		id = 205,
 		time_limit_type = 0,
 		desc = "<color=#ffffff>모든 용기를 내어 극한에 도전하는 지휘관 여러분께 바칩니다.</color>\n「한계 챌린지」 참여를 통해 획득할 수 있습니다. （20.06.3-20.08.31）",
+		scene = {}
+	},
+	[206] = {
+		name = "한계 챌린저 VI",
+		time_second = 0,
+		id = 206,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>모든 용기를 내어 극한에 도전하는 지휘관 여러분께 바칩니다.</color>\n「한계 챌린지」 참여를 통해 획득할 수 있습니다. （20.09.10-20.12.06）",
+		scene = {}
+	},
+	[207] = {
+		name = "한계 챌린저 VII",
+		time_second = 0,
+		id = 207,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>모든 용기를 내어 극한에 도전하는 지휘관 여러분께 바칩니다.</color>\n「한계 챌린지」 참여를 통해 획득할 수 있습니다. （20.12.17-21.03.22）",
 		scene = {}
 	},
 	[300] = {
@@ -144,15 +176,35 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>로열 네이비의 영광을 위해 싸워라, God Save The Queen </color>\n이벤트「영원한 밤의 환광」을 통해 획득",
 		scene = {}
 	},
+	[311] = {
+		name = "물에 비친 나비의 그림자",
+		time_second = 0,
+		id = 311,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>「현실에서도 꿈에서도, 희망의 빛이 영원하기를 바란다.」</color>\n「나비 바다 꿈의 꽃」 이벤트 획득",
+		scene = {}
+	},
+	[312] = {
+		name = "메탈 블러드의 용기",
+		time_second = 0,
+		id = 312,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>「냉철한 용기로 새빨간 메탈 블러드의 의지를 다시 되새긴다.」</color>\n「부상한 작전」 이벤트 획득",
+		scene = {}
+	},
 	all = {
 		0,
 		101,
 		102,
+		103,
+		104,
 		201,
 		202,
 		203,
 		204,
 		205,
+		206,
+		207,
 		300,
 		301,
 		302,
@@ -162,6 +214,8 @@ pg.item_data_frame = {
 		306,
 		307,
 		308,
-		309
+		309,
+		311,
+		312
 	}
 }

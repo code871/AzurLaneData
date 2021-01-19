@@ -8,7 +8,8 @@ pg.fleet_tech_ship_class = {
 		t_level_1 = 1,
 		nation = 1,
 		ships = {
-			10102
+			10102,
+			10140
 		}
 	},
 	[10102] = {
@@ -55,7 +56,8 @@ pg.fleet_tech_ship_class = {
 			10138,
 			10139,
 			10113,
-			10111
+			10111,
+			10133
 		}
 	},
 	[10105] = {
@@ -106,7 +108,8 @@ pg.fleet_tech_ship_class = {
 		ships = {
 			10206,
 			10207,
-			10208
+			10208,
+			10222
 		}
 	},
 	[10202] = {
@@ -120,7 +123,8 @@ pg.fleet_tech_ship_class = {
 			10209,
 			10210,
 			10214,
-			10215
+			10215,
+			10223
 		}
 	},
 	[10203] = {
@@ -150,6 +154,17 @@ pg.fleet_tech_ship_class = {
 			10212,
 			10213,
 			10205
+		}
+	},
+	[10205] = {
+		shiptype = 2,
+		name = "西雅圖",
+		t_level = 8,
+		id = 10205,
+		t_level_1 = 0,
+		nation = 1,
+		ships = {
+			19901
 		}
 	},
 	[10301] = {
@@ -208,7 +223,21 @@ pg.fleet_tech_ship_class = {
 		t_level_1 = 16,
 		nation = 1,
 		ships = {
-			10313
+			10308,
+			10313,
+			10309,
+			10310
+		}
+	},
+	[10306] = {
+		shiptype = 3,
+		name = "巴爾的摩級",
+		t_level = 8,
+		id = 10306,
+		t_level_1 = 20,
+		nation = 1,
+		ships = {
+			10316
 		}
 	},
 	[10501] = {
@@ -281,7 +310,19 @@ pg.fleet_tech_ship_class = {
 		nation = 1,
 		ships = {
 			10514,
-			10519
+			10519,
+			10520
+		}
+	},
+	[10507] = {
+		shiptype = 5,
+		name = "喬治亞",
+		t_level = 9,
+		id = 10507,
+		t_level_1 = 0,
+		nation = 1,
+		ships = {
+			19902
 		}
 	},
 	[10601] = {
@@ -328,6 +369,18 @@ pg.fleet_tech_ship_class = {
 			10704
 		}
 	},
+	[10606] = {
+		shiptype = 6,
+		name = "獨立級",
+		t_level = 4,
+		id = 10606,
+		t_level_1 = 30,
+		nation = 1,
+		ships = {
+			10722,
+			10729
+		}
+	},
 	[10701] = {
 		shiptype = 7,
 		name = "列星頓級",
@@ -372,7 +425,9 @@ pg.fleet_tech_ship_class = {
 		t_level_1 = 31,
 		nation = 1,
 		ships = {
-			10717
+			10709,
+			10717,
+			10738
 		}
 	},
 	[10801] = {
@@ -383,7 +438,9 @@ pg.fleet_tech_ship_class = {
 		t_level_1 = 32,
 		nation = 1,
 		ships = {
-			10801
+			10801,
+			10802,
+			10803
 		}
 	},
 	[11201] = {
@@ -504,6 +561,17 @@ pg.fleet_tech_ship_class = {
 		nation = 2,
 		ships = {
 			20101
+		}
+	},
+	[20111] = {
+		shiptype = 1,
+		name = "E級",
+		t_level = 4,
+		id = 20111,
+		t_level_1 = 1,
+		nation = 2,
+		ships = {
+			20129
 		}
 	},
 	[20201] = {
@@ -705,6 +773,7 @@ pg.fleet_tech_ship_class = {
 		t_level_1 = 61,
 		nation = 2,
 		ships = {
+			20505,
 			20506,
 			20507
 		}
@@ -971,6 +1040,17 @@ pg.fleet_tech_ship_class = {
 			30180
 		}
 	},
+	[30112] = {
+		shiptype = 1,
+		name = "北風級",
+		t_level = 9,
+		id = 30112,
+		t_level_1 = 0,
+		nation = 3,
+		ships = {
+			39903
+		}
+	},
 	[30201] = {
 		shiptype = 2,
 		name = "夕張",
@@ -1103,7 +1183,8 @@ pg.fleet_tech_ship_class = {
 		ships = {
 			30401,
 			30402,
-			30403
+			30403,
+			30404
 		}
 	},
 	[30402] = {
@@ -1220,6 +1301,17 @@ pg.fleet_tech_ship_class = {
 			30603
 		}
 	},
+	[30604] = {
+		shiptype = 6,
+		name = "龍驤",
+		t_level = 4,
+		id = 30604,
+		t_level_1 = 103,
+		nation = 3,
+		ships = {
+			30606
+		}
+	},
 	[30701] = {
 		shiptype = 7,
 		name = "赤城",
@@ -1313,6 +1405,17 @@ pg.fleet_tech_ship_class = {
 			31201
 		}
 	},
+	[31801] = {
+		shiptype = 18,
+		name = "吾妻",
+		t_level = 9,
+		id = 31801,
+		t_level_1 = 115,
+		nation = 3,
+		ships = {
+			39904
+		}
+	},
 	[40101] = {
 		shiptype = 1,
 		name = "1934型",
@@ -1332,6 +1435,7 @@ pg.fleet_tech_ship_class = {
 		t_level_1 = 114,
 		nation = 4,
 		ships = {
+			40118,
 			40119,
 			40120,
 			40121
@@ -1357,7 +1461,8 @@ pg.fleet_tech_ship_class = {
 		t_level_1 = 116,
 		nation = 4,
 		ships = {
-			40135
+			40135,
+			40136
 		}
 	},
 	[40105] = {
@@ -1450,7 +1555,19 @@ pg.fleet_tech_ship_class = {
 		t_level_1 = 124,
 		nation = 4,
 		ships = {
+			40501,
 			40502
+		}
+	},
+	[40502] = {
+		shiptype = 5,
+		name = "腓特烈大帝",
+		t_level = 9,
+		id = 40502,
+		t_level_1 = 0,
+		nation = 4,
+		ships = {
+			49902
 		}
 	},
 	[40701] = {
@@ -1473,6 +1590,7 @@ pg.fleet_tech_ship_class = {
 		nation = 4,
 		ships = {
 			40802,
+			40805,
 			40806
 		}
 	},
@@ -1485,6 +1603,7 @@ pg.fleet_tech_ship_class = {
 		nation = 4,
 		ships = {
 			40801,
+			40804,
 			40803
 		}
 	},
@@ -1632,7 +1751,8 @@ pg.fleet_tech_ship_class = {
 		t_level_1 = 140,
 		nation = 9,
 		ships = {
-			90501
+			90501,
+			99901
 		}
 	},
 	all = {
@@ -1647,21 +1767,25 @@ pg.fleet_tech_ship_class = {
 		10202,
 		10203,
 		10204,
+		10205,
 		10301,
 		10302,
 		10303,
 		10304,
 		10305,
+		10306,
 		10501,
 		10502,
 		10503,
 		10504,
 		10505,
 		10506,
+		10507,
 		10601,
 		10602,
 		10604,
 		10605,
+		10606,
 		10701,
 		10702,
 		10703,
@@ -1677,6 +1801,7 @@ pg.fleet_tech_ship_class = {
 		20108,
 		20109,
 		20110,
+		20111,
 		20201,
 		20202,
 		20203,
@@ -1715,6 +1840,7 @@ pg.fleet_tech_ship_class = {
 		30109,
 		30110,
 		30111,
+		30112,
 		30201,
 		30202,
 		30203,
@@ -1736,6 +1862,7 @@ pg.fleet_tech_ship_class = {
 		30601,
 		30602,
 		30603,
+		30604,
 		30701,
 		30702,
 		30703,
@@ -1744,6 +1871,7 @@ pg.fleet_tech_ship_class = {
 		30801,
 		30802,
 		31201,
+		31801,
 		40101,
 		40102,
 		40103,
@@ -1756,6 +1884,7 @@ pg.fleet_tech_ship_class = {
 		40303,
 		40401,
 		40501,
+		40502,
 		40701,
 		40801,
 		40802,

@@ -296,7 +296,9 @@ function slot0.initDamondsData(slot0)
 	slot0.damondItemVOs = {}
 
 	for slot5, slot6 in pairs(pg.pay_data_display.all) do
-		if PLATFORM_CODE ~= PLATFORM_JP and PLATFORM_CODE ~= PLATFORM_US or not pg.SdkMgr.GetInstance():CheckAudit() or slot6 ~= 1 then
+		if (PLATFORM_CODE == PLATFORM_JP or PLATFORM_CODE == PLATFORM_US) and pg.SdkMgr.GetInstance():CheckAudit() and slot6 == 1 then
+			-- Nothing
+		elseif not pg.SdkMgr.GetInstance():IgnorePlatform(slot1[slot6].ignorePlatform) then
 			table.insert(slot0.damondItemVOs, Goods.Create({
 				shop_id = slot6
 			}, Goods.TYPE_CHARGE))
@@ -608,7 +610,7 @@ function slot0.setItemVOs(slot0)
 			end
 
 			if slot7 == "ship_bag_size" and slot9 and slot10 then
-				if slot9 <= slot0.player.ship_bag_max and slot0.player.ship_bag_max <= slot10 then
+				if slot9 <= slot0.player:getMaxShipBag() and slot0.player:getMaxShipBag() <= slot10 then
 					print("ship_bag_size type shop id", slot6)
 					table.insert(slot0.itemVOs, Goods.Create({
 						count = 0,
@@ -616,7 +618,7 @@ function slot0.setItemVOs(slot0)
 					}, Goods.TYPE_MILITARY))
 				end
 			elseif slot7 == "equip_bag_max" and slot9 and slot10 then
-				if slot9 <= slot0.player.equip_bag_max and slot0.player.equip_bag_max <= slot10 then
+				if slot9 <= slot0.player:getMaxEquipmentBag() and slot0.player:getMaxEquipmentBag() <= slot10 then
 					print("equip_bag_max type shop id", slot6)
 					table.insert(slot0.itemVOs, Goods.Create({
 						count = 0,
@@ -659,7 +661,7 @@ function slot0.initItems(slot0)
 			slot2 = nil
 
 			if uv0.goodsVO:getConfig("effect_args") == "ship_bag_size" then
-				if Player.MAX_SHIP_BAG <= uv1.player.ship_bag_max then
+				if Player.MAX_SHIP_BAG <= uv1.player:getMaxShipBag() then
 					pg.TipsMgr.GetInstance():ShowTips(i18n("charge_ship_bag_max"))
 
 					return
@@ -671,7 +673,7 @@ function slot0.initItems(slot0)
 					id = Goods.SHIP_BAG_SIZE_ITEM
 				}).id
 			elseif slot0 == "equip_bag_size" then
-				if Player.MAX_EQUIP_BAG <= uv1.player.equip_bag_max then
+				if Player.MAX_EQUIP_BAG <= uv1.player:getMaxEquipmentBag() then
 					pg.TipsMgr.GetInstance():ShowTips(i18n("charge_equip_bag_max"))
 
 					return

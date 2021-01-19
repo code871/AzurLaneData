@@ -1632,7 +1632,8 @@ pg.commander_ability_template = {
 				{},
 				{
 					12,
-					13
+					13,
+					19
 				},
 				6,
 				3
@@ -1664,7 +1665,8 @@ pg.commander_ability_template = {
 				{},
 				{
 					12,
-					13
+					13,
+					19
 				},
 				6,
 				4
@@ -1696,7 +1698,8 @@ pg.commander_ability_template = {
 				{},
 				{
 					12,
-					13
+					13,
+					19
 				},
 				6,
 				6
@@ -2211,7 +2214,8 @@ pg.commander_ability_template = {
 				{},
 				{
 					12,
-					13
+					13,
+					19
 				},
 				1,
 				40
@@ -2243,7 +2247,8 @@ pg.commander_ability_template = {
 				{},
 				{
 					12,
-					13
+					13,
+					19
 				},
 				1,
 				56
@@ -2275,7 +2280,8 @@ pg.commander_ability_template = {
 				{},
 				{
 					12,
-					13
+					13,
+					19
 				},
 				1,
 				80
@@ -2682,7 +2688,8 @@ pg.commander_ability_template = {
 					3,
 					6,
 					12,
-					13
+					13,
+					19
 				},
 				9,
 				3
@@ -2729,7 +2736,8 @@ pg.commander_ability_template = {
 					3,
 					6,
 					12,
-					13
+					13,
+					19
 				},
 				9,
 				4
@@ -2776,7 +2784,8 @@ pg.commander_ability_template = {
 					3,
 					6,
 					12,
-					13
+					13,
+					19
 				},
 				9,
 				6
@@ -3623,7 +3632,7 @@ pg.commander_ability_template = {
 		name = "루키의 참모 능력 (USS)",
 		group_id = 211,
 		worth = 1,
-		desc = "<color=#ffde38>이글 유니온 함선</color>의 대공 수치가 8 상승, 항공 수치가 8 상승, 장전 수치가 3 상승",
+		desc = "<color=#3dc6ff>이글 유니온 함선</color>의 대공 수치가 8 상승, 항공 수치가 8 상승, 장전 수치가 3 상승",
 		next = 2112,
 		id = 2111,
 		icon = "baiying_two_1",
@@ -3676,7 +3685,7 @@ pg.commander_ability_template = {
 		name = "숙련된 참모 능력 (USS)",
 		group_id = 211,
 		worth = 2,
-		desc = "<color=#ffde38>이글 유니온 함선</color>의 대공 수치가 11 상승, 항공 수치가 11 상승, 장전 수치가 4 상승",
+		desc = "<color=#3dc6ff>이글 유니온 함선</color>의 대공 수치가 11 상승, 항공 수치가 11 상승, 장전 수치가 4 상승",
 		next = 2113,
 		id = 2112,
 		icon = "baiying_two_2",
@@ -3729,7 +3738,7 @@ pg.commander_ability_template = {
 		name = "참모 마스터 (USS)",
 		group_id = 211,
 		worth = 3,
-		desc = "<color=#ffde38>이글 유니온 함선</color>의 대공 수치가 16 상승, 항공 수치가 16 상승, 장전 수치가 6 상승",
+		desc = "<color=#3dc6ff>이글 유니온 함선</color>의 대공 수치가 16 상승, 항공 수치가 16 상승, 장전 수치가 6 상승",
 		next = 0,
 		id = 2113,
 		icon = "baiying_two_3",
@@ -3782,7 +3791,7 @@ pg.commander_ability_template = {
 		name = "루키의 참모 능력 (HMS)",
 		group_id = 212,
 		worth = 1,
-		desc = "<color=#ffde38>로열 네이비 함선</color>의 포격 수치가 7 상승, 대공 수치가 8 상승, 기동 수치가 1 상승",
+		desc = "<color=#3dc6ff>로열 네이비 함선</color>의 포격 수치가 7 상승, 대공 수치가 8 상승, 기동 수치가 1 상승",
 		next = 2122,
 		id = 2121,
 		icon = "huangjia_two_1",
@@ -3835,7 +3844,7 @@ pg.commander_ability_template = {
 		name = "숙련된 참모 능력 (HMS)",
 		group_id = 212,
 		worth = 2,
-		desc = "<color=#ffde38>로열 네이비 함선</color>의 포격 수치가 10 상승, 대공 수치가 11 상승, 기동 수치가 2 상승",
+		desc = "<color=#3dc6ff>로열 네이비 함선</color>의 포격 수치가 10 상승, 대공 수치가 11 상승, 기동 수치가 2 상승",
 		next = 2123,
 		id = 2122,
 		icon = "huangjia_two_2",
@@ -3888,7 +3897,7 @@ pg.commander_ability_template = {
 		name = "참모 마스터 (HMS)",
 		group_id = 212,
 		worth = 3,
-		desc = "<color=#ffde38>로열 네이비 함선</color>의 포격 수치가 14 상승, 대공 수치가 16 상승, 기동 수치가 3 상승",
+		desc = "<color=#3dc6ff>로열 네이비 함선</color>의 포격 수치가 14 상승, 대공 수치가 16 상승, 기동 수치가 3 상승",
 		next = 0,
 		id = 2123,
 		icon = "huangjia_two_3",
@@ -3941,7 +3950,7 @@ pg.commander_ability_template = {
 		name = "루키의 참모 능력 (IJN)",
 		group_id = 213,
 		worth = 1,
-		desc = "<color=#ffde38>사쿠라 엠파이어 함선</color>의 뇌장 수치가 8 상승, 항공 수치가 6 상승, 기동 수치가 1 상승",
+		desc = "<color=#3dc6ff>사쿠라 엠파이어 함선</color>의 뇌장 수치가 8 상승, 항공 수치가 6 상승, 기동 수치가 1 상승",
 		next = 2132,
 		id = 2131,
 		icon = "chongying_two_1",
@@ -3994,7 +4003,7 @@ pg.commander_ability_template = {
 		name = "숙련된 참모 능력 (IJN)",
 		group_id = 213,
 		worth = 2,
-		desc = "<color=#ffde38>사쿠라 엠파이어 함선</color>의 뇌장 수치가 11 상승, 항공 수치가 8 상승, 기동 수치가 2 상승",
+		desc = "<color=#3dc6ff>사쿠라 엠파이어 함선</color>의 뇌장 수치가 11 상승, 항공 수치가 8 상승, 기동 수치가 2 상승",
 		next = 2133,
 		id = 2132,
 		icon = "chongying_two_2",
@@ -4047,7 +4056,7 @@ pg.commander_ability_template = {
 		name = "참모 마스터 (IJN)",
 		group_id = 213,
 		worth = 3,
-		desc = "<color=#ffde38>사쿠라 엠파이어 함선</color>의 뇌장 수치가 16 상승, 항공 수치가 12 상승, 기동 수치가 3 상승",
+		desc = "<color=#3dc6ff>사쿠라 엠파이어 함선</color>의 뇌장 수치가 16 상승, 항공 수치가 12 상승, 기동 수치가 3 상승",
 		next = 0,
 		id = 2133,
 		icon = "chongying_two_3",
@@ -4100,7 +4109,7 @@ pg.commander_ability_template = {
 		name = "루키의 참모 능력 (KMS)",
 		group_id = 214,
 		worth = 1,
-		desc = "<color=#ffde38>메탈 블러드 함선</color>의 포격 수치가 6 상승, 뇌장 수치가 7 상승, 명중 수치가 1 상승",
+		desc = "<color=#3dc6ff>메탈 블러드 함선</color>의 포격 수치가 6 상승, 뇌장 수치가 7 상승, 명중 수치가 1 상승",
 		next = 2142,
 		id = 2141,
 		icon = "tiexue_two_1",
@@ -4151,7 +4160,7 @@ pg.commander_ability_template = {
 		name = "숙련된 참모 능력 (KMS)",
 		group_id = 214,
 		worth = 2,
-		desc = "<color=#ffde38>메탈 블러드 함선</color>의 포격 수치가 8 상승, 뇌장 수치가 10 상승, 명중 수치가 2 상승",
+		desc = "<color=#3dc6ff>메탈 블러드 함선</color>의 포격 수치가 8 상승, 뇌장 수치가 10 상승, 명중 수치가 2 상승",
 		next = 2143,
 		id = 2142,
 		icon = "tiexue_two_2",
@@ -4202,7 +4211,7 @@ pg.commander_ability_template = {
 		name = "참모 마스터 (KMS)",
 		group_id = 214,
 		worth = 3,
-		desc = "<color=#ffde38>메탈 블러드 함선</color>의 포격 수치가 12 상승, 뇌장 수치가 14 상승, 명중 수치가 3 상승",
+		desc = "<color=#3dc6ff>메탈 블러드 함선</color>의 포격 수치가 12 상승, 뇌장 수치가 14 상승, 명중 수치가 3 상승",
 		next = 0,
 		id = 2143,
 		icon = "tiexue_two_3",
@@ -4253,7 +4262,7 @@ pg.commander_ability_template = {
 		name = "루키의 참모 능력 (ROC)",
 		group_id = 215,
 		worth = 1,
-		desc = "<color=#ffde38>이스트 글림 함선</color>의 포격 수치가 7 상승, 대공 수치가 8 상승, 장전 수치가 3 상승",
+		desc = "<color=#3dc6ff>이스트 글림 함선</color>의 포격 수치가 7 상승, 대공 수치가 8 상승, 장전 수치가 3 상승",
 		next = 2152,
 		id = 2151,
 		icon = "",
@@ -4306,7 +4315,7 @@ pg.commander_ability_template = {
 		name = "숙련된 참모 능력 (ROC)",
 		group_id = 215,
 		worth = 2,
-		desc = "<color=#ffde38>이스트 글림 함선</color>의 포격 수치가 10 상승, 대공 수치가 11 상승, 장전 수치가 4 상승",
+		desc = "<color=#3dc6ff>이스트 글림 함선</color>의 포격 수치가 10 상승, 대공 수치가 11 상승, 장전 수치가 4 상승",
 		next = 2153,
 		id = 2152,
 		icon = "",
@@ -4359,7 +4368,7 @@ pg.commander_ability_template = {
 		name = "참모 마스터 (ROC)",
 		group_id = 215,
 		worth = 3,
-		desc = "<color=#ffde38>이스트 글림 함선</color>의 포격 수치가 14 상승, 대공 수치가 16 상승, 장전 수치가 6 상승",
+		desc = "<color=#3dc6ff>이스트 글림 함선</color>의 포격 수치가 14 상승, 대공 수치가 16 상승, 장전 수치가 6 상승",
 		next = 0,
 		id = 2153,
 		icon = "",
@@ -4412,7 +4421,7 @@ pg.commander_ability_template = {
 		name = "루키의 참모 능력 (SN)",
 		group_id = 217,
 		worth = 1,
-		desc = "<color=#ffde38>노스 유니온 함선</color>의 포격 수치가 8 상승, 장전 수치가 3 상승, 명중 수치가 1 상승",
+		desc = "<color=#3dc6ff>노스 유니온 함선</color>의 포격 수치가 8 상승, 장전 수치가 3 상승, 명중 수치가 1 상승",
 		next = 2172,
 		id = 2171,
 		icon = "",
@@ -4465,7 +4474,7 @@ pg.commander_ability_template = {
 		name = "숙련된 참모 능력 (SN)",
 		group_id = 217,
 		worth = 2,
-		desc = "<color=#ffde38>노스 유니온 함선</color>의 포격 수치가 11 상승, 장전 수치가 4 상승, 명중 수치가 2 상승",
+		desc = "<color=#3dc6ff>노스 유니온 함선</color>의 포격 수치가 11 상승, 장전 수치가 4 상승, 명중 수치가 2 상승",
 		next = 2173,
 		id = 2172,
 		icon = "",
@@ -4518,7 +4527,7 @@ pg.commander_ability_template = {
 		name = "참모 마스터 (SN)",
 		group_id = 217,
 		worth = 3,
-		desc = "<color=#ffde38>노스 유니온 함선</color>의 포격 수치가 16 상승, 장전 수치가 6 상승, 명중 수치가 3 상승",
+		desc = "<color=#3dc6ff>노스 유니온 함선</color>의 포격 수치가 16 상승, 장전 수치가 6 상승, 명중 수치가 3 상승",
 		next = 0,
 		id = 2173,
 		icon = "",
@@ -4571,7 +4580,7 @@ pg.commander_ability_template = {
 		name = "루키의 참모 능력 (FFNF)",
 		group_id = 218,
 		worth = 1,
-		desc = "<color=#ffde38>아이리스 리브레 함선</color>의 포격 수치가 8 상승, 장전 수치가 3 상승, 기동 수치가 2 상승",
+		desc = "<color=#3dc6ff>아이리스 리브레 함선</color>의 포격 수치가 8 상승, 장전 수치가 3 상승, 기동 수치가 2 상승",
 		next = 2182,
 		id = 2181,
 		icon = "",
@@ -4624,7 +4633,7 @@ pg.commander_ability_template = {
 		name = "숙련된 참모 능력 (FFNF)",
 		group_id = 218,
 		worth = 2,
-		desc = "<color=#ffde38>아이리스 리브레 함선</color>의 포격 수치가 11 상승, 장전 수치가 4 상승, 기동 수치가 3 상승",
+		desc = "<color=#3dc6ff>아이리스 리브레 함선</color>의 포격 수치가 11 상승, 장전 수치가 4 상승, 기동 수치가 3 상승",
 		next = 2183,
 		id = 2182,
 		icon = "",
@@ -4677,7 +4686,7 @@ pg.commander_ability_template = {
 		name = "참모 마스터 (FFNF)",
 		group_id = 218,
 		worth = 3,
-		desc = "<color=#ffde38>아이리스 리브레 함선</color>의 포격 수치가 16 상승, 장전 수치가 6 상승, 기동 수치가 5 상승",
+		desc = "<color=#3dc6ff>아이리스 리브레 함선</color>의 포격 수치가 16 상승, 장전 수치가 6 상승, 기동 수치가 5 상승",
 		next = 0,
 		id = 2183,
 		icon = "",
@@ -4730,7 +4739,7 @@ pg.commander_ability_template = {
 		name = "루키의 참모 능력 (MNF)",
 		group_id = 219,
 		worth = 1,
-		desc = "<color=#ffde38>비시아 도미니온 함선</color>의 포격 수치가 8 상승, 장전 수치가 3 상승, 명중 수치가 2 상승",
+		desc = "<color=#3dc6ff>비시아 도미니온 함선</color>의 포격 수치가 8 상승, 장전 수치가 3 상승, 명중 수치가 2 상승",
 		next = 2192,
 		id = 2191,
 		icon = "",
@@ -4783,7 +4792,7 @@ pg.commander_ability_template = {
 		name = "숙련된 참모 능력 (MNF)",
 		group_id = 219,
 		worth = 2,
-		desc = "<color=#ffde38>비시아 도미니온 함선</color>의 포격 수치가 11 상승, 장전 수치가 4 상승, 명중 수치가 3 상승",
+		desc = "<color=#3dc6ff>비시아 도미니온 함선</color>의 포격 수치가 11 상승, 장전 수치가 4 상승, 명중 수치가 3 상승",
 		next = 2193,
 		id = 2192,
 		icon = "",
@@ -4836,7 +4845,7 @@ pg.commander_ability_template = {
 		name = "참모 마스터 (MNF)",
 		group_id = 219,
 		worth = 3,
-		desc = "<color=#ffde38>비시아 도미니온 함선</color>의 포격 수치가 16 상승, 장전 수치가 6 상승, 명중 수치가 5 상승",
+		desc = "<color=#3dc6ff>비시아 도미니온 함선</color>의 포격 수치가 16 상승, 장전 수치가 6 상승, 명중 수치가 5 상승",
 		next = 0,
 		id = 2193,
 		icon = "",

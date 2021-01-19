@@ -7,7 +7,7 @@ pg.activity_const = {
 		act_id = 7
 	},
 	ANNIVERSARY_TASK_LIST_ID = {
-		act_id = 116
+		act_id = 45015
 	},
 	CHANGMENLUAO_BATTLE_ACTIVITY_ID = {
 		act_id = 114
@@ -31,7 +31,7 @@ pg.activity_const = {
 		act_id = 270
 	},
 	ACTIVITY_PRAY_POOL = {
-		act_id = 602
+		act_id = 45013
 	},
 	DAY7_LOGIN_ACTIVITY_ID = {
 		act_id = 3
@@ -136,7 +136,7 @@ pg.activity_const = {
 		act_id = 195
 	},
 	LONGXIANG_ACTIVITY_PT_ID = {
-		act_id = 522
+		act_id = 40174
 	},
 	SKIN_OSHIO = {
 		act_id = 204
@@ -376,7 +376,7 @@ pg.activity_const = {
 		act_id = 397
 	},
 	BAILEY_HALLOWEEN_REMAKE = {
-		act_id = 398
+		act_id = 40167
 	},
 	MEMPHIS_HALLOWEEN = {
 		act_id = 399
@@ -616,10 +616,25 @@ pg.activity_const = {
 		act_id = 606
 	},
 	ACTIVITY_BOSS_AISAIKESI_PT = {
-		act_id = 623
+		act_id = 45022
 	},
 	U557_RED_POCKET_RE = {
-		act_id = 673
+		act_id = 40166
+	},
+	SHINANO_EXP_ACT_ID = {
+		act_id = 679
+	},
+	JIUJIU_ADVENTURE_ID = {
+		act_id = 690
+	},
+	UR_ITEM_ACT_ID = {
+		act_id = 711
+	},
+	UR_TASK_ACT_ID = {
+		act_id = 713
+	},
+	MUSIC_FESTIVAL_ID_2 = {
+		act_id = 762
 	},
 	SUMMER_REMAKE = {
 		act_id = 40147
@@ -631,10 +646,10 @@ pg.activity_const = {
 		act_id = 30186
 	},
 	SANDIEGO_REFORM = {
-		act_id = 30198
+		act_id = 45019
 	},
 	SKIN_YAMASHIRO_II = {
-		act_id = 30199
+		act_id = 45018
 	},
 	MIKASA_MAIN_ACTIVITY = {
 		act_id = 40012
@@ -697,15 +712,15 @@ pg.activity_const = {
 		act_id = 40117
 	},
 	NEW_ORLEANS_LOGIN = {
-		act_id = 30421
+		act_id = 40165
 	},
 	NEW_ORLEANS_TASK = {
-		act_id = 30420
+		act_id = 40164
 	},
 	NEW_ORLEANS_Map = {
-		act_id = 30419
+		act_id = 40163
 	},
 	NEW_ORLEANS_Map_BATTLE = {
-		act_id = 30418
+		act_id = 40162
 	}
 }

@@ -34,6 +34,7 @@ slot0.OPEN_RED_PACKET_LAYER = "ActivityMediator:OPEN_RED_PACKET_LAYER"
 slot0.GO_MINI_GAME = "ActivityMediator.GO_MINI_GAME"
 slot0.GO_DECODE_MINI_GAME = "ActivityMediator:GO_DECODE_MINI_GAME"
 slot0.ON_MONTH_ACHIEVE = "on month achieve"
+slot0.ON_BOBING_RESULT = "on bobing result"
 
 function slot0.register(slot0)
 	slot0.UIAvalibleCallbacks = {}
@@ -165,7 +166,7 @@ function slot0.register(slot0)
 	slot0:bind(uv0.BATTLE_OPERA, function ()
 		slot0, slot1 = getProxy(ChapterProxy):getLastMapForActivity()
 
-		if not slot0 or not getProxy(ActivityProxy):getActivityById(pg.expedition_data_by_map[slot0].on_activity) or slot2:isEnd() then
+		if not (slot0 and Map.StaticIsMapBindedActivityActive(slot0) and not Map.StaticIsMapRemaster(slot0)) then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("common_activity_end"))
 
 			return
@@ -179,7 +180,7 @@ function slot0.register(slot0)
 	slot0:bind(uv0.SPECIAL_BATTLE_OPERA, function ()
 		slot0, slot1 = getProxy(ChapterProxy):getLastMapForActivity()
 
-		if not slot0 or not getProxy(ActivityProxy):getActivityById(pg.expedition_data_by_map[slot0].on_activity) or slot2:isEnd() then
+		if not (slot0 and Map.StaticIsMapBindedActivityActive(slot0) and not Map.StaticIsMapRemaster(slot0)) then
 			pg.m02:sendNotification(GAME.GO_SCENE, SCENE.LEVEL, {
 				chapterId = getProxy(ChapterProxy):getActiveChapter() and slot4.id,
 				mapIdx = slot4 and slot4:getConfig("map")
@@ -337,7 +338,7 @@ function slot0.handleNotification(slot0, slot1)
 			slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot3.awards, slot3.callback)
 		end
 	elseif slot2 == ActivityProxy.ACTIVITY_SHOW_BB_RESULT then
-		slot0.viewComponent:displayBBResult(slot3.numbers, slot3.callback)
+		slot0.viewComponent:emit(ActivityMediator.ON_BOBING_RESULT, slot3)
 	elseif slot2 == ActivityProxy.ACTIVITY_SHOW_LOTTERY_AWARD_RESULT then
 		slot0.viewComponent.pageDic[slot3.activityID]:showLotteryAwardResult(slot3.awards, slot3.number, slot3.callback)
 	elseif slot2 == GAME.COLORING_ACHIEVE_DONE then

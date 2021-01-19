@@ -15,19 +15,13 @@ function slot0.execute(slot0, slot1)
 	end
 
 	slot0:sendNotification(GAME.STOP_BATTLE_LOADING, {})
-
-	if pg.StoryMgr.GetInstance()._go.activeSelf then
-		pg.StoryMgr.GetInstance():EndStory()
-	end
+	pg.NewStoryMgr:GetInstance():Quit()
 
 	if pg.MsgboxMgr.GetInstance()._go.activeSelf then
 		pg.MsgboxMgr.GetInstance():hide()
 	end
 
-	slot5 = getProxy(SettingsProxy)
-
-	slot5:resetEquipSceneIndex()
-	slot5:resetActivityLayerIndex()
+	getProxy(SettingsProxy):Reset()
 	print("disconnect from server...-" .. tostring(slot2.code))
 	pg.ConnectionMgr.GetInstance():Disconnect()
 
@@ -41,6 +35,7 @@ function slot0.execute(slot0, slot1)
 	DockyardScene.indexFlag = nil
 	DockyardScene.indexFlag2 = nil
 	DockyardScene.indexFlag3 = nil
+	DockyardScene.indexFlag4 = nil
 	LevelMediator2.prevRefreshBossTimeTime = nil
 	ActivityMainScene.FetchReturnersTime = nil
 	ActivityMainScene.Data2Time = nil
@@ -48,6 +43,7 @@ function slot0.execute(slot0, slot1)
 	pg.SeriesGuideMgr.GetInstance():dispose()
 	pg.GuideMgr.GetInstance():endGuider()
 	PoolMgr.GetInstance():DestroyAllPrefab()
+	pg.GuildMsgBoxMgr.GetInstance():Hide()
 
 	if getProxy(UserProxy) then
 		if slot6:getRawData() then
@@ -71,6 +67,7 @@ function slot0.execute(slot0, slot1)
 			uv0.facade:removeProxy(FleetProxy.__cname)
 			uv0.facade:removeProxy(EquipmentProxy.__cname)
 			uv0.facade:removeProxy(ChapterProxy.__cname)
+			uv0.facade:removeProxy(WorldProxy.__cname)
 			uv0.facade:removeProxy(BagProxy.__cname)
 			uv0.facade:removeProxy(TaskProxy.__cname)
 			uv0.facade:removeProxy(MailProxy.__cname)
@@ -104,6 +101,7 @@ function slot0.execute(slot0, slot1)
 			uv0.facade:removeProxy(MiniGameProxy.__cname)
 			uv0.facade:removeProxy(EmojiProxy.__cname)
 			uv0.facade:removeProxy(AppreciateProxy.__cname)
+			uv0.facade:removeProxy(MetaCharacterProxy.__cname)
 		end
 	})
 

@@ -967,5 +967,73 @@ pg.voice_actor_CN = {
 	{
 		actor_name = "타구치 히로코",
 		code = 242
+	},
+	{
+		actor_name = "콘도 레이나",
+		code = 243
+	},
+	{
+		actor_name = "세키네 히토미",
+		code = 244
+	},
+	{
+		actor_name = "코이와이 코토리",
+		code = 245
+	},
+	{
+		actor_name = "미네다 마유",
+		code = 246
+	},
+	{
+		actor_name = "아마노 사토미",
+		code = 247
+	},
+	{
+		actor_name = "다카하시 하루카 ",
+		code = 248
+	},
+	{
+		actor_name = "시오미 유키나",
+		code = 249
+	},
+	{
+		actor_name = "쿠와시마 호코",
+		code = 250
+	},
+	{
+		actor_name = "노나카 아이",
+		code = 251
+	},
+	{
+		actor_name = "아이자와 마이",
+		code = 252
+	},
+	{
+		actor_name = "사토 아케미",
+		code = 253
+	},
+	{
+		actor_name = "하라 유미",
+		code = 254
+	},
+	{
+		actor_name = "닛타 히요리",
+		code = 255
+	},
+	{
+		actor_name = "나나세 아야카",
+		code = 256
+	},
+	{
+		actor_name = "키무라 치사",
+		code = 257
+	},
+	{
+		actor_name = "토오노 히카루",
+		code = 258
+	},
+	{
+		actor_name = "니시모토 리미",
+		code = 259
 	}
 }

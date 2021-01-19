@@ -32,6 +32,14 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>次の1000日もよろしくピョ！</color>\n　アズールレーン配信1000日記念チャットフレーム",
 		scene = {}
 	},
+	[104] = {
+		name = "三周年記念",
+		time_second = 0,
+		id = 104,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>Third　Anniversary！</color>\n　三周年記念イベントで開放可能",
+		scene = {}
+	},
 	[201] = {
 		name = "チャレンジャー",
 		time_second = 0,
@@ -78,6 +86,14 @@ pg.item_data_frame = {
 		id = 206,
 		time_limit_type = 0,
 		desc = "<color=#ffffff>チャレンジ精神に富む指揮官へ送るチャレンジフレーム</color>\nチャレンジモード第六期で入手可能（20.07.09-20.10.04）",
+		scene = {}
+	},
+	[207] = {
+		name = "チャレンジャーVII",
+		time_second = 0,
+		id = 207,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>チャレンジ精神に富む指揮官へ送るチャレンジフレーム</color>\nチャレンジモード第七期で入手可能（20.10.12-21.01.17）",
 		scene = {}
 	},
 	[300] = {
@@ -160,6 +176,22 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>王家と、女王陛下の栄光のために！  </color>\n――「極夜照らす幻光 」イベントで入手可能",
 		scene = {}
 	},
+	[311] = {
+		name = "蝶影蜃楼",
+		time_second = 0,
+		id = 311,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>「例えいつか覚める夢だろうと、この希望は――長く、永く……」</color>――「刹那觀る胡蝶の夢」イベントで入手可能",
+		scene = {}
+	},
+	[312] = {
+		name = "鉄血の鋳型",
+		time_second = 0,
+		id = 312,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>冷徹なる鋳型に、赤き我が血潮を流し込もう――</color>――「虚畳なりし限象」イベントで入手可能",
+		scene = {}
+	},
 	[401] = {
 		name = "殿堂入り：エンタープライズ",
 		time_second = 0,
@@ -184,17 +216,27 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>前回人気投票殿堂入り艦船テーマのチャットフレーム</color>\n「アズールレーン人気投票2019」殿堂入りページで入手可能",
 		scene = {}
 	},
+	[501] = {
+		name = "饅頭ピザ屋記念枠",
+		time_second = 0,
+		id = 501,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>美味しいピザを食べるピョ！</color>\n――コラボキャンペーン参加で入手可能",
+		scene = {}
+	},
 	all = {
 		0,
 		101,
 		102,
 		103,
+		104,
 		201,
 		202,
 		203,
 		204,
 		205,
 		206,
+		207,
 		300,
 		301,
 		302,
@@ -205,8 +247,11 @@ pg.item_data_frame = {
 		307,
 		308,
 		309,
+		311,
+		312,
 		401,
 		402,
-		403
+		403,
+		501
 	}
 }

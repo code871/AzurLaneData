@@ -75,7 +75,7 @@ pg.equip_data_by_type = {
 	{
 		distory_resource_gold_ratio = 2,
 		type_name = "その他",
-		equip_skin = 1,
+		equip_skin = 0,
 		equip_type = 10,
 		compare_group = 5,
 		type_name2 = "その他"
@@ -107,7 +107,7 @@ pg.equip_data_by_type = {
 	{
 		distory_resource_gold_ratio = 2,
 		type_name = "その他",
-		equip_skin = 1,
+		equip_skin = 0,
 		equip_type = 14,
 		compare_group = 5,
 		type_name2 = "その他"
@@ -115,18 +115,26 @@ pg.equip_data_by_type = {
 	{
 		distory_resource_gold_ratio = 2,
 		type_name = "その他",
-		equip_skin = 1,
+		equip_skin = 0,
 		equip_type = 15,
 		compare_group = 5,
 		type_name2 = "その他"
 	},
 	[17] = {
 		distory_resource_gold_ratio = 2,
-		type_name = "ヘリ ",
-		equip_skin = 1,
+		type_name = "ヘリ",
+		equip_skin = 0,
 		equip_type = 17,
 		compare_group = 5,
-		type_name2 = "ヘリ "
+		type_name2 = "ヘリ"
+	},
+	[18] = {
+		distory_resource_gold_ratio = 2,
+		type_name = "積載",
+		equip_skin = 0,
+		equip_type = 18,
+		compare_group = 5,
+		type_name2 = "積載"
 	},
 	all = {
 		1,
@@ -144,6 +152,7 @@ pg.equip_data_by_type = {
 		13,
 		14,
 		15,
-		17
+		17,
+		18
 	}
 }

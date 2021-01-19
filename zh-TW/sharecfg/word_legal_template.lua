@@ -134,3 +134,103 @@ function temp()
 end
 
 temp()
+
+function temp()
+	uv0.B = {
+		i = {
+			s = {
+				m = {
+					a = {
+						r = {
+							c = {
+								k = {
+									this = true
+								}
+							}
+						}
+					}
+				}
+			}
+		},
+		I = {
+			S = {
+				M = {
+					A = {
+						R = {
+							C = {
+								K = {
+									this = true
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0.b = {
+		i = {
+			s = {
+				m = {
+					a = {
+						r = {
+							c = {
+								k = {
+									this = true
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0.e = {
+		s = {
+			s = {
+				e = {
+					x = {
+						this = true
+					}
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0.E = {
+		s = {
+			s = {
+				e = {
+					x = {
+						this = true
+					}
+				}
+			}
+		},
+		S = {
+			S = {
+				E = {
+					X = {
+						this = true
+					}
+				}
+			}
+		}
+	}
+end
+
+temp()

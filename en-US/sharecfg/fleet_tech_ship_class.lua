@@ -399,6 +399,7 @@ pg.fleet_tech_ship_class = {
 		nation = 1,
 		ships = {
 			10722,
+			10723,
 			10729
 		}
 	},
@@ -600,7 +601,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[20110] = {
 		shiptype = 1,
-		name = "A-Class prototype",
+		name = "A-Class prototype destroyer",
 		t_level = 2,
 		id = 20110,
 		t_level_1 = 43,
@@ -618,6 +619,17 @@ pg.fleet_tech_ship_class = {
 		nation = 2,
 		ships = {
 			20129
+		}
+	},
+	[20112] = {
+		shiptype = 1,
+		name = "Tribal-Class ",
+		t_level = 5,
+		id = 20112,
+		t_level_1 = 39,
+		nation = 2,
+		ships = {
+			20132
 		}
 	},
 	[20113] = {
@@ -1149,7 +1161,8 @@ pg.fleet_tech_ship_class = {
 			30156,
 			30157,
 			30158,
-			30182
+			30182,
+			30184
 		}
 	},
 	[30110] = {
@@ -1226,7 +1239,8 @@ pg.fleet_tech_ship_class = {
 		ships = {
 			30210,
 			30211,
-			30317
+			30317,
+			30318
 		}
 	},
 	[30204] = {
@@ -1419,7 +1433,8 @@ pg.fleet_tech_ship_class = {
 		t_level_1 = 98,
 		nation = 3,
 		ships = {
-			30514
+			30514,
+			30512
 		}
 	},
 	[30601] = {
@@ -1475,7 +1490,9 @@ pg.fleet_tech_ship_class = {
 		t_level_1 = 102,
 		nation = 3,
 		ships = {
-			30607
+			30607,
+			30608,
+			30609
 		}
 	},
 	[30701] = {
@@ -1545,6 +1562,17 @@ pg.fleet_tech_ship_class = {
 			30707
 		}
 	},
+	[30707] = {
+		shiptype = 7,
+		name = "Yamato-class ",
+		t_level = 10,
+		id = 30707,
+		t_level_1 = 110,
+		nation = 3,
+		ships = {
+			30708
+		}
+	},
 	[30801] = {
 		shiptype = 8,
 		name = "Type B1",
@@ -1604,6 +1632,17 @@ pg.fleet_tech_ship_class = {
 			39904
 		}
 	},
+	[31901] = {
+		shiptype = 19,
+		name = "Kashino ",
+		t_level = 5,
+		id = 31901,
+		t_level_1 = 113,
+		nation = 3,
+		ships = {
+			31901
+		}
+	},
 	[40101] = {
 		shiptype = 1,
 		name = "Type 1934",
@@ -1632,20 +1671,22 @@ pg.fleet_tech_ship_class = {
 	},
 	[40103] = {
 		shiptype = 1,
-		name = "Type 1336A",
+		name = "Type 1936A",
 		t_level = 6,
 		id = 40103,
 		t_level_1 = 115,
 		nation = 4,
 		ships = {
 			40123,
+			40124,
 			40125,
-			40126
+			40126,
+			40128
 		}
 	},
 	[40104] = {
 		shiptype = 1,
-		name = "Type 1336B",
+		name = "Type 1936B",
 		t_level = 7,
 		id = 40104,
 		t_level_1 = 116,
@@ -1657,7 +1698,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[40105] = {
 		shiptype = 1,
-		name = "Type 1336C",
+		name = "Type 1936C",
 		t_level = 8,
 		id = 40105,
 		t_level_1 = 117,
@@ -1687,7 +1728,8 @@ pg.fleet_tech_ship_class = {
 		t_level_1 = 119,
 		nation = 4,
 		ships = {
-			40204
+			40204,
+			40205
 		}
 	},
 	[40203] = {
@@ -1736,6 +1778,17 @@ pg.fleet_tech_ship_class = {
 			49901
 		}
 	},
+	[40304] = {
+		shiptype = 3,
+		name = "P-Class ",
+		t_level = 5,
+		id = 40304,
+		t_level_1 = 123,
+		nation = 4,
+		ships = {
+			40309
+		}
+	},
 	[40401] = {
 		shiptype = 4,
 		name = "Scharnhorst-Class",
@@ -1782,6 +1835,17 @@ pg.fleet_tech_ship_class = {
 			49902
 		}
 	},
+	[40601] = {
+		shiptype = 6,
+		name = "Weser",
+		t_level = 4,
+		id = 40601,
+		t_level_1 = 124,
+		nation = 4,
+		ships = {
+			40601
+		}
+	},
 	[40701] = {
 		shiptype = 7,
 		name = "Graf Zeppelin-Class",
@@ -1790,7 +1854,8 @@ pg.fleet_tech_ship_class = {
 		t_level_1 = 125,
 		nation = 4,
 		ships = {
-			40701
+			40701,
+			40703
 		}
 	},
 	[40801] = {
@@ -1833,13 +1898,24 @@ pg.fleet_tech_ship_class = {
 	},
 	[40804] = {
 		shiptype = 8,
-		name = "Type IXB ",
+		name = "Type IXB",
 		t_level = 7,
 		id = 40804,
 		t_level_1 = 141,
 		nation = 4,
 		ships = {
 			40808
+		}
+	},
+	[40805] = {
+		shiptype = 8,
+		name = "Type IXA",
+		t_level = 7,
+		id = 40805,
+		t_level_1 = 140,
+		nation = 4,
+		ships = {
+			40810
 		}
 	},
 	[50101] = {
@@ -2263,6 +2339,7 @@ pg.fleet_tech_ship_class = {
 		20109,
 		20110,
 		20111,
+		20112,
 		20113,
 		20201,
 		20202,
@@ -2339,11 +2416,13 @@ pg.fleet_tech_ship_class = {
 		30704,
 		30705,
 		30706,
+		30707,
 		30801,
 		30802,
 		31201,
 		31701,
 		31801,
+		31901,
 		40101,
 		40102,
 		40103,
@@ -2355,15 +2434,18 @@ pg.fleet_tech_ship_class = {
 		40301,
 		40302,
 		40303,
+		40304,
 		40401,
 		40402,
 		40501,
 		40502,
+		40601,
 		40701,
 		40801,
 		40802,
 		40803,
 		40804,
+		40805,
 		50101,
 		50201,
 		50202,

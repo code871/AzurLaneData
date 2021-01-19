@@ -38,6 +38,9 @@ function slot0.Ctor(slot0, slot1, slot2, slot3)
 	setActive(slot0._go, true)
 
 	slot0.item = nil
+	slot0.cancelBtn = slot0.dragTF:Find("cancel")
+	slot0.rotationBtn = slot0.dragTF:Find("rotation")
+	slot0.okBtn = slot0.dragTF:Find("ok")
 	slot0.effects = {}
 end
 
@@ -48,6 +51,10 @@ function slot0.PlayAnim(slot0, slot1)
 end
 
 function slot0.PlayEffect(slot0, slot1)
+	if not slot1 or slot1 == "" then
+		return
+	end
+
 	if slot1 == slot0.loading then
 		return
 	end
@@ -73,6 +80,10 @@ function slot0.PlayEffect(slot0, slot1)
 end
 
 function slot0.StopEffect(slot0, slot1)
+	if not slot1 or slot1 == "" then
+		return
+	end
+
 	if slot0.loading == slot1 then
 		slot0.loading = nil
 	end
@@ -199,6 +210,10 @@ function slot0.SetSiblingIndex(slot0, slot1)
 	slot0._tf:SetSiblingIndex(slot1)
 end
 
+function slot0.GetTf(slot0)
+	return slot0._tf
+end
+
 function slot0.ReserseDir(slot0)
 	slot1 = slot0._tf.localScale
 	slot0._tf.localScale = Vector3(-slot1.x, slot1.y, slot1.z)
@@ -283,10 +298,14 @@ function slot0.TouchSpineAnim(slot0, slot1, slot2, slot3)
 	end
 
 	if slot10 and not slot0.touchSwitch then
+		pg.UIMgr.GetInstance():LoadingOn(false)
+
 		slot0.inPreAction = true
 
 		slot5:SetActionCallBack(function (slot0)
 			if slot0 == "finish" then
+				pg.UIMgr.GetInstance():LoadingOff()
+
 				uv0.inPreAction = false
 
 				uv1:SetActionCallBack(nil)
@@ -402,8 +421,12 @@ function slot0.Clear(slot0)
 			removeAllChildren(slot0)
 		end
 	end)
-	slot0.poolmgr:Enqueue(BackyardPoolMgr.POOL_NAME.FURNITURE, slot0._go)
 	ClearEventTrigger(slot0.dragEvent)
+	removeOnButton(slot0.okBtn)
+	removeOnButton(slot0.cancelBtn)
+	removeOnButton(slot0.rotationBtn)
+	removeOnButton(slot0.iconTF)
+	slot0.poolmgr:Enqueue(BackyardPoolMgr.POOL_NAME.FURNITURE, slot0._go)
 end
 
 return slot0

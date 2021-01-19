@@ -25,9 +25,9 @@ function slot2.ActiveBot(slot0, slot1, slot2)
 end
 
 function slot2.TryAutoSub(slot0)
-	if uv0.Battle.BattleState.IsAutoSubActive() and slot0._dataProxy:GetFleetByIFF(uv0.Battle.BattleConfig.FRIENDLY_CODE)._submarineVO:GetUseable() and slot2:GetCount() > 0 then
+	if uv0.Battle.BattleState.IsAutoSubActive(slot0:GetState():GetBattleType()) and slot0._dataProxy:GetFleetByIFF(uv0.Battle.BattleConfig.FRIENDLY_CODE)._submarineVO:GetUseable() and slot3:GetCount() > 0 then
 		slot0._dataProxy:SubmarineStrike(uv0.Battle.BattleConfig.FRIENDLY_CODE)
-		slot2:Cast()
+		slot3:Cast()
 	end
 end
 
@@ -45,8 +45,7 @@ end
 
 function slot2.InitBattleEvent(slot0)
 	slot0._dataProxy:RegisterEventListener(slot0, uv0.COMMON_DATA_INIT_FINISH, slot0.onUnitInitFinish)
-	slot0._dataProxy:RegisterEventListener(slot0, uv0.KIZUNA_JAMMING, slot0.onKizunaJamming)
-	slot0._dataProxy:RegisterEventListener(slot0, uv0.KIZUNA_JAMMING_ELIMINATE, slot0.onKizunaJammingEliminate)
+	slot0._dataProxy:RegisterEventListener(slot0, uv0.JAMMING, slot0.onJamming)
 end
 
 function slot2.Update(slot0, slot1)
@@ -63,12 +62,8 @@ function slot2.Update(slot0, slot1)
 	end
 end
 
-function slot2.onKizunaJamming(slot0)
-	slot0._jammingFlag = true
-end
-
-function slot2.onKizunaJammingEliminate(slot0)
-	slot0._jammingFlag = false
+function slot2.onJamming(slot0, slot1)
+	slot0._jammingFlag = slot1.Data.jammingFlag
 end
 
 function slot2.onUnitInitFinish(slot0, slot1)
@@ -108,8 +103,6 @@ function slot2.Dispose(slot0)
 	slot1:UnregisterEventListener(slot0, uv1.REFRESH_FLEET_FORMATION)
 	slot1:UnregisterEventListener(slot0, uv1.OVERRIDE_AUTO_BOT)
 	slot0._dataProxy:UnregisterEventListener(slot0, uv1.COMMON_DATA_INIT_FINISH)
-	slot0._dataProxy:UnregisterEventListener(slot0, uv1.KIZUNA_JAMMING)
-	slot0._dataProxy:UnregisterEventListener(slot0, uv1.KIZUNA_JAMMING_ELIMINATE)
 	uv0.Battle.BattleCameraUtil.GetInstance():UnregisterEventListener(slot0, uv1.CAMERA_FOCUS)
 	slot0._joyStickAutoBot:Dispose()
 
@@ -119,5 +112,5 @@ function slot2.Dispose(slot0)
 
 	slot0._manualWeaponAutoBot = nil
 
-	slot0.super.Dispose(slot0)
+	uv2.super.Dispose(slot0)
 end

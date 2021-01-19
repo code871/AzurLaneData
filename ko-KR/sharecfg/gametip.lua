@@ -351,6 +351,9 @@ pg.gametip = {
 	word_shipState_fight = {
 		tip = "해당 함선은 출격 중입니다."
 	},
+	word_shipState_world = {
+		tip = "该角色正在大型作战中"
+	},
 	word_shipState_rest = {
 		tip = "해당 함선은 숙소에서 휴식 중입니다."
 	},
@@ -579,8 +582,32 @@ pg.gametip = {
 	word_equipment_aircraft = {
 		tip = "함재기"
 	},
+	word_equipment_small_cannon = {
+		tip = "소형 함포"
+	},
+	word_equipment_medium_cannon = {
+		tip = "중형 함포"
+	},
+	word_equipment_big_cannon = {
+		tip = "대형 함포"
+	},
+	word_equipment_warship_torpedo = {
+		tip = "수면 어뢰"
+	},
+	word_equipment_submarine_torpedo = {
+		tip = "잠수함 어뢰"
+	},
 	word_equipment_antiaircraft = {
 		tip = "대공포"
+	},
+	word_equipment_fighter = {
+		tip = "전투기"
+	},
+	word_equipment_bomber = {
+		tip = "폭격기"
+	},
+	word_equipment_torpedo_bomber = {
+		tip = "뇌격기"
 	},
 	word_equipment_equip = {
 		tip = "설비"
@@ -593,6 +620,9 @@ pg.gametip = {
 	},
 	word_equipment_intensify = {
 		tip = "강화"
+	},
+	word_equipment_special = {
+		tip = "기타"
 	},
 	word_primary_weapons = {
 		tip = "주무장"
@@ -959,6 +989,9 @@ pg.gametip = {
 	battle_preCombatMediator_timeout = {
 		tip = "<color=#92fc63>작전 제한 시간</color>을 초과했습니다. 작전 실패..."
 	},
+	battle_preCombatMediator_activity_timeout = {
+		tip = "이벤트가 <color=#92fc63>종료되었습니다</color>. 확인을 터치하면 스테이지 선택 화면으로 돌아갑니다. "
+	},
 	battle_resourceSiteLayer_collecTimeDefault = {
 		tip = "의뢰시간：<color=#92fc63>--:--:--</color>"
 	},
@@ -1321,6 +1354,9 @@ pg.gametip = {
 	equipment_max_level = {
 		tip = "최대 레벨의 장비입니다."
 	},
+	equipment_upgrade_costcheck_error = {
+		tip = "강화에 필요한 재료를 확인 후 강화하세요"
+	},
 	exercise_count_insufficient = {
 		tip = "연습 횟수가 부족합니다."
 	},
@@ -1638,6 +1674,12 @@ pg.gametip = {
 	mail_takeAttachment_error_noAttach = {
 		tip = "첨부 아이템을 수령하지 못했습니다."
 	},
+	mail_takeAttachment_error_noWorld = {
+		tip = "大型作战尚未开启，附件暂时不可领取。"
+	},
+	mail_takeAttachment_error_reWorld = {
+		tip = "大型作战已经重置，领取的附件将被等比转化为战备物资兑换券。确认领取吗？"
+	},
 	mail_count = {
 		tip = "첨부 아이템 $1건"
 	},
@@ -1810,11 +1852,15 @@ pg.gametip = {
 수 없습니다.
 5. 물감은 이벤트 임무 연료 누적 소모로 획득할 수 있습니다.
 7. 완료 보상 목록:
-	1번 그림: 랜덤 교본T3x3
-	2번 그림: 범용 부속T3x4
-	3번 그림: 꼬마 일러스트리어스x1
+	1번 그림: 랜덤 교본 T2*2, 물자*300
+	2번 그림: 랜덤 개조 도면 T2*2, 연료*100
+	3번 그림: 랜덤 부속 T2*3, 물자*300
+	4번 그림:「명품 책장」
+	5번 그림: 방어 교본 T3*2, 물자*300
+	6번 그림: 범용 부속*3, 연료*100
+	7번 그림: Z23 코스튬 「책장 옆의 “풍경”?」
 8. 이벤트 종료 후 사용하지 않은 물감은 사라집니다.
-9. 6월 18일 전 매일 완성 가능한 그림이 하나씩 해제됩니다.]]
+9. 12월 23일 전 매일 완성 가능한 그림이 하나씩 해제됩니다.]]
 			}
 		}
 	},
@@ -2151,6 +2197,9 @@ pg.gametip = {
 	},
 	ship_formationUI_exercise_fleetName = {
 		tip = "연습전 함대"
+	},
+	ship_formationUI_fleetName_world = {
+		tip = "大型作战舰队"
 	},
 	ship_formationUI_changeFormationError_flag = {
 		tip = "진형 변경 도중 에러가 발생했습니다."
@@ -2622,11 +2671,441 @@ pg.gametip = {
 			}
 		}
 	},
+	levelScene_select_SP_OP = {
+		tip = "작전 아이템 선택"
+	},
+	levelScene_unselect_SP_OP = {
+		tip = "작전 아이템 사용 안함"
+	},
+	levelScene_select_SP_OP_reminder = {
+		tip = [[
+고효율 작전 명령서 사용하겠습니까?  
+사용 후 작전 중 전투에 필요한 연료 소모가 100% 증가하며;
+전투 결산 시 지휘관、지휘냥、캐릭터 경험치가  100% 증가합니다, 추가적으로 1회 드랍;
+ 기분 수치 소모, 호감도 획득 또한 100% 증가합니다.]]
+	},
 	tack_tickets_max_warning = {
 		tip = "<color=#ffde38>데이터 키</color>의 소지 횟수에는 한계가 있습니다. 임무 보수인 데이터 키는 <color=#ff5c5c>$1</color> 개 입수 가능합니다. 임무 보수를 받으시겠습니까?"
 	},
 	error_refresh_sub_chapter = {
 		tip = "더 이상 구조 임무를 진행할 수 없습니다."
+	},
+	world_battle_count = {
+		tip = "交战次数说明文本占坑"
+	},
+	world_fleetName1 = {
+		tip = "第 一 舰 队"
+	},
+	world_fleetName2 = {
+		tip = "第 二 舰 队"
+	},
+	world_fleetName3 = {
+		tip = "第 三 舰 队"
+	},
+	world_fleetName4 = {
+		tip = "第 四 舰 队"
+	},
+	world_fleetName5 = {
+		tip = "潜 艇 舰 队"
+	},
+	world_ship_repair_1 = {
+		tip = "常规维修$1需要：\n<icon name=world_money w=0.7 h=0.7/>*$2"
+	},
+	world_ship_repair_2 = {
+		tip = "彻底维修$1需要：\n<icon name=world_money w=0.7 h=0.7/>*$2"
+	},
+	world_ship_repair_all = {
+		tip = "修复所有舰船需要：\n<icon name=world_money w=0.7 h=0.7/>*$1"
+	},
+	world_ship_repair_no_need = {
+		tip = "没有舰船需要修理"
+	},
+	world_event_teleport_alter = {
+		tip = "即将前往其他海域，当前交战中的舰队将会撤退"
+	},
+	world_transport_battle_alter = {
+		tip = "存在正处于交战中的舰队，无法前往其他海域"
+	},
+	world_transport_locked = {
+		tip = "当前海域尚未压制，请将舰队移动至海域边缘前往相邻区域"
+	},
+	world_target_count = {
+		tip = "当前可领取目标奖励$1个"
+	},
+	world_help_tip = {
+		tip = {
+			{
+				info = "\n大型作战说明：(未使用)"
+			}
+		}
+	},
+	world_dangerbattle_confirm = {
+		tip = "敌方的攻击、耐久、作战效能都受到了极大强化！\n是否确认进行战斗？"
+	},
+	world_stamina_exchange = {
+		tip = "行动力不足，是否花费<icon name=oil w=0.7 h=0.7/>$1兑换行动力*$2？"
+	},
+	world_stamina_not_enough = {
+		tip = "行动力不足"
+	},
+	world_stamina_recover = {
+		tip = "※行动力小于200时，每 <color=#92fc63>10分钟</color> 恢复<color=#92fc63>1</color>点行动力"
+	},
+	world_stamina_text = {
+		tip = "花费<color=#92fc63>$1</color>石油购买行动力<color=#92fc63>$2</color>点，本周剩余<color=#92fc63>$3/$4</color>次"
+	},
+	world_stamina_text2 = {
+		tip = "使用<color=#92fc63>$1</color>后恢复行动力<color=#92fc63>$2</color>点"
+	},
+	world_stamina_resetwarning = {
+		tip = "注意：大型作战即将<color=#ff5c5c>重置</color>，重置后\n多于100的行动力<color=#ff5c5c>不会被保留</color>，\n指挥官请合理制定舰队作战策略！"
+	},
+	world_ship_healthy = {
+		tip = "所选目标无需修理！\n是否继续使用"
+	},
+	world_map_dangerous = {
+		tip = "未配置tip"
+	},
+	world_map_not_open = {
+		tip = "海域尚未开放"
+	},
+	world_map_locked_stage = {
+		tip = "海域尚未开放"
+	},
+	world_map_locked_border = {
+		tip = "周边海域未压制"
+	},
+	world_item_allocate_panel_fleet_info_text = {
+		tip = "未配置tip"
+	},
+	world_redeploy_not_change = {
+		tip = "部署前后舰队成员没有发生变化，是否完成部署？"
+	},
+	world_redeploy_warn = {
+		tip = "重新部署时，停留在港口的舰船将会返回港区船坞，是否继续？"
+	},
+	world_redeploy_cost_tip = {
+		tip = "完成本次舰队部署需要消耗$1行动力，是否继续？\n(当前行动力：$2；指令使用间隔越短，行动力消耗越高)"
+	},
+	world_redeploy_tip = {
+		tip = "尚未部署该舰队"
+	},
+	world_fleet_choose = {
+		tip = "在大型作战中，战斗将不会影响心情与消耗石油"
+	},
+	world_fleet_formation_not_valid = {
+		tip = "必须部署$1"
+	},
+	world_fleet_in_vortex = {
+		tip = "舰队进入水流湍急的漩涡之中，移动能力受限。"
+	},
+	world_stage_help = {
+		tip = {
+			disableScroll = true,
+			pageMode = true,
+			ImageMode = true,
+			windowSize = {
+				x = 1263,
+				y = 873
+			},
+			windowPos = {
+				y = -70
+			},
+			helpSize = {
+				x = 1176,
+				y = 1024
+			}
+		}
+	},
+	world_transport_disable = {
+		tip = "当前海域无法通过边界区域离开"
+	},
+	world_resource_tip_1 = {
+		tip = "未资源提示1(未使用)"
+	},
+	world_resource_tip_2 = {
+		tip = "未资源提示1(未使用)"
+	},
+	world_instruction_all_1 = {
+		tip = "该功能未开启"
+	},
+	world_instruction_help_1 = {
+		tip = {
+			{
+				info = [[
+  <color=#92fc63>舰队部署</color>
+   在己方港口海域，可以从港区船坞中重新部署参与
+大型作战的舰队，并为所有舰船恢复耐久与士气。 
+
+  <color=#92fc63>舰队维护</color>
+  为所有舰队恢复士气与耐久，并消除战损状态。
+
+  <color=#92fc63>空域侦查</color>
+  消耗行动力侦查当前海域的全部区域。
+
+  <color=#92fc63>潜艇支援</color>
+  可以部署与呼叫潜艇编队支援，潜艇部队需要在港
+  口海域进行部署。
+ ]]
+			}
+		}
+	},
+	world_instruction_redeploy_1 = {
+		tip = "当前海域无法进行舰队部署，请前往我方港口海域"
+	},
+	world_instruction_redeploy_2 = {
+		tip = "舰队部署已完成，所有舰船的耐久与士气都恢复了"
+	},
+	world_instruction_redeploy_3 = {
+		tip = "舰队正在运送特殊物件，无法进行部署，请先将特殊物件归位。"
+	},
+	world_instruction_morale_1 = {
+		tip = "是否消耗$1行动力为所有舰队恢复士气与耐久，并消除战损状态？(当前行动力：$2；指令使用后，一段时间内无法再次使用)"
+	},
+	world_instruction_morale_2 = {
+		tip = "各舰队士气高昂，无需进行士气恢复"
+	},
+	world_instruction_morale_3 = {
+		tip = "所有舰队的士气恢复完毕"
+	},
+	world_instruction_submarine_1 = {
+		tip = "当前海域无法使用该功能"
+	},
+	world_instruction_submarine_2 = {
+		tip = "是否消耗$1行动力向当前海域派遣潜艇舰队？\n(当前行动力：$2；指令使用间隔越短，行动力消耗越高)"
+	},
+	world_instruction_submarine_3 = {
+		tip = "当前地图已部署有潜艇舰队"
+	},
+	world_instruction_submarine_4 = {
+		tip = "尚未部署潜艇舰队，无法呼叫支援"
+	},
+	world_instruction_submarine_5 = {
+		tip = "潜艇舰队已撤离"
+	},
+	world_instruction_submarine_6 = {
+		tip = "离开当前海域后，潜艇舰队会自动返回我方港口待命，是否离开？"
+	},
+	world_instruction_submarine_7 = {
+		tip = "当前海域部署的潜艇舰队弹药耗尽，是否消耗\n$1行动力为潜艇舰队补充弹药并恢复状态？\n(当前行动力：$2；指令使用间隔越短，行动力消耗越高)"
+	},
+	world_instruction_detect_1 = {
+		tip = "是否消耗$1行动力侦查当前海域的全部区域？\n(当前行动力：$2；指令使用间隔越短，行动力消耗越高)"
+	},
+	world_instruction_detect_2 = {
+		tip = "当前海域已侦查完毕"
+	},
+	world_instruction_supply_1 = {
+		tip = "是否消耗$1行动力申请一份基础补给？(当前行动力：$2)(未使用)"
+	},
+	world_instruction_supply_2 = {
+		tip = "$1后可再次进行舰队维护"
+	},
+	world_item_recycle_1 = {
+		tip = "重置后道具将被转化"
+	},
+	world_item_recycle_2 = {
+		tip = "重置后道具将会消失"
+	},
+	world_item_origin = {
+		tip = "该道具可由以下方式获取"
+	},
+	world_shop_bag_unactivated = {
+		tip = "大型作战尚未激活，无法购买，请首先进入大型作战"
+	},
+	world_shop_preview_tip = {
+		tip = "重置后可购买商品预览"
+	},
+	world_map_title_tips_en = {
+		tip = "OPERATION INFO"
+	},
+	world_map_title_tips = {
+		tip = "作战情报"
+	},
+	world_mapbuff_attrtxt_1 = {
+		tip = "攻击调整"
+	},
+	world_mapbuff_attrtxt_2 = {
+		tip = "耐久调整"
+	},
+	world_mapbuff_attrtxt_3 = {
+		tip = "恢复干扰"
+	},
+	world_mapbuff_compare_txt = {
+		tip = "适应性压制"
+	},
+	world_wind_move = {
+		tip = "无法前往目标区域，请首先转移已位于目标区域中的舰队"
+	},
+	world_battle_pause = {
+		tip = "OPERATION"
+	},
+	world_battle_pause2 = {
+		tip = "大型作战"
+	},
+	world_task_samemap = {
+		tip = "目标海域存在尚未完成的任务，无法接受该任务"
+	},
+	world_task_maplock = {
+		tip = "当前海域存在尚未完成的任务，目前无法离开，请在<color=#ff5c5c>情报</color>中进行确认。"
+	},
+	world_task_goto0 = {
+		tip = "当前海域并非任务目标海域"
+	},
+	world_task_goto3 = {
+		tip = "舰队已位于任务目标海域"
+	},
+	world_task_view1 = {
+		tip = "任务位置："
+	},
+	world_task_view2 = {
+		tip = "当前位置："
+	},
+	world_task_view3 = {
+		tip = "不明"
+	},
+	world_task_refuse1 = {
+		tip = "任务已到达领取上限，请完成一些任务后再来领取吧"
+	},
+	world_sairen_title = {
+		tip = "塞壬控制力"
+	},
+	world_sairen_description1 = {
+		tip = "当前海域塞壬控制力为<color=#3dc6ff>$1%</color>"
+	},
+	world_sairen_description2 = {
+		tip = "当前海域塞壬控制力为<color=#ffde38>$1%</color>"
+	},
+	world_sairen_description3 = {
+		tip = "当前海域塞壬控制力为<color=#ff5c5c>$1%</color>"
+	},
+	world_low_morale = {
+		tip = "当前舰队士气过低，无法与强敌战斗！\n提示：取得任意战斗胜利均可恢复舰队的士气。"
+	},
+	world_recycle_notice = {
+		tip = "「大型作战」将在退出后进行重置，是否继续退出？"
+	},
+	world_recycle_item_transform = {
+		tip = "「大型作战」已经重置，尚未使用的作战物资已被转换为战备物资兑换券："
+	},
+	world_exit_tip = {
+		tip = "需要暂时离开大型作战么？"
+	},
+	world_consume_carry_tips = {
+		tip = "未配置tip"
+	},
+	world_boss_help_meta = {
+		tip = {
+			{
+				info = [[
+信标·烬功能说明
+
+1. <color=#92fc63>2020.12.22-2021.3.18</color>期间限时开放「龙·META」的
+挑战，在此期间指挥官可挑战「龙·META」累计其同步
+值获取<color=#92fc63>「龙·META」角色</color>及其他丰厚奖励
+ <color=#ff5c5c>注意：同步值将于时间结束后消失</color>
+
+2.「余烬信标数据」获取与解析
+·指挥官可通过在大型作战中获取「余烬信标数据」，达
+到指定数据量后进行解析并发现特定余烬信标
+·每日最多可解析 <color=#92fc63>2次</color>，次数于每日0点重置，尚未使用
+的「余烬信标数据」将会保留。
+·每次解析「余烬信标数据」所需量为<color=#92fc63>100</color>点
+
+3.挑战自己解析的信标
+·第一次挑战自己解析的信标不会消耗石油，从第二次
+开始每次挑战消耗<color=#92fc63>40</color>点石油。(不会消耗挑战次数)
+·当信标HP归零后视为战斗胜利，指挥官可以领取大量
+角色同步值奖励。
+·每个被解析的信标只会存在<color=#92fc63>24小时</color>，过期后将会消失，
+记得向其他指挥官请求支援哦。
+·每次挑战成功后，信标的强度将会提升1阶段，总计15
+阶段。随着阶段提升，战斗奖励也会提升。
+
+4.挑战其他信标
+·在信标列表界面可以挑战其他指挥官发起求助的信标，
+参与其他指挥官发布的信标战斗结束后，将会根据造成
+的伤害程度<color=#92fc63>立刻获得角色同步值奖励</color>。
+·每次挑战需要消耗1点挑战次数，不需要消耗石油
+·每日拥有总计<color=#92fc63>3</color>点挑战次数，每日0点重置
+·同一个信标最多能允许累计30位指挥官进行挑战
+
+5.战斗说明
+·挑战信标·烬只能使用大型作战中的舰船，暂不可使用
+指挥喵与潜艇
+·战斗结算时不会获得经验值，不会影响舰船心情值
+·战斗中不可中途退出，如果出现网络波动导致掉线的
+情况：
+①挑战自己解析的信标时将会消耗40点石油(非第一次挑
+战)，且不会计算已造成的伤害
+②挑战信标列表中的信标时将会消耗挑战次数且无法获得
+任何奖励
+  <color=#92fc63>请在参与作战时保持网络环境畅通</color>]]
+			}
+		}
+	},
+	world_close = {
+		tip = "大型作战已经关闭，暂时无法进入。"
+	},
+	world_catsearch_success = {
+		tip = "指挥喵已成功开始进行搜寻作业！"
+	},
+	world_catsearch_stop = {
+		tip = "是否中断搜寻作业，并召回指挥喵？"
+	},
+	world_catsearch_fleetcheck = {
+		tip = "正在进行搜寻作业的指挥喵将被强制召回。\n是否结束搜寻并重编舰队？"
+	},
+	world_catsearch_leavemap = {
+		tip = "正在进行搜寻作业的指挥喵将被强制召回！\n是否结束搜寻并离开当前海域？"
+	},
+	world_catsearch_help_1 = {
+		tip = "搜寻进度会<color=#ffde38>随着舰队行动次数推进</color>，\n是否中断搜寻作业，并召回指挥喵？\n<color=#92fc63>（中断后将会立刻结算已获取的奖励）</color>"
+	},
+	world_catsearch_help_2 = {
+		tip = "搜寻奖励查询"
+	},
+	world_catsearch_help_3 = {
+		tip = {
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/tactics"
+				}
+			},
+			disableScroll = true,
+			pageMode = true,
+			ImageMode = true,
+			windowSize = {
+				x = 1263,
+				y = 873
+			},
+			windowPos = {
+				y = -70
+			},
+			helpSize = {
+				x = 1176,
+				y = 1024
+			}
+		}
+	},
+	world_catsearch_help_4 = {
+		tip = "搜寻中..."
+	},
+	world_catsearch_help_5 = {
+		tip = "指挥喵物资搜寻中，暂时无法为舰队提供加成"
+	},
+	world_catsearch_help_6 = {
+		tip = "搜寻过程中有几率获得以下奖励"
+	},
+	world_level_prefix = {
+		tip = "等级LV.$1"
+	},
+	world_map_level = {
+		tip = "作战强度等级：\n指挥官当前的作战强度等级为<color=#92fc63>$1</color>，建议攻略该侵蚀等级及以下的海域。"
+	},
+	world_movelimit_event_text = {
+		tip = "当前海域存在尚未完成的任务，目前无法离开"
 	},
 	task_notfound_error = {
 		tip = "스테이지 정보를 확인하지 못했습니다. 에러 ID："
@@ -2962,7 +3441,7 @@ pg.gametip = {
 		tip = "대잠"
 	},
 	attribute_sonarRange = {
-		tip = "탐색 범위"
+		tip = "탐지 범위 증가"
 	},
 	attribute_sonarInterval = {
 		tip = "발신 빈도"
@@ -2975,6 +3454,15 @@ pg.gametip = {
 	},
 	attribute_intimacy = {
 		tip = "호감도"
+	},
+	attribute_max_distance_damage = {
+		tip = "가장자리 대미지"
+	},
+	attribute_anti_siren = {
+		tip = "대형 작전 세이렌 증가 대미지"
+	},
+	attribute_add_new = {
+		tip = "New!"
 	},
 	skill = {
 		tip = "스킬"
@@ -3161,6 +3649,12 @@ pg.gametip = {
 	},
 	word_shipNation_holo = {
 		tip = "hololive"
+	},
+	word_shipNation_doa = {
+		tip = "비너스 휴가"
+	},
+	word_shipNation_link = {
+		tip = "콜라보"
 	},
 	word_reset = {
 		tip = "초기화"
@@ -3861,10 +4355,10 @@ $1은(는) 당신만을 생각하고 있다.]]
 				info = "1.스텟에 관하여 : "
 			},
 			{
-				info = " <color=#92fc63FF>장비</color>：함선소녀 장비로 인한 속성이 상승합니다."
+				info = " <color=#92fc63FF>     장비</color>：함선소녀 장비로 인한 속성이 상승합니다."
 			},
 			{
-				info = " <color=#FFDE00FF>기술</color>：함대 기술로 인한 속성이 상승합니다."
+				info = " <color=#FFDE00FF>     기술</color>：함대 기술로 인한 속성이 상승합니다."
 			},
 			{
 				info = "2.속성설명："
@@ -3874,7 +4368,7 @@ $1은(는) 당신만을 생각하고 있다.]]
 				icon = {
 					posX = 0,
 					atlas = "attricon",
-					posY = 6,
+					posY = -2,
 					scale = 0.66,
 					path = "durability"
 				}
@@ -3884,7 +4378,7 @@ $1은(는) 당신만을 생각하고 있다.]]
 				icon = {
 					posX = 0,
 					atlas = "attricon",
-					posY = 6,
+					posY = -2,
 					scale = 0.66,
 					path = "cannon"
 				}
@@ -3894,7 +4388,7 @@ $1은(는) 당신만을 생각하고 있다.]]
 				icon = {
 					posX = 0,
 					atlas = "attricon",
-					posY = 6,
+					posY = -2,
 					scale = 0.66,
 					path = "antiaircraft"
 				}
@@ -3904,7 +4398,7 @@ $1은(는) 당신만을 생각하고 있다.]]
 				icon = {
 					posX = 0,
 					atlas = "attricon",
-					posY = 6,
+					posY = -2,
 					scale = 0.66,
 					path = "armor"
 				}
@@ -3914,7 +4408,7 @@ $1은(는) 당신만을 생각하고 있다.]]
 				icon = {
 					posX = 0,
 					atlas = "attricon",
-					posY = 6,
+					posY = -2,
 					scale = 0.66,
 					path = "torpedo"
 				}
@@ -3924,7 +4418,7 @@ $1은(는) 당신만을 생각하고 있다.]]
 				icon = {
 					posX = 0,
 					atlas = "attricon",
-					posY = 6,
+					posY = -2,
 					scale = 0.66,
 					path = "air"
 				}
@@ -3934,17 +4428,17 @@ $1은(는) 당신만을 생각하고 있다.]]
 				icon = {
 					posX = 0,
 					atlas = "attricon",
-					posY = 6,
+					posY = -2,
 					scale = 0.66,
 					path = "reload"
 				}
 			},
 			{
-				info = "     기동 : 적의 탄막을 회피할 확률이 상승합니다.",
+				info = "      기동 : 적의 탄막을 회피할 확률이 상승합니다.",
 				icon = {
 					posX = 0,
 					atlas = "attricon",
-					posY = 6,
+					posY = -2,
 					scale = 0.66,
 					path = "dodge"
 				}
@@ -3954,17 +4448,17 @@ $1은(는) 당신만을 생각하고 있다.]]
 				icon = {
 					posX = 0,
 					atlas = "attricon",
-					posY = 6,
+					posY = -2,
 					scale = 0.66,
 					path = "expend"
 				}
 			},
 			{
-				info = "      대잠 : 잠수함에 대항하는 \"대잠 무기\"의 대미지가\n상승합니다.",
+				info = "      대잠 : 잠수함에 대항하는 \"대잠 무기\"의 대미지가\n상승하며, 편대의 대잠 탐지 범위에 영향을 줍니다.",
 				icon = {
 					posX = 0,
 					atlas = "attricon",
-					posY = 6,
+					posY = -2,
 					scale = 0.66,
 					path = "antisub"
 				}
@@ -3974,7 +4468,7 @@ $1은(는) 당신만을 생각하고 있다.]]
 				icon = {
 					posX = 0,
 					atlas = "attricon",
-					posY = 6,
+					posY = -2,
 					scale = 0.66,
 					path = "oxy_max"
 				}
@@ -3984,7 +4478,7 @@ $1은(는) 당신만을 생각하고 있다.]]
 				icon = {
 					posX = 0,
 					atlas = "attricon",
-					posY = 6,
+					posY = -2,
 					scale = 0.66,
 					path = "ammo"
 				}
@@ -3994,7 +4488,7 @@ $1은(는) 당신만을 생각하고 있다.]]
 				icon = {
 					posX = 0,
 					atlas = "attricon",
-					posY = 6,
+					posY = -2,
 					scale = 0.66,
 					path = "hunt_range"
 				}
@@ -4004,7 +4498,7 @@ $1은(는) 당신만을 생각하고 있다.]]
 				icon = {
 					posX = 0,
 					atlas = "attricon",
-					posY = 6,
+					posY = -2,
 					scale = 1.1,
 					path = "luck"
 				}
@@ -4012,8 +4506,8 @@ $1은(는) 당신만을 생각하고 있다.]]
 			{
 				info = [[
  3.컨디션 : 
- 컨디션이 좋은 함선소녀는 전투 시 능력치가 상승합니다.
- 컨디션이 나쁜 상태에서 출격하는 경우, 호감도가 하락하고,
+      컨디션이 좋은 함선소녀는 전투 시 능력치가 상승합니다.
+      컨디션이 나쁜 상태에서 출격하는 경우, 호감도가 하락하고,
  획득하는 경험치가 절반으로 감소합니다.]]
 			}
 		}
@@ -4124,26 +4618,28 @@ B평가:<color=#92fc63>70</color>점
 			{
 				info = [[
 지원 범위에 관해서
-・해역에 출격할 때, 잠수함대 기함의 지원 가능 범위를 잠수함대의
-"지원 범위" 로 지칭합니다.
+・해역에 출격할 때, 잠수함대 기함의 지원 가능 범위를 
+잠수함대의"지원 범위" 로 지칭합니다.
 
 ・잠수함대는 지원 범위 내의 적을 향해 자동적으로
 이동 및 공격을 통해 적의 전력을 약화시킵니다.
 
-・또한, 아군 함대가 잠수함대의 지원 범위 내에서 적 함대와 전투를
- 진행하는 경우,전투 중 "잠수 지원" 이 사용 가능하게 됩니다.
+・또한, 아군 함대가 잠수함대의 지원 범위 내에서 적 함대와 
+전투를 진행하는 경우,전투 중 "잠수 지원" 이 사용 가능하게 
+됩니다.
 
-・잠수함대의 공격은 탄약을 소비하며, "잠수 지원"은 탄약과 연료를
+・잠수함대의 공격은 탄약을 소비하며, "잠수 지원"은 탄약과 
+연료를
 소모합니다.
 
-・잠수함대의 공격 유무 (즉, 이동의 유무)는 해역 이동 화면 우측의 
-태세 변경버튼으로 변경 가능합니다.
+・잠수함대의 공격 유무 (즉, 이동의 유무)는 해역 이동 화면 
+우측의 태세 변경버튼으로 변경 가능합니다.
 
 지원 범위 레벨 : 
 ・지원 범위 레벨이 높아지면 자신의 지원 범위가 넓어집니다.
 
-・지원 범위 레벨은 한계 돌파나 장비, 스킬 등을 통해 상승시킬 수
-있습니다.]]
+・지원 범위 레벨은 한계 돌파나 장비, 스킬 등을 통해 
+상승시킬 수있습니다.]]
 			}
 		}
 	},
@@ -4663,6 +5159,9 @@ B평가:<color=#92fc63>70</color>점
 	},
 	guild_faction_unknown = {
 		tip = "????"
+	},
+	guild_faction_meta = {
+		tip = "META"
 	},
 	guild_word_commder = {
 		tip = "사령관"
@@ -5521,6 +6020,9 @@ B평가:<color=#92fc63>70</color>점
 	words_battle_hide_bg = {
 		tip = "전투 중 배경 일부분 기본 숨김"
 	},
+	words_battle_expose_line = {
+		tip = "전투 내 항공모함 정찰 라인 표시"
+	},
 	activity_puzzle_get1 = {
 		tip = "획득 방식：퍼즐 임무 7"
 	},
@@ -5630,50 +6132,39 @@ B평가:<color=#92fc63>70</color>점
 		tip = {
 			{
 				info = [[
-대강당에 관해서
+대강당 기능 설명:
 
-대강당에 ‘학생’을 배치하고, ‘수업’을 진행하여 함대가
-보유하고 있는 ‘숙련도’를 학생의 경험치로 변환할 수 
-있습니다.
+· 숙련도:
+한계 돌파를 3회 진행한 레벨 100 이상의 함선소녀는 출격 시,
+얻게 되는 경험치의 일부에 해당하는 양의 숙련도를 
+획득할 수 있습니다.
 
-・숙련도에 관해서
-한계 돌파를 3회 진행한 레벨 100 이상의 함선소녀는
-출격 시, 얻게 되는 경험치의 일부에 해당하는 양의 
-숙련도를 획득할 수 있습니다.숙련도는 함대 전체에 
-공유되며, 상한을 초과하는 양만 저장됩니다.
-대강당을 강화하면, 숙련도 보유 상한치 및 숙련도의 
-획득 효율을 상승시킬수 있습니다.
+· 대강당 레벨:
+대강당의 레벨을 올리면, 숙련도 보유 상한치, 숙련도 소모
+속도 및 숙련도 획득 효율이 상승합니다.
 
-・수업에 관해서
-‘수업’에선 매일 특정 함종의 함선소녀를 ‘학생’으로 
-배치할 수 있습니다. 시작된 ‘수업’은 언제든 종료가 
-가능합니다.‘수업’을 종료하면, 경과한 시간에 대응하는 
-숙련도를 경험치로 변 환할 수 있습니다.
-또한, 수업은 최대 12시간 진행이 가능합니다. 12시간이
-경과하면,수업은 자동으로 종료 상태가 됩니다.
-수업이 종료되지 않는 한, 수업 중에 획득한 숙련도는 
-자동적으로 수업에서 경험치로 변환됩니다.
+· 대강당 수업:
+수업 시간표에 따라서 매일 다른 수업이 이루어집니다.
 
-・학생에 관해서
-레벨 100 미만인 함선소녀를 ‘학생’으로 배치할 수 있습니다.
-‘학생’이 많으면 많을 수록, 숙련도의 변환 효율이 상승합니다.
-‘수업’에 참가한 학생은 컨디션이 약간 저하됩니다.
-모니터함은 전함의 수업에 참가할 
-수 있고,공작함은 구축함 및 순양함, 장갑함은 순양함의 
-수업에 참가할 수 있으며,항공전함은 항공모함 및 전함의 수
-업에 참가할 수 있습니다.
+· 수업 시간표:
+월요일: <구축함 어뢰 수업—어뢰 발사 기술 분석>
+화요일: <순양함 포격 수업—어떻게 정확한 탄약을 선택하는가>
+수요일: <전함 이론 수업—대함거포의 우위 분석>
+목요일: <항공모함 이론 수업—공해 통합 작전의 중요성>
+금요일: <구축함 실전 수업—실용 진형 기술 분석>
+토요일: <순양함 실전 수업—화력 최대화 노하우 분석>
+일요일: 대강당 휴식. 출격 시 획득하는 숙련도가 2배가 됩니다.
 
-・수업의 시간 배분
-월요일 『구축함 및 잠수함 코스 : 아마존의 수뢰전 교실!』
-화요일 『순양함 코스 : 탄약의 선택법ver.1.03』
-수요일 『전함 코스 : 대함거포 독트린의 우위성』
-목요일 『항공모함 코스 : 공해 통합 작전 포지셔닝』
-금요일 『구축함 및 잠수함 코스 : 원숭이라도 알기 쉬운 
-전술학!』
-토요일 『순양함 코스 : 화력을 최대로 하는 노하우 ver.2.2』
+(모니터함은 전함 수업 참여 가능/ 공작함, 운송함은 구축
+함, 순양함 수업 참여 가능/ 항공전함은 항공모함, 전함 수업
+참여 가능/ 잠수함, 잠수항모는 구축함 수업 참여 가능, 초갑순양함은 순양
+함 수업 참여 가능)
 
-일요일에는 수업에 참가할 수 없지만, 출격 시 얻을 수 있는
- ‘숙련도’가 2배가 됩니다.]]
+· 수업 참여:
+대강당 수업은 최대 12시간 진행되며, 수업 종료 시 소모한 숙련도가 차감되고,
+캐릭터는 경험치를 획득합니다.
+숙소에서 휴식하거나 훈련 중인 캐릭터는 수업에 참여할 수 없습니다.
+수업에 참여한 캐릭터는 컨디션이 저하되며, 컨디션이 나쁘다면 수업에 참여할 수 없습니다.]]
 			}
 		}
 	},
@@ -5744,7 +6235,7 @@ B평가:<color=#92fc63>70</color>점
 		tip = "회복속도"
 	},
 	destroy_eliteship_tip = {
-		tip = "$1의 함선이 선택되어 있습니다. 진행하시겠습니까?"
+		tip = "선택한 캐릭터 중 $1가 있는 캐릭터: "
 	},
 	err_resloveequip_nochoice = {
 		tip = "해체하실 장비를 선택해주세요."
@@ -5762,13 +6253,13 @@ B평가:<color=#92fc63>70</color>점
 		tip = "트위터 연동 시, 현재 로그인되어 있는 계정의 로그인이 해제됩니다. 트위터 연동을 진행하시겠습니까?"
 	},
 	data_erro = {
-		tip = "数据出错啦"
+		tip = "데이터 오류 발생"
 	},
 	login_failed = {
-		tip = "登录失败"
+		tip = "로그인 실패"
 	},
 	["not yet completed"] = {
-		tip = "尚未完成"
+		tip = "미완성"
 	},
 	escort_less_count_to_combat = {
 		tip = "일일 도전 횟수가 부족하여 진입할 수 없습니다."
@@ -5844,6 +6335,9 @@ B평가:<color=#92fc63>70</color>점
 	},
 	word_status_challenge = {
 		tip = "한계챌린지 "
+	},
+	word_status_world = {
+		tip = "大型作战中"
 	},
 	challenge_rule = {
 		tip = {
@@ -5925,7 +6419,7 @@ B평가:<color=#92fc63>70</color>점
 		tip = "다음 단계는 목표 보상을 전부 획득하여 개방할 수 있습니다."
 	},
 	shop_street_activity_tip = {
-		tip = "·이벤트 기간(<color=#A1E400FF>2020.07.30-2020.08.12</COLOR>)에는 갱신 시마다\n반드시 <color=#A1E400FF>장비 스킨 상자</COLOR>가 출현합니다."
+		tip = "·이벤트 기간(<color=#A1E400FF>2020.12.31-2021.1.15</COLOR>)에는 갱신 시마다\n반드시 <color=#A1E400FF>장비 스킨 상자</COLOR>가 출현합니다."
 	},
 	twitter_link_title = {
 		tip = "连接中的推特账号：$1"
@@ -6217,6 +6711,9 @@ B평가:<color=#92fc63>70</color>점
 	},
 	ship_profile_voice_locked_design = {
 		tip = "개발 레벨 $1 달성 후 개방"
+	},
+	ship_profile_voice_locked_meta = {
+		tip = "维修进度达到$1%后解锁(未使用)"
 	},
 	help_technolog0 = {
 		tip = {
@@ -6533,6 +7030,12 @@ B평가:<color=#92fc63>70</color>점
 					atlas = "helpbg/battle_ac_2"
 				}
 			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/battle_concealment"
+				}
+			},
 			disableScroll = true,
 			pageMode = true,
 			defaultpage = 1,
@@ -6560,7 +7063,7 @@ B평가:<color=#92fc63>70</color>점
 		tip = "잠수함대 – 자동 색적 태세로 변경되었습니다."
 	},
 	activity_shop_lable = {
-		tip = "*교환 개방 시간 : $1"
+		tip = "*교환 개방 시간 : <color=#FFCF81>$1</color>"
 	},
 	word_bilibili = {
 		tip = "bili小电池"
@@ -6954,13 +7457,13 @@ B평가:<color=#92fc63>70</color>점
 		tip = "어빌리티 포인트가 부족합니다"
 	},
 	buildship_new_tip = {
-		tip = "비스마르크, U-96, Z26, Z36, U-556, U-73, 에코 출현 확률 UP！ "
+		tip = "프린츠 하인리히, 페터 슈트라서 등 함선 건조 확률 UP!"
 	},
 	buildship_heavy_tip = {
-		tip = "나가토 ,스즈야 건조 추가 "
+		tip = "미카사, 히에이 건조 추가!"
 	},
 	buildship_light_tip = {
-		tip = "카와카제,요이즈키,하루츠키,후미즈키,아사시오 건조 추가! "
+		tip = "하마카제 건조 추가!"
 	},
 	buildship_special_tip = {
 		tip = "이13 건조 추가 "
@@ -7551,7 +8054,13 @@ B평가:<color=#92fc63>70</color>점
 		tip = "이미 봤던 스토리 이벤트를 스킵한다"
 	},
 	map_event_stop_tip = {
-		tip = "같은 색깔의 <color=#92fc63>해제 마크</color>를 밟으면 통행이 가능해집니다."
+		tip = "대응되는 색의 <color=#92fc63>기관</color>을 밟아 통행 금지 상태 해제 가능"
+	},
+	map_event_stop_battle_tip = {
+		tip = "주위의 모든 <color=#ff5c5c>적</color>을 섬멸하여 통행 금지 상태 해제 가능"
+	},
+	map_event_stop_story_tip = {
+		tip = "근처 <color=#92fc63>스토리 지점</color>에서 통행 금지 상태 해제 가능"
 	},
 	map_event_save_nekone = {
 		tip = "<color=#92fc63>네코네</color>의 구출에 성공했습니다!"
@@ -7779,8 +8288,8 @@ B평가:<color=#92fc63>70</color>점
 10. 이벤트 기간 동안 개인 공헌보상을 획득할 수 있으며, 
 개인 공헌 보상은<color=#92fc63>거점 공략 진도</color>와 <color=#92fc63>보유한 「공헌도」</color>가 일정 
 수치를 달성한 이후 수령할 수 있습니다.
-11. 2.13~2.27 기간 동안 연습 전투에 참여할 수 있으며, 3월 
-6일까지 보상을 수령할 수 있습니다. ]]
+11. 9.10~9.24 기간 동안 연습 전투에 참여할 수 있으며, 9월 
+30일까지 보상을 수령할 수 있습니다. ]]
 			},
 			{
 				info = [[
@@ -7832,7 +8341,7 @@ B평가:<color=#92fc63>70</color>점
 		tip = "먼저 사용자 규약을 읽어주세요."
 	},
 	award_max_warning = {
-		tip = "일부 보상은 상한을 초과하여 낭비됩니다. 그래도 수령하시겠습니까?"
+		tip = "아래의 보상은 상한을 초과하여 <color=#ff5c5c>획득할 수 없습니다</color>. 그래도 수령하시겠습니까?"
 	},
 	sub_item_warning = {
 		tip = "다음 물품을 제출하시겠습니까?"
@@ -8117,58 +8626,42 @@ P.S. 아군의 대공은 효율적으로 적의 제공수치를 낮춘다!
 		tip = {
 			{
 				info = [[
-・함대 기술이란
+<color=#FFDD00>함대 기술</color>
 
- 함대 기술 기능이란, 함선을 모아 고레벨을 달성하여 함대 
-전체를 강화하는 효과를 얻는 시스템입니다. 강화 효과는 
-【한계 돌파를 3회 이상 실행한 함선】에 적용됩니다. 
+다음의 조건을 달성하면 대응되는 함선의 <color=#92fc63>기술 Pt</color>를 획득할 
+수 있으며, 특정한 <color=#92fc63>스탯 보너스</color>가 해제됩니다:
+a 특정 함선 <color=#92fc63>획득</color>(기술 Pt 획득, 대응되는 모든 함선 
+<color=#92fc63>스탯 보너스</color> 해제)
+b 특정 함선 한계돌파 <color=#92fc63>최대치 달성</color>(기술 Pt 획득)
+c 특정 함선 레벨 120 달성(기술 Pt 획득, 대응되는 모든 함선 
+<color=#92fc63>스탯 보너스</color> 해제)
+<color=#92fc63>*같은 함선은 진도가 가장 높은 </color>
 
-※이른바 「모항의 함선들을 편애 없이 골고루 키우는 것」에
-혜택이 가는 시스템입니다. 
+<color=#FFDD00>진영 기술</color>만 받습니다.
 
-함대 기술은 나아가「함대 기술」,「진영 기술」로 나눌 수
-있습니다. 
+특정 진영의 <color=#92fc63>진영 기술 Pt</color>가 일정 수치를 달성한 이후, 대응
+되는 진영의<color=#92fc63>기술 레벨</color>을 높일 수 있습니다.
+진영 기술 레벨업은 일정 수량의 <color=#92fc63>물자</color>를 소모해야 하며일정 
+<color=#92fc63>시간</color> 기다려야 합니다.
+진영 기술이 일정 레벨에 도달하면 대응되는 모든 함대 <color=#92fc63>스탯 
+보너스</color>가 해제됩니다.<color=#ff5c5c>동시에 하나의 진영 기술 레벨만 높일 
+수 있습니다</color>.
 
-「함대 기술」에 대해
+*함대 기술&진영 기술의 스탯 보너스는 <color=#ff5c5c>한계 돌파 최대치</color>인 
+함선에게만 효과가 발생합니다.
 
- 함대 기술이란, 함선을 육성함으로써 함대 전체에 강화 효과를
-주는 시스템입니다. 함대 기술 화면에선, 실제 역사에 따른 
-기술의 발전 순서(Tier)에 따라 함선의 수집 및 기술 습득 
-상황을 확인할 수 있습니다. 아래 조건을 달성하면, 대응되는 
-함선 강화 효과를 얻을 수  있습니다. 
-・함선을 도감에 등록한다
-・함선의 레벨을 120으로 만든다.
+<color=#FFDD00>진영 기술 Pt 계산</color>
 
-※같은 종류의 함선은 각각의 강화 효과를 한 번씩만 얻을 수 
-있습 니다. 
+진영 기술 Pt는 지휘관이 <color=#92fc63>대응되는 진영</color>의 <color=#92fc63>함대 기술</color>을 해제
+하여 획득한기술 Pt의 <color=#92fc63>누적 총합</color>입니다.
 
-「진영 기술」에 대해
-
- 진영 기술이란, 각 진영의 「기술 레벨」에 따라 함대 전체에 
-강화 효과를 주는 시스템입니다. 
-・진영 기술 항목의 '상세'를 터치하면, 이 항목의 강화 효과,
-현재 의 기술 레벨을 확인할 수 있습니다. 
-・기술 항목의 기술 레벨을 상승시키면, 강화 효과를 더욱 올릴 
-수 있습니다. 
-・기술 레벨을 상승시키려면 「물자」를 소비해야 하며, 
-추가로 해당 진영 의 「기술 Pt」가 일정 수치 이상이어야 
-합니다. 
- 또한, 기술 레벨의 상승은 동시에 하나의 진영에서만 실행할 수
-있습니다. 
-
-「기술Pt」에 대해
-
- 진영 기술 레벨을 강화하려면, 각 진영에 대응하는 「기술 Pt」
-의 습득 및 축적이 필요합니다. 진영 기술 화면의 각 진영 배너
-를 터치하여 「기술 Pt」의 현재 수치를 확인할 수 
-있습니다. 
-기술Pt의 입수 방법은 다음과 같습니다：
-・새로운 함선을 도감에 등록한다
-・함선의 한계돌파 회수를 최대치로 만든다.
-・함선의 레벨을 120으로 만든다.
-
- ※같은 종류의 함선은 각각의 기술 Pt를 한 번씩만 얻을 수 
-있습니다.]]
+예시: 지휘관이
+<size=28>라피(이글 유니온) 기술 Pt <color=#92fc63>+1</color>
+롱 아일랜드(이글 유니온) 기술 Pt <color=#92fc63>+1</color>
+Z23(<color=#ff5c5c>메탈 블러드</color>) 기술 Pt <color=#92fc63>+1</color></size>
+획득할 경우, <color=#92fc63>진영 기술 Pt</color>는 
+이글 유니온 진영 기술 Pt <color=#92fc63>+2</color>
+<color=#ff5c5c>메탈 블러드</color> 진영 기술 Pt <color=#92fc63>+1</color>이 됩니다.]]
 			}
 		}
 	},
@@ -8443,14 +8936,14 @@ P.S. 아군의 대공은 효율적으로 적의 제공수치를 낮춘다!
 이벤트 설명: 
 초대 대상:
 복귀 지휘관：
-2019년 8월 11일~9월11일 사이에 로그인 이력이 없는
+2020년 9월 10일~9월24일 사이에 로그인 이력이 없는
 지휘관
 신규 지휘관:
-2019년 9월 11일~10월31일 사이에 신규 가입한 지휘관
+2020년 9월 24일~10월19일 사이에 신규 가입한 지휘관
 자격에 해당하는 지휘관은 이벤트 기간 동안 로그인 시 특별 
 이벤트 페이지에서 UID를 입력해 이벤트에 
 참여할 수 있습니다.
-초대자: 2019년 8월 11일~9월11일 사이에 로그인 한 이력이 
+초대자: 2020년 9월 10일~9월24일 사이에 로그인 한 이력이 
 있는 지휘관 초대자는 자신의 UID를 사용해 조건을 만족하는 
 지휘관을 초대해 이벤트에 참여할 수 있습니다.
 모집 지휘관:
@@ -8600,8 +9093,8 @@ UID와 빠르게 매칭합니다.:
 				info = [[
  5. 한계 챌린지 중에는 연료를 소모하지 않으며, 함선의 
 호감도 소모하지 않고, 전투 승부가 개인 데이터 통계에 
-합산되지도 않으며, 함선 경험치와 지 휘냥 경험치도 
-획득하지 않습니다]]
+합산되지도 않으며, 함선 경험치, 지휘관 경험치, 지휘냥 
+경험치도 획득하지 않습니다]]
 			},
 			{
 				info = " 6. 일반 모드와 무한 모드의 편성은 통용되지 않으며, \n지휘관이 각각 설정해야만 합니다"
@@ -9253,60 +9746,79 @@ TIPS:
 	option_desc10 = {
 		tip = "기능 설정 후, 전투 중 코스튬의 일부 배경이 보이지 않습니다. "
 	},
+	option_desc11 = {
+		tip = [[
+기능 사용 후, 전투 중 항공모함의 피탐지 표시 라인(푸른 그물 형태), 노출 표시 라인(붉은 그물 형태, 연습전에서만 적용)이 나타납니다.
+
+항공모함, 경항공모함 은닉 시스템 설명:
+[은닉] 상태에서 항공모함은 적 무기, 스킬의 대상이 되기 어렵지만, 유탄에 의해 명중 시 피해를 입습니다.
+[은닉] 상태에서 항공 공격 대미지는, 대공 대미지 감소의 영향으로 10% 감소합니다.
+
+피탐지 게이지의 증감
+·적함이 피탐지 범위 내에 접근, 또는 적 함재기가 접근 시, 피탐지 게이지가 상승합니다(가장 가까운 항공모함의 피탐지 게이지 추가 상승).
+·항공모함은 공습 또는 스킬 발동 시, 자신의 피탐지 게이지가 상승합니다. 공습 시 상승한 피탐지 수치는 해당 전투 내에서 공습 횟수에 비례합니다(공습 1회당 기본 상승 수치 25%, 최대 기본 상승 수치250%). 공습 후 12초 동안, 피탐지 게이지의 회복 속도가 기본 회복 속도의 40%까지 감소합니다.
+·항공모함이 점화 상태일 시, 점화 처벌로 피탐지 게이지가 일정 수치 증가하며, 점화 상태에서는 해당 수치가 감소하지 않습니다.
+·피탐지 게이지의 최대치는 캐릭터 기동과 연관되며, 피탐지 수치가 최대치에 도달할 시, [은닉] 상태에서 벗어납니다.
+
+연습전 추가 규칙:
+연습전에서 항공모함 피탐지 수치는 자동으로 하락하지 않습니다.
+연습전에서 노출 표시 라인이 확대되며, 적함이 노출 범위 내 진입 시, 모든 항공모함은 즉시 [은닉] 상태에서 벗어납니다.
+]]
+	},
 	music_collection = {
 		tip = {
 			{
-				info = "이벤트 설명:"
+				info = [[
+이벤트 기간: <color=#92fc63>11.5-11.19</color>
+1. 기간 내 이벤트에 참여해 「굿즈」를 모을 수 있습니다.
+ <color=#92fc63>12</color>개의 굿즈를모두 모으면 한정 가구 「격창 기념장」
+을 획득할 수 있습니다.]]
 			},
 			{
 				info = [[
-1. 기간 내 이벤트에 참여해 「굿즈」를 모을 수 있습니다. 
-<Color=#92fc63>15</color>개의 굿즈를 모두 모으면
-한정 가구 「격주 기념장」을 
-획득할 수 있습니다.]]
+2. 아래 콘텐츠에 참여하면 「굿즈」를 획득할 수 있습니다:
+①이벤트 해역 클리어
+②이벤트 임무 달성
+③격창 휘장 수집]]
 			},
 			{
-				info = "2. 아래 콘텐츠에 참여하면 「굿즈」를 획득할 수 있습니다:\n 이벤트 해역 클리어, 이벤트 임무 달성, 격주 휘장 수집"
-			},
-			{
-				info = "3. 고난이도 스테이지 클리어 후 SP1—SP5로 돌아가 새로운 \n굿즈를 획득하세요!\n4. 수령 시간은 11월 20일 23시 59분까지입니다."
+				info = [[
+3. 「여유의 BonusTime」 클리어 후 SP1—SP5로 돌아가 
+새로운굿즈를 획득하세요!
+4. 「굿즈」를 수집 완료 후, 자유 조합 모드가 해제됩니다. 수
+집한「굿즈」들을 임의로 배치할 수 있습니다.
+5. 공유 버튼을 터치하면 자신의 수첩을 다른 사람에게 공유할 
+수 있습니다.
+6. 수령 시간은 11월 25일 23시 59분까지입니다.]]
 			}
 		}
 	},
 	music_main = {
 		tip = {
 			{
-				info = "<color=#92fc63>11.14-11.28</color>기간동안 한정 이벤트 「격주의 폴라리스」가 \n오픈됩니다."
+				info = "<color=#92fc63>11.5-11.19</color>기간 동안 한정 이벤트 「격창의 유니버스」가 \n오픈됩니다."
 			},
 			{
-				info = "1. 특별 작전으로 「격주 휘장」을 획득하며, 「휘장 수집」 \n및 「보급 상점」에서 풍성한 보상으로 교환할 수 있습니다."
-			},
-			{
-				info = "2.「특형 아이돌」 7일 미션을 클리어 하고 「후부키」의 \n한정 스킨을 획득하세요."
+				info = "1. 특별 작전으로 「격창휘장」을 획득하며, 「보상 누적」 \n및 「보급 상점」에서 풍성한 보상으로 교환할 수 있습니다."
 			},
 			{
 				info = [[
-3. 「격주 무대」에서 미니게임을 B랭크 이상으로 획득하면
-「연주력」을 상승시킬 수 있으며, 「연주력」을 <color=#92fc63>7</color>회 
-상승시키면 한정 캐릭터 「셰필드(μ장비)」를 획득할 수 
+2. 「격창 무대」에서 미니게임을 B랭크 이상으로 획득하면
+「가창음표」를 획득할 수 있으며, 「가창음표」를 <color=#92fc63>7</color>회 
+획득하면 한정 캐릭터 「르 말랭(μ장비)」를 획득할 수 
 있습니다.
-<color=#92fc63>주의 사항: </color>매일 누적이 가능한 1회의 기회를 획득할 수 
-있으며, B랭크 이상을 획득하지 못할 경우 횟수가 차감되지 
-않습니다. 횟수를 모두 소모한 이후에도 미니게임을 플레이 할 
-수 있습니다.]]
+<color=#92fc63>주의 사항: </color>매일 1회의 기회를 획득할 수 있으며,
+ 7회 누적됩니다. B랭크 이상을 획득하지 못할 경우 횟수가 차
+감되지 않습니다. 횟수를 모두 소모한 이후에도 미니게임을 
+플레이 할 수 있습니다.]]
 			},
 			{
 				info = [[
-4. 이벤트 기간 동안 <color=#92fc63>15</color>개의 「굿즈」를 모두 획득한 뒤,
- 「기념장」에서 「격주 기념장」을 획득할 수 있습니다.
+3. 이벤트 기간 동안 <color=#92fc63>12</color>개의 「굿즈」를 모두 획득한 뒤,
+ 「기념장」에서 「격창 기념장」을 획득할 수 있습니다.
  자세한 획득 조건은 「기념장」 화면에서 확인할 수 있습니다.
-5. 일정 시간대 별로 「폴라리스」 캐릭터들이 「JUUs」에서 
-새로운 모션을 발표합니다. 「휘장 수집」을 통해 
-「JUUs 모션」을 획득할 수 있습니다. 획득한 
-「JUUs 모션」이 많을 수록 더 많은 모션을 볼 수 있습니다.
- 자세한 설명은 「JUUs」 화면에서 확인할 수 있습니다.
-6. 「한정 건조」를 터치해 건조 화면으로 들어갈 수 있습니다.
-7. 「스킨 상점」을 터치해 스킨 상점 화면으로 들어갈 수 
+4. 「한정 건조」를 터치해 건조 화면으로 들어갈 수 있습니다.
+5. 「스킨 상점」을 터치해 스킨 상점 화면으로 들어갈 수 
 있습니다.]]
 			}
 		}
@@ -9326,6 +9838,29 @@ TIPS:
 3. 좋아요, 퍼가기, 댓글을 통해 참여할 수 있습니다.
 <color=#92fc63>주의 사항:</color>좋아요는 취소할 수 없으며, 댓글을 단 이후 
 시간이 지나면 회신을 받을 수 있습니다.]]
+			}
+		}
+	},
+	doa_collection = {
+		tip = {
+			{
+				info = [[
+이벤트 기간: <color=#92fc63>12.3-12.17</color>
+1. 이벤트 기간 동안, 이벤트에 참여하여 「캐릭터 취향」을 
+수집하세요. <color=#92fc63>14</color>개를모두 수집하면 한정 가구
+<color=#92fc63>「비너스 휴가 기념장」</color>을 획득할 수 있습니다.]]
+			},
+			{
+				info = [[
+2. 아래 내용에 참여하여 「캐릭터 취향」을 수집할 수 
+있습니다:
+①이벤트 해역 클리어
+②이벤트 임무 완성
+③비너스 포인트 누적
+④비너스 배구 연습 경기 완료]]
+			},
+			{
+				info = "3. 수령 마감 시간: 12월 23일 23시 59분"
 			}
 		}
 	},
@@ -9355,18 +9890,18 @@ TIPS:
 			{
 				info = [[
 <size=31><color=#92fc63>TIPS: 
-연주 횟수가 없어도 미니게임을 할 수 있지만 연주력을 상승시킬 
+연주 횟수가 없어도 미니게임을 할 수 있지만 가창음표를 획득할
 수는 없습니다.</color></size>
 
-1. 터치로 연주를 시작한 뒤, 5초의 카운트다운 이후 게임이 
-시작됩니다. <color=#92fc63>B</color>랭크 이상 달성 시 연주력이 상승합니다.
+1. 터치로 연주를 시작한 뒤, 3초의 카운트다운 이후 게임이
+시작됩니다. <color=#92fc63>B</color>랭크 이상 달성 시 가창음표를 획득합니다.
 2. 음표가 화면에 중간에 올 때 알맞은 버튼을 터치해 연주를 
 진행하세요.
 3. 이지 모드:
 3.1. 모든 음표를 터치로 연주할 수 있습니다.
-3.2. 좌우 터치와 상관 없이 연주할 수 있습니다.
+3.2. 좌우 터치와 상관없이 연주할 수 있습니다.
 4. 하드 모드:
-4.1. 화면이 빨강(좌측), 파랑(우측) 음표로 나뉩니다.
+4.1. 화면이 빨강(우측), 파랑(좌측) 음표로 나뉩니다.
 4.2. 음표 이후 따라오는 흰색 바는 길게 꾹 눌러야 합니다.
 4.3. 노랑 음표는 양쪽을 동시에 눌러야 합니다.
 5. 곡 선택 화면에서 음표의 속도를 조절할 수 있습니다. 가장 
@@ -10106,6 +10641,15 @@ TIPS:
 	index_strengthen = {
 		tip = "강화 가능"
 	},
+	index_special = {
+		tip = "특수"
+	},
+	index_not_obtained = {
+		tip = "미획득"
+	},
+	index_no_limit = {
+		tip = "제한 없음"
+	},
 	decodegame_gametip = {
 		tip = {
 			{
@@ -10144,6 +10688,9 @@ TIPS:
 	indexsort_camp = {
 		tip = "진영"
 	},
+	indexsort_type = {
+		tip = "유형"
+	},
 	indexsort_rarity = {
 		tip = "레어도"
 	},
@@ -10161,6 +10708,9 @@ TIPS:
 	},
 	indexsort_rarityeng = {
 		tip = "RARITY"
+	},
+	indexsort_typeeng = {
+		tip = "TYPE"
 	},
 	fightfail_up = {
 		tip = "퇴각하고 다른 스테이지로 이동해 <color=#92fc63>레벨업</color>하시겠습니까?"
@@ -10370,6 +10920,82 @@ TIPS:
 	collect_tip2 = {
 		tip = "편성 중인 함선이 있습니다. 의뢰에 포함시킬 수 없습니다."
 	},
+	word_weakness = {
+		tip = "受损"
+	},
+	special_operation_tip1 = {
+		tip = "当前关卡无法使用"
+	},
+	special_operation_tip2 = {
+		tip = "您没有特别作战道具"
+	},
+	area_lock = {
+		tip = "该处海域尚未解锁"
+	},
+	equipment_upgrade_equipped_tag = {
+		tip = "装备中："
+	},
+	equipment_upgrade_spare_tag = {
+		tip = "仓库中："
+	},
+	equipment_upgrade_help = {
+		tip = {
+			{
+				info = "<color=#ffde38>装备研发系统说明：</color>\n"
+			},
+			{
+				info = "· 装备研发是通过<color=#92fc63>消耗</color>研发素材与物资将特定装备转变\n为更高级装备的系统。"
+			},
+			{
+				info = "·点击选择想要研发的装备，即可进入对应的装备研发\n界面。"
+			},
+			{
+				info = "·当所选装备拥有多种研发途径获得时，可以使用切换\n方案按钮进行切换。"
+			},
+			{
+				info = "·当素材装备也可通过研发获得时，可通过点击左侧的\n快速研发按钮进入对应研发界面。"
+			},
+			{
+				info = "·正在装备中装备也可以作为素材装备，研发后的新装\n备将直接变为装备中状态。（若新装备的类型无法被\n原角色装备，则装备返回仓库）"
+			},
+			{
+				info = "·将拥有强化等级的装备作为研发素材时，将会按照\n装备拆解规则返还强化过程中消耗的<color=#92fc63>部分强化物资</color>，\n并返还<color=#92fc63>全部强化素材</color>。"
+			}
+		}
+	},
+	equipment_upgrade_title = {
+		tip = "装备研发"
+	},
+	equipment_upgrade_coin_consume = {
+		tip = "消耗物资"
+	},
+	equipment_upgrade_quick_interface_source_chosen = {
+		tip = "请选择装备"
+	},
+	equipment_upgrade_quick_interface_materials_consume = {
+		tip = "需要消耗如下材料"
+	},
+	equipment_upgrade_feedback_lack_of_materials = {
+		tip = "材料不足"
+	},
+	equipment_upgrade_feedback_equipment_consume = {
+		tip = "此次研发将消耗<color=#92fc63>$1</color>装备中的<color=#92fc63>$2</color>"
+	},
+	equipment_upgrade_feedback_equipment_can_be_produced = {
+		tip = "素材装备不足，素材装备可通过研发系统获取"
+	},
+	equipment_upgrade_quick_interface_feedback_source_chosen = {
+		tip = "请选择装备"
+	},
+	equipment_upgrade_feedback_lack_of_equipment = {
+		tip = "素材装备不足"
+	},
+	equipment_upgrade_equipped_unavailable = {
+		tip = "<color=#92fc63>$1</color>无法装备<color=#92fc63>$2</color>，已进入仓库"
+	},
+	equipment_upgrade_initial_node = {
+		tip = "此装备不可由通过装备研发获取"
+	},
 	discount_coupon_tip = {
 		tip = "<color=#92fc63FF>$1 다이아</color> 및 <color=#92fc63FF>$2 </color>를 사용하여 <color=#92fc63FF>$3</color>를 구매하시겠습니까?"
 	},
@@ -10420,21 +11046,22 @@ TIPS:
 		tip = {
 			{
 				info = [[
-이벤트 기간: 2020.5.28-6.24
+이벤트 기간: 2020.9.24-10.19
 이벤트 규칙:
-1.6월 3일까지 매일 0시에 1개 임무가 개방되며, 이벤트 
-임무를 완성하여「축제용 건축 자재」 와 보상을 획득할 수 
-있습니다. 임무는 누적 가능
-2.「축제용 건축 자재」를 사용하여 축제광장에서 건물을 
-업그레이드할 수 있으며, 모든 건 물은 각기 다른 
-BUFF 보너스를 제공합니다.
-3. 건물들은 3개 레벨로 나뉩니다. 레벨이 높을수록 제공하는
-BUFF 보너스도 증가합니다.
-4. 업그레이드 가능 건물:
-쥬쥬카페
-쥬쥬화과자
-쥬쥬버거
-쥬쥬만두]]
+1.9월 30일까지 매일 0시마다 임무 1개가 해제되며, 이벤트 
+임무를 완료하여「축제 건축 자재」, 「탐색 PT」 
+및 보상을 획득할 수 있다. 이벤트 임무 누적
+가능.
+2.「축제 건축 자재」를 소모하여 축제 광장에서 건물을 
+업그레이드할 수 있으며, 각 건물마다 다른 버프 속성을 
+제공한다.
+3. 매 건물은 3개의 레벨로 나눠져 있으며 건물의 레벨이 
+상승할 때마다 제공하는 버프 속성도 상승한다.
+4. 업그레이드 가능한 건물:
+쥬쥬 카페
+쥬쥬 피규어
+쥬쥬 서점
+쥬쥬 게임실]]
 			}
 		}
 	},
@@ -10602,14 +11229,23 @@ BUFF 보너스도 증가합니다.
 	win_condition_display_qijian = {
 		tip = "적군 기함 격파"
 	},
+	win_condition_display_qijian_tip = {
+		tip = "BOSS 격파. 스테이지 공략 완료"
+	},
 	win_condition_display_shangchuan = {
 		tip = "상선이 지정 위치 도착"
+	},
+	win_condition_display_shangchuan_tip = {
+		tip = "운송함 종점 도착. 호송 성공"
 	},
 	win_condition_display_judian = {
 		tip = "적의 모든 거점 파괴"
 	},
 	win_condition_display_tuoli = {
 		tip = "임의의 함선이 이탈점 도달 "
+	},
+	win_condition_display_tuoli_tip = {
+		tip = "이탈 지점 도착 성공. 스테이지 공략 완료"
 	},
 	lose_condition_display_quanmie = {
 		tip = "아군 함대 전멸"
@@ -10703,6 +11339,30 @@ BUFF 보너스도 증가합니다.
 	},
 	equip_info_27 = {
 		tip = ""
+	},
+	equip_info_28 = {
+		tip = "대미지 수정 비율"
+	},
+	equip_info_29 = {
+		tip = "대미지 속성 유형"
+	},
+	equip_info_30 = {
+		tip = "속성 효율"
+	},
+	equip_info_31 = {
+		tip = "공습"
+	},
+	equip_info_extralevel_0 = {
+		tip = "레벨0"
+	},
+	equip_info_extralevel_1 = {
+		tip = "레벨1"
+	},
+	equip_info_extralevel_2 = {
+		tip = "레벨2"
+	},
+	equip_info_extralevel_3 = {
+		tip = "레벨3"
 	},
 	tec_settings_btn_word = {
 		tip = "연구 선택"
@@ -10799,6 +11459,888 @@ BUFF 보너스도 증가합니다.
 	tec_catchup_errorfix = {
 		tip = "「신병 훈련」 중 「과학 연구 임무·1기」 완료 후 임무가 갱신되는 문제가 존재하기 때문에, 공정한 게임을 위하여 「과학 연구 임무·1기」 임무를 처음 완료 후, 1기 임무가 자동으로 1회 초기화될 것이며, 모든 지휘관들은 2번째 「과학 연구 임무·1기」를 완료할 수 있을 것입니다."
 	},
+	guild_duty_is_too_low = {
+		tip = "견습 멤버는 보상을 수령할 수 없습니다."
+	},
+	guild_trainee_duty_change_tip = {
+		tip = "견습 멤버는 직위를 변경할 수 없습니다."
+	},
+	guild_not_exist_donate_task = {
+		tip = "해당 임무가 존재하지 않습니다."
+	},
+	guild_week_task_state_is_wrong = {
+		tip = "대함대 임무 정보를 정상적으로 불러오지 못했습니다."
+	},
+	guild_get_week_done = {
+		tip = "새로운 대함대 임무가 수령되었습니다."
+	},
+	guild_public_awards = {
+		tip = "대함대 보상: "
+	},
+	guild_private_awards = {
+		tip = "멤버 보상: "
+	},
+	guild_task_selecte_tip = {
+		tip = "[$1] 임무를 수령하려고 합니다. 수령할 경우, 이번 주 중에는 다른 임무로 변경할 수 없습니다. 확인하시겠습니까?"
+	},
+	guild_task_accept = {
+		tip = "[$1]의 [$2]을(를) 수령합니다. 금주 개인 보상은 이미 획득했습니다. [$3]을(를) 중복으로 진행할 경우 함대 코인 보상은 획득하지 못하지만 대함대 임무 완성 횟수는 누적됩니다. 수령을 확인하시겠습니까?"
+	},
+	guild_commander_and_sub_op = {
+		tip = "해당 기능은 대함대 사령관, 부사령관만 사용할 수 있습니다."
+	},
+	["guild_donate_times_not enough"] = {
+		tip = "오늘 준비 횟수를 모두 사용했습니다."
+	},
+	guild_donate_success = {
+		tip = "군수 준비 완성"
+	},
+	guild_left_donate_cnt = {
+		tip = "남은 횟수: $1회"
+	},
+	guild_donate_tip = {
+		tip = "<color=#92FC63FF>$1×$2</color>(보유 개수: <color=$4>$3</color>)을(를) 대함대에 기부하려고 합니다. 기부하시겠습니까?"
+	},
+	guild_donate_addition_capital_tip = {
+		tip = "대함대 자금이 $1 증가했습니다."
+	},
+	guild_donate_addition_techpoint_tip = {
+		tip = "준비 진도가 $1 증가했습니다."
+	},
+	guild_donate_capital_toplimit = {
+		tip = "금일 군수 준비로 획득 가능한 대함대 물자를 초과했습니다. 획득할 수 없습니다."
+	},
+	guild_donate_techpoint_toplimit = {
+		tip = "금일 군수 준비로 획득 가능한 준비 진도를 초과했습니다. 획득할 수 없습니다."
+	},
+	guild_supply_no_open = {
+		tip = "대함대 보급을 구입하지 않았습니다."
+	},
+	guild_supply_award_got = {
+		tip = "대함대 보급을 수령했습니다."
+	},
+	guild_new_member_get_award_tip = {
+		tip = "대함대 가입 당일에는 대함대 보급을 받을 수 없습니다."
+	},
+	guild_start_supply_consume_tip = {
+		tip = "대함대 자금 $1을 사용해 대함대 보급을 구입하시겠습니까?\n<color=#c5cfdf>※대함대 보급: 모든 대함대 멤버가 매일 보급 보상 획득. 14일 지속</color>"
+	},
+	guild_left_supply_day = {
+		tip = "$1일 남음"
+	},
+	guild_supply_help_tip = {
+		tip = {
+			{
+				info = "상부에서 지급한 보급팩. 다음과 같은 아이템을 받을 수 있습니다"
+			},
+			{
+				info = "<color=#D797FFFF>함대 코인*30</color>"
+			},
+			{
+				info = "일정 확률로 다음 아이템을 획득할 수 있습니다.(각종 아이템의 획득 확률은 따로 계산됩니다.)"
+			},
+			{
+				info = "<color=#d797ff>함대 코인*10 40.00%</color>"
+			},
+			{
+				info = "<color=#d797ff>함대 코인*10 10.00%</color>"
+			},
+			{
+				info = "<color=#ffde38>원형 설계*10 5.00%</color>"
+			},
+			{
+				info = "<color=#ffde38>다이아0.20%</color>"
+			},
+			{
+				info = "<color=#ffde38>시제형 장비 개조 자재 0.10%</color>"
+			}
+		}
+	},
+	guild_op_only_administrator = {
+		tip = "해당 기능은 대함대 사령관, 부사령관만 사용할 수 있습니다."
+	},
+	guild_shop_refresh_done = {
+		tip = "초기화 성공"
+	},
+	guild_shop_cnt_no_enough = {
+		tip = "수량 부족"
+	},
+	guild_shop_refresh_all_tip = {
+		tip = "$1 <color=#92fc63>$2</color> 소비하여 상품 목록을 갱신하시겠습니까?"
+	},
+	guild_shop_exchange_tip = {
+		tip = "이 아이템과 교환하시겠습니까?"
+	},
+	guild_shop_label_1 = {
+		tip = "교환할 상품을 선택하세요:"
+	},
+	guild_shop_label_2 = {
+		tip = "교환 가능 횟수"
+	},
+	guild_shop_label_3 = {
+		tip = "확인"
+	},
+	guild_shop_label_4 = {
+		tip = "사용"
+	},
+	guild_shop_label_5 = {
+		tip = "교환할 캐릭터를 선택하세요:"
+	},
+	guild_shop_must_select_goods = {
+		tip = "교환할 아이템을 선택해주세요."
+	},
+	guild_not_exist_activation_tech = {
+		tip = "연구 중인 함대 기술이 없습니다."
+	},
+	guild_not_exist_tech = {
+		tip = "함대 기술이 없습니다."
+	},
+	guild_cancel_only_once_pre_day = {
+		tip = "함대 기술 개발은 1일 1회만 변경할 수 있습니다."
+	},
+	guild_tech_is_max_level = {
+		tip = "함대 기술 레벨이 최대치입니다."
+	},
+	guild_tech_gold_no_enough = {
+		tip = "함대 기술 학습에 필요한 물자가 부족합니다."
+	},
+	guild_tech_guildgold_no_enough = {
+		tip = "함대 기술 학습에 필요한 함대 코인이 부족합니다."
+	},
+	guild_tech_upgrade_done = {
+		tip = "함대 기술 레벨이 상승했습니다."
+	},
+	guild_exist_activation_tech = {
+		tip = "함대 기술은 한 번에 1종류만 개발할 수 있습니다."
+	},
+	guild_tech_gold_desc = {
+		tip = "물자 비축 상한 +$1"
+	},
+	guild_tech_oil_desc = {
+		tip = "연료 비축 상한 +$1"
+	},
+	guild_tech_shipbag_desc = {
+		tip = "도크 용량 +$1"
+	},
+	guild_tech_equipbag_desc = {
+		tip = "창고 용량 +$1"
+	},
+	guild_box_gold_desc = {
+		tip = "냥박스 구입 비용 -$1"
+	},
+	guidl_r_box_time_desc = {
+		tip = "냥박스 R 훈련 시간 단축 $1"
+	},
+	guidl_sr_box_time_desc = {
+		tip = "냥박스 SR 훈련 시간 단축 $2"
+	},
+	guidl_ssr_box_time_desc = {
+		tip = "냥박스 SSR 훈련 시간 단축 $3"
+	},
+	guild_member_max_cnt_desc = {
+		tip = "대함대 최대 멤버 수 +$1"
+	},
+	guild_tech_livness_no_enough = {
+		tip = "활약도 $1 달성 시 학습 가능"
+	},
+	guild_ship_attr_desc = {
+		tip = "대함대 작전 내 $1의 $2이(가) $3"
+	},
+	guild_start_tech_group_tip = {
+		tip = "[$1] 개발을 진행하려고 합니다. 확인하시겠습니까?"
+	},
+	guild_cancel_tech_tip = {
+		tip = "[$1] 개발을 중지하려고 합니다. 진행 상황은 저장되지만, 임의의 항목 개발을 다시 시작하기 전까지 군수 준비 진도는 얻지 못합니다."
+	},
+	guild_tech_consume_tip = {
+		tip = "<icon name=guildicon w=0.7 h=0.7/>$1 및 <icon name=gold w=0.7 h=0.7/>$2를 사용해 [$3]을(를) 학습하려고 합니다. 학습하시겠습니까?"
+	},
+	guild_tech_non_admin = {
+		tip = "권한 부족. 해당 기능은 대함대 사령관, 부사령관만 사용할 수 있습니다."
+	},
+	guild_tech_label_max_level = {
+		tip = "Lv 상한: "
+	},
+	guild_tech_label_dev_progress = {
+		tip = "준비 진도"
+	},
+	guild_tech_label_condition = {
+		tip = "군수 준비 증가"
+	},
+	guild_tech_donate_target = {
+		tip = "준비 진도 $1이 필요합니다."
+	},
+	guild_not_exist = {
+		tip = "대함대가 존재하지 않습니다."
+	},
+	guild_not_exist_battle = {
+		tip = "대함대 작전이 존재하지 않습니다."
+	},
+	guild_battle_is_end = {
+		tip = "대함대 작전은 종료되었습니다."
+	},
+	guild_battle_is_exist = {
+		tip = "이미 대함대 작전이 발령되었습니다."
+	},
+	guild_guildgold_no_enough_for_battle = {
+		tip = "대함대 작전을 발령하는 데 필요한 대함대 자금이 없습니다."
+	},
+	guild_event_start_tip1 = {
+		tip = "새로운 대함대 작전이 발령되었습니다. 확인을 터치해 화면을 새로고침해주세요."
+	},
+	guild_event_start_tip2 = {
+		tip = "이미 대함대 작전이 발령되었으므로, 새로운 대함대 작전을 발령할 수 없습니다."
+	},
+	guild_word_may_happen_event = {
+		tip = "사건 발생 가능"
+	},
+	guild_battle_award = {
+		tip = "작전 획득"
+	},
+	guild_word_consume = {
+		tip = "사용"
+	},
+	guild_start_event_consume_tip = {
+		tip = "대함대 물자 $1을 사용해 [$2]을(를) 발령하시겠습니까?"
+	},
+	guild_word_consume_for_battle = {
+		tip = "발령 사용"
+	},
+	guild_level_no_enough = {
+		tip = "대함대 레벨이 부족하므로 작전을 발령할 수 없습니다."
+	},
+	guild_open_event_info_when_exist_active = {
+		tip = "$1 진행 중, 해당 작전을 선택할 수 없습니다."
+	},
+	guild_join_event_cnt_label = {
+		tip = "참가 가능 횟수: "
+	},
+	guild_join_event_max_cnt_tip = {
+		tip = "참가 가능한 횟수가 부족합니다."
+	},
+	guild_join_event_progress_label = {
+		tip = "작전 진행도: "
+	},
+	guild_join_event_exist_finished_mission_tip = {
+		tip = "해당 작전은 진행 중입니다. 지금 작전에 참가할 시 이미 완성한 작전 사건의 보상은 획득할 수 없습니다. 작전에 참가하시겠습니까?"
+	},
+	guild_event_not_exist = {
+		tip = "작전 사건이 없습니다."
+	},
+	guild_fleet_can_not_edit = {
+		tip = "함대를 편집할 수 없습니다."
+	},
+	guild_fleet_exist_same_kind_ship = {
+		tip = "동명의 함선을 중복 선택할 수 없습니다."
+	},
+	guild_event_exist_same_kind_ship = {
+		tip = "동명의 함선은 중복으로 존재할 수 없습니다."
+	},
+	guidl_event_ship_in_event = {
+		tip = "다른 임무를 수행 중이므로 선택할 수 없습니다."
+	},
+	guild_event_start_done = {
+		tip = "파견 성공"
+	},
+	guild_fleet_update_done = {
+		tip = "함대 갱신 성공"
+	},
+	guild_event_is_lock = {
+		tip = "사건 미개방"
+	},
+	guild_event_is_finish = {
+		tip = "사건 종료. 작전 보고서를 확인하면 보상을 수령할 수 있습니다."
+	},
+	guild_fleet_not_save_tip = {
+		tip = "함대 편성이 갱신되지 않았습니다. 이전 화면으로 돌아가시겠습니까? "
+	},
+	guild_word_battle_area = {
+		tip = "작전 해역: "
+	},
+	guild_word_battle_type = {
+		tip = "작전 유형: "
+	},
+	guild_wrod_battle_target = {
+		tip = "작전 목표: "
+	},
+	guild_event_recomm_ship_failed = {
+		tip = "조건을 충족하는 함선이 없습니다."
+	},
+	guild_event_start_event_tip = {
+		tip = "파견 성공 후 철수할 수 없습니다. 확인하시겠습니까?"
+	},
+	guild_word_sea = {
+		tip = "근해"
+	},
+	guild_word_score_addition = {
+		tip = "평가 UP: "
+	},
+	guild_word_effect_addition = {
+		tip = "효율 UP: "
+	},
+	guild_curr_fleet_can_not_edit = {
+		tip = "함대 편성을 변경할 수 없습니다."
+	},
+	guild_next_edit_fleet_time = {
+		tip = "$1 후, 새로운 함대를 파견할 수 있습니다."
+	},
+	guild_event_info_desc1 = {
+		tip = "캐릭터 $5명 $1 수치 $2 달성: <color=$3>$4/$5</color>"
+	},
+	guild_event_info_desc2 = {
+		tip = "총 $1수치: <color=$2>$3/$4</color>"
+	},
+	guild_join_member_cnt = {
+		tip = "참가 멤버:"
+	},
+	guild_total_effect = {
+		tip = "총 효율: "
+	},
+	guild_word_people = {
+		tip = "명"
+	},
+	guild_event_info_desc3 = {
+		tip = "$1 함선(현재 $2)"
+	},
+	guild_not_exist_boss = {
+		tip = "보스 데이터가 없습니다."
+	},
+	guild_ship_from = {
+		tip = "from:"
+	},
+	guild_boss_formation_1 = {
+		tip = "대함대 멤버의 지원 파견 함선을 최대 3척까지 선택할 수 있습니다."
+	},
+	guild_boss_formation_2 = {
+		tip = "한 멤버당 지원 파견 함선을 최대 1척까지 선택할 수 있습니다."
+	},
+	guild_boss_formation_3 = {
+		tip = "편대 내 동명의 함선이 중복으로 존재할 수 없습니다."
+	},
+	guild_boss_cnt_no_enough = {
+		tip = "도전 횟수 부족"
+	},
+	guild_boss_fleet_cnt_invaild = {
+		tip = "편성 오류, 출격할 수 없습니다."
+	},
+	guild_boss_formation_not_exist_self_ship = {
+		tip = "선봉함대, 주력함대에 자신의 함선을 각각 1척 이상 배치해야 합니다."
+	},
+	guild_boss_formation_exist_event_ship = {
+		tip = "$1 군사 의뢰 진행 중, 보스전에 참가할 수 없습니다."
+	},
+	guild_fleet_is_legal = {
+		tip = "선봉함대, 주력함대에 각각 1척 이상 배치해야 합니다."
+	},
+	guild_battle_result_boss_is_death = {
+		tip = "대함대 작전 보스전이 종료되었습니다. 전투 패배"
+	},
+	guild_must_edit_fleet = {
+		tip = "지원 파견 함선을 갱신했습니다."
+	},
+	guild_ship_in_battle = {
+		tip = "$1은(는) 작전에 참가 중입니다. 작전 종료 후에 파견 편성이 갱신됩니다."
+	},
+	guild_ship_in_assult_fleet = {
+		tip = "이미 지원 파견 함선에 편성된 상태입니다."
+	},
+	guild_event_exist_assult_ship = {
+		tip = "지원 파견 함선은 작전 사건에 참가할 수 없습니다."
+	},
+	guild_formation_erro_in_boss_battle = {
+		tip = "보스와 교전 중입니다. 지원 파견 함선을 변경할 수 없습니다."
+	},
+	guild_get_report_failed = {
+		tip = "작전 보고서 정보를 수령하는 데 실패했습니다."
+	},
+	guild_report_get_all = {
+		tip = "모두 수령"
+	},
+	guild_can_not_get_tip = {
+		tip = "작전 사건에 참가하지 않았으므로 보상을 수령할 수 없습니다."
+	},
+	guild_not_exist_notifycation = {
+		tip = "대함대 게시판에 작성된 글이 없습니다."
+	},
+	guild_exist_report_award_when_exit = {
+		tip = "미수령한 작전 보상이 있습니다. 수령하시겠습니까?"
+	},
+	guild_report_tooltip = {
+		tip = "※작전 보고서(보상)는 최대 20개까지 저장됩니다. 수령하지 않은 보상은 새로운 보상이 추가되면 삭제됩니다. 주의하세요!"
+	},
+	word_guildgold = {
+		tip = "함대 코인"
+	},
+	guild_member_rank_title_donate = {
+		tip = "기부 횟수"
+	},
+	guild_member_rank_title_finish_cnt = {
+		tip = "완료 횟수"
+	},
+	guild_member_rank_title_join_cnt = {
+		tip = "참가 횟수"
+	},
+	guild_donate_log = {
+		tip = "[$1] $2이(가) $3$4를 사용해 군수 준비 임무를 완료했습니다. 대함대 자금 +$5"
+	},
+	guild_supply_log = {
+		tip = "[$1] $2이(가) 대함대 자금 $3를 사용해 대함대 보급 물자를 $4일분 구입했습니다."
+	},
+	guild_weektask_log = {
+		tip = "[$1] 대함대 임무를 완료했습니다. 대함대 자금 +$2"
+	},
+	guild_battle_log = {
+		tip = "[$1] $2이(가) 대함대 자금 $3를 사용해 대함대 작전을 발령했습니다."
+	},
+	guild_use_donateitem_success = {
+		tip = "사용 성공, 군수 준비 횟수 +$1"
+	},
+	guild_use_battleitem_success = {
+		tip = "사용 성공, 작전 참가 횟수 +$1"
+	},
+	not_exist_guild_use_item = {
+		tip = "대함대에 가입하지 않았습니다. 해당 아이템을 사용할 수 없습니다."
+	},
+	guild_member_tip = {
+		tip = {
+			{
+				info = "멤버 관리에 대하여:"
+			},
+			{
+				info = "1. 대함대 멤버는 이 화면에서 다른 멤버의 정보를 확인할 수 \n있습니다."
+			},
+			{
+				info = "2. 함대 사령관 및 부사령관은 <color=#92fc63>자신보다 직위가 낮은 멤버</color>의 \n역할을 자유롭게 변경할 수 있습니다."
+			},
+			{
+				info = "3. 함대 사령관 및 부사령관은 <color=#92fc63>자신보다 직위가 낮은 멤버</color>를 \n대함대에서 제명할 수 있습니다."
+			},
+			{
+				info = "4. 대함대 사령관이 <color=#92fc63>10</color>일 동안 게임에 접속하지 않은 경우, 부\n사령관이 대함대 사령관을 <color=#92fc63>탄핵</color>할 수 있습니다."
+			},
+			{
+				info = [[
+5. 탄핵에 대하여: 탄핵이 추진된 경우, 함대 사령관은 <color=#92fc63>24</color>시간 
+이내에 탄핵을 취소할 수 있습니다. <color=#92fc63>24</color>시간 이내에 탄핵을 취
+소하지 않으면, 대함대 사령관의 권한은 <color=#92fc63>활약도가 가장 높은 
+부사령관</color>에게 인계됩니다.]]
+			},
+			{
+				info = "6. <color=#92fc63>견습 멤버</color>에 대하여:"
+			},
+			{
+				info = " 대함대에 처음 가입한 지휘관은 견습 멤버입니다."
+			},
+			{
+				info = " 견습 멤버는 활약도 100을 달성하면 정식 멤버로 자동 전환됩\n니다."
+			},
+			{
+				info = " 견습 멤버는 직위가 변경될 수 없습니다."
+			},
+			{
+				info = " 견습 멤버는 대함대 기술을 학습할 수 없습니다."
+			},
+			{
+				info = " 견습 멤버는 대함대 보급을 수령할 수 없습니다."
+			},
+			{
+				info = " 견습 멤버는 작전 보고서 보상을 수령할 수 없습니다."
+			},
+			{
+				info = " 기타 권한은 일반 멤버와 동일합니다."
+			},
+			{
+				info = "※견습 멤버가 강퇴당하면, 시스템 우편을 통해 함대에 속한\n기간 동안 누적된 작전 보고서 보상이 지급됩니다."
+			},
+			{
+				info = "7. <color=#92fc63>활약도</color>에 대하여:"
+			},
+			{
+				info = "게임 내 각종 데일리&주간&대함대 관련 플레이 시, <color=#92fc63>활약도</color>를\n 획득할 수 있습니다. 구체적으로:"
+			},
+			{
+				info = " 데일리 임무 완료: <color=#92fc63>2</color>"
+			},
+			{
+				info = " 주간 임무 완료: <color=#92fc63>5</color>"
+			},
+			{
+				info = " 대함대 개인 임무 1회 완료: <color=#92fc63>2</color>"
+			},
+			{
+				info = " 군수 준비 1회 완료: <color=#92fc63>10</color>"
+			},
+			{
+				info = " 대함대 작전 사건 파견 1회: <color=#92fc63>1</color>"
+			},
+			{
+				info = " 대함대 작전 보스전 1회 도전: <color=#92fc63>10</color>"
+			}
+		}
+	},
+	guild_tech_tip = {
+		tip = {
+			{
+				info = "기술 설명:"
+			},
+			{
+				info = "1. 대함대 기술은 지휘관 모항에 일정한 효과를 제공합니다."
+			},
+			{
+				info = "2. 대함대 기술은 <color=#92fc63>개발 모드</color>와 <color=#92fc63>일반 모드</color> 두 개 화면이 있으며, \n페이지우측 상단 버튼을 통해 전환 가능합니다."
+			},
+			{
+				info = "3. 개발 모드에서 함대 사령관/부사령관은 개발할 대함대 기술\n을 변경할 수 있으며, 개발 항목 변경은 하루<color=#92fc63>1</color>회만 가능합니다."
+			},
+			{
+				info = "4. 대함대 생성&시스템 업데이트 후, 개발 항목은 자동적으로 \n<color=#92fc63>대함대멤버 확충</color>이 선택되며, 직접 변경할 수 있습니다."
+			},
+			{
+				info = "5. 대함대 기술의 개발은 <color=#92fc63>군수 준비</color>가 필요합니다. <color=#92fc63>보급</color>의 <color=#92fc63>군\n수 준비</color>를 완료하여 <color=#92fc63>항목 준비 진도</color>를 누적할 수 있고, 준비 완\n료 후, 해당하는 대함대 기술 레벨이 상승합니다."
+			},
+			{
+				info = "6. 개발 모드에서 모든 멤버는 항목 준비 진도를 확인할 수 있습\n니다."
+			},
+			{
+				info = "7. 개발 항목 준비를 동시에 <color=#92fc63>1</color>가지 기술만 진행할 수 있습니다."
+			},
+			{
+				info = "8. 일반 모드에서 모든 멤버는 <color=#92fc63>함대 코인</color>과 <color=#92fc63>물자</color>를 소비하여 대\n함대가 이미 개발한 기술을 학습할 수 있습니다."
+			},
+			{
+				info = "9. 멤버의 대함대 기술 레벨은 <color=#92fc63>현재 대함대</color> 기술 레벨\n최대치까지만 상승시킬 수 있습니다."
+			},
+			{
+				info = "10. 대함대 기술은 해당하는 <color=#92fc63>활약도</color>를 달성하여야 학습할 수 \n있습니다."
+			},
+			{
+				info = "11. 대함대에서 탈퇴할 경우, 이미 학습한 대함대 기술 <color=#92fc63>레벨은 \n보류</color>되며, 새로운 대함대에 가입한 후, 해당 기술 효과가 <color=#92fc63>다시 \n적용</color>됩니다."
+			},
+			{
+				info = "12. 만약 어떠한 대함대에도 가입하지 않았을 경우, 대함대 기\n술은 <color=#92fc63>효과가없습니다</color>."
+			}
+		}
+	},
+	guild_office_tip = {
+		tip = {
+			{
+				info = "보급 설명:"
+			},
+			{
+				info = "1. 대함대 사령관/부사령관은 보급에서 대함대 임무 발령, 대함\n대보급을 구매할 수 있습니다."
+			},
+			{
+				info = "2. 모든 멤버는 보급에서 대함대 임무를 수령&진행하고, 군수 \n준비임무를 제출하고, 대함대 보급을 수령할 수 있습니다."
+			},
+			{
+				info = "3. 대함대 임무: 대함대 전 멤버가 <color=#92fc63>공동 진행</color>하는 임무로, 임무\n완성 시 대함대 자금 보상을 획득합니다."
+			},
+			{
+				info = "4. 대함대 임무 개인 보상은 매주 <color=#92fc63>1</color>회만 수령 가능하지만, 임무\n를중복으로 완성하여도 대함대 임무 진행 횟수에 <color=#92fc63>합산</color>됩니다."
+			},
+			{
+				info = "5. 대함대 임무는 매주 결산되며, 결산 시 <color=#92fc63>대함대 멤버</color>의 임무 \n완성 횟수에 따라 대함대 자금보상이 지급됩니다."
+			},
+			{
+				info = "6. 군수 준비: 대함대 전 멤버는 군수 준비를 통해 함대\n코인 보상을 획득할 수 있습니다."
+			},
+			{
+				info = "7. 군수 준비는 매일 <color=#92fc63>3</color>회만 진행 가능합니다."
+			},
+			{
+				info = "8. 군수 준비 완성 시 개인 함대 코인 보상 이외에, 대함대에 \n일정 수량의자금을 제공할 수 있습니다."
+			},
+			{
+				info = "9. 군수 준비를 진행할 때마다, 함대 기술 개발의 <color=#92fc63>준비 진도</color>가\n증가하며, <color=#92fc63>항목 준비 진도</color>가 기준에 도달하면, 개발 중인 대함\n대 기술 레벨이 상승합니다."
+			},
+			{
+				info = "10. 군수 준비로 획득 가능한<color=#92fc63>대함대 자금</color>과 <color=#92fc63>준비 진도</color>는 일일 상\n한이 존재하며, 초과할 경우, 더 이상 <color=#92fc63>대함대 자금</color>과 <color=#92fc63>준비 진도</color>를 \n제공하지 않습니다. <color=#92fc63>함대 코인</color>은 정상적으로 획득 가능합니다."
+			},
+			{
+				info = "11. 군수 준비의 <color=#92fc63>일일 상한 횟수</color>는 대함대 인원 수 상한의 3배\n입니다."
+			},
+			{
+				info = "12.대함대 보급: 함대 사령관/부사령관은 대함대 자금을 사용\n하여 멤버혜택을 구매할 수 있습니다."
+			},
+			{
+				info = "13. 대함대 보급 구매는 일정량의 대함대 자금이 필요하며, \n구매 후<color=#92fc63>14</color>일 동안, 모든 대함대 멤버가 대함대 보급을 <color=#92fc63>1</color>개씩 \n수령합니다."
+			},
+			{
+				info = "14. 대함대에 새로 가입한 멤버는, 당일 대함대 보급을 획득하\n지 못하며, 가입 둘째 날<color=#92fc63>첫 번째</color> 보급을 획득합니다\n(해당 대함대가 보급을구매하였을 경우)."
+			},
+			{
+				info = "15. 각 멤버의 대함대 보급의 최대 저장 개수는 <color=#92fc63>3</color>개이며, <color=#92fc63>3</color>개를 \n초과하여 미수령할 경우 새로운 대함대 보급을 획득하지 못합\n니다."
+			}
+		}
+	},
+	guild_event_help_tip = {
+		tip = {
+			{
+				info = "작전 설명:"
+			},
+			{
+				info = "1. 대함대 작전(이하 <color=#92fc63>작전</color>)은 대함대 멤버가 공동 참가해 전역\n을 완성해야합니다."
+			},
+			{
+				info = "2. 작전은 대함대 <color=#92fc63>사령관</color> 또는 <color=#92fc63>부사령관</color>이 발령하며, 발령 시 \n<color=#92fc63>대함대 자금</color>을 소모합니다."
+			},
+			{
+				info = "3. 작전 중 사건이 발생하며, 사건은 모든 멤버가 함선을 파견\n하여해결할 수 있습니다. <color=#92fc63>파견된 함선이 많을수록, 사건 \n해결 속도도 빨라집니다</color>."
+			},
+			{
+				info = "3.1. 사건 유형:"
+			},
+			{
+				info = "조우전",
+				rawIcon = {
+					name = "1",
+					atlas = "GuildEventIcon"
+				}
+			},
+			{
+				info = "항공전",
+				rawIcon = {
+					name = "2",
+					atlas = "GuildEventIcon"
+				}
+			},
+			{
+				info = "수송 호위",
+				rawIcon = {
+					name = "3",
+					atlas = "GuildEventIcon"
+				}
+			},
+			{
+				info = "보급 파괴",
+				rawIcon = {
+					name = "4",
+					atlas = "GuildEventIcon"
+				}
+			},
+			{
+				info = "거점 점령",
+				rawIcon = {
+					name = "5",
+					atlas = "GuildEventIcon"
+				}
+			},
+			{
+				info = "거점 방어",
+				rawIcon = {
+					name = "6",
+					atlas = "GuildEventIcon"
+				}
+			},
+			{
+				info = "순찰",
+				rawIcon = {
+					name = "7",
+					atlas = "GuildEventIcon"
+				}
+			},
+			{
+				info = "보급 정비",
+				rawIcon = {
+					name = "8",
+					atlas = "GuildEventIcon"
+				}
+			},
+			{
+				info = "4. 모든 메인 사건을 완료한 후, 보스가 등장합니다."
+			},
+			{
+				info = "5. 보스의 전력은 <color=#92fc63>작전에 참가한 멤버 수</color>에 따라 결정됩니다."
+			},
+			{
+				info = "6. 각 멤버는 보스와 매일 <color=#92fc63>1</color>번씩만 싸울 수 있습니다."
+			},
+			{
+				info = "7. 지원파견: 보스전은 지원파견 함선을 사용하여 작전에협조\n할 수 있습니다. 각 멤버는 지원파견 함선을 <color=#92fc63>2</color>척까지 \n파견할 수 있습니다."
+			},
+			{
+				info = "8. 지원파견 후 <color=#92fc63>30</color>분 동안은 변경할 수 없으며, 보스가 출현한\n상황에서는 지원파견 배치를 변경할 수 없습니다."
+			},
+			{
+				info = "9.보스전 작전 편성의 자세한 설명은 보스 작전 편성 화면에서 \n확인할 수 있습니다."
+			},
+			{
+				info = "10. 보스 격파 후, 작전은 종료됩니다."
+			},
+			{
+				info = "11. 모든 사건과 보스전 보상은 <color=#92fc63>작전 보고서</color>로 지급되며, \n작전 보고서는 저장 상한이 있으니, <color=#92fc63>제때 수령</color>해 주시기 \n바랍니다."
+			}
+		}
+	},
+	guild_mission_info_tip = {
+		tip = {
+			{
+				info = "사건 파견 설명:"
+			},
+			{
+				info = "1. 사건 발생 시, 멤버는 각자 <color=#92fc63>4</color>명의 캐릭터를 파견할 수 있습\n니다."
+			},
+			{
+				info = "2. 매일 4회 파견 횟수가 갱신되며(실제 시간<color=#92fc63>6/12/18/21</color>시에\n<color=#92fc63>1</color>회씩 갱신), 한 사건에 각 멤버가 최대 <color=#92fc63>4</color>회 파견할 수 있습니다."
+			},
+			{
+				info = "3. 사건에 파견한 함선이 사건의 <color=#92fc63>효율 요구</color>에 부합할 경우, \n사건을해결할 <color=#92fc63>전투 능력</color>이 추가로 제공되어 사건 해결 \n속도가 더욱 상승합니다."
+			},
+			{
+				info = [[
+4. 사건에 파견한 함선이 사건의 <color=#92fc63>평가 요구</color>에 부합할경우, 
+<color=#92fc63>평가 보너스</color>가 추가로 제공되며, 평가 보너스가일정 
+수준에 도달하면 <color=#92fc63>추가 보상</color>이 주어집니다. 개별 사건의 
+평가는 마지막에등장하는 보스에 영향을 줄 수 있습니다.]]
+			},
+			{
+				info = "5. 사건 내에는 절점이 있으며, 절점의 성공률은 모든 멤버가 \n파견한<color=#92fc63>캐릭터 수량</color>에 영향을 받습니다. 절점은 성공, 실패와 \n관련없이 보상을 획득합니다."
+			},
+			{
+				info = "6. 절점 보상은 사건 보상과 통합되어 작전 보고서로 지급되며, \n작전보고서 화면에서 수령할 수 있습니다."
+			}
+		}
+	},
+	guild_boss_fleet_desc = {
+		tip = [[
+1. 작전 편성은 최대 <color=#92fc63>9</color>척의 함선으로 구성됩니다.
+2. 보유한 함선에서 선봉 및 주력함대로 각각 <color=#92fc63>1</color>척 이상 선택해야 합니다.
+3. 파견 지원 함선에서 최대 <color=#92fc63>3</color>척까지 선택하여 보스전에 참가할 수 있습니다.
+4. 보스의 HP가 0이 되면 대함대 작전이 종료됩니다.
+5. 지휘관은 하루에 <color=#92fc63>1</color>번만 보스와 교전할 수 있습니다.]]
+	},
+	guild_boss_formation_exist_invaild_ship = {
+		tip = "대함대 멤버의 지원 파견 편성이 변경되었으므로, 보스전 편성이 갱신되었습니다."
+	},
+	guild_exist_unreceived_supply_award = {
+		tip = "<color=red>미수령</color>"
+	},
+	word_shipState_guild_event = {
+		tip = "캐릭터가 대함대 작전에 참여 중입니다. 퇴역 불가"
+	},
+	help_rollingBallGame = {
+		tip = {
+			{
+				info = [[
+미니 게임 규칙:
+1. 구슬을 선택 후, 최대 7초의 이동 시간을 가진다. 이 7초의 
+이동 시간 내에 구슬을 상하좌우 거리에 상관없이 이동시킬 
+수 있다.
+2. 이동 과정에서 경로 상의 구슬과 위치가 교환되며, 7초가 
+지나거나 손을 떼면 제거 및 결산이 시작된다.
+3. 같은 색 구슬을 가로 또는 세로로 3개 이상 연결하면 제거할 
+수 있고, 한 번에 제거하는 구슬이 많을수록 고득점.
+이벤트 규칙:
+이벤트 기간 동안 매일 사용 가능 횟수를 얻으며, 최대 7회까지 
+얻을 수 있다.
+1. 사용 가능 횟수가 남아있는 상황에서 쥬쥬 롤링볼에 
+참여하면 횟수를 소모하며 출석 횟수를 얻는다. 출석 7회 시
+「축제 초대장」을 획득한다.
+2. 사용 가능 횟수는 축제 광장 화면 우측에서 확인할 수 있고, 
+출석 진도는축제 광장 화면의 「초대장」 버튼을 
+통해 확인할 수 있다.
+3. 사용 가능 횟수가 없을 경우 쥬쥬 롤링볼에 참여하면 출석 
+횟수를 얻지 못한다.
+4. 기타 원인으로 인해 중도 퇴장할 경우 사용 가능 횟수는 
+차감되지 않고 어떠한 보상도 얻지 못한다.]]
+			}
+		}
+	},
+	rolling_ball_help = {
+		tip = {
+			{
+				info = [[
+이벤트 규칙:
+이벤트 기간 동안 매일 사용 가능 횟수를 얻으며, 최대 
+7회까지 얻을 수
+ 있다.
+1. 사용 가능 횟수가 남아있는 상황에서 쥬쥬 롤링볼에 
+참여하면 횟수를 소모하며
+출석 횟수를 얻는다. 출석 7회 시
+「축제 초대장」을 획득한다.
+2. 사용 가능 횟수는 축제 광장 화면 우측에서 확인할 수 있고, 
+출석 진도는
+축제 광장 화면의 「초대장」 버튼을 
+통해 확인할 수 있다.
+3. 사용 가능 횟수가 없을 경우 쥬쥬 롤링볼에 참여하면 
+출석 횟수를 얻지
+못한다.
+4. 기타 원인으로 인해 중도 퇴장할 경우 사용 가능 횟수는 
+차감되지 않고
+어떠한 보상도 얻지 못한다.]]
+			}
+		}
+	},
+	help_jiujiu_expedition_game = {
+		tip = {
+			{
+				info = [[
+게임 규칙:
+1. 이벤트 기간 동안, 스테이지 내 칸을 터치하여 스테이지를 
+탐색할 수 있다. 스테이지 탐색 시 탐색 PT를 소모한다.
+2. 스테이지 탐색도가 100%에 도달해야 다음 스테이지로 
+이동할 수 있다.
+3. 이미 탐색한 구역과 인접한 칸만 탐색이 가능하며, 탐색 
+완료 시탐색도가 증가한다.
+4. 스테이지 내 칸은 3가지 유형으로 나뉜다: 보통칸, 상자칸, 
+적군칸. 각 칸마다 탐색 완료 후의 보상은 다르다.
+주의: 상자칸은 상자를 오픈해야 하며, 적군칸은 적을 처치해
+야 탐색이 완료된다.]]
+			}
+		}
+	},
+	jiujiu_expedition_game_stg_desc = {
+		tip = "$1스테이지 탐색도"
+	},
+	build_ship_accumulative = {
+		tip = "건조 누적:"
+	},
+	destory_ship_before_tip = {
+		tip = "확인하시겠습니까?"
+	},
+	destory_ship_input_erro = {
+		tip = "정확한 확인 문구를 입력해야 해체가 진행됩니다."
+	},
+	destroy_ur_rarity_tip = {
+		tip = "<color=#92fc63>UR 함선</color> 포함됨, <color=#92fc63>「$1」</color>를 입력하여 확인"
+	},
+	destory_ur_pt_overflowa = {
+		tip = "※해체로 획득하는 <color=#92fc63>「특장 원형」</color>은 이번달 획득 최대치를 초과하며, <color=#fd796b>초과된 부분은 획득할 수 없습니다</color>."
+	},
+	jiujiu_expedition_help = {
+		tip = {
+			{
+				info = [[
+이벤트 기간: 2020.9.24-10.19
+이벤트 규칙:
+1.9월 30일까지, 매일 다양한 방식으로 「탐
+색 PT」 획득 가능
+획득 방식:
+①매일 게임 로그인: 「탐색 PT」 11 포인트
+②「쥬쥬 모험기」 임무 완료: 「탐색 PT」 10 포인트
+③「축제 광장」임무 완료: 「탐색 PT」 10 포인트
+이상 이벤트 내용은 모두 누적 가능
+2. 「탐색 PT」를 소모하여 「쥬쥬 모험기」 스테이지 
+내에서 맵을 탐색하여
+풍부한 보상 획득 가능]]
+			}
+		}
+	},
+	shop_label_unlimt_cnt = {
+		tip = "중복 교환 가능"
+	},
+	jiujiu_expedition_book_tip = {
+		tip = "이전 수첩 수집 완료 후 잠금 해제 가능"
+	},
+	jiujiu_expedition_reward_tip = {
+		tip = "수첩 수집 완료 후 보상 수령 가능"
+	},
+	jiujiu_expedition_amount_tip = {
+		tip = "탐색 PT 부족, 임무를 완성하여 탐색 PT를 획득하세요."
+	},
+	jiujiu_expedition_stg_tip = {
+		tip = "스테이지 잠김, 이전 스테이지를 완료하세요."
+	},
 	trade_card_tips1 = {
 		tip = "상점으로 이동"
 	},
@@ -10820,5 +12362,802 @@ BUFF 보너스도 증가합니다.
 	},
 	trade_card_tips4 = {
 		tip = "$1년 $2월 $3일"
+	},
+	ur_exchange_help_tip = {
+		tip = {
+			{
+				info = [[
+ ■ 「특장형 부린 MKIII」획득 방법:
+원형 상점에「특장형 부린 MKIII」 신규 추가
+「특장 원형」을 수집해 교환 가능
+
+ ■ 「특장 원형」 획득 가능 방법:
+특장 원형 주간 임무, 일일 임무를 완료하여 매주 400개의
+「특장 원형」 획득 가능
+메인 해역, 이벤트, 작전 문서, 메인 해역 어려움 스테이지
+BOSS 격파, 과학 연구 개발 완료 또는 개조하지 않은
+UR 함선 퇴역 시 획득
+(개조한 UR 함선 퇴역 시 획득 불가)
+
+매월 획득 가능한 특장 원형 수량은 최대 4000개
+매월 1일 0시마다 획득 가능 수량 초기화
+*일부 이벤트를 통해 획득하는 특장 원형은 매월 최대치에 
+합산하지 않으며, 표시될 것
+]]
+			}
+		}
+	},
+	fleet_antisub_range = {
+		tip = "대잠수함 소나 범위:"
+	},
+	fleet_antisub_range_tip = {
+		tip = {
+			{
+				info = [[
+ · 대잠수함 소나 탐지
+
+전열 함대에 격파되지 않은 경순양함 또는 구축함이 있을 경우,
+해당 편대는 전투 중 대잠수함 소나로 적 잠수함을 탐지한다.
+소나 탐지 범위 내의 적 잠수함은 범위를 벗어날 때까지
+노출된다(일부 특수 상황 제외).
+
+소나 탐지 범위 계산 방식:
+도크 내 캐릭터 상세 화면의 대잠 수치
+스탯 부분
+1. 기본 탐지 범위
+전열 함대의 구축함과 경순양함의 대잠 수치와 공식에 따라 
+기본탐지 직경 계산:
+구축함 기본 탐지 직경 = 대잠 수치 / 2 - 32
+구축함 기본 탐지 범위 제한: 최소 45 ~ 최대 100
+경순양함 기본 탐지 직경 = 대잠 수치 / 2.86
+경순양함 기본 탐지 범위 제한: 최소 30 ~ 최대 80
+
+기본 탐지 직경 계산 후, 최대 기본 탐지 직경이
+편대의 기본 탐지 범위가 된다.
+
+2. 추가 탐지 범위
+기본 탐지 범위를 제외하고, 기타 방식을 통해 추가 탐지 범위를
+늘릴 수 있다.
+기본 범위와 추가 범위를 더한 후, 실제 대잠 소나 탐지 범위가
+형성된다.
+ ·후열에 편성된 모든 캐릭터들의 대삼 수치 합계 후, 공식에 
+따라 추가 범위를계산한다.
+후열 함대 추가 탐지 직경 = 후열 대잠 수치 총합 / 24 
+후열 함대 추가 탐지 범위 제한: 최소 0 ~ 최대 15
+ · 장비, 스킬로 증가된 추가 범위
+]]
+			}
+		}
+	},
+	practise_idol_tip = {
+		tip = "$1에게 연습을 진행시키겠습니까?"
+	},
+	practise_idol_help = {
+		tip = {
+			{
+				info = [[
+이벤트 규칙:
+1. 이벤트 기간 동안 <color=#92fc63>「격창휘장」</color> 획득 후 이벤트 페이지에서
+아이돌 그룹을 연습시킬 수 있습니다. 연습 진도가 특수 단계에 
+도달 시 아이돌 능력 선택 화면이나타나며, 능력을 선택하여 
+연습을 진행시킵니다.
+2. 아이돌 능력은 가창력, 안무력, 연기력 3가지로 나뉘며 각각
+2회 연습할 수 있고, 버프를 제공합니다:
+①가창력: 메인, 어려움, 이벤트, 작전 문서 스테이지에서 피해
+량 증가
+②안무력: 메인, 어려움, 이벤트, 작전 문서 스테이지에서 받는 
+피해 감소
+③연기력: 메인, 어려움, 이벤트, 작전 문서 스테이지에서 획득 
+경험치 증가
+3. 각 능력은 MAX 도달 시, 상응하는 보상을 획득할 수 
+있습니다.
+4. 화면 우측 아이돌 능력 아이콘을 터치하여 각 능력이 
+제공하는추가 버프와 보상을 확인할 수 있습니다.]]
+			}
+		}
+	},
+	upgrade_idol_tip = {
+		tip = "「연습할 항목을 선택하세요.」"
+	},
+	upgrade_complete_tip = {
+		tip = "연습 완료"
+	},
+	upgrade_introduce_tip = {
+		tip = "$1 Lv.MAX 달성 시 특별 보상 획득 가능"
+	},
+	collect_idol_tip = {
+		tip = "※굿즈를 선택창으로 드래그하여 되돌리기 가능"
+	},
+	hand_account_tip = {
+		tip = "굿즈 수집 완료 후 해제"
+	},
+	hand_account_resetting_tip = {
+		tip = "수첩 페이지를 초기화합니까?"
+	},
+	help_candymagic = {
+		tip = {
+			{
+				info = [[
+이벤트 규칙:
+이벤트 기간 동안, 매일 사용 가능 횟수를 획득하며, 최대 7회
+까지저장됩니다.
+1. 사용 가능 횟수가 있을 경우 캔디와 매직의 나이트에 참여한
+다면사용 가능 횟수를 소모하며 출석 횟수를 획득합니다. 
+출석 횟수를 7회 모으면「래드포드」 한정 코스튬을 획득할 
+수 있습니다.
+2. 사용 가능 횟수가 없을 경우 캔디와 매직의 나이트에 참여한
+다면출석 횟수를 얻지 못합니다.
+3. 기타 원인으로 인해 미니 게임에서 중도 퇴장한다면 사용 
+가능 횟수가 소모되지 않으며, 또한어떠한 보상도 얻지 못합
+니다.미니 게임:
+1. 래드포드를 좌우로 이동시키며 떨어지는 사탕을 받아야 
+합니다.사탕을 받으면 포인트를 획득하고, 받지 못하면 생명
+력이 차감됩니다.
+2. 호박 폭탄에 주의하세요. 호박 폭탄을 받을경우에도 
+생명력이 차감됩니다.
+3. 래드포드 생명력은 3칸이며, 모두 차감될 시 게임 종료 및
+결산이 진행됩니다.
+4. 게임 중 유령 쥬쥬가 출현하는데, 래드포드가 빙의되면 이동 
+속도가 느려집니다. 유령 쥬쥬가 접근할 때, 화면 우측의 전기
+를 터치하여 유령쥬쥬를 쫓아낼 수 있습니다.]]
+			}
+		}
+	},
+	award_overflow_tip = {
+		tip = "일부 보상은 자원 최대치를 초과하였습니다. 수동으로 수령해 주세요."
+	},
+	hunter_npc = {
+		tip = {
+			{
+				info = "「피오르드 헌터」 설명:"
+			},
+			{
+				info = "1. 이벤트 기간 동안, NPC 캐릭터 헌터를 임시 획득하며, 임시 캐\n릭터는 서약, 퇴역, 한계돌파 재료 모두 불가능합니다."
+			},
+			{
+				info = "2. 이벤트 기간 동안, 통상 3장 이상의 해역 혹은 이벤트 해역\n의 기함을 격파하여, 임시 캐릭터의 호감도를 증가시킬 수 있습니다."
+			},
+			{
+				info = "3. 함대에 헌터를 편성 및 중상을 입지 않고 적 기함 격파 시\n추가 호감도를 얻습니다.(일반 캐릭터와 NPC 모두 집계)"
+			},
+			{
+				info = "4. 이벤트 종료 전 호감도를 1000 포인트 누적하면 보상을 수령할 수 있으며\n임시 캐릭터 「헌터」가 영구 캐릭터로 전환됩니다."
+			},
+			{
+				info = "5. 이벤트 종료 후, 전환되지 않은 임시 캐릭터 「헌터」는\n모항을 떠나며, 강화, 한계돌파 등에 이미 소모한 육성 재료는 반환되지 않습니다."
+			}
+		}
+	},
+	venusvolleyball_help = {
+		tip = {
+			{
+				info = [[
+이벤트 규칙:
+1.<color=#92fc63>12월 9일</color>까지 매일 0시마다 <color=#92fc63>1</color>경기씩 총 <color=#92fc63>7</color>경기가 개방되며, 
+누적가능합니다. 전부 완료 후 한정 장비 <color=#92fc63>「각성 구슬」</color>및 캐
+릭터 취향 아이템-<color=#92fc63>「좋아하는 음식(모니카)」</color>를 획득할 수 있
+습니다.
+2. 게임 시작을 눌러, 2명의 캐릭터를 선택한 후 경기를 시작할 
+수 있습니다. 한 쪽이<color=#92fc63>5</color>점을 얻으면 경기가 완료됩니다.
+3. 어택 또는 리시브 때 판정 범위가 나타나며 화면의 임의 위
+치를 터치하면 판정됩니다.
+4. 판정 범위가 바깥 원과 안쪽 원 사이까지 축소되었을 때 터치 
+시 good, 범위가안쪽 원까지 축소되었을 때 터치 시 perfect, 
+터치하지 않거나 판정 범위가바깥 원에 있을 때 터치할 시 
+miss. 리시브: miss 시 실점, good/perfect 시 리시브 성공
+어택: miss 시 득점X, good/perfect 시 득점.
+5. 모든 경기가 개방되기 전, 당일 경기에 중복으로 도전할 수 
+있습니다. 모든 경기를마친 후에는 자유도전이 열리며, 
+자유롭게 캐릭터를 선택하여 경기할 수 있습니다.]]
+			}
+		}
+	},
+	venusvolleyball_rule_tip = {
+		tip = "$1점 우선획득"
+	},
+	venusvolleyball_return_tip = {
+		tip = "퇴장하시겠습니까? 퇴장 시 해당 경기는 미완성 상태로 남게됩니다."
+	},
+	venusvolleyball_suspend_tip = {
+		tip = "게임을 계속하시겠습니까?"
+	},
+	doa_main = {
+		tip = {
+			{
+				info = [[
+이벤트 규칙:
+<color=#92fc63>12.3-12.17</color>한정 이벤트 「휴일항로」 오픈
+1. 스폐셜 이벤트에 참여하여, 「비너스pt」를 누적하면「누
+적 보상」 획득 및「보급 상점」에서 풍부한 보상과 교환 가능
+합니다.
+2. 「배구 연습 경기」 미니게임에 참여하여 7번째 경기에서 
+한정 장비<color=#92fc63>「각성 구슬」</color>을 획득할 수 있습니다.
+참고: 매일 1경기씩, 총 7경기가 개방됩니다.
+3. 이벤트 중 「캐릭터 취향」 아이템을 14개 수집 후, 
+「기념장」에서 <color=#92fc63>「비너스 휴가 기념장」</color>을 획득할 수 있습니
+다.자세한 획득 조건은 「기념장」 화면에서 확인하세요.
+4. 「한정 건조」를 눌러 건조 화면으로 이동할 수 있습니다.
+5. 「스킨 상점」을 눌러 스킨 상점 화면으로 이동할 수 있습
+니다.
+6. <color=#92fc63>12.3-12.16</color> 매일 특별 의뢰가 갱신됩니다. 특별 의뢰는 파견
+가능한 함선에 제한을 두지 않습니다. 의뢰를 완성하여 이벤트 
+보상을 얻을 수 있습니다.
+진행하지 않은 의뢰는 익일 사라지며, 진행 중인 의뢰는 익일 
+보상을 수령할 수 있습니다. 보상을 수령해야 익일 특별 의뢰가 
+갱신되며, 수령 마감 시간은
+12월 23일 23시 59분입니다.]]
+			}
+		}
+	},
+	doa_pt_help = {
+		tip = {
+			{
+				info = [[
+이벤트 규칙:
+1. 이벤트 기간 동안 <color=#92fc63>「비너스pt」</color> 획득 후 이벤트 페이지에서
+면허 레벨을 올릴 수 있습니다. 이때 능력치 강화 선택 화면이 
+나타나며, 능력치를 선택하여 강화시킬 수 있습니다.
+2. 능력치는 파워, 테크닉, 체력, 매력 4가지입니다. 각 능력치
+는2회씩 강화할 수 있으며 추가 버프를 제공합니다.
+①파워: 메인, 어려움, 이벤트, 작전문서 스테이지에서 피해량 
+상승②테크닉: 전술 학원 스킬 학습 시간 단축
+③체력: 메인, 어려움, 이벤트, 작전 문서 스테이지에서 획득 
+경험치 증가
+④매력: 숙소 경험치 보너스 상승
+3. 페이지 우측 면허 레벨 아이콘을 눌러 각 능력치가 제공하는 
+추가 버프를확인할 수 있습니다.]]
+			}
+		}
+	},
+	doa_pt_complete = {
+		tip = "강화 완료"
+	},
+	doa_pt_up = {
+		tip = "$1을(를) 강화하시겠습니까?"
+	},
+	doa_liliang = {
+		tip = "파워"
+	},
+	doa_jiqiao = {
+		tip = "테크닉"
+	},
+	doa_tili = {
+		tip = "체력"
+	},
+	doa_meili = {
+		tip = "매력"
+	},
+	snowball_help = {
+		tip = {
+			{
+				info = [[
+이벤트 규칙:
+1.<color=#92fc63>1월 6일</color>까지 매일 0시마다 새로운 시합이 <color=#92fc63>1</color>판씩 총<color=#92fc63>7</color>판 
+개방되며, 누적가능합니다. 모두 완료 후 <color=#92fc63>하루츠키</color> 한정 스킨 
+<color=#92fc63>「아름다운 영춘의 춤」</color>을 획득할 수 있습니다.
+2. 1판을 완료하면 종 치기 횟수를 2회 획득할 수 있으며,
+<color=#ff5c5c>종 치기는 최대 14회를 획득할 수 있습니다</color>. 물자를 소모하여 
+종을 치면다른 효과가 나타납니다.
+게임 규칙:
+1. 좌측 버튼을 터치하여 캐릭터를 위아래로 컨트롤해 적의 
+눈을 피해야합니다. 눈에 맞으면 생명력이 차감되며, 모두 
+차감되면 게임이 종료됩니다.
+2. 적 캐릭터를 터치하여 공격할 수 있으며, 각각의 적을 
+명중했을 때 얻는점수는 다릅니다.
+주의: 난입한 지나가던 행인을 명중할 시 차감!
+득점 규칙:
+명중: 키사라기, 무츠키, 우즈키, 후미즈키, 유다치, 
+유키카제 <color=#92fc63>+100점</color>
+명중: 아크 로열 <color=#92fc63>+200점</color>
+명중: 광산쥬쥬, 시라츠유 <color=#ff5c5c>-50점</color>
+3. 화면 우측 지원칸은 시간에 따라 상승하며, 지원칸이 최대일 
+시 지원칸
+을 터치하여 공중 지원을 호출할 수 있습니다. 공중 
+지원은 해당 시합장의 모든 적의눈을 없애고 적에게 눈 폭격을 
+퍼붓습니다.
+4. 생명력이 모두 차감되어 게임이 종료되거나 게임 내 나가기 
+버튼으로 퇴출하면게임을 완성한 것으로 간주됩니다. 기타 
+원인으로 중도 퇴장 시 미완성으로간주됩니다.]]
+			}
+		}
+	},
+	help_xinnian2021_feast = {
+		tip = {
+			{
+				info = [[
+이벤트 기간:<color=#92fc63>2020.12.31-2021.1.16</color>
+이벤트 소개:
+「쥬쥬 눈싸움」: 미니게임에 참여하여 하루츠키 한정 스킨 
+「아름다운영춘의 춤」 획득 가능
+「쥬쥬 간식 거리」: 미니게임에 참여하여 한정 캐릭터 
+「Z28」 획득 가능
+「소원 빌기」: 미니게임에 참여하여 보상 「연하장」 
+획득 가능
+「교환 상점」: 신년 한정 스킨 구매
+「한정 건조」: 한정 캐릭터 건조]]
+			}
+		}
+	},
+	help_xinnian2021__qiaozhong = {
+		tip = {
+			{
+				info = [[
+<size=31><color=#92fc63>TIPS:
+종 치기 횟수가 없을 때 종을 치면 물자를 소모하지만 버프 효과
+는 획득할 수 없습니다.</color></size>
+1. 이벤트 기간 동안 <color=#92fc63>쥬쥬 눈싸움</color>을 완료할 때마다 종 치기 횟수
+<color=#92fc63>2회</color>를 획득하며, <color=#ff5c5c>최대 14회를 획득할 수 있습니다</color>.
+2. 유효 횟수가 있을 때 5물자를 소모하여 종을 치면 다른
+버프 효과를 얻습니다.
+학업: 전술 학원 스킬 학습 시간 감소
+사업: 메인, 어려움, 작전 문서 스테이지에서 아군이 입히는
+대미지 증가
+인연: 비서함 호감도 증가 속도 상승. 
+이상 세 가지 효과의 지속 시간은 1일.
+3. 학업 효과 획득 시 현재 진행 중인 스킬 학습 시간은 감소하
+지 않으며, 학업 효과가 사라질 때 이미 감소된 학습 시간은 
+다시 증가되지 않습니다
+4. 버프 효과가 있는 상태에서 종을 치면, 기존의 버
+프 효과에 새로 획득한 버프 효과가 덮어 씌워지며, 
+지속 시간은초기화됩니다.
+5. 버프 효과는 동시에 1가지만 보유할 수 있습니다.]]
+			}
+		}
+	},
+	help_xinnian2021__meishiyemian = {
+		tip = {
+			{
+				info = [[
+이벤트 규칙:
+1. 이벤트 기간 동안 매일 사용 가능 횟수를 <color=#92fc63>1</color>회 획득하며, 최대
+<color=#92fc63>7</color>회 저장됩니다.
+2. 사용 가능 횟수가 있을 때, 새해 미식 축제에 참가하여 
+<color=#92fc63>게임 
+결산</color> 진행 시사용 가능 횟수를 소모하며 이벤트 아이템을 얻습
+니다. 이벤트 아이템 7개 수집 시한정 캐릭터 <color=#92fc63>「Z28」</color>을 
+획득합니다.
+3. 사용 가능 횟수가 없는 상태로 새해 미식 축제에 참가할 경우 
+이벤트 아이템을얻지 못합니다.
+4. 기타 원인으로 인해 중도 퇴장 시, 사용 가능 횟수를 
+차감하지 않으며어떠한 보상도 얻지 못합니다.]]
+			}
+		}
+	},
+	help_xinnian2021__meishi = {
+		tip = {
+			{
+				info = [[
+게임 규칙:
+1. 선택 구매를 터치하여 게임 시작. 좌측 캐릭터 머리 위에 
+먹고 싶은 3가지 음식이 나타납니다.5초 후 머리 위 음식이 
+사라지며, 기억한 대로 10초 동안 우측9가지 음식 중 3가지 
+음식을 정확히 골라야 합니다.
+2. 3가지 음식을 좌측부터 우측까지 순서대로 선택하세요.
+3. 음식을 한 번 터치하여 선택하고, 재터치하여 선택을 취소할 
+수 있습니다. 3가지 음식 선택 완료후, 자동으로 결과가 
+나타납니다.
+4. 카운트 다운이 끝나기 전, 3가지 음식을 선택하면 결산 
+화면이 나타납니다.정확한 음식을 선택했다면 잔여 시간 및 
+포인트가 증가하고, 게임을 계속할지 종료할지
+선택할 수 있습니다. 시간 및 포인트 증가 규칙:
+3가지 모두 정확할 경우: 잔여 시간 5초 증가, 포인트 5 증가
+2가지만 정확할 경우: 잔여 시간 2초 증가, 포인트 2 증가
+1가지만 정확할 경우: 잔여 시간 1초 증가, 포인트 1 증가
+모두 부정확할 경우: 잔여 시간 0초 증가, 포인트 0 증가
+5. 게임을 계속한다면 잔여 시간 및 포인트가 보류되며, 좌측의 
+캐릭터가 원하는3가지 음식을 선택할 수 있습니다.
+6. 카운트 다운이 끝나거나 게임 결산 선택 시, 
+게임이 종료됩니다.]]
+			}
+		}
+	},
+	help_act_event = {
+		tip = {
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/event_doa"
+				}
+			},
+			disableScroll = true,
+			pageMode = true,
+			defaultpage = 1,
+			ImageMode = true,
+			windowSize = {
+				x = 1263,
+				y = 873
+			},
+			windowPos = {
+				y = -70
+			},
+			helpSize = {
+				x = 1176,
+				y = 1024
+			}
+		}
+	},
+	index_equip = {
+		tip = "장비 중"
+	},
+	index_without_limit = {
+		tip = "무제한"
+	},
+	meta_learn_skill = {
+		tip = "习得技能：$1(未使用)"
+	},
+	world_joint_boss_not_found = {
+		tip = "所选信标已消失，请尝试其他信标！"
+	},
+	world_joint_boss_is_death = {
+		tip = "所选信标已消失，请尝试其他信标！"
+	},
+	world_joint_whitout_guild = {
+		tip = "还没有加入大舰队哦"
+	},
+	world_joint_whitout_friend = {
+		tip = "还没有任何战友哦"
+	},
+	world_joint_call_support_failed = {
+		tip = "请求支援失败！"
+	},
+	world_joint_call_support_success = {
+		tip = "请求支援成功！"
+	},
+	world_joint_call_friend_support_txt = {
+		tip = "战友$1正在挑战 $2 TIER.$3，请求紧急支援(未使用)"
+	},
+	world_joint_call_guild_support_txt = {
+		tip = "大舰队成员$1正在挑战 $2 TIER.$3，请求紧急支援(未使用)"
+	},
+	world_joint_call_world_support_txt = {
+		tip = "指挥官$1正在挑战 $2 TIER.$3，请求紧急支援(未使用)"
+	},
+	ad_4 = {
+		tip = "<material=underline c=#92fc63><color=#92fc63>$2</color></material> 邀请你挑战 <material=underline><color=#FFDE38FF>$3</color></material>"
+	},
+	world_word_expired = {
+		tip = "信标已过期"
+	},
+	world_word_guild_member = {
+		tip = "대함대 멤버(미사용)"
+	},
+	world_word_guild_player = {
+		tip = "지휘관(미사용)"
+	},
+	world_joint_boss_award_expired = {
+		tip = "奖励领取失败"
+	},
+	world_joint_not_refresh_frequently = {
+		tip = "请勿频繁刷新"
+	},
+	world_joint_exit_battle_tip = {
+		tip = "是否中断当前战斗，前往余烬信标？"
+	},
+	world_boss_get_item = {
+		tip = "当前已经收集到指定数据量的信标数据，是否立即对其进行解析？\n(<color=#ff5c5c>未解析的情况下，后续将不会继续获得信标数据</color>)"
+	},
+	world_boss_ask_help = {
+		tip = "暂时无法向该频道呼叫支援"
+	},
+	world_joint_count_no_enough = {
+		tip = "当前挑战次数不足"
+	},
+	world_boss_none = {
+		tip = "所选信标已变为不可挑战状态，请尝试其他信标！"
+	},
+	world_boss_fleet = {
+		tip = "余烬信标作战"
+	},
+	world_max_challenge_cnt = {
+		tip = "所选信标挑战人数已满，请尝试其他信标！"
+	},
+	world_reset_success = {
+		tip = "大型作战已重置"
+	},
+	world_map_dangerous_confirm = {
+		tip = "深渊海域作战难度较高且不可重复进入，\n请确认舰队战备后前往作战"
+	},
+	world_map_version = {
+		tip = "当前海域由于版本更新被重置"
+	},
+	world_resource_fill = {
+		tip = "战备物资兑换券已达到收集上限。"
+	},
+	meta_sys_lock_tip = {
+		tip = "META研究室将在开放大型作战的信标·烬功能后开启(未使用)"
+	},
+	meta_story_lock = {
+		tip = "需要完成前置剧情才能进行资讯同步(未使用)"
+	},
+	meta_acttime_limit = {
+		tip = "限时"
+	},
+	meta_pt_left = {
+		tip = "剩余$1天"
+	},
+	meta_syn_rate = {
+		tip = "资讯同步率"
+	},
+	meta_repair_rate = {
+		tip = "舰装强化率"
+	},
+	meta_story_tip_1 = {
+		tip = "解锁剧情(未使用)"
+	},
+	meta_story_tip_2 = {
+		tip = "后开放(未使用)"
+	},
+	meta_pt_get_way = {
+		tip = "可以通过以下方式获取同步值(未使用)"
+	},
+	meta_pt_point = {
+		tip = "同步值"
+	},
+	meta_award_get = {
+		tip = "可领取"
+	},
+	meta_award_got = {
+		tip = "已领取"
+	},
+	meta_repair = {
+		tip = "属性提升:"
+	},
+	meta_repair_success = {
+		tip = "舰装强化成功"
+	},
+	meta_repair_effect_unlock = {
+		tip = "强化率$1%后获得"
+	},
+	meta_repair_effect_special = {
+		tip = "强化率达到$1%，获得以下提升"
+	},
+	meta_energy_ship_level_need = {
+		tip = "舰船等级需求: $1/$2"
+	},
+	meta_energy_ship_repairrate_need = {
+		tip = "舰船强化率需求: $1/$2"
+	},
+	meta_energy_active_box_tip = {
+		tip = "是否对角色进行能量激活？(能量激活将会提升角色星级)"
+	},
+	meta_break = {
+		tip = "*激活之后将提升角色星级"
+	},
+	meta_energy_preview_title = {
+		tip = "最终默认本体属性如下"
+	},
+	meta_energy_preview_tip = {
+		tip = "*不包含好感度及誓约等额外加成"
+	},
+	meta_exp_per_day = {
+		tip = "每日经验"
+	},
+	meta_skill_unlock = {
+		tip = "请点击习得技能后进行研修"
+	},
+	meta_unlock_skill_tip = {
+		tip = "习得$1的技能<color=#92fc63>$2</color>需要消耗以下技能书"
+	},
+	meta_unlock_skill_select = {
+		tip = "请先选择一种材料(未使用)"
+	},
+	meta_switch_skill_disable = {
+		tip = "当天研修次数已达上限\n次日零时恢复"
+	},
+	meta_switch_skill_box_title = {
+		tip = "是否开始技能$1的研修？\n"
+	},
+	meta_cur_pt = {
+		tip = "当前同步值"
+	},
+	meta_toast_fullexp = {
+		tip = "已达本日研修上限"
+	},
+	meta_toast_tactics = {
+		tip = "研修EXP"
+	},
+	meta_skillbtn_tactics = {
+		tip = "研 修"
+	},
+	meta_destroy_tip = {
+		tip = "META角色不能被退役"
+	},
+	meta_voice_name_feeling1 = {
+		tip = "未知"
+	},
+	meta_voice_name_feeling2 = {
+		tip = "调率"
+	},
+	meta_voice_name_feeling3 = {
+		tip = "理解"
+	},
+	meta_voice_name_feeling4 = {
+		tip = "同步"
+	},
+	meta_voice_name_feeling5 = {
+		tip = "共鸣"
+	},
+	meta_voice_name_propose = {
+		tip = "誓约"
+	},
+	world_boss_ad = {
+		tip = "[$1]TIER.$2"
+	},
+	world_boss_drop_title = {
+		tip = "信标收集(未使用)"
+	},
+	world_boss_pt_recove_desc = {
+		tip = "每天0点回复$1点挑战次数"
+	},
+	world_boss_progress_item_desc = {
+		tip = [[
+用于记录在大型作战中收集到的<color=#92fc63>「余烬信标数据」</color>的装置，达到指定数据量后可据此数据进行解析，发现余烬信标
+P.S.记录仪的记录容量有限，请务必及时前往解析
+今日解析次数:$1/$2
+数据记录量：$3]]
+	},
+	world_joint_max_challenge_people_cnt = {
+		tip = "挑战人数已满，无法呼叫支援！"
+	},
+	equip_ammo_type_1 = {
+		tip = "철갑탄"
+	},
+	equip_ammo_type_2 = {
+		tip = "고폭탄"
+	},
+	equip_ammo_type_3 = {
+		tip = "통상탄"
+	},
+	equip_ammo_type_4 = {
+		tip = "음향 유도"
+	},
+	equip_ammo_type_5 = {
+		tip = "통상"
+	},
+	equip_ammo_type_6 = {
+		tip = "삼식탄"
+	},
+	equip_ammo_type_7 = {
+		tip = "반철갑탄(SAP탄)"
+	},
+	equip_ammo_type_8 = {
+		tip = "자성식"
+	},
+	equip_ammo_type_9 = {
+		tip = "격발식"
+	},
+	equip_ammo_type_10 = {
+		tip = "없음"
+	},
+	common_daily_limit = {
+		tip = "每日上限(未使用)"
+	},
+	meta_help = {
+		tip = {
+			{
+				info = "META研究室说明："
+			},
+			{
+				info = [[
+·META研究室是进行META角色获取、养成的专用系统
+·META角色拥有<color=#92fc63>「能量激活」</color>、<color=#92fc63>「战术研修」</color>、
+<color=#92fc63>「舰装强化」</color>、<color=#92fc63>「资讯同步」</color>4个系统模块
+·重复获取的META角色将会自动转换为1个对应的角色
+结晶，可用于在<color=#92fc63>「能量激活」</color>中使用。
+]]
+			},
+			{
+				info = [[
+1.<color=#92fc63>资讯同步</color>
+·<color=#92fc63>2020.12.22-2021.3.18</color>期间限时开放「龙·META」的
+「资讯同步」，通过「信标·烬」战斗获取其同步值，
+达到一定同步值可以获取<color=#92fc63>「龙·META」角色</color>
+·获得META角色后可以通过角色的<color=#92fc63>「资讯同步」</color>模块
+在<color=#92fc63>上述时间</color>内继续获取包含养成材料在内的丰厚奖励
+·注意：<color=#ff5c5c>「龙·META」的「资讯同步」将于时间结束后暂
+时关闭,已累计的同步值也会消失。</color>
+
+2.<color=#92fc63>能量激活</color>
+·META角色达到指定等级后可以使用对应的角色结晶进行
+激活。激活后可以提升角色星级
+·角色结晶可以通过「资讯同步」奖励获取
+]]
+			},
+			{
+				info = [[
+3.<color=#92fc63>战术研修</color>
+·完成战术研修任务获得META角色的技能升级经验，部
+分任务可以重复完成
+·一名角色只能同时进行一项技能的战术研修任务，多名
+角色之间彼此独立，同时进行
+·一名角色每日最多获取<color=#92fc63>30000</color>点技能升级经验，其中前
+<color=#92fc63>60%</color>的技能升级经验拥有双倍任务完成效率
+（剩余次数不满2次时不生效）
+·任务类型和可完成次数会随着技能等级升级而刷新
+]]
+			},
+			{
+				info = [[
+4.<color=#92fc63>舰装强化</color>
+·META角色可以通过消耗舰装强化材料对「炮击」「雷
+击」「航空」「装填」4个属性中的若干个进行强化
+·强化会提升相应属性值，当强化进度达到一定数值后还
+可获得额外属性提升。
+·舰装强化材料可通过「资讯同步」奖励及大型作战内
+港口商店购买获取]]
+			}
+		}
+	},
+	world_boss_daily_limit = {
+		tip = "已达每日上限"
+	},
+	common_go_to_analyze = {
+		tip = "前往解析"
+	},
+	world_boss_not_reach_target = {
+		tip = "未达到指定数据量"
+	},
+	special_transform_limit_reach = {
+		tip = "해당 개조 아이템 또는 개조 후 함선을 이미 보유 중입니다. 교환 불가."
+	},
+	meta_pt_notenough = {
+		tip = "当前同步值不足，请前往<color=#92fc63>大型作战</color>中的信标·烬作战获取"
+	},
+	meta_boss_unlock = {
+		tip = "通过<color=#92fc63>大型作战</color>第一章，解锁信标·烬功能后开启角色获取！"
+	},
+	word_take_effect = {
+		tip = "적용"
+	},
+	world_boss_challenge_cnt = {
+		tip = "挑战人数"
+	},
+	word_shipNation_meta = {
+		tip = "???"
+	},
+	world_word_friend = {
+		tip = "战友"
+	},
+	world_word_world = {
+		tip = "世界"
+	},
+	world_word_guild = {
+		tip = "대함대"
+	},
+	world_collection_1 = {
+		tip = "收集进度"
+	},
+	world_collection_2 = {
+		tip = "进度"
+	},
+	world_collection_3 = {
+		tip = "收集率"
+	},
+	zero_hour_command_error = {
+		tip = "零点数据更新错误"
+	},
+	commander_is_in_bigworld = {
+		tip = "该指挥喵在大型作战中"
+	},
+	world_collection_back = {
+		tip = "点击空白处返回"
+	},
+	world_fleet_stop = {
+		tip = "舰队移动正在停止"
+	},
+	world_setting_title = {
+		tip = "大型作战设置"
+	},
+	world_setting_quickmode = {
+		tip = "减少TB引导"
+	},
+	world_setting_quickmodetip = {
+		tip = "功能开启后，不再播放重复的TB引导说明"
+	},
+	world_boss_maintenance = {
+		tip = "服务器即将维护,无法进行信标·烬作战"
+	},
+	commander_is_in_guild = {
+		tip = "해당 지휘냥이 대함대 편대 중에 있습니다."
 	}
 }

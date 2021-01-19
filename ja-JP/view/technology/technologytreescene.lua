@@ -50,6 +50,7 @@ function slot0.initData(slot0)
 	end
 
 	slot0.point = getProxy(TechnologyNationProxy):getPoint()
+	slot0.expanded = {}
 end
 
 function slot0.findUI(slot0)
@@ -281,6 +282,7 @@ function slot0.updateTypeItemList(slot0)
 end
 
 function slot0.updateTecItemList(slot0)
+	slot0.expanded = {}
 	slot1 = nil
 	slot1 = (#slot0.nationSelectedList ~= 0 or #slot0.typeSelectedList ~= 0 or TechnologyConst.GetOrderClassList()) and _.select(TechnologyConst.GetOrderClassList(), function (slot0)
 		if table.indexof(#uv0.nationSelectedList == 0 and TechnologyConst.NationOrder or uv0.nationSelectedList, pg.fleet_tech_ship_class[slot0].nation, 1) then
@@ -302,41 +304,42 @@ function slot0.updateTecItemList(slot0)
 		setImageSprite(uv0:findTF("CampBG", slot1), GetSpriteFromAtlas("TecNation", "bg_nation_" .. pg.fleet_tech_ship_class[slot8].nation, true))
 		setImageSprite(uv0:findTF("Level/TypeTextImg", slot1), GetSpriteFromAtlas("ShipType", "ch_title_" .. pg.fleet_tech_ship_class[slot8].shiptype, true), true)
 		setImageSprite(uv0:findTF("Level/LevelImg", slot1), GetSpriteFromAtlas("TecClassLevelIcon", "T" .. pg.fleet_tech_ship_class[slot8].t_level, true), true)
+		setLocalRotation(uv0:findTF("ClickBtn/ArrowBtn", slot1), {
+			z = 180
+		})
+
+		GetComponent(slot1, "LayoutElement").preferredHeight = uv0.rowHeight
 
 		if #pg.fleet_tech_ship_class[slot8].ships > 5 then
 			setActive(slot6, true)
 			removeOnButton(slot6)
 			onButton(uv0, slot6, function ()
-				if uv1.rowHeight < GetComponent(uv0, "LayoutElement").preferredHeight then
-					uv1.rightLSC.enabled = true
-					slot2 = uv1:findTF(uv0.name, uv1.rightContainer)
-					slot4 = uv1:findTF("ShipScrollView/Viewport/ShipContainer", slot2)
-					GetComponent(slot2, "LayoutElement").preferredHeight = uv1.rowHeight
-					uv1:findTF("ShipScrollView", slot2):GetComponent("ScrollRect").verticalNormalizedPosition = 1
-					uv1:findTF("ShipScrollView", slot2):GetComponent("ScrollRect").enabled = false
-					uv1:findTF("Adapt/Right/Scrollbar"):GetComponent("Scrollbar").interactable = true
+				slot0 = uv0.name
 
-					setActive(uv1:findTF("ShipScrollView/Scrollbar", slot2), false)
+				if uv1.rowHeight < GetComponent(uv0, "LayoutElement").preferredHeight then
+					slot2 = uv1:findTF(slot0, uv1.rightContainer)
+					slot4 = uv1:findTF("ShipScrollView/Viewport/ShipContainer", slot2)
+					GetComponent(uv1.rightContainer, "VerticalLayoutGroup").padding.bottom = GetComponent(uv1.rightContainer, "VerticalLayoutGroup").padding.bottom - (GetComponent(slot2, "LayoutElement").preferredHeight - uv1.rowHeight)
+					GetComponent(slot2, "LayoutElement").preferredHeight = uv1.rowHeight
+
 					setLocalRotation(uv1:findTF("ClickBtn/ArrowBtn", slot2), {
 						z = 180
 					})
+
+					uv1.expanded[slot0] = uv1.rowHeight
 				else
-					uv1.rightLSC:ScrollTo(uv1.rightLSC:HeadIndexToValue(uv2))
+					uv1.rightLSC:ScrollTo(uv1.rightLSC:HeadIndexToValue(uv2) - 0.0001)
 
 					slot3 = uv1:findTF(slot0, uv1.rightContainer)
-					slot4 = uv1:findTF("ClickBtn/ArrowBtn", slot3)
-					GetComponent(slot3, "LayoutElement").preferredHeight = math.min(uv1:findTF("ShipScrollView/Viewport/ShipContainer", slot3).rect.height, uv1.maxRowHeight)
-					uv1:findTF("Adapt/Right/Scrollbar"):GetComponent("Scrollbar").interactable = false
+					slot5 = uv1:findTF("ShipScrollView/Viewport/ShipContainer", slot3)
+					GetComponent(uv1.rightContainer, "VerticalLayoutGroup").padding.bottom = GetComponent(uv1.rightContainer, "VerticalLayoutGroup").padding.bottom + slot5.rect.height - GetComponent(slot3, "LayoutElement").preferredHeight
+					GetComponent(slot3, "LayoutElement").preferredHeight = slot5.rect.height
 
-					if #pg.fleet_tech_ship_class[uv3].ships > 15 then
-						uv1:findTF("ShipScrollView", slot3):GetComponent("ScrollRect").enabled = true
-					end
-
-					setLocalRotation(slot4, {
+					setLocalRotation(uv1:findTF("ClickBtn/ArrowBtn", slot3), {
 						z = 0
 					})
 
-					uv1.rightLSC.enabled = false
+					uv1.expanded[slot0] = slot5.rect.height
 				end
 			end, SFX_PANEL)
 		else
@@ -344,14 +347,22 @@ function slot0.updateTecItemList(slot0)
 		end
 
 		uv0:updateShipItemList(slot8, uv0:findTF("ShipScrollView/Viewport/ShipContainer", slot1))
+
+		if uv0.expanded[tostring(slot0)] and uv0.rowHeight < slot15 then
+			GetComponent(slot1, "LayoutElement").preferredHeight = slot15
+
+			setLocalRotation(uv0:findTF("ClickBtn/ArrowBtn", slot1), {
+				z = 0
+			})
+
+			GetComponent(uv0.rightContainer, "VerticalLayoutGroup").padding.bottom = GetComponent(uv0.rightContainer, "VerticalLayoutGroup").padding.bottom + slot15 - uv0.rowHeight
+		end
 	end
 
 	function slot0.rightLSC.onReturnItem(slot0, slot1)
-		setLocalRotation(uv0:findTF("ClickBtn/ArrowBtn", slot1), {
-			z = 180
-		})
-
-		GetComponent(slot1, "LayoutElement").preferredHeight = uv0.rowHeight
+		if uv0.expanded[tostring(slot0)] and uv0.rowHeight < slot2 then
+			GetComponent(uv0.rightContainer, "VerticalLayoutGroup").padding.bottom = GetComponent(uv0.rightContainer, "VerticalLayoutGroup").padding.bottom - (slot2 - uv0.rowHeight)
+		end
 	end
 
 	if slot0.rightLSC.totalCount ~= 0 then

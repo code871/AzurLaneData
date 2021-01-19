@@ -64,6 +64,14 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>Clear Challenge Mode for the first time to obtain.</color>\n（20.07.09-20.10.04）",
 		scene = {}
 	},
+	[206] = {
+		name = "Achievement Chat Bubbles",
+		time_second = 0,
+		id = 206,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>Clear Challenge Mode for the first time to obtain.</color>\n（20.10.15-21.01.17）",
+		scene = {}
+	},
 	[300] = {
 		name = "Leader ",
 		time_second = 2592000,
@@ -152,6 +160,30 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>A special portrait frame designed with Laffey's motifs.</color>\nObtained by participating in the 2nd Anniversary Event.",
 		scene = {}
 	},
+	[311] = {
+		name = "Illusory Butterfly",
+		time_second = 0,
+		id = 311,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>May the light of hope shine forevermore, whether in reality or in a dream.</color>\nObtained from \"Dreamwaker's Butterfly.\" ",
+		scene = {}
+	},
+	[312] = {
+		name = "Weapon of the Iron Blood ",
+		time_second = 0,
+		id = 312,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>\"May my red blood flow into the frigid mold of war.\" Awarded to commanders who participated in the \"Inverted Orthant\" event.</color> ",
+		scene = {}
+	},
+	[501] = {
+		name = "Manjuu Pizzeria Frame ",
+		time_second = 0,
+		id = 501,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>Let your love for delicious pizza be known by all!</color>\n―Obtained in the \"Manjuu Pizzeria\" event. ",
+		scene = {}
+	},
 	all = {
 		0,
 		101,
@@ -161,6 +193,7 @@ pg.item_data_frame = {
 		203,
 		204,
 		205,
+		206,
 		300,
 		301,
 		302,
@@ -171,6 +204,9 @@ pg.item_data_frame = {
 		307,
 		308,
 		309,
-		310
+		310,
+		311,
+		312,
+		501
 	}
 }

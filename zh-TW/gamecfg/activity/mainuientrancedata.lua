@@ -5,14 +5,19 @@ return {
 		ButtonName = "activityButton"
 	},
 	{
-		Image = "event_map",
+		forceRefreshImage = true,
 		ButtonName = "activity_map_btn",
+		Image = function ()
+			return getProxy(ActivityProxy):GetEarliestActByType(ActivityConst.ACTIVITY_TYPE_ZPROJECT) and not slot0:isEnd() and LoadSprite("ui/mainui_atlas", "event_map_" .. slot0.id) or LoadSprite("ui/mainui_atlas", "event_map")
+		end,
 		UpdateButton = function (slot0, slot1)
-			slot3 = getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_ZPROJECT) and not slot2:isEnd()
+			slot4 = _.detect(getProxy(ActivityProxy):getActivitiesByType(ActivityConst.ACTIVITY_TYPE_ZPROJECT), function (slot0)
+				return not slot0:isEnd()
+			end) and not slot3:isEnd()
 
-			setActive(slot1, slot3)
+			setActive(slot1, slot4)
 
-			if slot3 then
+			if slot4 then
 				onButton(slot0, slot1, function ()
 					uv0:emit(MainUIMediator.ON_ACTIVITY_MAP, uv1.id)
 				end, SFX_PANEL)
@@ -23,6 +28,7 @@ return {
 		Image = "event_minigame",
 		ButtonName = "activity_newyear",
 		Tip = "tip_1920",
+		Tag = "MiniGameHub",
 		CtorButton = function (slot0, slot1)
 			if getProxy(ActivityProxy):getActivityById(ActivityConst.NEWYEAR_ACTIVITY) and not slot2:isEnd() and getProxy(MiniGameProxy):GetMiniGameData(3) and not slot3:GetRuntimeData("isInited") then
 				slot0:emit(MainUIMediator.MINIGAME_OPERATION, 4, MiniGameOPCommand.CMD_SPECIAL_GAME, {
@@ -138,9 +144,10 @@ return {
 		end
 	},
 	{
-		Tip = "tip",
 		Image = "event_minigame",
 		ButtonName = "activity_springfestival",
+		Tag = "MiniGameHub",
+		Tip = "tip",
 		UpdateButton = function (slot0, slot1)
 			slot3 = getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_MINIGAME) and not slot2:isEnd()
 
@@ -159,9 +166,10 @@ return {
 		end
 	},
 	{
-		Tip = "tip",
 		Image = "event_LanternFestival",
 		ButtonName = "activity_LanternFestival",
+		Tag = "MiniGameHub",
+		Tip = "tip",
 		UpdateButton = function (slot0, slot1)
 			slot3 = getProxy(ActivityProxy):getActivityById(ActivityConst.LANTERNFESTIVAL) and not slot2:isEnd()
 
@@ -176,9 +184,10 @@ return {
 		end
 	},
 	{
-		Tip = "tip",
 		Image = "event_minigame",
 		ButtonName = "activity_musicfestival",
+		Tag = "MiniGameHub",
+		Tip = "tip",
 		UpdateButton = function (slot0, slot1)
 			slot3 = getProxy(ActivityProxy):getActivityById(ActivityConst.MUSIC_FESTIVAL_ID) and not slot2:isEnd()
 
@@ -190,7 +199,7 @@ return {
 				onButton(slot0, slot1, function ()
 					pg.m02:sendNotification(GAME.GO_SCENE, SCENE.MUSIC_FESTIVAL)
 				end, SFX_PANEL)
-				setActive(slot1:Find("Tip"), IdolPTPage.NeedTip() or IdolMedalCollectionView.isHaveActivableMedal() or function ()
+				setActive(slot1:Find("Tip"), IdolPTPage.NeedTip() or IdolMedalCollectionMediator.isHaveActivableMedal() or function ()
 					return getProxy(InstagramProxy):ShouldShowTip()
 				end() or function ()
 					if uv0:getActivityById(ActivityConst.MUSIC_FESTIVAL_ID) and not slot0:isEnd() then
@@ -205,12 +214,12 @@ return {
 				return
 			end
 
-			slot5 = getProxy(ActivityProxy):getActivityById(ActivityConst.IDOL_MEDAL_COLLECTION) and not slot4:isEnd()
+			slot3 = getProxy(ActivityProxy):getActivityById(ActivityConst.IDOL_MEDAL_COLLECTION) and not slot4:isEnd()
 
-			setActive(slot1, slot5)
+			setActive(slot1, slot3)
 
-			if slot5 then
-				setActive(slot1:Find("Tip"), IdolMedalCollectionView.isHaveActivableMedal())
+			if slot3 then
+				setActive(slot1:Find("Tip"), IdolMedalCollectionMediator.isHaveActivableMedal())
 				onButton(slot0, slot1, function ()
 					pg.m02:sendNotification(GAME.GO_SCENE, SCENE.IDOL_MEDAL_COLLECTION_SCENE)
 				end, SFX_PANEL)
@@ -244,9 +253,10 @@ return {
 		end
 	},
 	{
-		Tip = "tip",
 		Image = "main_decodegame",
 		ButtonName = "activity_decode",
+		Tag = "MiniGameHub",
+		Tip = "tip",
 		UpdateButton = function (slot0, slot1)
 			slot3 = getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_MINIGAME) and not slot2:isEnd()
 
@@ -288,26 +298,60 @@ return {
 		end
 	},
 	{
-		Tip = "tip",
 		Image = "event_minigame",
 		ButtonName = "activity_thirdAnniversary",
+		Tag = "MiniGameHub",
+		Tip = "tip",
 		UpdateButton = function (slot0, slot1)
 			slot3 = getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_BUILDING_BUFF) and not slot2:isEnd()
 
 			setActive(slot1, slot3)
 
 			if slot3 then
-				for slot9, slot10 in ipairs(slot2:getConfig("config_data")) do
-					slot11 = slot2.data1KeyValueList[2][slot10] or 0
-
-					if pg.activity_event_building[arg] and slot11 < slot12.buff then
-						slot4 = false or slot12.material[slot11] <= (slot2.data1KeyValueList[1][slot12.material_id] or 0)
-					end
-				end
-
-				setActive(slot1:Find("Tip"), slot4 or getProxy(MiniGameProxy):GetHubByHubId(getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_MINIGAME):getConfig("config_id")).count > 0)
+				setActive(slot1:Find("Tip"), slot2:readyToAchieve() or getProxy(MiniGameProxy):GetHubByHubId(getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_MINIGAME):getConfig("config_id")).count > 0)
 				onButton(slot0, slot1, function ()
-					pg.m02:sendNotification(GAME.GO_SCENE, SCENE.THIRD_ANNIVERSARY_SQUARE)
+					pg.m02:sendNotification(GAME.GO_SCENE, SCENE.THIRD_ANNIVERSARY_AKIBA)
+				end, SFX_PANEL)
+			end
+		end
+	},
+	{
+		Image = "event_minigame",
+		ButtonName = "activity_musicfestival2",
+		Tag = "MiniGameHub",
+		Tip = "tip",
+		UpdateButton = function (slot0, slot1)
+			slot3 = getProxy(ActivityProxy):getActivityById(ActivityConst.MUSIC_FESTIVAL_ID_2) and not slot2:isEnd()
+
+			setActive(slot1, slot3)
+
+			if slot3 then
+				slot4 = getProxy(ActivityProxy)
+
+				onButton(slot0, slot1, function ()
+					pg.m02:sendNotification(GAME.GO_SCENE, SCENE.MUSIC_FESTIVAL2)
+				end, SFX_PANEL)
+				setActive(slot1:Find("Tip"), function ()
+					return uv0:getActivityByType(ActivityConst.ACTIVITY_TYPE_PT_BUFF) and not slot0:isEnd() and slot0:readyToAchieve()
+				end() or IdolMedalCollectionMediator.isHaveActivableMedal() or function ()
+					slot0 = getProxy(MiniGameProxy):GetHubByHubId(uv0:getConfig("config_id"))
+
+					return slot0:getConfig("reward_need") <= slot0.usedtime and slot0.ultimate == 0
+				end() or function ()
+					return getProxy(MiniGameProxy):GetHubByHubId(uv0:getConfig("config_id")).count > 0
+				end())
+
+				return
+			end
+
+			slot3 = getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_PUZZLA) and not slot4:isEnd()
+
+			setActive(slot1, slot3)
+
+			if slot3 then
+				setActive(slot1:Find("Tip"), IdolMedalCollectionMediator.isHaveActivableMedal())
+				onButton(slot0, slot1, function ()
+					pg.m02:sendNotification(GAME.GO_SCENE, SCENE.IDOL_MEDAL_COLLECTION_SCENE2)
 				end, SFX_PANEL)
 			end
 		end
@@ -329,6 +373,8 @@ return {
 		8,
 		6,
 		10,
-		11
+		11,
+		5,
+		4
 	}
 }

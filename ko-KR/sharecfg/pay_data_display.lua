@@ -35,7 +35,8 @@ pg.pay_data_display = {
 				1
 			}
 		},
-		display = {}
+		display = {},
+		ignorePlatform = {}
 	},
 	{
 		limit_arg = 1,
@@ -83,7 +84,8 @@ pg.pay_data_display = {
 				20001,
 				2
 			}
-		}
+		},
+		ignorePlatform = {}
 	},
 	{
 		limit_arg = 10,
@@ -104,7 +106,8 @@ pg.pay_data_display = {
 		extra_gem = 0,
 		id = 3,
 		airijp_id = "com.yostarjp.azurlane.diamond1",
-		display = {}
+		display = {},
+		ignorePlatform = {}
 	},
 	{
 		limit_arg = 10,
@@ -125,7 +128,8 @@ pg.pay_data_display = {
 		extra_gem = 30,
 		id = 4,
 		airijp_id = "com.yostarjp.azurlane.diamond2",
-		display = {}
+		display = {},
+		ignorePlatform = {}
 	},
 	{
 		limit_arg = 0,
@@ -146,7 +150,8 @@ pg.pay_data_display = {
 		extra_gem = 240,
 		id = 5,
 		airijp_id = "com.yostarjp.azurlane.diamond3",
-		display = {}
+		display = {},
+		ignorePlatform = {}
 	},
 	{
 		limit_arg = 0,
@@ -167,7 +172,8 @@ pg.pay_data_display = {
 		extra_gem = 600,
 		id = 6,
 		airijp_id = "com.yostarjp.azurlane.diamond4",
-		display = {}
+		display = {},
+		ignorePlatform = {}
 	},
 	{
 		limit_arg = 0,
@@ -188,7 +194,8 @@ pg.pay_data_display = {
 		extra_gem = 1200,
 		id = 7,
 		airijp_id = "com.yostarjp.azurlane.diamond5",
-		display = {}
+		display = {},
+		ignorePlatform = {}
 	},
 	{
 		limit_arg = 0,
@@ -209,7 +216,8 @@ pg.pay_data_display = {
 		extra_gem = 3300,
 		id = 8,
 		airijp_id = "com.yostarjp.azurlane.diamond6",
-		display = {}
+		display = {},
+		ignorePlatform = {}
 	},
 	[11] = {
 		limit_arg = 1,
@@ -302,7 +310,8 @@ pg.pay_data_display = {
 				15008,
 				50
 			}
-		}
+		},
+		ignorePlatform = {}
 	},
 	[12] = {
 		limit_arg = 1,
@@ -395,7 +404,8 @@ pg.pay_data_display = {
 				15008,
 				50
 			}
-		}
+		},
+		ignorePlatform = {}
 	},
 	[13] = {
 		limit_arg = 1,
@@ -488,7 +498,8 @@ pg.pay_data_display = {
 				15008,
 				50
 			}
-		}
+		},
+		ignorePlatform = {}
 	},
 	[14] = {
 		limit_arg = 1,
@@ -581,7 +592,8 @@ pg.pay_data_display = {
 				15008,
 				50
 			}
-		}
+		},
+		ignorePlatform = {}
 	},
 	[15] = {
 		limit_arg = 1,
@@ -674,7 +686,8 @@ pg.pay_data_display = {
 				15008,
 				50
 			}
-		}
+		},
+		ignorePlatform = {}
 	},
 	[16] = {
 		limit_arg = 1,
@@ -772,7 +785,8 @@ pg.pay_data_display = {
 				42017,
 				2
 			}
-		}
+		},
+		ignorePlatform = {}
 	},
 	[17] = {
 		limit_arg = 1,
@@ -865,7 +879,8 @@ pg.pay_data_display = {
 				15008,
 				50
 			}
-		}
+		},
+		ignorePlatform = {}
 	},
 	[18] = {
 		limit_arg = 1,
@@ -963,7 +978,8 @@ pg.pay_data_display = {
 				42017,
 				2
 			}
-		}
+		},
+		ignorePlatform = {}
 	},
 	[19] = {
 		limit_arg = 1,
@@ -1056,7 +1072,8 @@ pg.pay_data_display = {
 				15008,
 				50
 			}
-		}
+		},
+		ignorePlatform = {}
 	},
 	[20] = {
 		limit_arg = 1,
@@ -1134,7 +1151,8 @@ pg.pay_data_display = {
 				100001,
 				1
 			}
-		}
+		},
+		ignorePlatform = {}
 	},
 	[21] = {
 		limit_arg = 1,
@@ -1237,7 +1255,8 @@ pg.pay_data_display = {
 				30121,
 				4
 			}
-		}
+		},
+		ignorePlatform = {}
 	},
 	[22] = {
 		limit_arg = 1,
@@ -1345,7 +1364,8 @@ pg.pay_data_display = {
 				30121,
 				8
 			}
-		}
+		},
+		ignorePlatform = {}
 	},
 	[23] = {
 		limit_arg = 1,
@@ -1443,7 +1463,305 @@ pg.pay_data_display = {
 				42017,
 				2
 			}
-		}
+		},
+		ignorePlatform = {}
+	},
+	[24] = {
+		limit_arg = 1,
+		descrip_extra = "※복주머니는 구매후, 우편함으로 발송됩니다. \n이미 소지하고 있는 스킨을 입수하게 되는 경우, 자동적으로 스킨 가격에 해당하는 다이아로 무상 교환되어 제공됩니다. ",
+		name = "2020 가을 연회복 패키지",
+		descrip = "특정 범위 내에서 랜덤한 연회복 스킨 1개, 2020 다이아, 그리고 다양한 아이템들을 대량으로 받을 수 있다냥!",
+		subject = "2020 가을 연회복 패키지",
+		extra_service = 3,
+		money = 36300,
+		tag = 2,
+		gem = 0,
+		limit_type = 2,
+		picture = "lihe3_l",
+		id_str = "alkrgift15",
+		first_pay_double = 0,
+		extra_gem = 0,
+		id = 24,
+		airijp_id = "com.yostarjp.azurlane.diamond115",
+		extra_service_item = {
+			{
+				2,
+				69911,
+				1
+			},
+			{
+				1,
+				4,
+				2020
+			},
+			{
+				2,
+				42026,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2020,
+					9,
+					30
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					10,
+					18
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				69911,
+				1
+			},
+			{
+				1,
+				4,
+				2020
+			},
+			{
+				2,
+				42026,
+				2
+			}
+		},
+		ignorePlatform = {}
+	},
+	[25] = {
+		limit_arg = 1,
+		descrip_extra = "※복주머니는 구매후, 우편함으로 발송됩니다. \n이미 소지하고 있는 스킨을 입수하게 되는 경우, 자동적으로 스킨 가격에 해당하는 다이아로 무상 교환되어 제공됩니다.",
+		name = "신년 패키지(2021)",
+		descrip = "특정 범위 내에서 랜덤한 연회복 스킨 1개, 2021 다이아, 그리고 다양한 아이템들을 대량으로 받을 수 있다냥!",
+		subject = "신년 패키지(2021)",
+		extra_service = 3,
+		money = 36300,
+		tag = 2,
+		gem = 0,
+		limit_type = 2,
+		picture = "fudai3",
+		id_str = "alkrgift16",
+		first_pay_double = 0,
+		extra_gem = 0,
+		id = 25,
+		airijp_id = "com.yostarjp.azurlane.diamond116",
+		extra_service_item = {
+			{
+				2,
+				69912,
+				1
+			},
+			{
+				1,
+				4,
+				2021
+			},
+			{
+				2,
+				42026,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2020,
+					12,
+					31
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					1,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				69912,
+				1
+			},
+			{
+				1,
+				4,
+				2021
+			},
+			{
+				2,
+				42026,
+				2
+			}
+		},
+		ignorePlatform = {}
+	},
+	[26] = {
+		limit_arg = 1,
+		descrip_extra = "※복주머니는 구매후, 우편함으로 발송됩니다. \n이미 소지하고 있는 스킨을 입수하게 되는 경우, 자동적으로 스킨 가격에 해당하는 다이아로 무상 교환되어 제공됩니다.",
+		name = "신년 패키지 복각(2020)",
+		descrip = "특정 범위 내에서 랜덤한 연회복 스킨 1개, 2020 다이아, 그리고 다양한 아이템들을 대량으로 받을 수 있다냥!",
+		subject = "신년 패키지 복각(2020)",
+		extra_service = 3,
+		money = 36300,
+		tag = 2,
+		gem = 0,
+		limit_type = 2,
+		picture = "fudai1",
+		id_str = "alkrgift17",
+		first_pay_double = 0,
+		extra_gem = 0,
+		id = 26,
+		airijp_id = "com.yostarjp.azurlane.diamond117",
+		extra_service_item = {
+			{
+				2,
+				69908,
+				1
+			},
+			{
+				1,
+				4,
+				2020
+			},
+			{
+				2,
+				42017,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2020,
+					12,
+					31
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					1,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				69908,
+				1
+			},
+			{
+				1,
+				4,
+				2020
+			},
+			{
+				2,
+				42017,
+				2
+			}
+		},
+		ignorePlatform = {}
 	},
 	all = {
 		1,
@@ -1466,6 +1784,9 @@ pg.pay_data_display = {
 		20,
 		21,
 		22,
-		23
+		23,
+		24,
+		25,
+		26
 	}
 }

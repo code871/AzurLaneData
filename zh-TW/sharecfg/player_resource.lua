@@ -370,6 +370,41 @@ pg.player_resource = {
 		name = "skinTicket8",
 		itemid = 59175
 	},
+	[168] = {
+		id = 168,
+		name = "union4_pt",
+		itemid = 59176
+	},
+	[170] = {
+		id = 170,
+		name = "skinTicket9",
+		itemid = 59181
+	},
+	[171] = {
+		id = 171,
+		name = "shinano_pt",
+		itemid = 59182
+	},
+	[169] = {
+		id = 169,
+		name = "shinanoframept",
+		itemid = 59180
+	},
+	[172] = {
+		id = 172,
+		name = "pulinsidun_pt",
+		itemid = 59183
+	},
+	[173] = {
+		id = 173,
+		name = "skinTicket10",
+		itemid = 59186
+	},
+	[175] = {
+		id = 175,
+		name = "ouxiang2_pt",
+		itemid = 59185
+	},
 	[1001] = {
 		id = 1001,
 		name = "vote2019_pt",
@@ -643,6 +678,27 @@ pg.player_resource = {
 		skinTicket8 = {
 			167
 		},
+		union4_pt = {
+			168
+		},
+		skinTicket9 = {
+			170
+		},
+		shinano_pt = {
+			171
+		},
+		shinanoframept = {
+			169
+		},
+		pulinsidun_pt = {
+			172
+		},
+		skinTicket10 = {
+			173
+		},
+		ouxiang2_pt = {
+			175
+		},
 		vote2019_pt = {
 			1001
 		},
@@ -749,6 +805,13 @@ pg.player_resource = {
 		165,
 		166,
 		167,
+		168,
+		170,
+		171,
+		169,
+		172,
+		173,
+		175,
 		1001,
 		2001,
 		2002,

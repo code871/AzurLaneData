@@ -19,7 +19,7 @@ function slot0.InitDetail(slot0)
 
 	slot0.equipments = slot0.detailPanel:Find("equipments")
 	slot0.equipmentsGrid = slot0.equipments:Find("equipments")
-	slot0.detailEqupimentTpl = slot0.equipments:Find("equipment_tpl")
+	slot0.detailEquipmentTpl = slot0.equipments:Find("equipment_tpl")
 	slot0.emptyGridTpl = slot0.equipments:Find("empty_tpl")
 	slot0.lockGridTpl = slot0.equipments:Find("lock_tpl")
 	slot0.showRecordBtn = slot0.equipments:Find("unload_all")
@@ -55,7 +55,7 @@ function slot0.InitDetail(slot0)
 	setActive(slot0.detailPanel, true)
 	setActive(slot0.attrs, true)
 	setActive(slot0.recordPanel, false)
-	setActive(slot0.detailEqupimentTpl, false)
+	setActive(slot0.detailEquipmentTpl, false)
 	setActive(slot0.emptyGridTpl, false)
 	setActive(slot0.lockGridTpl, false)
 	setActive(slot0.detailPanel, true)
@@ -112,7 +112,6 @@ function slot0.InitEvent(slot0)
 			return
 		end
 
-		uv0:emit(ShipViewConst.HIDE_SHIP_WORD)
 		uv0:emit(ShipMainMediator.PROPOSE, uv0:GetShipVO().id, function ()
 		end)
 	end)
@@ -210,7 +209,7 @@ function slot0.UpdateDetail(slot0, slot1)
 		end, SFX_PANEL)
 	end
 
-	setActive(slot0.fashionToggle, #slot0.shareData:GetCurGroupSkinList() > 1)
+	setActive(slot0.fashionToggle, slot0.shareData:HasFashion())
 	setActive(slot0.profileBtn, not slot1:isActivityNpc())
 end
 
@@ -222,7 +221,7 @@ function slot0.UpdateEquipments(slot0, slot1)
 		slot9 = nil
 
 		if slot7 then
-			slot9 = cloneTplTo(slot0.detailEqupimentTpl, slot0.equipmentsGrid)
+			slot9 = cloneTplTo(slot0.detailEquipmentTpl, slot0.equipmentsGrid)
 
 			updateEquipment(slot0:findTF("IconTpl", slot9), slot7)
 			onButton(slot0, slot9, function ()

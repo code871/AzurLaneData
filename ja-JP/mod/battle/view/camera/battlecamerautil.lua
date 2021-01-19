@@ -40,7 +40,7 @@ end
 
 function slot4.Clear(slot0)
 	LeanTween.cancel(go(slot0._camera))
-	slot0:deactive()
+	slot0:Deactive()
 	slot0:StopShake()
 	slot0._boundFix:Dispose()
 	slot0._followPilot:Dispose()
@@ -199,7 +199,7 @@ function slot4.active(slot0)
 	UpdateBeat:Add(slot0.Update, slot0)
 end
 
-function slot4.deactive(slot0)
+function slot4.Deactive(slot0)
 	UpdateBeat:Remove(slot0.Update, slot0)
 end
 
@@ -330,4 +330,23 @@ end
 
 function slot4.GetCamera(slot0)
 	return slot0._camera
+end
+
+function slot4.Add2Camera(slot0, slot1, slot2)
+	slot1 = tf(slot1)
+
+	slot1:SetParent(slot0._cameraTF)
+	pg.ViewUtils.SetSortingOrder(slot1, slot2 or 0)
+
+	return slot0._cameraTF.localScale
+end
+
+function slot4.PauseCameraTween(slot0)
+	LeanTween.pause(go(slot0._camera))
+	LeanTween.pause(go(slot0._uiCamera))
+end
+
+function slot4.ResumeCameraTween(slot0)
+	LeanTween.resume(go(slot0._camera))
+	LeanTween.resume(go(slot0._uiCamera))
 end

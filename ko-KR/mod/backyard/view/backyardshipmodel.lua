@@ -15,6 +15,7 @@ function slot0.Ctor(slot0, slot1, slot2)
 	slot0.speed = slot0.cfg.backyard_speed
 	slot0.effectContainer = slot0.tf:Find("_effect_")
 	slot0.bodyMask = slot0.tf:Find("bodyMask")
+	slot0.onDrag = false
 end
 
 function slot0.updateBoatVO(slot0, slot1)
@@ -218,6 +219,9 @@ function slot0.addBoatDragListenter(slot0)
 		uv0.viewComponent.dragShip = slot0
 
 		uv0.viewComponent:enableZoom(false)
+
+		uv0.onDrag = true
+
 		pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_BOAT_DRAG)
 
 		uv1 = uv0.boatVO:getPosition()
@@ -239,8 +243,7 @@ function slot0.addBoatDragListenter(slot0)
 		uv0:closeBodyMask()
 		uv0.viewComponent:emit(BackyardMainMediator.CANCEL_SHIP_MOVE, uv0.boatVO.id)
 		uv0:removeItem()
-		SetParent(uv0.tf, uv0.floorGrid)
-		tf(uv0.go):SetAsLastSibling()
+		pg.BackYardSortMgr.GetInstance():AddToTopSortGroup(uv0.tf)
 		uv0:changeInnerDir(Mathf.Sign(uv0.tf.localScale.x))
 		uv0:changeGridColor(BackYardConst.BACKYARD_GREEN)
 		uv0:updateBottomGridPos(uv0.boatVO:getPosition())
@@ -263,6 +266,7 @@ function slot0.addBoatDragListenter(slot0)
 	end)
 	slot1:AddDragEndFunc(function (slot0, slot1)
 		if uv0.viewComponent.dragShip == slot0 then
+			uv0.onDrag = false
 			uv0.viewComponent.dragShip = nil
 
 			uv0.viewComponent:enableZoom(true)
@@ -303,9 +307,22 @@ function slot0.endDrag(slot0, slot1, slot2)
 end
 
 function slot0.triggerInterAction(slot0, slot1, slot2)
-	slot5 = slot0.viewComponent.furnitureVOs[slot2]
+	slot4 = slot0.boatVO
 
-	if slot2 and slot5:isTransPort() and slot5:canInterActionShipGroup(slot0.boatVO.gruopId) and not slot5:isLock() then
+	if slot2 and slot0.viewComponent.furnitureVOs[slot2]:IsFollower() then
+		function ()
+			slot0 = uv0.getLocalPos(uv1)
+
+			LeanTween.moveLocal(uv2.go, Vector3(slot0.x, slot0.y + uv3, 0), 0):setOnComplete(System.Action(function ()
+				uv0.isMove = nil
+
+				SetActive(uv0.shipGridContainer, false)
+				uv0:changeGridColor(BackYardConst.BACKYARD_GREEN)
+				uv0.spineAnimUI:SetAction("stand2", 0)
+				uv0.viewComponent:emit(BackyardMainMediator.END_DRAG_SHIP, uv1.id, uv2)
+			end))
+		end()
+	elseif slot2 and slot5:isTransPort() and slot5:canInterActionShipGroup(slot4.gruopId) and not slot5:isLock() then
 		slot0:clearStage()
 		slot0.viewComponent:emit(BackyardMainMediator.INTERACTION_TRANSPORT, slot0.boatVO.id, slot5.id)
 	elseif slot2 and slot5:canInterActionShipGroup(slot4.gruopId) and slot5:isInterActionSpine() and slot5:canInterActionSpine() and not slot5:isTransPort() then
@@ -331,47 +348,38 @@ function slot0.triggerInterAction(slot0, slot1, slot2)
 	elseif slot4:hasInterActionFurnitrue() then
 		slot0:clearStage()
 
-		slot6 = slot4:getInterActionFurnitrueId()
+		slot7 = slot4:getInterActionFurnitrueId()
 
-		slot0:updateInterActionPos(slot3[slot6], slot3[slot6]:getOrderByShipId(slot4.id))
-		slot0:InterActionSortSibling(slot6)
+		slot0:updateInterActionPos(slot3[slot7], slot3[slot7]:getOrderByShipId(slot4.id))
+		slot0:InterActionSortSibling(slot7)
 	elseif slot4:inStageFurniture() then
 		slot0:updateStageInterAction(slot4:getPosition())
 		SetActive(slot0.shipGridContainer, false)
 	else
-		slot6 = nil
+		slot7 = nil
 
-		for slot10, slot11 in pairs(slot3) do
-			for slot16, slot17 in pairs(slot11:getOccupyGrid(slot11:getPosition())) do
-				if slot17.x == slot1.x and slot17.y == slot1.y then
-					slot6 = slot11
+		for slot11, slot12 in pairs(slot3) do
+			for slot17, slot18 in pairs(slot12:getOccupyGrid(slot12:getPosition())) do
+				if slot18.x == slot1.x and slot18.y == slot1.y then
+					slot7 = slot12
 
 					break
 				end
 			end
 
-			if slot6 then
+			if slot7 then
 				break
 			end
 		end
 
-		if slot6 and slot6:canInterActionShipGroup(slot4.gruopId) and slot6:isInterActionSpine() and slot6:canInterActionSpine() then
-			if slot6:isMoveable() then
+		if slot7 and slot7:canInterActionShipGroup(slot4.gruopId) and slot7:isInterActionSpine() and slot7:canInterActionSpine() then
+			if slot7:isMoveable() then
 				slot0.save = nil
 			end
 
-			slot0.viewComponent:emit(BackyardMainMediator.INTERACTION_SPINE, slot0.boatVO.id, slot6.id)
+			slot0.viewComponent:emit(BackyardMainMediator.INTERACTION_SPINE, slot0.boatVO.id, slot7.id)
 		else
-			slot7 = uv0.getLocalPos(slot1)
-
-			LeanTween.moveLocal(slot0.go, Vector3(slot7.x, slot7.y + uv1, 0), 0):setOnComplete(System.Action(function ()
-				uv0.isMove = nil
-
-				SetActive(uv0.shipGridContainer, false)
-				uv0:changeGridColor(BackYardConst.BACKYARD_GREEN)
-				uv0.spineAnimUI:SetAction("stand2", 0)
-				uv0.viewComponent:emit(BackyardMainMediator.END_DRAG_SHIP, uv1.id, uv2)
-			end))
+			slot6()
 		end
 	end
 end
@@ -436,7 +444,10 @@ function slot0.createItem(slot0, slot1)
 		})
 
 		slot3:SetPos(slot1.x + 1, slot1.y + 1)
-		slot0.tf:SetSiblingIndex(slot2:InsertChar(slot3))
+
+		slot4 = slot2:InsertChar(slot3)
+
+		pg.BackYardSortMgr.GetInstance():SortHandler()
 
 		slot0.item = slot3
 	end
@@ -618,7 +629,7 @@ end
 
 function slot0.PlaySpineAction(slot0, slot1)
 	function slot2()
-		if uv0:hasAnimator() then
+		if uv0:HasFollower() then
 			uv1:startSpineAnimator(uv0)
 		end
 	end
@@ -691,7 +702,7 @@ function slot0.PlayActionAccordingFurniture(slot0, slot1, slot2)
 			if slot1 then
 				if slot2 == BackyardFurnitureVO.INTERACTION_LOOP_TYPE_ALL then
 					uv3()
-				elseif slot2 == BackyardFurnitureVO.INTERACTION_LOOP_TYPE_LAST_ONE and uv2:hasAnimator() then
+				elseif slot2 == BackyardFurnitureVO.INTERACTION_LOOP_TYPE_LAST_ONE and uv2:HasFollower() then
 					uv4:endSpineAnimator(uv2)
 					uv4:setSpineAnimtorParent(uv2)
 				end
@@ -731,7 +742,7 @@ function slot0.PlayActionAccordingFurniture(slot0, slot1, slot2)
 	end
 
 	function ()
-		if uv0:hasAnimator() and not uv1 then
+		if uv0:HasFollower() and not uv1 then
 			uv2:endSpineAnimator(uv0)
 			uv2:startSpineAnimator(uv0)
 		end
@@ -823,7 +834,7 @@ function slot0.PlayActionTogether(slot0, slot1, slot2)
 
 				if slot2 == BackyardFurnitureVO.INTERACTION_LOOP_TYPE_ALL then
 					uv3()
-				elseif slot2 == BackyardFurnitureVO.INTERACTION_LOOP_TYPE_LAST_ONE and uv0:hasAnimator() then
+				elseif slot2 == BackyardFurnitureVO.INTERACTION_LOOP_TYPE_LAST_ONE and uv0:HasFollower() then
 					uv1:endSpineAnimator(uv0)
 					uv1:setSpineAnimtorParent(uv0)
 				end
@@ -908,7 +919,7 @@ function slot0.PlayActionTogether(slot0, slot1, slot2)
 	slot0.timer = {}
 
 	function ()
-		if uv0:hasAnimator() and not uv1 then
+		if uv0:HasFollower() and not uv1 then
 			uv2:endSpineAnimator(uv0)
 			uv2:startSpineAnimator(uv0)
 		end
@@ -932,77 +943,98 @@ function slot0.playTailActions(slot0, slot1)
 end
 
 function slot0.startSpineAnimator(slot0, slot1, slot2)
-	slot2 = slot2 or 0
-	slot0.animtorNameIndex = slot0.animtorNameIndex or math.random(1, #slot1:getAnimtorControlName(slot2))
-	slot6 = slot0.viewComponent:GetFurnitureGo(slot1.id):Find(slot1:getAnimtorControlGoName(slot2, slot0.animtorNameIndex))
-	slot7 = slot6:GetComponent(typeof(Animator))
+	if slot1:ExistFollowBoneNode() then
+		slot0:StartFollowBone(slot1)
+	else
+		slot2 = slot2 or 0
+		slot0.animtorNameIndex = slot0.animtorNameIndex or math.random(1, #slot1:getAnimtorControlName(slot2))
+		slot6 = slot0.viewComponent:GetFurnitureGo(slot1.id):Find(slot1:getAnimtorControlGoName(slot2, slot0.animtorNameIndex))
+		slot7 = slot6:GetComponent(typeof(Animator))
 
-	SetParent(slot0.tf, slot6)
+		SetParent(slot0.tf, slot6)
 
-	if slot1:hasAnimatorMask() then
-		slot8 = slot1:getAnimatorMaskConfig()
-		slot9 = slot3:Find("mask")
-		slot9.sizeDelta = Vector2(slot8[1][1], slot8[1][2])
-		slot9.anchoredPosition = Vector3(slot8[2][1], slot8[2][2], 0)
+		if slot1:hasAnimatorMask() then
+			slot8 = slot1:getAnimatorMaskConfig()
+			slot9 = slot3:Find("mask")
+			slot9.sizeDelta = Vector2(slot8[1][1], slot8[1][2])
+			slot9.anchoredPosition = Vector3(slot8[2][1], slot8[2][2], 0)
 
-		setActive(slot9, true)
-		SetParent(slot6, slot9)
+			setActive(slot9, true)
+			SetParent(slot6, slot9)
+		end
+
+		if slot6:GetComponent(typeof(DftAniEvent)) then
+			slot9 = 1
+
+			slot8:SetTriggerEvent(function (slot0)
+				if uv0.localScale.x < 0 then
+					uv1 = -1
+
+					uv2:changeInnerDir(1)
+				end
+			end)
+			slot8:SetEndEvent(function (slot0)
+				if uv0 == -1 then
+					uv1:changeInnerDir(-1)
+
+					uv0 = 1
+				end
+			end)
+		end
+
+		slot0.inAnimator = true
+
+		setActive(slot6, true)
 	end
-
-	if slot6:GetComponent(typeof(DftAniEvent)) then
-		slot9 = 1
-
-		slot8:SetTriggerEvent(function (slot0)
-			if uv0.localScale.x < 0 then
-				uv1 = -1
-
-				uv2:changeInnerDir(1)
-			end
-		end)
-		slot8:SetEndEvent(function (slot0)
-			if uv0 == -1 then
-				uv1:changeInnerDir(-1)
-
-				uv0 = 1
-			end
-		end)
-	end
-
-	slot0.inAnimator = true
-
-	setActive(slot6, true)
 end
 
 function slot0.endSpineAnimator(slot0, slot1, slot2, slot3)
-	if not slot0.animtorNameIndex then
-		return
-	end
+	if slot1:ExistFollowBoneNode() then
+		slot0:EndFollowBone(slot1)
+	else
+		if not slot0.animtorNameIndex then
+			return
+		end
 
-	if slot1 and slot1:hasAnimator() and slot0.viewComponent:GetFurnitureGo(slot1.id) then
-		slot5 = nil
+		if slot1 and slot1:hasAnimator() and slot0.viewComponent:GetFurnitureGo(slot1.id) then
+			slot5 = nil
 
-		if slot1:hasAnimatorMask() then
-			slot5 = slot4:Find("mask/" .. slot1:getAnimtorControlGoName(slot2 or 0, slot0.animtorNameIndex))
+			if slot1:hasAnimatorMask() then
+				slot5 = slot4:Find("mask/" .. slot1:getAnimtorControlGoName(slot2 or 0, slot0.animtorNameIndex))
 
-			if not slot3 then
-				setActive(slot4:Find("mask"), false)
+				if not slot3 then
+					setActive(slot4:Find("mask"), false)
+				end
+
+				SetParent(slot5, slot4)
+			else
+				slot5 = slot4:Find(slot6)
 			end
 
-			SetParent(slot5, slot4)
-		else
-			slot5 = slot4:Find(slot6)
+			if slot5:GetComponent(typeof(DftAniEvent)) then
+				slot7:SetTriggerEvent(nil)
+				slot7:SetTriggerEvent(nil)
+			end
+
+			setActive(slot5, false)
 		end
 
-		if slot5:GetComponent(typeof(DftAniEvent)) then
-			slot7:SetTriggerEvent(nil)
-			slot7:SetTriggerEvent(nil)
-		end
-
-		setActive(slot5, false)
+		slot0.animtorNameIndex = nil
+		slot0.inAnimator = nil
 	end
+end
 
-	slot0.animtorNameIndex = nil
-	slot0.inAnimator = nil
+function slot0.StartFollowBone(slot0, slot1)
+	slot2, slot3 = slot1:GetFollowBone()
+	slot0.tf.localScale = Vector3(slot3 * uv0, uv0, uv0)
+
+	SpineAnimUI.AddFollower(slot2, slot0.viewComponent:GetFurnitureGo(slot1.id):Find("icon/spine"), slot0.tf)
+end
+
+function slot0.EndFollowBone(slot0, slot1)
+	slot2 = slot1:GetFollowBone()
+	slot3 = slot0.viewComponent:GetFurnitureGo(slot1.id)
+	slot0.tf.localScale = Vector3(uv0, uv0, uv0)
 end
 
 function slot0.setSpineAnimtorParent(slot0, slot1)
@@ -1451,7 +1483,7 @@ function slot0.addSpineExtra(slot0, slot1, slot2)
 	slot0.tf.localScale = Vector3(uv0 * slot5[3][1], uv0 * slot5[3][2], 1)
 	slot0.tf.anchoredPosition = Vector3(slot5[2][1], slot5[2][2], 0)
 
-	if slot4:hasAnimator() then
+	if slot4:HasFollower() then
 		slot0:startSpineAnimator(slot4, slot2)
 	end
 
@@ -1665,6 +1697,7 @@ function slot0.closeBodyMask(slot0, slot1)
 end
 
 function slot0.dispose(slot0)
+	slot0:removeItem()
 	removeAllChildren(slot0.effectContainer)
 
 	if slot0.timer then
@@ -1719,6 +1752,18 @@ function slot0.enableTouch(slot0, slot1)
 	slot0.canvasGroup.blocksRaycasts = not slot1
 
 	slot0:updateShadowTF(not slot1)
+end
+
+function slot0.SetAsLastSibling(slot0)
+	slot0.tf:SetAsLastSibling()
+end
+
+function slot0.SetAsFirstSibling(slot0)
+	slot0.tf:SetAsFirstSibling()
+end
+
+function slot0.SetParent(slot0, slot1, slot2)
+	slot0.tf:SetParent(slot1, slot2)
 end
 
 return slot0

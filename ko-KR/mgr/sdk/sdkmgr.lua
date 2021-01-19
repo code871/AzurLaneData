@@ -14,6 +14,8 @@ function slot0.Ctor(slot0)
 	elseif PLATFORM_CODE == PLATFORM_CHT then
 		slot0.instance = require("Mgr.Sdk.YongshiSdkMgr")
 	end
+
+	slot0.pcode = slot0:GetPlatformCode(Application.identifier)
 end
 
 function slot0.Call(slot0, slot1, ...)
@@ -128,6 +130,14 @@ end
 
 function slot0.CheckPretest(slot0)
 	return slot0:Get("CheckPretest")
+end
+
+function slot0.CheckWorldTest(slot0)
+	if PLATFORM_CODE == PLATFORM_CH then
+		return slot0:Get("CheckWorldTest")
+	else
+		return false
+	end
 end
 
 function slot0.AiriLoginSDK(slot0)
@@ -277,6 +287,14 @@ function slot0.KRUserLevelUp(slot0, slot1, slot2)
 	slot0:Call("SdkLevelUp", slot1, slot2)
 end
 
+function slot0.ShowLicence(slot0)
+	slot0:Call("ShowLicence")
+end
+
+function slot0.ShowPrivate(slot0)
+	slot0:Call("ShowPrivate")
+end
+
 function slot0.GetDeviceId(slot0)
 	if PLATFORM_CODE == PLATFORM_JP or PLATFORM_CODE == PLATFORM_US then
 		return slot0:Get("GetDeviceId")
@@ -291,6 +309,24 @@ function InLoginScene()
 	if getProxy(ContextProxy):getCurrentContext() and slot1.mediator == LoginMediator and not function ()
 		return getProxy(UserProxy):GetLoginedFlag()
 	end() then
+		return true
+	end
+
+	return false
+end
+
+function slot0.GetPlatformCode(slot0, slot1)
+	if PLATFORM_CODE == PLATFORM_CHT then
+		return slot0:Get("GetPackageCode", slot1)
+	else
+		return nil
+	end
+end
+
+function slot0.IgnorePlatform(slot0, slot1)
+	if slot0.pcode and slot1 and #slot1 > 0 and _.any(slot1, function (slot0)
+		return tostring(slot0) == uv0
+	end) then
 		return true
 	end
 

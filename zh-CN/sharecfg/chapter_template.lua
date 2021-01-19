@@ -1,38 +1,40 @@
 pg = pg or {}
 pg.chapter_template = {
 	[101] = {
-		mine_id = 2001,
 		pos_x = "0.10703125",
 		num_3 = 1,
 		progress_boss = 100,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 2,
+		special_operation_list = "",
 		air_dominance = 6,
 		best_air_dominance = 150,
-		count = 0,
 		id = 101,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 0,
+		formation = 1,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.157291667",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 6,
-		is_ai = 0,
-		group_num = 1,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 3,
+		is_ai = 0,
 		land_based = "",
+		map = 1,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -49,7 +51,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 3,
 		ammo_total = 5,
-		map = 1,
+		group_num = 1,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "我方与白鹰特混航空舰队展开一场军事对抗演习，对方装备了最新型的精锐航空母舰，祝指挥官凯旋而归！",
@@ -258,38 +260,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[102] = {
-		mine_id = 2001,
 		pos_x = "0.34609375",
 		num_3 = 1,
 		progress_boss = 100,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 2,
+		special_operation_list = "",
 		air_dominance = 12,
 		best_air_dominance = 150,
-		count = 0,
 		id = 102,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 101,
+		formation = 1,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.347916667",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 6,
-		is_ai = 0,
-		group_num = 1,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 5,
+		is_ai = 0,
 		land_based = "",
+		map = 1,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -306,7 +310,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 3,
 		ammo_total = 5,
-		map = 1,
+		group_num = 1,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "收到急报，港口受到不明舰队空袭，请求指挥官火速返回支援！",
@@ -624,38 +628,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[103] = {
-		mine_id = 2001,
 		pos_x = "0.50546875",
 		num_3 = 1,
 		progress_boss = 100,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 2,
+		special_operation_list = "",
 		air_dominance = 18,
 		best_air_dominance = 150,
-		count = 0,
 		id = 103,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 102,
+		formation = 1,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.080208333",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 7,
-		is_ai = 0,
-		group_num = 1,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 5,
+		is_ai = 0,
 		land_based = "",
+		map = 1,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -672,7 +678,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 3,
 		ammo_total = 5,
-		map = 1,
+		group_num = 1,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "港口设施遭到严重破坏，亚利桑那号等战列舰大破，前方发现敌方侦查舰队，请指挥官做好接战准备。",
@@ -1024,38 +1030,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[104] = {
-		mine_id = 2001,
 		pos_x = "0.60546875",
 		num_3 = 1,
 		progress_boss = 80,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 2,
+		special_operation_list = "",
 		air_dominance = 24,
 		best_air_dominance = 150,
-		count = 0,
 		id = 104,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 103,
+		formation = 1,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.446875",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 8,
-		is_ai = 0,
-		group_num = 1,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 7,
+		is_ai = 0,
 		land_based = "",
+		map = 1,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -1072,7 +1080,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 3,
 		ammo_total = 5,
-		map = 1,
+		group_num = 1,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "来自东方的舰队——重樱，跨过大洋对我们发动了攻击！新的大战一触即发！",
@@ -1511,38 +1519,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[201] = {
-		mine_id = 2001,
 		pos_x = "0.6265625",
 		num_3 = 1,
 		progress_boss = 70,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 2,
+		special_operation_list = "",
 		air_dominance = 45,
 		best_air_dominance = 150,
-		count = 0,
 		id = 201,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 104,
+		formation = 2,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.15625",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 10,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 10,
+		is_ai = 0,
 		land_based = "",
+		map = 2,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -1559,7 +1569,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 3,
 		ammo_total = 5,
-		map = 2,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "侦查舰队来报珊瑚海海域发现重樱舰队，图拉岛上有我们的重要空军基地，我们不能失去它！",
@@ -2086,38 +2096,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[202] = {
-		mine_id = 2001,
 		pos_x = "0.575",
 		num_3 = 1,
 		progress_boss = 60,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 2,
+		special_operation_list = "",
 		air_dominance = 55,
 		best_air_dominance = 150,
-		count = 0,
 		id = 202,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 201,
+		formation = 2,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.436458333",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 10,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 12,
+		is_ai = 0,
 		land_based = "",
+		map = 2,
 		unlocklevel = 10,
 		chapter_fx = "",
 		uifx = "",
@@ -2134,7 +2146,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 3,
 		ammo_total = 5,
-		map = 2,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "敌方战机不断来袭，我军决定分两路对敌方航空部队进行搜索，请指挥官多加小心。",
@@ -2714,36 +2726,38 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[203] = {
-		mine_id = 2001,
 		pos_x = "0.21484375",
 		num_3 = 1,
 		progress_boss = 50,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 2,
+		special_operation_list = "",
 		air_dominance = 65,
 		best_air_dominance = 150,
-		count = 0,
 		id = 203,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 202,
+		formation = 2,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
 		star_require_1 = 1,
 		pos_y = "0.35",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 11,
-		is_ai = 0,
-		group_num = 2,
+		ammo_submarine = 0,
 		num_2 = 12,
+		is_ai = 0,
+		map = 2,
 		unlocklevel = 10,
 		chapter_fx = "",
 		uifx = "",
@@ -2760,7 +2774,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 3,
 		ammo_total = 5,
-		map = 2,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "前方发现落单的航母机动战斗群，这是千载难逢的好机会，集中火力歼灭敌方航空部队吧！",
@@ -3319,38 +3333,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[204] = {
-		mine_id = 2001,
 		pos_x = "0.28984375",
 		num_3 = 1,
 		progress_boss = 50,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 3,
+		special_operation_list = "",
 		air_dominance = 80,
 		best_air_dominance = 150,
-		count = 0,
 		id = 204,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 203,
+		formation = 2,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.0625",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 12,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 12,
+		is_ai = 0,
 		land_based = "",
+		map = 2,
 		unlocklevel = 10,
 		chapter_fx = "",
 		uifx = "",
@@ -3367,7 +3383,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 3,
 		ammo_total = 5,
-		map = 2,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "约克城和列克星敦号在东南方海域受到重樱的围攻，我们不能失去这些宝贵的战力。",
@@ -3894,38 +3910,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[301] = {
-		mine_id = 2001,
 		pos_x = "0.3046875",
 		num_3 = 1,
 		progress_boss = 50,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 3,
+		special_operation_list = "",
 		air_dominance = 110,
 		best_air_dominance = 150,
-		count = 0,
 		id = 301,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 204,
+		formation = 3,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.403125",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 14,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 12,
+		is_ai = 0,
 		land_based = "",
+		map = 3,
 		unlocklevel = 20,
 		chapter_fx = "",
 		uifx = "",
@@ -3942,7 +3960,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 3,
 		ammo_total = 5,
-		map = 3,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "我方秘密收到情报，重樱集中有生力量于中途岛西南方，这一次我们要来一场先发制人的战斗！",
@@ -4490,38 +4508,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[302] = {
-		mine_id = 2001,
 		pos_x = "0.16953125",
 		num_3 = 1,
 		progress_boss = 50,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 3,
+		special_operation_list = "",
 		air_dominance = 125,
 		best_air_dominance = 165,
-		count = 0,
 		id = 302,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 301,
+		formation = 3,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.1125",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 14,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 12,
+		is_ai = 0,
 		land_based = "",
+		map = 3,
 		unlocklevel = 20,
 		chapter_fx = "",
 		uifx = "",
@@ -4538,7 +4558,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 3,
 		ammo_total = 5,
-		map = 3,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "我方舰载机发现了敌方的航母编队，对方已经阵型大乱，是时候来一次漂亮的俯冲了！",
@@ -5110,38 +5130,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[303] = {
-		mine_id = 2001,
 		pos_x = "0.60625",
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 3,
+		special_operation_list = "",
 		air_dominance = 145,
 		best_air_dominance = 190,
-		count = 0,
 		id = 303,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 302,
+		formation = 3,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.491666667",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 15,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 12,
+		is_ai = 0,
 		land_based = "",
+		map = 3,
 		unlocklevel = 20,
 		chapter_fx = "",
 		uifx = "",
@@ -5158,7 +5180,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 3,
 		ammo_total = 5,
-		map = 3,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "敌方航母派出的舰载机也发现了我方的航空编队，约克城号受到了两轮空袭陷入大破状态。",
@@ -5725,38 +5747,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[304] = {
-		mine_id = 2001,
 		pos_x = "0.46953125",
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 4,
+		special_operation_list = "",
 		air_dominance = 175,
 		best_air_dominance = 230,
-		count = 0,
 		id = 304,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 303,
+		formation = 3,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.254166667",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 16,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 12,
+		is_ai = 0,
 		land_based = "",
+		map = 3,
 		unlocklevel = 20,
 		chapter_fx = "",
 		uifx = "",
@@ -5773,7 +5797,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 3,
 		ammo_total = 5,
-		map = 3,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "击沉了敌方三艘正规空母，我们已经胜券在握！龙派出了最后一批轰炸机准备对我们发动最后的反击！",
@@ -6326,38 +6350,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[305] = {
-		mine_id = 2001,
 		pos_x = "0.5734375",
 		num_3 = 0,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 43200,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 4,
+		special_operation_list = "",
 		air_dominance = 175,
 		best_air_dominance = 230,
-		count = 0,
 		id = 305,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 0,
+		formation = 3,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 0,
 		pos_y = "0.091666667",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 0,
 		model = 4,
 		investigation_ratio = 16,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 0,
+		is_ai = 0,
 		land_based = "",
+		map = 3,
 		unlocklevel = 20,
 		chapter_fx = "",
 		uifx = "",
@@ -6374,7 +6400,7 @@ pg.chapter_template = {
 		mitigation_rate = 0,
 		mitigation_level = 0,
 		ammo_total = 5,
-		map = 3,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 0,
 		profiles = "来自商船的求救信号锁定在了这片海域里，为了确保航路的安全，必须清除掉这些涌动在地平线之下的暗流。",
@@ -6999,38 +7025,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[401] = {
-		mine_id = 2001,
 		pos_x = "0.17578125",
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 4,
+		special_operation_list = "",
 		air_dominance = 120,
 		best_air_dominance = 160,
-		count = 0,
 		id = 401,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 304,
+		formation = 4,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.313541667",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 18,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 15,
+		is_ai = 0,
 		land_based = "",
+		map = 4,
 		unlocklevel = 25,
 		chapter_fx = "",
 		uifx = "",
@@ -7047,7 +7075,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 3,
 		ammo_total = 5,
-		map = 4,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "由于重樱不断的骚扰导致我方补给物资无法运往萨沃岛，司令部派我军执行护航任务，保证航路安全。",
@@ -7519,38 +7547,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[402] = {
-		mine_id = 2001,
 		pos_x = "0.31953125",
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 4,
+		special_operation_list = "",
 		air_dominance = 135,
 		best_air_dominance = 180,
-		count = 0,
 		id = 402,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 401,
+		formation = 4,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.140625",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 18,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 15,
+		is_ai = 0,
 		land_based = "",
+		map = 4,
 		unlocklevel = 25,
 		chapter_fx = "",
 		uifx = "",
@@ -7567,7 +7597,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 3,
 		ammo_total = 5,
-		map = 4,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "在晚上的交战中我方战力损失惨重，马上就要黎明，敌方主力舰队即将抵达，请迅速撤离这片海域。",
@@ -8032,38 +8062,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[403] = {
-		mine_id = 2001,
 		pos_x = "0.6328125",
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 4,
+		special_operation_list = "",
 		air_dominance = 155,
 		best_air_dominance = 205,
-		count = 0,
 		id = 403,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 402,
+		formation = 4,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.061458333",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 19,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 15,
+		is_ai = 0,
 		land_based = "",
+		map = 4,
 		unlocklevel = 25,
 		chapter_fx = "",
 		uifx = "",
@@ -8080,7 +8112,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 3,
 		ammo_total = 5,
-		map = 4,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "因为在萨沃岛损失巨大，司令部决定增派援军来巩固对所罗门海域的控制力，将重樱的舰队驱赶出这片海域。",
@@ -8490,38 +8522,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[404] = {
-		mine_id = 2001,
 		pos_x = "0.59921875",
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 4,
+		special_operation_list = "",
 		air_dominance = 180,
 		best_air_dominance = 235,
-		count = 0,
 		id = 404,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 403,
+		formation = 4,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.328125",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 20,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 18,
+		is_ai = 0,
 		land_based = "",
+		map = 4,
 		unlocklevel = 25,
 		chapter_fx = "",
 		uifx = "",
@@ -8538,7 +8572,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 3,
 		ammo_total = 5,
-		map = 4,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "经过半天的鏖战，我们已经追上了重樱航母战斗群，对方装备有三艘航母，实力悬殊，请指挥官注意防空。",
@@ -9085,38 +9119,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[405] = {
-		mine_id = 2001,
 		pos_x = "0.365625",
 		num_3 = 0,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 43200,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 4,
+		special_operation_list = "",
 		air_dominance = 180,
 		best_air_dominance = 235,
-		count = 0,
 		id = 405,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 0,
+		formation = 4,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 0,
 		pos_y = "0.458333333",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 0,
 		model = 4,
 		investigation_ratio = 20,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 0,
+		is_ai = 0,
 		land_based = "",
+		map = 4,
 		unlocklevel = 25,
 		chapter_fx = "",
 		uifx = "",
@@ -9133,7 +9169,7 @@ pg.chapter_template = {
 		mitigation_rate = 0,
 		mitigation_level = 0,
 		ammo_total = 5,
-		map = 4,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 0,
 		profiles = "来自商船的求救信号锁定在了这片海域里，为了确保航路的安全，必须清除掉这些涌动在地平线之下的暗流。",
@@ -9731,38 +9767,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[501] = {
-		mine_id = 2001,
 		pos_x = "0.17890625",
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 4,
+		special_operation_list = "",
 		air_dominance = 215,
 		best_air_dominance = 280,
-		count = 0,
 		id = 501,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 404,
+		formation = 5,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.25",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 22,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 18,
+		is_ai = 0,
 		land_based = "",
+		map = 5,
 		unlocklevel = 30,
 		chapter_fx = "",
 		uifx = "",
@@ -9779,7 +9817,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 5,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "敌方企图通过埃斯帕角向整个所罗门海域运送补给物资，我军将担任拦截舰队粉碎对手的企图。",
@@ -10331,38 +10369,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[502] = {
-		mine_id = 2001,
 		pos_x = "0.65859375",
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 4,
+		special_operation_list = "",
 		air_dominance = 250,
 		best_air_dominance = 325,
-		count = 0,
 		id = 502,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 501,
+		formation = 5,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.071875",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 22,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 18,
+		is_ai = 0,
 		land_based = "",
+		map = 5,
 		unlocklevel = 30,
 		chapter_fx = "",
 		uifx = "",
@@ -10379,7 +10419,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 5,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "报告指挥官，发现对方航母机动战斗群，由于距离太远岸基支援部队无法提供火力援助，请做好对空战准备。",
@@ -10869,38 +10909,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[503] = {
-		mine_id = 2001,
 		pos_x = "0.56640625",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 4,
+		special_operation_list = "",
 		air_dominance = 295,
 		best_air_dominance = 385,
-		count = 0,
 		id = 503,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 502,
+		formation = 5,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.25",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 23,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 18,
+		is_ai = 0,
 		land_based = "",
+		map = 5,
 		unlocklevel = 30,
 		chapter_fx = "",
 		uifx = "",
@@ -10917,7 +10959,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 5,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "大黄蜂在不远处遭到敌方机动编队袭击，向我军发出了求救信号，请指挥官火速赶往救援。",
@@ -11377,38 +11419,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[504] = {
-		mine_id = 2001,
 		pos_x = "0.45234375",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 4,
+		special_operation_list = "",
 		air_dominance = 345,
 		best_air_dominance = 450,
-		count = 0,
 		id = 504,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 503,
+		formation = 5,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.408333333",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 24,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 20,
+		is_ai = 0,
 		land_based = "",
+		map = 5,
 		unlocklevel = 30,
 		chapter_fx = "",
 		uifx = "",
@@ -11425,7 +11469,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 5,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "由于损失了航母机动编队，继续作战将对我方十分不利，在撤离过程中遇到敌方主力舰队堵截，请做好战斗准备。",
@@ -11910,38 +11954,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[505] = {
-		mine_id = 2001,
 		pos_x = "0.309375",
 		num_3 = 0,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 43200,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 4,
+		special_operation_list = "",
 		air_dominance = 345,
 		best_air_dominance = 450,
-		count = 0,
 		id = 505,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 0,
+		formation = 5,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 0,
 		pos_y = "0.071875",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 0,
 		model = 4,
 		investigation_ratio = 24,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 0,
+		is_ai = 0,
 		land_based = "",
+		map = 5,
 		unlocklevel = 30,
 		chapter_fx = "",
 		uifx = "",
@@ -11958,7 +12004,7 @@ pg.chapter_template = {
 		mitigation_rate = 0,
 		mitigation_level = 0,
 		ammo_total = 5,
-		map = 5,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 0,
 		profiles = "来自商船的求救信号锁定在了这片海域里，为了确保航路的安全，必须清除掉这些涌动在地平线之下的暗流。",
@@ -12494,38 +12540,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[601] = {
-		mine_id = 2001,
 		pos_x = "0.70390625",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 4,
+		special_operation_list = "",
 		air_dominance = 225,
 		best_air_dominance = 295,
-		count = 0,
 		id = 601,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 504,
+		formation = 6,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.113541667",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 26,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 20,
+		is_ai = 0,
 		land_based = "",
+		map = 6,
 		unlocklevel = 40,
 		chapter_fx = "",
 		uifx = "",
@@ -12542,7 +12590,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 6,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "重樱为了扭转战局，于午夜开始发动袭击，先遣部队之间发生了激烈的交战。",
@@ -13065,38 +13113,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[602] = {
-		mine_id = 2001,
 		pos_x = "0.5390625",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 4,
+		special_operation_list = "",
 		air_dominance = 255,
 		best_air_dominance = 335,
-		count = 0,
 		id = 602,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 601,
+		formation = 6,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.273958333",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 26,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 20,
+		is_ai = 0,
 		land_based = "",
+		map = 6,
 		unlocklevel = 40,
 		chapter_fx = "",
 		uifx = "",
@@ -13113,7 +13163,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 6,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "有了前一次的失败，面对本次夜战我军已有充足的准备，向敌人展示白鹰真正的实力吧！",
@@ -13692,38 +13742,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[603] = {
-		mine_id = 2001,
 		pos_x = "0.32265625",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 4,
+		special_operation_list = "",
 		air_dominance = 290,
 		best_air_dominance = 380,
-		count = 0,
 		id = 603,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 602,
+		formation = 6,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.40625",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 27,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 20,
+		is_ai = 0,
 		land_based = "",
+		map = 6,
 		unlocklevel = 40,
 		chapter_fx = "",
 		uifx = "",
@@ -13740,7 +13792,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 6,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "主力舰队之间发生了激烈的交火，南达科他号受到了{namecode:73}的猛烈攻击而陷入大破，立即前往支援！",
@@ -14243,38 +14295,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[604] = {
-		mine_id = 2001,
 		pos_x = "0.221875",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 4,
+		special_operation_list = "",
 		air_dominance = 325,
 		best_air_dominance = 425,
-		count = 0,
 		id = 604,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 603,
+		formation = 6,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.186458333",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 28,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 25,
+		is_ai = 0,
 		land_based = "",
+		map = 6,
 		unlocklevel = 40,
 		chapter_fx = "",
 		uifx = "",
@@ -14291,7 +14345,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 6,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "所罗门海域的局势逐渐明朗，敌方为了扭转战局，发动了最后突击——所罗门的噩梦，参上！",
@@ -14838,38 +14892,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[605] = {
-		mine_id = 2001,
 		pos_x = "0.68828125",
 		num_3 = 0,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 43200,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 4,
+		special_operation_list = "",
 		air_dominance = 325,
 		best_air_dominance = 425,
-		count = 0,
 		id = 605,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 0,
+		formation = 6,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 0,
 		pos_y = "0.470833333",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 0,
 		model = 4,
 		investigation_ratio = 28,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 0,
+		is_ai = 0,
 		land_based = "",
+		map = 6,
 		unlocklevel = 40,
 		chapter_fx = "",
 		uifx = "",
@@ -14886,7 +14942,7 @@ pg.chapter_template = {
 		mitigation_rate = 0,
 		mitigation_level = 0,
 		ammo_total = 5,
-		map = 6,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 0,
 		profiles = "来自商船的求救信号锁定在了这片海域里，为了确保航路的安全，必须清除掉这些涌动在地平线之下的暗流。",
@@ -15432,38 +15488,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[701] = {
-		mine_id = 2001,
 		pos_x = "0.153125",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 4,
+		special_operation_list = "",
 		air_dominance = 370,
 		best_air_dominance = 485,
-		count = 0,
 		id = 701,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 604,
+		formation = 7,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.130208333",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 30,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 20,
+		is_ai = 0,
 		land_based = "",
+		map = 7,
 		unlocklevel = 50,
 		chapter_fx = "",
 		uifx = "",
@@ -15480,7 +15538,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 7,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "前方侦察部队传来电报，重櫻舰队企图通过海路向瓜岛运送军需物资，司令部已经下达紧急指令要求我方前往拦截。",
@@ -15850,38 +15908,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[702] = {
-		mine_id = 2001,
 		pos_x = "0.35078125",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 4,
+		special_operation_list = "",
 		air_dominance = 425,
 		best_air_dominance = 555,
-		count = 0,
 		id = 702,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 701,
+		formation = 7,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.442708333",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 30,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 20,
+		is_ai = 0,
 		land_based = "",
+		map = 7,
 		unlocklevel = 50,
 		chapter_fx = "",
 		uifx = "",
@@ -15898,7 +15958,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 7,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "报告指挥官，由于深夜航行能见度极低，重櫻舰队已经与我方近在咫尺，这将是一场近距离的白刃战。",
@@ -16371,38 +16431,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[703] = {
-		mine_id = 2001,
 		pos_x = "0.6328125",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 4,
+		special_operation_list = "",
 		air_dominance = 480,
 		best_air_dominance = 625,
-		count = 0,
 		id = 703,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 702,
+		formation = 7,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.335416667",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 31,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 20,
+		is_ai = 0,
 		land_based = "",
+		map = 7,
 		unlocklevel = 50,
 		chapter_fx = "",
 		uifx = "",
@@ -16419,7 +16481,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 7,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "重櫻雷击编队已经成功迂回到我方主力舰队后方，水面声纳侦测到非常多个鱼雷信号，请注意回避。",
@@ -16963,38 +17025,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[704] = {
-		mine_id = 2001,
 		pos_x = "0.728125",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 4,
+		special_operation_list = "",
 		air_dominance = 535,
 		best_air_dominance = 700,
-		count = 0,
 		id = 704,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 703,
+		formation = 7,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.163541667",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 32,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 25,
+		is_ai = 0,
 		land_based = "",
+		map = 7,
 		unlocklevel = 50,
 		chapter_fx = "",
 		uifx = "",
@@ -17011,7 +17075,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 7,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "夜晚作战对我方极为不利，重櫻已经取得了战术上的绝对主动权，继续接战损失会很大，请指挥官尽快撤离这片海域。",
@@ -17539,38 +17603,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[705] = {
-		mine_id = 2001,
 		pos_x = "0.225",
 		num_3 = 0,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 43200,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 4,
+		special_operation_list = "",
 		air_dominance = 535,
 		best_air_dominance = 700,
-		count = 0,
 		id = 705,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 0,
+		formation = 7,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 0,
 		pos_y = "0.291666667",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 0,
 		model = 4,
 		investigation_ratio = 32,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 0,
+		is_ai = 0,
 		land_based = "",
+		map = 7,
 		unlocklevel = 50,
 		chapter_fx = "",
 		uifx = "",
@@ -17587,7 +17653,7 @@ pg.chapter_template = {
 		mitigation_rate = 0,
 		mitigation_level = 0,
 		ammo_total = 5,
-		map = 7,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 0,
 		profiles = "来自商船的求救信号锁定在了这片海域里，为了确保航路的安全，必须清除掉这些涌动在地平线之下的暗流。",
@@ -18118,38 +18184,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[801] = {
-		mine_id = 2001,
 		pos_x = "0.41953125",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 4,
+		special_operation_list = "",
 		air_dominance = 590,
 		best_air_dominance = 770,
-		count = 0,
 		id = 801,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 704,
+		formation = 8,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.436458333",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 31,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 30,
+		is_ai = 0,
 		land_based = "",
+		map = 8,
 		unlocklevel = 60,
 		chapter_fx = "",
 		uifx = "",
@@ -18166,7 +18234,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 8,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "在先前的中途岛海战中，重櫻派出的佯攻舰队夺取了北方海域的控制权。而现在，是时候夺回属于我们的海洋了！",
@@ -18558,38 +18626,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[802] = {
-		mine_id = 2001,
 		pos_x = "0.2046875",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 4,
+		special_operation_list = "",
 		air_dominance = 650,
 		best_air_dominance = 845,
-		count = 0,
 		id = 802,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 801,
+		formation = 8,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.258333333",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 31,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 30,
+		is_ai = 0,
 		land_based = "",
+		map = 8,
 		unlocklevel = 60,
 		chapter_fx = "",
 		uifx = "",
@@ -18606,7 +18676,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 8,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "阿申留群岛的海水冰冷刺骨，伴随着弥漫的硝烟以及炮弹的轰鸣，北极圈的拂晓来临了。",
@@ -19084,38 +19154,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[803] = {
-		mine_id = 2001,
 		pos_x = "0.2546875",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 4,
+		special_operation_list = "",
 		air_dominance = 710,
 		best_air_dominance = 925,
-		count = 0,
 		id = 803,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 802,
+		formation = 8,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.041666667",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 32,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 30,
+		is_ai = 0,
 		land_based = "",
+		map = 8,
 		unlocklevel = 60,
 		chapter_fx = "",
 		uifx = "",
@@ -19132,7 +19204,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 8,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "重樱的输送舰队企图绕过战线前往群岛输送物资，盐湖城号受到敌方的集火而陷入大破状态，情况危急！",
@@ -19673,38 +19745,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[804] = {
-		mine_id = 2001,
 		pos_x = "0.6015625",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 4,
+		special_operation_list = "",
 		air_dominance = 770,
 		best_air_dominance = 1005,
-		count = 0,
 		id = 804,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 803,
+		formation = 8,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.153125",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 33,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 35,
+		is_ai = 0,
 		land_based = "",
+		map = 8,
 		unlocklevel = 60,
 		chapter_fx = "",
 		uifx = "",
@@ -19721,7 +19795,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 8,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "敌方的旗舰受到重创，但是另外数艘新锐战舰仍在负隅顽抗，寒冷的北风吹散了大雾，这里只是被遗忘的战场。",
@@ -20325,38 +20399,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[805] = {
-		mine_id = 2001,
 		pos_x = "0.66796875",
 		num_3 = 0,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 43200,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 4,
+		special_operation_list = "",
 		air_dominance = 770,
 		best_air_dominance = 1005,
-		count = 0,
 		id = 805,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 0,
+		formation = 8,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 0,
 		pos_y = "0.338541667",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 0,
 		model = 4,
 		investigation_ratio = 33,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 0,
+		is_ai = 0,
 		land_based = "",
+		map = 8,
 		unlocklevel = 60,
 		chapter_fx = "",
 		uifx = "",
@@ -20373,7 +20449,7 @@ pg.chapter_template = {
 		mitigation_rate = 0,
 		mitigation_level = 0,
 		ammo_total = 5,
-		map = 8,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 0,
 		profiles = "来自商船的求救信号锁定在了这片海域里，为了确保航路的安全，必须清除掉这些涌动在地平线之下的暗流。",
@@ -20966,38 +21042,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[901] = {
-		mine_id = 2001,
 		pos_x = "0.17890625",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 4,
+		special_operation_list = "",
 		air_dominance = 840,
 		best_air_dominance = 1095,
-		count = 0,
 		id = 901,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 804,
+		formation = 9,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.383333333",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 32,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 30,
+		is_ai = 0,
 		land_based = "",
+		map = 9,
 		unlocklevel = 65,
 		chapter_fx = "",
 		uifx = "",
@@ -21014,7 +21092,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 9,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "伴随着夜色，重樱的精锐驱逐舰编队正悄悄的驶向科隆班加拉岛方向，然而，我方的拦截舰队早已在此守株待兔。",
@@ -21500,38 +21578,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[902] = {
-		mine_id = 2001,
 		pos_x = "0.28671875",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 4,
+		special_operation_list = "",
 		air_dominance = 915,
 		best_air_dominance = 1190,
-		count = 0,
 		id = 902,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 901,
+		formation = 9,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.122916667",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 32,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 30,
+		is_ai = 0,
 		land_based = "",
+		map = 9,
 		unlocklevel = 65,
 		chapter_fx = "",
 		uifx = "",
@@ -21548,7 +21628,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 9,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "双方的舰队近距离接触了，在夜色中，究竟会是重樱引以为傲的纯氧鱼雷还是白鹰的巡洋舰炮更胜一筹？",
@@ -22072,38 +22152,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[903] = {
-		mine_id = 2001,
 		pos_x = "0.6046875",
 		num_3 = 1,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 4,
+		special_operation_list = "",
 		air_dominance = 990,
 		best_air_dominance = 1290,
-		count = 0,
 		id = 903,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 902,
+		formation = 9,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.35625",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 33,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 35,
+		is_ai = 0,
 		land_based = "",
+		map = 9,
 		unlocklevel = 65,
 		chapter_fx = "",
 		uifx = "",
@@ -22120,7 +22202,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 9,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "海伦娜炮口的火舌照亮了夜晚的海面，她将火力毫无保留的倾泻在敌人身上，然而，却也因此暴露了自己的位置...",
@@ -22668,38 +22750,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[904] = {
-		mine_id = 2001,
 		pos_x = "0.70703125",
 		num_3 = 1,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 4,
+		special_operation_list = "",
 		air_dominance = 1065,
 		best_air_dominance = 1385,
-		count = 0,
 		id = 904,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 903,
+		formation = 9,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.09375",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 34,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 40,
+		is_ai = 0,
 		land_based = "",
+		map = 9,
 		unlocklevel = 65,
 		chapter_fx = "",
 		uifx = "",
@@ -22716,7 +22800,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 9,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "敌方的新型驱逐舰展现出了不同以往的夜战实力，多枚鱼雷准确的命中了海伦娜，战斗陷入一片混乱。",
@@ -23286,38 +23370,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[905] = {
-		mine_id = 2001,
 		pos_x = "0.44921875",
 		num_3 = 0,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 43200,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 4,
+		special_operation_list = "",
 		air_dominance = 1065,
 		best_air_dominance = 1385,
-		count = 0,
 		id = 905,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 0,
+		formation = 9,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 0,
 		pos_y = "0.238541667",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 0,
 		model = 4,
 		investigation_ratio = 34,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 0,
+		is_ai = 0,
 		land_based = "",
+		map = 9,
 		unlocklevel = 65,
 		chapter_fx = "",
 		uifx = "",
@@ -23334,7 +23420,7 @@ pg.chapter_template = {
 		mitigation_rate = 0,
 		mitigation_level = 0,
 		ammo_total = 5,
-		map = 9,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 0,
 		profiles = "来自商船的求救信号锁定在了这片海域里，为了确保航路的安全，必须清除掉这些涌动在地平线之下的暗流。",
@@ -23914,38 +24000,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1001] = {
-		mine_id = 2001,
 		pos_x = "0.14609375",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 4,
+		special_operation_list = "",
 		air_dominance = 1155,
 		best_air_dominance = 1505,
-		count = 0,
 		id = 1001,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 904,
+		formation = 10,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.380208333",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 33,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 30,
+		is_ai = 0,
 		land_based = "",
+		map = 10,
 		unlocklevel = 70,
 		chapter_fx = "",
 		uifx = "",
@@ -23962,7 +24050,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 10,
 		ammo_total = 5,
-		map = 10,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "库拉湾海战后不到一周，重樱舰队再次集结出动前往科隆班加拉岛输送物资，由火奴鲁鲁与圣路易斯领衔的TF18，再次奉命出击拦截。",
@@ -24467,38 +24555,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1002] = {
-		mine_id = 2001,
 		pos_x = "0.35234375",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 4,
+		special_operation_list = "",
 		air_dominance = 1250,
 		best_air_dominance = 1625,
-		count = 0,
 		id = 1002,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1001,
+		formation = 10,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.234375",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 33,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 30,
+		is_ai = 0,
 		land_based = "",
+		map = 10,
 		unlocklevel = 70,
 		chapter_fx = "",
 		uifx = "",
@@ -24515,7 +24605,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 10,
 		ammo_total = 5,
-		map = 10,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "PBY夜航机发现了南下中的敌军位置，然而，敌方也通过“逆电探”发现了我们，夜战开始了！",
@@ -25076,38 +25166,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1003] = {
-		mine_id = 2001,
 		pos_x = "0.49453125",
 		num_3 = 1,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 4,
+		special_operation_list = "",
 		air_dominance = 1345,
 		best_air_dominance = 1750,
-		count = 0,
 		id = 1003,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1002,
+		formation = 10,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.070833333",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 34,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 35,
+		is_ai = 0,
 		land_based = "",
+		map = 10,
 		unlocklevel = 70,
 		chapter_fx = "",
 		uifx = "",
@@ -25124,7 +25216,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 10,
 		ammo_total = 5,
-		map = 10,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "夜色中，重樱引以为傲的纯氧鱼雷重创了多艘巡洋舰，然而旗舰貎也被152MM舰炮集火而大破，开始撤退。",
@@ -25702,38 +25794,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1004] = {
-		mine_id = 2001,
 		pos_x = "0.571875",
 		num_3 = 1,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 4,
+		special_operation_list = "",
 		air_dominance = 1440,
 		best_air_dominance = 1875,
-		count = 0,
 		id = 1004,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1003,
+		formation = 10,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.378125",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 35,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 40,
+		is_ai = 0,
 		land_based = "",
+		map = 10,
 		unlocklevel = 70,
 		chapter_fx = "",
 		uifx = "",
@@ -25750,7 +25844,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 10,
 		ammo_total = 5,
-		map = 10,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "正当火奴鲁鲁等舰乘胜追击之时，重樱的水雷小队在夜色的掩护中杀出了一手回马枪，火奴鲁鲁与圣路易斯接连中雷，情况危急！",
@@ -26342,38 +26436,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1005] = {
-		mine_id = 2001,
 		pos_x = "0.6859375",
 		num_3 = 0,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 43200,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 4,
+		special_operation_list = "",
 		air_dominance = 1440,
 		best_air_dominance = 1875,
-		count = 0,
 		id = 1005,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 0,
+		formation = 10,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 0,
 		pos_y = "0.196875",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 0,
 		model = 4,
 		investigation_ratio = 35,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 0,
+		is_ai = 0,
 		land_based = "",
+		map = 10,
 		unlocklevel = 70,
 		chapter_fx = "",
 		uifx = "",
@@ -26390,7 +26486,7 @@ pg.chapter_template = {
 		mitigation_rate = 0,
 		mitigation_level = 0,
 		ammo_total = 5,
-		map = 10,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 0,
 		profiles = "来自商船的求救信号锁定在了这片海域里，为了确保航路的安全，必须清除掉这些涌动在地平线之下的暗流。",
@@ -26971,38 +27067,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1101] = {
-		mine_id = 2001,
 		pos_x = "0.22734375",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 4,
+		special_operation_list = "",
 		air_dominance = 1520,
 		best_air_dominance = 1980,
-		count = 0,
 		id = 1101,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1004,
+		formation = 11,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.388541667",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 34,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 30,
+		is_ai = 0,
 		land_based = "",
+		map = 11,
 		unlocklevel = 75,
 		chapter_fx = "",
 		uifx = "",
@@ -27019,7 +27117,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 10,
 		ammo_total = 5,
-		map = 11,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "一切准备就绪，敌方舰队的注意力已经被其他几个方向的支援空袭吸引，在拂晓的阳光下突破防线，登陆布岛吧！",
@@ -27573,38 +27671,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1102] = {
-		mine_id = 2001,
 		pos_x = "0.32578125",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 4,
+		special_operation_list = "",
 		air_dominance = 1610,
 		best_air_dominance = 2095,
-		count = 0,
 		id = 1102,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1101,
+		formation = 11,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.091666667",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 34,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 35,
+		is_ai = 0,
 		land_based = "",
+		map = 11,
 		unlocklevel = 75,
 		chapter_fx = "",
 		uifx = "",
@@ -27621,7 +27721,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 10,
 		ammo_total = 5,
-		map = 11,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "航空舰队侦察机发现了在夜色与暴雨中全速前进的敌方编队，而能够拦截敌人的，只有已经疲惫不堪的第39特混舰队…",
@@ -28290,38 +28390,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1103] = {
-		mine_id = 2001,
 		pos_x = "0.55234375",
 		num_3 = 1,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 4,
+		special_operation_list = "",
 		air_dominance = 1700,
 		best_air_dominance = 2210,
-		count = 0,
 		id = 1103,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1102,
+		formation = 11,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.453125",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 35,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 40,
+		is_ai = 0,
 		land_based = "",
+		map = 11,
 		unlocklevel = 75,
 		chapter_fx = "",
 		uifx = "",
@@ -28338,7 +28440,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 10,
 		ammo_total = 5,
-		map = 11,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "“我们的天职便是为友军保驾护航，克利夫兰、蒙彼利埃、哥伦比亚、丹佛，所罗门四骑士参上！”",
@@ -28977,38 +29079,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1104] = {
-		mine_id = 2001,
 		pos_x = "0.6828125",
 		num_3 = 1,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 4,
+		special_operation_list = "",
 		air_dominance = 1790,
 		best_air_dominance = 2330,
-		count = 0,
 		id = 1104,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1103,
+		formation = 11,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.167708333",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 36,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 45,
+		is_ai = 0,
 		land_based = "",
+		map = 11,
 		unlocklevel = 75,
 		chapter_fx = "",
 		uifx = "",
@@ -29025,7 +29129,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 10,
 		ammo_total = 5,
-		map = 11,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "面对敌方的重巡洋舰，四艘克利夫兰级轻巡洋舰依然不落下风，发挥出了惊人的战力，无数的炮口焰撕裂了漆黑的夜晚",
@@ -29773,38 +29877,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1201] = {
-		mine_id = 2001,
 		pos_x = "0.14609375",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 4,
+		special_operation_list = "",
 		air_dominance = 1890,
 		best_air_dominance = 2460,
-		count = 0,
 		id = 1201,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1104,
+		formation = 12,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.380208333",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 35,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 30,
+		is_ai = 0,
 		land_based = "",
+		map = 12,
 		unlocklevel = 80,
 		chapter_fx = "",
 		uifx = "",
@@ -29821,7 +29927,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 10,
 		ammo_total = 5,
-		map = 12,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "情报显示，敌方舰队正计划进行大规模的反击作战。充分利用情报的优势，给对手一份意外的惊喜吧",
@@ -30353,38 +30459,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1202] = {
-		mine_id = 2001,
 		pos_x = "0.28671875",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 4,
+		special_operation_list = "",
 		air_dominance = 1995,
 		best_air_dominance = 2595,
-		count = 0,
 		id = 1202,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1201,
+		formation = 12,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.122916667",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 35,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 35,
+		is_ai = 0,
 		land_based = "",
+		map = 12,
 		unlocklevel = 80,
 		chapter_fx = "",
 		uifx = "",
@@ -30401,7 +30509,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 10,
 		ammo_total = 5,
-		map = 12,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "敌方为了保证航母舰队的出海训练而派出了数只驱逐舰组成的反潜部队，这又是一次分而击之的最好机会",
@@ -31046,38 +31154,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1203] = {
-		mine_id = 2001,
 		pos_x = "0.6046875",
 		num_3 = 1,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 4,
+		special_operation_list = "",
 		air_dominance = 2100,
 		best_air_dominance = 2730,
-		count = 0,
 		id = 1203,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1202,
+		formation = 12,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.35625",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 36,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 40,
+		is_ai = 0,
 		land_based = "",
+		map = 12,
 		unlocklevel = 80,
 		chapter_fx = "",
 		uifx = "",
@@ -31094,7 +31204,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 10,
 		ammo_total = 5,
-		map = 12,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "敌方的航母部队派出了大量的舰载机，面对庞大的攻击波，我方的舰载机们毫无惧色，一场史诗的空战开始了",
@@ -31775,38 +31885,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1204] = {
-		mine_id = 2001,
 		pos_x = "0.70703125",
 		num_3 = 1,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 4,
+		special_operation_list = "",
 		air_dominance = 2205,
 		best_air_dominance = 2870,
-		count = 0,
 		id = 1204,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1203,
+		formation = 12,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.09375",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 37,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 45,
+		is_ai = 0,
 		land_based = "",
+		map = 12,
 		unlocklevel = 80,
 		chapter_fx = "",
 		uifx = "",
@@ -31823,7 +31935,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 10,
 		ammo_total = 5,
-		map = 12,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "战争的形态已经改变，夺得制空权的一方将获得巨大的优势。马里亚纳的上空，回荡着机枪与引擎的轰鸣",
@@ -32620,37 +32732,39 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1301] = {
-		mine_id = 2001,
 		pos_x = "0.14609375",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 4,
+		special_operation_list = "",
 		air_dominance = 2315,
 		best_air_dominance = 3010,
-		count = 0,
 		id = 1301,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1204,
+		formation = 13,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.380208333",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 36,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 30,
+		is_ai = 0,
+		map = 13,
 		unlocklevel = 85,
 		chapter_fx = "",
 		uifx = "",
@@ -32667,7 +32781,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 10,
 		ammo_total = 5,
-		map = 13,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "敌方的第一波航空队即将进入防空圈！猎物已经落入陷阱，TF58，起飞迎击！",
@@ -33208,37 +33322,39 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1302] = {
-		mine_id = 2001,
 		pos_x = "0.28671875",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 4,
+		special_operation_list = "",
 		air_dominance = 2450,
 		best_air_dominance = 3185,
-		count = 0,
 		id = 1302,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1301,
+		formation = 13,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.122916667",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 36,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 35,
+		is_ai = 0,
+		map = 13,
 		unlocklevel = 85,
 		chapter_fx = "",
 		uifx = "",
@@ -33255,7 +33371,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 10,
 		ammo_total = 5,
-		map = 13,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "伴随着悠远的笛声，敌方的第二波攻击袭来！这是第几次交手了呢，{namecode:95}？",
@@ -33901,37 +34017,39 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1303] = {
-		mine_id = 2001,
 		pos_x = "0.6046875",
 		num_3 = 1,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 4,
+		special_operation_list = "",
 		air_dominance = 2585,
 		best_air_dominance = 3365,
-		count = 0,
 		id = 1303,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1302,
+		formation = 13,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.35625",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 37,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 40,
+		is_ai = 0,
+		map = 13,
 		unlocklevel = 85,
 		chapter_fx = "",
 		uifx = "",
@@ -33948,7 +34066,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 10,
 		ammo_total = 5,
-		map = 13,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "在潜艇的帮助下，我方已获得了相当的优势。然而来自五航战的宿敌——{namecode:96}，却在此时发起了新一轮的猛烈攻势！",
@@ -34638,37 +34756,39 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1304] = {
-		mine_id = 2001,
 		pos_x = "0.70703125",
 		num_3 = 1,
 		progress_boss = 18,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 4,
+		special_operation_list = "",
 		air_dominance = 2720,
 		best_air_dominance = 3540,
-		count = 0,
 		id = 1304,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1303,
+		formation = 13,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.09375",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 38,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 50,
+		is_ai = 0,
+		map = 13,
 		unlocklevel = 85,
 		chapter_fx = "",
 		uifx = "",
@@ -34685,7 +34805,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 10,
 		ammo_total = 5,
-		map = 13,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "最后的对决！目标是敌方旗舰，以重型装甲为傲的最新锐航母——{namecode:97}，慎重地进行战斗吧！",
@@ -35484,38 +35604,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[10000] = {
-		mine_id = 2001,
 		pos_x = "0.35625",
 		num_3 = 1,
 		progress_boss = 100,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 81,
 		best_air_dominance = 150,
-		count = 0,
 		id = 10000,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 0,
+		formation = 10000,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.43125",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 16,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 5,
+		is_ai = 0,
 		land_based = "",
+		map = 10000,
 		unlocklevel = 15,
 		chapter_fx = "",
 		uifx = "",
@@ -35532,7 +35654,7 @@ pg.chapter_template = {
 		mitigation_rate = 0,
 		mitigation_level = 0,
 		ammo_total = 5,
-		map = 10000,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "近日重櫻在马来海域集结舰队，司令部已决定组成“Z”舰队前往马来海域一探虚实，指挥官将被编入支援舰队保护“Z”的侧翼，请指挥官做好出发准备。",
@@ -35882,38 +36004,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[10001] = {
-		mine_id = 2001,
 		pos_x = "0.58203125",
 		num_3 = 1,
 		progress_boss = 42,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 100,
 		best_air_dominance = 150,
-		count = 0,
 		id = 10001,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 10000,
+		formation = 10000,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.294791667",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 17,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 20,
+		is_ai = 0,
 		land_based = "",
+		map = 10000,
 		unlocklevel = 15,
 		chapter_fx = "",
 		uifx = "",
@@ -35930,7 +36054,7 @@ pg.chapter_template = {
 		mitigation_rate = 0,
 		mitigation_level = 0,
 		ammo_total = 5,
-		map = 10000,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "在重樱的陆航轰炸机面前，威尔士亲王号与反击号上的防空火力显得如此的薄弱，战斗很快陷入了僵局。",
@@ -36348,38 +36472,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[10002] = {
-		mine_id = 2001,
 		pos_x = "0.44921875",
 		num_3 = 1,
 		progress_boss = 28,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 120,
 		best_air_dominance = 150,
-		count = 0,
 		id = 10002,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 10001,
+		formation = 10000,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.080208333",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 18,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 25,
+		is_ai = 0,
 		land_based = "",
+		map = 10000,
 		unlocklevel = 15,
 		chapter_fx = "",
 		uifx = "",
@@ -36396,7 +36522,7 @@ pg.chapter_template = {
 		mitigation_rate = 0,
 		mitigation_level = 0,
 		ammo_total = 5,
-		map = 10000,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "反击号与威尔士亲王号先后被多发鱼雷命中，与此同时，重樱南遣舰队的水面部队也正在紧急赶往战场...",
@@ -36844,38 +36970,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[10101] = {
-		mine_id = 2001,
 		pos_x = "0.10703125",
 		num_3 = 1,
 		progress_boss = 100,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 45,
 		best_air_dominance = 150,
-		count = 0,
 		id = 10101,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 0,
+		formation = 201,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.157291667",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 6,
-		is_ai = 0,
-		group_num = 1,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 3,
+		is_ai = 0,
 		land_based = "",
+		map = 201,
 		unlocklevel = 10,
 		chapter_fx = "",
 		uifx = "UIhuohua2",
@@ -36892,7 +37020,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 3,
 		ammo_total = 5,
-		map = 201,
+		group_num = 1,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "我方与白鹰特混航空舰队展开一场军事对抗演习，对方装备了最新型的精锐航空母舰，祝指挥官凯旋而归！",
@@ -37137,38 +37265,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[10102] = {
-		mine_id = 2001,
 		pos_x = "0.34609375",
 		num_3 = 1,
 		progress_boss = 100,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 50,
 		best_air_dominance = 150,
-		count = 0,
 		id = 10102,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 0,
+		formation = 201,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.347916667",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 6,
-		is_ai = 0,
-		group_num = 1,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 5,
+		is_ai = 0,
 		land_based = "",
+		map = 201,
 		unlocklevel = 10,
 		chapter_fx = "",
 		uifx = "UIhuohua2",
@@ -37185,7 +37315,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 3,
 		ammo_total = 5,
-		map = 201,
+		group_num = 1,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "收到急报，港口受到不明舰队空袭，请求指挥官火速返回支援！",
@@ -37537,38 +37667,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[10103] = {
-		mine_id = 2001,
 		pos_x = "0.50546875",
 		num_3 = 1,
 		progress_boss = 100,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 60,
 		best_air_dominance = 150,
-		count = 0,
 		id = 10103,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 0,
+		formation = 201,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.080208333",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 7,
-		is_ai = 0,
-		group_num = 1,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 5,
+		is_ai = 0,
 		land_based = "",
+		map = 201,
 		unlocklevel = 10,
 		chapter_fx = "",
 		uifx = "UIhuohua2",
@@ -37585,7 +37717,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 3,
 		ammo_total = 5,
-		map = 201,
+		group_num = 1,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "港口设施遭到严重破坏，亚利桑那号等战列舰大破，前方发现敌方侦查舰队，请指挥官做好接战准备。",
@@ -37973,38 +38105,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[10104] = {
-		mine_id = 2001,
 		pos_x = "0.60546875",
 		num_3 = 1,
 		progress_boss = 80,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 80,
 		best_air_dominance = 150,
-		count = 0,
 		id = 10104,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 0,
+		formation = 201,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.446875",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 8,
-		is_ai = 0,
-		group_num = 1,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 7,
+		is_ai = 0,
 		land_based = "",
+		map = 201,
 		unlocklevel = 10,
 		chapter_fx = "",
 		uifx = "UIhuohua2",
@@ -38021,7 +38155,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 3,
 		ammo_total = 5,
-		map = 201,
+		group_num = 1,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "来自东方的舰队——重樱，跨过大洋对我们发动了攻击！新的大战一触即发！",
@@ -38492,38 +38626,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[10201] = {
-		mine_id = 2001,
 		pos_x = "0.6265625",
 		num_3 = 1,
 		progress_boss = 70,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 110,
 		best_air_dominance = 150,
-		count = 0,
 		id = 10201,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 0,
+		formation = 202,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.15625",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 10,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 10,
+		is_ai = 0,
 		land_based = "",
+		map = 202,
 		unlocklevel = 20,
 		chapter_fx = "",
 		uifx = "UIhuohua2",
@@ -38540,7 +38676,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 3,
 		ammo_total = 5,
-		map = 202,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "侦查舰队来报珊瑚海海域发现重樱舰队，图拉岛上有我们的重要空军基地，我们不能失去它！",
@@ -39111,38 +39247,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[10202] = {
-		mine_id = 2001,
 		pos_x = "0.575",
 		num_3 = 1,
 		progress_boss = 60,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 135,
 		best_air_dominance = 180,
-		count = 0,
 		id = 10202,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 0,
+		formation = 202,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.436458333",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 10,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 12,
+		is_ai = 0,
 		land_based = "",
+		map = 202,
 		unlocklevel = 20,
 		chapter_fx = "",
 		uifx = "UIhuohua2",
@@ -39159,7 +39297,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 3,
 		ammo_total = 5,
-		map = 202,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "敌方战机不断来袭，我军决定分两路对敌方航空部队进行搜索，请指挥官多加小心。",
@@ -39783,38 +39921,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[10203] = {
-		mine_id = 2001,
 		pos_x = "0.21484375",
 		num_3 = 1,
 		progress_boss = 50,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 160,
 		best_air_dominance = 210,
-		count = 0,
 		id = 10203,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 0,
+		formation = 202,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.35",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 11,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 12,
+		is_ai = 0,
 		land_based = "",
+		map = 202,
 		unlocklevel = 20,
 		chapter_fx = "",
 		uifx = "UIhuohua2",
@@ -39831,7 +39971,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 3,
 		ammo_total = 5,
-		map = 202,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "前方发现落单的航母机动战斗群，这是千载难逢的好机会，集中火力歼灭敌方航空部队吧！",
@@ -40432,38 +40572,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[10204] = {
-		mine_id = 2001,
 		pos_x = "0.28984375",
 		num_3 = 1,
 		progress_boss = 50,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 190,
 		best_air_dominance = 250,
-		count = 0,
 		id = 10204,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 0,
+		formation = 202,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.0625",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 12,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 12,
+		is_ai = 0,
 		land_based = "",
+		map = 202,
 		unlocklevel = 20,
 		chapter_fx = "",
 		uifx = "UIhuohua2",
@@ -40480,7 +40622,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 3,
 		ammo_total = 5,
-		map = 202,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "约克城和列克星敦号在东南方海域受到重樱的围攻，我们不能失去这些宝贵的战力。",
@@ -41051,38 +41193,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[10301] = {
-		mine_id = 2001,
 		pos_x = "0.3046875",
 		num_3 = 1,
 		progress_boss = 50,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 245,
 		best_air_dominance = 320,
-		count = 0,
 		id = 10301,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 0,
+		formation = 203,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.403125",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 14,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 12,
+		is_ai = 0,
 		land_based = "",
+		map = 203,
 		unlocklevel = 25,
 		chapter_fx = "",
 		uifx = "UIhuohua2",
@@ -41099,7 +41243,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 203,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "我方秘密收到情报，重樱集中有生力量于中途岛西南方，这一次我们要来一场先发制人的战斗！",
@@ -41691,38 +41835,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[10302] = {
-		mine_id = 2001,
 		pos_x = "0.16953125",
 		num_3 = 1,
 		progress_boss = 50,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 285,
 		best_air_dominance = 375,
-		count = 0,
 		id = 10302,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 0,
+		formation = 203,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.1125",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 14,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 12,
+		is_ai = 0,
 		land_based = "",
+		map = 203,
 		unlocklevel = 25,
 		chapter_fx = "",
 		uifx = "UIhuohua2",
@@ -41739,7 +41885,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 203,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "我方舰载机发现了敌方的航母编队，对方已经阵型大乱，是时候来一次漂亮的俯冲了！",
@@ -42355,38 +42501,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[10303] = {
-		mine_id = 2001,
 		pos_x = "0.60625",
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 330,
 		best_air_dominance = 430,
-		count = 0,
 		id = 10303,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 0,
+		formation = 203,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.491666667",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 15,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 12,
+		is_ai = 0,
 		land_based = "",
+		map = 203,
 		unlocklevel = 25,
 		chapter_fx = "",
 		uifx = "UIhuohua2",
@@ -42403,7 +42551,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 203,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "敌方航母派出的舰载机也发现了我方的航空编队，约克城号受到了两轮空袭陷入大破状态。",
@@ -43014,38 +43162,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[10304] = {
-		mine_id = 2001,
 		pos_x = "0.46953125",
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 380,
 		best_air_dominance = 495,
-		count = 0,
 		id = 10304,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 0,
+		formation = 203,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.254166667",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 16,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 12,
+		is_ai = 0,
 		land_based = "",
+		map = 203,
 		unlocklevel = 25,
 		chapter_fx = "",
 		uifx = "UIhuohua2",
@@ -43062,7 +43212,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 203,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "击沉了敌方三艘正规空母，我们已经胜券在握！龙派出了最后一批轰炸机准备对我们发动最后的反击！",
@@ -43659,38 +43809,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[10401] = {
-		mine_id = 2001,
 		pos_x = "0.17578125",
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 190,
 		best_air_dominance = 250,
-		count = 0,
 		id = 10401,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 0,
+		formation = 204,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.313541667",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 18,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 15,
+		is_ai = 0,
 		land_based = "",
+		map = 204,
 		unlocklevel = 30,
 		chapter_fx = "",
 		uifx = "UIhuohua2",
@@ -43707,7 +43859,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 204,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "由于重樱不断的骚扰导致我方补给物资无法运往萨沃岛，司令部派我军执行护航任务，保证航路安全。",
@@ -44221,38 +44373,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[10402] = {
-		mine_id = 2001,
 		pos_x = "0.31953125",
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 220,
 		best_air_dominance = 290,
-		count = 0,
 		id = 10402,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 0,
+		formation = 204,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.140625",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 18,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 15,
+		is_ai = 0,
 		land_based = "",
+		map = 204,
 		unlocklevel = 30,
 		chapter_fx = "",
 		uifx = "UIhuohua2",
@@ -44269,7 +44423,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 204,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "在晚上的交战中我方战力损失惨重，马上就要黎明，敌方主力舰队即将抵达，请迅速撤离这片海域。",
@@ -44776,38 +44930,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[10403] = {
-		mine_id = 2001,
 		pos_x = "0.6328125",
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 250,
 		best_air_dominance = 325,
-		count = 0,
 		id = 10403,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 0,
+		formation = 204,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.061458333",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 19,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 15,
+		is_ai = 0,
 		land_based = "",
+		map = 204,
 		unlocklevel = 30,
 		chapter_fx = "",
 		uifx = "UIhuohua2",
@@ -44824,7 +44980,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 204,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "因为在萨沃岛损失巨大，司令部决定增派援军来巩固对所罗门海域的控制力，将重樱的舰队驱赶出这片海域。",
@@ -45276,38 +45432,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[10404] = {
-		mine_id = 2001,
 		pos_x = "0.59921875",
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 285,
 		best_air_dominance = 375,
-		count = 0,
 		id = 10404,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 0,
+		formation = 204,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.328125",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 20,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 18,
+		is_ai = 0,
 		land_based = "",
+		map = 204,
 		unlocklevel = 30,
 		chapter_fx = "",
 		uifx = "UIhuohua2",
@@ -45324,7 +45482,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 204,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "经过半天的鏖战，我们已经追上了重樱航母战斗群，对方装备有三艘航母，实力悬殊，请指挥官注意防空。",
@@ -45913,38 +46071,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[10501] = {
-		mine_id = 2001,
 		pos_x = "0.17890625",
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 340,
 		best_air_dominance = 445,
-		count = 0,
 		id = 10501,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 0,
+		formation = 205,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.25",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 22,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 18,
+		is_ai = 0,
 		land_based = "",
+		map = 205,
 		unlocklevel = 40,
 		chapter_fx = "",
 		uifx = "UIhuohua2",
@@ -45961,7 +46121,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 205,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "敌方企图通过埃斯帕角向整个所罗门海域运送补给物资，我军将担任拦截舰队粉碎对手的企图。",
@@ -46555,38 +46715,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[10502] = {
-		mine_id = 2001,
 		pos_x = "0.65859375",
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 380,
 		best_air_dominance = 495,
-		count = 0,
 		id = 10502,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 0,
+		formation = 205,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.071875",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 22,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 18,
+		is_ai = 0,
 		land_based = "",
+		map = 205,
 		unlocklevel = 40,
 		chapter_fx = "",
 		uifx = "UIhuohua2",
@@ -46603,7 +46765,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 205,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "报告指挥官，发现对方航母机动战斗群，由于距离太远岸基支援部队无法提供火力援助，请做好对空战准备。",
@@ -47135,38 +47297,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[10503] = {
-		mine_id = 2001,
 		pos_x = "0.56640625",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 425,
 		best_air_dominance = 555,
-		count = 0,
 		id = 10503,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 0,
+		formation = 205,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.25",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 23,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 18,
+		is_ai = 0,
 		land_based = "",
+		map = 205,
 		unlocklevel = 40,
 		chapter_fx = "",
 		uifx = "UIhuohua2",
@@ -47183,7 +47347,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 205,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "大黄蜂在不远处遭到敌方机动编队袭击，向我军发出了求救信号，请指挥官火速赶往救援。",
@@ -47685,38 +47849,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[10504] = {
-		mine_id = 2001,
 		pos_x = "0.45234375",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 475,
 		best_air_dominance = 620,
-		count = 0,
 		id = 10504,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 0,
+		formation = 205,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.408333333",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 24,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 20,
+		is_ai = 0,
 		land_based = "",
+		map = 205,
 		unlocklevel = 40,
 		chapter_fx = "",
 		uifx = "UIhuohua2",
@@ -47733,7 +47899,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 205,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "由于损失了航母机动编队，继续作战将对我方十分不利，在撤离过程中遇到敌方主力舰队堵截，请做好战斗准备。",
@@ -48260,38 +48426,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[10601] = {
-		mine_id = 2001,
 		pos_x = "0.70390625",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 445,
 		best_air_dominance = 580,
-		count = 0,
 		id = 10601,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 0,
+		formation = 206,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.113541667",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 26,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 20,
+		is_ai = 0,
 		land_based = "",
+		map = 206,
 		unlocklevel = 50,
 		chapter_fx = "",
 		uifx = "UIhuohua2",
@@ -48308,7 +48476,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 206,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "重樱为了扭转战局，于午夜开始发动袭击，先遣部队之间发生了激烈的交战。",
@@ -48874,38 +49042,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[10602] = {
-		mine_id = 2001,
 		pos_x = "0.5390625",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 510,
 		best_air_dominance = 665,
-		count = 0,
 		id = 10602,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 0,
+		formation = 206,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.273958333",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 26,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 20,
+		is_ai = 0,
 		land_based = "",
+		map = 206,
 		unlocklevel = 50,
 		chapter_fx = "",
 		uifx = "UIhuohua2",
@@ -48922,7 +49092,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 206,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "有了前一次的失败，面对本次夜战我军已有充足的准备，向敌人展示白鹰真正的实力吧！",
@@ -49544,38 +49714,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[10603] = {
-		mine_id = 2001,
 		pos_x = "0.32265625",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 575,
 		best_air_dominance = 750,
-		count = 0,
 		id = 10603,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 0,
+		formation = 206,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.40625",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 27,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 20,
+		is_ai = 0,
 		land_based = "",
+		map = 206,
 		unlocklevel = 50,
 		chapter_fx = "",
 		uifx = "UIhuohua2",
@@ -49592,7 +49764,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 206,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "主力舰队之间发生了激烈的交火，南达科他号受到了{namecode:73}的猛烈攻击而陷入大破，立即前往支援！",
@@ -50138,38 +50310,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[10604] = {
-		mine_id = 2001,
 		pos_x = "0.221875",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 645,
 		best_air_dominance = 840,
-		count = 0,
 		id = 10604,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 0,
+		formation = 206,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.186458333",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 28,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 25,
+		is_ai = 0,
 		land_based = "",
+		map = 206,
 		unlocklevel = 50,
 		chapter_fx = "",
 		uifx = "UIhuohua2",
@@ -50186,7 +50360,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 206,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "所罗门海域的局势逐渐明朗，敌方为了扭转战局，发动了最后突击——所罗门的噩梦，参上！",
@@ -50776,38 +50950,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[10701] = {
-		mine_id = 2001,
 		pos_x = "0.153125",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 720,
 		best_air_dominance = 940,
-		count = 0,
 		id = 10701,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 0,
+		formation = 207,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.130208333",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 30,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 30,
+		is_ai = 0,
 		land_based = "",
+		map = 207,
 		unlocklevel = 60,
 		chapter_fx = "",
 		uifx = "UIhuohua2",
@@ -50824,7 +51000,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 207,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "前方侦察部队传来电报，重櫻舰队企图通过海路向瓜岛运送军需物资，司令部已经下达紧急指令要求我方前往拦截。",
@@ -51239,38 +51415,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[10702] = {
-		mine_id = 2001,
 		pos_x = "0.35078125",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 800,
 		best_air_dominance = 1040,
-		count = 0,
 		id = 10702,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 0,
+		formation = 207,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.442708333",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 30,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 30,
+		is_ai = 0,
 		land_based = "",
+		map = 207,
 		unlocklevel = 60,
 		chapter_fx = "",
 		uifx = "UIhuohua2",
@@ -51287,7 +51465,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 207,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "报告指挥官，由于深夜航行能见度极低，重櫻舰队已经与我方近在咫尺，这将是一场近距离的白刃战。",
@@ -51805,38 +51983,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[10703] = {
-		mine_id = 2001,
 		pos_x = "0.6328125",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 880,
 		best_air_dominance = 1145,
-		count = 0,
 		id = 10703,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 0,
+		formation = 207,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.335416667",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 31,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 30,
+		is_ai = 0,
 		land_based = "",
+		map = 207,
 		unlocklevel = 60,
 		chapter_fx = "",
 		uifx = "UIhuohua2",
@@ -51853,7 +52033,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 207,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "重櫻雷击编队已经成功迂回到我方主力舰队后方，水面声纳侦测到非常多个鱼雷信号，请注意回避。",
@@ -52442,38 +52622,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[10704] = {
-		mine_id = 2001,
 		pos_x = "0.728125",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 965,
 		best_air_dominance = 1255,
-		count = 0,
 		id = 10704,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 0,
+		formation = 207,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.163541667",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 32,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 35,
+		is_ai = 0,
 		land_based = "",
+		map = 207,
 		unlocklevel = 60,
 		chapter_fx = "",
 		uifx = "UIhuohua2",
@@ -52490,7 +52672,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 207,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "夜晚作战对我方极为不利，重櫻已经取得了战术上的绝对主动权，继续接战损失会很大，请指挥官尽快撤离这片海域。",
@@ -53063,38 +53245,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[10801] = {
-		mine_id = 2001,
 		pos_x = "0.41953125",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 1055,
 		best_air_dominance = 1375,
-		count = 0,
 		id = 10801,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 0,
+		formation = 208,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.436458333",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 31,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 25,
+		is_ai = 0,
 		land_based = "",
+		map = 208,
 		unlocklevel = 70,
 		chapter_fx = "",
 		uifx = "UIhuohua2",
@@ -53111,7 +53295,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 10,
 		ammo_total = 5,
-		map = 208,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "在先前的中途岛海战中，重櫻派出的佯攻舰队夺取了北方海域的控制权。而现在，是时候夺回属于我们的海洋了！",
@@ -53548,38 +53732,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[10802] = {
-		mine_id = 2001,
 		pos_x = "0.2046875",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 1150,
 		best_air_dominance = 1495,
-		count = 0,
 		id = 10802,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 0,
+		formation = 208,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.258333333",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 31,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 25,
+		is_ai = 0,
 		land_based = "",
+		map = 208,
 		unlocklevel = 70,
 		chapter_fx = "",
 		uifx = "UIhuohua2",
@@ -53596,7 +53782,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 10,
 		ammo_total = 5,
-		map = 208,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "阿申留群岛的海水冰冷刺骨，伴随着弥漫的硝烟以及炮弹的轰鸣，北极圈的拂晓来临了。",
@@ -54119,38 +54305,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[10803] = {
-		mine_id = 2001,
 		pos_x = "0.2546875",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 1245,
 		best_air_dominance = 1620,
-		count = 0,
 		id = 10803,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 0,
+		formation = 208,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.041666667",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 32,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 25,
+		is_ai = 0,
 		land_based = "",
+		map = 208,
 		unlocklevel = 70,
 		chapter_fx = "",
 		uifx = "UIhuohua2",
@@ -54167,7 +54355,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 10,
 		ammo_total = 5,
-		map = 208,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "重樱的输送舰队企图绕过战线前往群岛输送物资，盐湖城号受到敌方的集火而陷入大破状态，情况危急！",
@@ -54753,38 +54941,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[10804] = {
-		mine_id = 2001,
 		pos_x = "0.6015625",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 1350,
 		best_air_dominance = 1755,
-		count = 0,
 		id = 10804,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 0,
+		formation = 208,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.153125",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 33,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 30,
+		is_ai = 0,
 		land_based = "",
+		map = 208,
 		unlocklevel = 70,
 		chapter_fx = "",
 		uifx = "UIhuohua2",
@@ -54801,7 +54991,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 10,
 		ammo_total = 5,
-		map = 208,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "敌方的旗舰受到重创，但是另外数艘新锐战舰仍在负隅顽抗，寒冷的北风吹散了大雾，这里只是被遗忘的战场。",
@@ -55450,38 +55640,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[10901] = {
-		mine_id = 2001,
 		pos_x = "0.17890625",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 1440,
 		best_air_dominance = 1875,
-		count = 0,
 		id = 10901,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 0,
+		formation = 209,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.383333333",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 32,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 30,
+		is_ai = 0,
 		land_based = "",
+		map = 209,
 		unlocklevel = 80,
 		chapter_fx = "",
 		uifx = "UIhuohua2",
@@ -55498,7 +55690,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 10,
 		ammo_total = 5,
-		map = 209,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "伴随着夜色，重樱的精锐驱逐舰编队正悄悄的驶向科隆班加拉岛方向，然而，我方的拦截舰队早已在此守株待兔。",
@@ -56029,38 +56221,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[10902] = {
-		mine_id = 2001,
 		pos_x = "0.28671875",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 1535,
 		best_air_dominance = 2000,
-		count = 0,
 		id = 10902,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 0,
+		formation = 209,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.122916667",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 32,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 30,
+		is_ai = 0,
 		land_based = "",
+		map = 209,
 		unlocklevel = 80,
 		chapter_fx = "",
 		uifx = "UIhuohua2",
@@ -56077,7 +56271,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 10,
 		ammo_total = 5,
-		map = 209,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "双方的舰队近距离接触了，在夜色中，究竟会是重樱引以为傲的纯氧鱼雷还是白鹰的巡洋舰炮更胜一筹？",
@@ -56646,38 +56840,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[10903] = {
-		mine_id = 2001,
 		pos_x = "0.6046875",
 		num_3 = 1,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 1635,
 		best_air_dominance = 2130,
-		count = 0,
 		id = 10903,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 0,
+		formation = 209,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.35625",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 33,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 35,
+		is_ai = 0,
 		land_based = "",
+		map = 209,
 		unlocklevel = 80,
 		chapter_fx = "",
 		uifx = "UIhuohua2",
@@ -56694,7 +56890,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 10,
 		ammo_total = 5,
-		map = 209,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "海伦娜炮口的火舌照亮了夜晚的海面，她将火力毫无保留的倾泻在敌人身上，然而，却也因此暴露了自己的位置...",
@@ -57287,38 +57483,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[10904] = {
-		mine_id = 2001,
 		pos_x = "0.70703125",
 		num_3 = 1,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 1735,
 		best_air_dominance = 2260,
-		count = 0,
 		id = 10904,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 0,
+		formation = 209,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.09375",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 34,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 40,
+		is_ai = 0,
 		land_based = "",
+		map = 209,
 		unlocklevel = 80,
 		chapter_fx = "",
 		uifx = "UIhuohua2",
@@ -57335,7 +57533,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 10,
 		ammo_total = 5,
-		map = 209,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "敌方的新型驱逐舰展现出了不同以往的夜战实力，多枚鱼雷准确的命中了海伦娜，战斗陷入一片混乱。",
@@ -57950,38 +58148,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[11001] = {
-		mine_id = 2001,
 		pos_x = "0.14609375",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 4,
+		special_operation_list = "",
 		air_dominance = 1855,
 		best_air_dominance = 2415,
-		count = 0,
 		id = 11001,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 0,
+		formation = 210,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.380208333",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 33,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 30,
+		is_ai = 0,
 		land_based = "",
+		map = 210,
 		unlocklevel = 70,
 		chapter_fx = "",
 		uifx = "UIhuohua2",
@@ -57998,7 +58198,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 10,
 		ammo_total = 5,
-		map = 210,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "库拉湾海战后不到一周，重樱舰队再次集结出动前往科隆班加拉岛输送物资，由火奴鲁鲁与圣路易斯领衔的TF18，再次奉命出击拦截。",
@@ -58548,38 +58748,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[11002] = {
-		mine_id = 2001,
 		pos_x = "0.35234375",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 4,
+		special_operation_list = "",
 		air_dominance = 1970,
 		best_air_dominance = 2565,
-		count = 0,
 		id = 11002,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 0,
+		formation = 210,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.234375",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 33,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 30,
+		is_ai = 0,
 		land_based = "",
+		map = 210,
 		unlocklevel = 70,
 		chapter_fx = "",
 		uifx = "UIhuohua2",
@@ -58596,7 +58798,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 10,
 		ammo_total = 5,
-		map = 210,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "PBY夜航机发现了南下中的敌军位置，然而，敌方也通过“逆电探”发现了我们，夜战开始了！",
@@ -59202,38 +59404,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[11003] = {
-		mine_id = 2001,
 		pos_x = "0.49453125",
 		num_3 = 1,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 4,
+		special_operation_list = "",
 		air_dominance = 2090,
 		best_air_dominance = 2720,
-		count = 0,
 		id = 11003,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 0,
+		formation = 210,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.070833333",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 34,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 35,
+		is_ai = 0,
 		land_based = "",
+		map = 210,
 		unlocklevel = 70,
 		chapter_fx = "",
 		uifx = "UIhuohua2",
@@ -59250,7 +59454,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 10,
 		ammo_total = 5,
-		map = 210,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "夜色中，重樱引以为傲的纯氧鱼雷重创了多艘巡洋舰，然而旗舰貎也被152MM舰炮集火而大破，开始撤退。",
@@ -59873,38 +60077,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[11004] = {
-		mine_id = 2001,
 		pos_x = "0.571875",
 		num_3 = 1,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 4,
+		special_operation_list = "",
 		air_dominance = 2210,
 		best_air_dominance = 2875,
-		count = 0,
 		id = 11004,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 0,
+		formation = 210,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.378125",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 35,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 40,
+		is_ai = 0,
 		land_based = "",
+		map = 210,
 		unlocklevel = 70,
 		chapter_fx = "",
 		uifx = "UIhuohua2",
@@ -59921,7 +60127,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 10,
 		ammo_total = 5,
-		map = 210,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "正当火奴鲁鲁等舰乘胜追击之时，重樱的水雷小队在夜色的掩护中杀出了一手回马枪，火奴鲁鲁与圣路易斯接连中雷，情况危急！",
@@ -60558,38 +60764,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[11101] = {
-		mine_id = 2001,
 		pos_x = "0.22734375",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 4,
+		special_operation_list = "",
 		air_dominance = 2220,
 		best_air_dominance = 2885,
-		count = 0,
 		id = 11101,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 0,
+		formation = 211,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.388541667",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 34,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 30,
+		is_ai = 0,
 		land_based = "",
+		map = 211,
 		unlocklevel = 75,
 		chapter_fx = "",
 		uifx = "UIhuohua2",
@@ -60606,7 +60814,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 10,
 		ammo_total = 5,
-		map = 211,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "一切准备就绪，敌方舰队的注意力已经被其他几个方向的支援空袭吸引，在拂晓的阳光下突破防线，登陆布岛吧！",
@@ -61205,38 +61413,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[11102] = {
-		mine_id = 2001,
 		pos_x = "0.32578125",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 4,
+		special_operation_list = "",
 		air_dominance = 2360,
 		best_air_dominance = 3070,
-		count = 0,
 		id = 11102,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 0,
+		formation = 211,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.091666667",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 34,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 35,
+		is_ai = 0,
 		land_based = "",
+		map = 211,
 		unlocklevel = 75,
 		chapter_fx = "",
 		uifx = "UIhuohua2",
@@ -61253,7 +61463,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 10,
 		ammo_total = 5,
-		map = 211,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "航空舰队侦察机发现了在夜色与暴雨中全速前进的敌方编队，而能够拦截敌人的，只有已经疲惫不堪的第39特混舰队…",
@@ -61967,38 +62177,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[11103] = {
-		mine_id = 2001,
 		pos_x = "0.55234375",
 		num_3 = 1,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 4,
+		special_operation_list = "",
 		air_dominance = 2480,
 		best_air_dominance = 3225,
-		count = 0,
 		id = 11103,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 0,
+		formation = 211,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.453125",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 35,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 40,
+		is_ai = 0,
 		land_based = "",
+		map = 211,
 		unlocklevel = 75,
 		chapter_fx = "",
 		uifx = "UIhuohua2",
@@ -62015,7 +62227,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 10,
 		ammo_total = 5,
-		map = 211,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "“我们的天职便是为友军保驾护航，克利夫兰、蒙彼利埃、哥伦比亚、丹佛，所罗门四骑士参上！”",
@@ -62699,38 +62911,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[11104] = {
-		mine_id = 2001,
 		pos_x = "0.6828125",
 		num_3 = 1,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 4,
+		special_operation_list = "",
 		air_dominance = 2640,
 		best_air_dominance = 3430,
-		count = 0,
 		id = 11104,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 0,
+		formation = 211,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.167708333",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 36,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 45,
+		is_ai = 0,
 		land_based = "",
+		map = 211,
 		unlocklevel = 75,
 		chapter_fx = "",
 		uifx = "UIhuohua2",
@@ -62747,7 +62961,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 10,
 		ammo_total = 5,
-		map = 211,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "面对敌方的重巡洋舰，四艘克利夫兰级轻巡洋舰依然不落下风，发挥出了惊人的战力，无数的炮口焰撕裂了漆黑的夜晚",
@@ -63540,38 +63754,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[20001] = {
-		mine_id = 2001,
 		pos_x = "0.2046875",
 		num_3 = 0,
 		progress_boss = 100,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
-		count = 0,
 		id = 20001,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 0,
+		formation = 70000,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 0,
 		pos_y = "0.258333333",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 0,
 		model = 3,
 		investigation_ratio = 0,
-		is_ai = 1,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 0,
+		is_ai = 1,
 		land_based = "",
+		map = 70000,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -63588,7 +63804,7 @@ pg.chapter_template = {
 		mitigation_rate = 0,
 		mitigation_level = 0,
 		ammo_total = 5,
-		map = 70000,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 0,
 		profiles = "商船发来了求救信号，看来是遭到了偷袭，快出发，护送商船到达撤退点！注意：出击后会<color=#92fc63>立即扣除可挑战次数</color>，且中途撤退也会结束战斗，结算奖励 ",
@@ -64019,38 +64235,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[20002] = {
-		mine_id = 2001,
 		pos_x = "0.2546875",
 		num_3 = 0,
 		progress_boss = 100,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
-		count = 0,
 		id = 20002,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 0,
+		formation = 70000,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 0,
 		pos_y = "0.041666667",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 0,
 		model = 3,
 		investigation_ratio = 0,
-		is_ai = 1,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 0,
+		is_ai = 1,
 		land_based = "",
+		map = 70000,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -64067,7 +64285,7 @@ pg.chapter_template = {
 		mitigation_rate = 0,
 		mitigation_level = 0,
 		ammo_total = 5,
-		map = 70000,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 0,
 		profiles = "商船发来了求救信号，看来是遭到了偷袭，快出发，护送商船到达撤退点！注意：出击后会<color=#92fc63>立即扣除可挑战次数</color>，且中途撤退也会结束战斗，结算奖励 ",
@@ -64550,38 +64768,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[20003] = {
-		mine_id = 2001,
 		pos_x = "0.6015625",
 		num_3 = 0,
 		progress_boss = 100,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
-		count = 0,
 		id = 20003,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 0,
+		formation = 70000,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 0,
 		pos_y = "0.153125",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 0,
 		model = 3,
 		investigation_ratio = 0,
-		is_ai = 1,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 0,
+		is_ai = 1,
 		land_based = "",
+		map = 70000,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -64598,7 +64818,7 @@ pg.chapter_template = {
 		mitigation_rate = 0,
 		mitigation_level = 0,
 		ammo_total = 5,
-		map = 70000,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 0,
 		profiles = "商船发来了求救信号，看来是遭到了偷袭，快出发，护送商船到达撤退点！注意：出击后会<color=#92fc63>立即扣除可挑战次数</color>，且中途撤退也会结束战斗，结算奖励 ",
@@ -65173,37 +65393,39 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[20004] = {
-		mine_id = 2001,
 		pos_x = "0.2046875",
 		num_3 = 0,
 		progress_boss = 100,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
-		count = 0,
 		id = 20004,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 0,
+		formation = 70000,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 0,
 		pos_y = "0.258333333",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 0,
 		model = 3,
 		investigation_ratio = 0,
-		is_ai = 1,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 0,
+		is_ai = 1,
+		map = 70000,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -65220,7 +65442,7 @@ pg.chapter_template = {
 		mitigation_rate = 0,
 		mitigation_level = 0,
 		ammo_total = 5,
-		map = 70000,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 0,
 		profiles = "商船发来了求救信号，看来是遭到了偷袭，快出发，护送商船到达撤退点！注意：出击后会<color=#92fc63>立即扣除可挑战次数</color>，且中途撤退也会结束战斗，结算奖励 ",
@@ -65646,37 +65868,39 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[20005] = {
-		mine_id = 2001,
 		pos_x = "0.2546875",
 		num_3 = 0,
 		progress_boss = 100,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
-		count = 0,
 		id = 20005,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 0,
+		formation = 70000,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 0,
 		pos_y = "0.041666667",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 0,
 		model = 3,
 		investigation_ratio = 0,
-		is_ai = 1,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 0,
+		is_ai = 1,
+		map = 70000,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -65693,7 +65917,7 @@ pg.chapter_template = {
 		mitigation_rate = 0,
 		mitigation_level = 0,
 		ammo_total = 5,
-		map = 70000,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 0,
 		profiles = "商船发来了求救信号，看来是遭到了偷袭，快出发，护送商船到达撤退点！注意：出击后会<color=#92fc63>立即扣除可挑战次数</color>，且中途撤退也会结束战斗，结算奖励 ",
@@ -66164,37 +66388,39 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[20006] = {
-		mine_id = 2001,
 		pos_x = "0.6015625",
 		num_3 = 0,
 		progress_boss = 100,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
-		count = 0,
 		id = 20006,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 0,
+		formation = 70000,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 0,
 		pos_y = "0.153125",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 0,
 		model = 3,
 		investigation_ratio = 0,
-		is_ai = 1,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 0,
+		is_ai = 1,
+		map = 70000,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -66211,7 +66437,7 @@ pg.chapter_template = {
 		mitigation_rate = 0,
 		mitigation_level = 0,
 		ammo_total = 5,
-		map = 70000,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 0,
 		profiles = "商船发来了求救信号，看来是遭到了偷袭，快出发，护送商船到达撤退点！注意：出击后会<color=#92fc63>立即扣除可挑战次数</color>，且中途撤退也会结束战斗，结算奖励 ",
@@ -66774,37 +67000,39 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[20007] = {
-		mine_id = 2001,
 		pos_x = "0.2046875",
 		num_3 = 0,
 		progress_boss = 100,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
-		count = 0,
 		id = 20007,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 0,
+		formation = 70000,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 0,
 		pos_y = "0.258333333",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 0,
 		model = 3,
 		investigation_ratio = 0,
-		is_ai = 1,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 0,
+		is_ai = 1,
+		map = 70000,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -66821,7 +67049,7 @@ pg.chapter_template = {
 		mitigation_rate = 0,
 		mitigation_level = 0,
 		ammo_total = 5,
-		map = 70000,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 0,
 		profiles = "商船发来了求救信号，看来是遭到了偷袭，快出发，护送商船到达撤退点！注意：出击后会<color=#92fc63>立即扣除可挑战次数</color>，且中途撤退也会结束战斗，结算奖励 ",
@@ -67246,37 +67474,39 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[20008] = {
-		mine_id = 2001,
 		pos_x = "0.2546875",
 		num_3 = 0,
 		progress_boss = 100,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
-		count = 0,
 		id = 20008,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 0,
+		formation = 70000,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 0,
 		pos_y = "0.041666667",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 0,
 		model = 3,
 		investigation_ratio = 0,
-		is_ai = 1,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 0,
+		is_ai = 1,
+		map = 70000,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -67293,7 +67523,7 @@ pg.chapter_template = {
 		mitigation_rate = 0,
 		mitigation_level = 0,
 		ammo_total = 5,
-		map = 70000,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 0,
 		profiles = "商船发来了求救信号，看来是遭到了偷袭，快出发，护送商船到达撤退点！注意：出击后会<color=#92fc63>立即扣除可挑战次数</color>，且中途撤退也会结束战斗，结算奖励 ",
@@ -67769,37 +67999,39 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[20009] = {
-		mine_id = 2001,
 		pos_x = "0.6015625",
 		num_3 = 0,
 		progress_boss = 100,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
-		count = 0,
 		id = 20009,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 0,
+		formation = 70000,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 0,
 		pos_y = "0.153125",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 0,
 		model = 3,
 		investigation_ratio = 0,
-		is_ai = 1,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 0,
+		is_ai = 1,
+		map = 70000,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -67816,7 +68048,7 @@ pg.chapter_template = {
 		mitigation_rate = 0,
 		mitigation_level = 0,
 		ammo_total = 5,
-		map = 70000,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 0,
 		profiles = "商船发来了求救信号，看来是遭到了偷袭，快出发，护送商船到达撤退点！注意：出击后会<color=#92fc63>立即扣除可挑战次数</color>，且中途撤退也会结束战斗，结算奖励 ",
@@ -68329,38 +68561,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1000001] = {
-		mine_id = 2001,
 		pos_x = "0.1625",
 		num_3 = 1,
 		progress_boss = 50,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
-		count = 0,
 		id = 1000001,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 0,
+		formation = 1000000,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.402083333",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 14,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 20,
+		is_ai = 0,
 		land_based = "",
+		map = 1000000,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -68377,7 +68611,7 @@ pg.chapter_template = {
 		mitigation_rate = 0,
 		mitigation_level = 0,
 		ammo_total = 5,
-		map = 1000000,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "<<SysLog.Id256>>重置所有战术模块，「白方」棋手准时加入棋局，      「黑方」「轻子〈Minor pieces〉」开始移动，行为匹配度：100%",
@@ -68786,38 +69020,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1000002] = {
-		mine_id = 2001,
 		pos_x = "0.2375",
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
-		count = 0,
 		id = 1000002,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1000001,
+		formation = 1000000,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.123958333",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 15,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 20,
+		is_ai = 0,
 		land_based = "",
+		map = 1000000,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -68834,7 +69070,7 @@ pg.chapter_template = {
 		mitigation_rate = 0,
 		mitigation_level = 0,
 		ammo_total = 5,
-		map = 1000000,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "<<SysLog.Id256>>「白方」采用弃兵开局，获得较小的「出子〈Development〉」领先优势，行为匹配度：100%",
@@ -69305,38 +69541,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1000003] = {
-		mine_id = 2001,
 		pos_x = "0.62109375",
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
-		count = 0,
 		id = 1000003,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1000002,
+		formation = 1000000,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.379166667",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 16,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 20,
+		is_ai = 0,
 		land_based = "",
+		map = 1000000,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -69353,7 +69591,7 @@ pg.chapter_template = {
 		mitigation_rate = 0,
 		mitigation_level = 0,
 		ammo_total = 5,
-		map = 1000000,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "<<SysLog.Id256>>「白方」获得暂时的「主动权〈Initiative〉」，「黑方」开始发动「反击〈Counterplay〉」，行为匹配度：93.6%",
@@ -69894,38 +70132,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1000004] = {
-		mine_id = 2001,
 		pos_x = "0.68515625",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
-		count = 0,
 		id = 1000004,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1000003,
+		formation = 1000000,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.10625",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 17,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 25,
+		is_ai = 0,
 		land_based = "",
+		map = 1000000,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -69942,7 +70182,7 @@ pg.chapter_template = {
 		mitigation_rate = 0,
 		mitigation_level = 0,
 		ammo_total = 5,
-		map = 1000000,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "<<SysLog.Id256>>「白方」获得「变后〈Promotion〉」，「黑方」采取「穿串〈Skewer〉」行为，行为匹配度：76.2%",
@@ -70534,38 +70774,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1000005] = {
-		mine_id = 2001,
 		pos_x = "0.228125",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
-		count = 0,
 		id = 1000005,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1000004,
+		formation = 1000001,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.3875",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 17,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 20,
+		is_ai = 0,
 		land_based = "",
+		map = 1000001,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -70582,7 +70824,7 @@ pg.chapter_template = {
 		mitigation_rate = 0,
 		mitigation_level = 0,
 		ammo_total = 5,
-		map = 1000001,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "<<SysLog.Id256>>测试被重置，原因不明，特殊保卫系统「风暴螺旋」开启，所有「棋子〈Piece〉」回归交汇点，行为匹配度：None",
@@ -71009,38 +71251,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1000006] = {
-		mine_id = 2001,
 		pos_x = "0.67578125",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
-		count = 0,
 		id = 1000006,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1000005,
+		formation = 1000001,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.430208333",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 17,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 20,
+		is_ai = 0,
 		land_based = "",
+		map = 1000001,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -71057,7 +71301,7 @@ pg.chapter_template = {
 		mitigation_rate = 0,
 		mitigation_level = 0,
 		ammo_total = 5,
-		map = 1000001,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "<<SysLog.Id256>>「白方」将「黑方」保卫者「引离〈Skewer〉」，再次获得主动权，行为匹配度：None",
@@ -71481,38 +71725,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1000007] = {
-		mine_id = 2001,
 		pos_x = "0.31640625",
 		num_3 = 1,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
-		count = 0,
 		id = 1000007,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1000006,
+		formation = 1000001,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.076041667",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 18,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 20,
+		is_ai = 0,
 		land_based = "",
+		map = 1000001,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -71529,7 +71775,7 @@ pg.chapter_template = {
 		mitigation_rate = 0,
 		mitigation_level = 0,
 		ammo_total = 5,
-		map = 1000001,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "<<SysLog.Id256>>警告，测试发现BUG，「黑方」多数「棋子〈Piece〉」出现觉醒反应，建议立刻执行紧急DEBUG",
@@ -72139,38 +72385,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1000008] = {
-		mine_id = 2001,
 		pos_x = "0.55625",
 		num_3 = 1,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
-		count = 0,
 		id = 1000008,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1000007,
+		formation = 1000001,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.254166667",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 19,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 25,
+		is_ai = 0,
 		land_based = "",
+		map = 1000001,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -72187,7 +72435,7 @@ pg.chapter_template = {
 		mitigation_rate = 0,
 		mitigation_level = 0,
 		ammo_total = 5,
-		map = 1000001,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "<<SysLog.Id256>>日志记录被中断",
@@ -72995,38 +73243,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1000011] = {
-		mine_id = 2001,
 		pos_x = "0.1625",
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
-		count = 0,
 		id = 1000011,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 0,
+		formation = 1000010,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.402083333",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 17,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 30,
+		is_ai = 0,
 		land_based = "",
+		map = 1000010,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -73043,7 +73293,7 @@ pg.chapter_template = {
 		mitigation_rate = 0,
 		mitigation_level = 0,
 		ammo_total = 5,
-		map = 1000010,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "<<SysLog.Id256>>重置所有战术模块，「白方」棋手准时加入棋局，      「黑方」「轻子〈Minor pieces〉」开始移动，行为匹配度：98.3%",
@@ -73493,38 +73743,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1000012] = {
-		mine_id = 2001,
 		pos_x = "0.2375",
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
-		count = 0,
 		id = 1000012,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1000011,
+		formation = 1000010,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.123958333",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 18,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 30,
+		is_ai = 0,
 		land_based = "",
+		map = 1000010,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -73541,7 +73793,7 @@ pg.chapter_template = {
 		mitigation_rate = 0,
 		mitigation_level = 0,
 		ammo_total = 5,
-		map = 1000010,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "<<SysLog.Id256>>「白方」采用弃兵开局，获得较小的「出子〈Development〉」领先优势，行为匹配度：97.1%",
@@ -74053,38 +74305,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1000013] = {
-		mine_id = 2001,
 		pos_x = "0.62109375",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
-		count = 0,
 		id = 1000013,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1000012,
+		formation = 1000010,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.379166667",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 19,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 30,
+		is_ai = 0,
 		land_based = "",
+		map = 1000010,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -74101,7 +74355,7 @@ pg.chapter_template = {
 		mitigation_rate = 0,
 		mitigation_level = 0,
 		ammo_total = 5,
-		map = 1000010,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "<<SysLog.Id256>>「白方」获得暂时的「主动权〈Initiative〉」，「黑方」开始发动「反击〈Counterplay〉」，行为匹配度：84.3%",
@@ -74683,38 +74937,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1000014] = {
-		mine_id = 2001,
 		pos_x = "0.68515625",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
-		count = 0,
 		id = 1000014,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1000013,
+		formation = 1000010,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.10625",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 20,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 35,
+		is_ai = 0,
 		land_based = "",
+		map = 1000010,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -74731,7 +74987,7 @@ pg.chapter_template = {
 		mitigation_rate = 0,
 		mitigation_level = 0,
 		ammo_total = 5,
-		map = 1000010,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "<<SysLog.Id256>>「白方」获得「变后〈Promotion〉」，「黑方」采取「穿串〈Skewer〉」行为，行为匹配度：57.9%",
@@ -75364,38 +75620,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1000015] = {
-		mine_id = 2001,
 		pos_x = "0.228125",
 		num_3 = 1,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
-		count = 0,
 		id = 1000015,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1000014,
+		formation = 1000011,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.3875",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 20,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 30,
+		is_ai = 0,
 		land_based = "",
+		map = 1000011,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -75412,7 +75670,7 @@ pg.chapter_template = {
 		mitigation_rate = 0,
 		mitigation_level = 0,
 		ammo_total = 5,
-		map = 1000011,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "<<SysLog.Id256>>测试被重置，原因不明，特殊保卫系统「风暴螺旋」开启，所有「棋子〈Piece〉」回归交汇点，行为匹配度：None",
@@ -75880,38 +76138,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1000016] = {
-		mine_id = 2001,
 		pos_x = "0.67578125",
 		num_3 = 1,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
-		count = 0,
 		id = 1000016,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1000015,
+		formation = 1000011,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.430208333",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 20,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 30,
+		is_ai = 0,
 		land_based = "",
+		map = 1000011,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -75928,7 +76188,7 @@ pg.chapter_template = {
 		mitigation_rate = 0,
 		mitigation_level = 0,
 		ammo_total = 5,
-		map = 1000011,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "<<SysLog.Id256>>「白方」将「黑方」保卫者「引离〈Skewer〉」，再次获得主动权，行为匹配度：None",
@@ -76393,38 +76653,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1000017] = {
-		mine_id = 2001,
 		pos_x = "0.31640625",
 		num_3 = 1,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
-		count = 0,
 		id = 1000017,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1000016,
+		formation = 1000011,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.076041667",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 22,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 30,
+		is_ai = 0,
 		land_based = "",
+		map = 1000011,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -76441,7 +76703,7 @@ pg.chapter_template = {
 		mitigation_rate = 0,
 		mitigation_level = 0,
 		ammo_total = 5,
-		map = 1000011,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "<<SysLog.Id256>>警告，测试发现BUG，「黑方」多数「棋子〈Piece〉」出现觉醒反应，建议立刻执行紧急DEBUG",
@@ -77092,38 +77354,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1000018] = {
-		mine_id = 2001,
 		pos_x = "0.55625",
 		num_3 = 1,
 		progress_boss = 17,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
-		count = 0,
 		id = 1000018,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1000017,
+		formation = 1000011,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.254166667",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 23,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 35,
+		is_ai = 0,
 		land_based = "",
+		map = 1000011,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -77140,7 +77404,7 @@ pg.chapter_template = {
 		mitigation_rate = 0,
 		mitigation_level = 0,
 		ammo_total = 5,
-		map = 1000011,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "<<SysLog.Id256>>日志记录被中断>>>检测到异常数据>>>日志记录被覆盖   <<SysLog.Id257>>重置所有战术模块，「白方」棋手准时加入棋局",
@@ -77989,38 +78253,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1010000] = {
-		mine_id = 2001,
 		pos_x = "0.37421875",
 		num_3 = 1,
 		progress_boss = 35,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
-		count = 0,
 		id = 1010000,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 0,
+		formation = 1010000,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.398958333",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 17,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 20,
+		is_ai = 0,
 		land_based = "",
+		map = 1010000,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -78037,7 +78303,7 @@ pg.chapter_template = {
 		mitigation_rate = 0,
 		mitigation_level = 0,
 		ammo_total = 5,
-		map = 1010000,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "踏上了寻找“传说的巧克力配方”之途的黑暗界，首先挡在她面前的，是日出之国——重樱的战士们",
@@ -78479,38 +78745,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1011000] = {
-		mine_id = 2001,
 		pos_x = "0.1796875",
 		num_3 = 1,
 		progress_boss = 28,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
-		count = 0,
 		id = 1011000,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1010000,
+		formation = 1010000,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.114583333",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 19,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 30,
+		is_ai = 0,
 		land_based = "",
+		map = 1010000,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -78527,7 +78795,7 @@ pg.chapter_template = {
 		mitigation_rate = 0,
 		mitigation_level = 0,
 		ammo_total = 5,
-		map = 1010000,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "传说级的美味诱惑，引来了纷争的漩涡。彷徨于传说之海域上的，是美食的俘虏？还是追寻真爱的殉道者？",
@@ -78999,38 +79267,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1012000] = {
-		mine_id = 2001,
 		pos_x = "0.70390625",
 		num_3 = 1,
 		progress_boss = 22,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
-		count = 0,
 		id = 1012000,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1011000,
+		formation = 1010000,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.280208333",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 21,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 35,
+		is_ai = 0,
 		land_based = "",
+		map = 1010000,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -79047,7 +79317,7 @@ pg.chapter_template = {
 		mitigation_rate = 0,
 		mitigation_level = 0,
 		ammo_total = 5,
-		map = 1010000,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "最终目标就在眼前，然而铁血的精英们却在这时挡住了去路。“丑陋”的姐妹，于战斗中绽放出最“美丽”的光彩！",
@@ -79538,38 +79808,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1020000] = {
-		mine_id = 2001,
 		pos_x = "0.42421875",
 		num_3 = 1,
 		progress_boss = 35,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "TACT40000",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
-		count = 0,
 		id = 1020000,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 0,
+		formation = 1020000,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.414583333",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 19,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 20,
+		is_ai = 0,
 		land_based = "",
+		map = 1020000,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "UIhuohua2",
@@ -79586,7 +79858,7 @@ pg.chapter_template = {
 		mitigation_rate = 0,
 		mitigation_level = 0,
 		ammo_total = 5,
-		map = 1020000,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "东煌附近海域发现异常活跃的重樱舰队，东煌的姐妹·平海宁海收到命令，前往驱逐进犯之敌，然而……",
@@ -80065,38 +80337,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1020001] = {
-		mine_id = 2001,
 		pos_x = "0.21015625",
 		num_3 = 1,
 		progress_boss = 28,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
-		count = 0,
 		id = 1020001,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1020000,
+		formation = 1020000,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.255208333",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 21,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 30,
+		is_ai = 0,
 		land_based = "",
+		map = 1020000,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "UIhuohua2",
@@ -80113,7 +80387,7 @@ pg.chapter_template = {
 		mitigation_rate = 0,
 		mitigation_level = 0,
 		ammo_total = 5,
-		map = 1020000,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "经过一番搜索，终于发现了敌方的旗舰，是{namecode:92}！然而对方的神情却有些古怪？而奇妙的“记忆”进一步侵扰着宁海的内心……",
@@ -80667,38 +80941,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1020002] = {
-		mine_id = 2001,
 		pos_x = "0.715625",
 		num_3 = 1,
 		progress_boss = 22,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
-		count = 0,
 		id = 1020002,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1020001,
+		formation = 1020000,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.302083333",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 23,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 35,
+		is_ai = 0,
 		land_based = "",
+		map = 1020000,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "UIhuohua2",
@@ -80715,7 +80991,7 @@ pg.chapter_template = {
 		mitigation_rate = 0,
 		mitigation_level = 0,
 		ammo_total = 5,
-		map = 1020000,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "一行人继续执行侦查与退敌任务，随着战斗的进行，“记忆”也逐渐清晰。莫名熟悉的画面，纠缠在宁海内心的迷雾正在渐渐散开……",
@@ -81408,38 +81684,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1050001] = {
-		mine_id = 2001,
 		pos_x = "0.20234375",
 		num_3 = 1,
 		progress_boss = 35,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
-		count = 0,
 		id = 1050001,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 0,
+		formation = 1050000,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.34375",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 18,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 20,
+		is_ai = 0,
 		land_based = "",
+		map = 1050000,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -81456,7 +81734,7 @@ pg.chapter_template = {
 		mitigation_rate = 0,
 		mitigation_level = 0,
 		ammo_total = 5,
-		map = 1050000,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "告别皇家方舟，光荣在阿卡司塔与热心的护卫下单独起航，此时还没人能料想到，危机正在前方等待着她们……",
@@ -81990,38 +82268,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1050002] = {
-		mine_id = 2001,
 		pos_x = "0.28671875",
 		num_3 = 1,
 		progress_boss = 28,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
-		count = 0,
 		id = 1050002,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1050001,
+		formation = 1050000,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.070833333",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 20,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 30,
+		is_ai = 0,
 		land_based = "",
+		map = 1050000,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -82038,7 +82318,7 @@ pg.chapter_template = {
 		mitigation_rate = 0,
 		mitigation_level = 0,
 		ammo_total = 5,
-		map = 1050000,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "因为一时的松懈而遭遇袭击的光荣等人，苦战后终于勉强脱离了战斗，但是，一切才刚刚开始……",
@@ -82574,38 +82854,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1050003] = {
-		mine_id = 2001,
 		pos_x = "0.6375",
 		num_3 = 1,
 		progress_boss = 22,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
-		count = 0,
 		id = 1050003,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1050002,
+		formation = 1050000,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.221875",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 22,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 35,
+		is_ai = 0,
 		land_based = "",
+		map = 1050000,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -82622,7 +82904,7 @@ pg.chapter_template = {
 		mitigation_rate = 0,
 		mitigation_level = 0,
 		ammo_total = 5,
-		map = 1050000,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "强大的敌人近在眼前，抛弃多余的想法，让敌人看看皇家海军的实力吧！这是光荣的一战！",
@@ -83281,38 +83563,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1050011] = {
-		mine_id = 2001,
 		pos_x = "0.20234375",
 		num_3 = 1,
 		progress_boss = 35,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
-		count = 0,
 		id = 1050011,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 0,
+		formation = 1050010,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.34375",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 18,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 20,
+		is_ai = 0,
 		land_based = "",
+		map = 1050010,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -83329,7 +83613,7 @@ pg.chapter_template = {
 		mitigation_rate = 0,
 		mitigation_level = 0,
 		ammo_total = 5,
-		map = 1050010,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "告别皇家方舟，光荣在阿卡司塔与热心的护卫下单独起航，此时还没人能料想到，危机正在前方等待着她们……",
@@ -83863,38 +84147,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1050012] = {
-		mine_id = 2001,
 		pos_x = "0.28671875",
 		num_3 = 1,
 		progress_boss = 28,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
-		count = 0,
 		id = 1050012,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1050011,
+		formation = 1050010,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.070833333",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 20,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 30,
+		is_ai = 0,
 		land_based = "",
+		map = 1050010,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -83911,7 +84197,7 @@ pg.chapter_template = {
 		mitigation_rate = 0,
 		mitigation_level = 0,
 		ammo_total = 5,
-		map = 1050010,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "因为一时的松懈而遭遇袭击的光荣等人，苦战后终于勉强脱离了战斗，但是，一切才刚刚开始……",
@@ -84447,38 +84733,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1050013] = {
-		mine_id = 2001,
 		pos_x = "0.6375",
 		num_3 = 1,
 		progress_boss = 22,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
-		count = 0,
 		id = 1050013,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1050012,
+		formation = 1050010,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.221875",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 22,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 35,
+		is_ai = 0,
 		land_based = "",
+		map = 1050010,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -84495,7 +84783,7 @@ pg.chapter_template = {
 		mitigation_rate = 0,
 		mitigation_level = 0,
 		ammo_total = 5,
-		map = 1050010,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "强大的敌人近在眼前，抛弃多余的想法，让敌人看看皇家海军的实力吧！这是光荣的一战！",
@@ -85154,38 +85442,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1060001] = {
-		mine_id = 2001,
 		pos_x = "0.2515625",
 		num_3 = 1,
 		progress_boss = 100,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
-		count = 0,
 		id = 1060001,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 0,
+		formation = 1060000,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.392708333",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 12,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 15,
+		is_ai = 0,
 		land_based = "",
+		map = 1060000,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -85202,7 +85492,7 @@ pg.chapter_template = {
 		mitigation_rate = 0,
 		mitigation_level = 0,
 		ammo_total = 5,
-		map = 1060000,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "收到的不明信号所指的坐标，竟是已经化为废墟的塞壬基地，这里是否还有残留的情报？",
@@ -85591,38 +85881,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1060002] = {
-		mine_id = 2001,
 		pos_x = "0.38203125",
 		num_3 = 1,
 		progress_boss = 50,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
-		count = 0,
 		id = 1060002,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1060001,
+		formation = 1060000,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.052083333",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 12,
-		is_ai = 1,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 25,
+		is_ai = 1,
 		land_based = "",
+		map = 1060000,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -85639,7 +85931,7 @@ pg.chapter_template = {
 		mitigation_rate = 0,
 		mitigation_level = 0,
 		ammo_total = 5,
-		map = 1060000,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "特遣分队的行动已被察觉，资料不详的新型塞壬正在高速接近中，做好迎战准备！",
@@ -86118,38 +86410,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1060003] = {
-		mine_id = 2001,
 		pos_x = "0.665625",
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
-		count = 0,
 		id = 1060003,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1060002,
+		formation = 1060000,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.344791667",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 13,
-		is_ai = 1,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 25,
+		is_ai = 1,
 		land_based = "",
+		map = 1060000,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -86166,7 +86460,7 @@ pg.chapter_template = {
 		mitigation_rate = 0,
 		mitigation_level = 0,
 		ammo_total = 5,
-		map = 1060000,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "敌方的新型舰不断地出现，神秘信号的线索却依然在云雾之中…将我们引导到这里的…究竟是何方神圣？",
@@ -86731,38 +87025,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1060004] = {
-		mine_id = 2001,
 		pos_x = "0.23125",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
-		count = 0,
 		id = 1060004,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1060003,
+		formation = 1060001,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.227083333",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 14,
-		is_ai = 1,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 30,
+		is_ai = 1,
 		land_based = "",
+		map = 1060001,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -86779,7 +87075,7 @@ pg.chapter_template = {
 		mitigation_rate = 0,
 		mitigation_level = 0,
 		ammo_total = 5,
-		map = 1060001,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "接收到了新的加密电文，时间点不明…无论是不是陷阱，都只能前往一探究竟了",
@@ -87318,38 +87614,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1060005] = {
-		mine_id = 2001,
 		pos_x = "0.5390625",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
-		count = 0,
 		id = 1060005,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1060004,
+		formation = 1060001,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.052083333",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 14,
-		is_ai = 1,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 30,
+		is_ai = 1,
 		land_based = "",
+		map = 1060001,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -87366,7 +87664,7 @@ pg.chapter_template = {
 		mitigation_rate = 0,
 		mitigation_level = 0,
 		ammo_total = 5,
-		map = 1060001,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "敌方火力与规模远远超出预期…新型的大型舰出乎意料的难缠，以破釜沉舟的气势战斗到底吧！",
@@ -88004,38 +88302,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1060006] = {
-		mine_id = 2001,
 		pos_x = "0.6140625",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
-		count = 0,
 		id = 1060006,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1060005,
+		formation = 1060001,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.383333333",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 15,
-		is_ai = 1,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 35,
+		is_ai = 1,
 		land_based = "",
+		map = 1060001,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -88052,7 +88352,7 @@ pg.chapter_template = {
 		mitigation_rate = 0,
 		mitigation_level = 0,
 		ammo_total = 5,
-		map = 1060001,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "越接近发信源的区域，越多的塞壬在此徘徊，对方似乎也在警戒着其他的什么…先击败眼前的2艘大型战舰吧！",
@@ -88852,38 +89152,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1060011] = {
-		mine_id = 2001,
 		pos_x = "0.2515625",
 		num_3 = 1,
 		progress_boss = 100,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
-		count = 0,
 		id = 1060011,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 0,
+		formation = 1060010,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.392708333",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 14,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 20,
+		is_ai = 0,
 		land_based = "",
+		map = 1060010,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -88900,7 +89202,7 @@ pg.chapter_template = {
 		mitigation_rate = 0,
 		mitigation_level = 0,
 		ammo_total = 5,
-		map = 1060010,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "收到的不明信号所指的坐标，竟是已经化为废墟的塞壬基地，这里是否还有残留的情报？",
@@ -89330,38 +89632,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1060012] = {
-		mine_id = 2001,
 		pos_x = "0.38203125",
 		num_3 = 1,
 		progress_boss = 50,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
-		count = 0,
 		id = 1060012,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1060011,
+		formation = 1060010,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.052083333",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 15,
-		is_ai = 1,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 25,
+		is_ai = 1,
 		land_based = "",
+		map = 1060010,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -89378,7 +89682,7 @@ pg.chapter_template = {
 		mitigation_rate = 0,
 		mitigation_level = 0,
 		ammo_total = 5,
-		map = 1060010,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "特遣分队的行动已被察觉，资料不详的新型塞壬正在高速接近中，做好迎战准备！",
@@ -89898,38 +90202,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1060013] = {
-		mine_id = 2001,
 		pos_x = "0.665625",
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
-		count = 0,
 		id = 1060013,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1060012,
+		formation = 1060010,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.344791667",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 16,
-		is_ai = 1,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 30,
+		is_ai = 1,
 		land_based = "",
+		map = 1060010,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -89946,7 +90252,7 @@ pg.chapter_template = {
 		mitigation_rate = 0,
 		mitigation_level = 0,
 		ammo_total = 5,
-		map = 1060010,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "敌方的新型舰不断地出现，神秘信号的线索却依然在云雾之中…将我们引导到这里的…究竟是何方神圣？",
@@ -90552,38 +90858,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1060014] = {
-		mine_id = 2001,
 		pos_x = "0.23125",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
-		count = 0,
 		id = 1060014,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1060013,
+		formation = 1060011,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.227083333",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 17,
-		is_ai = 1,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 35,
+		is_ai = 1,
 		land_based = "",
+		map = 1060011,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -90600,7 +90908,7 @@ pg.chapter_template = {
 		mitigation_rate = 0,
 		mitigation_level = 0,
 		ammo_total = 5,
-		map = 1060011,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "接收到了新的加密电文，时间点不明…无论是不是陷阱，都只能前往一探究竟了",
@@ -91180,38 +91488,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1060015] = {
-		mine_id = 2001,
 		pos_x = "0.5390625",
 		num_3 = 1,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
-		count = 0,
 		id = 1060015,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1060014,
+		formation = 1060011,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.052083333",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 18,
-		is_ai = 1,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 35,
+		is_ai = 1,
 		land_based = "",
+		map = 1060011,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -91228,7 +91538,7 @@ pg.chapter_template = {
 		mitigation_rate = 0,
 		mitigation_level = 0,
 		ammo_total = 5,
-		map = 1060011,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "敌方火力与规模远远超出预期…新型的大型舰出乎意料的难缠，以破釜沉舟的气势战斗到底吧！",
@@ -91907,38 +92217,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1060016] = {
-		mine_id = 2001,
 		pos_x = "0.6140625",
 		num_3 = 1,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
-		count = 0,
 		id = 1060016,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1060015,
+		formation = 1060011,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.383333333",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 19,
-		is_ai = 1,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 40,
+		is_ai = 1,
 		land_based = "",
+		map = 1060011,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -91955,7 +92267,7 @@ pg.chapter_template = {
 		mitigation_rate = 0,
 		mitigation_level = 0,
 		ammo_total = 5,
-		map = 1060011,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "越接近发信源的区域，越多的塞壬在此徘徊，对方似乎也在警戒着其他的什么…先击败眼前的2艘大型战舰吧！",
@@ -92796,38 +93108,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1070101] = {
-		mine_id = 2001,
 		pos_x = "0.7046875",
 		num_3 = 1,
 		progress_boss = 35,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
-		count = 0,
 		id = 1070101,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 0,
+		formation = 1070100,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.313541667",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 15,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 25,
+		is_ai = 0,
 		land_based = "",
+		map = 1070100,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -92844,7 +93158,7 @@ pg.chapter_template = {
 		mitigation_rate = 0,
 		mitigation_level = 0,
 		ammo_total = 5,
-		map = 1070100,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "商船沉没前最后的信号，透露了斯佩伯爵的位置，根据信号找到斯佩伯爵！解决掉可能出现的对手吧！",
@@ -93362,38 +93676,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1070102] = {
-		mine_id = 2001,
 		pos_x = "0.44375",
 		num_3 = 1,
 		progress_boss = 28,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
-		count = 0,
 		id = 1070102,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1070101,
+		formation = 1070100,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.079166667",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 18,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 30,
+		is_ai = 0,
 		land_based = "",
+		map = 1070100,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -93410,7 +93726,7 @@ pg.chapter_template = {
 		mitigation_rate = 0,
 		mitigation_level = 0,
 		ammo_total = 5,
-		map = 1070100,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "发现斯佩伯爵！做好战斗准备，不要让敌人逃掉了！",
@@ -94027,38 +94343,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1070103] = {
-		mine_id = 2001,
 		pos_x = "0.2953125",
 		num_3 = 1,
 		progress_boss = 22,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
-		count = 0,
 		id = 1070103,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1070102,
+		formation = 1070100,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.373958333",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 21,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 35,
+		is_ai = 0,
 		land_based = "",
+		map = 1070100,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -94075,7 +94393,7 @@ pg.chapter_template = {
 		mitigation_rate = 0,
 		mitigation_level = 0,
 		ammo_total = 5,
-		map = 1070100,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "埃克塞特受伤离场，然而敌人也已经是强弩之末。无论如何，接下来就是和斯佩伯爵的最后战斗了",
@@ -94750,38 +95068,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1070201] = {
-		mine_id = 2001,
 		pos_x = "0.7046875",
 		num_3 = 1,
 		progress_boss = 35,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
-		count = 0,
 		id = 1070201,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 0,
+		formation = 1070200,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.313541667",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 15,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 25,
+		is_ai = 0,
 		land_based = "",
+		map = 1070200,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -94798,7 +95118,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1070200,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "商船沉没前最后的信号，透露了斯佩伯爵的位置，根据信号找到斯佩伯爵！解决掉可能出现的对手吧！",
@@ -95332,38 +95652,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1070202] = {
-		mine_id = 2001,
 		pos_x = "0.44375",
 		num_3 = 1,
 		progress_boss = 28,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
-		count = 0,
 		id = 1070202,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1070201,
+		formation = 1070200,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.079166667",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 18,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 30,
+		is_ai = 0,
 		land_based = "",
+		map = 1070200,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -95380,7 +95702,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1070200,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "发现斯佩伯爵！做好战斗准备，不要让敌人逃掉了！",
@@ -96013,38 +96335,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1070203] = {
-		mine_id = 2001,
 		pos_x = "0.2953125",
 		num_3 = 1,
 		progress_boss = 22,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
-		count = 0,
 		id = 1070203,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1070202,
+		formation = 1070200,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.373958333",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 21,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 35,
+		is_ai = 0,
 		land_based = "",
+		map = 1070200,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -96061,7 +96385,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 1070200,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "埃克塞特受伤离场，然而敌人也已经是强弩之末。无论如何，接下来就是和斯佩伯爵的最后战斗了",
@@ -96752,38 +97076,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1080001] = {
-		mine_id = 2001,
 		pos_x = "0.18359375",
 		num_3 = 1,
 		progress_boss = 35,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
-		count = 0,
 		id = 1080001,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 0,
+		formation = 1080000,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.394725",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 15,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 20,
+		is_ai = 0,
 		land_based = "",
+		map = 1080000,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -96800,7 +97126,7 @@ pg.chapter_template = {
 		mitigation_rate = 0,
 		mitigation_level = 0,
 		ammo_total = 5,
-		map = 1080000,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "前去调查的涅普顿她们没问题吧…嗯？检测到和黑土边域近似的反应？这是……",
@@ -97267,38 +97593,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1080002] = {
-		mine_id = 2001,
 		pos_x = "0.6203125",
 		num_3 = 1,
 		progress_boss = 28,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
-		count = 0,
 		id = 1080002,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1080001,
+		formation = 1080000,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.43335",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 17,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 25,
+		is_ai = 0,
 		land_based = "",
+		map = 1080000,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -97315,7 +97643,7 @@ pg.chapter_template = {
 		mitigation_rate = 0,
 		mitigation_level = 0,
 		ammo_total = 5,
-		map = 1080000,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "这次是贝露和绿荫箱庭的反应吗？…看样子女神们的数据被窃取了呢，得尽快想想办法了……！",
@@ -97887,38 +98215,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1080003] = {
-		mine_id = 2001,
 		pos_x = "0.1390625",
 		num_3 = 1,
 		progress_boss = 22,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
-		count = 0,
 		id = 1080003,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1080002,
+		formation = 1080000,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.03125",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 19,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 30,
+		is_ai = 0,
 		land_based = "",
+		map = 1080000,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -97935,7 +98265,7 @@ pg.chapter_template = {
 		mitigation_rate = 0,
 		mitigation_level = 0,
 		ammo_total = 5,
-		map = 1080000,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "总算和大家取得联络了。新探测到的反应是布兰和白露之滨，全速前往调查吧",
@@ -98500,38 +98830,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1080004] = {
-		mine_id = 2001,
 		pos_x = "0.54765625",
 		num_3 = 1,
 		progress_boss = 22,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
-		count = 0,
 		id = 1080004,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1080003,
+		formation = 1080000,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.11565",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 21,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 35,
+		is_ai = 0,
 		land_based = "",
+		map = 1080000,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -98548,7 +98880,7 @@ pg.chapter_template = {
 		mitigation_rate = 0,
 		mitigation_level = 0,
 		ammo_total = 5,
-		map = 1080000,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "截取到新的反应，看来是涅普顿和紫曜之都的复制品呢。这应该是最后一战了，大家要小心哦",
@@ -99226,38 +99558,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1080005] = {
-		mine_id = 2001,
 		pos_x = "0.3953125",
 		num_3 = 1,
 		progress_boss = 100,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
-		count = 0,
 		id = 1080005,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 0,
+		formation = 1080010,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.1635417",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 25,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 8,
+		is_ai = 0,
 		land_based = "",
+		map = 1080010,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -99274,7 +99608,7 @@ pg.chapter_template = {
 		mitigation_rate = 0,
 		mitigation_level = 0,
 		ammo_total = 5,
-		map = 1080010,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "检测到前所未有的强力反应，这是…女神之力？！……前方将是炼狱的战场，愿诸君奋斗到底——",
@@ -99999,38 +100333,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1090001] = {
-		mine_id = 2001,
 		pos_x = "0.15703125",
 		num_3 = 1,
 		progress_boss = 100,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
-		count = 0,
 		id = 1090001,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 0,
+		formation = 1090000,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.361458333",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 11,
-		is_ai = 1,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 15,
+		is_ai = 1,
 		land_based = "",
+		map = 1090000,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -100047,7 +100383,7 @@ pg.chapter_template = {
 		mitigation_rate = 0,
 		mitigation_level = 0,
 		ammo_total = 5,
-		map = 1090000,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "完成护航任务的贝尔法斯特一行，在返航的途中遭遇了新型的塞壬。尽量规避它们的纠缠并取得胜利吧！",
@@ -100491,38 +100827,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1090002] = {
-		mine_id = 2001,
 		pos_x = "0.50546875",
 		num_3 = 1,
 		progress_boss = 50,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
-		count = 0,
 		id = 1090002,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1090001,
+		formation = 1090000,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.111458333",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 11,
-		is_ai = 1,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 20,
+		is_ai = 1,
 		land_based = "",
+		map = 1090000,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -100539,7 +100877,7 @@ pg.chapter_template = {
 		mitigation_rate = 0,
 		mitigation_level = 0,
 		ammo_total = 5,
-		map = 1090000,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "收到紧急电报，第二物资船队正遭到铁血舰队追击，冰冷的北海再一次成为了战舰们的狩猎场。",
@@ -101015,38 +101353,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1090003] = {
-		mine_id = 2001,
 		pos_x = "0.635546875",
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
-		count = 0,
 		id = 1090003,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1090002,
+		formation = 1090000,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.3446875",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 12,
-		is_ai = 1,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 25,
+		is_ai = 1,
 		land_based = "",
+		map = 1090000,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -101063,7 +101403,7 @@ pg.chapter_template = {
 		mitigation_rate = 0,
 		mitigation_level = 0,
 		ammo_total = 5,
-		map = 1090000,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "孤身一舰追击沙恩霍斯特的贝尔法斯特！谁是猎人，谁又是猎物？命运的捕鼠夹正在悄悄合拢…",
@@ -101597,38 +101937,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1090004] = {
-		mine_id = 2001,
 		pos_x = "0.121875",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
-		count = 0,
 		id = 1090004,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1090003,
+		formation = 1090001,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.15",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 13,
-		is_ai = 1,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 30,
+		is_ai = 1,
 		land_based = "",
+		map = 1090001,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -101645,7 +101987,7 @@ pg.chapter_template = {
 		mitigation_rate = 0,
 		mitigation_level = 0,
 		ammo_total = 5,
-		map = 1090001,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "突然出现的新型塞壬和大范围兵器打乱了参与“钨”行动的皇家舰队，尝试一边击退敌人一边重新合流吧",
@@ -102190,38 +102532,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1090005] = {
-		mine_id = 2001,
 		pos_x = "0.57734375",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
-		count = 0,
 		id = 1090005,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1090004,
+		formation = 1090001,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.073958",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 13,
-		is_ai = 1,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 30,
+		is_ai = 1,
 		land_based = "",
+		map = 1090001,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -102238,7 +102582,7 @@ pg.chapter_template = {
 		mitigation_rate = 0,
 		mitigation_level = 0,
 		ammo_total = 5,
-		map = 1090001,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "不明的大型武器打散了北海的迷雾，“钨”行动再次启动，目标——「北方的孤独女王」提尔比茨！",
@@ -102861,38 +103205,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1090006] = {
-		mine_id = 2001,
 		pos_x = "0.621875",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
-		count = 0,
 		id = 1090006,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1090005,
+		formation = 1090001,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.347395833",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 14,
-		is_ai = 1,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 35,
+		is_ai = 1,
 		land_based = "",
+		map = 1090001,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -102909,7 +103255,7 @@ pg.chapter_template = {
 		mitigation_rate = 0,
 		mitigation_level = 0,
 		ammo_total = 5,
-		map = 1090001,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "虽然发现了身份不明的航母却让她脱逃了，相对的，被叫做净化者的塞壬已经被舰队重重包围，为了皇家的荣耀，开火！",
@@ -103707,38 +104053,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1090011] = {
-		mine_id = 2001,
 		pos_x = "0.15703125",
 		num_3 = 1,
 		progress_boss = 100,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
-		count = 0,
 		id = 1090011,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 0,
+		formation = 1090010,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.361458333",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 13,
-		is_ai = 1,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 20,
+		is_ai = 1,
 		land_based = "",
+		map = 1090010,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -103755,7 +104103,7 @@ pg.chapter_template = {
 		mitigation_rate = 0,
 		mitigation_level = 0,
 		ammo_total = 5,
-		map = 1090010,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "完成护航任务的贝尔法斯特一行，在返航的途中遭遇了新型的塞壬。尽量规避它们的纠缠并取得胜利吧！",
@@ -104254,38 +104602,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1090012] = {
-		mine_id = 2001,
 		pos_x = "0.50546875",
 		num_3 = 1,
 		progress_boss = 50,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
-		count = 0,
 		id = 1090012,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1090011,
+		formation = 1090010,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.111458333",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 14,
-		is_ai = 1,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 25,
+		is_ai = 1,
 		land_based = "",
+		map = 1090010,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -104302,7 +104652,7 @@ pg.chapter_template = {
 		mitigation_rate = 0,
 		mitigation_level = 0,
 		ammo_total = 5,
-		map = 1090010,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "收到紧急电报，第二物资船队正遭到铁血舰队追击，冰冷的北海再一次成为了战舰们的狩猎场。",
@@ -104833,38 +105183,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1090013] = {
-		mine_id = 2001,
 		pos_x = "0.635546875",
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
-		count = 0,
 		id = 1090013,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1090012,
+		formation = 1090010,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.3446875",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 15,
-		is_ai = 1,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 30,
+		is_ai = 1,
 		land_based = "",
+		map = 1090010,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -104881,7 +105233,7 @@ pg.chapter_template = {
 		mitigation_rate = 0,
 		mitigation_level = 0,
 		ammo_total = 5,
-		map = 1090010,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "孤身一舰追击沙恩霍斯特的贝尔法斯特！谁是猎人，谁又是猎物？命运的捕鼠夹正在悄悄合拢…",
@@ -105470,38 +105822,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1090014] = {
-		mine_id = 2001,
 		pos_x = "0.121875",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
-		count = 0,
 		id = 1090014,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1090013,
+		formation = 1090011,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.15",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 16,
-		is_ai = 1,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 35,
+		is_ai = 1,
 		land_based = "",
+		map = 1090011,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -105518,7 +105872,7 @@ pg.chapter_template = {
 		mitigation_rate = 0,
 		mitigation_level = 0,
 		ammo_total = 5,
-		map = 1090011,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "突然出现的新型塞壬和大范围兵器打乱了参与“钨”行动的皇家舰队，尝试一边击退敌人一边重新合流吧",
@@ -106118,38 +106472,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1090015] = {
-		mine_id = 2001,
 		pos_x = "0.57734375",
 		num_3 = 1,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
-		count = 0,
 		id = 1090015,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1090014,
+		formation = 1090011,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.073958",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 17,
-		is_ai = 1,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 35,
+		is_ai = 1,
 		land_based = "",
+		map = 1090011,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -106166,7 +106522,7 @@ pg.chapter_template = {
 		mitigation_rate = 0,
 		mitigation_level = 0,
 		ammo_total = 5,
-		map = 1090011,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "不明的大型武器打散了北海的迷雾，“钨”行动再次启动，目标——「北方的孤独女王」提尔比茨！",
@@ -106844,38 +107200,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1090016] = {
-		mine_id = 2001,
 		pos_x = "0.621875",
 		num_3 = 1,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
-		count = 0,
 		id = 1090016,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1090015,
+		formation = 1090011,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.347395833",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 18,
-		is_ai = 1,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 40,
+		is_ai = 1,
 		land_based = "",
+		map = 1090011,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -106892,7 +107250,7 @@ pg.chapter_template = {
 		mitigation_rate = 0,
 		mitigation_level = 0,
 		ammo_total = 5,
-		map = 1090011,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "虽然发现了身份不明的航母却让她脱逃了，相对的，被叫做净化者的塞壬已经被舰队重重包围，为了皇家的荣耀，开火！",
@@ -107745,38 +108103,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1090017] = {
-		mine_id = 2001,
 		pos_x = "0.36703125",
 		num_3 = 1,
 		progress_boss = 100,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
-		count = 0,
 		id = 1090017,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1090016,
+		formation = 1090012,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.196875",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 20,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 10,
+		is_ai = 0,
 		land_based = "",
+		map = 1090012,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -107793,7 +108153,7 @@ pg.chapter_template = {
 		mitigation_rate = 0,
 		mitigation_level = 0,
 		ammo_total = 5,
-		map = 1090012,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "苍蓝的冰海、凛冽的寒风，蠢动的阴影、交错的思绪……极北之北的最终试炼，愿诸君武运昌隆——",
@@ -108606,38 +108966,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1100001] = {
-		mine_id = 2001,
 		pos_x = "0.33125",
 		num_3 = 1,
 		progress_boss = 50,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "GUOQING4",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
-		count = 0,
 		id = 1100001,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 0,
+		formation = 1100000,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.444791667",
-		ammo_submarine = 2,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 14,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 2,
 		num_2 = 20,
+		is_ai = 0,
 		land_based = "",
+		map = 1100000,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -108654,7 +109016,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1100000,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "穿越风暴，与同伴离散，{namecode:96}独自一人踏上了枫叶飘零的未知海域，这里就是大家苦苦寻找的“圣域”吗？",
@@ -109148,38 +109510,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1100002] = {
-		mine_id = 2001,
 		pos_x = "0.56328125",
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "GUOQING7",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
-		count = 0,
 		id = 1100002,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1100001,
+		formation = 1100000,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.088541667",
-		ammo_submarine = 2,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 15,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 2,
 		num_2 = 25,
+		is_ai = 0,
 		land_based = "",
+		map = 1100000,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -109196,7 +109560,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1100000,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "就在{namecode:96}焦急又茫然地寻找同伴与姐姐之时，突然从前方海域传来了求救的信号，是陷阱？还是同伴？无论如何，唯有前往一探究竟了",
@@ -109746,38 +110110,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1100003] = {
-		mine_id = 2001,
 		pos_x = "0.690625",
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "GUOQING9",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
-		count = 0,
 		id = 1100003,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1100002,
+		formation = 1100000,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.367708333",
-		ammo_submarine = 2,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 16,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 2,
 		num_2 = 30,
+		is_ai = 0,
 		land_based = "",
+		map = 1100000,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -109794,7 +110160,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1100000,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "根据先前收集的情报，这里毋庸置疑正是传说中的“圣域”，“她们”究竟在谋划什么？仿佛响应着疑惑一般，脱胎换骨的{namecode:79}挡在了{namecode:96}的眼前",
@@ -110413,38 +110779,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1100004] = {
-		mine_id = 2001,
 		pos_x = "0.26875",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "GUOQING12",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
-		count = 0,
 		id = 1100004,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1100003,
+		formation = 1100001,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.090625",
-		ammo_submarine = 2,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 15,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 2,
 		num_2 = 30,
+		is_ai = 0,
 		land_based = "",
+		map = 1100001,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -110461,7 +110829,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1100001,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "枫叶飘零的岛屿，神社、参道，令人心醉而又怀念的风景之下，隐藏着不为人知的秘密",
@@ -111031,38 +111399,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1100005] = {
-		mine_id = 2001,
 		pos_x = "0.6703125",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "GUOQING15",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
-		count = 0,
 		id = 1100005,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1100004,
+		formation = 1100001,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.1125",
-		ammo_submarine = 2,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 16,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 2,
 		num_2 = 35,
+		is_ai = 0,
 		land_based = "",
+		map = 1100001,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -111079,7 +111449,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1100001,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "「明明已经不想再让这种事情发生了…明明已经下定决心要变得坚强…但是为什么…为什么会变成这样呢…{namecode:95}姐！」",
@@ -111748,38 +112118,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1100006] = {
-		mine_id = 2001,
 		pos_x = "0.5421875",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "GUOQING18",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
-		count = 0,
 		id = 1100006,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1100005,
+		formation = 1100001,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.4",
-		ammo_submarine = 2,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 17,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 2,
 		num_2 = 35,
+		is_ai = 0,
 		land_based = "",
+		map = 1100001,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -111796,7 +112168,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1100001,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "一切的真相，似乎都在{namecode:91}与{namecode:92}两位的手中，带着决心与觉悟，{namecode:96}向着“圣域”的最深处——",
@@ -112462,38 +112834,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1100011] = {
-		mine_id = 2001,
 		pos_x = "0.33125",
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "GUOQING4",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
-		count = 0,
 		id = 1100011,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 0,
+		formation = 1100010,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.444791667",
-		ammo_submarine = 2,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 17,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 2,
 		num_2 = 25,
+		is_ai = 0,
 		land_based = "",
+		map = 1100010,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -112510,7 +112884,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 1100010,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "穿越风暴，与同伴离散，{namecode:96}独自一人踏上了枫叶飘零的未知海域，这里就是大家苦苦寻找的“圣域”吗？",
@@ -113047,38 +113421,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1100012] = {
-		mine_id = 2001,
 		pos_x = "0.56328125",
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "GUOQING7",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
-		count = 0,
 		id = 1100012,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1100011,
+		formation = 1100010,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.088541667",
-		ammo_submarine = 2,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 18,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 2,
 		num_2 = 25,
+		is_ai = 0,
 		land_based = "",
+		map = 1100010,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -113095,7 +113471,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 1100010,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "就在{namecode:96}焦急又茫然地寻找同伴与姐姐之时，突然从前方海域传来了求救的信号，是陷阱？还是同伴？无论如何，唯有前往一探究竟了",
@@ -113687,38 +114063,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1100013] = {
-		mine_id = 2001,
 		pos_x = "0.690625",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "GUOQING9",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
-		count = 0,
 		id = 1100013,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1100012,
+		formation = 1100010,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.367708333",
-		ammo_submarine = 2,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 19,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 2,
 		num_2 = 30,
+		is_ai = 0,
 		land_based = "",
+		map = 1100010,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -113735,7 +114113,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 1100010,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "根据先前收集的情报，这里毋庸置疑正是传说中的“圣域”，“她们”究竟在谋划什么？仿佛响应着疑惑一般，脱胎换骨的{namecode:79}挡在了{namecode:96}的眼前",
@@ -114397,38 +114775,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1100014] = {
-		mine_id = 2001,
 		pos_x = "0.26875",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "GUOQING12",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
-		count = 0,
 		id = 1100014,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1100013,
+		formation = 1100011,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.090625",
-		ammo_submarine = 2,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 19,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 2,
 		num_2 = 30,
+		is_ai = 0,
 		land_based = "",
+		map = 1100011,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -114445,7 +114825,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 1100011,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "枫叶飘零的岛屿，神社、参道，令人心醉而又怀念的风景之下，隐藏着不为人之的秘密",
@@ -115057,38 +115437,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1100015] = {
-		mine_id = 2001,
 		pos_x = "0.6703125",
 		num_3 = 1,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "GUOQING15",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
-		count = 0,
 		id = 1100015,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1100014,
+		formation = 1100011,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.1125",
-		ammo_submarine = 2,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 20,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 2,
 		num_2 = 35,
+		is_ai = 0,
 		land_based = "",
+		map = 1100011,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -115105,7 +115487,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 1100011,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "「明明已经不想再让这种事情发生了…明明已经下定决心要变得坚强…但是为什么…为什么会变成这样呢…{namecode:95}姐！」",
@@ -115816,38 +116198,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1100016] = {
-		mine_id = 2001,
 		pos_x = "0.5421875",
 		num_3 = 1,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "GUOQING18",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
-		count = 0,
 		id = 1100016,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1100015,
+		formation = 1100011,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.4",
-		ammo_submarine = 2,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 21,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 2,
 		num_2 = 40,
+		is_ai = 0,
 		land_based = "",
+		map = 1100011,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -115864,7 +116248,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 1100011,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "一切的真相，似乎都在{namecode:91}与{namecode:92}两位的手中，带着决心与觉悟，{namecode:96}向着“圣域”的最深处——",
@@ -116571,38 +116955,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1100020] = {
-		mine_id = 2001,
 		pos_x = "0.48984375",
 		num_3 = 1,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
-		count = 0,
 		id = 1100020,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 0,
+		formation = 1100013,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.277083333",
-		ammo_submarine = 2,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 22,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 2,
 		num_2 = 10,
+		is_ai = 0,
 		land_based = "",
+		map = 1100013,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -116619,7 +117005,7 @@ pg.chapter_template = {
 		mitigation_rate = 0,
 		mitigation_level = 0,
 		ammo_total = 5,
-		map = 1100013,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "以信念突破极限，以实力突破险阻；圣域深处的最终试炼，静候诸君——",
@@ -117319,38 +117705,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1110001] = {
-		mine_id = 2001,
 		pos_x = "0.19375",
 		num_3 = 1,
 		progress_boss = 50,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 95,
 		best_air_dominance = 150,
-		count = 0,
 		id = 1110001,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 0,
+		formation = 1110001,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.375",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		is_ai = 1,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 15,
+		is_ai = 1,
 		land_based = "",
+		map = 1110001,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -117367,7 +117755,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1110001,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "为了寻找重要的同伴，新生重樱联合的众人回到了令人怀念的故土，然而，等在众人面前的，却是塞壬的舰影…",
@@ -117914,38 +118302,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1110002] = {
-		mine_id = 2001,
 		pos_x = "0.2703125",
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 130,
 		best_air_dominance = 170,
-		count = 0,
 		id = 1110002,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1110001,
+		formation = 1110001,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.151041667",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		is_ai = 1,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 20,
+		is_ai = 1,
 		land_based = "",
+		map = 1110001,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -117962,7 +118352,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1110001,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "枯萎的御神木，徘徊的塞壬，还有固执地守护着此地的同胞们…必须找到改变这种局面的办法",
@@ -118432,38 +118822,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1110003] = {
-		mine_id = 2001,
 		pos_x = "0.68984375",
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 170,
 		best_air_dominance = 225,
-		count = 0,
 		id = 1110003,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1110002,
+		formation = 1110001,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.09583",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		is_ai = 1,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 20,
+		is_ai = 1,
 		land_based = "",
+		map = 1110001,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -118480,7 +118872,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1110001,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "御神木的枯萎代表着信仰的丧失，守护御神木的神子此时亦不见踪影，继续往海域深处前进吧",
@@ -119000,38 +119392,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1110004] = {
-		mine_id = 2001,
 		pos_x = "0.6109375",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 220,
 		best_air_dominance = 290,
-		count = 0,
 		id = 1110004,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1110003,
+		formation = 1110001,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.334375",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		is_ai = 1,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 25,
+		is_ai = 1,
 		land_based = "",
+		map = 1110001,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -119048,7 +119442,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1110001,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "在海域深处能感觉到“她”的存在，神子…与御神木一同陷入了沉睡。此时，一个身影挡在了众人身前…",
@@ -119656,38 +120050,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1110005] = {
-		mine_id = 2001,
 		pos_x = "0.26015625",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "YINGHUA11",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 285,
 		best_air_dominance = 375,
-		count = 0,
 		id = 1110005,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1110004,
+		formation = 1110002,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.175",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		is_ai = 1,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 30,
+		is_ai = 1,
 		land_based = "",
+		map = 1110002,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -119704,7 +120100,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1110002,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "众人正在想方设法唤醒{namecode:74}之际，周围的塞壬却开始朝着御神木进行无差别攻击，关键时刻，空气开始躁动了起来…",
@@ -120363,38 +120759,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1110006] = {
-		mine_id = 2001,
 		pos_x = "0.6453125",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 380,
 		best_air_dominance = 495,
-		count = 0,
 		id = 1110006,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1110005,
+		formation = 1110002,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.255208333",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		is_ai = 1,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 30,
+		is_ai = 1,
 		land_based = "",
+		map = 1110002,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -120411,7 +120809,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1110002,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "纵然过去曾被染上不属于自己的色彩，但如今得以重新绽放，作为{namecode:74}姐妹正式服役的第一次实战，展现真正的实力吧！",
@@ -121021,38 +121419,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1110011] = {
-		mine_id = 2001,
 		pos_x = "0.19375",
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 375,
 		best_air_dominance = 490,
-		count = 0,
 		id = 1110011,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 0,
+		formation = 1110011,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.375",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		is_ai = 1,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 25,
+		is_ai = 1,
 		land_based = "",
+		map = 1110011,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -121069,7 +121469,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 1110011,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "为了寻找重要的同伴，新生重樱联合的众人回到了令人怀念的故土，然而，等在众人面前的，却是塞壬的舰影…",
@@ -121658,38 +122058,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1110012] = {
-		mine_id = 2001,
 		pos_x = "0.2703125",
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 470,
 		best_air_dominance = 615,
-		count = 0,
 		id = 1110012,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1110011,
+		formation = 1110011,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.151041667",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		is_ai = 1,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 25,
+		is_ai = 1,
 		land_based = "",
+		map = 1110011,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -121706,7 +122108,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 1110011,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "枯萎的御神木，徘徊的塞壬，还有固执地守护着此地的同胞们…必须找到改变这种局面的办法",
@@ -122218,38 +122620,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1110013] = {
-		mine_id = 2001,
 		pos_x = "0.68984375",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 570,
 		best_air_dominance = 745,
-		count = 0,
 		id = 1110013,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1110012,
+		formation = 1110011,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.09583",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		is_ai = 1,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 30,
+		is_ai = 1,
 		land_based = "",
+		map = 1110011,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -122266,7 +122670,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 1110011,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "御神木的枯萎代表着信仰的丧失，守护御神木的神子此时亦不见踪影，继续往海域深处前进吧",
@@ -122870,38 +123274,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1110014] = {
-		mine_id = 2001,
 		pos_x = "0.6109375",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 730,
 		best_air_dominance = 950,
-		count = 0,
 		id = 1110014,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1110013,
+		formation = 1110011,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.334375",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		is_ai = 1,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 35,
+		is_ai = 1,
 		land_based = "",
+		map = 1110011,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -122918,7 +123324,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 1110011,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "在海域深处能感觉到“她”的存在，神子…与御神木一同陷入了沉睡。此时，一个身影挡在了众人身前…",
@@ -123568,38 +123974,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1110015] = {
-		mine_id = 2001,
 		pos_x = "0.26015625",
 		num_3 = 1,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "YINGHUA11",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 915,
 		best_air_dominance = 1190,
-		count = 0,
 		id = 1110015,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1110014,
+		formation = 1110012,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.175",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		is_ai = 1,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 40,
+		is_ai = 1,
 		land_based = "",
+		map = 1110012,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -123616,7 +124024,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 1110012,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "众人正在想方设法唤醒{namecode:74}之际，周围的塞壬却开始朝着御神木进行无差别攻击，关键时刻，空气开始躁动了起来…",
@@ -124319,38 +124727,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1110016] = {
-		mine_id = 2001,
 		pos_x = "0.6453125",
 		num_3 = 1,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 1125,
 		best_air_dominance = 1465,
-		count = 0,
 		id = 1110016,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1110015,
+		formation = 1110012,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.255208333",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		is_ai = 1,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 40,
+		is_ai = 1,
 		land_based = "",
+		map = 1110012,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -124367,7 +124777,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 1110012,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "纵然过去曾被染上不属于自己的色彩，但如今得以重新绽放，作为{namecode:74}姐妹正式服役的第一次实战，展现真正的实力吧！",
@@ -125021,38 +125431,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1110021] = {
-		mine_id = 2001,
 		pos_x = "0.48984375",
 		num_3 = 1,
 		progress_boss = 20,
 		oil = 0,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 1485,
 		best_air_dominance = 1935,
-		count = 0,
 		id = 1110021,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 0,
+		formation = 1110021,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.277083333",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 5,
 		investigation_ratio = 0,
-		is_ai = 0,
-		group_num = 1,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 4,
+		is_ai = 0,
 		land_based = "",
+		map = 1110021,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -125069,7 +125481,7 @@ pg.chapter_template = {
 		mitigation_rate = 0,
 		mitigation_level = 0,
 		ammo_total = 5,
-		map = 1110021,
+		group_num = 1,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "挑战者哟，赌上战士的荣耀吧，于樱华烂漫的御神木之下，我等静候汝之到来",
@@ -125428,38 +125840,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1120001] = {
-		mine_id = 2001,
 		pos_x = "0.1625",
 		num_3 = 1,
 		progress_boss = 50,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 100,
 		best_air_dominance = 130,
-		count = 0,
 		id = 1120001,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 201,
+		formation = 1120001,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.402083333",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 0,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 20,
+		is_ai = 0,
 		land_based = "",
+		map = 1120001,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -125476,7 +125890,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1120001,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "<<SysLog.Id256>>重置所有战术模块，「白方」棋手准时加入棋局，      「黑方」「轻子〈Minor pieces〉」开始移动，行为匹配度：100%",
@@ -125980,38 +126394,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1120002] = {
-		mine_id = 2001,
 		pos_x = "0.2375",
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 135,
 		best_air_dominance = 175,
-		count = 0,
 		id = 1120002,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1120001,
+		formation = 1120001,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.123958333",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 0,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 20,
+		is_ai = 0,
 		land_based = "",
+		map = 1120001,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -126028,7 +126444,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1120001,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "<<SysLog.Id256>>「白方」采用弃兵开局，获得较小的「出子〈Development〉」领先优势，行为匹配度：100%",
@@ -126672,38 +127088,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1120003] = {
-		mine_id = 2001,
 		pos_x = "0.62109375",
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 170,
 		best_air_dominance = 220,
-		count = 0,
 		id = 1120003,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1120002,
+		formation = 1120001,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.379166667",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 0,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 20,
+		is_ai = 0,
 		land_based = "",
+		map = 1120001,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -126720,7 +127138,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1120001,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "<<SysLog.Id256>>「白方」获得暂时的「主动权〈Initiative〉」，「黑方」开始发动「反击〈Counterplay〉」，行为匹配度：93.6%",
@@ -127331,38 +127749,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1120004] = {
-		mine_id = 2001,
 		pos_x = "0.68515625",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 205,
 		best_air_dominance = 265,
-		count = 0,
 		id = 1120004,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1120003,
+		formation = 1120001,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.10625",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 0,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 25,
+		is_ai = 0,
 		land_based = "",
+		map = 1120001,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -127379,7 +127799,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1120001,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "<<SysLog.Id256>>「白方」获得「变后〈Promotion〉」，「黑方」采取「穿串〈Skewer〉」行为，行为匹配度：76.2%",
@@ -128108,38 +128528,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1120005] = {
-		mine_id = 2001,
 		pos_x = "0.228125",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 220,
 		best_air_dominance = 285,
-		count = 0,
 		id = 1120005,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1120004,
+		formation = 1120002,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.3875",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 0,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 20,
+		is_ai = 0,
 		land_based = "",
+		map = 1120002,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -128156,7 +128578,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1120002,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "<<SysLog.Id256>>测试被重置，原因不明，特殊保卫系统「风暴螺旋」开启，所有「棋子〈Piece〉」回归交汇点，行为匹配度：None",
@@ -128680,38 +129102,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1120006] = {
-		mine_id = 2001,
 		pos_x = "0.67578125",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 320,
 		best_air_dominance = 415,
-		count = 0,
 		id = 1120006,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1120005,
+		formation = 1120002,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.430208333",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 0,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 20,
+		is_ai = 0,
 		land_based = "",
+		map = 1120002,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -128728,7 +129152,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1120002,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "<<SysLog.Id256>>「白方」将「黑方」保卫者「引离〈Skewer〉」，再次获得主动权，行为匹配度：None",
@@ -129260,38 +129684,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1120007] = {
-		mine_id = 2001,
 		pos_x = "0.31640625",
 		num_3 = 1,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 425,
 		best_air_dominance = 555,
-		count = 0,
 		id = 1120007,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1120006,
+		formation = 1120002,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.076041667",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 0,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 20,
+		is_ai = 0,
 		land_based = "",
+		map = 1120002,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -129308,7 +129734,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1120002,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "<<SysLog.Id256>>警告，测试发现BUG，「黑方」多数「棋子〈Piece〉」出现觉醒反应，建议立刻执行紧急DEBUG",
@@ -129895,38 +130321,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1120008] = {
-		mine_id = 2001,
 		pos_x = "0.55625",
 		num_3 = 1,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 535,
 		best_air_dominance = 695,
-		count = 0,
 		id = 1120008,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1120007,
+		formation = 1120002,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.254166667",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 0,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 25,
+		is_ai = 0,
 		land_based = "",
+		map = 1120002,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -129943,7 +130371,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1120002,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "<<SysLog.Id256>>日志记录被中断",
@@ -130686,38 +131114,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1120011] = {
-		mine_id = 2001,
 		pos_x = "0.1625",
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 355,
 		best_air_dominance = 460,
-		count = 0,
 		id = 1120011,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 201,
+		formation = 1120011,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.402083333",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 0,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 30,
+		is_ai = 0,
 		land_based = "",
+		map = 1120011,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -130734,7 +131164,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 1120011,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "<<SysLog.Id256>>重置所有战术模块，「白方」棋手准时加入棋局，      「黑方」「轻子〈Minor pieces〉」开始移动，行为匹配度：98.3%",
@@ -131279,38 +131709,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1120012] = {
-		mine_id = 2001,
 		pos_x = "0.2375",
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 430,
 		best_air_dominance = 560,
-		count = 0,
 		id = 1120012,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1120011,
+		formation = 1120011,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.123958333",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 0,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 30,
+		is_ai = 0,
 		land_based = "",
+		map = 1120011,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -131327,7 +131759,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 1120011,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "<<SysLog.Id256>>「白方」采用弃兵开局，获得较小的「出子〈Development〉」领先优势，行为匹配度：97.1%",
@@ -132014,38 +132446,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1120013] = {
-		mine_id = 2001,
 		pos_x = "0.62109375",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 505,
 		best_air_dominance = 655,
-		count = 0,
 		id = 1120013,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1120012,
+		formation = 1120011,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.379166667",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 0,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 30,
+		is_ai = 0,
 		land_based = "",
+		map = 1120011,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -132062,7 +132496,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 1120011,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "<<SysLog.Id256>>「白方」获得暂时的「主动权〈Initiative〉」，「黑方」开始发动「反击〈Counterplay〉」，行为匹配度：84.3%",
@@ -132714,38 +133148,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1120014] = {
-		mine_id = 2001,
 		pos_x = "0.68515625",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 580,
 		best_air_dominance = 755,
-		count = 0,
 		id = 1120014,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1120013,
+		formation = 1120011,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.10625",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 0,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 35,
+		is_ai = 0,
 		land_based = "",
+		map = 1120011,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -132762,7 +133198,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 1120011,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "<<SysLog.Id256>>「白方」获得「变后〈Promotion〉」，「黑方」采取「穿串〈Skewer〉」行为，行为匹配度：57.9%",
@@ -133532,38 +133968,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1120015] = {
-		mine_id = 2001,
 		pos_x = "0.228125",
 		num_3 = 1,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 635,
 		best_air_dominance = 825,
-		count = 0,
 		id = 1120015,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1120014,
+		formation = 1120012,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.3875",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 0,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 30,
+		is_ai = 0,
 		land_based = "",
+		map = 1120012,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -133580,7 +134018,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 1120012,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "<<SysLog.Id256>>测试被重置，原因不明，特殊保卫系统「风暴螺旋」开启，所有「棋子〈Piece〉」回归交汇点，行为匹配度：None",
@@ -134145,38 +134583,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1120016] = {
-		mine_id = 2001,
 		pos_x = "0.67578125",
 		num_3 = 1,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 790,
 		best_air_dominance = 1025,
-		count = 0,
 		id = 1120016,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1120015,
+		formation = 1120012,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.430208333",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 0,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 30,
+		is_ai = 0,
 		land_based = "",
+		map = 1120012,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -134193,7 +134633,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 1120012,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "<<SysLog.Id256>>「白方」将「黑方」保卫者「引离〈Skewer〉」，再次获得主动权，行为匹配度：None",
@@ -134766,38 +135206,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1120017] = {
-		mine_id = 2001,
 		pos_x = "0.31640625",
 		num_3 = 1,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 955,
 		best_air_dominance = 1240,
-		count = 0,
 		id = 1120017,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1120016,
+		formation = 1120012,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.076041667",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 0,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 30,
+		is_ai = 0,
 		land_based = "",
+		map = 1120012,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -134814,7 +135256,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 1120012,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "<<SysLog.Id256>>警告，测试发现BUG，「黑方」多数「棋子〈Piece〉」出现觉醒反应，建议立刻执行紧急DEBUG",
@@ -135442,38 +135884,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1120018] = {
-		mine_id = 2001,
 		pos_x = "0.55625",
 		num_3 = 1,
 		progress_boss = 17,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 1130,
 		best_air_dominance = 1470,
-		count = 0,
 		id = 1120018,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1120017,
+		formation = 1120012,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.254166667",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 0,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 35,
+		is_ai = 0,
 		land_based = "",
+		map = 1120012,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -135490,7 +135934,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 1120012,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "<<SysLog.Id256>>日志记录被中断>>>检测到异常数据>>>日志记录被覆盖   <<SysLog.Id257>>重置所有战术模块，「白方」棋手准时加入棋局",
@@ -136274,38 +136718,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1120021] = {
-		mine_id = 2001,
 		pos_x = "0.479",
 		num_3 = 1,
 		progress_boss = 100,
 		oil = 0,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 1485,
 		best_air_dominance = 1935,
-		count = 0,
 		id = 1120021,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 0,
+		formation = 1120021,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.2979",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 5,
 		investigation_ratio = 0,
-		is_ai = 0,
-		group_num = 1,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 4,
+		is_ai = 0,
 		land_based = "",
+		map = 1120021,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -136322,7 +136768,7 @@ pg.chapter_template = {
 		mitigation_rate = 0,
 		mitigation_level = 0,
 		ammo_total = 5,
-		map = 1120021,
+		group_num = 1,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "<<SysLog.Undefined>>附加日志>>「跨越轮回、突破界限，到达终局<Ending>的挑战者哟，赌上彼此存在之证明，开始我等最后的厮杀<Game>吧」",
@@ -136700,38 +137146,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1130001] = {
-		mine_id = 2001,
 		pos_x = "0.20234375",
 		num_3 = 1,
 		progress_boss = 35,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
-		air_dominance = 0,
-		best_air_dominance = 0,
-		count = 0,
+		special_operation_list = "",
+		air_dominance = 100,
+		best_air_dominance = 150,
 		id = 1130001,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 201,
+		formation = 1130000,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.34375",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 0,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 20,
+		is_ai = 0,
 		land_based = "",
+		map = 1130000,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -136745,10 +137193,10 @@ pg.chapter_template = {
 		lose_condition_display = "lose_condition_display_quanmie",
 		is_air_attack = 1,
 		friendly_id = 0,
-		mitigation_rate = 0,
-		mitigation_level = 0,
+		mitigation_rate = 2,
+		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1130000,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "登陆作战的物资搬运即将结束，明天就可以离开这片海域了。然而，在没人察觉的情况下，危机已经趁着夜色悄然而至……",
@@ -137187,43 +137635,62 @@ pg.chapter_template = {
 		defeat_story_count = {},
 		npc_data = {},
 		activity_random_box = {},
-		risk_levels = {},
+		risk_levels = {
+			{
+				5,
+				4
+			},
+			{
+				3,
+				2
+			},
+			{
+				1,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
 		chapter_buff = {},
 		alarm_cell = {}
 	},
 	[1130002] = {
-		mine_id = 2001,
 		pos_x = "0.28671875",
 		num_3 = 1,
 		progress_boss = 28,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
-		air_dominance = 0,
-		best_air_dominance = 0,
-		count = 0,
+		special_operation_list = "",
+		air_dominance = 200,
+		best_air_dominance = 260,
 		id = 1130002,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1130001,
+		formation = 1130000,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.070833333",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 0,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 25,
+		is_ai = 0,
 		land_based = "",
+		map = 1130000,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -137237,10 +137704,10 @@ pg.chapter_template = {
 		lose_condition_display = "lose_condition_display_quanmie",
 		is_air_attack = 1,
 		friendly_id = 0,
-		mitigation_rate = 0,
-		mitigation_level = 0,
+		mitigation_rate = 2,
+		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1130000,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "芝加哥率领的南方部队瞬间覆灭，然而北方部队的阿斯托利亚三姐妹由于没有接到警报，对危机仍浑然不觉。巨大的考验，即将降临…",
@@ -137740,43 +138207,62 @@ pg.chapter_template = {
 		defeat_story_count = {},
 		npc_data = {},
 		activity_random_box = {},
-		risk_levels = {},
+		risk_levels = {
+			{
+				5,
+				4
+			},
+			{
+				3,
+				2
+			},
+			{
+				1,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
 		chapter_buff = {},
 		alarm_cell = {}
 	},
 	[1130003] = {
-		mine_id = 2001,
 		pos_x = "0.6375",
 		num_3 = 1,
 		progress_boss = 22,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
-		air_dominance = 0,
-		best_air_dominance = 0,
-		count = 0,
+		special_operation_list = "",
+		air_dominance = 400,
+		best_air_dominance = 520,
 		id = 1130003,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1130002,
+		formation = 1130000,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.221875",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 0,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 35,
+		is_ai = 0,
 		land_based = "",
+		map = 1130000,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -137790,10 +138276,10 @@ pg.chapter_template = {
 		lose_condition_display = "lose_condition_display_quanmie",
 		is_air_attack = 1,
 		friendly_id = 0,
-		mitigation_rate = 0,
-		mitigation_level = 0,
+		mitigation_rate = 2,
+		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1130000,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "“只要大家一起承担，就绝对没问题”，面对眼前之敌，阿斯托利亚三姐妹依然毫无畏惧地露出了笑容。即使她们知道，这些敌人远比自己强大——",
@@ -138331,43 +138817,62 @@ pg.chapter_template = {
 		defeat_story_count = {},
 		npc_data = {},
 		activity_random_box = {},
-		risk_levels = {},
+		risk_levels = {
+			{
+				5,
+				4
+			},
+			{
+				3,
+				2
+			},
+			{
+				1,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
 		chapter_buff = {},
 		alarm_cell = {}
 	},
 	[1130101] = {
-		mine_id = 2001,
 		pos_x = "0.20234375",
 		num_3 = 1,
 		progress_boss = 35,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
-		air_dominance = 0,
-		best_air_dominance = 0,
-		count = 0,
+		special_operation_list = "",
+		air_dominance = 100,
+		best_air_dominance = 150,
 		id = 1130101,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 201,
+		formation = 1130100,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.34375",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 0,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 20,
+		is_ai = 0,
 		land_based = "",
+		map = 1130100,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -138381,10 +138886,10 @@ pg.chapter_template = {
 		lose_condition_display = "lose_condition_display_quanmie",
 		is_air_attack = 1,
 		friendly_id = 0,
-		mitigation_rate = 0,
-		mitigation_level = 0,
+		mitigation_rate = 2,
+		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1130100,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "登陆作战的物资搬运即将结束，明天就可以离开这片海域了。然而，在没人察觉的情况下，危机已经趁着夜色悄然而至……",
@@ -138823,43 +139328,62 @@ pg.chapter_template = {
 		defeat_story_count = {},
 		npc_data = {},
 		activity_random_box = {},
-		risk_levels = {},
+		risk_levels = {
+			{
+				5,
+				4
+			},
+			{
+				3,
+				2
+			},
+			{
+				1,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
 		chapter_buff = {},
 		alarm_cell = {}
 	},
 	[1130102] = {
-		mine_id = 2001,
 		pos_x = "0.28671875",
 		num_3 = 1,
 		progress_boss = 28,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
-		air_dominance = 0,
-		best_air_dominance = 0,
-		count = 0,
+		special_operation_list = "",
+		air_dominance = 200,
+		best_air_dominance = 260,
 		id = 1130102,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1130101,
+		formation = 1130100,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.070833333",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 0,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 25,
+		is_ai = 0,
 		land_based = "",
+		map = 1130100,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -138873,10 +139397,10 @@ pg.chapter_template = {
 		lose_condition_display = "lose_condition_display_quanmie",
 		is_air_attack = 1,
 		friendly_id = 0,
-		mitigation_rate = 0,
-		mitigation_level = 0,
+		mitigation_rate = 2,
+		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1130100,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "芝加哥率领的南方部队瞬间覆灭，然而北方部队的阿斯托利亚三姐妹由于没有接到警报，对危机仍浑然不觉。巨大的考验，即将降临…",
@@ -139376,43 +139900,62 @@ pg.chapter_template = {
 		defeat_story_count = {},
 		npc_data = {},
 		activity_random_box = {},
-		risk_levels = {},
+		risk_levels = {
+			{
+				5,
+				4
+			},
+			{
+				3,
+				2
+			},
+			{
+				1,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
 		chapter_buff = {},
 		alarm_cell = {}
 	},
 	[1130103] = {
-		mine_id = 2001,
 		pos_x = "0.6375",
 		num_3 = 1,
 		progress_boss = 22,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
-		air_dominance = 0,
-		best_air_dominance = 0,
-		count = 0,
+		special_operation_list = "",
+		air_dominance = 400,
+		best_air_dominance = 520,
 		id = 1130103,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1130102,
+		formation = 1130100,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.221875",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 0,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 35,
+		is_ai = 0,
 		land_based = "",
+		map = 1130100,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -139426,10 +139969,10 @@ pg.chapter_template = {
 		lose_condition_display = "lose_condition_display_quanmie",
 		is_air_attack = 1,
 		friendly_id = 0,
-		mitigation_rate = 0,
-		mitigation_level = 0,
+		mitigation_rate = 2,
+		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1130100,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "“只要大家一起承担，就绝对没问题”，面对眼前之敌，阿斯托利亚三姐妹依然毫无畏惧地露出了笑容。即使她们知道，这些敌人远比自己强大——",
@@ -139967,43 +140510,62 @@ pg.chapter_template = {
 		defeat_story_count = {},
 		npc_data = {},
 		activity_random_box = {},
-		risk_levels = {},
+		risk_levels = {
+			{
+				5,
+				4
+			},
+			{
+				3,
+				2
+			},
+			{
+				1,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
 		chapter_buff = {},
 		alarm_cell = {}
 	},
 	[1140001] = {
-		mine_id = 2001,
 		pos_x = "0.1625",
 		num_3 = 1,
 		progress_boss = 50,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
-		count = 0,
 		id = 1140001,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 201,
+		formation = 1140001,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.402083333",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		is_ai = 1,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 15,
+		is_ai = 1,
 		land_based = "",
+		map = 1140001,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -140020,7 +140582,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1140001,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "前往搜索攻击维希教廷的皇家H舰队，在途中遭遇了塞壬舰队前锋，一场遭遇战即将打响…",
@@ -140516,38 +141078,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1140003] = {
-		mine_id = 2001,
 		pos_x = "0.62109375",
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
-		count = 0,
 		id = 1140003,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1140001,
+		formation = 1140001,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.379166667",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		is_ai = 1,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 20,
+		is_ai = 1,
 		land_based = "",
+		map = 1140001,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -140564,7 +141128,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1140001,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "侦察机报告：塞壬的舰队严密守卫着凯比尔港，我们必须突破塞壬的防卫线，打开入港的航道！",
@@ -141166,38 +141730,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1140004] = {
-		mine_id = 2001,
 		pos_x = "0.3813",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
-		count = 0,
 		id = 1140004,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1140003,
+		formation = 1140001,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.1739",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		is_ai = 1,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 25,
+		is_ai = 1,
 		land_based = "",
+		map = 1140001,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -141214,7 +141780,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1140001,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "面对拒绝了最后通牒的敦刻尔克，皇家舰队已别无选择…全舰队战斗准备！",
@@ -141928,38 +142494,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1140005] = {
-		mine_id = 2001,
 		pos_x = "0.228125",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
-		count = 0,
 		id = 1140005,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1140004,
+		formation = 1140002,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.3875",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		is_ai = 1,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 25,
+		is_ai = 1,
 		land_based = "",
+		map = 1140002,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -141976,7 +142544,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1140002,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "皇家和白鹰的联合登陆作战行动开始，在打击陆上目标之前，先试着突破塞壬的防御吧",
@@ -142485,38 +143053,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1140007] = {
-		mine_id = 2001,
 		pos_x = "0.31640625",
 		num_3 = 1,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
-		count = 0,
 		id = 1140007,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1140005,
+		formation = 1140002,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.076041667",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		is_ai = 1,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 30,
+		is_ai = 1,
 		land_based = "",
+		map = 1140002,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -142533,7 +143103,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1140002,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "登陆行动受到来自维希教廷和塞壬航空舰队的反抗，是时候让他们知道“正义”的重量了！",
@@ -143147,38 +143717,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1140008] = {
-		mine_id = 2001,
 		pos_x = "0.55625",
 		num_3 = 1,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
-		count = 0,
 		id = 1140008,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1140007,
+		formation = 1140002,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.254166667",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		is_ai = 1,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 35,
+		is_ai = 1,
 		land_based = "",
+		map = 1140002,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -143195,7 +143767,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1140002,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "大洋彼岸“最强”的两艘战列舰，为了各自的正义与信仰，在这个宿命的舞台上展开了对决…",
@@ -143942,38 +144514,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1140011] = {
-		mine_id = 2001,
 		pos_x = "0.1625",
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
-		count = 0,
 		id = 1140011,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 201,
+		formation = 1140011,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.402083333",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		is_ai = 1,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 25,
+		is_ai = 1,
 		land_based = "",
+		map = 1140011,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -143990,7 +144564,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 1140011,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "前往搜索攻击维希教廷的皇家H舰队，在途中遭遇了塞壬舰队前锋，一场遭遇战即将打响…",
@@ -144527,38 +145101,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1140013] = {
-		mine_id = 2001,
 		pos_x = "0.62109375",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
-		count = 0,
 		id = 1140013,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1140011,
+		formation = 1140011,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.379166667",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		is_ai = 1,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 30,
+		is_ai = 1,
 		land_based = "",
+		map = 1140011,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -144575,7 +145151,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 1140011,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "侦察机报告：塞壬的舰队严密守卫着凯比尔港，我们必须突破塞壬的防卫线，打开入港的航道！",
@@ -145218,38 +145794,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1140014] = {
-		mine_id = 2001,
 		pos_x = "0.3813",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
-		count = 0,
 		id = 1140014,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1140013,
+		formation = 1140011,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.1739",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		is_ai = 1,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 35,
+		is_ai = 1,
 		land_based = "",
+		map = 1140011,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -145266,7 +145844,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 1140011,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "面对拒绝了最后通牒的敦刻尔克，皇家舰队已别无选择…全舰队战斗准备！",
@@ -146021,38 +146599,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1140015] = {
-		mine_id = 2001,
 		pos_x = "0.228125",
 		num_3 = 1,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
-		count = 0,
 		id = 1140015,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1140014,
+		formation = 1140012,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.3875",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		is_ai = 1,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 30,
+		is_ai = 1,
 		land_based = "",
+		map = 1140012,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -146069,7 +146649,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 1140012,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "皇家和白鹰的联合登陆作战行动开始，在打击陆上目标之前，先试着突破塞壬的防御吧",
@@ -146621,38 +147201,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1140017] = {
-		mine_id = 2001,
 		pos_x = "0.31640625",
 		num_3 = 1,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
-		count = 0,
 		id = 1140017,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1140015,
+		formation = 1140012,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.076041667",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		is_ai = 1,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 35,
+		is_ai = 1,
 		land_based = "",
+		map = 1140012,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -146669,7 +147251,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 1140012,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "登陆行动受到来自维希教廷和塞壬航空舰队的反抗，是时候让他们知道“正义”的重量了！",
@@ -147326,38 +147908,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1140018] = {
-		mine_id = 2001,
 		pos_x = "0.55625",
 		num_3 = 1,
 		progress_boss = 17,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
-		count = 0,
 		id = 1140018,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1140017,
+		formation = 1140012,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.254166667",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		is_ai = 1,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 40,
+		is_ai = 1,
 		land_based = "",
+		map = 1140012,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -147374,7 +147958,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 1140012,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "大洋彼岸“最强”的两艘战列舰，为了各自的正义与信仰，在这个宿命的舞台上展开了对决…",
@@ -148157,38 +148741,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1140021] = {
-		mine_id = 2001,
 		pos_x = "0.479",
 		num_3 = 1,
 		progress_boss = 100,
 		oil = 0,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
-		count = 0,
 		id = 1140021,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 0,
+		formation = 1140021,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.2979",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 5,
 		investigation_ratio = 0,
-		is_ai = 0,
-		group_num = 1,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 4,
+		is_ai = 0,
 		land_based = "",
+		map = 1140021,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -148205,7 +148791,7 @@ pg.chapter_template = {
 		mitigation_rate = 0,
 		mitigation_level = 0,
 		ammo_total = 5,
-		map = 1140021,
+		group_num = 1,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "「光立于圣堂，影坐落阶下。挑战者哦，若你想追随那光，就先跨过我这影吧。」",
@@ -148541,38 +149127,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1150001] = {
-		mine_id = 2001,
 		pos_x = "0.2515625",
 		num_3 = 1,
 		progress_boss = 100,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
-		count = 0,
 		id = 1150001,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 0,
+		formation = 1150001,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.392708333",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		is_ai = 1,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 15,
+		is_ai = 1,
 		land_based = "",
+		map = 1150001,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -148589,7 +149177,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1150001,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "收到的不明信号所指的坐标，竟是已经化为废墟的塞壬基地，这里是否还有残留的情报？",
@@ -149121,38 +149709,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1150002] = {
-		mine_id = 2001,
 		pos_x = "0.38203125",
 		num_3 = 1,
 		progress_boss = 50,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
-		count = 0,
 		id = 1150002,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1150001,
+		formation = 1150001,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.052083333",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		is_ai = 1,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 25,
+		is_ai = 1,
 		land_based = "",
+		map = 1150001,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -149169,7 +149759,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1150001,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "特遣分队的行动已被察觉，资料不详的新型塞壬正在高速接近中，做好迎战准备！",
@@ -149762,38 +150352,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1150003] = {
-		mine_id = 2001,
 		pos_x = "0.665625",
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
-		count = 0,
 		id = 1150003,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1150002,
+		formation = 1150001,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.344791667",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		is_ai = 1,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 25,
+		is_ai = 1,
 		land_based = "",
+		map = 1150001,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -149810,7 +150402,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1150001,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "敌方的新型舰不断地出现，神秘信号的线索却依然在云雾之中…将我们引导到这里的…究竟是何方神圣？",
@@ -150494,38 +151086,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1150004] = {
-		mine_id = 2001,
 		pos_x = "0.23125",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
-		count = 0,
 		id = 1150004,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1150003,
+		formation = 1150002,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.227083333",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		is_ai = 1,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 30,
+		is_ai = 1,
 		land_based = "",
+		map = 1150002,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -150542,7 +151136,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1150002,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "接收到了新的加密电文，时间点不明…无论是不是陷阱，都只能前往一探究竟了",
@@ -151164,38 +151758,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1150005] = {
-		mine_id = 2001,
 		pos_x = "0.5390625",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
-		count = 0,
 		id = 1150005,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1150004,
+		formation = 1150002,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.052083333",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		is_ai = 1,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 30,
+		is_ai = 1,
 		land_based = "",
+		map = 1150002,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -151212,7 +151808,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1150002,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "敌方火力与规模远远超出预期…新型的大型舰出乎意料的难缠，以破釜沉舟的气势战斗到底吧！",
@@ -151975,38 +152571,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1150006] = {
-		mine_id = 2001,
 		pos_x = "0.6140625",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
-		count = 0,
 		id = 1150006,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1150005,
+		formation = 1150002,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.383333333",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		is_ai = 1,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 35,
+		is_ai = 1,
 		land_based = "",
+		map = 1150002,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -152023,7 +152621,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1150002,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "越接近发信源的区域，越多的塞壬在此徘徊，对方似乎也在警戒着其他的什么…先击败眼前的2艘大型战舰吧！",
@@ -152965,38 +153563,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1150011] = {
-		mine_id = 2001,
 		pos_x = "0.2515625",
 		num_3 = 1,
 		progress_boss = 100,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
-		count = 0,
 		id = 1150011,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 0,
+		formation = 1150011,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.392708333",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		is_ai = 1,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 20,
+		is_ai = 1,
 		land_based = "",
+		map = 1150011,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -153013,7 +153613,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 1150011,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "收到的不明信号所指的坐标，竟是已经化为废墟的塞壬基地，这里是否还有残留的情报？",
@@ -153586,38 +154186,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1150012] = {
-		mine_id = 2001,
 		pos_x = "0.38203125",
 		num_3 = 1,
 		progress_boss = 50,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
-		count = 0,
 		id = 1150012,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1150011,
+		formation = 1150011,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.052083333",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		is_ai = 1,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 25,
+		is_ai = 1,
 		land_based = "",
+		map = 1150011,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -153634,7 +154236,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 1150011,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "特遣分队的行动已被察觉，资料不详的新型塞壬正在高速接近中，做好迎战准备！",
@@ -154268,38 +154870,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1150013] = {
-		mine_id = 2001,
 		pos_x = "0.665625",
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
-		count = 0,
 		id = 1150013,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1150012,
+		formation = 1150011,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.344791667",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		is_ai = 1,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 30,
+		is_ai = 1,
 		land_based = "",
+		map = 1150011,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -154316,7 +154920,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 1150011,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "敌方的新型舰不断地出现，神秘信号的线索却依然在云雾之中…将我们引导到这里的…究竟是何方神圣？",
@@ -155041,38 +155645,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1150014] = {
-		mine_id = 2001,
 		pos_x = "0.23125",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
-		count = 0,
 		id = 1150014,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1150013,
+		formation = 1150012,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.227083333",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		is_ai = 1,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 35,
+		is_ai = 1,
 		land_based = "",
+		map = 1150012,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -155089,7 +155695,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 1150012,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "接收到了新的加密电文，时间点不明…无论是不是陷阱，都只能前往一探究竟了",
@@ -155752,38 +156358,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1150015] = {
-		mine_id = 2001,
 		pos_x = "0.5390625",
 		num_3 = 1,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
-		count = 0,
 		id = 1150015,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1150014,
+		formation = 1150012,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.052083333",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		is_ai = 1,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 35,
+		is_ai = 1,
 		land_based = "",
+		map = 1150012,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -155800,7 +156408,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 1150012,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "敌方火力与规模远远超出预期…新型的大型舰出乎意料的难缠，以破釜沉舟的气势战斗到底吧！",
@@ -156604,38 +157212,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1150016] = {
-		mine_id = 2001,
 		pos_x = "0.6140625",
 		num_3 = 1,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
-		count = 0,
 		id = 1150016,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1150015,
+		formation = 1150012,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.383333333",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		is_ai = 1,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 40,
+		is_ai = 1,
 		land_based = "",
+		map = 1150012,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -156652,7 +157262,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 1150012,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "越接近发信源的区域，越多的塞壬在此徘徊，对方似乎也在警戒着其他的什么…先击败眼前的2艘大型战舰吧！",
@@ -157635,38 +158245,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1150021] = {
-		mine_id = 2001,
 		pos_x = "0.479",
 		num_3 = 1,
 		progress_boss = 100,
 		oil = 0,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
-		count = 0,
 		id = 1150021,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 0,
+		formation = 1150021,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.2979",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 5,
 		investigation_ratio = 0,
-		is_ai = 0,
-		group_num = 1,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 4,
+		is_ai = 0,
 		land_based = "",
+		map = 1150021,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -157683,7 +158295,7 @@ pg.chapter_template = {
 		mitigation_rate = 0,
 		mitigation_level = 0,
 		ammo_total = 5,
-		map = 1150021,
+		group_num = 1,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "即使遍体鳞伤，仍不愿放弃的勇敢之人啊，拿出超越极限的实力吧。汝等不畏折翼的勇气，必当换来翱翔之自由。",
@@ -158148,38 +158760,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1160001] = {
-		mine_id = 2001,
 		pos_x = "0.2584375",
 		num_3 = 1,
 		progress_boss = 50,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "LINKPREHEAT1-2",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
-		count = 0,
 		id = 1160001,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 0,
+		formation = 1160001,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.404444444",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 0,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 20,
+		is_ai = 0,
 		land_based = "",
+		map = 1160001,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -158196,7 +158810,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1160001,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "鄂霍次克海域发生异常，检测到未知信号。与提前前往调查的{namecode:98}合流，查明异常原因吧！",
@@ -158668,38 +159282,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1160002] = {
-		mine_id = 2001,
 		pos_x = "0.73046875",
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
-		count = 0,
 		id = 1160002,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1160001,
+		formation = 1160001,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.393611111",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 0,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 25,
+		is_ai = 0,
 		land_based = "",
+		map = 1160001,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -158716,7 +159332,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1160001,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "于异常海域遭遇来自异邦的漂流者。与获得新舰装的她们共同迎击未知之敌吧！",
@@ -159305,38 +159921,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1160003] = {
-		mine_id = 2001,
 		pos_x = "0.40078125",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
-		count = 0,
 		id = 1160003,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1160002,
+		formation = 1160001,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.003666667",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 0,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 30,
+		is_ai = 0,
 		land_based = "",
+		map = 1160001,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -159353,7 +159971,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1160001,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "鄂霍次克海域异常的原因为塞壬。救助被敌人包围的久远的同伴，阻止塞壬的阴谋吧！",
@@ -159854,38 +160472,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1160004] = {
-		mine_id = 2001,
 		pos_x = "0.5",
 		num_3 = 1,
 		progress_boss = 22,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
-		count = 0,
 		id = 1160004,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1160003,
+		formation = 1160001,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.25",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 0,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 35,
+		is_ai = 0,
 		land_based = "",
+		map = 1160001,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -159902,7 +160522,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 1160001,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "在海域最深处发现了可能为异常原因的特殊空间。击败守卫此地的塞壬舰队，解决眼前的异常情况吧！",
@@ -160659,38 +161279,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1160005] = {
-		mine_id = 2001,
 		pos_x = "0.3953125",
 		num_3 = 1,
 		progress_boss = 100,
 		oil = 0,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
-		count = 0,
 		id = 1160005,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1160004,
+		formation = 1160011,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.1635417",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 5,
 		investigation_ratio = 0,
-		is_ai = 0,
-		group_num = 1,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 4,
+		is_ai = 0,
 		land_based = "",
+		map = 1160011,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -160707,7 +161329,7 @@ pg.chapter_template = {
 		mitigation_rate = 0,
 		mitigation_level = 0,
 		ammo_total = 5,
-		map = 1160011,
+		group_num = 1,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "梦幻的领域，来自遥远彼方的传承，天地异变的巨大之力。集合全力，开始最后的胜负吧！",
@@ -161219,38 +161841,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1170001] = {
-		mine_id = 2001,
 		pos_x = "0.20234375",
 		num_3 = 1,
 		progress_boss = 35,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "LONGXIANGHUODONG3",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
-		count = 0,
 		id = 1170001,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 0,
+		formation = 1170001,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.34375",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 0,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 20,
+		is_ai = 0,
 		land_based = "",
+		map = 1170001,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -161267,7 +161891,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1170001,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "轰鸣的炮声打破了黎明中的寂静，朝阳下的所罗门海又将迎来战火纷飞的一天。",
@@ -161749,38 +162373,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1170002] = {
-		mine_id = 2001,
 		pos_x = "0.28671875",
 		num_3 = 1,
 		progress_boss = 28,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "LONGXIANGHUODONG6",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
-		count = 0,
 		id = 1170002,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1170001,
+		formation = 1170001,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.070833333",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 0,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 25,
+		is_ai = 0,
 		land_based = "",
+		map = 1170001,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -161797,7 +162423,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1170001,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "震慑天空的是钢铁的咆哮，映于碧海的是大炮巨舰之极致。重樱“BIG SEVEN”参战！",
@@ -162337,38 +162963,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1170003] = {
-		mine_id = 2001,
 		pos_x = "0.6375",
 		num_3 = 1,
 		progress_boss = 22,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
-		count = 0,
 		id = 1170003,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1170002,
+		formation = 1170001,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.221875",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 0,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 35,
+		is_ai = 0,
 		land_based = "",
+		map = 1170001,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -162385,7 +163013,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 1170001,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "阻挡在面前的，是夕阳下面色坚毅的重樱武士。为了各自的心中大义，最后的战斗，开始！",
@@ -162964,38 +163592,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1180001] = {
-		mine_id = 2001,
 		pos_x = "0.2515625",
 		num_3 = 1,
 		progress_boss = 50,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
-		count = 0,
 		id = 1180001,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 0,
+		formation = 1180001,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.392708333",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		is_ai = 1,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 15,
+		is_ai = 1,
 		land_based = "",
+		map = 1180001,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -163012,7 +163642,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1180001,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "将至的“大演习”，智斗与武勇交汇的演武场之上，阻挡「王将」前进之路的「步兵」是……？",
@@ -163559,38 +164189,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1180002] = {
-		mine_id = 2001,
 		pos_x = "0.38203125",
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
-		count = 0,
 		id = 1180002,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1180001,
+		formation = 1180001,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.052083333",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		is_ai = 1,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 20,
+		is_ai = 1,
 		land_based = "",
+		map = 1180001,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -163607,7 +164239,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1180001,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "刚刚踏上战场的新锐巡洋舰，在漫樱飞舞的古城之下，向赤之「王将」发起进攻！",
@@ -164125,38 +164757,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1180003] = {
-		mine_id = 2001,
 		pos_x = "0.665625",
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
-		count = 0,
 		id = 1180003,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1180002,
+		formation = 1180001,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.344791667",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		is_ai = 1,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 20,
+		is_ai = 1,
 		land_based = "",
+		map = 1180001,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -164173,7 +164807,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1180001,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "王与玉的正面交锋终于到来，而演习结果之外的，是令众人震惊的最高协议——",
@@ -164787,38 +165421,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1180004] = {
-		mine_id = 2001,
 		pos_x = "0.23125",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
-		count = 0,
 		id = 1180004,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1180003,
+		formation = 1180002,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.227083333",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		is_ai = 1,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 25,
+		is_ai = 1,
 		land_based = "",
+		map = 1180002,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -164835,7 +165471,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1180002,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "被铅色未来蒙蔽前路之人，以赤色双眸洞穿因果之人，无论面对何种险境都必须要拯救的，是曾经的对手。",
@@ -165450,38 +166086,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1180005] = {
-		mine_id = 2001,
 		pos_x = "0.5390625",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
-		count = 0,
 		id = 1180005,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1180004,
+		formation = 1180002,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.052083333",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		is_ai = 1,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 30,
+		is_ai = 1,
 		land_based = "",
+		map = 1180002,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -165498,7 +166136,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1180002,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "辉煌的时代终将落幕，只有时间的车轮滚滚向前。来自苍空之上的，是点亮前路的希望，是划破阴云的曙光。",
@@ -166156,38 +166794,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1180006] = {
-		mine_id = 2001,
 		pos_x = "0.6140625",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
-		count = 0,
 		id = 1180006,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1180005,
+		formation = 1180002,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.383333333",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		is_ai = 1,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 30,
+		is_ai = 1,
 		land_based = "",
+		map = 1180002,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -166204,7 +166844,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1180002,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "无法忘怀的最后一战，寄托于呐喊中的是觉悟，继承自炮火中的是理想；背负传承的意志，开启全新的时代吧。",
@@ -166836,38 +167476,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1180011] = {
-		mine_id = 2001,
 		pos_x = "0.2515625",
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
-		count = 0,
 		id = 1180011,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 0,
+		formation = 1180011,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.392708333",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		is_ai = 1,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 25,
+		is_ai = 1,
 		land_based = "",
+		map = 1180011,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -166884,7 +167526,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 1180011,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "将至的“大演习”，智斗与武勇交汇的演武场之上，阻挡「王将」前进之路的「步兵」是……？",
@@ -167473,38 +168115,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1180012] = {
-		mine_id = 2001,
 		pos_x = "0.38203125",
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
-		count = 0,
 		id = 1180012,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1180011,
+		formation = 1180011,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.052083333",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		is_ai = 1,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 25,
+		is_ai = 1,
 		land_based = "",
+		map = 1180011,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -167521,7 +168165,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 1180011,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "刚刚踏上战场的新锐巡洋舰，在漫樱飞舞的古城之下，向赤之「王将」发起进攻！",
@@ -168081,38 +168725,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1180013] = {
-		mine_id = 2001,
 		pos_x = "0.665625",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
-		count = 0,
 		id = 1180013,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1180012,
+		formation = 1180011,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.344791667",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		is_ai = 1,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 30,
+		is_ai = 1,
 		land_based = "",
+		map = 1180011,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -168129,7 +168775,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 1180011,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "王与玉的正面交锋终于到来，而演习结果之外的，是令众人震惊的最高协议——",
@@ -168785,38 +169431,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1180014] = {
-		mine_id = 2001,
 		pos_x = "0.23125",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
-		count = 0,
 		id = 1180014,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1180013,
+		formation = 1180012,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.227083333",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		is_ai = 1,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 35,
+		is_ai = 1,
 		land_based = "",
+		map = 1180012,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -168833,7 +169481,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 1180012,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "被铅色未来蒙蔽前路之人，以赤色双眸洞穿因果之人，无论面对何种险境都必须要拯救的，是曾经的对手。",
@@ -169490,38 +170138,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1180015] = {
-		mine_id = 2001,
 		pos_x = "0.5390625",
 		num_3 = 1,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
-		count = 0,
 		id = 1180015,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1180014,
+		formation = 1180012,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.052083333",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		is_ai = 1,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 40,
+		is_ai = 1,
 		land_based = "",
+		map = 1180012,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -169538,7 +170188,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 1180012,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "辉煌的时代终将落幕，只有时间的车轮滚滚向前。来自苍空之上的，是点亮前路的希望，是划破阴云的曙光。",
@@ -170240,38 +170890,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1180016] = {
-		mine_id = 2001,
 		pos_x = "0.6140625",
 		num_3 = 1,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
-		count = 0,
 		id = 1180016,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1180015,
+		formation = 1180012,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.383333333",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		is_ai = 1,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 40,
+		is_ai = 1,
 		land_based = "",
+		map = 1180012,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -170288,7 +170940,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 1180012,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "无法忘怀的最后一战，寄托于呐喊中的是觉悟，继承自炮火中的是理想；背负传承的意志，开启全新的时代吧。",
@@ -170964,38 +171616,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1180021] = {
-		mine_id = 2001,
 		pos_x = "0.479",
 		num_3 = 1,
 		progress_boss = 20,
 		oil = 0,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
-		count = 0,
 		id = 1180021,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 0,
+		formation = 1180021,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.2979",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 5,
 		investigation_ratio = 0,
-		is_ai = 0,
-		group_num = 1,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 4,
+		is_ai = 0,
 		land_based = "",
+		map = 1180021,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -171012,7 +171666,7 @@ pg.chapter_template = {
 		mitigation_rate = 0,
 		mitigation_level = 0,
 		ammo_total = 5,
-		map = 1180021,
+		group_num = 1,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "跨越时间之长河，斩断命运之枷锁。挑战者啊，穷尽武略与智谋，迎接来自顶点的试炼吧",
@@ -171371,37 +172025,39 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1310001] = {
-		mine_id = 2001,
 		pos_x = "0.2515625",
 		num_3 = 1,
 		progress_boss = 50,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 100,
 		best_air_dominance = 150,
-		count = 0,
 		id = 1310001,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "bgm-cccp2",
 		pre_chapter = 0,
+		formation = 1310001,
+		bgm = "bgm-cccp2",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.392708333",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		is_ai = 1,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 10,
+		is_ai = 1,
+		map = 1310001,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -171418,7 +172074,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1310001,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "与情报一致，巨大的冰雪要塞静静矗立于海面之上。准备多时的北方联合·白鹰联合作战，愿一切顺利——",
@@ -171955,37 +172611,39 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1310002] = {
-		mine_id = 2001,
 		pos_x = "0.38203125",
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 170,
 		best_air_dominance = 221,
-		count = 0,
 		id = 1310002,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "bgm-cccp2",
 		pre_chapter = 1310001,
+		formation = 1310001,
+		bgm = "bgm-cccp2",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.052083333",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		is_ai = 1,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 15,
+		is_ai = 1,
+		map = 1310001,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -172002,7 +172660,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1310001,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "塞壬舰队在白鹰主力舰队面前溃不成军，作战进行似乎十分顺利。不过，是不是有点太过顺利了…？",
@@ -172524,37 +173182,39 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1310003] = {
-		mine_id = 2001,
 		pos_x = "0.665625",
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 280,
 		best_air_dominance = 364,
-		count = 0,
 		id = 1310003,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "bgm-cccp2",
 		pre_chapter = 1310002,
+		formation = 1310001,
+		bgm = "bgm-cccp2",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.344791667",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		is_ai = 1,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 15,
+		is_ai = 1,
+		map = 1310001,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -172571,7 +173231,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1310001,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "新型敌舰、新型武器，战局向着胶着的方向悄然转变。而更加严峻的事态，正在前方等待——",
@@ -173138,37 +173798,39 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1310004] = {
-		mine_id = 2001,
 		pos_x = "0.23125",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 240,
 		best_air_dominance = 312,
-		count = 0,
 		id = 1310004,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "xinnong-3",
 		pre_chapter = 1310003,
+		formation = 1310002,
+		bgm = "xinnong-3",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.227083333",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		is_ai = 1,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 25,
+		is_ai = 1,
+		map = 1310002,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -173185,7 +173847,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1310002,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "首先，在暴雪之中出现了一个点，接着变成了一条线，最后汇聚成一道浮动的钢铁洪流。北方联合主力舰队，登场！",
@@ -173765,37 +174427,39 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1310005] = {
-		mine_id = 2001,
 		pos_x = "0.5390625",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "MAOZIHUODONG20",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 380,
 		best_air_dominance = 494,
-		count = 0,
 		id = 1310005,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "xinnong-3",
 		pre_chapter = 1310004,
+		formation = 1310002,
+		bgm = "xinnong-3",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.052083333",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		is_ai = 1,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 30,
+		is_ai = 1,
+		map = 1310002,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -173812,7 +174476,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1310002,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "虽然被称为“天蓝色的巡洋舰”但实际上却是驱逐舰，真是奇妙。——白鹰的驱逐舰？这是在说什么话题…",
@@ -174340,37 +175004,39 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1310006] = {
-		mine_id = 2001,
 		pos_x = "0.67109375",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "MAOZIHUODONG25",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 370,
 		best_air_dominance = 481,
-		count = 0,
 		id = 1310006,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "bgm-cccp",
 		pre_chapter = 1310005,
+		formation = 1310002,
+		bgm = "bgm-cccp",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.383333333",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		is_ai = 1,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 30,
+		is_ai = 1,
+		map = 1310002,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -174387,7 +175053,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1310002,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "要塞正在重组，隐藏于暴雪之中的敌人终于现出身形。狂风巨浪、雷鸣电闪，决战的号角，吹响！",
@@ -174978,37 +175644,39 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1310021] = {
-		mine_id = 2001,
 		pos_x = "0.2515625",
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 780,
 		best_air_dominance = 1014,
-		count = 0,
 		id = 1310021,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "bgm-cccp2",
 		pre_chapter = 0,
+		formation = 1310011,
+		bgm = "bgm-cccp2",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.392708333",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		is_ai = 1,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 17,
+		is_ai = 1,
+		map = 1310011,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -175025,7 +175693,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 1310011,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "与情报一致，巨大的冰雪要塞静静矗立于海面之上。准备多时的北方联合·白鹰联合作战，愿一切顺利——",
@@ -175605,37 +176273,39 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1310022] = {
-		mine_id = 2001,
 		pos_x = "0.38203125",
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 920,
 		best_air_dominance = 1196,
-		count = 0,
 		id = 1310022,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "bgm-cccp2",
 		pre_chapter = 1310021,
+		formation = 1310011,
+		bgm = "bgm-cccp2",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.052083333",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		is_ai = 1,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 17,
+		is_ai = 1,
+		map = 1310011,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -175652,7 +176322,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 1310011,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "塞壬舰队在白鹰主力舰队面前溃不成军，作战进行似乎十分顺利。不过，是不是有点太过顺利了…？",
@@ -176217,37 +176887,39 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1310023] = {
-		mine_id = 2001,
 		pos_x = "0.665625",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 1140,
 		best_air_dominance = 1482,
-		count = 0,
 		id = 1310023,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "bgm-cccp2",
 		pre_chapter = 1310022,
+		formation = 1310011,
+		bgm = "bgm-cccp2",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.344791667",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		is_ai = 1,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 21,
+		is_ai = 1,
+		map = 1310011,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -176264,7 +176936,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 1310011,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "新型敌舰、新型武器，战局向着胶着的方向悄然转变。而更加严峻的事态，正在前方等待——",
@@ -176873,37 +177545,39 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1310024] = {
-		mine_id = 2001,
 		pos_x = "0.14609375",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 1090,
 		best_air_dominance = 1417,
-		count = 0,
 		id = 1310024,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "xinnong-3",
 		pre_chapter = 1310023,
+		formation = 1310012,
+		bgm = "xinnong-3",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.380208333",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		is_ai = 1,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 35,
+		is_ai = 1,
+		map = 1310012,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -176920,7 +177594,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 1310012,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "首先，在暴雪之中出现了一个点，接着变成了一条线，最后汇聚成一道浮动的钢铁洪流。北方联合主力舰队，登场！",
@@ -177542,37 +178216,39 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1310025] = {
-		mine_id = 2001,
 		pos_x = "0.28671875",
 		num_3 = 1,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "MAOZIHUODONG20",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 1510,
 		best_air_dominance = 1963,
-		count = 0,
 		id = 1310025,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "xinnong-3",
 		pre_chapter = 1310024,
+		formation = 1310012,
+		bgm = "xinnong-3",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.122916667",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		is_ai = 1,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 40,
+		is_ai = 1,
+		map = 1310012,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -177589,7 +178265,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 1310012,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "虽然被称为“天蓝色的巡洋舰”但实际上却是驱逐舰，真是奇妙。——白鹰的驱逐舰？这是在说什么话题…",
@@ -178161,37 +178837,39 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1310026] = {
-		mine_id = 2001,
 		pos_x = "0.67109375",
 		num_3 = 1,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "MAOZIHUODONG25",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 1480,
 		best_air_dominance = 1924,
-		count = 0,
 		id = 1310026,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "bgm-cccp",
 		pre_chapter = 1310025,
+		formation = 1310012,
+		bgm = "bgm-cccp",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.35625",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		is_ai = 1,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 40,
+		is_ai = 1,
+		map = 1310012,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -178208,7 +178886,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 1310012,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "要塞正在重组，隐藏于暴雪之中的敌人终于现出身形。狂风巨浪、雷鸣电闪，决战的号角，吹响！",
@@ -178843,37 +179521,39 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1310041] = {
-		mine_id = 2001,
 		pos_x = "0.479",
 		num_3 = 0,
 		progress_boss = 100,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 1980,
 		best_air_dominance = 2574,
-		count = 1,
 		id = 1310041,
+		count = 1,
 		icon_outline = 0,
 		bg = "",
-		bgm = "bgm-cccp3",
 		pre_chapter = 1310026,
+		formation = 1310025,
+		bgm = "bgm-cccp3",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 0,
 		pos_y = "0.2979",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 0,
 		model = 2,
 		investigation_ratio = 0,
-		is_ai = 1,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 0,
+		is_ai = 1,
+		map = 1310025,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -178890,7 +179570,7 @@ pg.chapter_template = {
 		mitigation_rate = 0,
 		mitigation_level = 0,
 		ammo_total = 5,
-		map = 1310025,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 0,
 		profiles = "严酷的环境和无数的困难，都无法将我们打倒。同志们，团结起来，凝结成最坚固的堡垒，构建出牢不可破的联盟。",
@@ -179518,37 +180198,39 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1310051] = {
-		mine_id = 2001,
 		pos_x = "0.479",
 		num_3 = 0,
 		progress_boss = 100,
 		oil = 0,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 620,
 		best_air_dominance = 810,
-		count = 0,
 		id = 1310051,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "bgm-cccp",
 		pre_chapter = 1310026,
+		formation = 1310026,
+		bgm = "bgm-cccp",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 0,
 		pos_y = "0.2979",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 0,
 		model = 5,
 		investigation_ratio = 0,
-		is_ai = 0,
-		group_num = 1,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 0,
+		is_ai = 0,
+		map = 1310026,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -179565,7 +180247,7 @@ pg.chapter_template = {
 		mitigation_rate = 0,
 		mitigation_level = 0,
 		ammo_total = 5,
-		map = 1310026,
+		group_num = 1,
 		enter_story_limit = "",
 		star_require_3 = 0,
 		profiles = "北境的寒风仍在呼啸，跨过冰雪要塞，心怀志气的同志啊，迎接真正的挑战吧。",
@@ -179944,38 +180626,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1320001] = {
-		mine_id = 2001,
 		pos_x = "0.20234375",
 		num_3 = 1,
 		progress_boss = 35,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "LONGXIANGHUODONG3",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 150,
 		best_air_dominance = 195,
-		count = 0,
 		id = 1320001,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 0,
+		formation = 1320001,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.34375",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 0,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 20,
+		is_ai = 0,
 		land_based = "",
+		map = 1320001,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -179992,7 +180676,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1320001,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "轰鸣的炮声打破了黎明中的寂静，朝阳下的所罗门海又将迎来战火纷飞的一天。",
@@ -180474,38 +181158,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1320002] = {
-		mine_id = 2001,
 		pos_x = "0.28671875",
 		num_3 = 1,
 		progress_boss = 28,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "LONGXIANGHUODONG6",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 260,
 		best_air_dominance = 338,
-		count = 0,
 		id = 1320002,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1320001,
+		formation = 1320001,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.070833333",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 0,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 25,
+		is_ai = 0,
 		land_based = "",
+		map = 1320001,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -180522,7 +181208,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1320001,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "震慑天空的是钢铁的咆哮，映于碧海的是大炮巨舰之极致。重樱“BIG SEVEN”参战！",
@@ -181062,38 +181748,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1320003] = {
-		mine_id = 2001,
 		pos_x = "0.6375",
 		num_3 = 1,
 		progress_boss = 22,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 600,
 		best_air_dominance = 780,
-		count = 0,
 		id = 1320003,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1320002,
+		formation = 1320001,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.221875",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 0,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 35,
+		is_ai = 0,
 		land_based = "",
+		map = 1320001,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -181110,7 +181798,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 1320001,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "阻挡在面前的，是夕阳下面色坚毅的重樱武士。为了各自的心中大义，最后的战斗，开始！",
@@ -181689,37 +182377,39 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1330001] = {
-		mine_id = 2001,
 		pos_x = "0.2515625",
 		num_3 = 1,
 		progress_boss = 50,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "WEICENGHUNHE5",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 100,
 		best_air_dominance = 150,
-		count = 0,
 		id = 1330001,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 0,
+		formation = 1330001,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "SeaFogPermeates",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.392708333",
-		ammo_submarine = 0,
+		pop_pic = "SeaFogPermeates",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		is_ai = 1,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 10,
+		is_ai = 1,
+		map = 1330001,
 		unlocklevel = 0,
 		uifx = "",
 		name = "增援",
@@ -181735,7 +182425,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1330001,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "增援舰队踪迹全无，塞壬威胁暗流涌动。企业一行人来到了连接大洋的枢纽——巴拿马要塞。",
@@ -182236,37 +182926,39 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1330002] = {
-		mine_id = 2001,
 		pos_x = "0.38203125",
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "WEICENGHUNHE9",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 170,
 		best_air_dominance = 221,
-		count = 0,
 		id = 1330002,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1330001,
+		formation = 1330001,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "SeaFogPermeates",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.052083333",
-		ammo_submarine = 0,
+		pop_pic = "SeaFogPermeates",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		is_ai = 1,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 15,
+		is_ai = 1,
+		map = 1330001,
 		unlocklevel = 0,
 		uifx = "",
 		name = "迷雾之下",
@@ -182282,7 +182974,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1330001,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "企业在要塞附近失踪……？！塞壬发动了进攻，海雾笼罩了海面。层层迷雾之下究竟隐藏着什么?",
@@ -182811,37 +183503,39 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1330003] = {
-		mine_id = 2001,
 		pos_x = "0.665625",
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "WEICENGHUNHE14",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 280,
 		best_air_dominance = 364,
-		count = 0,
 		id = 1330003,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1330002,
+		formation = 1330001,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "SeaFogPermeates",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.344791667",
-		ammo_submarine = 0,
+		pop_pic = "SeaFogPermeates",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		is_ai = 1,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 15,
+		is_ai = 1,
+		map = 1330001,
 		unlocklevel = 0,
 		uifx = "",
 		name = "来自深渊",
@@ -182857,7 +183551,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1330001,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "迷雾中的同伴、水面下的敌人，还有……当你凝视深渊时，深渊也在凝视着你。",
@@ -183406,37 +184100,39 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1330004] = {
-		mine_id = 2001,
 		pos_x = "0.23125",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "WEICENGHUNHE20",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 240,
 		best_air_dominance = 312,
-		count = 0,
 		id = 1330004,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1330003,
+		formation = 1330002,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "SeaFogPermeates",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.227083333",
-		ammo_submarine = 0,
+		pop_pic = "SeaFogPermeates",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		is_ai = 1,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 25,
+		is_ai = 1,
+		map = 1330002,
 		unlocklevel = 0,
 		uifx = "",
 		name = "回归",
@@ -183452,7 +184148,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1330002,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "处于危急关头的无畏，千钧一发之时出现的蓝鳃鱼。伴随而来的，还有巨浪出现的原因——",
@@ -184038,37 +184734,39 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1330005] = {
-		mine_id = 2001,
 		pos_x = "0.5390625",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "WEICENGHUNHE25",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 380,
 		best_air_dominance = 494,
-		count = 0,
 		id = 1330005,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1330004,
+		formation = 1330002,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "SeaFogPermeates",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.052083333",
-		ammo_submarine = 0,
+		pop_pic = "SeaFogPermeates",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		is_ai = 1,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 30,
+		is_ai = 1,
+		map = 1330002,
 		unlocklevel = 0,
 		uifx = "",
 		name = "英雄集结",
@@ -184084,7 +184782,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1330002,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "历尽千难万险，分散在各处的英雄们重新集结吹响反攻的号角。超级英雄剧一般的热血发展，在此启动。",
@@ -184660,37 +185358,39 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1330006] = {
-		mine_id = 2001,
 		pos_x = "0.67109375",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "WEICENGHUNHE29",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 370,
 		best_air_dominance = 481,
-		count = 0,
 		id = 1330006,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1330005,
+		formation = 1330002,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "SeaFogPermeates",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.383333333",
-		ammo_submarine = 0,
+		pop_pic = "SeaFogPermeates",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		is_ai = 1,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 30,
+		is_ai = 1,
+		map = 1330002,
 		unlocklevel = 0,
 		uifx = "",
 		name = "雾淡云轻",
@@ -184706,7 +185406,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1330002,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "伴随着巨响，海水和空气产生了巨大的震动。海雾开始消散，一个极具威压感的庞大存在，仿佛厄运降临一般缓缓浮出水面。",
@@ -185354,37 +186054,39 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1330021] = {
-		mine_id = 2001,
 		pos_x = "0.2515625",
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "WEICENGHUNHE5",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 780,
 		best_air_dominance = 1014,
-		count = 0,
 		id = 1330021,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 0,
+		formation = 1330011,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "SeaFogPermeates",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.392708333",
-		ammo_submarine = 0,
+		pop_pic = "SeaFogPermeates",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		is_ai = 1,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 17,
+		is_ai = 1,
+		map = 1330011,
 		unlocklevel = 0,
 		uifx = "",
 		name = "增援",
@@ -185400,7 +186102,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 1330011,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "增援舰队踪迹全无，塞壬威胁暗流涌动。企业一行人来到了连接大洋的枢纽——巴拿马要塞。",
@@ -185943,37 +186645,39 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1330022] = {
-		mine_id = 2001,
 		pos_x = "0.38203125",
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "WEICENGHUNHE9",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 920,
 		best_air_dominance = 1196,
-		count = 0,
 		id = 1330022,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1330021,
+		formation = 1330011,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "SeaFogPermeates",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.052083333",
-		ammo_submarine = 0,
+		pop_pic = "SeaFogPermeates",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		is_ai = 1,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 17,
+		is_ai = 1,
+		map = 1330011,
 		unlocklevel = 0,
 		uifx = "",
 		name = "迷雾之下",
@@ -185989,7 +186693,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 1330011,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "企业在要塞附近失踪……？！塞壬发动了进攻，海雾笼罩了海面。层层迷雾之下究竟隐藏着什么?",
@@ -186560,37 +187264,39 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1330023] = {
-		mine_id = 2001,
 		pos_x = "0.665625",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "WEICENGHUNHE14",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 1140,
 		best_air_dominance = 1482,
-		count = 0,
 		id = 1330023,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1330022,
+		formation = 1330011,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "SeaFogPermeates",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.344791667",
-		ammo_submarine = 0,
+		pop_pic = "SeaFogPermeates",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		is_ai = 1,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 21,
+		is_ai = 1,
+		map = 1330011,
 		unlocklevel = 0,
 		uifx = "",
 		name = "来自深渊",
@@ -186606,7 +187312,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 1330011,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "迷雾中的同伴、水面下的敌人，还有……当你凝视深渊时，深渊也在凝视着你。",
@@ -187198,37 +187904,39 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1330024] = {
-		mine_id = 2001,
 		pos_x = "0.14609375",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "WEICENGHUNHE20",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 1090,
 		best_air_dominance = 1417,
-		count = 0,
 		id = 1330024,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1330023,
+		formation = 1330012,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "SeaFogPermeates",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.380208333",
-		ammo_submarine = 0,
+		pop_pic = "SeaFogPermeates",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		is_ai = 1,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 35,
+		is_ai = 1,
+		map = 1330012,
 		unlocklevel = 0,
 		uifx = "",
 		name = "回归",
@@ -187244,7 +187952,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 1330012,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "处于危急关头的无畏，千钧一发之时出现的蓝鳃鱼。伴随而来的，还有巨浪出现的原因——",
@@ -187872,37 +188580,39 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1330025] = {
-		mine_id = 2001,
 		pos_x = "0.28671875",
 		num_3 = 1,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "WEICENGHUNHE25",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 1510,
 		best_air_dominance = 1963,
-		count = 0,
 		id = 1330025,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1330024,
+		formation = 1330012,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "SeaFogPermeates",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.122916667",
-		ammo_submarine = 0,
+		pop_pic = "SeaFogPermeates",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		is_ai = 1,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 40,
+		is_ai = 1,
+		map = 1330012,
 		unlocklevel = 0,
 		uifx = "",
 		name = "英雄集结",
@@ -187918,7 +188628,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 1330012,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "历尽千难万险，分散在各处的英雄们重新集结吹响反攻的号角。超级英雄剧一般的热血发展，在此启动。",
@@ -188538,37 +189248,39 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1330026] = {
-		mine_id = 2001,
 		pos_x = "0.67109375",
 		num_3 = 1,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "WEICENGHUNHE29",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 1480,
 		best_air_dominance = 1924,
-		count = 0,
 		id = 1330026,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1330025,
+		formation = 1330012,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "SeaFogPermeates",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.35625",
-		ammo_submarine = 0,
+		pop_pic = "SeaFogPermeates",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		is_ai = 1,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 40,
+		is_ai = 1,
+		map = 1330012,
 		unlocklevel = 0,
 		uifx = "",
 		name = "雾淡云轻",
@@ -188584,7 +189296,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 1330012,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "伴随着巨响，海水和空气产生了巨大的震动。海雾开始消散，一个极具威压感的庞大存在，仿佛厄运降临一般缓缓浮出水面。",
@@ -189276,37 +189988,39 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1330041] = {
-		mine_id = 2001,
 		pos_x = "0.479",
 		num_3 = 0,
 		progress_boss = 100,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 1980,
 		best_air_dominance = 2574,
-		count = 1,
 		id = 1330041,
+		count = 1,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1330026,
+		formation = 1330025,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 0,
 		pos_y = "0.2979",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 0,
 		model = 2,
 		investigation_ratio = 0,
-		is_ai = 1,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 0,
+		is_ai = 1,
+		map = 1330025,
 		unlocklevel = 0,
 		uifx = "",
 		name = "星空璀璨",
@@ -189322,7 +190036,7 @@ pg.chapter_template = {
 		mitigation_rate = 0,
 		mitigation_level = 0,
 		ammo_total = 5,
-		map = 1330025,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 0,
 		profiles = "“天上的光全都是星星，海上的光全都是敌人……指挥官，真的会有没有斗争的那一天吗？”",
@@ -189875,37 +190589,39 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1330051] = {
-		mine_id = 2001,
 		pos_x = "0.479",
 		num_3 = 0,
 		progress_boss = 100,
 		oil = 0,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 620,
 		best_air_dominance = 810,
-		count = 0,
 		id = 1330051,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "hunhe-battle",
 		pre_chapter = 1330026,
+		formation = 1330026,
+		bgm = "hunhe-battle",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 0,
 		pos_y = "0.2979",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 0,
 		model = 5,
 		investigation_ratio = 0,
-		is_ai = 0,
-		group_num = 1,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 0,
+		is_ai = 0,
+		map = 1330026,
 		unlocklevel = 0,
 		uifx = "",
 		name = "微层混合",
@@ -189921,7 +190637,7 @@ pg.chapter_template = {
 		mitigation_rate = 0,
 		mitigation_level = 0,
 		ammo_total = 5,
-		map = 1330026,
+		group_num = 1,
 		enter_story_limit = "",
 		star_require_3 = 0,
 		profiles = "她们生于纷乱的时代，不知和平的美好。然而她们并没有屈服，凭借坚韧的意志直面无尽的绝望。即便身处迷雾之中，依然奋战不休——",
@@ -190309,38 +191025,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1340001] = {
-		mine_id = 2001,
 		pos_x = "0.2515625",
 		num_3 = 1,
 		progress_boss = 50,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 95,
 		best_air_dominance = 150,
-		count = 0,
 		id = 1340001,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 0,
+		formation = 1340001,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.392708333",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		is_ai = 1,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 10,
+		is_ai = 1,
 		land_based = "",
+		map = 1340001,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -190357,7 +191075,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1340001,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "将至的“大演习”，智斗与武勇交汇的演武场之上，阻挡「王将」前进之路的「步兵」是……？",
@@ -190903,38 +191621,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1340002] = {
-		mine_id = 2001,
 		pos_x = "0.38203125",
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 130,
 		best_air_dominance = 170,
-		count = 0,
 		id = 1340002,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1340001,
+		formation = 1340001,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.052083333",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		is_ai = 1,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 15,
+		is_ai = 1,
 		land_based = "",
+		map = 1340001,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -190951,7 +191671,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1340001,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "刚刚踏上战场的新锐巡洋舰，在漫樱飞舞的古城之下，向赤之「王将」发起进攻！",
@@ -191468,38 +192188,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1340003] = {
-		mine_id = 2001,
 		pos_x = "0.665625",
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 170,
 		best_air_dominance = 225,
-		count = 0,
 		id = 1340003,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1340002,
+		formation = 1340001,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.344791667",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		is_ai = 1,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 15,
+		is_ai = 1,
 		land_based = "",
+		map = 1340001,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -191516,7 +192238,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1340001,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "王与玉的正面交锋终于到来，而演习结果之外的，是令众人震惊的最高协议——",
@@ -192129,38 +192851,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1340004] = {
-		mine_id = 2001,
 		pos_x = "0.23125",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 220,
 		best_air_dominance = 290,
-		count = 0,
 		id = 1340004,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1340003,
+		formation = 1340002,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.227083333",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		is_ai = 1,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 25,
+		is_ai = 1,
 		land_based = "",
+		map = 1340002,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -192177,7 +192901,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1340002,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "被铅色未来蒙蔽前路之人，以赤色双眸洞穿因果之人，无论面对何种险境都必须要拯救的，是曾经的对手。",
@@ -192792,38 +193516,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1340005] = {
-		mine_id = 2001,
 		pos_x = "0.5390625",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 300,
 		best_air_dominance = 390,
-		count = 0,
 		id = 1340005,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1340004,
+		formation = 1340002,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.052083333",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		is_ai = 1,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 30,
+		is_ai = 1,
 		land_based = "",
+		map = 1340002,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -192840,7 +193566,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1340002,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "辉煌的时代终将落幕，只有时间的车轮滚滚向前。来自苍空之上的，是点亮前路的希望，是划破阴云的曙光。",
@@ -193498,38 +194224,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1340006] = {
-		mine_id = 2001,
 		pos_x = "0.6140625",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 380,
 		best_air_dominance = 495,
-		count = 0,
 		id = 1340006,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1340005,
+		formation = 1340002,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.383333333",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		is_ai = 1,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 30,
+		is_ai = 1,
 		land_based = "",
+		map = 1340002,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -193546,7 +194274,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1340002,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "无法忘怀的最后一战，寄托于呐喊中的是觉悟，继承自炮火中的是理想；背负传承的意志，开启全新的时代吧。",
@@ -194178,38 +194906,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1340011] = {
-		mine_id = 2001,
 		pos_x = "0.2515625",
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 375,
 		best_air_dominance = 490,
-		count = 0,
 		id = 1340011,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 0,
+		formation = 1340011,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.392708333",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		is_ai = 1,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 17,
+		is_ai = 1,
 		land_based = "",
+		map = 1340011,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -194226,7 +194956,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 1340011,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "将至的“大演习”，智斗与武勇交汇的演武场之上，阻挡「王将」前进之路的「步兵」是……？",
@@ -194814,38 +195544,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1340012] = {
-		mine_id = 2001,
 		pos_x = "0.38203125",
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 470,
 		best_air_dominance = 615,
-		count = 0,
 		id = 1340012,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1340011,
+		formation = 1340011,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.052083333",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		is_ai = 1,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 17,
+		is_ai = 1,
 		land_based = "",
+		map = 1340011,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -194862,7 +195594,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 1340011,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "刚刚踏上战场的新锐巡洋舰，在漫樱飞舞的古城之下，向赤之「王将」发起进攻！",
@@ -195421,38 +196153,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1340013] = {
-		mine_id = 2001,
 		pos_x = "0.665625",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 570,
 		best_air_dominance = 745,
-		count = 0,
 		id = 1340013,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1340012,
+		formation = 1340011,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.344791667",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		is_ai = 1,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 21,
+		is_ai = 1,
 		land_based = "",
+		map = 1340011,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -195469,7 +196203,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 1340011,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "王与玉的正面交锋终于到来，而演习结果之外的，是令众人震惊的最高协议——",
@@ -196124,38 +196858,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1340014] = {
-		mine_id = 2001,
 		pos_x = "0.23125",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 730,
 		best_air_dominance = 950,
-		count = 0,
 		id = 1340014,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1340013,
+		formation = 1340012,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.227083333",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		is_ai = 1,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 35,
+		is_ai = 1,
 		land_based = "",
+		map = 1340012,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -196172,7 +196908,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 1340012,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "被铅色未来蒙蔽前路之人，以赤色双眸洞穿因果之人，无论面对何种险境都必须要拯救的，是曾经的对手。",
@@ -196829,38 +197565,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1340015] = {
-		mine_id = 2001,
 		pos_x = "0.5390625",
 		num_3 = 1,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 930,
 		best_air_dominance = 1210,
-		count = 0,
 		id = 1340015,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1340014,
+		formation = 1340012,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.052083333",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		is_ai = 1,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 40,
+		is_ai = 1,
 		land_based = "",
+		map = 1340012,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -196877,7 +197615,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 1340012,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "辉煌的时代终将落幕，只有时间的车轮滚滚向前。来自苍空之上的，是点亮前路的希望，是划破阴云的曙光。",
@@ -197579,38 +198317,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1340016] = {
-		mine_id = 2001,
 		pos_x = "0.6140625",
 		num_3 = 1,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 1125,
 		best_air_dominance = 1465,
-		count = 0,
 		id = 1340016,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1340015,
+		formation = 1340012,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.383333333",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		is_ai = 1,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 40,
+		is_ai = 1,
 		land_based = "",
+		map = 1340012,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -197627,7 +198367,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 1340012,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "无法忘怀的最后一战，寄托于呐喊中的是觉悟，继承自炮火中的是理想；背负传承的意志，开启全新的时代吧。",
@@ -198303,38 +199043,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1340021] = {
-		mine_id = 2001,
 		pos_x = "0.479",
 		num_3 = 1,
 		progress_boss = 100,
 		oil = 0,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 620,
 		best_air_dominance = 810,
-		count = 0,
 		id = 1340021,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1340016,
+		formation = 1340021,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.2979",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 5,
 		investigation_ratio = 0,
-		is_ai = 1,
-		group_num = 1,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 4,
+		is_ai = 1,
 		land_based = "",
+		map = 1340021,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -198351,7 +199093,7 @@ pg.chapter_template = {
 		mitigation_rate = 0,
 		mitigation_level = 0,
 		ammo_total = 5,
-		map = 1340021,
+		group_num = 1,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "跨越时间之长河，斩断命运之枷锁。挑战者啊，穷尽武略与智谋，迎接来自顶点的试炼吧",
@@ -198710,37 +199452,39 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1350001] = {
-		mine_id = 2001,
 		pos_x = "0.20234375",
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 150,
 		best_air_dominance = 195,
-		count = 0,
 		id = 1350001,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 0,
+		formation = 1350001,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.34375",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 20,
+		is_ai = 0,
+		map = 1350001,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -198757,7 +199501,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1350001,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "在凯比尔港修养了将近两年之后，敦刻尔克终于踏上了回家的道路，首先，突破前方的海域吧！",
@@ -199319,37 +200063,39 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1350002] = {
-		mine_id = 2001,
 		pos_x = "0.42203125",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 300,
 		best_air_dominance = 390,
-		count = 0,
 		id = 1350002,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1350001,
+		formation = 1350001,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.09083333",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 25,
+		is_ai = 0,
+		map = 1350001,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -199366,7 +200112,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1350001,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "一路上没有遇到什么有威胁的敌人，但是还不能放松警惕，继续小心前进。",
@@ -199988,37 +200734,39 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1350003] = {
-		mine_id = 2001,
 		pos_x = "0.665625",
 		num_3 = 1,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 700,
 		best_air_dominance = 910,
-		count = 0,
 		id = 1350003,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1350002,
+		formation = 1350001,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.344791667",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 35,
+		is_ai = 0,
+		map = 1350001,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -200035,7 +200783,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 1350001,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "情报显示，纳尔逊出现在了我方预定航线中，如果无法回避，就强行突破吧！",
@@ -200654,36 +201402,38 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1360001] = {
-		mine_id = 2001,
 		pos_x = "0.2515625",
 		num_3 = 1,
 		progress_boss = 50,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "SHENGYONGQU4",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 100,
 		best_air_dominance = 150,
-		count = 0,
 		id = 1360001,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 0,
+		formation = 1360001,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
 		star_require_1 = 1,
 		pos_y = "0.392708333",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		is_ai = 1,
-		group_num = 2,
+		ammo_submarine = 0,
 		num_2 = 10,
+		is_ai = 1,
+		map = 1360001,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -200700,7 +201450,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1360001,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "自由鸢尾与皇家的联合舰队在黎塞留的带领下缓慢驶入莫桑比克海峡，一场全新的战役即将拉开帷幕。 ",
@@ -201232,36 +201982,38 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1360002] = {
-		mine_id = 2001,
 		pos_x = "0.38203125",
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "SHENGYONGQU9",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 220,
 		best_air_dominance = 285,
-		count = 0,
 		id = 1360002,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1360001,
+		formation = 1360001,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
 		star_require_1 = 1,
 		pos_y = "0.052083333",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		is_ai = 1,
-		group_num = 2,
+		ammo_submarine = 0,
 		num_2 = 15,
+		is_ai = 1,
+		map = 1360001,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -201278,7 +202030,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1360001,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "维希教廷的回应清楚而明确：“前方海域为维希教廷的军事管制区，请立刻掉头离开”，果然不会这么顺利么… ",
@@ -201841,36 +202593,38 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1360003] = {
-		mine_id = 2001,
 		pos_x = "0.665625",
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "SHENGYONGQU12",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 210,
 		best_air_dominance = 275,
-		count = 0,
 		id = 1360003,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1360002,
+		formation = 1360001,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
 		star_require_1 = 1,
 		pos_y = "0.344791667",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		is_ai = 1,
-		group_num = 2,
+		ammo_submarine = 0,
 		num_2 = 15,
+		is_ai = 1,
+		map = 1360001,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -201887,7 +202641,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1360001,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "“祝你武运昌隆，黎塞留卿。”「骑士」留下这句话后，便带领舰队向「主教」发动了进攻。阵前交涉失败了。 ",
@@ -202543,36 +203297,38 @@ pg.chapter_template = {
 		}
 	},
 	[1360004] = {
-		mine_id = 2001,
 		pos_x = "0.23125",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "SHENGYONGQU17",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 240,
 		best_air_dominance = 310,
-		count = 0,
 		id = 1360004,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "hunhe-level",
 		pre_chapter = 1360003,
+		formation = 1360002,
+		bgm = "hunhe-level",
 		chapter_tag = 0,
-		pop_pic = "",
 		star_require_1 = 1,
 		pos_y = "0.227083333",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		is_ai = 1,
-		group_num = 2,
+		ammo_submarine = 0,
 		num_2 = 25,
+		is_ai = 1,
+		map = 1360002,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -202589,7 +203345,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1360002,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "让·巴尔做出了选择，黎塞留也做出了选择。在斩断悲剧发生的源头之前，继续战斗吧！ ",
@@ -203235,36 +203991,38 @@ pg.chapter_template = {
 		}
 	},
 	[1360005] = {
-		mine_id = 2001,
 		pos_x = "0.5390625",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "SHENGYONGQU22",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 310,
 		best_air_dominance = 405,
-		count = 0,
 		id = 1360005,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "hunhe-level",
 		pre_chapter = 1360004,
+		formation = 1360002,
+		bgm = "hunhe-level",
 		chapter_tag = 0,
-		pop_pic = "",
 		star_require_1 = 1,
 		pos_y = "0.052083333",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		is_ai = 1,
-		group_num = 2,
+		ammo_submarine = 0,
 		num_2 = 30,
+		is_ai = 1,
+		map = 1360002,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -203281,7 +204039,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1360002,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "如同神迹显现一般，金色的光幕将联合舰队笼罩分隔。而此时，一直等待时机的拉.加利索尼终于展开了行动—— ",
@@ -204245,36 +205003,38 @@ pg.chapter_template = {
 		}
 	},
 	[1360006] = {
-		mine_id = 2001,
 		pos_x = "0.67109375",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "SHENGYONGQU27",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 370,
 		best_air_dominance = 480,
-		count = 0,
 		id = 1360006,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "hunhe-level",
 		pre_chapter = 1360005,
+		formation = 1360002,
+		bgm = "hunhe-level",
 		chapter_tag = 0,
-		pop_pic = "",
 		star_require_1 = 1,
 		pos_y = "0.383333333",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		is_ai = 1,
-		group_num = 2,
+		ammo_submarine = 0,
 		num_2 = 30,
+		is_ai = 1,
+		map = 1360002,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -204291,7 +205051,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1360002,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "“我无所畏惧,因为神与我同在。”自由鸢尾与皇家的勇士，集结于神圣的旗帜之下，面对眼前深邃的黑暗吧！ ",
@@ -206007,36 +206767,38 @@ pg.chapter_template = {
 		}
 	},
 	[1360021] = {
-		mine_id = 2001,
 		pos_x = "0.2515625",
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "SHENGYONGQU4",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 780,
 		best_air_dominance = 1015,
-		count = 0,
 		id = 1360021,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 0,
+		formation = 1360011,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
 		star_require_1 = 1,
 		pos_y = "0.392708333",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		is_ai = 1,
-		group_num = 2,
+		ammo_submarine = 0,
 		num_2 = 17,
+		is_ai = 1,
+		map = 1360011,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -206053,7 +206815,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 1360011,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "自由鸢尾与皇家的联合舰队在黎塞留的带领下缓慢驶入莫桑比克海峡，一场全新的战役即将拉开帷幕。 ",
@@ -206627,36 +207389,38 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1360022] = {
-		mine_id = 2001,
 		pos_x = "0.38203125",
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "SHENGYONGQU9",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 1210,
 		best_air_dominance = 1575,
-		count = 0,
 		id = 1360022,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1360021,
+		formation = 1360011,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
 		star_require_1 = 1,
 		pos_y = "0.052083333",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		is_ai = 1,
-		group_num = 2,
+		ammo_submarine = 0,
 		num_2 = 17,
+		is_ai = 1,
+		map = 1360011,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -206673,7 +207437,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 1360011,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "维希教廷的回应清楚而明确：“前方海域为维希教廷的军事管制区，请立刻掉头离开”，果然不会这么顺利么… ",
@@ -207278,36 +208042,38 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1360023] = {
-		mine_id = 2001,
 		pos_x = "0.665625",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "SHENGYONGQU12",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 1140,
 		best_air_dominance = 1480,
-		count = 0,
 		id = 1360023,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1360022,
+		formation = 1360011,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
 		star_require_1 = 1,
 		pos_y = "0.344791667",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		is_ai = 1,
-		group_num = 2,
+		ammo_submarine = 0,
 		num_2 = 21,
+		is_ai = 1,
+		map = 1360011,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -207324,7 +208090,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 1360011,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "“祝你武运昌隆，黎塞留卿。”「骑士」留下这句话后，便带领舰队向「主教」发动了进攻。阵前交涉失败了。 ",
@@ -208023,36 +208789,38 @@ pg.chapter_template = {
 		}
 	},
 	[1360024] = {
-		mine_id = 2001,
 		pos_x = "0.14609375",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "SHENGYONGQU17",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 1090,
 		best_air_dominance = 1420,
-		count = 0,
 		id = 1360024,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "hunhe-level",
 		pre_chapter = 1360023,
+		formation = 1360012,
+		bgm = "hunhe-level",
 		chapter_tag = 0,
-		pop_pic = "",
 		star_require_1 = 1,
 		pos_y = "0.380208333",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		is_ai = 1,
-		group_num = 2,
+		ammo_submarine = 0,
 		num_2 = 35,
+		is_ai = 1,
+		map = 1360012,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -208069,7 +208837,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 1360012,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "让·巴尔做出了选择，黎塞留也做出了选择。在斩断悲剧发生的源头之前，继续战斗吧！ ",
@@ -208756,36 +209524,38 @@ pg.chapter_template = {
 		}
 	},
 	[1360025] = {
-		mine_id = 2001,
 		pos_x = "0.28671875",
 		num_3 = 1,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "SHENGYONGQU22",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 1310,
 		best_air_dominance = 1700,
-		count = 0,
 		id = 1360025,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "hunhe-level",
 		pre_chapter = 1360024,
+		formation = 1360012,
+		bgm = "hunhe-level",
 		chapter_tag = 0,
-		pop_pic = "",
 		star_require_1 = 1,
 		pos_y = "0.122916667",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		is_ai = 1,
-		group_num = 2,
+		ammo_submarine = 0,
 		num_2 = 40,
+		is_ai = 1,
+		map = 1360012,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -208802,7 +209572,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 1360012,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "如同神迹显现一般，金色的光幕将联合舰队笼罩分隔。而此时，一直等待时机的拉.加利索尼终于展开了行动—— ",
@@ -209809,36 +210579,38 @@ pg.chapter_template = {
 		}
 	},
 	[1360026] = {
-		mine_id = 2001,
 		pos_x = "0.67109375",
 		num_3 = 1,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "SHENGYONGQU27",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 1550,
 		best_air_dominance = 2015,
-		count = 0,
 		id = 1360026,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "hunhe-level",
 		pre_chapter = 1360025,
+		formation = 1360012,
+		bgm = "hunhe-level",
 		chapter_tag = 0,
-		pop_pic = "",
 		star_require_1 = 1,
 		pos_y = "0.35625",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		is_ai = 1,
-		group_num = 2,
+		ammo_submarine = 0,
 		num_2 = 40,
+		is_ai = 1,
+		map = 1360012,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -209855,7 +210627,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 1360012,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "“我无所畏惧,因为神与我同在。”自由鸢尾与皇家的勇士，集结于神圣的旗帜之下，面对眼前深邃的黑暗吧！ ",
@@ -211614,36 +212386,38 @@ pg.chapter_template = {
 		}
 	},
 	[1360041] = {
-		mine_id = 2001,
 		pos_x = "0.479",
 		num_3 = 0,
 		progress_boss = 100,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 1980,
 		best_air_dominance = 2575,
-		count = 1,
 		id = 1360041,
+		count = 1,
 		icon_outline = 0,
 		bg = "",
-		bgm = "Bsm-3",
 		pre_chapter = 1360026,
+		formation = 1360025,
+		bgm = "Bsm-3",
 		chapter_tag = 0,
-		pop_pic = "",
 		star_require_1 = 0,
 		pos_y = "0.2979",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 0,
 		model = 2,
 		investigation_ratio = 0,
-		is_ai = 1,
-		group_num = 2,
+		ammo_submarine = 0,
 		num_2 = 0,
+		is_ai = 1,
+		map = 1360025,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -211660,7 +212434,7 @@ pg.chapter_template = {
 		mitigation_rate = 0,
 		mitigation_level = 0,
 		ammo_total = 5,
-		map = 1360025,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 0,
 		profiles = "历经苦难的骑士，向着孤高之城前进。纵使道路遍布烈焰荆棘，亦无所畏惧，只为奏起昔日那响彻天空的颂歌。 ",
@@ -212919,36 +213693,38 @@ pg.chapter_template = {
 		}
 	},
 	[1360051] = {
-		mine_id = 2001,
 		pos_x = "0.479",
 		num_3 = 0,
 		progress_boss = 100,
 		oil = 0,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 620,
 		best_air_dominance = 810,
-		count = 0,
 		id = 1360051,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "Bsm-3",
 		pre_chapter = 1360026,
+		formation = 1360026,
+		bgm = "Bsm-3",
 		chapter_tag = 0,
-		pop_pic = "",
 		star_require_1 = 0,
 		pos_y = "0.2979",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 0,
 		model = 5,
 		investigation_ratio = 0,
-		is_ai = 0,
-		group_num = 1,
+		ammo_submarine = 0,
 		num_2 = 0,
+		is_ai = 0,
+		map = 1360026,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -212965,7 +213741,7 @@ pg.chapter_template = {
 		mitigation_rate = 0,
 		mitigation_level = 0,
 		ammo_total = 5,
-		map = 1360026,
+		group_num = 1,
 		enter_story_limit = "",
 		star_require_3 = 0,
 		profiles = "向上苍奉献信仰，向内心赋予勇气。故事之外，穹顶之下，圣咏之曲再次奏响—— ",
@@ -213340,36 +214116,38 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1370001] = {
-		mine_id = 2001,
 		pos_x = "0.2375",
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "XIAWANJIANDEFANJI2",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 100,
 		best_air_dominance = 150,
-		count = 0,
 		id = 1370001,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 0,
+		formation = 1370001,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
 		star_require_1 = 1,
 		pos_y = "0.123958333",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		is_ai = 1,
-		group_num = 2,
+		ammo_submarine = 0,
 		num_2 = 25,
+		is_ai = 1,
+		map = 1370001,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -213386,7 +214164,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1370001,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "准备撤退的铁血驱逐舰队，与厌战带领的前来反击的皇家舰队，峡湾之间，又一场战斗拉开帷幕—— ",
@@ -214082,36 +214860,38 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1370002] = {
-		mine_id = 2001,
 		pos_x = "0.62109375",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "XIAWANJIANDEFANJI6",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 200,
 		best_air_dominance = 260,
-		count = 0,
 		id = 1370002,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1370001,
+		formation = 1370001,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
 		star_require_1 = 1,
 		pos_y = "0.379166667",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		is_ai = 1,
-		group_num = 2,
+		ammo_submarine = 0,
 		num_2 = 30,
+		is_ai = 1,
+		map = 1370001,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -214128,7 +214908,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1370001,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "Z19逃离追击，暂时获得了安全。而皇家的舰队，依然在峡湾间搜索着。战斗、仍在继续。 ",
@@ -214831,36 +215611,38 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1370003] = {
-		mine_id = 2001,
 		pos_x = "0.68515625",
 		num_3 = 1,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "XIAWANJIANDEFANJI10",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 400,
 		best_air_dominance = 520,
-		count = 0,
 		id = 1370003,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1370002,
+		formation = 1370001,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
 		star_require_1 = 1,
 		pos_y = "0.10625",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		is_ai = 1,
-		group_num = 2,
+		ammo_submarine = 0,
 		num_2 = 35,
+		is_ai = 1,
+		map = 1370001,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -214877,7 +215659,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1370001,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "爱斯基摩人似乎情况危急，尽快前去支援她吧！ ",
@@ -215577,36 +216359,38 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1380001] = {
-		mine_id = 2001,
 		pos_x = "0.2515625",
 		num_3 = 1,
 		progress_boss = 50,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "YONGYEHUANGUANG4",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 120,
 		best_air_dominance = 160,
-		count = 0,
 		id = 1380001,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 0,
+		formation = 1380001,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
 		star_require_1 = 1,
 		pos_y = "0.392708333",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 23,
-		is_ai = 1,
-		group_num = 2,
+		ammo_submarine = 0,
 		num_2 = 10,
+		is_ai = 1,
+		map = 1380001,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -215623,7 +216407,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1380001,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "所有舰队按计划出发，虽然永夜并不是执行任务的理想时期，不过紧急任务从来不会给人选择时间的权利。",
@@ -216261,36 +217045,38 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1380002] = {
-		mine_id = 2001,
 		pos_x = "0.38203125",
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "YONGYEHUANGUANG11",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 190,
 		best_air_dominance = 250,
-		count = 0,
 		id = 1380002,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1380001,
+		formation = 1380001,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
 		star_require_1 = 1,
 		pos_y = "0.052083333",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 24,
-		is_ai = 1,
-		group_num = 2,
+		ammo_submarine = 0,
 		num_2 = 15,
+		is_ai = 1,
+		map = 1380001,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -216307,7 +217093,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1380001,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "极光照亮了夜空，也点燃了战场。向船团袭来的，是规模出乎意料的铁血主力舰队。",
@@ -216930,36 +217716,38 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1380003] = {
-		mine_id = 2001,
 		pos_x = "0.665625",
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "YONGYEHUANGUANG16",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 235,
 		best_air_dominance = 310,
-		count = 0,
 		id = 1380003,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1380002,
+		formation = 1380001,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
 		star_require_1 = 1,
 		pos_y = "0.344791667",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 24,
-		is_ai = 1,
-		group_num = 2,
+		ammo_submarine = 0,
 		num_2 = 15,
+		is_ai = 1,
+		map = 1380001,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -216976,7 +217764,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1380001,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "新型塞壬舰队的突然出现，打乱了皇家主力舰队的部署计划。战斗到底，还是抽身离开？决断的时刻，到了。",
@@ -217617,36 +218405,38 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1380004] = {
-		mine_id = 2001,
 		pos_x = "0.23125",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "YONGYEHUANGUANG23",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 260,
 		best_air_dominance = 340,
-		count = 0,
 		id = 1380004,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1380003,
+		formation = 1380002,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
 		star_require_1 = 1,
 		pos_y = "0.227083333",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		is_ai = 1,
-		group_num = 2,
+		ammo_submarine = 0,
 		num_2 = 25,
+		is_ai = 1,
+		map = 1380002,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -217663,7 +218453,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1380002,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "敌方的火力从四面八方袭来。冰海之上的皇家护航舰队，冰海之下的铁血狼群，激烈的交锋仍在继续。",
@@ -218358,36 +219148,38 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1380005] = {
-		mine_id = 2001,
 		pos_x = "0.5390625",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "YONGYEHUANGUANG28",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 330,
 		best_air_dominance = 430,
-		count = 0,
 		id = 1380005,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1380004,
+		formation = 1380002,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
 		star_require_1 = 1,
 		pos_y = "0.052083333",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		is_ai = 1,
-		group_num = 2,
+		ammo_submarine = 0,
 		num_2 = 30,
+		is_ai = 1,
+		map = 1380002,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -218404,7 +219196,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1380002,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "表现异常的铁血舰队，突然出现的新型塞壬，永夜之下，阴谋逐渐展开。",
@@ -219124,36 +219916,38 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1380006] = {
-		mine_id = 2001,
 		pos_x = "0.67109375",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "YONGYEHUANGUANG32",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 395,
 		best_air_dominance = 515,
-		count = 0,
 		id = 1380006,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1380005,
+		formation = 1380002,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
 		star_require_1 = 1,
 		pos_y = "0.383333333",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		is_ai = 1,
-		group_num = 2,
+		ammo_submarine = 0,
 		num_2 = 30,
+		is_ai = 1,
+		map = 1380002,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -219170,7 +219964,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1380002,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "「我们正在对抗共同的敌人，而我们需要相互帮助才能取得最终的胜利。」——决断已下，主力舰队不返航，消灭所有敌人，不惜代价保护极地船团的安全！",
@@ -219987,36 +220781,38 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1380021] = {
-		mine_id = 2001,
 		pos_x = "0.2515625",
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "YONGYEHUANGUANG4",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 605,
 		best_air_dominance = 790,
-		count = 0,
 		id = 1380021,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 0,
+		formation = 1380011,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
 		star_require_1 = 1,
 		pos_y = "0.392708333",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		is_ai = 1,
-		group_num = 2,
+		ammo_submarine = 0,
 		num_2 = 17,
+		is_ai = 1,
+		map = 1380011,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -220033,7 +220829,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 1380011,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "所有舰队按计划出发，虽然永夜并不是执行任务的理想时期，不过紧急任务从来不会给人选择时间的权利。",
@@ -220705,36 +221501,38 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1380022] = {
-		mine_id = 2001,
 		pos_x = "0.38203125",
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "YONGYEHUANGUANG11",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 970,
 		best_air_dominance = 1265,
-		count = 0,
 		id = 1380022,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1380021,
+		formation = 1380011,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
 		star_require_1 = 1,
 		pos_y = "0.052083333",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		is_ai = 1,
-		group_num = 2,
+		ammo_submarine = 0,
 		num_2 = 17,
+		is_ai = 1,
+		map = 1380011,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -220751,7 +221549,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 1380011,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "极光照亮了夜空，也点燃了战场。向船团袭来的，是规模出乎意料的铁血主力舰队。",
@@ -221408,36 +222206,38 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1380023] = {
-		mine_id = 2001,
 		pos_x = "0.665625",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "YONGYEHUANGUANG16",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 1190,
 		best_air_dominance = 1550,
-		count = 0,
 		id = 1380023,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1380022,
+		formation = 1380011,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
 		star_require_1 = 1,
 		pos_y = "0.344791667",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		is_ai = 1,
-		group_num = 2,
+		ammo_submarine = 0,
 		num_2 = 21,
+		is_ai = 1,
+		map = 1380011,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -221454,7 +222254,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 1380011,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "新型塞壬舰队的突然出现，打乱了皇家主力舰队的部署计划。战斗到底，还是抽身离开？决断的时刻，到了。",
@@ -222129,36 +222929,38 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1380024] = {
-		mine_id = 2001,
 		pos_x = "0.14609375",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "YONGYEHUANGUANG23",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 1140,
 		best_air_dominance = 1485,
-		count = 0,
 		id = 1380024,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1380023,
+		formation = 1380012,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
 		star_require_1 = 1,
 		pos_y = "0.380208333",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		is_ai = 1,
-		group_num = 2,
+		ammo_submarine = 0,
 		num_2 = 35,
+		is_ai = 1,
+		map = 1380012,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -222175,7 +222977,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 1380012,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "敌方的火力从四面八方袭来。冰海之上的皇家护航舰队，冰海之下的铁血狼群，激烈的交锋仍在继续。",
@@ -222910,36 +223712,38 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1380025] = {
-		mine_id = 2001,
 		pos_x = "0.28671875",
 		num_3 = 1,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "YONGYEHUANGUANG28",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 1360,
 		best_air_dominance = 1770,
-		count = 0,
 		id = 1380025,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1380024,
+		formation = 1380012,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
 		star_require_1 = 1,
 		pos_y = "0.122916667",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		is_ai = 1,
-		group_num = 2,
+		ammo_submarine = 0,
 		num_2 = 40,
+		is_ai = 1,
+		map = 1380012,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -222956,7 +223760,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 1380012,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "表现异常的铁血舰队，突然出现的新型塞壬，永夜之下，阴谋逐渐展开。",
@@ -223718,36 +224522,38 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1380026] = {
-		mine_id = 2001,
 		pos_x = "0.67109375",
 		num_3 = 1,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "YONGYEHUANGUANG32",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 1595,
 		best_air_dominance = 2075,
-		count = 0,
 		id = 1380026,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1380025,
+		formation = 1380012,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
 		star_require_1 = 1,
 		pos_y = "0.35625",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		is_ai = 1,
-		group_num = 2,
+		ammo_submarine = 0,
 		num_2 = 40,
+		is_ai = 1,
+		map = 1380012,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -223764,7 +224570,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 1380012,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "「我们正在对抗共同的敌人，而我们需要相互帮助才能取得最终的胜利。」——决断已下，主力舰队不返航，消灭所有敌人，不惜代价保护极地船团的安全！",
@@ -224624,36 +225430,38 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1380041] = {
-		mine_id = 2001,
 		pos_x = "0.479",
 		num_3 = 0,
 		progress_boss = 100,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 2030,
 		best_air_dominance = 2640,
-		count = 1,
 		id = 1380041,
+		count = 1,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1380026,
+		formation = 1380025,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
 		star_require_1 = 0,
 		pos_y = "0.2979",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 0,
 		model = 2,
 		investigation_ratio = 0,
-		is_ai = 1,
-		group_num = 2,
+		ammo_submarine = 0,
 		num_2 = 0,
+		is_ai = 1,
+		map = 1380025,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -224670,7 +225478,7 @@ pg.chapter_template = {
 		mitigation_rate = 0,
 		mitigation_level = 0,
 		ammo_total = 5,
-		map = 1380025,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 0,
 		profiles = "极光舞动于极夜的星空之下。 但是夜色下的旅者啊，切勿流连于眼前美景，危机、仍潜伏于寒冷的冰海之中——",
@@ -225766,36 +226574,38 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1380051] = {
-		mine_id = 2001,
 		pos_x = "0.479",
 		num_3 = 0,
 		progress_boss = 100,
 		oil = 0,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 620,
 		best_air_dominance = 810,
-		count = 0,
 		id = 1380051,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "bsm-3",
 		pre_chapter = 1380026,
+		formation = 1380026,
+		bgm = "bsm-3",
 		chapter_tag = 0,
-		pop_pic = "",
 		star_require_1 = 0,
 		pos_y = "0.2979",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 0,
 		model = 5,
 		investigation_ratio = 0,
-		is_ai = 0,
-		group_num = 1,
+		ammo_submarine = 0,
 		num_2 = 0,
+		is_ai = 0,
+		map = 1380026,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -225812,7 +226622,7 @@ pg.chapter_template = {
 		mitigation_rate = 0,
 		mitigation_level = 0,
 		ammo_total = 5,
-		map = 1380026,
+		group_num = 1,
 		enter_story_limit = "",
 		star_require_3 = 0,
 		profiles = "陷于永夜的人啊，斩破眼前的幻影，追寻心中的真实，揭秘隐藏在黑暗背后的答案吧！",
@@ -226201,37 +227011,39 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1390001] = {
-		mine_id = 2001,
 		pos_x = "0.2953125",
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 100,
 		best_air_dominance = 130,
-		count = 0,
 		id = 1390001,
+		count = 0,
 		icon_outline = 1,
 		bg = "",
-		bgm = "",
 		pre_chapter = 0,
+		formation = 1390001,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.373958333",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		is_ai = 1,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 25,
+		is_ai = 1,
+		map = 1390001,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -226248,7 +227060,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1390001,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "<SIDE-铁血>这是铁血潜艇们的，一场小小的战斗插曲——",
@@ -226770,37 +227582,39 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1390002] = {
-		mine_id = 2001,
 		pos_x = "0.44375",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "ZUIZHENGUIDEBAOWU4",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 200,
 		best_air_dominance = 260,
-		count = 0,
 		id = 1390002,
+		count = 0,
 		icon_outline = 1,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1390001,
+		formation = 1390001,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.079166667",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		is_ai = 1,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 30,
+		is_ai = 1,
+		map = 1390001,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -226817,7 +227631,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1390001,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "<SIDE-皇家>前方探测到铁血潜艇的信号！一边保护运输舰队，一边击退敌人吧！",
@@ -227440,37 +228254,39 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1390003] = {
-		mine_id = 2001,
 		pos_x = "0.7046875",
 		num_3 = 1,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 400,
 		best_air_dominance = 520,
-		count = 0,
 		id = 1390003,
+		count = 0,
 		icon_outline = 1,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1390002,
+		formation = 1390001,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.313541667",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		is_ai = 1,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 35,
+		is_ai = 1,
+		map = 1390001,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -227487,7 +228303,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 1390001,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "<SIDE-铁血>为了解救陷于敌阵的同伴U110，水下骑士出击！恩尼格玛最终究竟会如何…！？",
@@ -228076,36 +228892,38 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1400001] = {
-		mine_id = 2001,
 		pos_x = "0.2515625",
 		num_3 = 1,
 		progress_boss = 50,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "TIEXUEYUYINFU3",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 100,
 		best_air_dominance = 150,
-		count = 0,
 		id = 1400001,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 0,
+		formation = 1400001,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
 		star_require_1 = 1,
 		pos_y = "0.392708333",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		is_ai = 1,
-		group_num = 2,
+		ammo_submarine = 0,
 		num_2 = 10,
+		is_ai = 1,
+		map = 1400001,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -228122,7 +228940,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1400001,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "在与胡德、威尔士亲王交手后，俾斯麦与欧根亲王试图摆脱皇家舰队的围捕，在前方等待她们的将是？",
@@ -228640,36 +229458,38 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1400002] = {
-		mine_id = 2001,
 		pos_x = "0.38203125",
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 130,
 		best_air_dominance = 170,
-		count = 0,
 		id = 1400002,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1400001,
+		formation = 1400001,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
 		star_require_1 = 1,
 		pos_y = "0.052083333",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		is_ai = 1,
-		group_num = 2,
+		ammo_submarine = 0,
 		num_2 = 15,
+		is_ai = 1,
+		map = 1400001,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -228686,7 +229506,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1400001,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "倾巢而出的皇家舰队，在耳边轻声呢喃着的“海妖”的诱惑，正确的选择，究竟在何处…？",
@@ -229206,36 +230026,38 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1400003] = {
-		mine_id = 2001,
 		pos_x = "0.665625",
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 165,
 		best_air_dominance = 215,
-		count = 0,
 		id = 1400003,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1400002,
+		formation = 1400001,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
 		star_require_1 = 1,
 		pos_y = "0.344791667",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		is_ai = 1,
-		group_num = 2,
+		ammo_submarine = 0,
 		num_2 = 15,
+		is_ai = 1,
+		map = 1400001,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -229252,7 +230074,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1400001,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "皇家舰队派出了大量的舰载机进行拦截，面对数倍于自己的对手，只要火炮犹在，我等就将继续战斗——",
@@ -229857,36 +230679,38 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1400004] = {
-		mine_id = 2001,
 		pos_x = "0.23125",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "TIEXUEYUYINFU12",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 210,
 		best_air_dominance = 275,
-		count = 0,
 		id = 1400004,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1400003,
+		formation = 1400002,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
 		star_require_1 = 1,
 		pos_y = "0.227083333",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		is_ai = 1,
-		group_num = 2,
+		ammo_submarine = 0,
 		num_2 = 25,
+		is_ai = 1,
+		map = 1400002,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -229903,7 +230727,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1400002,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "俾斯麦丧失了行动力，但仍在负隅顽抗。胜利终将属于我们，为了胡德，为了皇家舰队的荣耀，开火！",
@@ -230518,36 +231342,38 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1400005] = {
-		mine_id = 2001,
 		pos_x = "0.5390625",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 270,
 		best_air_dominance = 355,
-		count = 0,
 		id = 1400005,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1400004,
+		formation = 1400002,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
 		star_require_1 = 1,
 		pos_y = "0.052083333",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		is_ai = 1,
-		group_num = 2,
+		ammo_submarine = 0,
 		num_2 = 30,
+		is_ai = 1,
+		map = 1400002,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -230564,7 +231390,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1400002,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "人类进化发展的历史…便是科学与学习的历史，为了学习那份未知的知识，一切的牺牲都是值得的——",
@@ -231222,36 +232048,38 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1400006] = {
-		mine_id = 2001,
 		pos_x = "0.6140625",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 330,
 		best_air_dominance = 430,
-		count = 0,
 		id = 1400006,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1400005,
+		formation = 1400002,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
 		star_require_1 = 1,
 		pos_y = "0.383333333",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		is_ai = 1,
-		group_num = 2,
+		ammo_submarine = 0,
 		num_2 = 30,
+		is_ai = 1,
+		map = 1400002,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -231268,7 +232096,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 1400002,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "“音乐总是能唤起我心中两个截然不同的渴望:一个是战争;另一个是田园诗般的宁静”",
@@ -231898,36 +232726,38 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1400011] = {
-		mine_id = 2001,
 		pos_x = "0.2515625",
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "TIEXUEYUYINFU3",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 555,
 		best_air_dominance = 725,
-		count = 0,
 		id = 1400011,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 0,
+		formation = 1400011,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
 		star_require_1 = 1,
 		pos_y = "0.392708333",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		is_ai = 1,
-		group_num = 2,
+		ammo_submarine = 0,
 		num_2 = 17,
+		is_ai = 1,
+		map = 1400011,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -231944,7 +232774,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 1400011,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "在与胡德、威尔士亲王交手后，俾斯麦与欧根亲王试图摆脱皇家舰队的围捕，在前方等待她们的将是？",
@@ -232504,36 +233334,38 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1400012] = {
-		mine_id = 2001,
 		pos_x = "0.38203125",
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 705,
 		best_air_dominance = 920,
-		count = 0,
 		id = 1400012,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1400011,
+		formation = 1400011,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
 		star_require_1 = 1,
 		pos_y = "0.052083333",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		is_ai = 1,
-		group_num = 2,
+		ammo_submarine = 0,
 		num_2 = 17,
+		is_ai = 1,
+		map = 1400011,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -232550,7 +233382,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 1400011,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "倾巢而出的皇家舰队，在耳边轻声呢喃着的“海妖”的诱惑，正确的选择，究竟在何处…？",
@@ -233112,36 +233944,38 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1400013] = {
-		mine_id = 2001,
 		pos_x = "0.665625",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 875,
 		best_air_dominance = 1140,
-		count = 0,
 		id = 1400013,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1400012,
+		formation = 1400011,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
 		star_require_1 = 1,
 		pos_y = "0.344791667",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		is_ai = 1,
-		group_num = 2,
+		ammo_submarine = 0,
 		num_2 = 21,
+		is_ai = 1,
+		map = 1400011,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -233158,7 +233992,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 1400011,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "皇家舰队派出了大量的舰载机进行拦截，面对数倍于自己的对手，只要火炮犹在，我等就将继续战斗——",
@@ -233805,36 +234639,38 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1400014] = {
-		mine_id = 2001,
 		pos_x = "0.14609375",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "TIEXUEYUYINFU12",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 950,
 		best_air_dominance = 1235,
-		count = 0,
 		id = 1400014,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1400013,
+		formation = 1400012,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
 		star_require_1 = 1,
 		pos_y = "0.380208333",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		is_ai = 1,
-		group_num = 2,
+		ammo_submarine = 0,
 		num_2 = 35,
+		is_ai = 1,
+		map = 1400012,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -233851,7 +234687,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 1400012,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "俾斯麦丧失了行动力，但仍在负隅顽抗。胜利终将属于我们，为了胡德，为了皇家舰队的荣耀，开火！",
@@ -234508,36 +235344,38 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1400015] = {
-		mine_id = 2001,
 		pos_x = "0.28671875",
 		num_3 = 1,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 1155,
 		best_air_dominance = 1505,
-		count = 0,
 		id = 1400015,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1400014,
+		formation = 1400012,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
 		star_require_1 = 1,
 		pos_y = "0.122916667",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		is_ai = 1,
-		group_num = 2,
+		ammo_submarine = 0,
 		num_2 = 40,
+		is_ai = 1,
+		map = 1400012,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -234554,7 +235392,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 1400012,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "人类进化发展的历史…便是科学与学习的历史，为了学习那份未知的知识，一切的牺牲都是值得的——",
@@ -235256,36 +236094,38 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1400016] = {
-		mine_id = 2001,
 		pos_x = "0.6046875",
 		num_3 = 1,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 1345,
 		best_air_dominance = 1750,
-		count = 0,
 		id = 1400016,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1400015,
+		formation = 1400012,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
 		star_require_1 = 1,
 		pos_y = "0.35625",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		is_ai = 1,
-		group_num = 2,
+		ammo_submarine = 0,
 		num_2 = 40,
+		is_ai = 1,
+		map = 1400012,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -235302,7 +236142,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 1400012,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "“音乐总是能唤起我心中两个截然不同的渴望:一个是战争;另一个是田园诗般的宁静”",
@@ -235976,36 +236816,38 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1400017] = {
-		mine_id = 2001,
 		pos_x = "0.479",
 		num_3 = 0,
 		progress_boss = 100,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 1770,
 		best_air_dominance = 2305,
-		count = 1,
 		id = 1400017,
+		count = 1,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1400016,
+		formation = 1400020,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
 		star_require_1 = 0,
 		pos_y = "0.2979",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 0,
 		model = 2,
 		investigation_ratio = 0,
-		is_ai = 1,
-		group_num = 2,
+		ammo_submarine = 0,
 		num_2 = 0,
+		is_ai = 1,
+		map = 1400020,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -236022,7 +236864,7 @@ pg.chapter_template = {
 		mitigation_rate = 0,
 		mitigation_level = 0,
 		ammo_total = 5,
-		map = 1400020,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 0,
 		profiles = "人生之路的旅者啊，暂且停下匆忙的脚步，随着这首轻快的曲子纵情舞蹈，小憩片刻如何？",
@@ -236644,36 +237486,38 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[1400021] = {
-		mine_id = 2001,
 		pos_x = "0.479",
 		num_3 = 0,
 		progress_boss = 100,
 		oil = 0,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 620,
 		best_air_dominance = 810,
-		count = 0,
 		id = 1400021,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 1400016,
+		formation = 1400021,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
 		star_require_1 = 0,
 		pos_y = "0.2979",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 0,
 		model = 5,
 		investigation_ratio = 0,
-		is_ai = 1,
-		group_num = 1,
+		ammo_submarine = 0,
 		num_2 = 0,
+		is_ai = 1,
+		map = 1400021,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -236690,7 +237534,7 @@ pg.chapter_template = {
 		mitigation_rate = 0,
 		mitigation_level = 0,
 		ammo_total = 5,
-		map = 1400021,
+		group_num = 1,
 		enter_story_limit = "",
 		star_require_3 = 0,
 		profiles = "心怀夙愿，渴求力量之人，终将被自身吞噬，然而，即便如此，我们也不会停止对力量的追寻。挑战者啊，为彷徨于黑夜之人奏响终结的夜曲吧——",
@@ -237043,39 +237887,38482 @@ pg.chapter_template = {
 		wall_prefab = {},
 		alarm_cell = {}
 	},
-	[2100001] = {
+	[1410001] = {
+		pos_x = "0.18",
+		num_3 = 1,
+		progress_boss = 50,
+		oil = 10,
+		is_limit_move = 1,
 		mine_id = 2001,
+		activate_time = 0,
+		story_refresh_boss = "DIEHAIMENGHUA7",
+		is_ambush = 0,
+		ammo_cost = 1,
+		collection_team = 0,
+		special_operation_list = "",
+		air_dominance = 95,
+		best_air_dominance = 150,
+		id = 1410001,
+		count = 0,
+		icon_outline = 0,
+		bg = "",
+		pre_chapter = 1410007,
+		formation = 1410001,
+		bgm = "story-6",
+		chapter_tag = 0,
+		star_require_1 = 1,
+		pos_y = "0.26",
+		pop_pic = "",
+		num_1 = 1,
+		model = 2,
+		investigation_ratio = 0,
+		ammo_submarine = 0,
+		num_2 = 10,
+		is_ai = 1,
+		map = 1410001,
+		unlocklevel = 0,
+		chapter_fx = "",
+		uifx = "",
+		name = "对局",
+		chapter_name = "T1",
+		type = 1,
+		act_id = 701,
+		enter_story = "DIEHAIMENGHUA6",
+		boss_refresh = 3,
+		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
+		friendly_id = 0,
+		mitigation_rate = 2,
+		mitigation_level = 5,
+		ammo_total = 5,
+		group_num = 2,
+		enter_story_limit = "",
+		star_require_3 = 3,
+		profiles = "「脑海之中，仍残留着无数次与梦中与测试者交手之经验，就算是现在的状态也…有胜算！」",
+		difficulty = 3,
+		avoid_ratio = 8,
+		star_require_2 = 2,
+		time = 43200,
+		win_condition_display = "win_condition_display_qijian",
+		submarine_num = 1,
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {},
+		property_limitation = {},
+		expedition_id_weight_list = {
+			{
+				1440001,
+				15,
+				0
+			},
+			{
+				1440002,
+				20,
+				0
+			},
+			{
+				1440003,
+				30,
+				1
+			},
+			{
+				1440004,
+				15,
+				0
+			},
+			{
+				1440005,
+				20,
+				0
+			},
+			{
+				1440006,
+				30,
+				1
+			},
+			{
+				1440007,
+				15,
+				0
+			},
+			{
+				1440008,
+				20,
+				0
+			},
+			{
+				1440009,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {
+			1440005,
+			1440008
+		},
+		ai_expedition_list = {
+			1440301,
+			1440303
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1440013
+		},
+		enemy_refresh = {
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			0,
+			0,
+			0,
+			0
+		},
+		ai_refresh = {
+			1
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"unknown1"
+		},
+		awards = {
+			{
+				2,
+				58001
+			},
+			{
+				2,
+				57989
+			},
+			{
+				2,
+				54012
+			},
+			{
+				2,
+				54022
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				6,
+				10,
+				false,
+				0
+			},
+			{
+				6,
+				9,
+				true,
+				4
+			},
+			{
+				6,
+				8,
+				true,
+				0
+			},
+			{
+				6,
+				7,
+				true,
+				0
+			},
+			{
+				6,
+				6,
+				true,
+				1
+			},
+			{
+				6,
+				5,
+				true,
+				0
+			},
+			{
+				6,
+				4,
+				true,
+				1
+			},
+			{
+				6,
+				3,
+				true,
+				0
+			},
+			{
+				6,
+				2,
+				true,
+				0
+			},
+			{
+				6,
+				1,
+				true,
+				4
+			},
+			{
+				6,
+				0,
+				false,
+				0
+			},
+			{
+				5,
+				10,
+				true,
+				6
+			},
+			{
+				5,
+				9,
+				true,
+				0
+			},
+			{
+				5,
+				8,
+				true,
+				12
+			},
+			{
+				5,
+				7,
+				true,
+				0
+			},
+			{
+				5,
+				6,
+				true,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				16
+			},
+			{
+				5,
+				4,
+				true,
+				0
+			},
+			{
+				5,
+				3,
+				true,
+				0
+			},
+			{
+				5,
+				2,
+				true,
+				12
+			},
+			{
+				5,
+				1,
+				true,
+				0
+			},
+			{
+				5,
+				0,
+				true,
+				6
+			},
+			{
+				4,
+				10,
+				true,
+				0
+			},
+			{
+				4,
+				9,
+				true,
+				0
+			},
+			{
+				4,
+				8,
+				true,
+				0
+			},
+			{
+				4,
+				7,
+				true,
+				6
+			},
+			{
+				4,
+				6,
+				true,
+				12
+			},
+			{
+				4,
+				5,
+				true,
+				0
+			},
+			{
+				4,
+				4,
+				true,
+				12
+			},
+			{
+				4,
+				3,
+				true,
+				6
+			},
+			{
+				4,
+				2,
+				true,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				0
+			},
+			{
+				4,
+				0,
+				true,
+				0
+			},
+			{
+				3,
+				10,
+				true,
+				6
+			},
+			{
+				3,
+				9,
+				true,
+				0
+			},
+			{
+				3,
+				8,
+				true,
+				6
+			},
+			{
+				3,
+				7,
+				false,
+				0
+			},
+			{
+				3,
+				6,
+				false,
+				0
+			},
+			{
+				3,
+				5,
+				true,
+				0
+			},
+			{
+				3,
+				4,
+				false,
+				0
+			},
+			{
+				3,
+				3,
+				false,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				6
+			},
+			{
+				3,
+				1,
+				true,
+				0
+			},
+			{
+				3,
+				0,
+				true,
+				6
+			},
+			{
+				2,
+				10,
+				false,
+				0
+			},
+			{
+				2,
+				9,
+				true,
+				4
+			},
+			{
+				2,
+				8,
+				true,
+				0
+			},
+			{
+				2,
+				7,
+				false,
+				0
+			},
+			{
+				2,
+				6,
+				false,
+				0
+			},
+			{
+				2,
+				5,
+				true,
+				0
+			},
+			{
+				2,
+				4,
+				false,
+				0
+			},
+			{
+				2,
+				3,
+				false,
+				0
+			},
+			{
+				2,
+				2,
+				true,
+				0
+			},
+			{
+				2,
+				1,
+				true,
+				4
+			},
+			{
+				2,
+				0,
+				false,
+				0
+			},
+			{
+				1,
+				10,
+				true,
+				0
+			},
+			{
+				1,
+				9,
+				false,
+				0
+			},
+			{
+				1,
+				8,
+				false,
+				0
+			},
+			{
+				1,
+				7,
+				false,
+				0
+			},
+			{
+				1,
+				6,
+				true,
+				4
+			},
+			{
+				1,
+				5,
+				true,
+				0
+			},
+			{
+				1,
+				4,
+				true,
+				4
+			},
+			{
+				1,
+				3,
+				false,
+				0
+			},
+			{
+				1,
+				2,
+				false,
+				0
+			},
+			{
+				1,
+				1,
+				false,
+				0
+			},
+			{
+				1,
+				0,
+				true,
+				0
+			},
+			{
+				0,
+				10,
+				true,
+				0
+			},
+			{
+				0,
+				9,
+				true,
+				0
+			},
+			{
+				0,
+				8,
+				false,
+				0
+			},
+			{
+				0,
+				7,
+				true,
+				0
+			},
+			{
+				0,
+				6,
+				true,
+				0
+			},
+			{
+				0,
+				5,
+				true,
+				8
+			},
+			{
+				0,
+				4,
+				true,
+				0
+			},
+			{
+				0,
+				3,
+				true,
+				0
+			},
+			{
+				0,
+				2,
+				false,
+				0
+			},
+			{
+				0,
+				1,
+				true,
+				0
+			},
+			{
+				0,
+				0,
+				true,
+				0
+			}
+		},
+		float_items = {
+			{
+				6,
+				10,
+				"1x1XWIsLand_3",
+				1,
+				1
+			},
+			{
+				6,
+				0,
+				"1x1XWIsLand_3",
+				1,
+				1
+			},
+			{
+				2,
+				10,
+				"1x1XWIsLand_1",
+				11,
+				33
+			},
+			{
+				2,
+				6,
+				"2x2XWIsLand_3",
+				63,
+				-37
+			},
+			{
+				2,
+				3,
+				"2x2XWIsLand_2",
+				46,
+				-37
+			},
+			{
+				2,
+				0,
+				"1x1XWIsLand_1",
+				11,
+				33
+			},
+			{
+				1,
+				7,
+				"1x3XWIsLand_3",
+				92,
+				4
+			},
+			{
+				1,
+				1,
+				"1x3XWIsLand_1",
+				112,
+				4
+			},
+			{
+				0,
+				8,
+				"1x1XWIsLand_2",
+				0,
+				4
+			},
+			{
+				0,
+				2,
+				"1x1XWIsLand_2",
+				0,
+				5
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_daxuanwo",
+			45,
+			20,
+			-334,
+			-84,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			4,
+			22,
+			102,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {
+			"DIEHAIMENGHUA9"
+		},
+		defeat_story_count = {
+			2
+		},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {
+			{
+				5,
+				4
+			},
+			{
+				3,
+				2
+			},
+			{
+				1,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {},
+		chapter_buff = {},
+		wall_prefab = {},
+		alarm_cell = {}
+	},
+	[1410002] = {
+		pos_x = "0.18",
+		num_3 = 1,
+		progress_boss = 34,
+		oil = 10,
+		is_limit_move = 1,
+		mine_id = 2001,
+		activate_time = 0,
+		story_refresh_boss = "",
+		is_ambush = 0,
+		ammo_cost = 1,
+		collection_team = 0,
+		special_operation_list = "",
+		air_dominance = 130,
+		best_air_dominance = 170,
+		id = 1410002,
+		count = 0,
+		icon_outline = 0,
+		bg = "",
+		pre_chapter = 1410001,
+		formation = 1410001,
+		bgm = "xinnong-2",
+		chapter_tag = 0,
+		star_require_1 = 1,
+		pos_y = "0.402083333",
+		pop_pic = "",
+		num_1 = 1,
+		model = 2,
+		investigation_ratio = 0,
+		ammo_submarine = 0,
+		num_2 = 15,
+		is_ai = 1,
+		map = 1410002,
+		unlocklevel = 0,
+		chapter_fx = "",
+		uifx = "",
+		name = "殊途",
+		chapter_name = "T2",
+		type = 1,
+		act_id = 701,
+		enter_story = "DIEHAIMENGHUA10",
+		boss_refresh = 4,
+		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
+		friendly_id = 0,
+		mitigation_rate = 2,
+		mitigation_level = 5,
+		ammo_total = 5,
+		group_num = 2,
+		enter_story_limit = "",
+		star_require_3 = 3,
+		profiles = "「梦境也好，现实也罢。不论身处何方，妾身须行之事都不曾有任何改变…{namecode:83}级三号舰{namecode:182}，现在加入战斗！」",
+		difficulty = 4,
+		avoid_ratio = 9,
+		star_require_2 = 2,
+		time = 43200,
+		win_condition_display = "win_condition_display_qijian",
+		submarine_num = 1,
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {},
+		property_limitation = {},
+		expedition_id_weight_list = {
+			{
+				1440101,
+				15,
+				0
+			},
+			{
+				1440102,
+				20,
+				0
+			},
+			{
+				1440103,
+				30,
+				1
+			},
+			{
+				1440104,
+				15,
+				0
+			},
+			{
+				1440105,
+				20,
+				0
+			},
+			{
+				1440106,
+				30,
+				1
+			},
+			{
+				1440107,
+				15,
+				0
+			},
+			{
+				1440108,
+				20,
+				0
+			},
+			{
+				1440109,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {
+			1440105,
+			1440108
+		},
+		ai_expedition_list = {
+			1440305
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1440113
+		},
+		enemy_refresh = {
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			0,
+			0,
+			0,
+			0
+		},
+		ai_refresh = {
+			1
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"gaoxiong_alter"
+		},
+		awards = {
+			{
+				2,
+				58002
+			},
+			{
+				2,
+				57990
+			},
+			{
+				2,
+				54012
+			},
+			{
+				2,
+				54022
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				6,
+				7,
+				true,
+				12
+			},
+			{
+				6,
+				6,
+				true,
+				0
+			},
+			{
+				6,
+				5,
+				true,
+				1
+			},
+			{
+				6,
+				4,
+				true,
+				1
+			},
+			{
+				6,
+				3,
+				false,
+				0
+			},
+			{
+				6,
+				2,
+				false,
+				0
+			},
+			{
+				6,
+				1,
+				true,
+				6
+			},
+			{
+				6,
+				0,
+				true,
+				0
+			},
+			{
+				5,
+				7,
+				false,
+				0
+			},
+			{
+				5,
+				6,
+				true,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				0
+			},
+			{
+				5,
+				4,
+				true,
+				0
+			},
+			{
+				5,
+				3,
+				true,
+				0
+			},
+			{
+				5,
+				2,
+				true,
+				0
+			},
+			{
+				5,
+				1,
+				true,
+				0
+			},
+			{
+				5,
+				0,
+				true,
+				12
+			},
+			{
+				4,
+				7,
+				true,
+				6
+			},
+			{
+				4,
+				6,
+				true,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				4
+			},
+			{
+				4,
+				4,
+				true,
+				0
+			},
+			{
+				4,
+				3,
+				true,
+				4
+			},
+			{
+				4,
+				2,
+				true,
+				4
+			},
+			{
+				4,
+				1,
+				false,
+				0
+			},
+			{
+				4,
+				0,
+				true,
+				0
+			},
+			{
+				3,
+				7,
+				true,
+				0
+			},
+			{
+				3,
+				6,
+				true,
+				12
+			},
+			{
+				3,
+				5,
+				false,
+				0
+			},
+			{
+				3,
+				4,
+				false,
+				0
+			},
+			{
+				3,
+				3,
+				false,
+				0
+			},
+			{
+				3,
+				2,
+				false,
+				0
+			},
+			{
+				3,
+				1,
+				true,
+				6
+			},
+			{
+				3,
+				0,
+				false,
+				0
+			},
+			{
+				2,
+				7,
+				true,
+				6
+			},
+			{
+				2,
+				6,
+				false,
+				0
+			},
+			{
+				2,
+				5,
+				true,
+				0
+			},
+			{
+				2,
+				4,
+				true,
+				6
+			},
+			{
+				2,
+				3,
+				true,
+				0
+			},
+			{
+				2,
+				2,
+				true,
+				0
+			},
+			{
+				2,
+				1,
+				true,
+				0
+			},
+			{
+				2,
+				0,
+				true,
+				0
+			},
+			{
+				1,
+				7,
+				false,
+				0
+			},
+			{
+				1,
+				6,
+				true,
+				8
+			},
+			{
+				1,
+				5,
+				true,
+				0
+			},
+			{
+				1,
+				4,
+				true,
+				0
+			},
+			{
+				1,
+				3,
+				true,
+				16
+			},
+			{
+				1,
+				2,
+				true,
+				4
+			},
+			{
+				1,
+				1,
+				true,
+				0
+			},
+			{
+				1,
+				0,
+				true,
+				6
+			},
+			{
+				0,
+				7,
+				false,
+				0
+			},
+			{
+				0,
+				6,
+				false,
+				0
+			},
+			{
+				0,
+				5,
+				true,
+				6
+			},
+			{
+				0,
+				4,
+				true,
+				0
+			},
+			{
+				0,
+				3,
+				true,
+				6
+			},
+			{
+				0,
+				2,
+				true,
+				0
+			},
+			{
+				0,
+				1,
+				false,
+				0
+			},
+			{
+				0,
+				0,
+				true,
+				0
+			}
+		},
+		float_items = {
+			{
+				6,
+				2,
+				"xinnong_normal_2x1_2",
+				67,
+				29
+			},
+			{
+				5,
+				7,
+				"xinnong_normal_1x1_3",
+				3,
+				26
+			},
+			{
+				4,
+				4,
+				"xinnong_teleport02",
+				0,
+				56
+			},
+			{
+				4,
+				1,
+				"xinnong_normal_1x1_2",
+				2,
+				38
+			},
+			{
+				3,
+				3,
+				"xinnong_normal_3x1_1",
+				107,
+				13
+			},
+			{
+				3,
+				2,
+				"xinnong_normal_1x1_1",
+				0,
+				0
+			},
+			{
+				3,
+				0,
+				"xinnong_normal_1x1_1",
+				0,
+				0
+			},
+			{
+				2,
+				6,
+				"xinnong_normal_1x1_3",
+				0,
+				9
+			},
+			{
+				0,
+				6,
+				"xinnong_normal_2x2_1",
+				67,
+				-15
+			},
+			{
+				0,
+				4,
+				"xinnong_teleport02",
+				0,
+				55
+			},
+			{
+				0,
+				1,
+				"xinnong_normal_1x1_3",
+				0,
+				27
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_xinnong_normal",
+			45,
+			20,
+			-226,
+			-89,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			4,
+			22,
+			102,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {
+			"DIEHAIMENGHUA11"
+		},
+		defeat_story = {
+			"DIEHAIMENGHUA14"
+		},
+		defeat_story_count = {
+			3
+		},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {
+			{
+				5,
+				4
+			},
+			{
+				3,
+				2
+			},
+			{
+				1,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {},
+		chapter_buff = {},
+		wall_prefab = {},
+		alarm_cell = {}
+	},
+	[1410003] = {
+		pos_x = "0.18",
+		num_3 = 1,
+		progress_boss = 34,
+		oil = 10,
+		is_limit_move = 1,
+		mine_id = 2001,
+		activate_time = 0,
+		story_refresh_boss = "DIEHAIMENGHUA17",
+		is_ambush = 0,
+		ammo_cost = 1,
+		collection_team = 0,
+		special_operation_list = "",
+		air_dominance = 170,
+		best_air_dominance = 225,
+		id = 1410003,
+		count = 0,
+		icon_outline = 0,
+		bg = "",
+		pre_chapter = 1410002,
+		formation = 1410001,
+		bgm = "bsm-1",
+		chapter_tag = 0,
+		star_require_1 = 1,
+		pos_y = "0.123958333",
+		pop_pic = "",
+		num_1 = 1,
+		model = 2,
+		investigation_ratio = 0,
+		ammo_submarine = 0,
+		num_2 = 15,
+		is_ai = 1,
+		map = 1410002,
+		unlocklevel = 0,
+		chapter_fx = "",
+		uifx = "",
+		name = "浮光",
+		chapter_name = "T3",
+		type = 1,
+		act_id = 701,
+		enter_story = "DIEHAIMENGHUA15",
+		boss_refresh = 4,
+		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
+		friendly_id = 0,
+		mitigation_rate = 2,
+		mitigation_level = 5,
+		ammo_total = 5,
+		group_num = 2,
+		enter_story_limit = "",
+		star_require_3 = 3,
+		profiles = "「火炬，为至暗之刻带来存续的光明，在此身粉碎之前，都将永远燃烧下去......愿火炬之光常明。」",
+		difficulty = 5,
+		avoid_ratio = 10,
+		star_require_2 = 2,
+		time = 43200,
+		win_condition_display = "win_condition_display_qijian",
+		submarine_num = 1,
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {},
+		property_limitation = {},
+		expedition_id_weight_list = {
+			{
+				1440201,
+				15,
+				0
+			},
+			{
+				1440202,
+				20,
+				0
+			},
+			{
+				1440203,
+				30,
+				1
+			},
+			{
+				1440204,
+				15,
+				0
+			},
+			{
+				1440205,
+				20,
+				0
+			},
+			{
+				1440206,
+				30,
+				1
+			},
+			{
+				1440207,
+				15,
+				0
+			},
+			{
+				1440208,
+				20,
+				0
+			},
+			{
+				1440209,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {
+			1440205,
+			1440208
+		},
+		ai_expedition_list = {
+			1440307
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1440213
+		},
+		enemy_refresh = {
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			0,
+			0,
+			0,
+			0
+		},
+		ai_refresh = {
+			1
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"sairenzhanlie_M"
+		},
+		awards = {
+			{
+				2,
+				58003
+			},
+			{
+				2,
+				57991
+			},
+			{
+				2,
+				54012
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				8,
+				8,
+				true,
+				0
+			},
+			{
+				8,
+				7,
+				true,
+				0
+			},
+			{
+				8,
+				6,
+				false,
+				0
+			},
+			{
+				8,
+				5,
+				true,
+				0
+			},
+			{
+				8,
+				4,
+				true,
+				6
+			},
+			{
+				8,
+				3,
+				true,
+				0
+			},
+			{
+				8,
+				2,
+				true,
+				4
+			},
+			{
+				8,
+				1,
+				true,
+				0
+			},
+			{
+				8,
+				0,
+				false,
+				0
+			},
+			{
+				7,
+				8,
+				true,
+				0
+			},
+			{
+				7,
+				7,
+				true,
+				0
+			},
+			{
+				7,
+				6,
+				false,
+				0
+			},
+			{
+				7,
+				5,
+				true,
+				12
+			},
+			{
+				7,
+				4,
+				true,
+				0
+			},
+			{
+				7,
+				3,
+				true,
+				0
+			},
+			{
+				7,
+				2,
+				true,
+				0
+			},
+			{
+				7,
+				1,
+				true,
+				12
+			},
+			{
+				7,
+				0,
+				true,
+				0
+			},
+			{
+				6,
+				8,
+				true,
+				0
+			},
+			{
+				6,
+				7,
+				true,
+				8
+			},
+			{
+				6,
+				6,
+				false,
+				0
+			},
+			{
+				6,
+				5,
+				true,
+				0
+			},
+			{
+				6,
+				4,
+				false,
+				0
+			},
+			{
+				6,
+				3,
+				true,
+				1
+			},
+			{
+				6,
+				2,
+				true,
+				0
+			},
+			{
+				6,
+				1,
+				true,
+				0
+			},
+			{
+				6,
+				0,
+				true,
+				4
+			},
+			{
+				5,
+				8,
+				false,
+				0
+			},
+			{
+				5,
+				7,
+				false,
+				0
+			},
+			{
+				5,
+				6,
+				false,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				4
+			},
+			{
+				5,
+				4,
+				true,
+				0
+			},
+			{
+				5,
+				3,
+				true,
+				0
+			},
+			{
+				5,
+				2,
+				true,
+				1
+			},
+			{
+				5,
+				1,
+				true,
+				0
+			},
+			{
+				5,
+				0,
+				true,
+				0
+			},
+			{
+				4,
+				8,
+				true,
+				6
+			},
+			{
+				4,
+				7,
+				true,
+				0
+			},
+			{
+				4,
+				6,
+				true,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				0
+			},
+			{
+				4,
+				4,
+				true,
+				16
+			},
+			{
+				4,
+				3,
+				true,
+				0
+			},
+			{
+				4,
+				2,
+				false,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				0
+			},
+			{
+				4,
+				0,
+				true,
+				6
+			},
+			{
+				3,
+				8,
+				true,
+				0
+			},
+			{
+				3,
+				7,
+				true,
+				0
+			},
+			{
+				3,
+				6,
+				false,
+				0
+			},
+			{
+				3,
+				5,
+				true,
+				4
+			},
+			{
+				3,
+				4,
+				true,
+				0
+			},
+			{
+				3,
+				3,
+				true,
+				4
+			},
+			{
+				3,
+				2,
+				true,
+				0
+			},
+			{
+				3,
+				1,
+				true,
+				12
+			},
+			{
+				3,
+				0,
+				true,
+				0
+			},
+			{
+				2,
+				8,
+				true,
+				6
+			},
+			{
+				2,
+				7,
+				true,
+				0
+			},
+			{
+				2,
+				6,
+				false,
+				0
+			},
+			{
+				2,
+				5,
+				false,
+				0
+			},
+			{
+				2,
+				4,
+				true,
+				0
+			},
+			{
+				2,
+				3,
+				false,
+				0
+			},
+			{
+				2,
+				2,
+				false,
+				0
+			},
+			{
+				2,
+				1,
+				false,
+				0
+			},
+			{
+				2,
+				0,
+				false,
+				0
+			},
+			{
+				1,
+				8,
+				true,
+				0
+			},
+			{
+				1,
+				7,
+				true,
+				0
+			},
+			{
+				1,
+				6,
+				true,
+				0
+			},
+			{
+				1,
+				5,
+				true,
+				0
+			},
+			{
+				1,
+				4,
+				true,
+				0
+			},
+			{
+				1,
+				3,
+				false,
+				0
+			},
+			{
+				1,
+				2,
+				true,
+				8
+			},
+			{
+				1,
+				1,
+				true,
+				0
+			},
+			{
+				1,
+				0,
+				true,
+				0
+			},
+			{
+				0,
+				8,
+				false,
+				0
+			},
+			{
+				0,
+				7,
+				true,
+				0
+			},
+			{
+				0,
+				6,
+				true,
+				6
+			},
+			{
+				0,
+				5,
+				true,
+				0
+			},
+			{
+				0,
+				4,
+				true,
+				6
+			},
+			{
+				0,
+				3,
+				false,
+				0
+			},
+			{
+				0,
+				2,
+				true,
+				0
+			},
+			{
+				0,
+				1,
+				true,
+				0
+			},
+			{
+				0,
+				0,
+				true,
+				0
+			}
+		},
+		float_items = {
+			{
+				8,
+				8,
+				"xinnong_teleport02",
+				0,
+				18
+			},
+			{
+				8,
+				0,
+				"xinnong_hard_1x1_1",
+				0,
+				0
+			},
+			{
+				7,
+				6,
+				"xinnong_normal_1x2_1",
+				0,
+				-39
+			},
+			{
+				6,
+				6,
+				"xinnong_normal_1x1_2",
+				0,
+				30
+			},
+			{
+				6,
+				4,
+				"xinnong_normal_1x1_3",
+				0,
+				20
+			},
+			{
+				5,
+				8,
+				"xinnong_normal_3x1_1",
+				-104,
+				9
+			},
+			{
+				4,
+				2,
+				"xinnong_normal_1x1_3",
+				0,
+				23
+			},
+			{
+				2,
+				5,
+				"xinnong_normal_2x2_1",
+				71,
+				-24
+			},
+			{
+				2,
+				3,
+				"xinnong_normal_1x1_2",
+				-1,
+				31
+			},
+			{
+				2,
+				0,
+				"xinnong_normal_3x1_1",
+				104,
+				10
+			},
+			{
+				1,
+				8,
+				"xinnong_teleport01",
+				7,
+				47
+			},
+			{
+				0,
+				8,
+				"xinnong_normal_1x1_2",
+				0,
+				46
+			},
+			{
+				0,
+				7,
+				"xinnong_teleport02",
+				0,
+				45
+			},
+			{
+				0,
+				3,
+				"xinnong_normal_1x2_1",
+				0,
+				-34
+			},
+			{
+				0,
+				0,
+				"xinnong_teleport03",
+				-4,
+				46
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_xinnong_normal",
+			45,
+			20,
+			-134,
+			110,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			4,
+			22,
+			102,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {
+			"DIEHAIMENGHUA16"
+		},
+		defeat_story = {
+			"DIEHAIMENGHUA19",
+			"DIEHAIMENGHUA20"
+		},
+		defeat_story_count = {
+			1,
+			3
+		},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {
+			{
+				5,
+				4
+			},
+			{
+				3,
+				2
+			},
+			{
+				1,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {},
+		chapter_buff = {},
+		wall_prefab = {},
+		alarm_cell = {}
+	},
+	[1410004] = {
+		pos_x = "0.69",
+		num_3 = 1,
+		progress_boss = 25,
+		oil = 10,
+		is_limit_move = 1,
+		mine_id = 2001,
+		activate_time = 0,
+		story_refresh_boss = "DIEHAIMENGHUA23",
+		is_ambush = 0,
+		ammo_cost = 1,
+		collection_team = 0,
+		special_operation_list = "",
+		air_dominance = 220,
+		best_air_dominance = 290,
+		id = 1410004,
+		count = 0,
+		icon_outline = 0,
+		bg = "",
+		pre_chapter = 1410003,
+		formation = 1410002,
+		bgm = "xinnong-3",
+		chapter_tag = 0,
+		star_require_1 = 1,
+		pos_y = "0.402083333",
+		pop_pic = "",
+		num_1 = 1,
+		model = 2,
+		investigation_ratio = 0,
+		ammo_submarine = 0,
+		num_2 = 25,
+		is_ai = 1,
+		map = 1410002,
+		unlocklevel = 0,
+		chapter_fx = "",
+		uifx = "",
+		name = "锈迹",
+		chapter_name = "T4",
+		type = 1,
+		act_id = 702,
+		enter_story = "DIEHAIMENGHUA21",
+		boss_refresh = 4,
+		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
+		friendly_id = 0,
+		mitigation_rate = 2,
+		mitigation_level = 5,
+		ammo_total = 5,
+		group_num = 2,
+		enter_story_limit = "",
+		star_require_3 = 3,
+		profiles = "「同{namecode:80}自天岩岛起航才是妾身的首次航行，可是，为什么…鲜明的情报如流水一般汇入脑海之中…」",
+		difficulty = 5,
+		avoid_ratio = 10,
+		star_require_2 = 2,
+		time = 43200,
+		win_condition_display = "win_condition_display_qijian",
+		submarine_num = 1,
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {},
+		property_limitation = {},
+		expedition_id_weight_list = {
+			{
+				1441001,
+				15,
+				0
+			},
+			{
+				1441002,
+				20,
+				0
+			},
+			{
+				1441003,
+				30,
+				1
+			},
+			{
+				1441004,
+				15,
+				0
+			},
+			{
+				1441005,
+				20,
+				0
+			},
+			{
+				1441006,
+				30,
+				1
+			},
+			{
+				1441007,
+				15,
+				0
+			},
+			{
+				1441008,
+				20,
+				0
+			},
+			{
+				1441009,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {
+			1441005,
+			1441008
+		},
+		ai_expedition_list = {
+			1441301,
+			1441303
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1441013
+		},
+		enemy_refresh = {
+			1,
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			0,
+			1,
+			0,
+			1
+		},
+		ai_refresh = {
+			1
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"sairenqianting_M"
+		},
+		awards = {
+			{
+				2,
+				58004
+			},
+			{
+				2,
+				57992
+			},
+			{
+				2,
+				54012
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				8,
+				10,
+				true,
+				4
+			},
+			{
+				8,
+				9,
+				true,
+				0
+			},
+			{
+				8,
+				8,
+				true,
+				0
+			},
+			{
+				8,
+				7,
+				false,
+				0
+			},
+			{
+				8,
+				6,
+				true,
+				4
+			},
+			{
+				8,
+				5,
+				true,
+				0
+			},
+			{
+				8,
+				4,
+				true,
+				6
+			},
+			{
+				8,
+				3,
+				true,
+				0
+			},
+			{
+				8,
+				2,
+				true,
+				6
+			},
+			{
+				8,
+				1,
+				false,
+				0
+			},
+			{
+				8,
+				0,
+				false,
+				0
+			},
+			{
+				7,
+				10,
+				true,
+				0
+			},
+			{
+				7,
+				9,
+				true,
+				12
+			},
+			{
+				7,
+				8,
+				true,
+				0
+			},
+			{
+				7,
+				7,
+				false,
+				0
+			},
+			{
+				7,
+				6,
+				true,
+				0
+			},
+			{
+				7,
+				5,
+				true,
+				1
+			},
+			{
+				7,
+				4,
+				true,
+				0
+			},
+			{
+				7,
+				3,
+				true,
+				16
+			},
+			{
+				7,
+				2,
+				true,
+				0
+			},
+			{
+				7,
+				1,
+				true,
+				12
+			},
+			{
+				7,
+				0,
+				true,
+				0
+			},
+			{
+				6,
+				10,
+				true,
+				0
+			},
+			{
+				6,
+				9,
+				true,
+				0
+			},
+			{
+				6,
+				8,
+				true,
+				4
+			},
+			{
+				6,
+				7,
+				false,
+				0
+			},
+			{
+				6,
+				6,
+				true,
+				0
+			},
+			{
+				6,
+				5,
+				true,
+				0
+			},
+			{
+				6,
+				4,
+				true,
+				0
+			},
+			{
+				6,
+				3,
+				true,
+				6
+			},
+			{
+				6,
+				2,
+				true,
+				0
+			},
+			{
+				6,
+				1,
+				true,
+				0
+			},
+			{
+				6,
+				0,
+				true,
+				0
+			},
+			{
+				5,
+				10,
+				true,
+				6
+			},
+			{
+				5,
+				9,
+				true,
+				0
+			},
+			{
+				5,
+				8,
+				false,
+				0
+			},
+			{
+				5,
+				7,
+				false,
+				0
+			},
+			{
+				5,
+				6,
+				false,
+				0
+			},
+			{
+				5,
+				5,
+				false,
+				0
+			},
+			{
+				5,
+				4,
+				false,
+				0
+			},
+			{
+				5,
+				3,
+				false,
+				0
+			},
+			{
+				5,
+				2,
+				false,
+				0
+			},
+			{
+				5,
+				1,
+				true,
+				0
+			},
+			{
+				5,
+				0,
+				true,
+				6
+			},
+			{
+				4,
+				10,
+				true,
+				0
+			},
+			{
+				4,
+				9,
+				true,
+				0
+			},
+			{
+				4,
+				8,
+				true,
+				0
+			},
+			{
+				4,
+				7,
+				false,
+				0
+			},
+			{
+				4,
+				6,
+				true,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				8
+			},
+			{
+				4,
+				4,
+				true,
+				0
+			},
+			{
+				4,
+				3,
+				false,
+				0
+			},
+			{
+				4,
+				2,
+				true,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				0
+			},
+			{
+				4,
+				0,
+				true,
+				0
+			},
+			{
+				3,
+				10,
+				true,
+				6
+			},
+			{
+				3,
+				9,
+				true,
+				0
+			},
+			{
+				3,
+				8,
+				false,
+				0
+			},
+			{
+				3,
+				7,
+				false,
+				0
+			},
+			{
+				3,
+				6,
+				false,
+				0
+			},
+			{
+				3,
+				5,
+				false,
+				0
+			},
+			{
+				3,
+				4,
+				false,
+				0
+			},
+			{
+				3,
+				3,
+				false,
+				0
+			},
+			{
+				3,
+				2,
+				false,
+				0
+			},
+			{
+				3,
+				1,
+				true,
+				0
+			},
+			{
+				3,
+				0,
+				true,
+				6
+			},
+			{
+				2,
+				10,
+				true,
+				0
+			},
+			{
+				2,
+				9,
+				true,
+				0
+			},
+			{
+				2,
+				8,
+				true,
+				0
+			},
+			{
+				2,
+				7,
+				true,
+				6
+			},
+			{
+				2,
+				6,
+				true,
+				0
+			},
+			{
+				2,
+				5,
+				true,
+				0
+			},
+			{
+				2,
+				4,
+				true,
+				0
+			},
+			{
+				2,
+				3,
+				false,
+				0
+			},
+			{
+				2,
+				2,
+				true,
+				4
+			},
+			{
+				2,
+				1,
+				true,
+				0
+			},
+			{
+				2,
+				0,
+				true,
+				0
+			},
+			{
+				1,
+				10,
+				true,
+				0
+			},
+			{
+				1,
+				9,
+				true,
+				12
+			},
+			{
+				1,
+				8,
+				true,
+				0
+			},
+			{
+				1,
+				7,
+				true,
+				16
+			},
+			{
+				1,
+				6,
+				true,
+				0
+			},
+			{
+				1,
+				5,
+				true,
+				1
+			},
+			{
+				1,
+				4,
+				true,
+				0
+			},
+			{
+				1,
+				3,
+				false,
+				0
+			},
+			{
+				1,
+				2,
+				true,
+				0
+			},
+			{
+				1,
+				1,
+				true,
+				12
+			},
+			{
+				1,
+				0,
+				true,
+				0
+			},
+			{
+				0,
+				10,
+				false,
+				0
+			},
+			{
+				0,
+				9,
+				false,
+				0
+			},
+			{
+				0,
+				8,
+				true,
+				6
+			},
+			{
+				0,
+				7,
+				true,
+				0
+			},
+			{
+				0,
+				6,
+				true,
+				6
+			},
+			{
+				0,
+				5,
+				true,
+				0
+			},
+			{
+				0,
+				4,
+				true,
+				4
+			},
+			{
+				0,
+				3,
+				false,
+				0
+			},
+			{
+				0,
+				2,
+				true,
+				0
+			},
+			{
+				0,
+				1,
+				true,
+				0
+			},
+			{
+				0,
+				0,
+				true,
+				4
+			}
+		},
+		float_items = {
+			{
+				8,
+				7,
+				"xinnong_normal_1x1_2",
+				0,
+				34
+			},
+			{
+				8,
+				0,
+				"xinnong_normal_2x1_2",
+				65,
+				26
+			},
+			{
+				7,
+				7,
+				"xinnong_normal_1x1_3",
+				0,
+				13
+			},
+			{
+				6,
+				7,
+				"xinnong_normal_1x1_2",
+				0,
+				30
+			},
+			{
+				6,
+				6,
+				"xinnong_teleport02",
+				0,
+				59
+			},
+			{
+				5,
+				7,
+				"xinnong_normal_2x1_1",
+				46,
+				23
+			},
+			{
+				5,
+				4,
+				"xinnong_normal_3x1_1",
+				103,
+				8
+			},
+			{
+				5,
+				3,
+				"xinnong_normal_2x1_1",
+				-54,
+				25
+			},
+			{
+				4,
+				8,
+				"xinnong_teleport03",
+				0,
+				49
+			},
+			{
+				4,
+				7,
+				"xinnong_normal_1x1_1",
+				0,
+				5
+			},
+			{
+				4,
+				6,
+				"xinnong_teleport02",
+				0,
+				16
+			},
+			{
+				4,
+				4,
+				"xinnong_teleport02",
+				0,
+				56
+			},
+			{
+				4,
+				3,
+				"xinnong_normal_1x1_1",
+				0,
+				7
+			},
+			{
+				4,
+				2,
+				"xinnong_teleport01",
+				3,
+				43
+			},
+			{
+				3,
+				7,
+				"xinnong_normal_2x1_1",
+				50,
+				23
+			},
+			{
+				3,
+				4,
+				"xinnong_normal_3x1_1",
+				106,
+				8
+			},
+			{
+				3,
+				3,
+				"xinnong_normal_2x1_1",
+				-53,
+				25
+			},
+			{
+				2,
+				4,
+				"xinnong_teleport02",
+				0,
+				19
+			},
+			{
+				2,
+				3,
+				"xinnong_normal_1x1_2",
+				0,
+				30
+			},
+			{
+				1,
+				3,
+				"xinnong_normal_1x1_3",
+				0,
+				13
+			},
+			{
+				0,
+				9,
+				"xinnong_normal_2x1_2",
+				65,
+				26
+			},
+			{
+				0,
+				3,
+				"xinnong_normal_1x1_2",
+				0,
+				36
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_xinnong_normal",
+			45,
+			20,
+			-348,
+			-249,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			5,
+			22,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {
+			"DIEHAIMENGHUA22"
+		},
+		defeat_story = {
+			"DIEHAIMENGHUA25"
+		},
+		defeat_story_count = {
+			4
+		},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {
+			{
+				5,
+				4
+			},
+			{
+				3,
+				2
+			},
+			{
+				1,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {},
+		chapter_buff = {},
+		wall_prefab = {},
+		alarm_cell = {}
+	},
+	[1410005] = {
+		pos_x = "0.69",
+		num_3 = 1,
+		progress_boss = 25,
+		oil = 10,
+		is_limit_move = 1,
+		mine_id = 2001,
+		activate_time = 0,
+		story_refresh_boss = "DIEHAIMENGHUA32",
+		is_ambush = 0,
+		ammo_cost = 1,
+		collection_team = 0,
+		special_operation_list = "",
+		air_dominance = 300,
+		best_air_dominance = 390,
+		id = 1410005,
+		count = 0,
+		icon_outline = 0,
+		bg = "",
+		pre_chapter = 1410008,
+		formation = 1410002,
+		bgm = "level02",
+		chapter_tag = 0,
+		star_require_1 = 1,
+		pos_y = "0.123958333",
+		pop_pic = "",
+		num_1 = 1,
+		model = 2,
+		investigation_ratio = 0,
+		ammo_submarine = 0,
+		num_2 = 30,
+		is_ai = 1,
+		map = 1410002,
+		unlocklevel = 0,
+		chapter_fx = "",
+		uifx = "",
+		name = "彼方",
+		chapter_name = "T5",
+		type = 1,
+		act_id = 702,
+		enter_story = "DIEHAIMENGHUA31",
+		boss_refresh = 5,
+		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
+		friendly_id = 0,
+		mitigation_rate = 2,
+		mitigation_level = 5,
+		ammo_total = 5,
+		group_num = 2,
+		enter_story_limit = "",
+		star_require_3 = 3,
+		profiles = "「{namecode:161}…真是不可思议的人啊……这里也真是一个不可思议的地方。若能再次来到此处的话……」",
+		difficulty = 6,
+		avoid_ratio = 11,
+		star_require_2 = 2,
+		time = 43200,
+		win_condition_display = "win_condition_display_qijian",
+		submarine_num = 1,
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {},
+		property_limitation = {},
+		expedition_id_weight_list = {
+			{
+				1441101,
+				15,
+				0
+			},
+			{
+				1441102,
+				20,
+				0
+			},
+			{
+				1441103,
+				30,
+				1
+			},
+			{
+				1441104,
+				15,
+				0
+			},
+			{
+				1441105,
+				20,
+				0
+			},
+			{
+				1441106,
+				30,
+				1
+			},
+			{
+				1441107,
+				15,
+				0
+			},
+			{
+				1441108,
+				20,
+				0
+			},
+			{
+				1441109,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {
+			1441105,
+			1441108
+		},
+		ai_expedition_list = {
+			1441305,
+			1441307
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1441113
+		},
+		enemy_refresh = {
+			1,
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			0,
+			1,
+			0,
+			1
+		},
+		ai_refresh = {
+			1
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"lafei"
+		},
+		awards = {
+			{
+				2,
+				58005
+			},
+			{
+				2,
+				57993
+			},
+			{
+				2,
+				54012
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				8,
+				8,
+				false,
+				0
+			},
+			{
+				8,
+				7,
+				true,
+				0
+			},
+			{
+				8,
+				6,
+				true,
+				0
+			},
+			{
+				8,
+				5,
+				true,
+				0
+			},
+			{
+				8,
+				4,
+				false,
+				0
+			},
+			{
+				8,
+				3,
+				true,
+				0
+			},
+			{
+				8,
+				2,
+				true,
+				8
+			},
+			{
+				8,
+				1,
+				true,
+				0
+			},
+			{
+				8,
+				0,
+				false,
+				0
+			},
+			{
+				7,
+				8,
+				true,
+				0
+			},
+			{
+				7,
+				7,
+				true,
+				6
+			},
+			{
+				7,
+				6,
+				true,
+				0
+			},
+			{
+				7,
+				5,
+				true,
+				6
+			},
+			{
+				7,
+				4,
+				false,
+				0
+			},
+			{
+				7,
+				3,
+				true,
+				12
+			},
+			{
+				7,
+				2,
+				true,
+				0
+			},
+			{
+				7,
+				1,
+				true,
+				12
+			},
+			{
+				7,
+				0,
+				true,
+				0
+			},
+			{
+				6,
+				8,
+				true,
+				4
+			},
+			{
+				6,
+				7,
+				true,
+				0
+			},
+			{
+				6,
+				6,
+				true,
+				1
+			},
+			{
+				6,
+				5,
+				true,
+				0
+			},
+			{
+				6,
+				4,
+				false,
+				0
+			},
+			{
+				6,
+				3,
+				true,
+				0
+			},
+			{
+				6,
+				2,
+				true,
+				16
+			},
+			{
+				6,
+				1,
+				true,
+				0
+			},
+			{
+				6,
+				0,
+				true,
+				0
+			},
+			{
+				5,
+				8,
+				true,
+				0
+			},
+			{
+				5,
+				7,
+				true,
+				6
+			},
+			{
+				5,
+				6,
+				true,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				4
+			},
+			{
+				5,
+				4,
+				false,
+				0
+			},
+			{
+				5,
+				3,
+				true,
+				4
+			},
+			{
+				5,
+				2,
+				true,
+				0
+			},
+			{
+				5,
+				1,
+				true,
+				6
+			},
+			{
+				5,
+				0,
+				true,
+				0
+			},
+			{
+				4,
+				8,
+				false,
+				0
+			},
+			{
+				4,
+				7,
+				false,
+				0
+			},
+			{
+				4,
+				6,
+				false,
+				0
+			},
+			{
+				4,
+				5,
+				false,
+				0
+			},
+			{
+				4,
+				4,
+				true,
+				0
+			},
+			{
+				4,
+				3,
+				false,
+				0
+			},
+			{
+				4,
+				2,
+				false,
+				0
+			},
+			{
+				4,
+				1,
+				false,
+				0
+			},
+			{
+				4,
+				0,
+				false,
+				0
+			},
+			{
+				3,
+				8,
+				true,
+				0
+			},
+			{
+				3,
+				7,
+				true,
+				6
+			},
+			{
+				3,
+				6,
+				true,
+				0
+			},
+			{
+				3,
+				5,
+				true,
+				4
+			},
+			{
+				3,
+				4,
+				false,
+				0
+			},
+			{
+				3,
+				3,
+				true,
+				4
+			},
+			{
+				3,
+				2,
+				true,
+				0
+			},
+			{
+				3,
+				1,
+				true,
+				6
+			},
+			{
+				3,
+				0,
+				true,
+				0
+			},
+			{
+				2,
+				8,
+				true,
+				0
+			},
+			{
+				2,
+				7,
+				true,
+				0
+			},
+			{
+				2,
+				6,
+				true,
+				16
+			},
+			{
+				2,
+				5,
+				true,
+				0
+			},
+			{
+				2,
+				4,
+				false,
+				0
+			},
+			{
+				2,
+				3,
+				true,
+				0
+			},
+			{
+				2,
+				2,
+				true,
+				1
+			},
+			{
+				2,
+				1,
+				true,
+				0
+			},
+			{
+				2,
+				0,
+				true,
+				4
+			},
+			{
+				1,
+				8,
+				true,
+				0
+			},
+			{
+				1,
+				7,
+				true,
+				12
+			},
+			{
+				1,
+				6,
+				true,
+				0
+			},
+			{
+				1,
+				5,
+				true,
+				12
+			},
+			{
+				1,
+				4,
+				false,
+				0
+			},
+			{
+				1,
+				3,
+				true,
+				6
+			},
+			{
+				1,
+				2,
+				true,
+				0
+			},
+			{
+				1,
+				1,
+				true,
+				6
+			},
+			{
+				1,
+				0,
+				true,
+				0
+			},
+			{
+				0,
+				8,
+				false,
+				0
+			},
+			{
+				0,
+				7,
+				true,
+				0
+			},
+			{
+				0,
+				6,
+				true,
+				8
+			},
+			{
+				0,
+				5,
+				true,
+				0
+			},
+			{
+				0,
+				4,
+				false,
+				0
+			},
+			{
+				0,
+				3,
+				true,
+				0
+			},
+			{
+				0,
+				2,
+				true,
+				0
+			},
+			{
+				0,
+				1,
+				true,
+				0
+			},
+			{
+				0,
+				0,
+				false,
+				0
+			}
+		},
+		float_items = {
+			{
+				8,
+				8,
+				"xinnong_normal_1x1_3",
+				0,
+				18
+			},
+			{
+				8,
+				0,
+				"xinnong_normal_1x1_3",
+				0,
+				14
+			},
+			{
+				7,
+				4,
+				"xinnong_normal_1x2_1",
+				0,
+				-38
+			},
+			{
+				6,
+				5,
+				"xinnong_teleport03",
+				0,
+				40
+			},
+			{
+				6,
+				4,
+				"xinnong_normal_2x1_1",
+				0,
+				30
+			},
+			{
+				6,
+				3,
+				"xinnong_teleport01_invalid",
+				0,
+				40
+			},
+			{
+				5,
+				6,
+				"xinnong_teleport02_invalid",
+				0,
+				59
+			},
+			{
+				5,
+				4,
+				"xinnong_normal_1x1_2",
+				0,
+				40
+			},
+			{
+				5,
+				2,
+				"xinnong_teleport02",
+				0,
+				59
+			},
+			{
+				4,
+				7,
+				"xinnong_normal_2x1_2",
+				57,
+				30
+			},
+			{
+				4,
+				6,
+				"xinnong_normal_2x1_1",
+				-6,
+				27
+			},
+			{
+				4,
+				5,
+				"xinnong_normal_1x1_2",
+				-22,
+				32
+			},
+			{
+				4,
+				3,
+				"xinnong_normal_1x1_2",
+				20,
+				31
+			},
+			{
+				4,
+				2,
+				"xinnong_normal_2x1_1",
+				8,
+				23
+			},
+			{
+				4,
+				0,
+				"xinnong_normal_2x1_2",
+				62,
+				27
+			},
+			{
+				3,
+				6,
+				"xinnong_teleport02",
+				0,
+				20
+			},
+			{
+				3,
+				4,
+				"xinnong_normal_1x1_2",
+				0,
+				40
+			},
+			{
+				3,
+				2,
+				"xinnong_teleport02_invalid",
+				0,
+				20
+			},
+			{
+				2,
+				5,
+				"xinnong_teleport03_invalid",
+				0,
+				40
+			},
+			{
+				2,
+				4,
+				"xinnong_normal_2x1_1",
+				0,
+				27
+			},
+			{
+				2,
+				3,
+				"xinnong_teleport01",
+				0,
+				40
+			},
+			{
+				0,
+				8,
+				"xinnong_normal_1x1_3",
+				0,
+				17
+			},
+			{
+				0,
+				4,
+				"xinnong_normal_1x2_1",
+				0,
+				-28
+			},
+			{
+				0,
+				0,
+				"xinnong_normal_1x1_3",
+				0,
+				17
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_xinnong_normal",
+			45,
+			20,
+			-235,
+			-82,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			5,
+			22,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {
+			"DIEHAIMENGHUA34"
+		},
+		defeat_story_count = {
+			4
+		},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {
+			{
+				5,
+				4
+			},
+			{
+				3,
+				2
+			},
+			{
+				1,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {},
+		chapter_buff = {},
+		wall_prefab = {},
+		alarm_cell = {}
+	},
+	[1410006] = {
+		pos_x = "0.69",
+		num_3 = 1,
+		progress_boss = 25,
+		oil = 10,
+		is_limit_move = 1,
+		mine_id = 2001,
+		activate_time = 0,
+		story_refresh_boss = "DIEHAIMENGHUA37",
+		is_ambush = 0,
+		ammo_cost = 1,
+		collection_team = 0,
+		special_operation_list = "",
+		air_dominance = 380,
+		best_air_dominance = 495,
+		id = 1410006,
+		count = 0,
+		icon_outline = 0,
+		bg = "",
+		pre_chapter = 1410005,
+		formation = 1410002,
+		bgm = "story-6",
+		chapter_tag = 0,
+		star_require_1 = 1,
+		pos_y = "0.26",
+		pop_pic = "",
+		num_1 = 1,
+		model = 2,
+		investigation_ratio = 0,
+		ammo_submarine = 0,
+		num_2 = 30,
+		is_ai = 1,
+		map = 1410001,
+		unlocklevel = 0,
+		chapter_fx = "",
+		uifx = "",
+		name = "破局",
+		chapter_name = "T6",
+		type = 1,
+		act_id = 702,
+		enter_story = "DIEHAIMENGHUA35",
+		boss_refresh = 5,
+		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
+		friendly_id = 0,
+		mitigation_rate = 2,
+		mitigation_level = 5,
+		ammo_total = 5,
+		group_num = 2,
+		enter_story_limit = "",
+		star_require_3 = 3,
+		profiles = "「塞壬，若汝等要将自身置于敌人的立场之上，那便如汝等所愿，尽情的战斗吧！」",
+		difficulty = 7,
+		avoid_ratio = 12,
+		star_require_2 = 2,
+		time = 43200,
+		win_condition_display = "win_condition_display_qijian",
+		submarine_num = 1,
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {},
+		property_limitation = {},
+		expedition_id_weight_list = {
+			{
+				1441201,
+				15,
+				0
+			},
+			{
+				1441202,
+				20,
+				0
+			},
+			{
+				1441203,
+				30,
+				1
+			},
+			{
+				1441204,
+				15,
+				0
+			},
+			{
+				1441205,
+				20,
+				0
+			},
+			{
+				1441206,
+				30,
+				1
+			},
+			{
+				1441207,
+				15,
+				0
+			},
+			{
+				1441208,
+				20,
+				0
+			},
+			{
+				1441209,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {
+			1441205,
+			1441208
+		},
+		ai_expedition_list = {
+			1441309,
+			1441311
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1441213
+		},
+		enemy_refresh = {
+			1,
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			0,
+			1,
+			0,
+			1
+		},
+		ai_refresh = {
+			2
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"unknown1"
+		},
+		awards = {
+			{
+				2,
+				58006
+			},
+			{
+				2,
+				57994
+			},
+			{
+				2,
+				54012
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				9,
+				10,
+				true,
+				0
+			},
+			{
+				9,
+				9,
+				true,
+				0
+			},
+			{
+				9,
+				8,
+				true,
+				0
+			},
+			{
+				9,
+				7,
+				false,
+				0
+			},
+			{
+				9,
+				6,
+				false,
+				0
+			},
+			{
+				9,
+				5,
+				true,
+				0
+			},
+			{
+				9,
+				4,
+				false,
+				0
+			},
+			{
+				9,
+				3,
+				false,
+				0
+			},
+			{
+				9,
+				2,
+				true,
+				0
+			},
+			{
+				9,
+				1,
+				true,
+				0
+			},
+			{
+				9,
+				0,
+				true,
+				0
+			},
+			{
+				8,
+				10,
+				false,
+				0
+			},
+			{
+				8,
+				9,
+				true,
+				0
+			},
+			{
+				8,
+				8,
+				true,
+				0
+			},
+			{
+				8,
+				7,
+				false,
+				0
+			},
+			{
+				8,
+				6,
+				false,
+				0
+			},
+			{
+				8,
+				5,
+				true,
+				0
+			},
+			{
+				8,
+				4,
+				false,
+				0
+			},
+			{
+				8,
+				3,
+				false,
+				0
+			},
+			{
+				8,
+				2,
+				true,
+				0
+			},
+			{
+				8,
+				1,
+				true,
+				0
+			},
+			{
+				8,
+				0,
+				false,
+				0
+			},
+			{
+				7,
+				10,
+				true,
+				0
+			},
+			{
+				7,
+				9,
+				false,
+				0
+			},
+			{
+				7,
+				8,
+				false,
+				0
+			},
+			{
+				7,
+				7,
+				false,
+				0
+			},
+			{
+				7,
+				6,
+				true,
+				1
+			},
+			{
+				7,
+				5,
+				true,
+				0
+			},
+			{
+				7,
+				4,
+				true,
+				1
+			},
+			{
+				7,
+				3,
+				false,
+				0
+			},
+			{
+				7,
+				2,
+				false,
+				0
+			},
+			{
+				7,
+				1,
+				false,
+				0
+			},
+			{
+				7,
+				0,
+				true,
+				0
+			},
+			{
+				6,
+				10,
+				true,
+				0
+			},
+			{
+				6,
+				9,
+				true,
+				0
+			},
+			{
+				6,
+				8,
+				false,
+				0
+			},
+			{
+				6,
+				7,
+				true,
+				4
+			},
+			{
+				6,
+				6,
+				true,
+				0
+			},
+			{
+				6,
+				5,
+				true,
+				0
+			},
+			{
+				6,
+				4,
+				true,
+				0
+			},
+			{
+				6,
+				3,
+				true,
+				4
+			},
+			{
+				6,
+				2,
+				false,
+				0
+			},
+			{
+				6,
+				1,
+				true,
+				0
+			},
+			{
+				6,
+				0,
+				true,
+				0
+			},
+			{
+				5,
+				10,
+				false,
+				0
+			},
+			{
+				5,
+				9,
+				true,
+				6
+			},
+			{
+				5,
+				8,
+				true,
+				0
+			},
+			{
+				5,
+				7,
+				true,
+				0
+			},
+			{
+				5,
+				6,
+				true,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				8
+			},
+			{
+				5,
+				4,
+				true,
+				0
+			},
+			{
+				5,
+				3,
+				true,
+				0
+			},
+			{
+				5,
+				2,
+				true,
+				0
+			},
+			{
+				5,
+				1,
+				true,
+				6
+			},
+			{
+				5,
+				0,
+				false,
+				0
+			},
+			{
+				4,
+				10,
+				false,
+				0
+			},
+			{
+				4,
+				9,
+				true,
+				6
+			},
+			{
+				4,
+				8,
+				true,
+				0
+			},
+			{
+				4,
+				7,
+				false,
+				0
+			},
+			{
+				4,
+				6,
+				true,
+				12
+			},
+			{
+				4,
+				5,
+				true,
+				0
+			},
+			{
+				4,
+				4,
+				true,
+				12
+			},
+			{
+				4,
+				3,
+				false,
+				0
+			},
+			{
+				4,
+				2,
+				true,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				6
+			},
+			{
+				4,
+				0,
+				false,
+				0
+			},
+			{
+				3,
+				10,
+				true,
+				4
+			},
+			{
+				3,
+				9,
+				true,
+				0
+			},
+			{
+				3,
+				8,
+				true,
+				0
+			},
+			{
+				3,
+				7,
+				false,
+				0
+			},
+			{
+				3,
+				6,
+				false,
+				0
+			},
+			{
+				3,
+				5,
+				true,
+				0
+			},
+			{
+				3,
+				4,
+				false,
+				0
+			},
+			{
+				3,
+				3,
+				false,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				0
+			},
+			{
+				3,
+				1,
+				true,
+				0
+			},
+			{
+				3,
+				0,
+				true,
+				4
+			},
+			{
+				2,
+				10,
+				true,
+				0
+			},
+			{
+				2,
+				9,
+				false,
+				0
+			},
+			{
+				2,
+				8,
+				true,
+				6
+			},
+			{
+				2,
+				7,
+				true,
+				0
+			},
+			{
+				2,
+				6,
+				true,
+				0
+			},
+			{
+				2,
+				5,
+				true,
+				16
+			},
+			{
+				2,
+				4,
+				true,
+				0
+			},
+			{
+				2,
+				3,
+				true,
+				0
+			},
+			{
+				2,
+				2,
+				true,
+				6
+			},
+			{
+				2,
+				1,
+				false,
+				0
+			},
+			{
+				2,
+				0,
+				true,
+				0
+			},
+			{
+				1,
+				10,
+				true,
+				0
+			},
+			{
+				1,
+				9,
+				false,
+				0
+			},
+			{
+				1,
+				8,
+				false,
+				0
+			},
+			{
+				1,
+				7,
+				true,
+				0
+			},
+			{
+				1,
+				6,
+				true,
+				12
+			},
+			{
+				1,
+				5,
+				true,
+				0
+			},
+			{
+				1,
+				4,
+				true,
+				12
+			},
+			{
+				1,
+				3,
+				true,
+				0
+			},
+			{
+				1,
+				2,
+				false,
+				0
+			},
+			{
+				1,
+				1,
+				false,
+				0
+			},
+			{
+				1,
+				0,
+				true,
+				0
+			},
+			{
+				0,
+				10,
+				true,
+				0
+			},
+			{
+				0,
+				9,
+				true,
+				0
+			},
+			{
+				0,
+				8,
+				true,
+				0
+			},
+			{
+				0,
+				7,
+				true,
+				6
+			},
+			{
+				0,
+				6,
+				true,
+				0
+			},
+			{
+				0,
+				5,
+				true,
+				4
+			},
+			{
+				0,
+				4,
+				true,
+				0
+			},
+			{
+				0,
+				3,
+				true,
+				6
+			},
+			{
+				0,
+				2,
+				true,
+				0
+			},
+			{
+				0,
+				1,
+				true,
+				0
+			},
+			{
+				0,
+				0,
+				true,
+				0
+			}
+		},
+		float_items = {
+			{
+				8,
+				10,
+				"1x1XWIsLand_1",
+				11,
+				33
+			},
+			{
+				8,
+				6,
+				"2x2XWIsLand_3",
+				63,
+				-37
+			},
+			{
+				8,
+				3,
+				"2x2XWIsLand_2",
+				46,
+				-37
+			},
+			{
+				8,
+				0,
+				"1x1XWIsLand_1",
+				11,
+				33
+			},
+			{
+				7,
+				7,
+				"1x3XWIsLand_3",
+				92,
+				6
+			},
+			{
+				7,
+				1,
+				"1x3XWIsLand_1",
+				112,
+				4
+			},
+			{
+				6,
+				8,
+				"1x1XWIsLand_2",
+				0,
+				5
+			},
+			{
+				6,
+				2,
+				"1x1XWIsLand_2",
+				0,
+				5
+			},
+			{
+				4,
+				10,
+				"1x2XWIsLand_1",
+				3,
+				-36
+			},
+			{
+				4,
+				0,
+				"1x2XWIsLand_1",
+				3,
+				-36
+			},
+			{
+				3,
+				6,
+				"2x2XWIsLand_1",
+				65,
+				-33
+			},
+			{
+				3,
+				3,
+				"2x2XWIsLand_4",
+				42,
+				-33
+			},
+			{
+				1,
+				8,
+				"2x2XWIsLand_1",
+				65,
+				-33
+			},
+			{
+				1,
+				1,
+				"2x2XWIsLand_4",
+				42,
+				-33
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_daxuanwo",
+			45,
+			20,
+			-317,
+			129,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			5,
+			22,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {
+			"DIEHAIMENGHUA36"
+		},
+		defeat_story = {
+			"DIEHAIMENGHUA40",
+			"DIEHAIMENGHUA41",
+			"DIEHAIMENGHUA42"
+		},
+		defeat_story_count = {
+			4,
+			5,
+			6
+		},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {
+			{
+				5,
+				4
+			},
+			{
+				3,
+				2
+			},
+			{
+				1,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {},
+		chapter_buff = {
+			8744
+		},
+		wall_prefab = {},
+		alarm_cell = {}
+	},
+	[1410007] = {
+		pos_x = "0.18",
+		num_3 = 0,
+		progress_boss = 100,
+		oil = 10,
+		is_limit_move = 0,
+		mine_id = 2001,
+		activate_time = 0,
+		story_refresh_boss = "DIEHAIMENGHUA4",
+		is_ambush = 0,
+		ammo_cost = 1,
+		collection_team = 0,
+		special_operation_list = "",
+		air_dominance = 95,
+		best_air_dominance = 150,
+		id = 1410007,
+		count = 0,
+		icon_outline = 0,
+		bg = "",
+		pre_chapter = 0,
+		formation = 1410001,
+		bgm = "story-4",
+		chapter_tag = 0,
+		star_require_1 = 0,
+		pos_y = "0.26",
+		pop_pic = "",
+		num_1 = 0,
+		model = 2,
+		investigation_ratio = 0,
+		ammo_submarine = 0,
+		num_2 = 0,
+		is_ai = 1,
+		map = 1410001,
+		unlocklevel = 0,
+		chapter_fx = "",
+		uifx = "",
+		name = "蝴蝶之梦",
+		chapter_name = "TS1",
+		type = 1,
+		act_id = 701,
+		enter_story = "DIEHAIMENGHUA2",
+		boss_refresh = 3,
+		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
+		friendly_id = 0,
+		mitigation_rate = 0,
+		mitigation_level = 0,
+		ammo_total = 5,
+		group_num = 1,
+		enter_story_limit = "",
+		star_require_3 = 0,
+		profiles = "「梦境正在被漆黑与猩红的预兆所撕裂。纵使以这般身姿醒来，只要现在行动起来……为时还，未晚…！」",
+		difficulty = 3,
+		avoid_ratio = 8,
+		star_require_2 = 0,
+		time = 43200,
+		win_condition_display = "win_condition_display_qijian",
+		submarine_num = 0,
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {},
+		property_limitation = {},
+		expedition_id_weight_list = {
+			{
+				1446001,
+				100,
+				0
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {
+			1446002
+		},
+		ai_expedition_list = {
+			1446003
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1446013
+		},
+		enemy_refresh = {
+			1
+		},
+		elite_refresh = {
+			0,
+			1
+		},
+		ai_refresh = {
+			0,
+			0,
+			1
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"sairenquzhu_i"
+		},
+		awards = {
+			{
+				2,
+				20001
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				5,
+				7,
+				true,
+				0
+			},
+			{
+				5,
+				6,
+				true,
+				1
+			},
+			{
+				5,
+				5,
+				false,
+				0
+			},
+			{
+				5,
+				4,
+				true,
+				0
+			},
+			{
+				5,
+				3,
+				true,
+				0
+			},
+			{
+				5,
+				2,
+				true,
+				0
+			},
+			{
+				5,
+				1,
+				false,
+				0
+			},
+			{
+				5,
+				0,
+				true,
+				0
+			},
+			{
+				4,
+				7,
+				true,
+				1
+			},
+			{
+				4,
+				6,
+				true,
+				0
+			},
+			{
+				4,
+				5,
+				false,
+				0
+			},
+			{
+				4,
+				4,
+				false,
+				0
+			},
+			{
+				4,
+				3,
+				true,
+				0
+			},
+			{
+				4,
+				2,
+				true,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				0
+			},
+			{
+				4,
+				0,
+				true,
+				0
+			},
+			{
+				3,
+				7,
+				true,
+				0
+			},
+			{
+				3,
+				6,
+				true,
+				6
+			},
+			{
+				3,
+				5,
+				true,
+				0
+			},
+			{
+				3,
+				4,
+				true,
+				0
+			},
+			{
+				3,
+				3,
+				false,
+				0
+			},
+			{
+				3,
+				2,
+				false,
+				0
+			},
+			{
+				3,
+				1,
+				false,
+				0
+			},
+			{
+				3,
+				0,
+				false,
+				0
+			},
+			{
+				2,
+				7,
+				false,
+				0
+			},
+			{
+				2,
+				6,
+				true,
+				0
+			},
+			{
+				2,
+				5,
+				true,
+				0
+			},
+			{
+				2,
+				4,
+				true,
+				4
+			},
+			{
+				2,
+				3,
+				true,
+				0
+			},
+			{
+				2,
+				2,
+				true,
+				0
+			},
+			{
+				2,
+				1,
+				true,
+				0
+			},
+			{
+				2,
+				0,
+				false,
+				0
+			},
+			{
+				1,
+				7,
+				false,
+				0
+			},
+			{
+				1,
+				6,
+				false,
+				0
+			},
+			{
+				1,
+				5,
+				false,
+				0
+			},
+			{
+				1,
+				4,
+				true,
+				0
+			},
+			{
+				1,
+				3,
+				true,
+				0
+			},
+			{
+				1,
+				2,
+				true,
+				0
+			},
+			{
+				1,
+				1,
+				true,
+				12
+			},
+			{
+				1,
+				0,
+				true,
+				0
+			},
+			{
+				0,
+				7,
+				true,
+				0
+			},
+			{
+				0,
+				6,
+				true,
+				0
+			},
+			{
+				0,
+				5,
+				false,
+				0
+			},
+			{
+				0,
+				4,
+				false,
+				0
+			},
+			{
+				0,
+				3,
+				false,
+				0
+			},
+			{
+				0,
+				2,
+				false,
+				0
+			},
+			{
+				0,
+				1,
+				true,
+				0
+			},
+			{
+				0,
+				0,
+				true,
+				8
+			}
+		},
+		float_items = {
+			{
+				5,
+				1,
+				"1x1_2xinrixi",
+				0,
+				3
+			},
+			{
+				4,
+				4,
+				"2x2_2xinrixi",
+				62,
+				-36
+			},
+			{
+				3,
+				1,
+				"1x3_1xinrixi",
+				109,
+				7
+			},
+			{
+				2,
+				0,
+				"2x1_1xinrixi",
+				-14,
+				-32
+			},
+			{
+				1,
+				7,
+				"2x1_2xinrixi",
+				10,
+				-28
+			},
+			{
+				1,
+				6,
+				"1x1_2xinrixi",
+				0,
+				5
+			},
+			{
+				0,
+				5,
+				"2x1_1xinrixi",
+				7,
+				-29
+			},
+			{
+				0,
+				2,
+				"1x3_1xinrixi",
+				105,
+				3
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_xinrixi",
+			45,
+			20,
+			-200,
+			-200,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			4,
+			22,
+			102,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {
+			"DIEHAIMENGHUA3"
+		},
+		defeat_story = {
+			"DIEHAIMENGHUA5"
+		},
+		defeat_story_count = {
+			1
+		},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {},
+		land_based = {},
+		chapter_buff = {},
+		wall_prefab = {},
+		alarm_cell = {}
+	},
+	[1410008] = {
+		pos_x = "0.69",
+		num_3 = 0,
+		progress_boss = 100,
+		oil = 10,
+		is_limit_move = 0,
+		mine_id = 2001,
+		activate_time = 0,
+		story_refresh_boss = "",
+		is_ambush = 0,
+		ammo_cost = 1,
+		collection_team = 0,
+		special_operation_list = "",
+		air_dominance = 0,
+		best_air_dominance = 0,
+		id = 1410008,
+		count = 0,
+		icon_outline = 0,
+		bg = "",
+		pre_chapter = 1410004,
+		formation = 1410002,
+		bgm = "story-1",
+		chapter_tag = 0,
+		star_require_1 = 0,
+		pos_y = "0.123958333",
+		pop_pic = "",
+		num_1 = 0,
+		model = 2,
+		investigation_ratio = 0,
+		ammo_submarine = 0,
+		num_2 = 0,
+		is_ai = 1,
+		map = 1410002,
+		unlocklevel = 0,
+		chapter_fx = "",
+		uifx = "",
+		name = "樱下苍红",
+		chapter_name = "TS2",
+		type = 1,
+		act_id = 702,
+		enter_story = "DIEHAIMENGHUA26",
+		boss_refresh = 5,
+		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
+		friendly_id = 0,
+		mitigation_rate = 0,
+		mitigation_level = 0,
+		ammo_total = 5,
+		group_num = 1,
+		enter_story_limit = "",
+		star_require_3 = 0,
+		profiles = "「此处港区宛如理想之地一般，就连妾身也以万全的状态存在于此，如此的话，也许能在这里找到……」",
+		difficulty = 3,
+		avoid_ratio = 8,
+		star_require_2 = 0,
+		time = 43200,
+		win_condition_display = "win_condition_display_tuoli",
+		submarine_num = 0,
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {},
+		property_limitation = {},
+		expedition_id_weight_list = {},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {},
+		ai_expedition_list = {},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {},
+		enemy_refresh = {
+			0
+		},
+		elite_refresh = {
+			0
+		},
+		ai_refresh = {
+			0
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		win_condition = {
+			{
+				6,
+				{
+					7,
+					6
+				}
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"tiancheng"
+		},
+		awards = {},
+		grids = {
+			{
+				7,
+				7,
+				false,
+				0
+			},
+			{
+				7,
+				6,
+				true,
+				0
+			},
+			{
+				7,
+				5,
+				false,
+				0
+			},
+			{
+				7,
+				4,
+				false,
+				0
+			},
+			{
+				7,
+				3,
+				false,
+				0
+			},
+			{
+				7,
+				2,
+				true,
+				0
+			},
+			{
+				7,
+				1,
+				true,
+				0
+			},
+			{
+				7,
+				0,
+				true,
+				0
+			},
+			{
+				6,
+				7,
+				false,
+				0
+			},
+			{
+				6,
+				6,
+				true,
+				0
+			},
+			{
+				6,
+				5,
+				false,
+				0
+			},
+			{
+				6,
+				4,
+				true,
+				0
+			},
+			{
+				6,
+				3,
+				false,
+				0
+			},
+			{
+				6,
+				2,
+				true,
+				1
+			},
+			{
+				6,
+				1,
+				true,
+				0
+			},
+			{
+				6,
+				0,
+				true,
+				0
+			},
+			{
+				5,
+				7,
+				false,
+				0
+			},
+			{
+				5,
+				6,
+				true,
+				0
+			},
+			{
+				5,
+				5,
+				false,
+				0
+			},
+			{
+				5,
+				4,
+				true,
+				0
+			},
+			{
+				5,
+				3,
+				true,
+				0
+			},
+			{
+				5,
+				2,
+				false,
+				0
+			},
+			{
+				5,
+				1,
+				true,
+				0
+			},
+			{
+				5,
+				0,
+				true,
+				0
+			},
+			{
+				4,
+				7,
+				true,
+				0
+			},
+			{
+				4,
+				6,
+				true,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				0
+			},
+			{
+				4,
+				4,
+				false,
+				0
+			},
+			{
+				4,
+				3,
+				true,
+				0
+			},
+			{
+				4,
+				2,
+				true,
+				0
+			},
+			{
+				4,
+				1,
+				false,
+				0
+			},
+			{
+				4,
+				0,
+				true,
+				0
+			},
+			{
+				3,
+				7,
+				false,
+				0
+			},
+			{
+				3,
+				6,
+				true,
+				0
+			},
+			{
+				3,
+				5,
+				false,
+				0
+			},
+			{
+				3,
+				4,
+				false,
+				0
+			},
+			{
+				3,
+				3,
+				false,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				0
+			},
+			{
+				3,
+				1,
+				true,
+				0
+			},
+			{
+				3,
+				0,
+				true,
+				0
+			},
+			{
+				2,
+				7,
+				false,
+				0
+			},
+			{
+				2,
+				6,
+				true,
+				0
+			},
+			{
+				2,
+				5,
+				false,
+				0
+			},
+			{
+				2,
+				4,
+				true,
+				0
+			},
+			{
+				2,
+				3,
+				true,
+				0
+			},
+			{
+				2,
+				2,
+				true,
+				0
+			},
+			{
+				2,
+				1,
+				true,
+				0
+			},
+			{
+				2,
+				0,
+				true,
+				0
+			},
+			{
+				1,
+				7,
+				false,
+				0
+			},
+			{
+				1,
+				6,
+				true,
+				0
+			},
+			{
+				1,
+				5,
+				true,
+				0
+			},
+			{
+				1,
+				4,
+				true,
+				0
+			},
+			{
+				1,
+				3,
+				false,
+				0
+			},
+			{
+				1,
+				2,
+				false,
+				0
+			},
+			{
+				1,
+				1,
+				false,
+				0
+			},
+			{
+				1,
+				0,
+				false,
+				0
+			},
+			{
+				0,
+				7,
+				true,
+				0
+			},
+			{
+				0,
+				6,
+				true,
+				0
+			},
+			{
+				0,
+				5,
+				true,
+				0
+			},
+			{
+				0,
+				4,
+				true,
+				0
+			},
+			{
+				0,
+				3,
+				true,
+				0
+			},
+			{
+				0,
+				2,
+				true,
+				0
+			},
+			{
+				0,
+				1,
+				true,
+				0
+			},
+			{
+				0,
+				0,
+				false,
+				0
+			}
+		},
+		float_items = {
+			{
+				7,
+				7,
+				"xinnong_normal_1x1_2",
+				0,
+				24
+			},
+			{
+				7,
+				3,
+				"xinnong_normal_3x1_1",
+				104,
+				6
+			},
+			{
+				6,
+				7,
+				"xinnong_normal_1x1_3",
+				0,
+				11
+			},
+			{
+				6,
+				5,
+				"xinnong_normal_1x1_3",
+				0,
+				11
+			},
+			{
+				6,
+				3,
+				"xinnong_normal_1x1_1",
+				0,
+				0
+			},
+			{
+				5,
+				7,
+				"xinnong_normal_1x1_2",
+				0,
+				24
+			},
+			{
+				5,
+				5,
+				"xinnong_normal_1x1_2",
+				0,
+				24
+			},
+			{
+				5,
+				2,
+				"xinnong_normal_1x1_3",
+				0,
+				11
+			},
+			{
+				4,
+				1,
+				"xinnong_normal_1x1_2",
+				0,
+				24
+			},
+			{
+				3,
+				3,
+				"xinnong_normal_2x2_1",
+				56,
+				-22
+			},
+			{
+				2,
+				7,
+				"xinnong_normal_1x2_1",
+				1,
+				-30
+			},
+			{
+				2,
+				5,
+				"xinnong_normal_1x2_1",
+				-6,
+				-31
+			},
+			{
+				1,
+				7,
+				"xinnong_normal_1x1_1",
+				0,
+				0
+			},
+			{
+				1,
+				1,
+				"xinnong_normal_3x1_1",
+				100,
+				7
+			},
+			{
+				0,
+				0,
+				"xinnong_normal_1x2_1",
+				5,
+				-32
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_xinnong_normal",
+			45,
+			20,
+			-128,
+			-4,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			4,
+			22,
+			102,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {
+			"DIEHAIMENGHUA30"
+		},
+		defeat_story_count = {
+			1
+		},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {},
+		land_based = {},
+		chapter_buff = {},
+		wall_prefab = {},
+		alarm_cell = {}
+	},
+	[1410021] = {
+		pos_x = "0.18",
+		num_3 = 1,
+		progress_boss = 34,
+		oil = 10,
+		is_limit_move = 1,
+		mine_id = 2001,
+		activate_time = 0,
+		story_refresh_boss = "DIEHAIMENGHUA7",
+		is_ambush = 0,
+		ammo_cost = 1,
+		collection_team = 0,
+		special_operation_list = "",
+		air_dominance = 375,
+		best_air_dominance = 490,
+		id = 1410021,
+		count = 0,
+		icon_outline = 0,
+		bg = "",
+		pre_chapter = 1410027,
+		formation = 1410011,
+		bgm = "story-6",
+		chapter_tag = 0,
+		star_require_1 = 1,
+		pos_y = "0.26",
+		pop_pic = "",
+		num_1 = 1,
+		model = 2,
+		investigation_ratio = 0,
+		ammo_submarine = 0,
+		num_2 = 17,
+		is_ai = 1,
+		map = 1410011,
+		unlocklevel = 0,
+		chapter_fx = "",
+		uifx = "",
+		name = "对局",
+		chapter_name = "HT1",
+		type = 2,
+		act_id = 701,
+		enter_story = "DIEHAIMENGHUA6",
+		boss_refresh = 4,
+		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
+		friendly_id = 0,
+		mitigation_rate = 2,
+		mitigation_level = 5,
+		ammo_total = 5,
+		group_num = 2,
+		enter_story_limit = "",
+		star_require_3 = 3,
+		profiles = "「脑海之中，仍残留着无数次与梦中与测试者交手之经验，就算是现在的状态也…有胜算！」",
+		difficulty = 3,
+		avoid_ratio = 8,
+		star_require_2 = 2,
+		time = 43200,
+		win_condition_display = "win_condition_display_qijian",
+		submarine_num = 1,
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {
+			{
+				{
+					"hang",
+					0,
+					0
+				},
+				{
+					"fanqian",
+					0,
+					0
+				}
+			},
+			{
+				{
+					0,
+					0,
+					0
+				},
+				{
+					0,
+					0,
+					0
+				}
+			}
+		},
+		property_limitation = {
+			{
+				"level",
+				1,
+				75
+			},
+			{
+				"cannon",
+				1,
+				700
+			},
+			{
+				"antiaircraft",
+				1,
+				1300
+			}
+		},
+		expedition_id_weight_list = {
+			{
+				1442001,
+				15,
+				0
+			},
+			{
+				1442002,
+				20,
+				0
+			},
+			{
+				1442003,
+				30,
+				1
+			},
+			{
+				1442004,
+				15,
+				0
+			},
+			{
+				1442005,
+				20,
+				0
+			},
+			{
+				1442006,
+				30,
+				1
+			},
+			{
+				1442007,
+				15,
+				0
+			},
+			{
+				1442008,
+				20,
+				0
+			},
+			{
+				1442009,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {
+			1442005,
+			1442008
+		},
+		ai_expedition_list = {
+			1442301,
+			1442303
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1442013
+		},
+		enemy_refresh = {
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			0,
+			1,
+			0,
+			0
+		},
+		ai_refresh = {
+			2
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"unknown1"
+		},
+		awards = {
+			{
+				2,
+				58019
+			},
+			{
+				2,
+				58007
+			},
+			{
+				2,
+				54013
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				6,
+				10,
+				false,
+				0
+			},
+			{
+				6,
+				9,
+				true,
+				4
+			},
+			{
+				6,
+				8,
+				true,
+				0
+			},
+			{
+				6,
+				7,
+				true,
+				0
+			},
+			{
+				6,
+				6,
+				true,
+				1
+			},
+			{
+				6,
+				5,
+				true,
+				0
+			},
+			{
+				6,
+				4,
+				true,
+				1
+			},
+			{
+				6,
+				3,
+				true,
+				0
+			},
+			{
+				6,
+				2,
+				true,
+				0
+			},
+			{
+				6,
+				1,
+				true,
+				4
+			},
+			{
+				6,
+				0,
+				false,
+				0
+			},
+			{
+				5,
+				10,
+				true,
+				6
+			},
+			{
+				5,
+				9,
+				true,
+				0
+			},
+			{
+				5,
+				8,
+				true,
+				12
+			},
+			{
+				5,
+				7,
+				true,
+				0
+			},
+			{
+				5,
+				6,
+				true,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				16
+			},
+			{
+				5,
+				4,
+				true,
+				0
+			},
+			{
+				5,
+				3,
+				true,
+				0
+			},
+			{
+				5,
+				2,
+				true,
+				12
+			},
+			{
+				5,
+				1,
+				true,
+				0
+			},
+			{
+				5,
+				0,
+				true,
+				6
+			},
+			{
+				4,
+				10,
+				true,
+				0
+			},
+			{
+				4,
+				9,
+				true,
+				0
+			},
+			{
+				4,
+				8,
+				true,
+				0
+			},
+			{
+				4,
+				7,
+				true,
+				6
+			},
+			{
+				4,
+				6,
+				true,
+				12
+			},
+			{
+				4,
+				5,
+				true,
+				0
+			},
+			{
+				4,
+				4,
+				true,
+				12
+			},
+			{
+				4,
+				3,
+				true,
+				6
+			},
+			{
+				4,
+				2,
+				true,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				0
+			},
+			{
+				4,
+				0,
+				true,
+				0
+			},
+			{
+				3,
+				10,
+				true,
+				6
+			},
+			{
+				3,
+				9,
+				true,
+				0
+			},
+			{
+				3,
+				8,
+				true,
+				6
+			},
+			{
+				3,
+				7,
+				false,
+				0
+			},
+			{
+				3,
+				6,
+				false,
+				0
+			},
+			{
+				3,
+				5,
+				true,
+				0
+			},
+			{
+				3,
+				4,
+				false,
+				0
+			},
+			{
+				3,
+				3,
+				false,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				6
+			},
+			{
+				3,
+				1,
+				true,
+				0
+			},
+			{
+				3,
+				0,
+				true,
+				6
+			},
+			{
+				2,
+				10,
+				false,
+				0
+			},
+			{
+				2,
+				9,
+				true,
+				4
+			},
+			{
+				2,
+				8,
+				true,
+				0
+			},
+			{
+				2,
+				7,
+				false,
+				0
+			},
+			{
+				2,
+				6,
+				false,
+				0
+			},
+			{
+				2,
+				5,
+				true,
+				0
+			},
+			{
+				2,
+				4,
+				false,
+				0
+			},
+			{
+				2,
+				3,
+				false,
+				0
+			},
+			{
+				2,
+				2,
+				true,
+				0
+			},
+			{
+				2,
+				1,
+				true,
+				4
+			},
+			{
+				2,
+				0,
+				false,
+				0
+			},
+			{
+				1,
+				10,
+				true,
+				0
+			},
+			{
+				1,
+				9,
+				false,
+				0
+			},
+			{
+				1,
+				8,
+				false,
+				0
+			},
+			{
+				1,
+				7,
+				false,
+				0
+			},
+			{
+				1,
+				6,
+				true,
+				4
+			},
+			{
+				1,
+				5,
+				true,
+				0
+			},
+			{
+				1,
+				4,
+				true,
+				4
+			},
+			{
+				1,
+				3,
+				false,
+				0
+			},
+			{
+				1,
+				2,
+				false,
+				0
+			},
+			{
+				1,
+				1,
+				false,
+				0
+			},
+			{
+				1,
+				0,
+				true,
+				0
+			},
+			{
+				0,
+				10,
+				true,
+				0
+			},
+			{
+				0,
+				9,
+				true,
+				0
+			},
+			{
+				0,
+				8,
+				false,
+				0
+			},
+			{
+				0,
+				7,
+				true,
+				0
+			},
+			{
+				0,
+				6,
+				true,
+				0
+			},
+			{
+				0,
+				5,
+				true,
+				8
+			},
+			{
+				0,
+				4,
+				true,
+				0
+			},
+			{
+				0,
+				3,
+				true,
+				0
+			},
+			{
+				0,
+				2,
+				false,
+				0
+			},
+			{
+				0,
+				1,
+				true,
+				0
+			},
+			{
+				0,
+				0,
+				true,
+				0
+			}
+		},
+		float_items = {
+			{
+				6,
+				10,
+				"1x1XWIsLand_3",
+				1,
+				1
+			},
+			{
+				6,
+				0,
+				"1x1XWIsLand_3",
+				1,
+				1
+			},
+			{
+				2,
+				10,
+				"1x1XWIsLand_1",
+				11,
+				33
+			},
+			{
+				2,
+				6,
+				"2x2XWIsLand_3",
+				63,
+				-37
+			},
+			{
+				2,
+				3,
+				"2x2XWIsLand_2",
+				46,
+				-37
+			},
+			{
+				2,
+				0,
+				"1x1XWIsLand_1",
+				11,
+				33
+			},
+			{
+				1,
+				7,
+				"1x3XWIsLand_3",
+				92,
+				4
+			},
+			{
+				1,
+				1,
+				"1x3XWIsLand_1",
+				112,
+				4
+			},
+			{
+				0,
+				8,
+				"1x1XWIsLand_2",
+				0,
+				4
+			},
+			{
+				0,
+				2,
+				"1x1XWIsLand_2",
+				0,
+				5
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_daxuanwo",
+			45,
+			20,
+			-334,
+			-84,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			4,
+			22,
+			102,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {
+			"DIEHAIMENGHUA9"
+		},
+		defeat_story_count = {
+			3
+		},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {
+			{
+				5,
+				4
+			},
+			{
+				3,
+				2
+			},
+			{
+				1,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {},
+		chapter_buff = {},
+		wall_prefab = {},
+		alarm_cell = {}
+	},
+	[1410022] = {
+		pos_x = "0.18",
+		num_3 = 1,
+		progress_boss = 34,
+		oil = 10,
+		is_limit_move = 1,
+		mine_id = 2001,
+		activate_time = 0,
+		story_refresh_boss = "",
+		is_ambush = 0,
+		ammo_cost = 1,
+		collection_team = 0,
+		special_operation_list = "",
+		air_dominance = 470,
+		best_air_dominance = 615,
+		id = 1410022,
+		count = 0,
+		icon_outline = 0,
+		bg = "",
+		pre_chapter = 1410021,
+		formation = 1410011,
+		bgm = "xinnong-2",
+		chapter_tag = 0,
+		star_require_1 = 1,
+		pos_y = "0.402083333",
+		pop_pic = "",
+		num_1 = 1,
+		model = 2,
+		investigation_ratio = 0,
+		ammo_submarine = 0,
+		num_2 = 17,
+		is_ai = 1,
+		map = 1410012,
+		unlocklevel = 0,
+		chapter_fx = "",
+		uifx = "",
+		name = "殊途",
+		chapter_name = "HT2",
+		type = 2,
+		act_id = 701,
+		enter_story = "DIEHAIMENGHUA10",
+		boss_refresh = 4,
+		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
+		friendly_id = 0,
+		mitigation_rate = 2,
+		mitigation_level = 8,
+		ammo_total = 5,
+		group_num = 2,
+		enter_story_limit = "",
+		star_require_3 = 3,
+		profiles = "「梦境也好，现实也罢。不论身处何方，妾身须行之事都不曾有任何改变…{namecode:83}级三号舰{namecode:182}，现在加入战斗！」",
+		difficulty = 7,
+		avoid_ratio = 13,
+		star_require_2 = 2,
+		time = 43200,
+		win_condition_display = "win_condition_display_qijian",
+		submarine_num = 1,
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {
+			{
+				{
+					"hang",
+					0,
+					0
+				},
+				{
+					"fanqian",
+					0,
+					0
+				}
+			},
+			{
+				{
+					0,
+					0,
+					0
+				},
+				{
+					0,
+					0,
+					0
+				}
+			}
+		},
+		property_limitation = {
+			{
+				"level",
+				1,
+				80
+			},
+			{
+				"cannon",
+				1,
+				800
+			},
+			{
+				"reload",
+				1,
+				800
+			}
+		},
+		expedition_id_weight_list = {
+			{
+				1442101,
+				15,
+				0
+			},
+			{
+				1442102,
+				20,
+				0
+			},
+			{
+				1442103,
+				30,
+				1
+			},
+			{
+				1442104,
+				15,
+				0
+			},
+			{
+				1442105,
+				20,
+				0
+			},
+			{
+				1442106,
+				30,
+				1
+			},
+			{
+				1442107,
+				15,
+				0
+			},
+			{
+				1442108,
+				20,
+				0
+			},
+			{
+				1442109,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {
+			1442105,
+			1442108
+		},
+		ai_expedition_list = {
+			1442305,
+			1442307
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1442113
+		},
+		enemy_refresh = {
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			0,
+			1,
+			0,
+			0
+		},
+		ai_refresh = {
+			2
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"gaoxiong_alter"
+		},
+		awards = {
+			{
+				2,
+				58020
+			},
+			{
+				2,
+				58008
+			},
+			{
+				2,
+				54013
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				6,
+				7,
+				true,
+				12
+			},
+			{
+				6,
+				6,
+				true,
+				0
+			},
+			{
+				6,
+				5,
+				true,
+				1
+			},
+			{
+				6,
+				4,
+				true,
+				1
+			},
+			{
+				6,
+				3,
+				false,
+				0
+			},
+			{
+				6,
+				2,
+				false,
+				0
+			},
+			{
+				6,
+				1,
+				true,
+				6
+			},
+			{
+				6,
+				0,
+				true,
+				0
+			},
+			{
+				5,
+				7,
+				false,
+				0
+			},
+			{
+				5,
+				6,
+				true,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				0
+			},
+			{
+				5,
+				4,
+				true,
+				0
+			},
+			{
+				5,
+				3,
+				true,
+				0
+			},
+			{
+				5,
+				2,
+				true,
+				0
+			},
+			{
+				5,
+				1,
+				true,
+				0
+			},
+			{
+				5,
+				0,
+				true,
+				12
+			},
+			{
+				4,
+				7,
+				true,
+				6
+			},
+			{
+				4,
+				6,
+				true,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				4
+			},
+			{
+				4,
+				4,
+				true,
+				0
+			},
+			{
+				4,
+				3,
+				true,
+				4
+			},
+			{
+				4,
+				2,
+				true,
+				4
+			},
+			{
+				4,
+				1,
+				false,
+				0
+			},
+			{
+				4,
+				0,
+				true,
+				0
+			},
+			{
+				3,
+				7,
+				true,
+				0
+			},
+			{
+				3,
+				6,
+				true,
+				12
+			},
+			{
+				3,
+				5,
+				false,
+				0
+			},
+			{
+				3,
+				4,
+				false,
+				0
+			},
+			{
+				3,
+				3,
+				false,
+				0
+			},
+			{
+				3,
+				2,
+				false,
+				0
+			},
+			{
+				3,
+				1,
+				true,
+				6
+			},
+			{
+				3,
+				0,
+				false,
+				0
+			},
+			{
+				2,
+				7,
+				true,
+				6
+			},
+			{
+				2,
+				6,
+				false,
+				0
+			},
+			{
+				2,
+				5,
+				true,
+				0
+			},
+			{
+				2,
+				4,
+				true,
+				6
+			},
+			{
+				2,
+				3,
+				true,
+				0
+			},
+			{
+				2,
+				2,
+				true,
+				0
+			},
+			{
+				2,
+				1,
+				true,
+				0
+			},
+			{
+				2,
+				0,
+				true,
+				0
+			},
+			{
+				1,
+				7,
+				false,
+				0
+			},
+			{
+				1,
+				6,
+				true,
+				8
+			},
+			{
+				1,
+				5,
+				true,
+				0
+			},
+			{
+				1,
+				4,
+				true,
+				0
+			},
+			{
+				1,
+				3,
+				true,
+				16
+			},
+			{
+				1,
+				2,
+				true,
+				4
+			},
+			{
+				1,
+				1,
+				true,
+				0
+			},
+			{
+				1,
+				0,
+				true,
+				6
+			},
+			{
+				0,
+				7,
+				false,
+				0
+			},
+			{
+				0,
+				6,
+				false,
+				0
+			},
+			{
+				0,
+				5,
+				true,
+				6
+			},
+			{
+				0,
+				4,
+				true,
+				0
+			},
+			{
+				0,
+				3,
+				true,
+				6
+			},
+			{
+				0,
+				2,
+				true,
+				0
+			},
+			{
+				0,
+				1,
+				false,
+				0
+			},
+			{
+				0,
+				0,
+				true,
+				0
+			}
+		},
+		float_items = {
+			{
+				6,
+				2,
+				"xinnong_hard_2x1_2",
+				67,
+				29
+			},
+			{
+				5,
+				7,
+				"xinnong_hard_1x1_3",
+				3,
+				26
+			},
+			{
+				4,
+				4,
+				"xinnong_teleport02",
+				0,
+				56
+			},
+			{
+				4,
+				1,
+				"xinnong_hard_1x1_2",
+				2,
+				38
+			},
+			{
+				3,
+				3,
+				"xinnong_hard_3x1_1",
+				107,
+				13
+			},
+			{
+				3,
+				2,
+				"xinnong_hard_1x1_1",
+				0,
+				0
+			},
+			{
+				3,
+				0,
+				"xinnong_hard_1x1_1",
+				0,
+				0
+			},
+			{
+				2,
+				6,
+				"xinnong_hard_1x1_3",
+				0,
+				9
+			},
+			{
+				0,
+				6,
+				"xinnong_hard_2x2_1",
+				67,
+				-15
+			},
+			{
+				0,
+				4,
+				"xinnong_teleport02",
+				0,
+				55
+			},
+			{
+				0,
+				1,
+				"xinnong_hard_1x1_3",
+				0,
+				27
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_xinnong_hard",
+			45,
+			20,
+			-226,
+			-89,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			7,
+			23,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {
+			"DIEHAIMENGHUA11"
+		},
+		defeat_story = {
+			"DIEHAIMENGHUA14"
+		},
+		defeat_story_count = {
+			3
+		},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {
+			{
+				8,
+				6
+			},
+			{
+				5,
+				3
+			},
+			{
+				2,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {},
+		chapter_buff = {},
+		wall_prefab = {},
+		alarm_cell = {}
+	},
+	[1410023] = {
+		pos_x = "0.18",
+		num_3 = 1,
+		progress_boss = 25,
+		oil = 10,
+		is_limit_move = 1,
+		mine_id = 2001,
+		activate_time = 0,
+		story_refresh_boss = "DIEHAIMENGHUA17",
+		is_ambush = 0,
+		ammo_cost = 1,
+		collection_team = 0,
+		special_operation_list = "",
+		air_dominance = 570,
+		best_air_dominance = 745,
+		id = 1410023,
+		count = 0,
+		icon_outline = 0,
+		bg = "",
+		pre_chapter = 1410022,
+		formation = 1410011,
+		bgm = "bsm-1",
+		chapter_tag = 0,
+		star_require_1 = 1,
+		pos_y = "0.123958333",
+		pop_pic = "",
+		num_1 = 1,
+		model = 2,
+		investigation_ratio = 0,
+		ammo_submarine = 0,
+		num_2 = 24,
+		is_ai = 1,
+		map = 1410012,
+		unlocklevel = 0,
+		chapter_fx = "",
+		uifx = "",
+		name = "浮光",
+		chapter_name = "HT3",
+		type = 2,
+		act_id = 701,
+		enter_story = "DIEHAIMENGHUA15",
+		boss_refresh = 5,
+		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
+		friendly_id = 0,
+		mitigation_rate = 2,
+		mitigation_level = 8,
+		ammo_total = 5,
+		group_num = 2,
+		enter_story_limit = "",
+		star_require_3 = 3,
+		profiles = "「火炬，为至暗之刻带来存续的光明，在此身粉碎之前，都将永远燃烧下去......愿火炬之光常明。」",
+		difficulty = 8,
+		avoid_ratio = 14,
+		star_require_2 = 2,
+		time = 43200,
+		win_condition_display = "win_condition_display_qijian",
+		submarine_num = 1,
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {
+			{
+				{
+					"hang",
+					0,
+					0
+				},
+				{
+					"fanqian",
+					0,
+					0
+				}
+			},
+			{
+				{
+					0,
+					0,
+					0
+				},
+				{
+					0,
+					0,
+					0
+				}
+			}
+		},
+		property_limitation = {
+			{
+				"level",
+				1,
+				85
+			},
+			{
+				"cannon",
+				1,
+				1100
+			},
+			{
+				"antiaircraft",
+				1,
+				1750
+			}
+		},
+		expedition_id_weight_list = {
+			{
+				1442201,
+				15,
+				0
+			},
+			{
+				1442202,
+				20,
+				0
+			},
+			{
+				1442203,
+				30,
+				1
+			},
+			{
+				1442204,
+				15,
+				0
+			},
+			{
+				1442205,
+				20,
+				0
+			},
+			{
+				1442206,
+				30,
+				1
+			},
+			{
+				1442207,
+				15,
+				0
+			},
+			{
+				1442208,
+				20,
+				0
+			},
+			{
+				1442209,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {
+			1442205,
+			1442208
+		},
+		ai_expedition_list = {
+			1442309,
+			1442311
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1442213
+		},
+		enemy_refresh = {
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			0,
+			1,
+			0,
+			0
+		},
+		ai_refresh = {
+			2
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"sairenzhanlie_M"
+		},
+		awards = {
+			{
+				2,
+				58021
+			},
+			{
+				2,
+				58009
+			},
+			{
+				2,
+				54013
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				8,
+				8,
+				true,
+				0
+			},
+			{
+				8,
+				7,
+				true,
+				0
+			},
+			{
+				8,
+				6,
+				false,
+				0
+			},
+			{
+				8,
+				5,
+				true,
+				0
+			},
+			{
+				8,
+				4,
+				true,
+				6
+			},
+			{
+				8,
+				3,
+				true,
+				0
+			},
+			{
+				8,
+				2,
+				true,
+				4
+			},
+			{
+				8,
+				1,
+				true,
+				0
+			},
+			{
+				8,
+				0,
+				false,
+				0
+			},
+			{
+				7,
+				8,
+				true,
+				0
+			},
+			{
+				7,
+				7,
+				true,
+				0
+			},
+			{
+				7,
+				6,
+				false,
+				0
+			},
+			{
+				7,
+				5,
+				true,
+				12
+			},
+			{
+				7,
+				4,
+				true,
+				0
+			},
+			{
+				7,
+				3,
+				true,
+				0
+			},
+			{
+				7,
+				2,
+				true,
+				0
+			},
+			{
+				7,
+				1,
+				true,
+				12
+			},
+			{
+				7,
+				0,
+				true,
+				0
+			},
+			{
+				6,
+				8,
+				true,
+				0
+			},
+			{
+				6,
+				7,
+				true,
+				8
+			},
+			{
+				6,
+				6,
+				false,
+				0
+			},
+			{
+				6,
+				5,
+				true,
+				0
+			},
+			{
+				6,
+				4,
+				false,
+				0
+			},
+			{
+				6,
+				3,
+				true,
+				1
+			},
+			{
+				6,
+				2,
+				true,
+				0
+			},
+			{
+				6,
+				1,
+				true,
+				0
+			},
+			{
+				6,
+				0,
+				true,
+				4
+			},
+			{
+				5,
+				8,
+				false,
+				0
+			},
+			{
+				5,
+				7,
+				false,
+				0
+			},
+			{
+				5,
+				6,
+				false,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				4
+			},
+			{
+				5,
+				4,
+				true,
+				0
+			},
+			{
+				5,
+				3,
+				true,
+				0
+			},
+			{
+				5,
+				2,
+				true,
+				1
+			},
+			{
+				5,
+				1,
+				true,
+				0
+			},
+			{
+				5,
+				0,
+				true,
+				0
+			},
+			{
+				4,
+				8,
+				true,
+				6
+			},
+			{
+				4,
+				7,
+				true,
+				0
+			},
+			{
+				4,
+				6,
+				true,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				0
+			},
+			{
+				4,
+				4,
+				true,
+				16
+			},
+			{
+				4,
+				3,
+				true,
+				0
+			},
+			{
+				4,
+				2,
+				false,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				0
+			},
+			{
+				4,
+				0,
+				true,
+				6
+			},
+			{
+				3,
+				8,
+				true,
+				0
+			},
+			{
+				3,
+				7,
+				true,
+				0
+			},
+			{
+				3,
+				6,
+				false,
+				0
+			},
+			{
+				3,
+				5,
+				true,
+				4
+			},
+			{
+				3,
+				4,
+				true,
+				0
+			},
+			{
+				3,
+				3,
+				true,
+				4
+			},
+			{
+				3,
+				2,
+				true,
+				0
+			},
+			{
+				3,
+				1,
+				true,
+				12
+			},
+			{
+				3,
+				0,
+				true,
+				0
+			},
+			{
+				2,
+				8,
+				true,
+				6
+			},
+			{
+				2,
+				7,
+				true,
+				0
+			},
+			{
+				2,
+				6,
+				false,
+				0
+			},
+			{
+				2,
+				5,
+				false,
+				0
+			},
+			{
+				2,
+				4,
+				true,
+				0
+			},
+			{
+				2,
+				3,
+				false,
+				0
+			},
+			{
+				2,
+				2,
+				false,
+				0
+			},
+			{
+				2,
+				1,
+				false,
+				0
+			},
+			{
+				2,
+				0,
+				false,
+				0
+			},
+			{
+				1,
+				8,
+				true,
+				0
+			},
+			{
+				1,
+				7,
+				true,
+				0
+			},
+			{
+				1,
+				6,
+				true,
+				0
+			},
+			{
+				1,
+				5,
+				true,
+				0
+			},
+			{
+				1,
+				4,
+				true,
+				0
+			},
+			{
+				1,
+				3,
+				false,
+				0
+			},
+			{
+				1,
+				2,
+				true,
+				8
+			},
+			{
+				1,
+				1,
+				true,
+				0
+			},
+			{
+				1,
+				0,
+				true,
+				0
+			},
+			{
+				0,
+				8,
+				false,
+				0
+			},
+			{
+				0,
+				7,
+				true,
+				0
+			},
+			{
+				0,
+				6,
+				true,
+				6
+			},
+			{
+				0,
+				5,
+				true,
+				0
+			},
+			{
+				0,
+				4,
+				true,
+				6
+			},
+			{
+				0,
+				3,
+				false,
+				0
+			},
+			{
+				0,
+				2,
+				true,
+				0
+			},
+			{
+				0,
+				1,
+				true,
+				0
+			},
+			{
+				0,
+				0,
+				true,
+				0
+			}
+		},
+		float_items = {
+			{
+				8,
+				8,
+				"xinnong_teleport02",
+				0,
+				18
+			},
+			{
+				8,
+				0,
+				"xinnong_hard_1x1_1",
+				0,
+				0
+			},
+			{
+				7,
+				6,
+				"xinnong_hard_1x2_1",
+				0,
+				-39
+			},
+			{
+				6,
+				6,
+				"xinnong_hard_1x1_2",
+				0,
+				30
+			},
+			{
+				6,
+				4,
+				"xinnong_hard_1x1_3",
+				0,
+				20
+			},
+			{
+				5,
+				8,
+				"xinnong_hard_3x1_1",
+				-104,
+				9
+			},
+			{
+				4,
+				2,
+				"xinnong_hard_1x1_3",
+				0,
+				23
+			},
+			{
+				2,
+				5,
+				"xinnong_hard_2x2_1",
+				71,
+				-24
+			},
+			{
+				2,
+				3,
+				"xinnong_hard_1x1_2",
+				-1,
+				31
+			},
+			{
+				2,
+				0,
+				"xinnong_hard_3x1_1",
+				104,
+				10
+			},
+			{
+				1,
+				8,
+				"xinnong_teleport01",
+				7,
+				47
+			},
+			{
+				0,
+				8,
+				"xinnong_hard_1x1_2",
+				0,
+				46
+			},
+			{
+				0,
+				7,
+				"xinnong_teleport02",
+				0,
+				45
+			},
+			{
+				0,
+				3,
+				"xinnong_hard_1x2_1",
+				0,
+				-34
+			},
+			{
+				0,
+				0,
+				"xinnong_teleport03",
+				-4,
+				46
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_xinnong_hard",
+			45,
+			20,
+			-134,
+			110,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			7,
+			23,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {
+			"DIEHAIMENGHUA16"
+		},
+		defeat_story = {
+			"DIEHAIMENGHUA19",
+			"DIEHAIMENGHUA20"
+		},
+		defeat_story_count = {
+			1,
+			4
+		},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {
+			{
+				8,
+				6
+			},
+			{
+				5,
+				3
+			},
+			{
+				2,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {},
+		chapter_buff = {},
+		wall_prefab = {},
+		alarm_cell = {}
+	},
+	[1410024] = {
+		pos_x = "0.69",
+		num_3 = 1,
+		progress_boss = 25,
+		oil = 10,
+		is_limit_move = 1,
+		mine_id = 2001,
+		activate_time = 0,
+		story_refresh_boss = "DIEHAIMENGHUA23",
+		is_ambush = 0,
+		ammo_cost = 1,
+		collection_team = 0,
+		special_operation_list = "",
+		air_dominance = 730,
+		best_air_dominance = 950,
+		id = 1410024,
+		count = 0,
+		icon_outline = 0,
+		bg = "",
+		pre_chapter = 1410023,
+		formation = 1410012,
+		bgm = "xinnong-3",
+		chapter_tag = 0,
+		star_require_1 = 1,
+		pos_y = "0.402083333",
+		pop_pic = "",
+		num_1 = 1,
+		model = 2,
+		investigation_ratio = 0,
+		ammo_submarine = 0,
+		num_2 = 35,
+		is_ai = 1,
+		map = 1410012,
+		unlocklevel = 0,
+		chapter_fx = "",
+		uifx = "",
+		name = "锈迹",
+		chapter_name = "HT4",
+		type = 2,
+		act_id = 702,
+		enter_story = "DIEHAIMENGHUA21",
+		boss_refresh = 5,
+		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
+		friendly_id = 0,
+		mitigation_rate = 2,
+		mitigation_level = 8,
+		ammo_total = 5,
+		group_num = 2,
+		enter_story_limit = "",
+		star_require_3 = 3,
+		profiles = "「同{namecode:80}自天岩岛起航才是妾身的首次航行，可是，为什么…鲜明的情报如流水一般汇入脑海之中…」",
+		difficulty = 8,
+		avoid_ratio = 14,
+		star_require_2 = 2,
+		time = 43200,
+		win_condition_display = "win_condition_display_qijian",
+		submarine_num = 1,
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {
+			{
+				{
+					"hang",
+					0,
+					0
+				},
+				{
+					3,
+					"fanqian",
+					0
+				}
+			},
+			{
+				{
+					5,
+					7,
+					0
+				},
+				{
+					"fanqian",
+					0,
+					0
+				}
+			}
+		},
+		property_limitation = {
+			{
+				"level",
+				1,
+				90
+			},
+			{
+				"air",
+				1,
+				1200
+			},
+			{
+				"antisub",
+				1,
+				500
+			}
+		},
+		expedition_id_weight_list = {
+			{
+				1443001,
+				15,
+				0
+			},
+			{
+				1443002,
+				20,
+				0
+			},
+			{
+				1443003,
+				30,
+				1
+			},
+			{
+				1443004,
+				15,
+				0
+			},
+			{
+				1443005,
+				20,
+				0
+			},
+			{
+				1443006,
+				30,
+				1
+			},
+			{
+				1443007,
+				15,
+				0
+			},
+			{
+				1443008,
+				20,
+				0
+			},
+			{
+				1443009,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {
+			1443005,
+			1443008
+		},
+		ai_expedition_list = {
+			1443301,
+			1443303
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1443013
+		},
+		enemy_refresh = {
+			1,
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			0,
+			1,
+			0,
+			1
+		},
+		ai_refresh = {
+			2
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"sairenqianting_M"
+		},
+		awards = {
+			{
+				2,
+				58022
+			},
+			{
+				2,
+				58010
+			},
+			{
+				2,
+				54013
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				8,
+				10,
+				true,
+				4
+			},
+			{
+				8,
+				9,
+				true,
+				0
+			},
+			{
+				8,
+				8,
+				true,
+				0
+			},
+			{
+				8,
+				7,
+				false,
+				0
+			},
+			{
+				8,
+				6,
+				true,
+				4
+			},
+			{
+				8,
+				5,
+				true,
+				0
+			},
+			{
+				8,
+				4,
+				true,
+				6
+			},
+			{
+				8,
+				3,
+				true,
+				0
+			},
+			{
+				8,
+				2,
+				true,
+				6
+			},
+			{
+				8,
+				1,
+				false,
+				0
+			},
+			{
+				8,
+				0,
+				false,
+				0
+			},
+			{
+				7,
+				10,
+				true,
+				0
+			},
+			{
+				7,
+				9,
+				true,
+				12
+			},
+			{
+				7,
+				8,
+				true,
+				0
+			},
+			{
+				7,
+				7,
+				false,
+				0
+			},
+			{
+				7,
+				6,
+				true,
+				0
+			},
+			{
+				7,
+				5,
+				true,
+				1
+			},
+			{
+				7,
+				4,
+				true,
+				0
+			},
+			{
+				7,
+				3,
+				true,
+				16
+			},
+			{
+				7,
+				2,
+				true,
+				0
+			},
+			{
+				7,
+				1,
+				true,
+				12
+			},
+			{
+				7,
+				0,
+				true,
+				0
+			},
+			{
+				6,
+				10,
+				true,
+				0
+			},
+			{
+				6,
+				9,
+				true,
+				0
+			},
+			{
+				6,
+				8,
+				true,
+				4
+			},
+			{
+				6,
+				7,
+				false,
+				0
+			},
+			{
+				6,
+				6,
+				true,
+				0
+			},
+			{
+				6,
+				5,
+				true,
+				0
+			},
+			{
+				6,
+				4,
+				true,
+				0
+			},
+			{
+				6,
+				3,
+				true,
+				6
+			},
+			{
+				6,
+				2,
+				true,
+				0
+			},
+			{
+				6,
+				1,
+				true,
+				0
+			},
+			{
+				6,
+				0,
+				true,
+				0
+			},
+			{
+				5,
+				10,
+				true,
+				6
+			},
+			{
+				5,
+				9,
+				true,
+				0
+			},
+			{
+				5,
+				8,
+				false,
+				0
+			},
+			{
+				5,
+				7,
+				false,
+				0
+			},
+			{
+				5,
+				6,
+				false,
+				0
+			},
+			{
+				5,
+				5,
+				false,
+				0
+			},
+			{
+				5,
+				4,
+				false,
+				0
+			},
+			{
+				5,
+				3,
+				false,
+				0
+			},
+			{
+				5,
+				2,
+				false,
+				0
+			},
+			{
+				5,
+				1,
+				true,
+				0
+			},
+			{
+				5,
+				0,
+				true,
+				6
+			},
+			{
+				4,
+				10,
+				true,
+				0
+			},
+			{
+				4,
+				9,
+				true,
+				0
+			},
+			{
+				4,
+				8,
+				true,
+				0
+			},
+			{
+				4,
+				7,
+				false,
+				0
+			},
+			{
+				4,
+				6,
+				true,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				8
+			},
+			{
+				4,
+				4,
+				true,
+				0
+			},
+			{
+				4,
+				3,
+				false,
+				0
+			},
+			{
+				4,
+				2,
+				true,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				0
+			},
+			{
+				4,
+				0,
+				true,
+				0
+			},
+			{
+				3,
+				10,
+				true,
+				6
+			},
+			{
+				3,
+				9,
+				true,
+				0
+			},
+			{
+				3,
+				8,
+				false,
+				0
+			},
+			{
+				3,
+				7,
+				false,
+				0
+			},
+			{
+				3,
+				6,
+				false,
+				0
+			},
+			{
+				3,
+				5,
+				false,
+				0
+			},
+			{
+				3,
+				4,
+				false,
+				0
+			},
+			{
+				3,
+				3,
+				false,
+				0
+			},
+			{
+				3,
+				2,
+				false,
+				0
+			},
+			{
+				3,
+				1,
+				true,
+				0
+			},
+			{
+				3,
+				0,
+				true,
+				6
+			},
+			{
+				2,
+				10,
+				true,
+				0
+			},
+			{
+				2,
+				9,
+				true,
+				0
+			},
+			{
+				2,
+				8,
+				true,
+				0
+			},
+			{
+				2,
+				7,
+				true,
+				6
+			},
+			{
+				2,
+				6,
+				true,
+				0
+			},
+			{
+				2,
+				5,
+				true,
+				0
+			},
+			{
+				2,
+				4,
+				true,
+				0
+			},
+			{
+				2,
+				3,
+				false,
+				0
+			},
+			{
+				2,
+				2,
+				true,
+				4
+			},
+			{
+				2,
+				1,
+				true,
+				0
+			},
+			{
+				2,
+				0,
+				true,
+				0
+			},
+			{
+				1,
+				10,
+				true,
+				0
+			},
+			{
+				1,
+				9,
+				true,
+				12
+			},
+			{
+				1,
+				8,
+				true,
+				0
+			},
+			{
+				1,
+				7,
+				true,
+				16
+			},
+			{
+				1,
+				6,
+				true,
+				0
+			},
+			{
+				1,
+				5,
+				true,
+				1
+			},
+			{
+				1,
+				4,
+				true,
+				0
+			},
+			{
+				1,
+				3,
+				false,
+				0
+			},
+			{
+				1,
+				2,
+				true,
+				0
+			},
+			{
+				1,
+				1,
+				true,
+				12
+			},
+			{
+				1,
+				0,
+				true,
+				0
+			},
+			{
+				0,
+				10,
+				false,
+				0
+			},
+			{
+				0,
+				9,
+				false,
+				0
+			},
+			{
+				0,
+				8,
+				true,
+				6
+			},
+			{
+				0,
+				7,
+				true,
+				0
+			},
+			{
+				0,
+				6,
+				true,
+				6
+			},
+			{
+				0,
+				5,
+				true,
+				0
+			},
+			{
+				0,
+				4,
+				true,
+				4
+			},
+			{
+				0,
+				3,
+				false,
+				0
+			},
+			{
+				0,
+				2,
+				true,
+				0
+			},
+			{
+				0,
+				1,
+				true,
+				0
+			},
+			{
+				0,
+				0,
+				true,
+				4
+			}
+		},
+		float_items = {
+			{
+				8,
+				7,
+				"xinnong_hard_1x1_2",
+				0,
+				34
+			},
+			{
+				8,
+				0,
+				"xinnong_hard_2x1_2",
+				65,
+				26
+			},
+			{
+				7,
+				7,
+				"xinnong_hard_1x1_3",
+				0,
+				13
+			},
+			{
+				6,
+				7,
+				"xinnong_hard_1x1_2",
+				0,
+				30
+			},
+			{
+				6,
+				6,
+				"xinnong_teleport02",
+				0,
+				59
+			},
+			{
+				5,
+				7,
+				"xinnong_hard_2x1_1",
+				46,
+				23
+			},
+			{
+				5,
+				4,
+				"xinnong_hard_3x1_1",
+				103,
+				8
+			},
+			{
+				5,
+				3,
+				"xinnong_hard_2x1_1",
+				-54,
+				25
+			},
+			{
+				4,
+				8,
+				"xinnong_teleport03",
+				0,
+				49
+			},
+			{
+				4,
+				7,
+				"xinnong_hard_1x1_1",
+				0,
+				5
+			},
+			{
+				4,
+				6,
+				"xinnong_teleport02",
+				0,
+				16
+			},
+			{
+				4,
+				4,
+				"xinnong_teleport02",
+				0,
+				56
+			},
+			{
+				4,
+				3,
+				"xinnong_hard_1x1_1",
+				0,
+				7
+			},
+			{
+				4,
+				2,
+				"xinnong_teleport01",
+				3,
+				43
+			},
+			{
+				3,
+				7,
+				"xinnong_hard_2x1_1",
+				50,
+				23
+			},
+			{
+				3,
+				4,
+				"xinnong_hard_3x1_1",
+				106,
+				8
+			},
+			{
+				3,
+				3,
+				"xinnong_hard_2x1_1",
+				-53,
+				25
+			},
+			{
+				2,
+				4,
+				"xinnong_teleport02",
+				0,
+				19
+			},
+			{
+				2,
+				3,
+				"xinnong_hard_1x1_2",
+				0,
+				30
+			},
+			{
+				1,
+				3,
+				"xinnong_hard_1x1_3",
+				0,
+				13
+			},
+			{
+				0,
+				9,
+				"xinnong_hard_2x1_2",
+				65,
+				26
+			},
+			{
+				0,
+				3,
+				"xinnong_hard_1x1_2",
+				0,
+				36
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_xinnong_hard",
+			45,
+			20,
+			-348,
+			-249,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			9,
+			23,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {
+			"DIEHAIMENGHUA22"
+		},
+		defeat_story = {
+			"DIEHAIMENGHUA25"
+		},
+		defeat_story_count = {
+			4
+		},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {
+			{
+				8,
+				6
+			},
+			{
+				5,
+				3
+			},
+			{
+				2,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {},
+		chapter_buff = {},
+		wall_prefab = {},
+		alarm_cell = {}
+	},
+	[1410025] = {
+		pos_x = "0.69",
+		num_3 = 1,
+		progress_boss = 20,
+		oil = 10,
+		is_limit_move = 1,
+		mine_id = 2001,
+		activate_time = 0,
+		story_refresh_boss = "DIEHAIMENGHUA32",
+		is_ambush = 0,
+		ammo_cost = 1,
+		collection_team = 0,
+		special_operation_list = "",
+		air_dominance = 930,
+		best_air_dominance = 1210,
+		id = 1410025,
+		count = 0,
+		icon_outline = 0,
+		bg = "",
+		pre_chapter = 1410028,
+		formation = 1410012,
+		bgm = "level02",
+		chapter_tag = 0,
+		star_require_1 = 1,
+		pos_y = "0.123958333",
+		pop_pic = "",
+		num_1 = 1,
+		model = 2,
+		investigation_ratio = 0,
+		ammo_submarine = 0,
+		num_2 = 40,
+		is_ai = 1,
+		map = 1410012,
+		unlocklevel = 0,
+		chapter_fx = "",
+		uifx = "",
+		name = "彼方",
+		chapter_name = "HT5",
+		type = 2,
+		act_id = 702,
+		enter_story = "DIEHAIMENGHUA31",
+		boss_refresh = 6,
+		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
+		friendly_id = 0,
+		mitigation_rate = 2,
+		mitigation_level = 8,
+		ammo_total = 5,
+		group_num = 2,
+		enter_story_limit = "",
+		star_require_3 = 3,
+		profiles = "「{namecode:161}…真是不可思议的人啊……这里也真是一个不可思议的地方。若能再次来到此处的话……」",
+		difficulty = 9,
+		avoid_ratio = 15,
+		star_require_2 = 2,
+		time = 43200,
+		win_condition_display = "win_condition_display_qijian",
+		submarine_num = 1,
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {
+			{
+				{
+					"hang",
+					0,
+					0
+				},
+				{
+					3,
+					"fanqian",
+					0
+				}
+			},
+			{
+				{
+					5,
+					7,
+					0
+				},
+				{
+					"fanqian",
+					0,
+					0
+				}
+			}
+		},
+		property_limitation = {
+			{
+				"level",
+				1,
+				95
+			},
+			{
+				"air",
+				1,
+				1350
+			},
+			{
+				"torpedo",
+				1,
+				1400
+			}
+		},
+		expedition_id_weight_list = {
+			{
+				1443101,
+				15,
+				0
+			},
+			{
+				1443102,
+				20,
+				0
+			},
+			{
+				1443103,
+				30,
+				1
+			},
+			{
+				1443104,
+				15,
+				0
+			},
+			{
+				1443105,
+				20,
+				0
+			},
+			{
+				1443106,
+				30,
+				1
+			},
+			{
+				1443107,
+				15,
+				0
+			},
+			{
+				1443108,
+				20,
+				0
+			},
+			{
+				1443109,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {
+			1443105,
+			1443108
+		},
+		ai_expedition_list = {
+			1443305,
+			1443307
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1443113
+		},
+		enemy_refresh = {
+			1,
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			0,
+			1,
+			0,
+			1
+		},
+		ai_refresh = {
+			2,
+			0,
+			1
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"lafei"
+		},
+		awards = {
+			{
+				2,
+				58023
+			},
+			{
+				2,
+				58011
+			},
+			{
+				2,
+				54013
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				8,
+				8,
+				false,
+				0
+			},
+			{
+				8,
+				7,
+				true,
+				0
+			},
+			{
+				8,
+				6,
+				true,
+				0
+			},
+			{
+				8,
+				5,
+				true,
+				0
+			},
+			{
+				8,
+				4,
+				false,
+				0
+			},
+			{
+				8,
+				3,
+				true,
+				0
+			},
+			{
+				8,
+				2,
+				true,
+				8
+			},
+			{
+				8,
+				1,
+				true,
+				0
+			},
+			{
+				8,
+				0,
+				false,
+				0
+			},
+			{
+				7,
+				8,
+				true,
+				0
+			},
+			{
+				7,
+				7,
+				true,
+				6
+			},
+			{
+				7,
+				6,
+				true,
+				0
+			},
+			{
+				7,
+				5,
+				true,
+				6
+			},
+			{
+				7,
+				4,
+				false,
+				0
+			},
+			{
+				7,
+				3,
+				true,
+				12
+			},
+			{
+				7,
+				2,
+				true,
+				0
+			},
+			{
+				7,
+				1,
+				true,
+				12
+			},
+			{
+				7,
+				0,
+				true,
+				0
+			},
+			{
+				6,
+				8,
+				true,
+				4
+			},
+			{
+				6,
+				7,
+				true,
+				0
+			},
+			{
+				6,
+				6,
+				true,
+				1
+			},
+			{
+				6,
+				5,
+				true,
+				0
+			},
+			{
+				6,
+				4,
+				false,
+				0
+			},
+			{
+				6,
+				3,
+				true,
+				0
+			},
+			{
+				6,
+				2,
+				true,
+				16
+			},
+			{
+				6,
+				1,
+				true,
+				0
+			},
+			{
+				6,
+				0,
+				true,
+				0
+			},
+			{
+				5,
+				8,
+				true,
+				0
+			},
+			{
+				5,
+				7,
+				true,
+				6
+			},
+			{
+				5,
+				6,
+				true,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				4
+			},
+			{
+				5,
+				4,
+				false,
+				0
+			},
+			{
+				5,
+				3,
+				true,
+				4
+			},
+			{
+				5,
+				2,
+				true,
+				0
+			},
+			{
+				5,
+				1,
+				true,
+				6
+			},
+			{
+				5,
+				0,
+				true,
+				0
+			},
+			{
+				4,
+				8,
+				false,
+				0
+			},
+			{
+				4,
+				7,
+				false,
+				0
+			},
+			{
+				4,
+				6,
+				false,
+				0
+			},
+			{
+				4,
+				5,
+				false,
+				0
+			},
+			{
+				4,
+				4,
+				true,
+				0
+			},
+			{
+				4,
+				3,
+				false,
+				0
+			},
+			{
+				4,
+				2,
+				false,
+				0
+			},
+			{
+				4,
+				1,
+				false,
+				0
+			},
+			{
+				4,
+				0,
+				false,
+				0
+			},
+			{
+				3,
+				8,
+				true,
+				0
+			},
+			{
+				3,
+				7,
+				true,
+				6
+			},
+			{
+				3,
+				6,
+				true,
+				0
+			},
+			{
+				3,
+				5,
+				true,
+				4
+			},
+			{
+				3,
+				4,
+				false,
+				0
+			},
+			{
+				3,
+				3,
+				true,
+				4
+			},
+			{
+				3,
+				2,
+				true,
+				0
+			},
+			{
+				3,
+				1,
+				true,
+				6
+			},
+			{
+				3,
+				0,
+				true,
+				0
+			},
+			{
+				2,
+				8,
+				true,
+				0
+			},
+			{
+				2,
+				7,
+				true,
+				0
+			},
+			{
+				2,
+				6,
+				true,
+				16
+			},
+			{
+				2,
+				5,
+				true,
+				0
+			},
+			{
+				2,
+				4,
+				false,
+				0
+			},
+			{
+				2,
+				3,
+				true,
+				0
+			},
+			{
+				2,
+				2,
+				true,
+				1
+			},
+			{
+				2,
+				1,
+				true,
+				0
+			},
+			{
+				2,
+				0,
+				true,
+				4
+			},
+			{
+				1,
+				8,
+				true,
+				0
+			},
+			{
+				1,
+				7,
+				true,
+				12
+			},
+			{
+				1,
+				6,
+				true,
+				0
+			},
+			{
+				1,
+				5,
+				true,
+				12
+			},
+			{
+				1,
+				4,
+				false,
+				0
+			},
+			{
+				1,
+				3,
+				true,
+				6
+			},
+			{
+				1,
+				2,
+				true,
+				0
+			},
+			{
+				1,
+				1,
+				true,
+				6
+			},
+			{
+				1,
+				0,
+				true,
+				0
+			},
+			{
+				0,
+				8,
+				false,
+				0
+			},
+			{
+				0,
+				7,
+				true,
+				0
+			},
+			{
+				0,
+				6,
+				true,
+				8
+			},
+			{
+				0,
+				5,
+				true,
+				0
+			},
+			{
+				0,
+				4,
+				false,
+				0
+			},
+			{
+				0,
+				3,
+				true,
+				0
+			},
+			{
+				0,
+				2,
+				true,
+				0
+			},
+			{
+				0,
+				1,
+				true,
+				0
+			},
+			{
+				0,
+				0,
+				false,
+				0
+			}
+		},
+		float_items = {
+			{
+				8,
+				8,
+				"xinnong_hard_1x1_3",
+				0,
+				18
+			},
+			{
+				8,
+				0,
+				"xinnong_hard_1x1_3",
+				0,
+				14
+			},
+			{
+				7,
+				4,
+				"xinnong_hard_1x2_1",
+				0,
+				-38
+			},
+			{
+				6,
+				5,
+				"xinnong_teleport03",
+				0,
+				40
+			},
+			{
+				6,
+				4,
+				"xinnong_hard_2x1_1",
+				0,
+				30
+			},
+			{
+				6,
+				3,
+				"xinnong_teleport01_invalid",
+				0,
+				40
+			},
+			{
+				5,
+				6,
+				"xinnong_teleport02_invalid",
+				0,
+				59
+			},
+			{
+				5,
+				4,
+				"xinnong_hard_1x1_2",
+				0,
+				40
+			},
+			{
+				5,
+				2,
+				"xinnong_teleport02",
+				0,
+				59
+			},
+			{
+				4,
+				7,
+				"xinnong_hard_2x1_2",
+				57,
+				30
+			},
+			{
+				4,
+				6,
+				"xinnong_hard_2x1_1",
+				-6,
+				27
+			},
+			{
+				4,
+				5,
+				"xinnong_hard_1x1_2",
+				-22,
+				32
+			},
+			{
+				4,
+				3,
+				"xinnong_hard_1x1_2",
+				20,
+				31
+			},
+			{
+				4,
+				2,
+				"xinnong_hard_2x1_1",
+				8,
+				23
+			},
+			{
+				4,
+				0,
+				"xinnong_hard_2x1_2",
+				62,
+				27
+			},
+			{
+				3,
+				6,
+				"xinnong_teleport02",
+				0,
+				20
+			},
+			{
+				3,
+				4,
+				"xinnong_hard_1x1_2",
+				0,
+				40
+			},
+			{
+				3,
+				2,
+				"xinnong_teleport02_invalid",
+				0,
+				20
+			},
+			{
+				2,
+				5,
+				"xinnong_teleport03_invalid",
+				0,
+				40
+			},
+			{
+				2,
+				4,
+				"xinnong_hard_2x1_1",
+				0,
+				27
+			},
+			{
+				2,
+				3,
+				"xinnong_teleport01",
+				0,
+				40
+			},
+			{
+				0,
+				8,
+				"xinnong_hard_1x1_3",
+				0,
+				17
+			},
+			{
+				0,
+				4,
+				"xinnong_hard_1x2_1",
+				0,
+				-28
+			},
+			{
+				0,
+				0,
+				"xinnong_hard_1x1_3",
+				0,
+				17
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_xinnong_hard",
+			45,
+			20,
+			-235,
+			-82,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			9,
+			23,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {
+			"DIEHAIMENGHUA34"
+		},
+		defeat_story_count = {
+			5
+		},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {
+			{
+				8,
+				6
+			},
+			{
+				5,
+				3
+			},
+			{
+				2,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {},
+		chapter_buff = {},
+		wall_prefab = {},
+		alarm_cell = {}
+	},
+	[1410026] = {
+		pos_x = "0.69",
+		num_3 = 1,
+		progress_boss = 20,
+		oil = 10,
+		is_limit_move = 1,
+		mine_id = 2001,
+		activate_time = 0,
+		story_refresh_boss = "DIEHAIMENGHUA37",
+		is_ambush = 0,
+		ammo_cost = 1,
+		collection_team = 0,
+		special_operation_list = "",
+		air_dominance = 1125,
+		best_air_dominance = 1465,
+		id = 1410026,
+		count = 0,
+		icon_outline = 0,
+		bg = "",
+		pre_chapter = 1410025,
+		formation = 1410012,
+		bgm = "story-6",
+		chapter_tag = 0,
+		star_require_1 = 1,
+		pos_y = "0.26",
+		pop_pic = "",
+		num_1 = 1,
+		model = 2,
+		investigation_ratio = 0,
+		ammo_submarine = 0,
+		num_2 = 40,
+		is_ai = 1,
+		map = 1410011,
+		unlocklevel = 0,
+		chapter_fx = "",
+		uifx = "",
+		name = "破局",
+		chapter_name = "HT6",
+		type = 2,
+		act_id = 702,
+		enter_story = "DIEHAIMENGHUA35",
+		boss_refresh = 6,
+		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
+		friendly_id = 0,
+		mitigation_rate = 2,
+		mitigation_level = 8,
+		ammo_total = 5,
+		group_num = 2,
+		enter_story_limit = "",
+		star_require_3 = 3,
+		profiles = "「塞壬，若汝等要将自身置于敌人的立场之上，那便如汝等所愿，尽情的战斗吧！」",
+		difficulty = 10,
+		avoid_ratio = 16,
+		star_require_2 = 2,
+		time = 43200,
+		win_condition_display = "win_condition_display_qijian",
+		submarine_num = 1,
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {
+			{
+				{
+					"hang",
+					0,
+					0
+				},
+				{
+					3,
+					"fanqian",
+					0
+				}
+			},
+			{
+				{
+					5,
+					7,
+					0
+				},
+				{
+					"fanqian",
+					0,
+					0
+				}
+			}
+		},
+		property_limitation = {
+			{
+				"level",
+				1,
+				100
+			},
+			{
+				"air",
+				1,
+				1700
+			},
+			{
+				"antiaircraft",
+				1,
+				2300
+			}
+		},
+		expedition_id_weight_list = {
+			{
+				1443201,
+				15,
+				0
+			},
+			{
+				1443202,
+				20,
+				0
+			},
+			{
+				1443203,
+				30,
+				1
+			},
+			{
+				1443204,
+				15,
+				0
+			},
+			{
+				1443205,
+				20,
+				0
+			},
+			{
+				1443206,
+				30,
+				1
+			},
+			{
+				1443207,
+				15,
+				0
+			},
+			{
+				1443208,
+				20,
+				0
+			},
+			{
+				1443209,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {
+			1443205,
+			1443208
+		},
+		ai_expedition_list = {
+			1443309,
+			1443311,
+			1443313
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1443213
+		},
+		enemy_refresh = {
+			1,
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			0,
+			1,
+			0,
+			1
+		},
+		ai_refresh = {
+			2,
+			0,
+			1
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"unknown1"
+		},
+		awards = {
+			{
+				2,
+				58024
+			},
+			{
+				2,
+				58012
+			},
+			{
+				2,
+				54013
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				9,
+				10,
+				true,
+				0
+			},
+			{
+				9,
+				9,
+				true,
+				0
+			},
+			{
+				9,
+				8,
+				true,
+				0
+			},
+			{
+				9,
+				7,
+				false,
+				0
+			},
+			{
+				9,
+				6,
+				false,
+				0
+			},
+			{
+				9,
+				5,
+				true,
+				0
+			},
+			{
+				9,
+				4,
+				false,
+				0
+			},
+			{
+				9,
+				3,
+				false,
+				0
+			},
+			{
+				9,
+				2,
+				true,
+				0
+			},
+			{
+				9,
+				1,
+				true,
+				0
+			},
+			{
+				9,
+				0,
+				true,
+				0
+			},
+			{
+				8,
+				10,
+				false,
+				0
+			},
+			{
+				8,
+				9,
+				true,
+				0
+			},
+			{
+				8,
+				8,
+				true,
+				0
+			},
+			{
+				8,
+				7,
+				false,
+				0
+			},
+			{
+				8,
+				6,
+				false,
+				0
+			},
+			{
+				8,
+				5,
+				true,
+				0
+			},
+			{
+				8,
+				4,
+				false,
+				0
+			},
+			{
+				8,
+				3,
+				false,
+				0
+			},
+			{
+				8,
+				2,
+				true,
+				0
+			},
+			{
+				8,
+				1,
+				true,
+				0
+			},
+			{
+				8,
+				0,
+				false,
+				0
+			},
+			{
+				7,
+				10,
+				true,
+				0
+			},
+			{
+				7,
+				9,
+				false,
+				0
+			},
+			{
+				7,
+				8,
+				false,
+				0
+			},
+			{
+				7,
+				7,
+				false,
+				0
+			},
+			{
+				7,
+				6,
+				true,
+				1
+			},
+			{
+				7,
+				5,
+				true,
+				0
+			},
+			{
+				7,
+				4,
+				true,
+				1
+			},
+			{
+				7,
+				3,
+				false,
+				0
+			},
+			{
+				7,
+				2,
+				false,
+				0
+			},
+			{
+				7,
+				1,
+				false,
+				0
+			},
+			{
+				7,
+				0,
+				true,
+				0
+			},
+			{
+				6,
+				10,
+				true,
+				0
+			},
+			{
+				6,
+				9,
+				true,
+				0
+			},
+			{
+				6,
+				8,
+				false,
+				0
+			},
+			{
+				6,
+				7,
+				true,
+				4
+			},
+			{
+				6,
+				6,
+				true,
+				0
+			},
+			{
+				6,
+				5,
+				true,
+				0
+			},
+			{
+				6,
+				4,
+				true,
+				0
+			},
+			{
+				6,
+				3,
+				true,
+				4
+			},
+			{
+				6,
+				2,
+				false,
+				0
+			},
+			{
+				6,
+				1,
+				true,
+				0
+			},
+			{
+				6,
+				0,
+				true,
+				0
+			},
+			{
+				5,
+				10,
+				false,
+				0
+			},
+			{
+				5,
+				9,
+				true,
+				6
+			},
+			{
+				5,
+				8,
+				true,
+				0
+			},
+			{
+				5,
+				7,
+				true,
+				0
+			},
+			{
+				5,
+				6,
+				true,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				8
+			},
+			{
+				5,
+				4,
+				true,
+				0
+			},
+			{
+				5,
+				3,
+				true,
+				0
+			},
+			{
+				5,
+				2,
+				true,
+				0
+			},
+			{
+				5,
+				1,
+				true,
+				6
+			},
+			{
+				5,
+				0,
+				false,
+				0
+			},
+			{
+				4,
+				10,
+				false,
+				0
+			},
+			{
+				4,
+				9,
+				true,
+				6
+			},
+			{
+				4,
+				8,
+				true,
+				0
+			},
+			{
+				4,
+				7,
+				false,
+				0
+			},
+			{
+				4,
+				6,
+				true,
+				12
+			},
+			{
+				4,
+				5,
+				true,
+				0
+			},
+			{
+				4,
+				4,
+				true,
+				12
+			},
+			{
+				4,
+				3,
+				false,
+				0
+			},
+			{
+				4,
+				2,
+				true,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				6
+			},
+			{
+				4,
+				0,
+				false,
+				0
+			},
+			{
+				3,
+				10,
+				true,
+				4
+			},
+			{
+				3,
+				9,
+				true,
+				0
+			},
+			{
+				3,
+				8,
+				true,
+				0
+			},
+			{
+				3,
+				7,
+				false,
+				0
+			},
+			{
+				3,
+				6,
+				false,
+				0
+			},
+			{
+				3,
+				5,
+				true,
+				0
+			},
+			{
+				3,
+				4,
+				false,
+				0
+			},
+			{
+				3,
+				3,
+				false,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				0
+			},
+			{
+				3,
+				1,
+				true,
+				0
+			},
+			{
+				3,
+				0,
+				true,
+				4
+			},
+			{
+				2,
+				10,
+				true,
+				0
+			},
+			{
+				2,
+				9,
+				false,
+				0
+			},
+			{
+				2,
+				8,
+				true,
+				6
+			},
+			{
+				2,
+				7,
+				true,
+				0
+			},
+			{
+				2,
+				6,
+				true,
+				0
+			},
+			{
+				2,
+				5,
+				true,
+				16
+			},
+			{
+				2,
+				4,
+				true,
+				0
+			},
+			{
+				2,
+				3,
+				true,
+				0
+			},
+			{
+				2,
+				2,
+				true,
+				6
+			},
+			{
+				2,
+				1,
+				false,
+				0
+			},
+			{
+				2,
+				0,
+				true,
+				0
+			},
+			{
+				1,
+				10,
+				true,
+				0
+			},
+			{
+				1,
+				9,
+				false,
+				0
+			},
+			{
+				1,
+				8,
+				false,
+				0
+			},
+			{
+				1,
+				7,
+				true,
+				0
+			},
+			{
+				1,
+				6,
+				true,
+				12
+			},
+			{
+				1,
+				5,
+				true,
+				0
+			},
+			{
+				1,
+				4,
+				true,
+				12
+			},
+			{
+				1,
+				3,
+				true,
+				0
+			},
+			{
+				1,
+				2,
+				false,
+				0
+			},
+			{
+				1,
+				1,
+				false,
+				0
+			},
+			{
+				1,
+				0,
+				true,
+				0
+			},
+			{
+				0,
+				10,
+				true,
+				0
+			},
+			{
+				0,
+				9,
+				true,
+				0
+			},
+			{
+				0,
+				8,
+				true,
+				0
+			},
+			{
+				0,
+				7,
+				true,
+				6
+			},
+			{
+				0,
+				6,
+				true,
+				0
+			},
+			{
+				0,
+				5,
+				true,
+				4
+			},
+			{
+				0,
+				4,
+				true,
+				0
+			},
+			{
+				0,
+				3,
+				true,
+				6
+			},
+			{
+				0,
+				2,
+				true,
+				0
+			},
+			{
+				0,
+				1,
+				true,
+				0
+			},
+			{
+				0,
+				0,
+				true,
+				0
+			}
+		},
+		float_items = {
+			{
+				8,
+				10,
+				"1x1XWIsLand_1",
+				11,
+				33
+			},
+			{
+				8,
+				6,
+				"2x2XWIsLand_3",
+				63,
+				-37
+			},
+			{
+				8,
+				3,
+				"2x2XWIsLand_2",
+				46,
+				-37
+			},
+			{
+				8,
+				0,
+				"1x1XWIsLand_1",
+				11,
+				33
+			},
+			{
+				7,
+				7,
+				"1x3XWIsLand_3",
+				92,
+				6
+			},
+			{
+				7,
+				1,
+				"1x3XWIsLand_1",
+				112,
+				4
+			},
+			{
+				6,
+				8,
+				"1x1XWIsLand_2",
+				0,
+				5
+			},
+			{
+				6,
+				2,
+				"1x1XWIsLand_2",
+				0,
+				5
+			},
+			{
+				4,
+				10,
+				"1x2XWIsLand_1",
+				3,
+				-36
+			},
+			{
+				4,
+				0,
+				"1x2XWIsLand_1",
+				3,
+				-36
+			},
+			{
+				3,
+				6,
+				"2x2XWIsLand_1",
+				65,
+				-33
+			},
+			{
+				3,
+				3,
+				"2x2XWIsLand_4",
+				42,
+				-33
+			},
+			{
+				1,
+				8,
+				"2x2XWIsLand_1",
+				65,
+				-33
+			},
+			{
+				1,
+				1,
+				"2x2XWIsLand_4",
+				42,
+				-33
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_daxuanwo",
+			45,
+			20,
+			-317,
+			129,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			9,
+			23,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {
+			"DIEHAIMENGHUA36"
+		},
+		defeat_story = {
+			"DIEHAIMENGHUA40",
+			"DIEHAIMENGHUA41",
+			"DIEHAIMENGHUA42"
+		},
+		defeat_story_count = {
+			5,
+			6,
+			7
+		},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {
+			{
+				8,
+				6
+			},
+			{
+				5,
+				3
+			},
+			{
+				2,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {},
+		chapter_buff = {
+			8746
+		},
+		wall_prefab = {},
+		alarm_cell = {}
+	},
+	[1410027] = {
+		pos_x = "0.18",
+		num_3 = 0,
+		progress_boss = 100,
+		oil = 10,
+		is_limit_move = 0,
+		mine_id = 2001,
+		activate_time = 0,
+		story_refresh_boss = "DIEHAIMENGHUA4",
+		is_ambush = 0,
+		ammo_cost = 1,
+		collection_team = 0,
+		special_operation_list = "",
+		air_dominance = 375,
+		best_air_dominance = 490,
+		id = 1410027,
+		count = 0,
+		icon_outline = 0,
+		bg = "",
+		pre_chapter = 0,
+		formation = 1410001,
+		bgm = "story-4",
+		chapter_tag = 0,
+		star_require_1 = 0,
+		pos_y = "0.26",
+		pop_pic = "",
+		num_1 = 0,
+		model = 2,
+		investigation_ratio = 0,
+		ammo_submarine = 0,
+		num_2 = 0,
+		is_ai = 1,
+		map = 1410011,
+		unlocklevel = 0,
+		chapter_fx = "",
+		uifx = "",
+		name = "蝴蝶之梦",
+		chapter_name = "HTS1",
+		type = 1,
+		act_id = 701,
+		enter_story = "DIEHAIMENGHUA2",
+		boss_refresh = 3,
+		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
+		friendly_id = 0,
+		mitigation_rate = 0,
+		mitigation_level = 0,
+		ammo_total = 5,
+		group_num = 1,
+		enter_story_limit = "",
+		star_require_3 = 0,
+		profiles = "「梦境正在被漆黑与猩红的预兆所撕裂。纵使以这般身姿醒来，只要现在行动起来……为时还，未晚…！」",
+		difficulty = 3,
+		avoid_ratio = 8,
+		star_require_2 = 0,
+		time = 43200,
+		win_condition_display = "win_condition_display_qijian",
+		submarine_num = 0,
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {},
+		property_limitation = {},
+		expedition_id_weight_list = {
+			{
+				1447001,
+				100,
+				0
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {
+			1447002
+		},
+		ai_expedition_list = {
+			1447003
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1447013
+		},
+		enemy_refresh = {
+			1
+		},
+		elite_refresh = {
+			0,
+			1
+		},
+		ai_refresh = {
+			0,
+			0,
+			1
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"sairenquzhu_i"
+		},
+		awards = {
+			{
+				2,
+				20001
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				5,
+				7,
+				true,
+				0
+			},
+			{
+				5,
+				6,
+				true,
+				1
+			},
+			{
+				5,
+				5,
+				false,
+				0
+			},
+			{
+				5,
+				4,
+				true,
+				0
+			},
+			{
+				5,
+				3,
+				true,
+				0
+			},
+			{
+				5,
+				2,
+				true,
+				0
+			},
+			{
+				5,
+				1,
+				false,
+				0
+			},
+			{
+				5,
+				0,
+				true,
+				0
+			},
+			{
+				4,
+				7,
+				true,
+				1
+			},
+			{
+				4,
+				6,
+				true,
+				0
+			},
+			{
+				4,
+				5,
+				false,
+				0
+			},
+			{
+				4,
+				4,
+				false,
+				0
+			},
+			{
+				4,
+				3,
+				true,
+				0
+			},
+			{
+				4,
+				2,
+				true,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				0
+			},
+			{
+				4,
+				0,
+				true,
+				0
+			},
+			{
+				3,
+				7,
+				true,
+				0
+			},
+			{
+				3,
+				6,
+				true,
+				6
+			},
+			{
+				3,
+				5,
+				true,
+				0
+			},
+			{
+				3,
+				4,
+				true,
+				0
+			},
+			{
+				3,
+				3,
+				false,
+				0
+			},
+			{
+				3,
+				2,
+				false,
+				0
+			},
+			{
+				3,
+				1,
+				false,
+				0
+			},
+			{
+				3,
+				0,
+				false,
+				0
+			},
+			{
+				2,
+				7,
+				false,
+				0
+			},
+			{
+				2,
+				6,
+				true,
+				0
+			},
+			{
+				2,
+				5,
+				true,
+				0
+			},
+			{
+				2,
+				4,
+				true,
+				4
+			},
+			{
+				2,
+				3,
+				true,
+				0
+			},
+			{
+				2,
+				2,
+				true,
+				0
+			},
+			{
+				2,
+				1,
+				true,
+				0
+			},
+			{
+				2,
+				0,
+				false,
+				0
+			},
+			{
+				1,
+				7,
+				false,
+				0
+			},
+			{
+				1,
+				6,
+				false,
+				0
+			},
+			{
+				1,
+				5,
+				false,
+				0
+			},
+			{
+				1,
+				4,
+				true,
+				0
+			},
+			{
+				1,
+				3,
+				true,
+				0
+			},
+			{
+				1,
+				2,
+				true,
+				0
+			},
+			{
+				1,
+				1,
+				true,
+				12
+			},
+			{
+				1,
+				0,
+				true,
+				0
+			},
+			{
+				0,
+				7,
+				true,
+				0
+			},
+			{
+				0,
+				6,
+				true,
+				0
+			},
+			{
+				0,
+				5,
+				false,
+				0
+			},
+			{
+				0,
+				4,
+				false,
+				0
+			},
+			{
+				0,
+				3,
+				false,
+				0
+			},
+			{
+				0,
+				2,
+				false,
+				0
+			},
+			{
+				0,
+				1,
+				true,
+				0
+			},
+			{
+				0,
+				0,
+				true,
+				8
+			}
+		},
+		float_items = {
+			{
+				5,
+				1,
+				"1x1_2xinrixihard",
+				0,
+				3
+			},
+			{
+				4,
+				4,
+				"2x2_2xinrixihard",
+				62,
+				-36
+			},
+			{
+				3,
+				1,
+				"1x3_1xinrixihard",
+				109,
+				7
+			},
+			{
+				2,
+				0,
+				"2x1_1xinrixihard",
+				-14,
+				-32
+			},
+			{
+				1,
+				7,
+				"2x1_2xinrixihard",
+				10,
+				-28
+			},
+			{
+				1,
+				6,
+				"1x1_2xinrixihard",
+				0,
+				5
+			},
+			{
+				0,
+				5,
+				"2x1_1xinrixihard",
+				7,
+				-29
+			},
+			{
+				0,
+				2,
+				"1x3_1xinrixihard",
+				105,
+				3
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_xinrixi",
+			45,
+			20,
+			-200,
+			-200,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			4,
+			22,
+			102,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {
+			"DIEHAIMENGHUA3"
+		},
+		defeat_story = {
+			"DIEHAIMENGHUA5"
+		},
+		defeat_story_count = {
+			1
+		},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {},
+		land_based = {},
+		chapter_buff = {},
+		wall_prefab = {},
+		alarm_cell = {}
+	},
+	[1410028] = {
+		pos_x = "0.69",
+		num_3 = 0,
+		progress_boss = 100,
+		oil = 10,
+		is_limit_move = 0,
+		mine_id = 2001,
+		activate_time = 0,
+		story_refresh_boss = "",
+		is_ambush = 0,
+		ammo_cost = 1,
+		collection_team = 0,
+		special_operation_list = "",
+		air_dominance = 0,
+		best_air_dominance = 0,
+		id = 1410028,
+		count = 0,
+		icon_outline = 0,
+		bg = "",
+		pre_chapter = 1410024,
+		formation = 1410002,
+		bgm = "story-1",
+		chapter_tag = 0,
+		star_require_1 = 0,
+		pos_y = "0.123958333",
+		pop_pic = "",
+		num_1 = 0,
+		model = 2,
+		investigation_ratio = 0,
+		ammo_submarine = 0,
+		num_2 = 0,
+		is_ai = 1,
+		map = 1410012,
+		unlocklevel = 0,
+		chapter_fx = "",
+		uifx = "",
+		name = "樱下苍红",
+		chapter_name = "HTS2",
+		type = 1,
+		act_id = 702,
+		enter_story = "DIEHAIMENGHUA26",
+		boss_refresh = 5,
+		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
+		friendly_id = 0,
+		mitigation_rate = 0,
+		mitigation_level = 0,
+		ammo_total = 5,
+		group_num = 1,
+		enter_story_limit = "",
+		star_require_3 = 0,
+		profiles = "「此处港区宛如理想之地一般，就连妾身也以万全的状态存在于此，如此的话，也许能在这里找到……」",
+		difficulty = 3,
+		avoid_ratio = 8,
+		star_require_2 = 0,
+		time = 43200,
+		win_condition_display = "win_condition_display_tuoli",
+		submarine_num = 0,
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {},
+		property_limitation = {},
+		expedition_id_weight_list = {},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {},
+		ai_expedition_list = {},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {},
+		enemy_refresh = {
+			0
+		},
+		elite_refresh = {
+			0
+		},
+		ai_refresh = {
+			0
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		win_condition = {
+			{
+				6,
+				{
+					7,
+					6
+				}
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"tiancheng"
+		},
+		awards = {},
+		grids = {
+			{
+				7,
+				7,
+				false,
+				0
+			},
+			{
+				7,
+				6,
+				true,
+				0
+			},
+			{
+				7,
+				5,
+				false,
+				0
+			},
+			{
+				7,
+				4,
+				false,
+				0
+			},
+			{
+				7,
+				3,
+				false,
+				0
+			},
+			{
+				7,
+				2,
+				true,
+				0
+			},
+			{
+				7,
+				1,
+				true,
+				0
+			},
+			{
+				7,
+				0,
+				true,
+				0
+			},
+			{
+				6,
+				7,
+				false,
+				0
+			},
+			{
+				6,
+				6,
+				true,
+				0
+			},
+			{
+				6,
+				5,
+				false,
+				0
+			},
+			{
+				6,
+				4,
+				true,
+				0
+			},
+			{
+				6,
+				3,
+				false,
+				0
+			},
+			{
+				6,
+				2,
+				true,
+				1
+			},
+			{
+				6,
+				1,
+				true,
+				0
+			},
+			{
+				6,
+				0,
+				true,
+				0
+			},
+			{
+				5,
+				7,
+				false,
+				0
+			},
+			{
+				5,
+				6,
+				true,
+				0
+			},
+			{
+				5,
+				5,
+				false,
+				0
+			},
+			{
+				5,
+				4,
+				true,
+				0
+			},
+			{
+				5,
+				3,
+				true,
+				0
+			},
+			{
+				5,
+				2,
+				false,
+				0
+			},
+			{
+				5,
+				1,
+				true,
+				0
+			},
+			{
+				5,
+				0,
+				true,
+				0
+			},
+			{
+				4,
+				7,
+				true,
+				0
+			},
+			{
+				4,
+				6,
+				true,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				0
+			},
+			{
+				4,
+				4,
+				false,
+				0
+			},
+			{
+				4,
+				3,
+				true,
+				0
+			},
+			{
+				4,
+				2,
+				true,
+				0
+			},
+			{
+				4,
+				1,
+				false,
+				0
+			},
+			{
+				4,
+				0,
+				true,
+				0
+			},
+			{
+				3,
+				7,
+				false,
+				0
+			},
+			{
+				3,
+				6,
+				true,
+				0
+			},
+			{
+				3,
+				5,
+				false,
+				0
+			},
+			{
+				3,
+				4,
+				false,
+				0
+			},
+			{
+				3,
+				3,
+				false,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				0
+			},
+			{
+				3,
+				1,
+				true,
+				0
+			},
+			{
+				3,
+				0,
+				true,
+				0
+			},
+			{
+				2,
+				7,
+				false,
+				0
+			},
+			{
+				2,
+				6,
+				true,
+				0
+			},
+			{
+				2,
+				5,
+				false,
+				0
+			},
+			{
+				2,
+				4,
+				true,
+				0
+			},
+			{
+				2,
+				3,
+				true,
+				0
+			},
+			{
+				2,
+				2,
+				true,
+				0
+			},
+			{
+				2,
+				1,
+				true,
+				0
+			},
+			{
+				2,
+				0,
+				true,
+				0
+			},
+			{
+				1,
+				7,
+				false,
+				0
+			},
+			{
+				1,
+				6,
+				true,
+				0
+			},
+			{
+				1,
+				5,
+				true,
+				0
+			},
+			{
+				1,
+				4,
+				true,
+				0
+			},
+			{
+				1,
+				3,
+				false,
+				0
+			},
+			{
+				1,
+				2,
+				false,
+				0
+			},
+			{
+				1,
+				1,
+				false,
+				0
+			},
+			{
+				1,
+				0,
+				false,
+				0
+			},
+			{
+				0,
+				7,
+				true,
+				0
+			},
+			{
+				0,
+				6,
+				true,
+				0
+			},
+			{
+				0,
+				5,
+				true,
+				0
+			},
+			{
+				0,
+				4,
+				true,
+				0
+			},
+			{
+				0,
+				3,
+				true,
+				0
+			},
+			{
+				0,
+				2,
+				true,
+				0
+			},
+			{
+				0,
+				1,
+				true,
+				0
+			},
+			{
+				0,
+				0,
+				false,
+				0
+			}
+		},
+		float_items = {
+			{
+				7,
+				7,
+				"xinnong_hard_1x1_2",
+				0,
+				24
+			},
+			{
+				7,
+				3,
+				"xinnong_hard_3x1_1",
+				104,
+				6
+			},
+			{
+				6,
+				7,
+				"xinnong_hard_1x1_3",
+				0,
+				11
+			},
+			{
+				6,
+				5,
+				"xinnong_hard_1x1_3",
+				0,
+				11
+			},
+			{
+				6,
+				3,
+				"xinnong_hard_1x1_1",
+				0,
+				0
+			},
+			{
+				5,
+				7,
+				"xinnong_hard_1x1_2",
+				0,
+				24
+			},
+			{
+				5,
+				5,
+				"xinnong_hard_1x1_2",
+				0,
+				24
+			},
+			{
+				5,
+				2,
+				"xinnong_hard_1x1_3",
+				0,
+				11
+			},
+			{
+				4,
+				1,
+				"xinnong_hard_1x1_2",
+				0,
+				24
+			},
+			{
+				3,
+				3,
+				"xinnong_hard_2x2_1",
+				56,
+				-22
+			},
+			{
+				2,
+				7,
+				"xinnong_hard_1x2_1",
+				1,
+				-30
+			},
+			{
+				2,
+				5,
+				"xinnong_hard_1x2_1",
+				-6,
+				-31
+			},
+			{
+				1,
+				7,
+				"xinnong_hard_1x1_1",
+				0,
+				0
+			},
+			{
+				1,
+				1,
+				"xinnong_hard_3x1_1",
+				100,
+				7
+			},
+			{
+				0,
+				0,
+				"xinnong_hard_1x2_1",
+				5,
+				-32
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_xinnong_hard",
+			45,
+			20,
+			-128,
+			-4,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			4,
+			22,
+			102,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {
+			"DIEHAIMENGHUA30"
+		},
+		defeat_story_count = {
+			1
+		},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {},
+		land_based = {},
+		chapter_buff = {},
+		wall_prefab = {},
+		alarm_cell = {}
+	},
+	[1410041] = {
+		pos_x = "0.479",
+		num_3 = 0,
+		progress_boss = 100,
+		oil = 10,
+		is_limit_move = 0,
+		mine_id = 2001,
+		activate_time = 0,
+		story_refresh_boss = "",
+		is_ambush = 0,
+		ammo_cost = 1,
+		collection_team = 0,
+		special_operation_list = "",
+		air_dominance = 1770,
+		best_air_dominance = 2305,
+		id = 1410041,
+		count = 1,
+		icon_outline = 0,
+		bg = "",
+		pre_chapter = 1410026,
+		formation = 1410020,
+		bgm = "",
+		chapter_tag = 0,
+		star_require_1 = 0,
+		pos_y = "0.2979",
+		pop_pic = "",
+		num_1 = 0,
+		model = 2,
+		investigation_ratio = 0,
+		ammo_submarine = 0,
+		num_2 = 0,
+		is_ai = 1,
+		map = 1410020,
+		unlocklevel = 0,
+		chapter_fx = "",
+		uifx = "",
+		name = "白日之梦",
+		chapter_name = "SP",
+		type = 2,
+		act_id = 702,
+		enter_story = "",
+		boss_refresh = 7,
+		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
+		friendly_id = 0,
+		mitigation_rate = 0,
+		mitigation_level = 0,
+		ammo_total = 5,
+		group_num = 2,
+		enter_story_limit = "",
+		star_require_3 = 0,
+		profiles = "「此刻恍若白日之梦，虚无缥缈，转瞬即逝。纵使如此…只要界限未临，只要敌息尚存，妾身就要继续战斗下去」",
+		difficulty = 10,
+		avoid_ratio = 16,
+		star_require_2 = 0,
+		time = 43200,
+		win_condition_display = "win_condition_display_qijian",
+		submarine_num = 1,
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {
+			{
+				{
+					0,
+					0,
+					0
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					0,
+					0,
+					0
+				},
+				{
+					0,
+					0,
+					0
+				}
+			}
+		},
+		property_limitation = {
+			{
+				"level",
+				1,
+				110
+			}
+		},
+		expedition_id_weight_list = {
+			{
+				1444002,
+				15,
+				0
+			},
+			{
+				1444003,
+				35,
+				0
+			},
+			{
+				1444005,
+				50,
+				0
+			},
+			{
+				1444008,
+				50,
+				0
+			},
+			{
+				1444001,
+				10,
+				0
+			},
+			{
+				1444002,
+				10,
+				0
+			},
+			{
+				1444003,
+				10,
+				0
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {
+			1444006,
+			1444009
+		},
+		ai_expedition_list = {},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1444013
+		},
+		enemy_refresh = {
+			0,
+			0,
+			0,
+			0,
+			2
+		},
+		elite_refresh = {
+			2
+		},
+		ai_refresh = {
+			0
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"unknown1"
+		},
+		awards = {
+			{
+				2,
+				58027
+			},
+			{
+				2,
+				58025
+			},
+			{
+				2,
+				54013
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				8,
+				10,
+				true,
+				0
+			},
+			{
+				8,
+				9,
+				true,
+				0
+			},
+			{
+				8,
+				8,
+				true,
+				0
+			},
+			{
+				8,
+				7,
+				true,
+				0
+			},
+			{
+				8,
+				6,
+				false,
+				0
+			},
+			{
+				8,
+				5,
+				true,
+				8
+			},
+			{
+				8,
+				4,
+				false,
+				0
+			},
+			{
+				8,
+				3,
+				true,
+				0
+			},
+			{
+				8,
+				2,
+				true,
+				0
+			},
+			{
+				8,
+				1,
+				true,
+				0
+			},
+			{
+				8,
+				0,
+				true,
+				0
+			},
+			{
+				7,
+				10,
+				false,
+				0
+			},
+			{
+				7,
+				9,
+				true,
+				0
+			},
+			{
+				7,
+				8,
+				true,
+				0
+			},
+			{
+				7,
+				7,
+				true,
+				0
+			},
+			{
+				7,
+				6,
+				false,
+				0
+			},
+			{
+				7,
+				5,
+				true,
+				0
+			},
+			{
+				7,
+				4,
+				false,
+				0
+			},
+			{
+				7,
+				3,
+				true,
+				0
+			},
+			{
+				7,
+				2,
+				true,
+				0
+			},
+			{
+				7,
+				1,
+				true,
+				0
+			},
+			{
+				7,
+				0,
+				false,
+				0
+			},
+			{
+				6,
+				10,
+				true,
+				0
+			},
+			{
+				6,
+				9,
+				false,
+				0
+			},
+			{
+				6,
+				8,
+				false,
+				0
+			},
+			{
+				6,
+				7,
+				false,
+				0
+			},
+			{
+				6,
+				6,
+				false,
+				0
+			},
+			{
+				6,
+				5,
+				true,
+				0
+			},
+			{
+				6,
+				4,
+				false,
+				0
+			},
+			{
+				6,
+				3,
+				false,
+				0
+			},
+			{
+				6,
+				2,
+				false,
+				0
+			},
+			{
+				6,
+				1,
+				false,
+				0
+			},
+			{
+				6,
+				0,
+				true,
+				0
+			},
+			{
+				5,
+				10,
+				true,
+				0
+			},
+			{
+				5,
+				9,
+				true,
+				0
+			},
+			{
+				5,
+				8,
+				false,
+				0
+			},
+			{
+				5,
+				7,
+				true,
+				0
+			},
+			{
+				5,
+				6,
+				true,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				0
+			},
+			{
+				5,
+				4,
+				true,
+				0
+			},
+			{
+				5,
+				3,
+				true,
+				0
+			},
+			{
+				5,
+				2,
+				false,
+				0
+			},
+			{
+				5,
+				1,
+				true,
+				0
+			},
+			{
+				5,
+				0,
+				true,
+				0
+			},
+			{
+				4,
+				10,
+				true,
+				0
+			},
+			{
+				4,
+				9,
+				true,
+				0
+			},
+			{
+				4,
+				8,
+				false,
+				0
+			},
+			{
+				4,
+				7,
+				true,
+				6
+			},
+			{
+				4,
+				6,
+				true,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				0
+			},
+			{
+				4,
+				4,
+				true,
+				0
+			},
+			{
+				4,
+				3,
+				true,
+				6
+			},
+			{
+				4,
+				2,
+				false,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				0
+			},
+			{
+				4,
+				0,
+				true,
+				0
+			},
+			{
+				3,
+				10,
+				true,
+				0
+			},
+			{
+				3,
+				9,
+				false,
+				0
+			},
+			{
+				3,
+				8,
+				false,
+				0
+			},
+			{
+				3,
+				7,
+				false,
+				0
+			},
+			{
+				3,
+				6,
+				false,
+				0
+			},
+			{
+				3,
+				5,
+				true,
+				0
+			},
+			{
+				3,
+				4,
+				false,
+				0
+			},
+			{
+				3,
+				3,
+				false,
+				0
+			},
+			{
+				3,
+				2,
+				false,
+				0
+			},
+			{
+				3,
+				1,
+				false,
+				0
+			},
+			{
+				3,
+				0,
+				true,
+				0
+			},
+			{
+				2,
+				10,
+				false,
+				0
+			},
+			{
+				2,
+				9,
+				true,
+				0
+			},
+			{
+				2,
+				8,
+				true,
+				4
+			},
+			{
+				2,
+				7,
+				false,
+				0
+			},
+			{
+				2,
+				6,
+				true,
+				1
+			},
+			{
+				2,
+				5,
+				true,
+				0
+			},
+			{
+				2,
+				4,
+				true,
+				1
+			},
+			{
+				2,
+				3,
+				false,
+				0
+			},
+			{
+				2,
+				2,
+				true,
+				4
+			},
+			{
+				2,
+				1,
+				true,
+				0
+			},
+			{
+				2,
+				0,
+				false,
+				0
+			},
+			{
+				1,
+				10,
+				true,
+				0
+			},
+			{
+				1,
+				9,
+				true,
+				0
+			},
+			{
+				1,
+				8,
+				true,
+				0
+			},
+			{
+				1,
+				7,
+				true,
+				0
+			},
+			{
+				1,
+				6,
+				true,
+				0
+			},
+			{
+				1,
+				5,
+				true,
+				16
+			},
+			{
+				1,
+				4,
+				true,
+				0
+			},
+			{
+				1,
+				3,
+				true,
+				0
+			},
+			{
+				1,
+				2,
+				true,
+				0
+			},
+			{
+				1,
+				1,
+				true,
+				0
+			},
+			{
+				1,
+				0,
+				true,
+				0
+			},
+			{
+				0,
+				10,
+				true,
+				0
+			},
+			{
+				0,
+				9,
+				true,
+				0
+			},
+			{
+				0,
+				8,
+				true,
+				0
+			},
+			{
+				0,
+				7,
+				false,
+				0
+			},
+			{
+				0,
+				6,
+				true,
+				0
+			},
+			{
+				0,
+				5,
+				true,
+				0
+			},
+			{
+				0,
+				4,
+				true,
+				0
+			},
+			{
+				0,
+				3,
+				false,
+				0
+			},
+			{
+				0,
+				2,
+				true,
+				0
+			},
+			{
+				0,
+				1,
+				true,
+				0
+			},
+			{
+				0,
+				0,
+				true,
+				0
+			}
+		},
+		float_items = {
+			{
+				8,
+				6,
+				"xinnong_hard_2x1_1",
+				27,
+				21
+			},
+			{
+				8,
+				4,
+				"xinnong_hard_2x1_1",
+				-25,
+				21
+			},
+			{
+				7,
+				10,
+				"xinnong_hard_1x1_3",
+				0,
+				11
+			},
+			{
+				7,
+				6,
+				"xinnong_hard_1x1_3",
+				0,
+				11
+			},
+			{
+				7,
+				4,
+				"xinnong_hard_1x1_3",
+				0,
+				11
+			},
+			{
+				7,
+				0,
+				"xinnong_hard_1x1_3",
+				0,
+				11
+			},
+			{
+				6,
+				7,
+				"xinnong_hard_3x1_1",
+				103,
+				5
+			},
+			{
+				6,
+				6,
+				"xinnong_hard_1x1_2",
+				0,
+				24
+			},
+			{
+				6,
+				4,
+				"xinnong_hard_1x1_2",
+				0,
+				24
+			},
+			{
+				6,
+				1,
+				"xinnong_hard_3x1_1",
+				102,
+				5
+			},
+			{
+				4,
+				8,
+				"xinnong_hard_1x2_1",
+				0,
+				-30
+			},
+			{
+				4,
+				2,
+				"xinnong_hard_1x2_1",
+				0,
+				-30
+			},
+			{
+				3,
+				7,
+				"xinnong_hard_3x1_1",
+				103,
+				5
+			},
+			{
+				3,
+				6,
+				"xinnong_hard_1x1_2",
+				0,
+				24
+			},
+			{
+				3,
+				4,
+				"xinnong_hard_1x1_2",
+				0,
+				24
+			},
+			{
+				3,
+				1,
+				"xinnong_hard_3x1_1",
+				102,
+				5
+			},
+			{
+				2,
+				10,
+				"xinnong_hard_1x1_3",
+				0,
+				11
+			},
+			{
+				2,
+				7,
+				"xinnong_hard_1x1_2",
+				0,
+				24
+			},
+			{
+				2,
+				3,
+				"xinnong_hard_1x1_2",
+				0,
+				24
+			},
+			{
+				2,
+				0,
+				"xinnong_hard_1x1_3",
+				0,
+				11
+			},
+			{
+				0,
+				10,
+				"xinnong_teleport01",
+				0,
+				45
+			},
+			{
+				0,
+				7,
+				"xinnong_hard_1x1_2",
+				0,
+				24
+			},
+			{
+				0,
+				6,
+				"xinnong_teleport01",
+				10,
+				44
+			},
+			{
+				0,
+				4,
+				"xinnong_teleport03",
+				-10,
+				44
+			},
+			{
+				0,
+				3,
+				"xinnong_hard_1x1_2",
+				0,
+				24
+			},
+			{
+				0,
+				0,
+				"xinnong_teleport03",
+				0,
+				45
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_xinnong_hard",
+			45,
+			20,
+			-328,
+			-336,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			9,
+			23,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {},
+		defeat_story_count = {},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {},
+		land_based = {},
+		chapter_buff = {},
+		wall_prefab = {},
+		alarm_cell = {}
+	},
+	[1410051] = {
+		pos_x = "0.479",
+		num_3 = 0,
+		progress_boss = 100,
+		oil = 0,
+		is_limit_move = 0,
+		mine_id = 2001,
+		activate_time = 0,
+		story_refresh_boss = "",
+		is_ambush = 0,
+		ammo_cost = 1,
+		collection_team = 0,
+		special_operation_list = "",
+		air_dominance = 930,
+		best_air_dominance = 1210,
+		id = 1410051,
+		count = 0,
+		icon_outline = 0,
+		bg = "",
+		pre_chapter = 1410026,
+		formation = 1410021,
+		bgm = "",
+		chapter_tag = 0,
+		star_require_1 = 0,
+		pos_y = "0.2979",
+		pop_pic = "",
+		num_1 = 0,
+		model = 5,
+		investigation_ratio = 0,
+		ammo_submarine = 0,
+		num_2 = 0,
+		is_ai = 0,
+		map = 1410021,
+		unlocklevel = 0,
+		chapter_fx = "",
+		uifx = "",
+		name = "蝶海梦花",
+		chapter_name = "EXTRA",
+		type = 2,
+		act_id = 702,
+		enter_story = "",
+		boss_refresh = 0,
+		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
+		friendly_id = 0,
+		mitigation_rate = 0,
+		mitigation_level = 0,
+		ammo_total = 5,
+		group_num = 1,
+		enter_story_limit = "",
+		star_require_3 = 0,
+		profiles = "「闯入梦境之人啊，请尽情地欣赏，这蝶与花的碧波中，妾身最华美的舞姿吧」",
+		difficulty = 10,
+		avoid_ratio = 17,
+		star_require_2 = 0,
+		time = 43200,
+		win_condition_display = "win_condition_display_qijian",
+		submarine_num = 0,
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {
+			{
+				{
+					"zhan",
+					0,
+					7
+				},
+				{
+					0,
+					0,
+					0
+				}
+			}
+		},
+		property_limitation = {},
+		expedition_id_weight_list = {},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {},
+		ai_expedition_list = {
+			1
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1445001
+		},
+		enemy_refresh = {
+			0
+		},
+		elite_refresh = {
+			0
+		},
+		ai_refresh = {
+			1
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"xinnong"
+		},
+		awards = {},
+		grids = {
+			{
+				6,
+				4,
+				true,
+				0
+			},
+			{
+				6,
+				3,
+				true,
+				0
+			},
+			{
+				6,
+				2,
+				true,
+				0
+			},
+			{
+				6,
+				1,
+				true,
+				0
+			},
+			{
+				6,
+				0,
+				true,
+				0
+			},
+			{
+				5,
+				4,
+				false,
+				0
+			},
+			{
+				5,
+				3,
+				true,
+				0
+			},
+			{
+				5,
+				2,
+				true,
+				1
+			},
+			{
+				5,
+				1,
+				true,
+				0
+			},
+			{
+				5,
+				0,
+				false,
+				0
+			},
+			{
+				4,
+				4,
+				true,
+				0
+			},
+			{
+				4,
+				3,
+				false,
+				0
+			},
+			{
+				4,
+				2,
+				true,
+				0
+			},
+			{
+				4,
+				1,
+				false,
+				0
+			},
+			{
+				4,
+				0,
+				true,
+				0
+			},
+			{
+				3,
+				4,
+				true,
+				0
+			},
+			{
+				3,
+				3,
+				false,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				8
+			},
+			{
+				3,
+				1,
+				false,
+				0
+			},
+			{
+				3,
+				0,
+				true,
+				0
+			},
+			{
+				2,
+				4,
+				true,
+				0
+			},
+			{
+				2,
+				3,
+				false,
+				0
+			},
+			{
+				2,
+				2,
+				false,
+				0
+			},
+			{
+				2,
+				1,
+				false,
+				0
+			},
+			{
+				2,
+				0,
+				true,
+				0
+			},
+			{
+				1,
+				4,
+				false,
+				0
+			},
+			{
+				1,
+				3,
+				false,
+				0
+			},
+			{
+				1,
+				2,
+				true,
+				0
+			},
+			{
+				1,
+				1,
+				false,
+				0
+			},
+			{
+				1,
+				0,
+				false,
+				0
+			},
+			{
+				0,
+				4,
+				false,
+				0
+			},
+			{
+				0,
+				3,
+				false,
+				0
+			},
+			{
+				0,
+				2,
+				true,
+				0
+			},
+			{
+				0,
+				1,
+				false,
+				0
+			},
+			{
+				0,
+				0,
+				false,
+				0
+			}
+		},
+		float_items = {
+			{
+				5,
+				4,
+				"xinnong_hard_1x1_3",
+				0,
+				11
+			},
+			{
+				5,
+				0,
+				"xinnong_hard_1x1_3",
+				0,
+				11
+			},
+			{
+				4,
+				3,
+				"xinnong_hard_1x1_2",
+				0,
+				24
+			},
+			{
+				4,
+				1,
+				"xinnong_hard_1x1_2",
+				0,
+				24
+			},
+			{
+				3,
+				3,
+				"xinnong_hard_2x1_1",
+				22,
+				23
+			},
+			{
+				3,
+				1,
+				"xinnong_hard_2x1_1",
+				-21,
+				22
+			},
+			{
+				2,
+				1,
+				"xinnong_hard_3x1_1",
+				106,
+				9
+			},
+			{
+				0,
+				3,
+				"xinnong_hard_2x2_2",
+				58,
+				-5
+			},
+			{
+				0,
+				0,
+				"xinnong_hard_2x2_2",
+				58,
+				-5
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_xinnong_hard",
+			45,
+			20,
+			-19,
+			-112,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			9,
+			23,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {},
+		defeat_story_count = {},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {},
+		land_based = {},
+		chapter_buff = {},
+		wall_prefab = {},
+		alarm_cell = {}
+	},
+	[1420001] = {
+		pos_x = "0.20234375",
+		num_3 = 1,
+		progress_boss = 34,
+		oil = 10,
+		is_limit_move = 0,
+		mine_id = 2001,
+		activate_time = 0,
+		story_refresh_boss = "HUAPOHAIKONGZHIYI2",
+		is_ambush = 0,
+		ammo_cost = 1,
+		collection_team = 0,
+		special_operation_list = "",
+		air_dominance = 150,
+		best_air_dominance = 195,
+		id = 1420001,
+		count = 0,
+		icon_outline = 0,
+		bg = "",
+		pre_chapter = 0,
+		formation = 1420001,
+		bgm = "",
+		chapter_tag = 0,
+		star_require_1 = 1,
+		pos_y = "0.34375",
+		pop_pic = "",
+		num_1 = 1,
+		model = 1,
+		investigation_ratio = 0,
+		ammo_submarine = 0,
+		num_2 = 20,
+		is_ai = 0,
+		map = 1420001,
+		unlocklevel = 0,
+		chapter_fx = "",
+		uifx = "",
+		name = "分流",
+		chapter_name = "SP1",
+		type = 1,
+		act_id = 731,
+		enter_story = "HUAPOHAIKONGZHIYI1",
+		boss_refresh = 4,
+		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
+		friendly_id = 0,
+		mitigation_rate = 2,
+		mitigation_level = 5,
+		ammo_total = 5,
+		group_num = 2,
+		enter_story_limit = "",
+		star_require_3 = 3,
+		profiles = "「终于从总攻发起之前的防御阵型中抽身，事不宜迟，带领一支分舰队清理周边的岛屿吧。」",
+		difficulty = 6,
+		avoid_ratio = 12,
+		star_require_2 = 2,
+		time = 43200,
+		win_condition_display = "win_condition_display_qijian",
+		submarine_num = 1,
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {},
+		property_limitation = {},
+		expedition_id_weight_list = {
+			{
+				1460001,
+				15,
+				0
+			},
+			{
+				1460002,
+				20,
+				0
+			},
+			{
+				1460003,
+				30,
+				1
+			},
+			{
+				1460004,
+				15,
+				0
+			},
+			{
+				1460005,
+				20,
+				0
+			},
+			{
+				1460006,
+				30,
+				1
+			},
+			{
+				1460008,
+				20,
+				0
+			},
+			{
+				1460009,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {
+			1460005,
+			1460008
+		},
+		ai_expedition_list = {
+			1
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1460013
+		},
+		enemy_refresh = {
+			2,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			1
+		},
+		ai_refresh = {
+			0
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"miaogaodanchuan"
+		},
+		awards = {
+			{
+				2,
+				58034
+			},
+			{
+				2,
+				58028
+			},
+			{
+				2,
+				54012
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				5,
+				8,
+				false,
+				0
+			},
+			{
+				5,
+				7,
+				false,
+				0
+			},
+			{
+				5,
+				6,
+				false,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				4
+			},
+			{
+				5,
+				4,
+				true,
+				0
+			},
+			{
+				5,
+				3,
+				true,
+				0
+			},
+			{
+				5,
+				2,
+				true,
+				0
+			},
+			{
+				5,
+				1,
+				true,
+				0
+			},
+			{
+				5,
+				0,
+				true,
+				1
+			},
+			{
+				4,
+				8,
+				true,
+				4
+			},
+			{
+				4,
+				7,
+				true,
+				0
+			},
+			{
+				4,
+				6,
+				true,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				0
+			},
+			{
+				4,
+				4,
+				true,
+				0
+			},
+			{
+				4,
+				3,
+				false,
+				0
+			},
+			{
+				4,
+				2,
+				true,
+				6
+			},
+			{
+				4,
+				1,
+				true,
+				0
+			},
+			{
+				4,
+				0,
+				true,
+				0
+			},
+			{
+				3,
+				8,
+				true,
+				0
+			},
+			{
+				3,
+				7,
+				true,
+				0
+			},
+			{
+				3,
+				6,
+				true,
+				6
+			},
+			{
+				3,
+				5,
+				false,
+				0
+			},
+			{
+				3,
+				4,
+				true,
+				8
+			},
+			{
+				3,
+				3,
+				true,
+				6
+			},
+			{
+				3,
+				2,
+				true,
+				0
+			},
+			{
+				3,
+				1,
+				true,
+				0
+			},
+			{
+				3,
+				0,
+				true,
+				1
+			},
+			{
+				2,
+				8,
+				true,
+				6
+			},
+			{
+				2,
+				7,
+				true,
+				0
+			},
+			{
+				2,
+				6,
+				true,
+				6
+			},
+			{
+				2,
+				5,
+				false,
+				0
+			},
+			{
+				2,
+				4,
+				true,
+				16
+			},
+			{
+				2,
+				3,
+				true,
+				0
+			},
+			{
+				2,
+				2,
+				true,
+				0
+			},
+			{
+				2,
+				1,
+				true,
+				0
+			},
+			{
+				2,
+				0,
+				true,
+				0
+			},
+			{
+				1,
+				8,
+				true,
+				4
+			},
+			{
+				1,
+				7,
+				true,
+				0
+			},
+			{
+				1,
+				6,
+				true,
+				0
+			},
+			{
+				1,
+				5,
+				true,
+				8
+			},
+			{
+				1,
+				4,
+				true,
+				6
+			},
+			{
+				1,
+				3,
+				true,
+				0
+			},
+			{
+				1,
+				2,
+				true,
+				4
+			},
+			{
+				1,
+				1,
+				false,
+				0
+			},
+			{
+				1,
+				0,
+				false,
+				0
+			},
+			{
+				0,
+				8,
+				true,
+				0
+			},
+			{
+				0,
+				7,
+				false,
+				0
+			},
+			{
+				0,
+				6,
+				true,
+				6
+			},
+			{
+				0,
+				5,
+				true,
+				0
+			},
+			{
+				0,
+				4,
+				true,
+				0
+			},
+			{
+				0,
+				3,
+				true,
+				0
+			},
+			{
+				0,
+				2,
+				true,
+				6
+			},
+			{
+				0,
+				1,
+				false,
+				0
+			},
+			{
+				0,
+				0,
+				false,
+				0
+			}
+		},
+		float_items = {
+			{
+				5,
+				6,
+				"pulinsidun_3x1_1",
+				102,
+				0
+			},
+			{
+				4,
+				3,
+				"pulinsidun_1x1_3",
+				0,
+				4
+			},
+			{
+				2,
+				5,
+				"pulinsidun_1x2_2",
+				10,
+				-44
+			},
+			{
+				0,
+				7,
+				"pulinsidun_1x1_1",
+				1,
+				1
+			},
+			{
+				0,
+				0,
+				"pulinsidun_2x2_2",
+				61,
+				-45
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_pulinsidun",
+			45,
+			20,
+			-88,
+			-189,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			3,
+			21,
+			102,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {
+			"HUAPOHAIKONGZHIYI3"
+		},
+		defeat_story_count = {
+			3
+		},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {
+			{
+				5,
+				4
+			},
+			{
+				3,
+				2
+			},
+			{
+				1,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {},
+		chapter_buff = {},
+		wall_prefab = {},
+		alarm_cell = {}
+	},
+	[1420002] = {
+		pos_x = "0.28671875",
+		num_3 = 1,
+		progress_boss = 25,
+		oil = 10,
+		is_limit_move = 0,
+		mine_id = 2001,
+		activate_time = 0,
+		story_refresh_boss = "",
+		is_ambush = 0,
+		ammo_cost = 1,
+		collection_team = 0,
+		special_operation_list = "",
+		air_dominance = 300,
+		best_air_dominance = 390,
+		id = 1420002,
+		count = 0,
+		icon_outline = 0,
+		bg = "",
+		pre_chapter = 1420001,
+		formation = 1420001,
+		bgm = "",
+		chapter_tag = 0,
+		star_require_1 = 1,
+		pos_y = "0.070833333",
+		pop_pic = "",
+		num_1 = 1,
+		model = 1,
+		investigation_ratio = 0,
+		ammo_submarine = 0,
+		num_2 = 25,
+		is_ai = 0,
+		map = 1420001,
+		unlocklevel = 0,
+		chapter_fx = "",
+		uifx = "",
+		name = "迎敌",
+		chapter_name = "SP2",
+		type = 1,
+		act_id = 731,
+		enter_story = "HUAPOHAIKONGZHIYI4",
+		boss_refresh = 4,
+		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
+		friendly_id = 0,
+		mitigation_rate = 2,
+		mitigation_level = 5,
+		ammo_total = 5,
+		group_num = 2,
+		enter_story_limit = "",
+		star_require_3 = 3,
+		profiles = "「重樱果然还是发动了进攻…舰载机全数升空，准备迎战！」",
+		difficulty = 7,
+		avoid_ratio = 14,
+		star_require_2 = 2,
+		time = 43200,
+		win_condition_display = "win_condition_display_qijian",
+		submarine_num = 1,
+		scale = {
+			0.49,
+			0.35,
+			1.5
+		},
+		limitation = {},
+		property_limitation = {},
+		expedition_id_weight_list = {
+			{
+				1461001,
+				15,
+				0
+			},
+			{
+				1461002,
+				20,
+				0
+			},
+			{
+				1461003,
+				30,
+				1
+			},
+			{
+				1461004,
+				15,
+				0
+			},
+			{
+				1461005,
+				20,
+				0
+			},
+			{
+				1461006,
+				30,
+				1
+			},
+			{
+				1461008,
+				20,
+				0
+			},
+			{
+				1461009,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {
+			1461005,
+			1461008
+		},
+		ai_expedition_list = {
+			1
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1461013
+		},
+		enemy_refresh = {
+			2,
+			2,
+			1,
+			1
+		},
+		elite_refresh = {
+			2,
+			1
+		},
+		ai_refresh = {
+			0
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"dafeng"
+		},
+		awards = {
+			{
+				2,
+				58035
+			},
+			{
+				2,
+				58029
+			},
+			{
+				2,
+				54012
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				6,
+				7,
+				false,
+				0
+			},
+			{
+				6,
+				6,
+				true,
+				0
+			},
+			{
+				6,
+				5,
+				true,
+				8
+			},
+			{
+				6,
+				4,
+				true,
+				0
+			},
+			{
+				6,
+				3,
+				true,
+				6
+			},
+			{
+				6,
+				2,
+				true,
+				0
+			},
+			{
+				6,
+				1,
+				true,
+				6
+			},
+			{
+				6,
+				0,
+				false,
+				0
+			},
+			{
+				5,
+				7,
+				false,
+				0
+			},
+			{
+				5,
+				6,
+				true,
+				4
+			},
+			{
+				5,
+				5,
+				true,
+				0
+			},
+			{
+				5,
+				4,
+				true,
+				6
+			},
+			{
+				5,
+				3,
+				false,
+				0
+			},
+			{
+				5,
+				2,
+				true,
+				0
+			},
+			{
+				5,
+				1,
+				true,
+				0
+			},
+			{
+				5,
+				0,
+				true,
+				6
+			},
+			{
+				4,
+				7,
+				true,
+				8
+			},
+			{
+				4,
+				6,
+				true,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				16
+			},
+			{
+				4,
+				4,
+				true,
+				6
+			},
+			{
+				4,
+				3,
+				false,
+				0
+			},
+			{
+				4,
+				2,
+				false,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				0
+			},
+			{
+				4,
+				0,
+				true,
+				4
+			},
+			{
+				3,
+				7,
+				true,
+				0
+			},
+			{
+				3,
+				6,
+				true,
+				6
+			},
+			{
+				3,
+				5,
+				true,
+				0
+			},
+			{
+				3,
+				4,
+				true,
+				0
+			},
+			{
+				3,
+				3,
+				true,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				4
+			},
+			{
+				3,
+				1,
+				true,
+				0
+			},
+			{
+				3,
+				0,
+				true,
+				0
+			},
+			{
+				2,
+				7,
+				true,
+				0
+			},
+			{
+				2,
+				6,
+				false,
+				0
+			},
+			{
+				2,
+				5,
+				false,
+				0
+			},
+			{
+				2,
+				4,
+				false,
+				0
+			},
+			{
+				2,
+				3,
+				true,
+				0
+			},
+			{
+				2,
+				2,
+				true,
+				0
+			},
+			{
+				2,
+				1,
+				true,
+				0
+			},
+			{
+				2,
+				0,
+				true,
+				0
+			},
+			{
+				1,
+				7,
+				true,
+				0
+			},
+			{
+				1,
+				6,
+				true,
+				4
+			},
+			{
+				1,
+				5,
+				true,
+				0
+			},
+			{
+				1,
+				4,
+				true,
+				0
+			},
+			{
+				1,
+				3,
+				true,
+				0
+			},
+			{
+				1,
+				2,
+				true,
+				0
+			},
+			{
+				1,
+				1,
+				false,
+				0
+			},
+			{
+				1,
+				0,
+				true,
+				6
+			},
+			{
+				0,
+				7,
+				true,
+				6
+			},
+			{
+				0,
+				6,
+				true,
+				0
+			},
+			{
+				0,
+				5,
+				true,
+				0
+			},
+			{
+				0,
+				4,
+				true,
+				1
+			},
+			{
+				0,
+				3,
+				true,
+				1
+			},
+			{
+				0,
+				2,
+				true,
+				0
+			},
+			{
+				0,
+				1,
+				true,
+				6
+			},
+			{
+				0,
+				0,
+				true,
+				0
+			}
+		},
+		float_items = {
+			{
+				6,
+				0,
+				"pulinsidun_1x1_3",
+				-2,
+				0
+			},
+			{
+				5,
+				7,
+				"pulinsidun_1x2_1",
+				-4,
+				-42
+			},
+			{
+				4,
+				2,
+				"pulinsidun_2x2_1",
+				66,
+				-46
+			},
+			{
+				2,
+				4,
+				"pulinsidun_3x1_1",
+				92,
+				4
+			},
+			{
+				1,
+				1,
+				"pulinsidun_1x1_2",
+				0,
+				0
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_pulinsidun",
+			45,
+			20,
+			-168,
+			-299,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			4,
+			22,
+			102,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {
+			"HUAPOHAIKONGZHIYI6"
+		},
+		defeat_story_count = {
+			4
+		},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {
+			{
+				5,
+				4
+			},
+			{
+				3,
+				2
+			},
+			{
+				1,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {},
+		chapter_buff = {},
+		wall_prefab = {},
+		alarm_cell = {}
+	},
+	[1420003] = {
+		pos_x = "0.6375",
+		num_3 = 1,
+		progress_boss = 20,
+		oil = 10,
+		is_limit_move = 0,
+		mine_id = 2001,
+		activate_time = 0,
+		story_refresh_boss = "HUAPOHAIKONGZHIYI8",
+		is_ambush = 0,
+		ammo_cost = 1,
+		collection_team = 0,
+		special_operation_list = "",
+		air_dominance = 700,
+		best_air_dominance = 910,
+		id = 1420003,
+		count = 0,
+		icon_outline = 0,
+		bg = "",
+		pre_chapter = 1420002,
+		formation = 1420001,
+		bgm = "",
+		chapter_tag = 0,
+		star_require_1 = 1,
+		pos_y = "0.221875",
+		pop_pic = "",
+		num_1 = 1,
+		model = 1,
+		investigation_ratio = 0,
+		ammo_submarine = 0,
+		num_2 = 35,
+		is_ai = 0,
+		map = 1420001,
+		unlocklevel = 0,
+		chapter_fx = "",
+		uifx = "",
+		name = "晴空",
+		chapter_name = "SP3",
+		type = 1,
+		act_id = 731,
+		enter_story = "HUAPOHAIKONGZHIYI7",
+		boss_refresh = 5,
+		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
+		friendly_id = 0,
+		mitigation_rate = 2,
+		mitigation_level = 8,
+		ammo_total = 5,
+		group_num = 2,
+		enter_story_limit = "",
+		star_require_3 = 3,
+		profiles = "「战斗尚未结束，但结果已经十分明显了…只要努力取得更多战果，总有一天会追上萨拉托加前辈的…！」",
+		difficulty = 8,
+		avoid_ratio = 16,
+		star_require_2 = 2,
+		time = 43200,
+		win_condition_display = "win_condition_display_qijian",
+		submarine_num = 1,
+		scale = {
+			0.61,
+			0.41,
+			1.5
+		},
+		limitation = {},
+		property_limitation = {},
+		expedition_id_weight_list = {
+			{
+				1462001,
+				15,
+				0
+			},
+			{
+				1462002,
+				20,
+				0
+			},
+			{
+				1462003,
+				30,
+				1
+			},
+			{
+				1462004,
+				15,
+				0
+			},
+			{
+				1462005,
+				20,
+				0
+			},
+			{
+				1462006,
+				30,
+				1
+			},
+			{
+				1462008,
+				20,
+				0
+			},
+			{
+				1462009,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {
+			1462005,
+			1462008
+		},
+		ai_expedition_list = {
+			1
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1462013
+		},
+		enemy_refresh = {
+			2,
+			2,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			2,
+			1,
+			1
+		},
+		ai_refresh = {
+			0
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"xianghe"
+		},
+		awards = {
+			{
+				2,
+				58036
+			},
+			{
+				2,
+				58030
+			},
+			{
+				2,
+				54013
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				5,
+				8,
+				false,
+				0
+			},
+			{
+				5,
+				7,
+				true,
+				4
+			},
+			{
+				5,
+				6,
+				true,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				6
+			},
+			{
+				5,
+				4,
+				true,
+				0
+			},
+			{
+				5,
+				3,
+				true,
+				6
+			},
+			{
+				5,
+				2,
+				true,
+				0
+			},
+			{
+				5,
+				1,
+				true,
+				6
+			},
+			{
+				5,
+				0,
+				false,
+				0
+			},
+			{
+				4,
+				8,
+				false,
+				0
+			},
+			{
+				4,
+				7,
+				false,
+				0
+			},
+			{
+				4,
+				6,
+				true,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				4
+			},
+			{
+				4,
+				4,
+				false,
+				0
+			},
+			{
+				4,
+				3,
+				true,
+				4
+			},
+			{
+				4,
+				2,
+				true,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				6
+			},
+			{
+				4,
+				0,
+				false,
+				0
+			},
+			{
+				3,
+				8,
+				true,
+				0
+			},
+			{
+				3,
+				7,
+				true,
+				6
+			},
+			{
+				3,
+				6,
+				true,
+				0
+			},
+			{
+				3,
+				5,
+				true,
+				0
+			},
+			{
+				3,
+				4,
+				true,
+				16
+			},
+			{
+				3,
+				3,
+				true,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				0
+			},
+			{
+				3,
+				1,
+				true,
+				4
+			},
+			{
+				3,
+				0,
+				true,
+				0
+			},
+			{
+				2,
+				8,
+				true,
+				6
+			},
+			{
+				2,
+				7,
+				false,
+				0
+			},
+			{
+				2,
+				6,
+				true,
+				0
+			},
+			{
+				2,
+				5,
+				true,
+				1
+			},
+			{
+				2,
+				4,
+				true,
+				8
+			},
+			{
+				2,
+				3,
+				true,
+				1
+			},
+			{
+				2,
+				2,
+				true,
+				0
+			},
+			{
+				2,
+				1,
+				true,
+				6
+			},
+			{
+				2,
+				0,
+				true,
+				0
+			},
+			{
+				1,
+				8,
+				true,
+				0
+			},
+			{
+				1,
+				7,
+				true,
+				0
+			},
+			{
+				1,
+				6,
+				true,
+				0
+			},
+			{
+				1,
+				5,
+				true,
+				0
+			},
+			{
+				1,
+				4,
+				true,
+				8
+			},
+			{
+				1,
+				3,
+				true,
+				0
+			},
+			{
+				1,
+				2,
+				true,
+				0
+			},
+			{
+				1,
+				1,
+				false,
+				0
+			},
+			{
+				1,
+				0,
+				false,
+				0
+			},
+			{
+				0,
+				8,
+				true,
+				6
+			},
+			{
+				0,
+				7,
+				true,
+				4
+			},
+			{
+				0,
+				6,
+				true,
+				6
+			},
+			{
+				0,
+				5,
+				false,
+				0
+			},
+			{
+				0,
+				4,
+				false,
+				0
+			},
+			{
+				0,
+				3,
+				false,
+				0
+			},
+			{
+				0,
+				2,
+				true,
+				4
+			},
+			{
+				0,
+				1,
+				false,
+				0
+			},
+			{
+				0,
+				0,
+				false,
+				0
+			}
+		},
+		float_items = {
+			{
+				4,
+				7,
+				"pulinsidun_2x2_1",
+				67,
+				-45
+			},
+			{
+				4,
+				4,
+				"pulinsidun_1x1_3",
+				0,
+				0
+			},
+			{
+				4,
+				0,
+				"pulinsidun_1x2_2",
+				1,
+				-34
+			},
+			{
+				2,
+				7,
+				"pulinsidun_1x1_1",
+				0,
+				0
+			},
+			{
+				0,
+				3,
+				"pulinsidun_3x1_1",
+				100,
+				6
+			},
+			{
+				0,
+				0,
+				"pulinsidun_2x2_2",
+				52,
+				-38
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_pulinsidun",
+			45,
+			20,
+			-235,
+			-205,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			5,
+			22,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {
+			"HUAPOHAIKONGZHIYI10"
+		},
+		defeat_story_count = {
+			5
+		},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {
+			{
+				8,
+				6
+			},
+			{
+				5,
+				3
+			},
+			{
+				2,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {},
+		chapter_buff = {},
+		wall_prefab = {},
+		alarm_cell = {}
+	},
+	[1430001] = {
+		pos_x = "0.14609375",
+		num_3 = 8,
+		progress_boss = 34,
+		oil = 10,
+		is_limit_move = 1,
+		mine_id = 2001,
+		activate_time = 0,
+		story_refresh_boss = "JICHANG3",
+		is_ambush = 0,
+		ammo_cost = 1,
+		collection_team = 0,
+		special_operation_list = "",
+		air_dominance = 50,
+		best_air_dominance = 150,
+		id = 1430001,
+		count = 0,
+		icon_outline = 1,
+		bg = "",
+		pre_chapter = 0,
+		formation = 1430001,
+		bgm = "idol-BlueSpirit-inst",
+		chapter_tag = 0,
+		star_require_1 = 1,
+		pos_y = "0.410208333",
+		pop_pic = "LiveStart",
+		num_1 = 1,
+		model = 2,
+		investigation_ratio = 0,
+		ammo_submarine = 0,
+		num_2 = 15,
+		is_ai = 1,
+		map = 1430001,
+		unlocklevel = 0,
+		uifx = "",
+		name = "集合的StarLight",
+		chapter_name = "SP1",
+		type = 1,
+		act_id = 751,
+		enter_story = "JICHANG2",
+		boss_refresh = 4,
+		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
+		friendly_id = 0,
+		mitigation_rate = 2,
+		mitigation_level = 5,
+		ammo_total = 5,
+		group_num = 2,
+		enter_story_limit = "",
+		star_require_3 = 6,
+		profiles = "「特殊兵装试验…或者应该算是演唱会活动？总之，既然决定要做了，就努力做到最好吧！」",
+		difficulty = 6,
+		avoid_ratio = 8,
+		star_require_2 = 2,
+		time = 43200,
+		win_condition_display = "win_condition_display_qijian",
+		submarine_num = 1,
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		chapter_fx = {
+			juguangdeng_xingguang_SLG = {
+				offset = {
+					-380,
+					-230,
+					-500
+				}
+			}
+		},
+		limitation = {},
+		property_limitation = {},
+		expedition_id_weight_list = {
+			{
+				1470001,
+				15,
+				0
+			},
+			{
+				1470002,
+				20,
+				0
+			},
+			{
+				1470003,
+				30,
+				1
+			},
+			{
+				1470004,
+				15,
+				0
+			},
+			{
+				1470005,
+				20,
+				0
+			},
+			{
+				1470006,
+				30,
+				1
+			},
+			{
+				1470007,
+				15,
+				0
+			},
+			{
+				1470008,
+				20,
+				0
+			},
+			{
+				1470009,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {
+			1470005,
+			1470008
+		},
+		ai_expedition_list = {
+			1470301,
+			1470302
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1470013
+		},
+		enemy_refresh = {
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			1,
+			0
+		},
+		ai_refresh = {
+			1
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"baerdimo_idol"
+		},
+		awards = {
+			{
+				2,
+				58058
+			},
+			{
+				2,
+				58052
+			},
+			{
+				2,
+				58040
+			},
+			{
+				2,
+				54012
+			},
+			{
+				2,
+				54022
+			}
+		},
+		grids = {
+			{
+				6,
+				6,
+				true,
+				0
+			},
+			{
+				6,
+				5,
+				true,
+				6
+			},
+			{
+				6,
+				4,
+				true,
+				0
+			},
+			{
+				6,
+				3,
+				true,
+				0
+			},
+			{
+				6,
+				2,
+				true,
+				0
+			},
+			{
+				6,
+				1,
+				true,
+				6
+			},
+			{
+				6,
+				0,
+				false,
+				0
+			},
+			{
+				5,
+				6,
+				false,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				0
+			},
+			{
+				5,
+				4,
+				true,
+				1
+			},
+			{
+				5,
+				3,
+				true,
+				8
+			},
+			{
+				5,
+				2,
+				true,
+				1
+			},
+			{
+				5,
+				1,
+				true,
+				0
+			},
+			{
+				5,
+				0,
+				false,
+				0
+			},
+			{
+				4,
+				6,
+				false,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				0
+			},
+			{
+				4,
+				4,
+				true,
+				0
+			},
+			{
+				4,
+				3,
+				true,
+				0
+			},
+			{
+				4,
+				2,
+				true,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				0
+			},
+			{
+				4,
+				0,
+				true,
+				6
+			},
+			{
+				3,
+				6,
+				true,
+				4
+			},
+			{
+				3,
+				5,
+				true,
+				0
+			},
+			{
+				3,
+				4,
+				true,
+				0
+			},
+			{
+				3,
+				3,
+				false,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				0
+			},
+			{
+				3,
+				1,
+				true,
+				4
+			},
+			{
+				3,
+				0,
+				true,
+				0
+			},
+			{
+				2,
+				6,
+				true,
+				6
+			},
+			{
+				2,
+				5,
+				true,
+				0
+			},
+			{
+				2,
+				4,
+				true,
+				12
+			},
+			{
+				2,
+				3,
+				true,
+				0
+			},
+			{
+				2,
+				2,
+				true,
+				12
+			},
+			{
+				2,
+				1,
+				true,
+				0
+			},
+			{
+				2,
+				0,
+				true,
+				6
+			},
+			{
+				1,
+				6,
+				false,
+				0
+			},
+			{
+				1,
+				5,
+				true,
+				0
+			},
+			{
+				1,
+				4,
+				true,
+				6
+			},
+			{
+				1,
+				3,
+				true,
+				16
+			},
+			{
+				1,
+				2,
+				true,
+				6
+			},
+			{
+				1,
+				1,
+				false,
+				0
+			},
+			{
+				1,
+				0,
+				false,
+				0
+			},
+			{
+				0,
+				6,
+				false,
+				0
+			},
+			{
+				0,
+				5,
+				false,
+				0
+			},
+			{
+				0,
+				4,
+				true,
+				0
+			},
+			{
+				0,
+				3,
+				true,
+				6
+			},
+			{
+				0,
+				2,
+				true,
+				0
+			},
+			{
+				0,
+				1,
+				false,
+				0
+			},
+			{
+				0,
+				0,
+				false,
+				0
+			}
+		},
+		float_items = {
+			{
+				5,
+				6,
+				"ouxiangv2_1x2_1",
+				2,
+				38
+			},
+			{
+				5,
+				0,
+				"ouxiangv2_1x2_2",
+				0,
+				-42
+			},
+			{
+				3,
+				3,
+				"1x1_4ouxiang",
+				-4,
+				10
+			},
+			{
+				0,
+				5,
+				"ouxiangv2_2x2_2",
+				56,
+				-30
+			},
+			{
+				0,
+				0,
+				"ouxiangv2_2x2_1",
+				53,
+				0
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_ouxiangv2",
+			45,
+			20,
+			-121,
+			-83,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			2,
+			21,
+			102,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {
+			"JICHANG5"
+		},
+		defeat_story_count = {
+			3
+		},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {
+			{
+				5,
+				4
+			},
+			{
+				3,
+				2
+			},
+			{
+				1,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {},
+		chapter_buff = {
+			8750
+		},
+		wall_prefab = {},
+		alarm_cell = {}
+	},
+	[1430002] = {
+		pos_x = "0.7046875",
+		num_3 = 9,
+		progress_boss = 34,
+		oil = 10,
+		is_limit_move = 1,
+		mine_id = 2001,
+		activate_time = 0,
+		story_refresh_boss = "JICHANG7",
+		is_ambush = 0,
+		ammo_cost = 1,
+		collection_team = 0,
+		special_operation_list = "",
+		air_dominance = 110,
+		best_air_dominance = 150,
+		id = 1430002,
+		count = 0,
+		icon_outline = 1,
+		bg = "",
+		pre_chapter = 1430001,
+		formation = 1430001,
+		bgm = "idol-BlueSpirit-inst",
+		chapter_tag = 0,
+		star_require_1 = 1,
+		pos_y = "0.380208333",
+		pop_pic = "LiveStart",
+		num_1 = 1,
+		model = 2,
+		investigation_ratio = 0,
+		ammo_submarine = 0,
+		num_2 = 16,
+		is_ai = 1,
+		map = 1430001,
+		unlocklevel = 0,
+		uifx = "",
+		name = "磨练的Astrum",
+		chapter_name = "SP2",
+		type = 1,
+		act_id = 751,
+		enter_story = "JICHANG6",
+		boss_refresh = 4,
+		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
+		friendly_id = 0,
+		mitigation_rate = 2,
+		mitigation_level = 5,
+		ammo_total = 5,
+		group_num = 2,
+		enter_story_limit = "",
+		star_require_3 = 6,
+		profiles = "「大家一起特训？这样。塔什干…也会一起加油的。大家都是同伴，这是当然的吧？」",
+		difficulty = 6,
+		avoid_ratio = 9,
+		star_require_2 = 2,
+		time = 43200,
+		win_condition_display = "win_condition_display_qijian",
+		submarine_num = 1,
+		scale = {
+			0.49,
+			0.35,
+			1.5
+		},
+		chapter_fx = {
+			juguangdeng_xingguang_SLG = {
+				offset = {
+					-300,
+					-180,
+					-500
+				}
+			}
+		},
+		limitation = {},
+		property_limitation = {},
+		expedition_id_weight_list = {
+			{
+				1471001,
+				15,
+				0
+			},
+			{
+				1471002,
+				20,
+				0
+			},
+			{
+				1471003,
+				30,
+				1
+			},
+			{
+				1471004,
+				15,
+				0
+			},
+			{
+				1471005,
+				20,
+				0
+			},
+			{
+				1471006,
+				30,
+				1
+			},
+			{
+				1471007,
+				15,
+				0
+			},
+			{
+				1471008,
+				20,
+				0
+			},
+			{
+				1471009,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {
+			1471005,
+			1471008
+		},
+		ai_expedition_list = {
+			1471301,
+			1471302,
+			1471303
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1471013
+		},
+		enemy_refresh = {
+			2,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			1,
+			0
+		},
+		ai_refresh = {
+			1
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"guanghui_idol"
+		},
+		awards = {
+			{
+				2,
+				58058
+			},
+			{
+				2,
+				58053
+			},
+			{
+				2,
+				58041
+			},
+			{
+				2,
+				54012
+			},
+			{
+				2,
+				54022
+			}
+		},
+		grids = {
+			{
+				6,
+				8,
+				true,
+				0
+			},
+			{
+				6,
+				7,
+				true,
+				0
+			},
+			{
+				6,
+				6,
+				true,
+				6
+			},
+			{
+				6,
+				5,
+				true,
+				6
+			},
+			{
+				6,
+				4,
+				true,
+				0
+			},
+			{
+				6,
+				3,
+				true,
+				6
+			},
+			{
+				6,
+				2,
+				false,
+				0
+			},
+			{
+				6,
+				1,
+				false,
+				0
+			},
+			{
+				6,
+				0,
+				false,
+				0
+			},
+			{
+				5,
+				8,
+				true,
+				6
+			},
+			{
+				5,
+				7,
+				true,
+				0
+			},
+			{
+				5,
+				6,
+				true,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				0
+			},
+			{
+				5,
+				4,
+				true,
+				4
+			},
+			{
+				5,
+				3,
+				true,
+				0
+			},
+			{
+				5,
+				2,
+				true,
+				0
+			},
+			{
+				5,
+				1,
+				true,
+				6
+			},
+			{
+				5,
+				0,
+				true,
+				0
+			},
+			{
+				4,
+				8,
+				true,
+				0
+			},
+			{
+				4,
+				7,
+				false,
+				0
+			},
+			{
+				4,
+				6,
+				false,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				0
+			},
+			{
+				4,
+				4,
+				true,
+				0
+			},
+			{
+				4,
+				3,
+				true,
+				0
+			},
+			{
+				4,
+				2,
+				true,
+				12
+			},
+			{
+				4,
+				1,
+				true,
+				0
+			},
+			{
+				4,
+				0,
+				true,
+				6
+			},
+			{
+				3,
+				8,
+				true,
+				6
+			},
+			{
+				3,
+				7,
+				false,
+				0
+			},
+			{
+				3,
+				6,
+				false,
+				0
+			},
+			{
+				3,
+				5,
+				true,
+				0
+			},
+			{
+				3,
+				4,
+				false,
+				0
+			},
+			{
+				3,
+				3,
+				true,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				0
+			},
+			{
+				3,
+				1,
+				false,
+				0
+			},
+			{
+				3,
+				0,
+				true,
+				0
+			},
+			{
+				2,
+				8,
+				true,
+				0
+			},
+			{
+				2,
+				7,
+				true,
+				0
+			},
+			{
+				2,
+				6,
+				true,
+				0
+			},
+			{
+				2,
+				5,
+				true,
+				0
+			},
+			{
+				2,
+				4,
+				true,
+				0
+			},
+			{
+				2,
+				3,
+				true,
+				6
+			},
+			{
+				2,
+				2,
+				true,
+				0
+			},
+			{
+				2,
+				1,
+				true,
+				0
+			},
+			{
+				2,
+				0,
+				true,
+				4
+			},
+			{
+				1,
+				8,
+				true,
+				8
+			},
+			{
+				1,
+				7,
+				true,
+				0
+			},
+			{
+				1,
+				6,
+				true,
+				6
+			},
+			{
+				1,
+				5,
+				true,
+				12
+			},
+			{
+				1,
+				4,
+				true,
+				0
+			},
+			{
+				1,
+				3,
+				true,
+				0
+			},
+			{
+				1,
+				2,
+				true,
+				16
+			},
+			{
+				1,
+				1,
+				true,
+				0
+			},
+			{
+				1,
+				0,
+				true,
+				0
+			},
+			{
+				0,
+				8,
+				true,
+				0
+			},
+			{
+				0,
+				7,
+				true,
+				6
+			},
+			{
+				0,
+				6,
+				false,
+				0
+			},
+			{
+				0,
+				5,
+				false,
+				0
+			},
+			{
+				0,
+				4,
+				false,
+				0
+			},
+			{
+				0,
+				3,
+				true,
+				1
+			},
+			{
+				0,
+				2,
+				true,
+				0
+			},
+			{
+				0,
+				1,
+				true,
+				1
+			},
+			{
+				0,
+				0,
+				true,
+				0
+			}
+		},
+		float_items = {
+			{
+				6,
+				0,
+				"ouxiangv2_3x1_1",
+				104,
+				28
+			},
+			{
+				3,
+				6,
+				"ouxiangv2_2x2_1",
+				56,
+				0
+			},
+			{
+				3,
+				4,
+				"1x1_4ouxiang",
+				-5,
+				10
+			},
+			{
+				3,
+				1,
+				"ouxiangv2_1x1_2",
+				0,
+				6
+			},
+			{
+				0,
+				4,
+				"ouxiangv2_3x1_1",
+				106,
+				26
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_ouxiangv2",
+			45,
+			20,
+			-114,
+			-357,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			4,
+			22,
+			102,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {
+			"JICHANG9"
+		},
+		defeat_story_count = {
+			3
+		},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {
+			{
+				5,
+				4
+			},
+			{
+				3,
+				2
+			},
+			{
+				1,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {},
+		chapter_buff = {
+			8750
+		},
+		wall_prefab = {},
+		alarm_cell = {}
+	},
+	[1430003] = {
+		pos_x = "0.14609375",
+		num_3 = 10,
+		progress_boss = 25,
+		oil = 10,
+		is_limit_move = 1,
+		mine_id = 2001,
+		activate_time = 0,
+		story_refresh_boss = "JICHANG11",
+		is_ambush = 0,
+		ammo_cost = 1,
+		collection_team = 0,
+		special_operation_list = "",
+		air_dominance = 220,
+		best_air_dominance = 290,
+		id = 1430003,
+		count = 0,
+		icon_outline = 1,
+		bg = "",
+		pre_chapter = 1430002,
+		formation = 1430001,
+		bgm = "idol-inorinouta-inst",
+		chapter_tag = 0,
+		star_require_1 = 1,
+		pos_y = "0.081166667",
+		pop_pic = "LiveStart",
+		num_1 = 1,
+		model = 2,
+		investigation_ratio = 0,
+		ammo_submarine = 0,
+		num_2 = 30,
+		is_ai = 1,
+		map = 1430001,
+		unlocklevel = 0,
+		uifx = "",
+		name = "灿烂的Lumière",
+		chapter_name = "SP3",
+		type = 1,
+		act_id = 751,
+		enter_story = "JICHANG10",
+		boss_refresh = 5,
+		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
+		friendly_id = 0,
+		mitigation_rate = 2,
+		mitigation_level = 5,
+		ammo_total = 5,
+		group_num = 2,
+		enter_story_limit = "",
+		star_require_3 = 6,
+		profiles = "「要让那孩子好好努力的话，仅凭妹妹的期望似乎还不太够呢，呵呵」",
+		difficulty = 7,
+		avoid_ratio = 10,
+		star_require_2 = 2,
+		time = 43200,
+		win_condition_display = "win_condition_display_qijian",
+		submarine_num = 1,
+		scale = {
+			0.61,
+			0.41,
+			1.5
+		},
+		chapter_fx = {
+			juguangdeng_xingguang_SLG = {
+				offset = {
+					-320,
+					-180,
+					-500
+				}
+			}
+		},
+		limitation = {},
+		property_limitation = {},
+		expedition_id_weight_list = {
+			{
+				1472001,
+				15,
+				0
+			},
+			{
+				1472002,
+				20,
+				0
+			},
+			{
+				1472003,
+				30,
+				1
+			},
+			{
+				1472004,
+				15,
+				0
+			},
+			{
+				1472005,
+				20,
+				0
+			},
+			{
+				1472006,
+				30,
+				1
+			},
+			{
+				1472007,
+				15,
+				0
+			},
+			{
+				1472008,
+				20,
+				0
+			},
+			{
+				1472009,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {
+			1472005,
+			1472008
+		},
+		ai_expedition_list = {
+			1472301,
+			1472302,
+			1472303
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1472013
+		},
+		enemy_refresh = {
+			2,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			1,
+			0
+		},
+		ai_refresh = {
+			2
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"edu_idol"
+		},
+		awards = {
+			{
+				2,
+				58058
+			},
+			{
+				2,
+				58054
+			},
+			{
+				2,
+				58042
+			},
+			{
+				2,
+				54012
+			},
+			{
+				2,
+				54023
+			}
+		},
+		grids = {
+			{
+				6,
+				8,
+				false,
+				0
+			},
+			{
+				6,
+				7,
+				false,
+				0
+			},
+			{
+				6,
+				6,
+				true,
+				6
+			},
+			{
+				6,
+				5,
+				true,
+				0
+			},
+			{
+				6,
+				4,
+				true,
+				8
+			},
+			{
+				6,
+				3,
+				true,
+				0
+			},
+			{
+				6,
+				2,
+				false,
+				0
+			},
+			{
+				6,
+				1,
+				true,
+				0
+			},
+			{
+				6,
+				0,
+				true,
+				0
+			},
+			{
+				5,
+				8,
+				false,
+				0
+			},
+			{
+				5,
+				7,
+				true,
+				6
+			},
+			{
+				5,
+				6,
+				true,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				0
+			},
+			{
+				5,
+				4,
+				true,
+				6
+			},
+			{
+				5,
+				3,
+				true,
+				0
+			},
+			{
+				5,
+				2,
+				false,
+				0
+			},
+			{
+				5,
+				1,
+				true,
+				6
+			},
+			{
+				5,
+				0,
+				true,
+				6
+			},
+			{
+				4,
+				8,
+				true,
+				6
+			},
+			{
+				4,
+				7,
+				true,
+				0
+			},
+			{
+				4,
+				6,
+				true,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				12
+			},
+			{
+				4,
+				4,
+				true,
+				0
+			},
+			{
+				4,
+				3,
+				true,
+				12
+			},
+			{
+				4,
+				2,
+				true,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				0
+			},
+			{
+				4,
+				0,
+				true,
+				0
+			},
+			{
+				3,
+				8,
+				true,
+				8
+			},
+			{
+				3,
+				7,
+				true,
+				16
+			},
+			{
+				3,
+				6,
+				true,
+				4
+			},
+			{
+				3,
+				5,
+				true,
+				0
+			},
+			{
+				3,
+				4,
+				false,
+				0
+			},
+			{
+				3,
+				3,
+				true,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				4
+			},
+			{
+				3,
+				1,
+				true,
+				0
+			},
+			{
+				3,
+				0,
+				true,
+				1
+			},
+			{
+				2,
+				8,
+				true,
+				6
+			},
+			{
+				2,
+				7,
+				true,
+				0
+			},
+			{
+				2,
+				6,
+				true,
+				0
+			},
+			{
+				2,
+				5,
+				true,
+				12
+			},
+			{
+				2,
+				4,
+				true,
+				0
+			},
+			{
+				2,
+				3,
+				true,
+				12
+			},
+			{
+				2,
+				2,
+				true,
+				0
+			},
+			{
+				2,
+				1,
+				true,
+				0
+			},
+			{
+				2,
+				0,
+				true,
+				0
+			},
+			{
+				1,
+				8,
+				false,
+				0
+			},
+			{
+				1,
+				7,
+				true,
+				6
+			},
+			{
+				1,
+				6,
+				true,
+				0
+			},
+			{
+				1,
+				5,
+				true,
+				0
+			},
+			{
+				1,
+				4,
+				true,
+				4
+			},
+			{
+				1,
+				3,
+				true,
+				0
+			},
+			{
+				1,
+				2,
+				true,
+				0
+			},
+			{
+				1,
+				1,
+				true,
+				0
+			},
+			{
+				1,
+				0,
+				true,
+				1
+			},
+			{
+				0,
+				8,
+				false,
+				0
+			},
+			{
+				0,
+				7,
+				false,
+				0
+			},
+			{
+				0,
+				6,
+				true,
+				6
+			},
+			{
+				0,
+				5,
+				true,
+				0
+			},
+			{
+				0,
+				4,
+				true,
+				0
+			},
+			{
+				0,
+				3,
+				true,
+				0
+			},
+			{
+				0,
+				2,
+				false,
+				0
+			},
+			{
+				0,
+				1,
+				false,
+				0
+			},
+			{
+				0,
+				0,
+				false,
+				0
+			}
+		},
+		float_items = {
+			{
+				6,
+				7,
+				"ouxiangv2_1x1_2",
+				-4,
+				5
+			},
+			{
+				5,
+				8,
+				"ouxiangv2_1x2_2",
+				0,
+				-39
+			},
+			{
+				5,
+				2,
+				"ouxiangv2_1x2_1",
+				-3,
+				-41
+			},
+			{
+				3,
+				4,
+				"1x1_4ouxiang",
+				-5,
+				10
+			},
+			{
+				0,
+				7,
+				"ouxiangv2_2x2_2",
+				59,
+				-33
+			},
+			{
+				0,
+				0,
+				"ouxiangv2_3x1_1",
+				109,
+				28
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_ouxiangv2",
+			45,
+			20,
+			-74,
+			-304,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			6,
+			22,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {
+			"JICHANG13"
+		},
+		defeat_story_count = {
+			4
+		},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {
+			{
+				5,
+				4
+			},
+			{
+				3,
+				2
+			},
+			{
+				1,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {},
+		chapter_buff = {
+			8750
+		},
+		wall_prefab = {},
+		alarm_cell = {}
+	},
+	[1430004] = {
+		pos_x = "0.7046875",
+		num_3 = 11,
+		progress_boss = 25,
+		oil = 10,
+		is_limit_move = 1,
+		mine_id = 2001,
+		activate_time = 0,
+		story_refresh_boss = "JICHANG15",
+		is_ambush = 0,
+		ammo_cost = 1,
+		collection_team = 0,
+		special_operation_list = "",
+		air_dominance = 440,
+		best_air_dominance = 575,
+		id = 1430004,
+		count = 0,
+		icon_outline = 1,
+		bg = "",
+		pre_chapter = 1430003,
+		formation = 1430001,
+		bgm = "azumaster-ins",
+		chapter_tag = 0,
+		star_require_1 = 1,
+		pos_y = "0.079166667",
+		pop_pic = "LiveStart",
+		num_1 = 1,
+		model = 2,
+		investigation_ratio = 0,
+		ammo_submarine = 0,
+		num_2 = 35,
+		is_ai = 1,
+		map = 1430001,
+		unlocklevel = 0,
+		uifx = "",
+		name = "引路的Polaris",
+		chapter_name = "SP4",
+		type = 1,
+		act_id = 751,
+		enter_story = "JICHANG14",
+		boss_refresh = 5,
+		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
+		friendly_id = 0,
+		mitigation_rate = 2,
+		mitigation_level = 8,
+		ammo_total = 5,
+		group_num = 2,
+		enter_story_limit = "",
+		star_require_3 = 6,
+		profiles = "「提议，基于共享的历史作战行动记录，修正行动方针」「意思是…要分享下经验吗？」",
+		difficulty = 7,
+		avoid_ratio = 11,
+		star_require_2 = 2,
+		time = 43200,
+		win_condition_display = "win_condition_display_qijian",
+		submarine_num = 1,
+		scale = {
+			0.49,
+			0.35,
+			1.5
+		},
+		chapter_fx = {
+			juguangdeng_xingguang_SLG = {
+				offset = {
+					-295,
+					-180,
+					-500
+				}
+			}
+		},
+		limitation = {},
+		property_limitation = {},
+		expedition_id_weight_list = {
+			{
+				1473001,
+				15,
+				0
+			},
+			{
+				1473002,
+				20,
+				0
+			},
+			{
+				1473003,
+				30,
+				1
+			},
+			{
+				1473004,
+				15,
+				0
+			},
+			{
+				1473005,
+				20,
+				0
+			},
+			{
+				1473006,
+				30,
+				1
+			},
+			{
+				1473007,
+				15,
+				0
+			},
+			{
+				1473008,
+				20,
+				0
+			},
+			{
+				1473009,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {
+			1473005,
+			1473008
+		},
+		ai_expedition_list = {
+			1473301,
+			1473302,
+			1473303
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1473013
+		},
+		enemy_refresh = {
+			2,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			1,
+			0
+		},
+		ai_refresh = {
+			2
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"jiasikenie_idol"
+		},
+		awards = {
+			{
+				2,
+				58058
+			},
+			{
+				2,
+				58055
+			},
+			{
+				2,
+				58043
+			},
+			{
+				2,
+				54013
+			},
+			{
+				2,
+				54024
+			}
+		},
+		grids = {
+			{
+				6,
+				8,
+				true,
+				0
+			},
+			{
+				6,
+				7,
+				false,
+				0
+			},
+			{
+				6,
+				6,
+				true,
+				6
+			},
+			{
+				6,
+				5,
+				false,
+				0
+			},
+			{
+				6,
+				4,
+				false,
+				0
+			},
+			{
+				6,
+				3,
+				false,
+				0
+			},
+			{
+				6,
+				2,
+				true,
+				6
+			},
+			{
+				6,
+				1,
+				true,
+				0
+			},
+			{
+				6,
+				0,
+				true,
+				0
+			},
+			{
+				5,
+				8,
+				true,
+				0
+			},
+			{
+				5,
+				7,
+				false,
+				0
+			},
+			{
+				5,
+				6,
+				true,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				4
+			},
+			{
+				5,
+				4,
+				true,
+				6
+			},
+			{
+				5,
+				3,
+				true,
+				4
+			},
+			{
+				5,
+				2,
+				true,
+				0
+			},
+			{
+				5,
+				1,
+				true,
+				6
+			},
+			{
+				5,
+				0,
+				false,
+				0
+			},
+			{
+				4,
+				8,
+				true,
+				4
+			},
+			{
+				4,
+				7,
+				true,
+				0
+			},
+			{
+				4,
+				6,
+				true,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				0
+			},
+			{
+				4,
+				4,
+				true,
+				8
+			},
+			{
+				4,
+				3,
+				true,
+				0
+			},
+			{
+				4,
+				2,
+				true,
+				0
+			},
+			{
+				4,
+				1,
+				false,
+				0
+			},
+			{
+				4,
+				0,
+				true,
+				12
+			},
+			{
+				3,
+				8,
+				true,
+				0
+			},
+			{
+				3,
+				7,
+				true,
+				0
+			},
+			{
+				3,
+				6,
+				true,
+				6
+			},
+			{
+				3,
+				5,
+				true,
+				8
+			},
+			{
+				3,
+				4,
+				false,
+				0
+			},
+			{
+				3,
+				3,
+				true,
+				12
+			},
+			{
+				3,
+				2,
+				true,
+				0
+			},
+			{
+				3,
+				1,
+				true,
+				6
+			},
+			{
+				3,
+				0,
+				true,
+				0
+			},
+			{
+				2,
+				8,
+				true,
+				6
+			},
+			{
+				2,
+				7,
+				true,
+				6
+			},
+			{
+				2,
+				6,
+				true,
+				0
+			},
+			{
+				2,
+				5,
+				true,
+				0
+			},
+			{
+				2,
+				4,
+				true,
+				12
+			},
+			{
+				2,
+				3,
+				true,
+				16
+			},
+			{
+				2,
+				2,
+				true,
+				0
+			},
+			{
+				2,
+				1,
+				true,
+				0
+			},
+			{
+				2,
+				0,
+				true,
+				0
+			},
+			{
+				1,
+				8,
+				true,
+				0
+			},
+			{
+				1,
+				7,
+				false,
+				0
+			},
+			{
+				1,
+				6,
+				true,
+				4
+			},
+			{
+				1,
+				5,
+				true,
+				0
+			},
+			{
+				1,
+				4,
+				true,
+				0
+			},
+			{
+				1,
+				3,
+				true,
+				6
+			},
+			{
+				1,
+				2,
+				true,
+				0
+			},
+			{
+				1,
+				1,
+				true,
+				1
+			},
+			{
+				1,
+				0,
+				false,
+				0
+			},
+			{
+				0,
+				8,
+				true,
+				0
+			},
+			{
+				0,
+				7,
+				false,
+				0
+			},
+			{
+				0,
+				6,
+				false,
+				0
+			},
+			{
+				0,
+				5,
+				true,
+				12
+			},
+			{
+				0,
+				4,
+				false,
+				0
+			},
+			{
+				0,
+				3,
+				true,
+				0
+			},
+			{
+				0,
+				2,
+				true,
+				1
+			},
+			{
+				0,
+				1,
+				true,
+				0
+			},
+			{
+				0,
+				0,
+				false,
+				0
+			}
+		},
+		float_items = {
+			{
+				6,
+				3,
+				"ouxiangv2_3x1_1",
+				106,
+				25
+			},
+			{
+				5,
+				7,
+				"ouxiangv2_1x2_2",
+				3,
+				-44
+			},
+			{
+				5,
+				0,
+				"ouxiangv2_1x1_3",
+				0,
+				0
+			},
+			{
+				4,
+				1,
+				"ouxiangv2_1x1_1",
+				-6,
+				24
+			},
+			{
+				3,
+				4,
+				"1x1_4ouxiang",
+				-5,
+				10
+			},
+			{
+				0,
+				6,
+				"ouxiangv2_2x2_2",
+				60,
+				-33
+			},
+			{
+				0,
+				4,
+				"ouxiangv2_1x1_2",
+				0,
+				5
+			},
+			{
+				0,
+				0,
+				"ouxiangv2_1x2_1",
+				1,
+				-34
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_ouxiangv2",
+			45,
+			20,
+			-150,
+			-338,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			8,
+			23,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {
+			"JICHANG17"
+		},
+		defeat_story_count = {
+			4
+		},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {
+			{
+				8,
+				6
+			},
+			{
+				5,
+				3
+			},
+			{
+				2,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {},
+		chapter_buff = {
+			8750
+		},
+		wall_prefab = {},
+		alarm_cell = {}
+	},
+	[1430005] = {
+		pos_x = "0.485",
+		num_3 = 12,
+		progress_boss = 20,
+		oil = 10,
+		is_limit_move = 1,
+		mine_id = 2001,
+		activate_time = 0,
+		story_refresh_boss = "JICHANG19",
+		is_ambush = 0,
+		ammo_cost = 1,
+		collection_team = 0,
+		special_operation_list = "",
+		air_dominance = 880,
+		best_air_dominance = 1145,
+		id = 1430005,
+		count = 0,
+		icon_outline = 1,
+		bg = "",
+		pre_chapter = 1430004,
+		formation = 1430001,
+		bgm = "idol-kannjouLOYALTY-inst",
+		chapter_tag = 0,
+		star_require_1 = 1,
+		pos_y = "0.2579",
+		pop_pic = "LiveStart",
+		num_1 = 1,
+		model = 2,
+		investigation_ratio = 0,
+		ammo_submarine = 0,
+		num_2 = 40,
+		is_ai = 1,
+		map = 1430001,
+		unlocklevel = 0,
+		uifx = "",
+		name = "热情的Verheerender",
+		chapter_name = "SP5",
+		type = 1,
+		act_id = 751,
+		enter_story = "JICHANG18",
+		boss_refresh = 6,
+		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
+		friendly_id = 0,
+		mitigation_rate = 2,
+		mitigation_level = 8,
+		ammo_total = 5,
+		group_num = 2,
+		enter_story_limit = "",
+		star_require_3 = 6,
+		profiles = "「指挥官眼中只需要有我们…不，只需要有我就够了！」",
+		difficulty = 8,
+		avoid_ratio = 12,
+		star_require_2 = 2,
+		time = 43200,
+		win_condition_display = "win_condition_display_qijian",
+		submarine_num = 1,
+		scale = {
+			0.61,
+			0.41,
+			1.5
+		},
+		chapter_fx = {
+			juguangdeng_xingguang_SLG = {
+				offset = {
+					-500,
+					-500,
+					-500
+				}
+			},
+			juguangdeng_xingguang_SLG2 = {
+				offset = {
+					-50,
+					-500,
+					-500
+				}
+			}
+		},
+		limitation = {},
+		property_limitation = {},
+		expedition_id_weight_list = {
+			{
+				1474001,
+				15,
+				0
+			},
+			{
+				1474002,
+				20,
+				0
+			},
+			{
+				1474003,
+				30,
+				1
+			},
+			{
+				1474004,
+				15,
+				0
+			},
+			{
+				1474005,
+				20,
+				0
+			},
+			{
+				1474006,
+				30,
+				1
+			},
+			{
+				1474007,
+				15,
+				0
+			},
+			{
+				1474008,
+				20,
+				0
+			},
+			{
+				1474009,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {
+			1474005,
+			1474008
+		},
+		ai_expedition_list = {
+			1474301,
+			1474302,
+			1474303
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1474013
+		},
+		enemy_refresh = {
+			2,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			1,
+			0
+		},
+		ai_refresh = {
+			2,
+			1
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"dafeng_idol"
+		},
+		awards = {
+			{
+				2,
+				58058
+			},
+			{
+				2,
+				58056
+			},
+			{
+				2,
+				58044
+			},
+			{
+				2,
+				54013
+			},
+			{
+				2,
+				54024
+			}
+		},
+		grids = {
+			{
+				9,
+				8,
+				true,
+				0
+			},
+			{
+				9,
+				7,
+				true,
+				0
+			},
+			{
+				9,
+				6,
+				false,
+				0
+			},
+			{
+				9,
+				5,
+				true,
+				0
+			},
+			{
+				9,
+				4,
+				true,
+				0
+			},
+			{
+				9,
+				3,
+				true,
+				0
+			},
+			{
+				9,
+				2,
+				false,
+				0
+			},
+			{
+				9,
+				1,
+				true,
+				0
+			},
+			{
+				9,
+				0,
+				true,
+				0
+			},
+			{
+				8,
+				8,
+				true,
+				0
+			},
+			{
+				8,
+				7,
+				false,
+				0
+			},
+			{
+				8,
+				6,
+				false,
+				0
+			},
+			{
+				8,
+				5,
+				true,
+				1
+			},
+			{
+				8,
+				4,
+				true,
+				0
+			},
+			{
+				8,
+				3,
+				true,
+				1
+			},
+			{
+				8,
+				2,
+				false,
+				0
+			},
+			{
+				8,
+				1,
+				false,
+				0
+			},
+			{
+				8,
+				0,
+				true,
+				0
+			},
+			{
+				7,
+				8,
+				false,
+				0
+			},
+			{
+				7,
+				7,
+				true,
+				6
+			},
+			{
+				7,
+				6,
+				true,
+				0
+			},
+			{
+				7,
+				5,
+				true,
+				0
+			},
+			{
+				7,
+				4,
+				true,
+				0
+			},
+			{
+				7,
+				3,
+				true,
+				0
+			},
+			{
+				7,
+				2,
+				true,
+				0
+			},
+			{
+				7,
+				1,
+				true,
+				6
+			},
+			{
+				7,
+				0,
+				false,
+				0
+			},
+			{
+				6,
+				8,
+				true,
+				0
+			},
+			{
+				6,
+				7,
+				true,
+				0
+			},
+			{
+				6,
+				6,
+				true,
+				12
+			},
+			{
+				6,
+				5,
+				true,
+				0
+			},
+			{
+				6,
+				4,
+				true,
+				4
+			},
+			{
+				6,
+				3,
+				true,
+				0
+			},
+			{
+				6,
+				2,
+				true,
+				12
+			},
+			{
+				6,
+				1,
+				true,
+				0
+			},
+			{
+				6,
+				0,
+				true,
+				0
+			},
+			{
+				5,
+				8,
+				true,
+				0
+			},
+			{
+				5,
+				7,
+				false,
+				0
+			},
+			{
+				5,
+				6,
+				true,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				0
+			},
+			{
+				5,
+				4,
+				true,
+				4
+			},
+			{
+				5,
+				3,
+				true,
+				0
+			},
+			{
+				5,
+				2,
+				true,
+				0
+			},
+			{
+				5,
+				1,
+				false,
+				0
+			},
+			{
+				5,
+				0,
+				true,
+				0
+			},
+			{
+				4,
+				8,
+				true,
+				0
+			},
+			{
+				4,
+				7,
+				true,
+				0
+			},
+			{
+				4,
+				6,
+				true,
+				12
+			},
+			{
+				4,
+				5,
+				true,
+				0
+			},
+			{
+				4,
+				4,
+				true,
+				0
+			},
+			{
+				4,
+				3,
+				true,
+				0
+			},
+			{
+				4,
+				2,
+				true,
+				12
+			},
+			{
+				4,
+				1,
+				true,
+				0
+			},
+			{
+				4,
+				0,
+				true,
+				0
+			},
+			{
+				3,
+				8,
+				false,
+				0
+			},
+			{
+				3,
+				7,
+				false,
+				0
+			},
+			{
+				3,
+				6,
+				false,
+				0
+			},
+			{
+				3,
+				5,
+				true,
+				4
+			},
+			{
+				3,
+				4,
+				true,
+				16
+			},
+			{
+				3,
+				3,
+				true,
+				4
+			},
+			{
+				3,
+				2,
+				false,
+				0
+			},
+			{
+				3,
+				1,
+				false,
+				0
+			},
+			{
+				3,
+				0,
+				false,
+				0
+			},
+			{
+				2,
+				8,
+				false,
+				0
+			},
+			{
+				2,
+				7,
+				true,
+				4
+			},
+			{
+				2,
+				6,
+				true,
+				0
+			},
+			{
+				2,
+				5,
+				true,
+				0
+			},
+			{
+				2,
+				4,
+				true,
+				0
+			},
+			{
+				2,
+				3,
+				true,
+				0
+			},
+			{
+				2,
+				2,
+				true,
+				0
+			},
+			{
+				2,
+				1,
+				true,
+				4
+			},
+			{
+				2,
+				0,
+				false,
+				0
+			},
+			{
+				1,
+				8,
+				true,
+				0
+			},
+			{
+				1,
+				7,
+				false,
+				0
+			},
+			{
+				1,
+				6,
+				true,
+				6
+			},
+			{
+				1,
+				5,
+				true,
+				0
+			},
+			{
+				1,
+				4,
+				true,
+				8
+			},
+			{
+				1,
+				3,
+				true,
+				0
+			},
+			{
+				1,
+				2,
+				true,
+				6
+			},
+			{
+				1,
+				1,
+				false,
+				0
+			},
+			{
+				1,
+				0,
+				true,
+				0
+			},
+			{
+				0,
+				8,
+				true,
+				0
+			},
+			{
+				0,
+				7,
+				false,
+				0
+			},
+			{
+				0,
+				6,
+				true,
+				6
+			},
+			{
+				0,
+				5,
+				true,
+				0
+			},
+			{
+				0,
+				4,
+				true,
+				0
+			},
+			{
+				0,
+				3,
+				true,
+				0
+			},
+			{
+				0,
+				2,
+				true,
+				6
+			},
+			{
+				0,
+				1,
+				false,
+				0
+			},
+			{
+				0,
+				0,
+				true,
+				0
+			}
+		},
+		float_items = {
+			{
+				8,
+				7,
+				"ouxiangv2_1x1_2",
+				9,
+				6
+			},
+			{
+				8,
+				6,
+				"ouxiangv2_1x2_2",
+				0,
+				-41
+			},
+			{
+				8,
+				2,
+				"ouxiangv2_1x2_2",
+				0,
+				-41
+			},
+			{
+				8,
+				1,
+				"ouxiangv2_1x1_2",
+				-9,
+				6
+			},
+			{
+				7,
+				8,
+				"ouxiangv2_1x1_2",
+				0,
+				0
+			},
+			{
+				7,
+				0,
+				"ouxiangv2_1x1_2",
+				0,
+				0
+			},
+			{
+				5,
+				7,
+				"1x1_4ouxiang",
+				-5,
+				10
+			},
+			{
+				5,
+				1,
+				"1x1_4ouxiang",
+				-5,
+				10
+			},
+			{
+				3,
+				6,
+				"ouxiangv2_3x1_1",
+				104,
+				30
+			},
+			{
+				3,
+				0,
+				"ouxiangv2_3x1_1",
+				104,
+				30
+			},
+			{
+				2,
+				8,
+				"ouxiangv2_1x1_1",
+				-6,
+				17
+			},
+			{
+				2,
+				0,
+				"ouxiangv2_1x1_1",
+				-6,
+				17
+			},
+			{
+				0,
+				7,
+				"ouxiangv2_1x2_1",
+				12,
+				-37
+			},
+			{
+				0,
+				1,
+				"ouxiangv2_1x2_1",
+				-6,
+				-37
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_ouxiangv2",
+			45,
+			20,
+			-214,
+			210,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			9,
+			23,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {
+			"JICHANG21",
+			"JICHANG22"
+		},
+		defeat_story_count = {
+			5,
+			6
+		},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {
+			{
+				8,
+				6
+			},
+			{
+				5,
+				3
+			},
+			{
+				2,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {},
+		chapter_buff = {
+			8750
+		},
+		wall_prefab = {},
+		alarm_cell = {}
+	},
+	[1430041] = {
+		pos_x = "0.479",
+		num_3 = 0,
+		progress_boss = 100,
+		oil = 10,
+		is_limit_move = 0,
+		mine_id = 2001,
+		activate_time = 0,
+		story_refresh_boss = "",
+		is_ambush = 0,
+		ammo_cost = 1,
+		collection_team = 0,
+		special_operation_list = "",
+		air_dominance = 1320,
+		best_air_dominance = 1720,
+		id = 1430041,
+		count = 1,
+		icon_outline = 0,
+		bg = "",
+		pre_chapter = 1430005,
+		formation = 1430002,
+		bgm = "idol-WISHNESS-inst",
+		chapter_tag = 0,
+		star_require_1 = 0,
+		pos_y = "0.2979",
+		pop_pic = "",
+		num_1 = 0,
+		model = 2,
+		investigation_ratio = 0,
+		ammo_submarine = 0,
+		num_2 = 0,
+		is_ai = 0,
+		map = 1430002,
+		unlocklevel = 0,
+		chapter_fx = "",
+		uifx = "",
+		name = "余暇的BonusTime",
+		chapter_name = "μSP",
+		type = 2,
+		act_id = 751,
+		enter_story = "",
+		boss_refresh = 7,
+		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
+		friendly_id = 0,
+		mitigation_rate = 0,
+		mitigation_level = 0,
+		ammo_total = 5,
+		group_num = 2,
+		enter_story_limit = "",
+		star_require_3 = 0,
+		profiles = "「干得不错啊仆从！这才是最适合我们的舞台！」",
+		difficulty = 10,
+		avoid_ratio = 16,
+		star_require_2 = 0,
+		time = 43200,
+		win_condition_display = "win_condition_display_qijian",
+		submarine_num = 1,
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {
+			{
+				{
+					0,
+					0,
+					0
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					0,
+					0,
+					0
+				},
+				{
+					0,
+					0,
+					0
+				}
+			}
+		},
+		property_limitation = {
+			{
+				"level",
+				1,
+				100
+			}
+		},
+		expedition_id_weight_list = {
+			{
+				1475001,
+				15,
+				0
+			},
+			{
+				1475002,
+				50,
+				0
+			},
+			{
+				1475003,
+				30,
+				1
+			},
+			{
+				1475004,
+				15,
+				0
+			},
+			{
+				1475005,
+				20,
+				0
+			},
+			{
+				1475006,
+				30,
+				1
+			},
+			{
+				1475007,
+				15,
+				0
+			},
+			{
+				1475008,
+				50,
+				0
+			},
+			{
+				1475009,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {},
+		ai_expedition_list = {
+			1
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1475013
+		},
+		enemy_refresh = {
+			0,
+			0,
+			0,
+			4
+		},
+		elite_refresh = {
+			0
+		},
+		ai_refresh = {
+			0
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"edu_idol"
+		},
+		awards = {
+			{
+				2,
+				58058
+			},
+			{
+				2,
+				58057
+			},
+			{
+				2,
+				58045
+			},
+			{
+				2,
+				54013
+			},
+			{
+				2,
+				54024
+			}
+		},
+		grids = {
+			{
+				7,
+				6,
+				true,
+				0
+			},
+			{
+				7,
+				5,
+				false,
+				0
+			},
+			{
+				7,
+				4,
+				true,
+				0
+			},
+			{
+				7,
+				3,
+				true,
+				0
+			},
+			{
+				7,
+				2,
+				true,
+				0
+			},
+			{
+				7,
+				1,
+				false,
+				0
+			},
+			{
+				7,
+				0,
+				true,
+				0
+			},
+			{
+				6,
+				6,
+				true,
+				0
+			},
+			{
+				6,
+				5,
+				false,
+				0
+			},
+			{
+				6,
+				4,
+				true,
+				1
+			},
+			{
+				6,
+				3,
+				true,
+				0
+			},
+			{
+				6,
+				2,
+				true,
+				1
+			},
+			{
+				6,
+				1,
+				false,
+				0
+			},
+			{
+				6,
+				0,
+				true,
+				0
+			},
+			{
+				5,
+				6,
+				true,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				0
+			},
+			{
+				5,
+				4,
+				true,
+				0
+			},
+			{
+				5,
+				3,
+				true,
+				16
+			},
+			{
+				5,
+				2,
+				true,
+				0
+			},
+			{
+				5,
+				1,
+				true,
+				0
+			},
+			{
+				5,
+				0,
+				true,
+				0
+			},
+			{
+				4,
+				6,
+				true,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				0
+			},
+			{
+				4,
+				4,
+				true,
+				6
+			},
+			{
+				4,
+				3,
+				true,
+				0
+			},
+			{
+				4,
+				2,
+				true,
+				6
+			},
+			{
+				4,
+				1,
+				true,
+				0
+			},
+			{
+				4,
+				0,
+				true,
+				0
+			},
+			{
+				3,
+				6,
+				false,
+				0
+			},
+			{
+				3,
+				5,
+				false,
+				0
+			},
+			{
+				3,
+				4,
+				true,
+				0
+			},
+			{
+				3,
+				3,
+				true,
+				8
+			},
+			{
+				3,
+				2,
+				true,
+				0
+			},
+			{
+				3,
+				1,
+				false,
+				0
+			},
+			{
+				3,
+				0,
+				false,
+				0
+			},
+			{
+				2,
+				6,
+				false,
+				0
+			},
+			{
+				2,
+				5,
+				false,
+				0
+			},
+			{
+				2,
+				4,
+				true,
+				6
+			},
+			{
+				2,
+				3,
+				true,
+				0
+			},
+			{
+				2,
+				2,
+				true,
+				6
+			},
+			{
+				2,
+				1,
+				false,
+				0
+			},
+			{
+				2,
+				0,
+				false,
+				0
+			},
+			{
+				1,
+				6,
+				true,
+				0
+			},
+			{
+				1,
+				5,
+				true,
+				0
+			},
+			{
+				1,
+				4,
+				true,
+				0
+			},
+			{
+				1,
+				3,
+				true,
+				0
+			},
+			{
+				1,
+				2,
+				true,
+				0
+			},
+			{
+				1,
+				1,
+				true,
+				0
+			},
+			{
+				1,
+				0,
+				true,
+				0
+			},
+			{
+				0,
+				6,
+				true,
+				0
+			},
+			{
+				0,
+				5,
+				true,
+				0
+			},
+			{
+				0,
+				4,
+				false,
+				0
+			},
+			{
+				0,
+				3,
+				false,
+				0
+			},
+			{
+				0,
+				2,
+				false,
+				0
+			},
+			{
+				0,
+				1,
+				true,
+				0
+			},
+			{
+				0,
+				0,
+				true,
+				0
+			}
+		},
+		float_items = {
+			{
+				6,
+				5,
+				"ouxiangv2_1x2_1",
+				15,
+				-48
+			},
+			{
+				6,
+				1,
+				"ouxiangv2_1x2_1",
+				-10,
+				-48
+			},
+			{
+				5,
+				5,
+				"1x1_4ouxiang",
+				-4,
+				10
+			},
+			{
+				5,
+				1,
+				"1x1_4ouxiang",
+				-4,
+				10
+			},
+			{
+				3,
+				3,
+				"1x1_4ouxiang",
+				-4,
+				10
+			},
+			{
+				2,
+				5,
+				"ouxiangv2_2x2_1",
+				72,
+				-4
+			},
+			{
+				2,
+				0,
+				"ouxiangv2_2x2_1",
+				40,
+				-1
+			},
+			{
+				1,
+				3,
+				"1x1_4ouxiang",
+				-4,
+				10
+			},
+			{
+				0,
+				2,
+				"ouxiangv2_3x1_1",
+				108,
+				37
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_ouxiangv2",
+			45,
+			20,
+			-128,
+			13,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			9,
+			23,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {},
+		defeat_story_count = {},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {},
+		land_based = {},
+		chapter_buff = {
+			8750
+		},
+		wall_prefab = {},
+		alarm_cell = {}
+	},
+	[1430051] = {
+		pos_x = "0.479",
+		num_3 = 0,
+		progress_boss = 100,
+		oil = 0,
+		is_limit_move = 0,
+		mine_id = 2001,
+		activate_time = 0,
+		story_refresh_boss = "",
+		is_ambush = 0,
+		ammo_cost = 1,
+		collection_team = 0,
+		special_operation_list = "",
+		air_dominance = 620,
+		best_air_dominance = 810,
+		id = 1430051,
+		count = 0,
+		icon_outline = 0,
+		bg = "",
+		pre_chapter = 1430005,
+		formation = 1430003,
+		bgm = "idol-WISHNESS-inst",
+		chapter_tag = 0,
+		star_require_1 = 0,
+		pos_y = "0.2979",
+		pop_pic = "",
+		num_1 = 0,
+		model = 5,
+		investigation_ratio = 0,
+		ammo_submarine = 0,
+		num_2 = 0,
+		is_ai = 0,
+		map = 1430003,
+		unlocklevel = 0,
+		chapter_fx = "",
+		uifx = "",
+		name = "激唱的Encore",
+		chapter_name = "EXTRA",
+		type = 2,
+		act_id = 751,
+		enter_story = "",
+		boss_refresh = 0,
+		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
+		friendly_id = 0,
+		mitigation_rate = 0,
+		mitigation_level = 0,
+		ammo_total = 5,
+		group_num = 1,
+		enter_story_limit = "",
+		star_require_3 = 0,
+		profiles = "「觉得挑战还不够喵？呼喵，那就准备面对最强的组合喵！」",
+		difficulty = 10,
+		avoid_ratio = 17,
+		star_require_2 = 0,
+		time = 43200,
+		win_condition_display = "win_condition_display_qijian",
+		submarine_num = 0,
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {
+			{
+				{
+					"zhan",
+					5,
+					0
+				},
+				{
+					0,
+					0,
+					0
+				}
+			}
+		},
+		property_limitation = {},
+		expedition_id_weight_list = {},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {},
+		ai_expedition_list = {
+			1
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1476001
+		},
+		enemy_refresh = {
+			0
+		},
+		elite_refresh = {
+			0
+		},
+		ai_refresh = {
+			0
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"tashigan_idol"
+		},
+		awards = {},
+		grids = {
+			{
+				8,
+				7,
+				true,
+				0
+			},
+			{
+				8,
+				6,
+				true,
+				0
+			},
+			{
+				8,
+				5,
+				true,
+				0
+			},
+			{
+				8,
+				4,
+				true,
+				0
+			},
+			{
+				8,
+				3,
+				true,
+				0
+			},
+			{
+				7,
+				7,
+				true,
+				0
+			},
+			{
+				7,
+				6,
+				true,
+				0
+			},
+			{
+				7,
+				5,
+				true,
+				1
+			},
+			{
+				7,
+				4,
+				true,
+				0
+			},
+			{
+				7,
+				3,
+				true,
+				0
+			},
+			{
+				6,
+				7,
+				true,
+				0
+			},
+			{
+				6,
+				6,
+				true,
+				0
+			},
+			{
+				6,
+				5,
+				true,
+				0
+			},
+			{
+				6,
+				4,
+				true,
+				0
+			},
+			{
+				6,
+				3,
+				true,
+				0
+			},
+			{
+				5,
+				7,
+				true,
+				0
+			},
+			{
+				5,
+				6,
+				false,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				8
+			},
+			{
+				5,
+				4,
+				false,
+				0
+			},
+			{
+				5,
+				3,
+				true,
+				0
+			},
+			{
+				4,
+				7,
+				true,
+				0
+			},
+			{
+				4,
+				6,
+				false,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				0
+			},
+			{
+				4,
+				4,
+				false,
+				0
+			},
+			{
+				4,
+				3,
+				true,
+				0
+			},
+			{
+				3,
+				7,
+				true,
+				0
+			},
+			{
+				3,
+				6,
+				false,
+				0
+			},
+			{
+				3,
+				5,
+				false,
+				0
+			},
+			{
+				3,
+				4,
+				false,
+				0
+			},
+			{
+				3,
+				3,
+				true,
+				0
+			},
+			{
+				2,
+				7,
+				true,
+				0
+			},
+			{
+				2,
+				6,
+				true,
+				0
+			},
+			{
+				2,
+				5,
+				true,
+				0
+			},
+			{
+				2,
+				4,
+				true,
+				0
+			},
+			{
+				2,
+				3,
+				true,
+				0
+			}
+		},
+		float_items = {
+			{
+				4,
+				6,
+				"ouxiangv2_1x2_1",
+				11,
+				-35
+			},
+			{
+				4,
+				4,
+				"ouxiangv2_1x2_1",
+				-6,
+				-35
+			},
+			{
+				3,
+				5,
+				"ouxiangv2_3x1_1",
+				0,
+				25
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_ouxiangv2",
+			45,
+			20,
+			-332,
+			119,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			9,
+			23,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {},
+		defeat_story_count = {},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {},
+		land_based = {},
+		chapter_buff = {
+			8750
+		},
+		wall_prefab = {},
+		alarm_cell = {}
+	},
+	[1440001] = {
+		pos_x = "0.1625",
+		num_3 = 1,
+		progress_boss = 100,
+		oil = 10,
+		is_limit_move = 1,
+		mine_id = 2001,
+		activate_time = 0,
+		story_refresh_boss = "",
+		is_ambush = 0,
+		ammo_cost = 1,
+		collection_team = 0,
+		special_operation_list = "",
+		air_dominance = 100,
+		best_air_dominance = 150,
+		id = 1440001,
+		count = 0,
+		icon_outline = 0,
+		bg = "",
+		pre_chapter = 0,
+		formation = 1440001,
+		bgm = "",
+		chapter_tag = 0,
+		star_require_1 = 1,
+		pos_y = "0.402083333",
+		pop_pic = "",
+		num_1 = 1,
+		model = 2,
+		investigation_ratio = 0,
+		wall_prefab = "",
+		ammo_submarine = 0,
+		num_2 = 6,
+		is_ai = 1,
+		map = 1440001,
+		unlocklevel = 0,
+		chapter_fx = "",
+		uifx = "",
+		name = "铁血的行军",
+		chapter_name = "SP0",
+		type = 1,
+		act_id = 773,
+		enter_story = "NAERWEIKE1",
+		boss_refresh = 0,
+		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
+		friendly_id = 0,
+		mitigation_rate = 0,
+		mitigation_level = 0,
+		ammo_total = 5,
+		group_num = 2,
+		enter_story_limit = "",
+		star_require_3 = 3,
+		profiles = "风雪之中，铁血舰队悄声无息地驶入了奥福克峡湾，在皇家尚未察觉前，她们将闪电夺下纳尔维克港…",
+		difficulty = 8,
+		avoid_ratio = 7,
+		star_require_2 = 4,
+		time = 43200,
+		win_condition_display = "win_condition_display_qijian",
+		submarine_num = 0,
+		scale = {
+			0.61,
+			0.41,
+			1.5
+		},
+		limitation = {},
+		property_limitation = {},
+		expedition_id_weight_list = {},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {},
+		ai_expedition_list = {
+			1
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1210013
+		},
+		enemy_refresh = {
+			0,
+			2,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			0
+		},
+		ai_refresh = {
+			0
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"eidsvold"
+		},
+		awards = {},
+		grids = {
+			{
+				5,
+				9,
+				true,
+				0
+			},
+			{
+				5,
+				8,
+				false,
+				0
+			},
+			{
+				5,
+				7,
+				false,
+				0
+			},
+			{
+				5,
+				6,
+				false,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				0
+			},
+			{
+				5,
+				4,
+				false,
+				0
+			},
+			{
+				5,
+				3,
+				false,
+				100
+			},
+			{
+				5,
+				2,
+				true,
+				0
+			},
+			{
+				5,
+				1,
+				true,
+				0
+			},
+			{
+				5,
+				0,
+				true,
+				0
+			},
+			{
+				4,
+				9,
+				true,
+				0
+			},
+			{
+				4,
+				8,
+				true,
+				0
+			},
+			{
+				4,
+				7,
+				false,
+				100
+			},
+			{
+				4,
+				6,
+				true,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				0
+			},
+			{
+				4,
+				4,
+				false,
+				0
+			},
+			{
+				4,
+				3,
+				true,
+				0
+			},
+			{
+				4,
+				2,
+				true,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				0
+			},
+			{
+				4,
+				0,
+				true,
+				0
+			},
+			{
+				3,
+				9,
+				true,
+				8
+			},
+			{
+				3,
+				8,
+				true,
+				0
+			},
+			{
+				3,
+				7,
+				true,
+				0
+			},
+			{
+				3,
+				6,
+				true,
+				0
+			},
+			{
+				3,
+				5,
+				true,
+				0
+			},
+			{
+				3,
+				4,
+				true,
+				0
+			},
+			{
+				3,
+				3,
+				true,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				0
+			},
+			{
+				3,
+				1,
+				true,
+				0
+			},
+			{
+				3,
+				0,
+				true,
+				1
+			},
+			{
+				2,
+				9,
+				true,
+				0
+			},
+			{
+				2,
+				8,
+				true,
+				0
+			},
+			{
+				2,
+				7,
+				true,
+				0
+			},
+			{
+				2,
+				6,
+				false,
+				0
+			},
+			{
+				2,
+				5,
+				true,
+				0
+			},
+			{
+				2,
+				4,
+				true,
+				0
+			},
+			{
+				2,
+				3,
+				true,
+				0
+			},
+			{
+				2,
+				2,
+				true,
+				0
+			},
+			{
+				2,
+				1,
+				true,
+				0
+			},
+			{
+				2,
+				0,
+				true,
+				1
+			},
+			{
+				1,
+				9,
+				false,
+				0
+			},
+			{
+				1,
+				8,
+				true,
+				0
+			},
+			{
+				1,
+				7,
+				true,
+				0
+			},
+			{
+				1,
+				6,
+				true,
+				0
+			},
+			{
+				1,
+				5,
+				false,
+				100
+			},
+			{
+				1,
+				4,
+				true,
+				0
+			},
+			{
+				1,
+				3,
+				true,
+				0
+			},
+			{
+				1,
+				2,
+				true,
+				0
+			},
+			{
+				1,
+				1,
+				false,
+				0
+			},
+			{
+				1,
+				0,
+				true,
+				0
+			},
+			{
+				0,
+				9,
+				false,
+				0
+			},
+			{
+				0,
+				8,
+				false,
+				0
+			},
+			{
+				0,
+				7,
+				true,
+				0
+			},
+			{
+				0,
+				6,
+				true,
+				0
+			},
+			{
+				0,
+				5,
+				false,
+				0
+			},
+			{
+				0,
+				4,
+				false,
+				0
+			},
+			{
+				0,
+				3,
+				false,
+				0
+			},
+			{
+				0,
+				2,
+				false,
+				100
+			},
+			{
+				0,
+				1,
+				true,
+				0
+			},
+			{
+				0,
+				0,
+				true,
+				0
+			}
+		},
+		float_items = {
+			{
+				5,
+				7,
+				"3x1_2naerweike",
+				0,
+				0
+			},
+			{
+				4,
+				4,
+				"2x1_2naerweike",
+				-4,
+				-34
+			},
+			{
+				2,
+				6,
+				"1x1_2naerweike",
+				0,
+				21
+			},
+			{
+				1,
+				1,
+				"1x1_1naerweike",
+				-1,
+				18
+			},
+			{
+				0,
+				9,
+				"2x1_3naerweike",
+				-41,
+				-20
+			},
+			{
+				0,
+				4,
+				"3x1_1naerweike",
+				-8,
+				-4
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {
+			{
+				-20000
+			}
+		},
+		theme = {
+			"sea_naerweike",
+			45,
+			20,
+			-38,
+			-70,
+			100,
+			100,
+			4,
+			4
+		},
+		box_list = {},
+		random_box_list = {
+			2,
+			101,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0,
+			0,
+			0,
+			1
+		},
+		story_refresh = {},
+		defeat_story = {
+			"NAERWEIKE2"
+		},
+		defeat_story_count = {
+			1
+		},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {},
+		land_based = {
+			{
+				5,
+				3,
+				1
+			},
+			{
+				4,
+				7,
+				1
+			},
+			{
+				1,
+				5,
+				2
+			},
+			{
+				0,
+				2,
+				2
+			}
+		},
+		chapter_buff = {},
+		alarm_cell = {}
+	},
+	[1440002] = {
+		pos_x = "0.2375",
+		num_3 = 1,
+		progress_boss = 34,
+		oil = 10,
+		is_limit_move = 1,
+		mine_id = 2001,
+		activate_time = 0,
+		story_refresh_boss = "",
+		is_ambush = 0,
+		ammo_cost = 1,
+		collection_team = 0,
+		special_operation_list = "",
+		air_dominance = 100,
+		best_air_dominance = 150,
+		id = 1440002,
+		count = 0,
+		icon_outline = 0,
+		bg = "",
+		pre_chapter = 1440001,
+		formation = 1440001,
+		bgm = "",
+		chapter_tag = 0,
+		star_require_1 = 1,
+		pos_y = "0.123958333",
+		pop_pic = "",
+		num_1 = 1,
+		model = 2,
+		investigation_ratio = 0,
+		wall_prefab = "",
+		ammo_submarine = 0,
+		num_2 = 25,
+		is_ai = 1,
+		map = 1440001,
+		unlocklevel = 0,
+		chapter_fx = "",
+		uifx = "",
+		name = "风雪中的侦查",
+		chapter_name = "SP1",
+		type = 1,
+		act_id = 773,
+		enter_story = "NAERWEIKE3",
+		boss_refresh = 4,
+		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
+		friendly_id = 0,
+		mitigation_rate = 2,
+		mitigation_level = 5,
+		ammo_total = 5,
+		group_num = 2,
+		enter_story_limit = "",
+		star_require_3 = 3,
+		profiles = "虽然不愿意相信，但铁血已经布置了防卫力量，这意味着纳尔维克已经完全在她们的掌控之中。为了探明敌情，H级五艘，悄声驶入奥福克峡湾…",
+		difficulty = 6,
+		avoid_ratio = 8,
+		star_require_2 = 2,
+		time = 43200,
+		win_condition_display = "win_condition_display_qijian",
+		submarine_num = 1,
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {},
+		property_limitation = {},
+		expedition_id_weight_list = {
+			{
+				1210101,
+				15,
+				0
+			},
+			{
+				1210102,
+				20,
+				0
+			},
+			{
+				1210103,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {
+			1210101,
+			1210102,
+			1210103
+		},
+		elite_expedition_list = {
+			1210102,
+			1210103
+		},
+		ai_expedition_list = {
+			1210110
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1210113
+		},
+		enemy_refresh = {
+			2,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			0
+		},
+		ai_refresh = {
+			1
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"Z19"
+		},
+		awards = {
+			{
+				2,
+				57567
+			},
+			{
+				2,
+				57561
+			},
+			{
+				2,
+				54012
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				6,
+				10,
+				false,
+				0
+			},
+			{
+				6,
+				9,
+				false,
+				0
+			},
+			{
+				6,
+				8,
+				false,
+				0
+			},
+			{
+				6,
+				7,
+				false,
+				100
+			},
+			{
+				6,
+				6,
+				true,
+				0
+			},
+			{
+				6,
+				5,
+				true,
+				0
+			},
+			{
+				6,
+				4,
+				true,
+				0
+			},
+			{
+				6,
+				3,
+				false,
+				0
+			},
+			{
+				6,
+				2,
+				true,
+				0
+			},
+			{
+				6,
+				1,
+				true,
+				0
+			},
+			{
+				6,
+				0,
+				true,
+				0
+			},
+			{
+				5,
+				10,
+				true,
+				0
+			},
+			{
+				5,
+				9,
+				true,
+				0
+			},
+			{
+				5,
+				8,
+				true,
+				0
+			},
+			{
+				5,
+				7,
+				true,
+				0
+			},
+			{
+				5,
+				6,
+				true,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				0
+			},
+			{
+				5,
+				4,
+				true,
+				0
+			},
+			{
+				5,
+				3,
+				false,
+				0
+			},
+			{
+				5,
+				2,
+				true,
+				0
+			},
+			{
+				5,
+				1,
+				true,
+				0
+			},
+			{
+				5,
+				0,
+				true,
+				6
+			},
+			{
+				4,
+				10,
+				true,
+				0
+			},
+			{
+				4,
+				9,
+				true,
+				0
+			},
+			{
+				4,
+				8,
+				true,
+				0
+			},
+			{
+				4,
+				7,
+				true,
+				0
+			},
+			{
+				4,
+				6,
+				true,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				0
+			},
+			{
+				4,
+				4,
+				true,
+				6
+			},
+			{
+				4,
+				3,
+				true,
+				0
+			},
+			{
+				4,
+				2,
+				true,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				0
+			},
+			{
+				4,
+				0,
+				true,
+				6
+			},
+			{
+				3,
+				10,
+				true,
+				0
+			},
+			{
+				3,
+				9,
+				true,
+				0
+			},
+			{
+				3,
+				8,
+				true,
+				6
+			},
+			{
+				3,
+				7,
+				true,
+				0
+			},
+			{
+				3,
+				6,
+				true,
+				6
+			},
+			{
+				3,
+				5,
+				false,
+				100
+			},
+			{
+				3,
+				4,
+				true,
+				0
+			},
+			{
+				3,
+				3,
+				true,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				16
+			},
+			{
+				3,
+				1,
+				true,
+				0
+			},
+			{
+				3,
+				0,
+				true,
+				1
+			},
+			{
+				2,
+				10,
+				true,
+				4
+			},
+			{
+				2,
+				9,
+				false,
+				100
+			},
+			{
+				2,
+				8,
+				true,
+				4
+			},
+			{
+				2,
+				7,
+				true,
+				0
+			},
+			{
+				2,
+				6,
+				false,
+				0
+			},
+			{
+				2,
+				5,
+				true,
+				6
+			},
+			{
+				2,
+				4,
+				true,
+				0
+			},
+			{
+				2,
+				3,
+				true,
+				0
+			},
+			{
+				2,
+				2,
+				true,
+				6
+			},
+			{
+				2,
+				1,
+				true,
+				0
+			},
+			{
+				2,
+				0,
+				true,
+				1
+			},
+			{
+				1,
+				10,
+				true,
+				8
+			},
+			{
+				1,
+				9,
+				false,
+				0
+			},
+			{
+				1,
+				8,
+				true,
+				6
+			},
+			{
+				1,
+				7,
+				true,
+				0
+			},
+			{
+				1,
+				6,
+				false,
+				0
+			},
+			{
+				1,
+				5,
+				false,
+				0
+			},
+			{
+				1,
+				4,
+				true,
+				0
+			},
+			{
+				1,
+				3,
+				false,
+				100
+			},
+			{
+				1,
+				2,
+				true,
+				0
+			},
+			{
+				1,
+				1,
+				true,
+				6
+			},
+			{
+				1,
+				0,
+				true,
+				0
+			},
+			{
+				0,
+				10,
+				true,
+				0
+			},
+			{
+				0,
+				9,
+				false,
+				0
+			},
+			{
+				0,
+				8,
+				true,
+				6
+			},
+			{
+				0,
+				7,
+				true,
+				0
+			},
+			{
+				0,
+				6,
+				true,
+				0
+			},
+			{
+				0,
+				5,
+				true,
+				0
+			},
+			{
+				0,
+				4,
+				true,
+				12
+			},
+			{
+				0,
+				3,
+				true,
+				0
+			},
+			{
+				0,
+				2,
+				false,
+				0
+			},
+			{
+				0,
+				1,
+				false,
+				0
+			},
+			{
+				0,
+				0,
+				false,
+				0
+			}
+		},
+		float_items = {
+			{
+				6,
+				9,
+				"3x1_2naerweike",
+				0,
+				9
+			},
+			{
+				6,
+				3,
+				"2x1_2naerweike",
+				0,
+				45
+			},
+			{
+				1,
+				6,
+				"2x1_3naerweike",
+				-45,
+				-23
+			},
+			{
+				0,
+				9,
+				"2x1_1naerweike",
+				1,
+				-33
+			},
+			{
+				0,
+				1,
+				"3x1_1naerweike",
+				3,
+				-9
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {
+			{
+				-20000
+			}
+		},
+		theme = {
+			"sea_naerweike",
+			45,
+			20,
+			66,
+			-103,
+			100,
+			100,
+			4,
+			4
+		},
+		box_list = {},
+		random_box_list = {
+			3,
+			21,
+			102,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {},
+		defeat_story_count = {},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {
+			{
+				5,
+				4
+			},
+			{
+				3,
+				2
+			},
+			{
+				1,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {
+			{
+				6,
+				7,
+				1
+			},
+			{
+				3,
+				5,
+				2
+			},
+			{
+				2,
+				9,
+				2
+			},
+			{
+				1,
+				3,
+				2
+			}
+		},
+		chapter_buff = {},
+		alarm_cell = {}
+	},
+	[1440003] = {
+		pos_x = "0.62109375",
+		num_3 = 1,
+		progress_boss = 25,
+		oil = 10,
+		is_limit_move = 1,
+		mine_id = 2001,
+		activate_time = 0,
+		story_refresh_boss = "",
+		is_ambush = 0,
+		ammo_cost = 1,
+		collection_team = 0,
+		special_operation_list = "",
+		air_dominance = 200,
+		best_air_dominance = 260,
+		id = 1440003,
+		count = 0,
+		icon_outline = 0,
+		bg = "",
+		pre_chapter = 1440002,
+		formation = 1440001,
+		bgm = "",
+		chapter_tag = 0,
+		star_require_1 = 1,
+		pos_y = "0.379166667",
+		pop_pic = "",
+		num_1 = 1,
+		model = 2,
+		investigation_ratio = 0,
+		wall_prefab = "",
+		ammo_submarine = 0,
+		num_2 = 30,
+		is_ai = 1,
+		map = 1440001,
+		unlocklevel = 0,
+		chapter_fx = "",
+		uifx = "",
+		name = "峡湾中的闪击",
+		chapter_name = "SP2",
+		type = 1,
+		act_id = 773,
+		enter_story = "NAERWEIKE6",
+		boss_refresh = 5,
+		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
+		friendly_id = 0,
+		mitigation_rate = 2,
+		mitigation_level = 5,
+		ammo_total = 5,
+		group_num = 2,
+		enter_story_limit = "",
+		star_require_3 = 3,
+		profiles = "好消息是，铁血留在峡湾内的守备力量似乎并不强大，坏消息是，在恶劣天气下，皇家驱逐们也无法支撑太久。暴风雪中，已经能隐约看到海岸上的火光…",
+		difficulty = 7,
+		avoid_ratio = 9,
+		star_require_2 = 2,
+		time = 43200,
+		win_condition_display = "win_condition_display_qijian",
+		submarine_num = 1,
+		scale = {
+			0.49,
+			0.35,
+			1.5
+		},
+		limitation = {},
+		property_limitation = {},
+		expedition_id_weight_list = {
+			{
+				1210201,
+				15,
+				0
+			},
+			{
+				1210202,
+				20,
+				0
+			},
+			{
+				1210203,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {
+			1210201,
+			1210202,
+			1210203
+		},
+		elite_expedition_list = {
+			1210202,
+			1210203
+		},
+		ai_expedition_list = {
+			1210210
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1210213
+		},
+		enemy_refresh = {
+			2,
+			2,
+			1,
+			1
+		},
+		elite_refresh = {
+			0
+		},
+		ai_refresh = {
+			2
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"Z21"
+		},
+		awards = {
+			{
+				2,
+				57568
+			},
+			{
+				2,
+				57562
+			},
+			{
+				2,
+				54012
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				6,
+				10,
+				false,
+				0
+			},
+			{
+				6,
+				9,
+				false,
+				0
+			},
+			{
+				6,
+				8,
+				false,
+				0
+			},
+			{
+				6,
+				7,
+				true,
+				6
+			},
+			{
+				6,
+				6,
+				true,
+				0
+			},
+			{
+				6,
+				5,
+				true,
+				0
+			},
+			{
+				6,
+				4,
+				true,
+				6
+			},
+			{
+				6,
+				3,
+				true,
+				6
+			},
+			{
+				6,
+				2,
+				true,
+				0
+			},
+			{
+				6,
+				1,
+				false,
+				0
+			},
+			{
+				6,
+				0,
+				true,
+				0
+			},
+			{
+				5,
+				10,
+				true,
+				8
+			},
+			{
+				5,
+				9,
+				true,
+				6
+			},
+			{
+				5,
+				8,
+				false,
+				100
+			},
+			{
+				5,
+				7,
+				true,
+				0
+			},
+			{
+				5,
+				6,
+				true,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				0
+			},
+			{
+				5,
+				4,
+				true,
+				0
+			},
+			{
+				5,
+				3,
+				true,
+				0
+			},
+			{
+				5,
+				2,
+				false,
+				100
+			},
+			{
+				5,
+				1,
+				false,
+				0
+			},
+			{
+				5,
+				0,
+				true,
+				6
+			},
+			{
+				4,
+				10,
+				true,
+				0
+			},
+			{
+				4,
+				9,
+				true,
+				4
+			},
+			{
+				4,
+				8,
+				true,
+				6
+			},
+			{
+				4,
+				7,
+				true,
+				0
+			},
+			{
+				4,
+				6,
+				true,
+				6
+			},
+			{
+				4,
+				5,
+				false,
+				0
+			},
+			{
+				4,
+				4,
+				false,
+				0
+			},
+			{
+				4,
+				3,
+				true,
+				6
+			},
+			{
+				4,
+				2,
+				true,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				0
+			},
+			{
+				4,
+				0,
+				true,
+				1
+			},
+			{
+				3,
+				10,
+				false,
+				0
+			},
+			{
+				3,
+				9,
+				true,
+				0
+			},
+			{
+				3,
+				8,
+				true,
+				0
+			},
+			{
+				3,
+				7,
+				true,
+				16
+			},
+			{
+				3,
+				6,
+				true,
+				6
+			},
+			{
+				3,
+				5,
+				false,
+				0
+			},
+			{
+				3,
+				4,
+				false,
+				0
+			},
+			{
+				3,
+				3,
+				true,
+				6
+			},
+			{
+				3,
+				2,
+				true,
+				0
+			},
+			{
+				3,
+				1,
+				true,
+				6
+			},
+			{
+				3,
+				0,
+				true,
+				0
+			},
+			{
+				2,
+				10,
+				true,
+				0
+			},
+			{
+				2,
+				9,
+				true,
+				4
+			},
+			{
+				2,
+				8,
+				true,
+				0
+			},
+			{
+				2,
+				7,
+				true,
+				0
+			},
+			{
+				2,
+				6,
+				true,
+				0
+			},
+			{
+				2,
+				5,
+				false,
+				100
+			},
+			{
+				2,
+				4,
+				true,
+				0
+			},
+			{
+				2,
+				3,
+				true,
+				12
+			},
+			{
+				2,
+				2,
+				true,
+				0
+			},
+			{
+				2,
+				1,
+				true,
+				0
+			},
+			{
+				2,
+				0,
+				true,
+				1
+			},
+			{
+				1,
+				10,
+				true,
+				0
+			},
+			{
+				1,
+				9,
+				false,
+				0
+			},
+			{
+				1,
+				8,
+				true,
+				12
+			},
+			{
+				1,
+				7,
+				true,
+				0
+			},
+			{
+				1,
+				6,
+				true,
+				0
+			},
+			{
+				1,
+				5,
+				false,
+				0
+			},
+			{
+				1,
+				4,
+				true,
+				0
+			},
+			{
+				1,
+				3,
+				true,
+				0
+			},
+			{
+				1,
+				2,
+				false,
+				100
+			},
+			{
+				1,
+				1,
+				true,
+				0
+			},
+			{
+				1,
+				0,
+				true,
+				6
+			},
+			{
+				0,
+				10,
+				true,
+				0
+			},
+			{
+				0,
+				9,
+				false,
+				0
+			},
+			{
+				0,
+				8,
+				false,
+				0
+			},
+			{
+				0,
+				7,
+				true,
+				6
+			},
+			{
+				0,
+				6,
+				true,
+				0
+			},
+			{
+				0,
+				5,
+				true,
+				0
+			},
+			{
+				0,
+				4,
+				true,
+				0
+			},
+			{
+				0,
+				3,
+				true,
+				0
+			},
+			{
+				0,
+				2,
+				false,
+				0
+			},
+			{
+				0,
+				1,
+				false,
+				0
+			},
+			{
+				0,
+				0,
+				false,
+				0
+			}
+		},
+		float_items = {
+			{
+				6,
+				9,
+				"3x1_2naerweike",
+				0,
+				12
+			},
+			{
+				6,
+				1,
+				"2x1_1naerweike",
+				0,
+				38
+			},
+			{
+				3,
+				10,
+				"1x1_1naerweike",
+				0,
+				0
+			},
+			{
+				3,
+				4,
+				"2x2_1naerweike",
+				53,
+				-32
+			},
+			{
+				1,
+				5,
+				"1x1_2naerweike",
+				0,
+				23
+			},
+			{
+				0,
+				9,
+				"2x1_3naerweike",
+				-46,
+				-28
+			},
+			{
+				0,
+				1,
+				"3x1_1naerweike",
+				0,
+				-3
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {
+			{
+				-20000
+			}
+		},
+		theme = {
+			"sea_naerweike",
+			45,
+			20,
+			22,
+			-67,
+			100,
+			100,
+			4,
+			4
+		},
+		box_list = {},
+		random_box_list = {
+			4,
+			22,
+			102,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0,
+			0,
+			1
+		},
+		story_refresh = {},
+		defeat_story = {},
+		defeat_story_count = {},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {
+			{
+				5,
+				4
+			},
+			{
+				3,
+				2
+			},
+			{
+				1,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {
+			{
+				5,
+				8,
+				1
+			},
+			{
+				5,
+				2,
+				4
+			},
+			{
+				2,
+				5,
+				4
+			},
+			{
+				1,
+				2,
+				2
+			}
+		},
+		chapter_buff = {},
+		alarm_cell = {}
+	},
+	[1440004] = {
+		pos_x = "0.68515625",
+		num_3 = 1,
+		progress_boss = 20,
+		oil = 10,
+		is_limit_move = 1,
+		mine_id = 2001,
+		activate_time = 0,
+		story_refresh_boss = "",
+		is_ambush = 0,
+		ammo_cost = 1,
+		collection_team = 0,
+		special_operation_list = "",
+		air_dominance = 400,
+		best_air_dominance = 520,
+		id = 1440004,
+		count = 0,
+		icon_outline = 0,
+		bg = "",
+		pre_chapter = 1440003,
+		formation = 1440001,
+		bgm = "",
+		chapter_tag = 0,
+		star_require_1 = 1,
+		pos_y = "0.10625",
+		pop_pic = "",
+		num_1 = 1,
+		model = 2,
+		investigation_ratio = 0,
+		wall_prefab = "",
+		ammo_submarine = 0,
+		num_2 = 35,
+		is_ai = 1,
+		map = 1440001,
+		unlocklevel = 0,
+		chapter_fx = "",
+		uifx = "",
+		name = "极北的星辰",
+		chapter_name = "SP3",
+		type = 1,
+		act_id = 773,
+		enter_story = "NAERWEIKE9",
+		boss_refresh = 5,
+		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
+		friendly_id = 0,
+		mitigation_rate = 2,
+		mitigation_level = 5,
+		ammo_total = 5,
+		group_num = 2,
+		enter_story_limit = "",
+		star_require_3 = 3,
+		profiles = "铁血的增援终于还是出现在了峡湾入口，H级的补给也已经所剩无多，不过，她们早已清楚行动的危险性…激战，即将展开——",
+		difficulty = 8,
+		avoid_ratio = 10,
+		star_require_2 = 2,
+		time = 43200,
+		win_condition_display = "win_condition_display_qijian",
+		submarine_num = 1,
+		scale = {
+			0.61,
+			0.41,
+			1.5
+		},
+		limitation = {},
+		property_limitation = {},
+		expedition_id_weight_list = {
+			{
+				1210301,
+				15,
+				0
+			},
+			{
+				1210302,
+				20,
+				0
+			},
+			{
+				1210303,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {
+			1210301,
+			1210302,
+			1210303
+		},
+		elite_expedition_list = {
+			1210302,
+			1210303
+		},
+		ai_expedition_list = {
+			1210310
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1210313
+		},
+		enemy_refresh = {
+			2,
+			2,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			0
+		},
+		ai_refresh = {
+			2
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"z2"
+		},
+		awards = {
+			{
+				2,
+				57569
+			},
+			{
+				2,
+				57563
+			},
+			{
+				2,
+				54013
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				6,
+				10,
+				true,
+				6
+			},
+			{
+				6,
+				9,
+				true,
+				12
+			},
+			{
+				6,
+				8,
+				true,
+				0
+			},
+			{
+				6,
+				7,
+				false,
+				100
+			},
+			{
+				6,
+				6,
+				true,
+				0
+			},
+			{
+				6,
+				5,
+				true,
+				6
+			},
+			{
+				6,
+				4,
+				true,
+				6
+			},
+			{
+				6,
+				3,
+				true,
+				6
+			},
+			{
+				6,
+				2,
+				false,
+				0
+			},
+			{
+				6,
+				1,
+				true,
+				6
+			},
+			{
+				6,
+				0,
+				true,
+				6
+			},
+			{
+				5,
+				10,
+				true,
+				0
+			},
+			{
+				5,
+				9,
+				true,
+				6
+			},
+			{
+				5,
+				8,
+				true,
+				0
+			},
+			{
+				5,
+				7,
+				true,
+				0
+			},
+			{
+				5,
+				6,
+				true,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				0
+			},
+			{
+				5,
+				4,
+				true,
+				0
+			},
+			{
+				5,
+				3,
+				true,
+				16
+			},
+			{
+				5,
+				2,
+				true,
+				0
+			},
+			{
+				5,
+				1,
+				true,
+				6
+			},
+			{
+				5,
+				0,
+				true,
+				6
+			},
+			{
+				4,
+				10,
+				false,
+				0
+			},
+			{
+				4,
+				9,
+				false,
+				0
+			},
+			{
+				4,
+				8,
+				false,
+				0
+			},
+			{
+				4,
+				7,
+				true,
+				0
+			},
+			{
+				4,
+				6,
+				true,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				6
+			},
+			{
+				4,
+				4,
+				true,
+				6
+			},
+			{
+				4,
+				3,
+				false,
+				100
+			},
+			{
+				4,
+				2,
+				true,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				0
+			},
+			{
+				4,
+				0,
+				true,
+				0
+			},
+			{
+				3,
+				10,
+				true,
+				8
+			},
+			{
+				3,
+				9,
+				true,
+				4
+			},
+			{
+				3,
+				8,
+				true,
+				4
+			},
+			{
+				3,
+				7,
+				true,
+				0
+			},
+			{
+				3,
+				6,
+				true,
+				0
+			},
+			{
+				3,
+				5,
+				true,
+				0
+			},
+			{
+				3,
+				4,
+				true,
+				6
+			},
+			{
+				3,
+				3,
+				false,
+				0
+			},
+			{
+				3,
+				2,
+				false,
+				0
+			},
+			{
+				3,
+				1,
+				true,
+				0
+			},
+			{
+				3,
+				0,
+				true,
+				1
+			},
+			{
+				2,
+				10,
+				false,
+				0
+			},
+			{
+				2,
+				9,
+				false,
+				0
+			},
+			{
+				2,
+				8,
+				false,
+				0
+			},
+			{
+				2,
+				7,
+				true,
+				0
+			},
+			{
+				2,
+				6,
+				false,
+				100
+			},
+			{
+				2,
+				5,
+				true,
+				0
+			},
+			{
+				2,
+				4,
+				true,
+				6
+			},
+			{
+				2,
+				3,
+				false,
+				0
+			},
+			{
+				2,
+				2,
+				false,
+				0
+			},
+			{
+				2,
+				1,
+				true,
+				0
+			},
+			{
+				2,
+				0,
+				true,
+				1
+			},
+			{
+				1,
+				10,
+				true,
+				6
+			},
+			{
+				1,
+				9,
+				true,
+				6
+			},
+			{
+				1,
+				8,
+				true,
+				6
+			},
+			{
+				1,
+				7,
+				true,
+				0
+			},
+			{
+				1,
+				6,
+				false,
+				0
+			},
+			{
+				1,
+				5,
+				true,
+				0
+			},
+			{
+				1,
+				4,
+				true,
+				0
+			},
+			{
+				1,
+				3,
+				true,
+				0
+			},
+			{
+				1,
+				2,
+				false,
+				100
+			},
+			{
+				1,
+				1,
+				true,
+				0
+			},
+			{
+				1,
+				0,
+				true,
+				0
+			},
+			{
+				0,
+				10,
+				true,
+				0
+			},
+			{
+				0,
+				9,
+				true,
+				6
+			},
+			{
+				0,
+				8,
+				true,
+				6
+			},
+			{
+				0,
+				7,
+				true,
+				0
+			},
+			{
+				0,
+				6,
+				true,
+				6
+			},
+			{
+				0,
+				5,
+				true,
+				6
+			},
+			{
+				0,
+				4,
+				true,
+				0
+			},
+			{
+				0,
+				3,
+				true,
+				12
+			},
+			{
+				0,
+				2,
+				true,
+				0
+			},
+			{
+				0,
+				1,
+				true,
+				0
+			},
+			{
+				0,
+				0,
+				true,
+				6
+			}
+		},
+		float_items = {
+			{
+				6,
+				2,
+				"1x1_1naerweike",
+				0,
+				15
+			},
+			{
+				4,
+				9,
+				"3x1_1naerweike",
+				0,
+				-7
+			},
+			{
+				3,
+				2,
+				"2x2_1naerweike",
+				53,
+				38
+			},
+			{
+				2,
+				9,
+				"3x1_2naerweike",
+				0,
+				16
+			},
+			{
+				1,
+				6,
+				"1x1_2naerweike",
+				0,
+				13
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {
+			{
+				-20000
+			}
+		},
+		theme = {
+			"sea_naerweike",
+			45,
+			20,
+			-38,
+			-70,
+			100,
+			100,
+			4,
+			4
+		},
+		box_list = {},
+		random_box_list = {
+			6,
+			22,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0,
+			0,
+			0,
+			1
+		},
+		story_refresh = {},
+		defeat_story = {
+			"NAERWEIKE12"
+		},
+		defeat_story_count = {
+			1
+		},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {
+			{
+				5,
+				4
+			},
+			{
+				3,
+				2
+			},
+			{
+				1,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {
+			{
+				6,
+				7,
+				1
+			},
+			{
+				4,
+				3,
+				3
+			},
+			{
+				2,
+				6,
+				2
+			},
+			{
+				1,
+				2,
+				4
+			}
+		},
+		chapter_buff = {},
+		alarm_cell = {}
+	},
+	[1450001] = {
+		pos_x = "0.168125",
+		num_3 = 1,
+		progress_boss = 34,
+		oil = 10,
+		is_limit_move = 1,
+		mine_id = 2001,
+		activate_time = 0,
+		story_refresh_boss = "",
+		is_ambush = 0,
+		ammo_cost = 1,
+		collection_team = 0,
+		special_operation_list = "",
+		air_dominance = 50,
+		best_air_dominance = 150,
+		id = 1450001,
+		count = 0,
+		icon_outline = 1,
+		bg = "",
+		pre_chapter = 0,
+		formation = 1450001,
+		bgm = "doa_daozhong",
+		chapter_tag = 0,
+		star_require_1 = 1,
+		pos_y = "0.3875",
+		pop_pic = "",
+		num_1 = 1,
+		model = 11,
+		investigation_ratio = 0,
+		ammo_submarine = 0,
+		num_2 = 15,
+		is_ai = 1,
+		map = 1450001,
+		unlocklevel = 0,
+		chapter_fx = "",
+		uifx = "",
+		name = "新的邂逅",
+		chapter_name = "SP1",
+		type = 1,
+		act_id = 777,
+		enter_story = "JIARIHANGXIAN3",
+		boss_refresh = 4,
+		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
+		friendly_id = 0,
+		mitigation_rate = 2,
+		mitigation_level = 5,
+		ammo_total = 5,
+		group_num = 2,
+		enter_story_limit = "",
+		star_require_3 = 3,
+		profiles = "「虽然不明所以地被带来了这里，不过，邂逅了新的伙伴，还获得了新的“力量”…还是挺让人兴奋的呢，嘻嘻~」",
+		difficulty = 5,
+		avoid_ratio = 8,
+		star_require_2 = 2,
+		time = 43200,
+		win_condition_display = "win_condition_display_qijian",
+		submarine_num = 1,
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {},
+		property_limitation = {},
+		expedition_id_weight_list = {
+			{
+				1480001,
+				15,
+				0
+			},
+			{
+				1480002,
+				20,
+				0
+			},
+			{
+				1480003,
+				30,
+				1
+			},
+			{
+				1480004,
+				15,
+				0
+			},
+			{
+				1480005,
+				20,
+				0
+			},
+			{
+				1480006,
+				30,
+				1
+			},
+			{
+				1480007,
+				15,
+				0
+			},
+			{
+				1480008,
+				20,
+				0
+			},
+			{
+				1480009,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {
+			1480005,
+			1480008
+		},
+		ai_expedition_list = {
+			1
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1480013
+		},
+		enemy_refresh = {
+			2,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			1,
+			0
+		},
+		ai_refresh = {
+			0
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"xia_doa"
+		},
+		awards = {
+			{
+				2,
+				58075
+			},
+			{
+				2,
+				58070
+			},
+			{
+				2,
+				58060
+			},
+			{
+				2,
+				54011
+			},
+			{
+				2,
+				54022
+			}
+		},
+		grids = {
+			{
+				6,
+				7,
+				true,
+				0
+			},
+			{
+				6,
+				6,
+				true,
+				0
+			},
+			{
+				6,
+				5,
+				false,
+				0
+			},
+			{
+				6,
+				4,
+				true,
+				0
+			},
+			{
+				6,
+				3,
+				true,
+				0
+			},
+			{
+				6,
+				2,
+				true,
+				6
+			},
+			{
+				6,
+				1,
+				true,
+				0
+			},
+			{
+				6,
+				0,
+				false,
+				0
+			},
+			{
+				5,
+				7,
+				true,
+				6
+			},
+			{
+				5,
+				6,
+				true,
+				6
+			},
+			{
+				5,
+				5,
+				false,
+				0
+			},
+			{
+				5,
+				4,
+				false,
+				0
+			},
+			{
+				5,
+				3,
+				true,
+				6
+			},
+			{
+				5,
+				2,
+				true,
+				0
+			},
+			{
+				5,
+				1,
+				true,
+				0
+			},
+			{
+				5,
+				0,
+				true,
+				6
+			},
+			{
+				4,
+				7,
+				true,
+				0
+			},
+			{
+				4,
+				6,
+				true,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				6
+			},
+			{
+				4,
+				4,
+				true,
+				4
+			},
+			{
+				4,
+				3,
+				true,
+				0
+			},
+			{
+				4,
+				2,
+				true,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				4
+			},
+			{
+				4,
+				0,
+				true,
+				0
+			},
+			{
+				3,
+				7,
+				true,
+				8
+			},
+			{
+				3,
+				6,
+				true,
+				0
+			},
+			{
+				3,
+				5,
+				true,
+				0
+			},
+			{
+				3,
+				4,
+				true,
+				0
+			},
+			{
+				3,
+				3,
+				true,
+				16
+			},
+			{
+				3,
+				2,
+				true,
+				0
+			},
+			{
+				3,
+				1,
+				false,
+				0
+			},
+			{
+				3,
+				0,
+				true,
+				6
+			},
+			{
+				2,
+				7,
+				true,
+				0
+			},
+			{
+				2,
+				6,
+				true,
+				0
+			},
+			{
+				2,
+				5,
+				true,
+				0
+			},
+			{
+				2,
+				4,
+				true,
+				6
+			},
+			{
+				2,
+				3,
+				true,
+				4
+			},
+			{
+				2,
+				2,
+				true,
+				0
+			},
+			{
+				2,
+				1,
+				true,
+				0
+			},
+			{
+				2,
+				0,
+				true,
+				0
+			},
+			{
+				1,
+				7,
+				false,
+				0
+			},
+			{
+				1,
+				6,
+				true,
+				6
+			},
+			{
+				1,
+				5,
+				true,
+				4
+			},
+			{
+				1,
+				4,
+				false,
+				0
+			},
+			{
+				1,
+				3,
+				false,
+				0
+			},
+			{
+				1,
+				2,
+				true,
+				0
+			},
+			{
+				1,
+				1,
+				true,
+				0
+			},
+			{
+				1,
+				0,
+				true,
+				1
+			},
+			{
+				0,
+				7,
+				false,
+				0
+			},
+			{
+				0,
+				6,
+				true,
+				0
+			},
+			{
+				0,
+				5,
+				true,
+				0
+			},
+			{
+				0,
+				4,
+				false,
+				0
+			},
+			{
+				0,
+				3,
+				false,
+				0
+			},
+			{
+				0,
+				2,
+				true,
+				0
+			},
+			{
+				0,
+				1,
+				true,
+				1
+			},
+			{
+				0,
+				0,
+				true,
+				0
+			}
+		},
+		float_items = {
+			{
+				6,
+				0,
+				"doa_1x1_2",
+				0,
+				0
+			},
+			{
+				5,
+				4,
+				"doa_2x2_1",
+				56,
+				-41
+			},
+			{
+				3,
+				1,
+				"doa_1x1_3",
+				0,
+				21
+			},
+			{
+				0,
+				7,
+				"doa_1x2_2",
+				-3,
+				-35
+			},
+			{
+				0,
+				3,
+				"doa_2x2_2",
+				58,
+				-19
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_doa",
+			45,
+			20,
+			-143,
+			-360,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			2,
+			21,
+			102,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {
+			"JIARIHANGXIAN4"
+		},
+		defeat_story = {},
+		defeat_story_count = {},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {
+			{
+				5,
+				4
+			},
+			{
+				3,
+				2
+			},
+			{
+				1,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {},
+		chapter_buff = {},
+		wall_prefab = {},
+		alarm_cell = {}
+	},
+	[1450002] = {
+		pos_x = "0.26640625",
+		num_3 = 1,
+		progress_boss = 34,
+		oil = 10,
+		is_limit_move = 1,
+		mine_id = 2001,
+		activate_time = 0,
+		story_refresh_boss = "",
+		is_ambush = 0,
+		ammo_cost = 1,
+		collection_team = 0,
+		special_operation_list = "",
+		air_dominance = 220,
+		best_air_dominance = 290,
+		id = 1450002,
+		count = 0,
+		icon_outline = 1,
+		bg = "",
+		pre_chapter = 1450001,
+		formation = 1450001,
+		bgm = "doa_daozhong",
+		chapter_tag = 0,
+		star_require_1 = 1,
+		pos_y = "0.116041667",
+		pop_pic = "",
+		num_1 = 1,
+		model = 11,
+		investigation_ratio = 0,
+		ammo_submarine = 0,
+		num_2 = 16,
+		is_ai = 1,
+		map = 1450001,
+		unlocklevel = 0,
+		chapter_fx = "",
+		uifx = "",
+		name = "共斗的姐妹",
+		chapter_name = "SP2",
+		type = 1,
+		act_id = 777,
+		enter_story = "JIARIHANGXIAN7",
+		boss_refresh = 4,
+		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
+		friendly_id = 0,
+		mitigation_rate = 2,
+		mitigation_level = 5,
+		ammo_total = 5,
+		group_num = 2,
+		enter_story_limit = "",
+		star_require_3 = 3,
+		profiles = "「不管怎么说，能像这样和姐姐一起“并肩作战”，还是挺开心的~一起加油吧，姐姐！」",
+		difficulty = 6,
+		avoid_ratio = 9,
+		star_require_2 = 2,
+		time = 43200,
+		win_condition_display = "win_condition_display_qijian",
+		submarine_num = 1,
+		scale = {
+			0.49,
+			0.35,
+			1.5
+		},
+		limitation = {},
+		property_limitation = {},
+		expedition_id_weight_list = {
+			{
+				1481001,
+				15,
+				0
+			},
+			{
+				1481002,
+				20,
+				0
+			},
+			{
+				1481003,
+				30,
+				1
+			},
+			{
+				1481004,
+				15,
+				0
+			},
+			{
+				1481005,
+				20,
+				0
+			},
+			{
+				1481006,
+				30,
+				1
+			},
+			{
+				1481007,
+				15,
+				0
+			},
+			{
+				1481008,
+				20,
+				0
+			},
+			{
+				1481009,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {
+			1481005,
+			1481008
+		},
+		ai_expedition_list = {
+			1481301
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1481013
+		},
+		enemy_refresh = {
+			2,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			1,
+			0
+		},
+		ai_refresh = {
+			1
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"zhixiao_doa"
+		},
+		awards = {
+			{
+				2,
+				58075
+			},
+			{
+				2,
+				58071
+			},
+			{
+				2,
+				58061
+			},
+			{
+				2,
+				54012
+			},
+			{
+				2,
+				54023
+			}
+		},
+		grids = {
+			{
+				6,
+				8,
+				true,
+				0
+			},
+			{
+				6,
+				7,
+				true,
+				0
+			},
+			{
+				6,
+				6,
+				true,
+				6
+			},
+			{
+				6,
+				5,
+				true,
+				6
+			},
+			{
+				6,
+				4,
+				false,
+				0
+			},
+			{
+				6,
+				3,
+				true,
+				0
+			},
+			{
+				6,
+				2,
+				true,
+				12
+			},
+			{
+				6,
+				1,
+				false,
+				0
+			},
+			{
+				6,
+				0,
+				false,
+				0
+			},
+			{
+				5,
+				8,
+				false,
+				0
+			},
+			{
+				5,
+				7,
+				true,
+				6
+			},
+			{
+				5,
+				6,
+				true,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				0
+			},
+			{
+				5,
+				4,
+				true,
+				0
+			},
+			{
+				5,
+				3,
+				true,
+				4
+			},
+			{
+				5,
+				2,
+				true,
+				0
+			},
+			{
+				5,
+				1,
+				false,
+				0
+			},
+			{
+				5,
+				0,
+				false,
+				0
+			},
+			{
+				4,
+				8,
+				true,
+				6
+			},
+			{
+				4,
+				7,
+				true,
+				0
+			},
+			{
+				4,
+				6,
+				true,
+				0
+			},
+			{
+				4,
+				5,
+				false,
+				0
+			},
+			{
+				4,
+				4,
+				true,
+				0
+			},
+			{
+				4,
+				3,
+				true,
+				0
+			},
+			{
+				4,
+				2,
+				true,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				1
+			},
+			{
+				4,
+				0,
+				true,
+				0
+			},
+			{
+				3,
+				8,
+				true,
+				0
+			},
+			{
+				3,
+				7,
+				true,
+				4
+			},
+			{
+				3,
+				6,
+				true,
+				0
+			},
+			{
+				3,
+				5,
+				false,
+				0
+			},
+			{
+				3,
+				4,
+				true,
+				16
+			},
+			{
+				3,
+				3,
+				true,
+				6
+			},
+			{
+				3,
+				2,
+				true,
+				0
+			},
+			{
+				3,
+				1,
+				true,
+				0
+			},
+			{
+				3,
+				0,
+				true,
+				0
+			},
+			{
+				2,
+				8,
+				true,
+				6
+			},
+			{
+				2,
+				7,
+				true,
+				0
+			},
+			{
+				2,
+				6,
+				true,
+				0
+			},
+			{
+				2,
+				5,
+				true,
+				6
+			},
+			{
+				2,
+				4,
+				true,
+				0
+			},
+			{
+				2,
+				3,
+				true,
+				0
+			},
+			{
+				2,
+				2,
+				true,
+				0
+			},
+			{
+				2,
+				1,
+				true,
+				1
+			},
+			{
+				2,
+				0,
+				true,
+				0
+			},
+			{
+				1,
+				8,
+				false,
+				0
+			},
+			{
+				1,
+				7,
+				true,
+				6
+			},
+			{
+				1,
+				6,
+				true,
+				0
+			},
+			{
+				1,
+				5,
+				true,
+				0
+			},
+			{
+				1,
+				4,
+				true,
+				0
+			},
+			{
+				1,
+				3,
+				true,
+				4
+			},
+			{
+				1,
+				2,
+				true,
+				0
+			},
+			{
+				1,
+				1,
+				false,
+				0
+			},
+			{
+				1,
+				0,
+				true,
+				0
+			},
+			{
+				0,
+				8,
+				false,
+				0
+			},
+			{
+				0,
+				7,
+				false,
+				0
+			},
+			{
+				0,
+				6,
+				true,
+				6
+			},
+			{
+				0,
+				5,
+				true,
+				8
+			},
+			{
+				0,
+				4,
+				true,
+				6
+			},
+			{
+				0,
+				3,
+				false,
+				0
+			},
+			{
+				0,
+				2,
+				true,
+				12
+			},
+			{
+				0,
+				1,
+				true,
+				0
+			},
+			{
+				0,
+				0,
+				true,
+				0
+			}
+		},
+		float_items = {
+			{
+				6,
+				4,
+				"doa_1x1_1",
+				0,
+				0
+			},
+			{
+				5,
+				8,
+				"doa_1x1_3",
+				0,
+				20
+			},
+			{
+				5,
+				0,
+				"doa_2x2_2",
+				48,
+				-35
+			},
+			{
+				3,
+				5,
+				"doa_1x2_2",
+				-1,
+				-40
+			},
+			{
+				1,
+				1,
+				"doa_1x1_2",
+				15,
+				0
+			},
+			{
+				0,
+				7,
+				"doa_2x2_1",
+				52,
+				-40
+			},
+			{
+				0,
+				3,
+				"doa_1x1_3",
+				0,
+				23
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_doa",
+			45,
+			20,
+			-171,
+			-179,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			4,
+			22,
+			102,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {},
+		defeat_story_count = {},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {
+			{
+				5,
+				4
+			},
+			{
+				3,
+				2
+			},
+			{
+				1,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {},
+		chapter_buff = {},
+		wall_prefab = {},
+		alarm_cell = {}
+	},
+	[1450003] = {
+		pos_x = "0.57625",
+		num_3 = 1,
+		progress_boss = 25,
+		oil = 10,
+		is_limit_move = 1,
+		mine_id = 2001,
+		activate_time = 0,
+		story_refresh_boss = "",
+		is_ambush = 0,
+		ammo_cost = 1,
+		collection_team = 0,
+		special_operation_list = "",
+		air_dominance = 440,
+		best_air_dominance = 575,
+		id = 1450003,
+		count = 0,
+		icon_outline = 1,
+		bg = "",
+		pre_chapter = 1450002,
+		formation = 1450001,
+		bgm = "doa_daozhong",
+		chapter_tag = 0,
+		star_require_1 = 1,
+		pos_y = "0.116041667",
+		pop_pic = "",
+		num_1 = 1,
+		model = 11,
+		investigation_ratio = 0,
+		ammo_submarine = 0,
+		num_2 = 30,
+		is_ai = 1,
+		map = 1450001,
+		unlocklevel = 0,
+		chapter_fx = "",
+		uifx = "",
+		name = "默契的伙伴",
+		chapter_name = "SP3",
+		type = 1,
+		act_id = 777,
+		enter_story = "JIARIHANGXIAN10",
+		boss_refresh = 5,
+		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
+		friendly_id = 0,
+		mitigation_rate = 2,
+		mitigation_level = 5,
+		ammo_total = 5,
+		group_num = 2,
+		enter_story_limit = "",
+		star_require_3 = 3,
+		profiles = "「不管是什么样的比赛内容，玛莉和穗香都是不会输的！尽管放马过来吧！」",
+		difficulty = 7,
+		avoid_ratio = 10,
+		star_require_2 = 2,
+		time = 43200,
+		win_condition_display = "win_condition_display_qijian",
+		submarine_num = 1,
+		scale = {
+			0.61,
+			0.41,
+			1.5
+		},
+		limitation = {},
+		property_limitation = {},
+		expedition_id_weight_list = {
+			{
+				1482001,
+				15,
+				0
+			},
+			{
+				1482002,
+				20,
+				0
+			},
+			{
+				1482003,
+				30,
+				1
+			},
+			{
+				1482004,
+				15,
+				0
+			},
+			{
+				1482005,
+				20,
+				0
+			},
+			{
+				1482006,
+				30,
+				1
+			},
+			{
+				1482007,
+				15,
+				0
+			},
+			{
+				1482008,
+				20,
+				0
+			},
+			{
+				1482009,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {
+			1482005,
+			1482008
+		},
+		ai_expedition_list = {
+			1482301,
+			1482302
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1482013
+		},
+		enemy_refresh = {
+			2,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			1,
+			0
+		},
+		ai_refresh = {
+			2
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"suixiang_doa"
+		},
+		awards = {
+			{
+				2,
+				58075
+			},
+			{
+				2,
+				58072
+			},
+			{
+				2,
+				58062
+			},
+			{
+				2,
+				54012
+			},
+			{
+				2,
+				54023
+			}
+		},
+		grids = {
+			{
+				6,
+				8,
+				true,
+				0
+			},
+			{
+				6,
+				7,
+				false,
+				0
+			},
+			{
+				6,
+				6,
+				true,
+				6
+			},
+			{
+				6,
+				5,
+				false,
+				0
+			},
+			{
+				6,
+				4,
+				false,
+				0
+			},
+			{
+				6,
+				3,
+				false,
+				0
+			},
+			{
+				6,
+				2,
+				true,
+				6
+			},
+			{
+				6,
+				1,
+				true,
+				0
+			},
+			{
+				6,
+				0,
+				true,
+				6
+			},
+			{
+				5,
+				8,
+				true,
+				0
+			},
+			{
+				5,
+				7,
+				false,
+				0
+			},
+			{
+				5,
+				6,
+				true,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				0
+			},
+			{
+				5,
+				4,
+				true,
+				0
+			},
+			{
+				5,
+				3,
+				true,
+				12
+			},
+			{
+				5,
+				2,
+				true,
+				4
+			},
+			{
+				5,
+				1,
+				true,
+				0
+			},
+			{
+				5,
+				0,
+				false,
+				0
+			},
+			{
+				4,
+				8,
+				true,
+				8
+			},
+			{
+				4,
+				7,
+				true,
+				6
+			},
+			{
+				4,
+				6,
+				true,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				12
+			},
+			{
+				4,
+				4,
+				true,
+				0
+			},
+			{
+				4,
+				3,
+				true,
+				16
+			},
+			{
+				4,
+				2,
+				true,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				0
+			},
+			{
+				4,
+				0,
+				true,
+				1
+			},
+			{
+				3,
+				8,
+				true,
+				8
+			},
+			{
+				3,
+				7,
+				true,
+				0
+			},
+			{
+				3,
+				6,
+				true,
+				0
+			},
+			{
+				3,
+				5,
+				true,
+				4
+			},
+			{
+				3,
+				4,
+				false,
+				0
+			},
+			{
+				3,
+				3,
+				true,
+				16
+			},
+			{
+				3,
+				2,
+				true,
+				0
+			},
+			{
+				3,
+				1,
+				true,
+				0
+			},
+			{
+				3,
+				0,
+				true,
+				1
+			},
+			{
+				2,
+				8,
+				true,
+				0
+			},
+			{
+				2,
+				7,
+				true,
+				6
+			},
+			{
+				2,
+				6,
+				true,
+				0
+			},
+			{
+				2,
+				5,
+				true,
+				0
+			},
+			{
+				2,
+				4,
+				true,
+				0
+			},
+			{
+				2,
+				3,
+				true,
+				12
+			},
+			{
+				2,
+				2,
+				true,
+				0
+			},
+			{
+				2,
+				1,
+				true,
+				0
+			},
+			{
+				2,
+				0,
+				false,
+				0
+			},
+			{
+				1,
+				8,
+				true,
+				0
+			},
+			{
+				1,
+				7,
+				false,
+				0
+			},
+			{
+				1,
+				6,
+				true,
+				6
+			},
+			{
+				1,
+				5,
+				true,
+				0
+			},
+			{
+				1,
+				4,
+				true,
+				4
+			},
+			{
+				1,
+				3,
+				true,
+				0
+			},
+			{
+				1,
+				2,
+				true,
+				6
+			},
+			{
+				1,
+				1,
+				true,
+				0
+			},
+			{
+				1,
+				0,
+				false,
+				0
+			},
+			{
+				0,
+				8,
+				true,
+				0
+			},
+			{
+				0,
+				7,
+				true,
+				0
+			},
+			{
+				0,
+				6,
+				true,
+				0
+			},
+			{
+				0,
+				5,
+				true,
+				6
+			},
+			{
+				0,
+				4,
+				false,
+				0
+			},
+			{
+				0,
+				3,
+				false,
+				0
+			},
+			{
+				0,
+				2,
+				false,
+				0
+			},
+			{
+				0,
+				1,
+				true,
+				4
+			},
+			{
+				0,
+				0,
+				true,
+				0
+			}
+		},
+		float_items = {
+			{
+				6,
+				3,
+				"doa_3x1_1",
+				107,
+				2
+			},
+			{
+				5,
+				7,
+				"doa_1x2_1",
+				-4,
+				-40
+			},
+			{
+				5,
+				0,
+				"doa_1x1_3",
+				0,
+				19
+			},
+			{
+				3,
+				4,
+				"doa_1x1_2",
+				1,
+				-5
+			},
+			{
+				1,
+				7,
+				"doa_1x1_1",
+				0,
+				4
+			},
+			{
+				1,
+				0,
+				"doa_1x2_1",
+				-17,
+				-37
+			},
+			{
+				0,
+				2,
+				"doa_3x1_1",
+				104,
+				4
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_doa",
+			45,
+			20,
+			-162,
+			-90,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			6,
+			22,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {},
+		defeat_story_count = {},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {
+			{
+				5,
+				4
+			},
+			{
+				3,
+				2
+			},
+			{
+				1,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {},
+		chapter_buff = {},
+		wall_prefab = {},
+		alarm_cell = {}
+	},
+	[1450004] = {
+		pos_x = "0.68578125",
+		num_3 = 1,
+		progress_boss = 20,
+		oil = 10,
+		is_limit_move = 1,
+		mine_id = 2001,
+		activate_time = 0,
+		story_refresh_boss = "",
+		is_ambush = 0,
+		ammo_cost = 1,
+		collection_team = 0,
+		special_operation_list = "",
+		air_dominance = 600,
+		best_air_dominance = 780,
+		id = 1450004,
+		count = 0,
+		icon_outline = 1,
+		bg = "",
+		pre_chapter = 1450003,
+		formation = 1450001,
+		bgm = "doa_daozhong",
+		chapter_tag = 0,
+		star_require_1 = 1,
+		pos_y = "0.3875",
+		pop_pic = "",
+		num_1 = 1,
+		model = 11,
+		investigation_ratio = 0,
+		ammo_submarine = 0,
+		num_2 = 35,
+		is_ai = 1,
+		map = 1450001,
+		unlocklevel = 0,
+		chapter_fx = "",
+		uifx = "",
+		name = "落幕的大会",
+		chapter_name = "SP4",
+		type = 1,
+		act_id = 777,
+		enter_story = "JIARIHANGXIAN12",
+		boss_refresh = 5,
+		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
+		friendly_id = 0,
+		mitigation_rate = 2,
+		mitigation_level = 8,
+		ammo_total = 5,
+		group_num = 2,
+		enter_story_limit = "",
+		star_require_3 = 3,
+		profiles = "「嚯…这也是“维纳斯大赛”吗，不错！华丽地大战一场吧，可不要让我失望了啊~」",
+		difficulty = 8,
+		avoid_ratio = 11,
+		star_require_2 = 2,
+		time = 43200,
+		win_condition_display = "win_condition_display_qijian",
+		submarine_num = 1,
+		scale = {
+			0.49,
+			0.35,
+			1.5
+		},
+		limitation = {},
+		property_limitation = {},
+		expedition_id_weight_list = {
+			{
+				1483001,
+				15,
+				0
+			},
+			{
+				1483002,
+				20,
+				0
+			},
+			{
+				1483003,
+				30,
+				1
+			},
+			{
+				1483004,
+				15,
+				0
+			},
+			{
+				1483005,
+				20,
+				0
+			},
+			{
+				1483006,
+				30,
+				1
+			},
+			{
+				1483007,
+				15,
+				0
+			},
+			{
+				1483008,
+				20,
+				0
+			},
+			{
+				1483009,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {
+			1483005,
+			1483008
+		},
+		ai_expedition_list = {
+			1483301,
+			1483302,
+			1483303
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1483013
+		},
+		enemy_refresh = {
+			2,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			1,
+			0
+		},
+		ai_refresh = {
+			2,
+			1
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"nvtiangou_doa"
+		},
+		awards = {
+			{
+				2,
+				58075
+			},
+			{
+				2,
+				58073
+			},
+			{
+				2,
+				58063
+			},
+			{
+				2,
+				54013
+			},
+			{
+				2,
+				54024
+			}
+		},
+		grids = {
+			{
+				7,
+				8,
+				false,
+				0
+			},
+			{
+				7,
+				7,
+				false,
+				0
+			},
+			{
+				7,
+				6,
+				false,
+				0
+			},
+			{
+				7,
+				5,
+				true,
+				1
+			},
+			{
+				7,
+				4,
+				true,
+				0
+			},
+			{
+				7,
+				3,
+				true,
+				1
+			},
+			{
+				7,
+				2,
+				false,
+				0
+			},
+			{
+				7,
+				1,
+				false,
+				0
+			},
+			{
+				7,
+				0,
+				false,
+				0
+			},
+			{
+				6,
+				8,
+				true,
+				6
+			},
+			{
+				6,
+				7,
+				true,
+				0
+			},
+			{
+				6,
+				6,
+				true,
+				12
+			},
+			{
+				6,
+				5,
+				true,
+				0
+			},
+			{
+				6,
+				4,
+				true,
+				0
+			},
+			{
+				6,
+				3,
+				true,
+				0
+			},
+			{
+				6,
+				2,
+				true,
+				12
+			},
+			{
+				6,
+				1,
+				true,
+				0
+			},
+			{
+				6,
+				0,
+				true,
+				6
+			},
+			{
+				5,
+				8,
+				false,
+				0
+			},
+			{
+				5,
+				7,
+				true,
+				0
+			},
+			{
+				5,
+				6,
+				true,
+				4
+			},
+			{
+				5,
+				5,
+				true,
+				0
+			},
+			{
+				5,
+				4,
+				true,
+				16
+			},
+			{
+				5,
+				3,
+				true,
+				0
+			},
+			{
+				5,
+				2,
+				true,
+				4
+			},
+			{
+				5,
+				1,
+				true,
+				0
+			},
+			{
+				5,
+				0,
+				false,
+				0
+			},
+			{
+				4,
+				8,
+				true,
+				6
+			},
+			{
+				4,
+				7,
+				true,
+				0
+			},
+			{
+				4,
+				6,
+				false,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				12
+			},
+			{
+				4,
+				4,
+				true,
+				0
+			},
+			{
+				4,
+				3,
+				true,
+				12
+			},
+			{
+				4,
+				2,
+				false,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				0
+			},
+			{
+				4,
+				0,
+				true,
+				6
+			},
+			{
+				3,
+				8,
+				true,
+				6
+			},
+			{
+				3,
+				7,
+				true,
+				0
+			},
+			{
+				3,
+				6,
+				false,
+				0
+			},
+			{
+				3,
+				5,
+				true,
+				0
+			},
+			{
+				3,
+				4,
+				true,
+				8
+			},
+			{
+				3,
+				3,
+				true,
+				0
+			},
+			{
+				3,
+				2,
+				false,
+				0
+			},
+			{
+				3,
+				1,
+				true,
+				0
+			},
+			{
+				3,
+				0,
+				true,
+				6
+			},
+			{
+				2,
+				8,
+				true,
+				6
+			},
+			{
+				2,
+				7,
+				true,
+				0
+			},
+			{
+				2,
+				6,
+				true,
+				6
+			},
+			{
+				2,
+				5,
+				true,
+				0
+			},
+			{
+				2,
+				4,
+				false,
+				0
+			},
+			{
+				2,
+				3,
+				true,
+				0
+			},
+			{
+				2,
+				2,
+				true,
+				6
+			},
+			{
+				2,
+				1,
+				true,
+				0
+			},
+			{
+				2,
+				0,
+				true,
+				6
+			},
+			{
+				1,
+				8,
+				false,
+				0
+			},
+			{
+				1,
+				7,
+				true,
+				6
+			},
+			{
+				1,
+				6,
+				true,
+				0
+			},
+			{
+				1,
+				5,
+				true,
+				0
+			},
+			{
+				1,
+				4,
+				true,
+				4
+			},
+			{
+				1,
+				3,
+				true,
+				0
+			},
+			{
+				1,
+				2,
+				true,
+				0
+			},
+			{
+				1,
+				1,
+				true,
+				6
+			},
+			{
+				1,
+				0,
+				false,
+				0
+			},
+			{
+				0,
+				8,
+				true,
+				0
+			},
+			{
+				0,
+				7,
+				true,
+				0
+			},
+			{
+				0,
+				6,
+				true,
+				6
+			},
+			{
+				0,
+				5,
+				false,
+				0
+			},
+			{
+				0,
+				4,
+				false,
+				0
+			},
+			{
+				0,
+				3,
+				false,
+				0
+			},
+			{
+				0,
+				2,
+				true,
+				6
+			},
+			{
+				0,
+				1,
+				true,
+				0
+			},
+			{
+				0,
+				0,
+				true,
+				0
+			}
+		},
+		float_items = {
+			{
+				7,
+				6,
+				"doa_3x1_1",
+				104,
+				4
+			},
+			{
+				7,
+				0,
+				"doa_3x1_1",
+				104,
+				4
+			},
+			{
+				5,
+				8,
+				"doa_1x1_3",
+				0,
+				25
+			},
+			{
+				5,
+				0,
+				"doa_1x1_3",
+				0,
+				25
+			},
+			{
+				3,
+				6,
+				"doa_1x2_1",
+				-7,
+				-34
+			},
+			{
+				3,
+				2,
+				"doa_1x2_1",
+				-7,
+				-34
+			},
+			{
+				2,
+				4,
+				"doa_1x1_3",
+				0,
+				25
+			},
+			{
+				1,
+				8,
+				"doa_1x1_3",
+				0,
+				25
+			},
+			{
+				1,
+				0,
+				"doa_1x1_3",
+				0,
+				25
+			},
+			{
+				0,
+				3,
+				"doa_3x1_1",
+				104,
+				4
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_doa",
+			45,
+			20,
+			-234,
+			9,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			8,
+			23,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {
+			"JIARIHANGXIAN15",
+			"JIARIHANGXIAN16"
+		},
+		defeat_story_count = {
+			5,
+			6
+		},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {
+			{
+				8,
+				6
+			},
+			{
+				5,
+				3
+			},
+			{
+				2,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {},
+		chapter_buff = {},
+		wall_prefab = {},
+		alarm_cell = {}
+	},
+	[1450041] = {
+		pos_x = "0.479",
+		num_3 = 0,
+		progress_boss = 100,
+		oil = 10,
+		is_limit_move = 0,
+		mine_id = 2001,
+		activate_time = 0,
+		story_refresh_boss = "",
+		is_ambush = 0,
+		ammo_cost = 1,
+		collection_team = 0,
+		special_operation_list = "",
+		air_dominance = 1320,
+		best_air_dominance = 1720,
+		id = 1450041,
+		count = 1,
+		icon_outline = 0,
+		bg = "",
+		pre_chapter = 1450004,
+		formation = 1450002,
+		bgm = "doa_daozhong",
+		chapter_tag = 0,
+		star_require_1 = 0,
+		pos_y = "0.2979",
+		pop_pic = "",
+		num_1 = 0,
+		model = 11,
+		investigation_ratio = 0,
+		ammo_submarine = 0,
+		num_2 = 0,
+		is_ai = 0,
+		map = 1450002,
+		unlocklevel = 0,
+		chapter_fx = "",
+		uifx = "",
+		name = "碧蓝的假期",
+		chapter_name = "VSP",
+		type = 2,
+		act_id = 777,
+		enter_story = "",
+		boss_refresh = 7,
+		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
+		friendly_id = 0,
+		mitigation_rate = 0,
+		mitigation_level = 0,
+		ammo_total = 5,
+		group_num = 2,
+		enter_story_limit = "",
+		star_require_3 = 0,
+		profiles = "蓝天、沙滩，跃动的树影与飞起的排球，暂且忘掉平日烦恼，享受碧蓝海空之下的美好假期吧。",
+		difficulty = 10,
+		avoid_ratio = 16,
+		star_require_2 = 0,
+		time = 43200,
+		win_condition_display = "win_condition_display_qijian",
+		submarine_num = 1,
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {
+			{
+				{
+					0,
+					0,
+					0
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					0,
+					0,
+					0
+				},
+				{
+					0,
+					0,
+					0
+				}
+			}
+		},
+		property_limitation = {
+			{
+				"level",
+				1,
+				100
+			}
+		},
+		expedition_id_weight_list = {
+			{
+				1484001,
+				15,
+				0
+			},
+			{
+				1484002,
+				20,
+				0
+			},
+			{
+				1484003,
+				30,
+				1
+			},
+			{
+				1484004,
+				15,
+				0
+			},
+			{
+				1484005,
+				60,
+				0
+			},
+			{
+				1484006,
+				40,
+				1
+			},
+			{
+				1484007,
+				15,
+				0
+			},
+			{
+				1484008,
+				60,
+				0
+			},
+			{
+				1484009,
+				40,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {},
+		ai_expedition_list = {
+			1
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1484013
+		},
+		enemy_refresh = {
+			0,
+			1,
+			1,
+			2
+		},
+		elite_refresh = {
+			0
+		},
+		ai_refresh = {
+			0
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"monika_doa"
+		},
+		awards = {
+			{
+				2,
+				58075
+			},
+			{
+				2,
+				58074
+			},
+			{
+				2,
+				58064
+			},
+			{
+				2,
+				54013
+			},
+			{
+				2,
+				54024
+			}
+		},
+		grids = {
+			{
+				5,
+				8,
+				true,
+				0
+			},
+			{
+				5,
+				7,
+				false,
+				0
+			},
+			{
+				5,
+				6,
+				false,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				1
+			},
+			{
+				5,
+				4,
+				true,
+				0
+			},
+			{
+				5,
+				3,
+				true,
+				1
+			},
+			{
+				5,
+				2,
+				false,
+				0
+			},
+			{
+				5,
+				1,
+				false,
+				0
+			},
+			{
+				5,
+				0,
+				true,
+				0
+			},
+			{
+				4,
+				8,
+				true,
+				0
+			},
+			{
+				4,
+				7,
+				false,
+				0
+			},
+			{
+				4,
+				6,
+				false,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				0
+			},
+			{
+				4,
+				4,
+				true,
+				0
+			},
+			{
+				4,
+				3,
+				true,
+				0
+			},
+			{
+				4,
+				2,
+				false,
+				0
+			},
+			{
+				4,
+				1,
+				false,
+				0
+			},
+			{
+				4,
+				0,
+				true,
+				0
+			},
+			{
+				3,
+				8,
+				false,
+				0
+			},
+			{
+				3,
+				7,
+				true,
+				0
+			},
+			{
+				3,
+				6,
+				true,
+				6
+			},
+			{
+				3,
+				5,
+				true,
+				0
+			},
+			{
+				3,
+				4,
+				true,
+				16
+			},
+			{
+				3,
+				3,
+				true,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				6
+			},
+			{
+				3,
+				1,
+				true,
+				0
+			},
+			{
+				3,
+				0,
+				false,
+				0
+			},
+			{
+				2,
+				8,
+				true,
+				0
+			},
+			{
+				2,
+				7,
+				true,
+				6
+			},
+			{
+				2,
+				6,
+				true,
+				0
+			},
+			{
+				2,
+				5,
+				true,
+				0
+			},
+			{
+				2,
+				4,
+				true,
+				0
+			},
+			{
+				2,
+				3,
+				true,
+				0
+			},
+			{
+				2,
+				2,
+				true,
+				0
+			},
+			{
+				2,
+				1,
+				true,
+				6
+			},
+			{
+				2,
+				0,
+				true,
+				0
+			},
+			{
+				1,
+				8,
+				false,
+				0
+			},
+			{
+				1,
+				7,
+				true,
+				0
+			},
+			{
+				1,
+				6,
+				true,
+				6
+			},
+			{
+				1,
+				5,
+				true,
+				0
+			},
+			{
+				1,
+				4,
+				true,
+				0
+			},
+			{
+				1,
+				3,
+				true,
+				0
+			},
+			{
+				1,
+				2,
+				true,
+				6
+			},
+			{
+				1,
+				1,
+				true,
+				0
+			},
+			{
+				1,
+				0,
+				false,
+				0
+			},
+			{
+				0,
+				8,
+				false,
+				0
+			},
+			{
+				0,
+				7,
+				false,
+				0
+			},
+			{
+				0,
+				6,
+				false,
+				0
+			},
+			{
+				0,
+				5,
+				false,
+				0
+			},
+			{
+				0,
+				4,
+				true,
+				8
+			},
+			{
+				0,
+				3,
+				false,
+				0
+			},
+			{
+				0,
+				2,
+				false,
+				0
+			},
+			{
+				0,
+				1,
+				false,
+				0
+			},
+			{
+				0,
+				0,
+				false,
+				0
+			}
+		},
+		float_items = {
+			{
+				4,
+				6,
+				"doa_2x2_2",
+				62,
+				-33
+			},
+			{
+				4,
+				1,
+				"doa_2x2_2",
+				46,
+				-33
+			},
+			{
+				3,
+				8,
+				"doa_1x1_1",
+				0,
+				0
+			},
+			{
+				3,
+				0,
+				"doa_1x1_1",
+				0,
+				0
+			},
+			{
+				1,
+				8,
+				"doa_1x1_2",
+				0,
+				0
+			},
+			{
+				1,
+				0,
+				"doa_1x1_2",
+				1,
+				0
+			},
+			{
+				0,
+				6,
+				"doa_3x1_1",
+				104,
+				4
+			},
+			{
+				0,
+				5,
+				"doa_1x1_3",
+				0,
+				25
+			},
+			{
+				0,
+				3,
+				"doa_1x1_3",
+				0,
+				25
+			},
+			{
+				0,
+				0,
+				"doa_3x1_1",
+				104,
+				4
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_doa",
+			45,
+			20,
+			-234,
+			-198,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			9,
+			23,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {},
+		defeat_story_count = {},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {},
+		land_based = {},
+		chapter_buff = {},
+		wall_prefab = {},
+		alarm_cell = {}
+	},
+	[1450051] = {
+		pos_x = "0.479",
+		num_3 = 0,
+		progress_boss = 100,
+		oil = 0,
+		is_limit_move = 0,
+		mine_id = 2001,
+		activate_time = 0,
+		story_refresh_boss = "",
+		is_ambush = 0,
+		ammo_cost = 1,
+		collection_team = 0,
+		special_operation_list = "",
+		air_dominance = 620,
+		best_air_dominance = 810,
+		id = 1450051,
+		count = 0,
+		icon_outline = 0,
+		bg = "",
+		pre_chapter = 1450004,
+		formation = 1450003,
+		bgm = "doa_daozhong",
+		chapter_tag = 0,
+		star_require_1 = 0,
+		pos_y = "0.2979",
+		pop_pic = "",
+		num_1 = 0,
+		model = 5,
+		investigation_ratio = 0,
+		ammo_submarine = 0,
+		num_2 = 0,
+		is_ai = 0,
+		map = 1450003,
+		unlocklevel = 0,
+		chapter_fx = "",
+		uifx = "",
+		name = "女神之演舞",
+		chapter_name = "EXTRA",
+		type = 2,
+		act_id = 777,
+		enter_story = "",
+		boss_refresh = 0,
+		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
+		friendly_id = 0,
+		mitigation_rate = 0,
+		mitigation_level = 0,
+		ammo_total = 5,
+		group_num = 1,
+		enter_story_limit = "",
+		star_require_3 = 0,
+		profiles = "碧蓝的少女们啊，赌上自身的一切，折服眼前的对手，夺下观众的全部目光吧！",
+		difficulty = 10,
+		avoid_ratio = 17,
+		star_require_2 = 0,
+		time = 43200,
+		win_condition_display = "win_condition_display_qijian",
+		submarine_num = 0,
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {
+			{
+				{
+					5,
+					0,
+					0
+				},
+				{
+					2,
+					0,
+					0
+				}
+			}
+		},
+		property_limitation = {},
+		expedition_id_weight_list = {},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {},
+		ai_expedition_list = {
+			1
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1485001
+		},
+		enemy_refresh = {
+			0
+		},
+		elite_refresh = {
+			0
+		},
+		ai_refresh = {
+			0
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"nvtiangou_doa"
+		},
+		awards = {},
+		grids = {
+			{
+				8,
+				7,
+				true,
+				0
+			},
+			{
+				8,
+				6,
+				false,
+				0
+			},
+			{
+				8,
+				5,
+				true,
+				0
+			},
+			{
+				8,
+				4,
+				false,
+				0
+			},
+			{
+				8,
+				3,
+				true,
+				0
+			},
+			{
+				7,
+				7,
+				true,
+				0
+			},
+			{
+				7,
+				6,
+				false,
+				0
+			},
+			{
+				7,
+				5,
+				true,
+				1
+			},
+			{
+				7,
+				4,
+				false,
+				0
+			},
+			{
+				7,
+				3,
+				true,
+				0
+			},
+			{
+				6,
+				7,
+				false,
+				0
+			},
+			{
+				6,
+				6,
+				true,
+				0
+			},
+			{
+				6,
+				5,
+				true,
+				0
+			},
+			{
+				6,
+				4,
+				true,
+				0
+			},
+			{
+				6,
+				3,
+				false,
+				0
+			},
+			{
+				5,
+				7,
+				true,
+				0
+			},
+			{
+				5,
+				6,
+				false,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				8
+			},
+			{
+				5,
+				4,
+				false,
+				0
+			},
+			{
+				5,
+				3,
+				true,
+				0
+			},
+			{
+				4,
+				7,
+				true,
+				0
+			},
+			{
+				4,
+				6,
+				false,
+				0
+			},
+			{
+				4,
+				5,
+				false,
+				0
+			},
+			{
+				4,
+				4,
+				false,
+				0
+			},
+			{
+				4,
+				3,
+				true,
+				0
+			},
+			{
+				3,
+				7,
+				false,
+				0
+			},
+			{
+				3,
+				6,
+				false,
+				0
+			},
+			{
+				3,
+				5,
+				true,
+				0
+			},
+			{
+				3,
+				4,
+				false,
+				0
+			},
+			{
+				3,
+				3,
+				false,
+				0
+			},
+			{
+				2,
+				7,
+				false,
+				0
+			},
+			{
+				2,
+				6,
+				false,
+				0
+			},
+			{
+				2,
+				5,
+				true,
+				0
+			},
+			{
+				2,
+				4,
+				false,
+				0
+			},
+			{
+				2,
+				3,
+				false,
+				0
+			}
+		},
+		float_items = {
+			{
+				8,
+				6,
+				"doa_1x1_1",
+				0,
+				0
+			},
+			{
+				8,
+				4,
+				"doa_1x1_1",
+				0,
+				0
+			},
+			{
+				7,
+				6,
+				"doa_1x1_3",
+				0,
+				25
+			},
+			{
+				7,
+				4,
+				"doa_1x1_3",
+				0,
+				25
+			},
+			{
+				6,
+				7,
+				"doa_1x1_3",
+				0,
+				25
+			},
+			{
+				6,
+				3,
+				"doa_1x1_3",
+				0,
+				25
+			},
+			{
+				5,
+				6,
+				"doa_1x1_3",
+				0,
+				25
+			},
+			{
+				5,
+				4,
+				"doa_1x1_3",
+				0,
+				25
+			},
+			{
+				4,
+				4,
+				"doa_3x1_1",
+				104,
+				4
+			},
+			{
+				2,
+				6,
+				"doa_2x2_2",
+				63,
+				-12
+			},
+			{
+				2,
+				3,
+				"doa_2x2_2",
+				53,
+				-12
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_doa",
+			45,
+			20,
+			-332,
+			119,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			9,
+			23,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {},
+		defeat_story_count = {},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {},
+		land_based = {},
+		chapter_buff = {},
+		wall_prefab = {},
+		alarm_cell = {}
+	},
+	[1460001] = {
+		pos_x = "0.2515625",
+		num_3 = 1,
+		progress_boss = 50,
+		oil = 10,
+		is_limit_move = 1,
+		mine_id = 2001,
+		activate_time = 0,
+		story_refresh_boss = "FUXIANGXIANZUOZHAN4",
+		is_ambush = 0,
+		ammo_cost = 1,
+		collection_team = 0,
+		special_operation_list = "",
+		air_dominance = 115,
+		best_air_dominance = 150,
+		id = 1460001,
+		count = 0,
+		icon_outline = 0,
+		bg = "",
+		pre_chapter = 0,
+		formation = 1460001,
+		bgm = "story-6",
+		chapter_tag = 0,
+		star_require_1 = 1,
+		pos_y = "0.392708333",
+		pop_pic = "",
+		num_1 = 1,
+		model = 2,
+		investigation_ratio = 23,
+		ammo_submarine = 0,
+		num_2 = 10,
+		is_ai = 1,
+		map = 1460001,
+		unlocklevel = 0,
+		chapter_fx = "",
+		uifx = "",
+		name = "大海葵",
+		chapter_name = "A1",
+		type = 1,
+		act_id = 824,
+		enter_story = "FUXIANGXIANZUOZHAN2",
+		boss_refresh = 3,
+		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
+		friendly_id = 0,
+		mitigation_rate = 2,
+		mitigation_level = 5,
+		ammo_total = 5,
+		group_num = 2,
+		enter_story_limit = "",
+		star_require_3 = 3,
+		profiles = "覆写结束：量产型创建完成——棋子创建完成——塞壬精英创建完成—训练准备完毕；",
+		difficulty = 3,
+		avoid_ratio = 11,
+		star_require_2 = 2,
+		time = 43200,
+		win_condition_display = "win_condition_display_qijian",
+		submarine_num = 1,
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {},
+		property_limitation = {},
+		expedition_id_weight_list = {
+			{
+				1490001,
+				15,
+				0
+			},
+			{
+				1490002,
+				20,
+				0
+			},
+			{
+				1490003,
+				30,
+				1
+			},
+			{
+				1490004,
+				15,
+				0
+			},
+			{
+				1490005,
+				20,
+				0
+			},
+			{
+				1490006,
+				30,
+				1
+			},
+			{
+				1490007,
+				15,
+				0
+			},
+			{
+				1490008,
+				20,
+				0
+			},
+			{
+				1490009,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {
+			1490005,
+			1490008
+		},
+		ai_expedition_list = {
+			1490301,
+			1490302
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1490013
+		},
+		enemy_refresh = {
+			1,
+			1,
+			1,
+			1,
+			0
+		},
+		elite_refresh = {
+			0
+		},
+		ai_refresh = {
+			1
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"sairenhangmu"
+		},
+		awards = {
+			{
+				2,
+				58088
+			},
+			{
+				2,
+				58076
+			},
+			{
+				2,
+				54012
+			},
+			{
+				2,
+				54022
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				6,
+				8,
+				true,
+				0
+			},
+			{
+				6,
+				7,
+				true,
+				0
+			},
+			{
+				6,
+				6,
+				true,
+				0
+			},
+			{
+				6,
+				5,
+				true,
+				0
+			},
+			{
+				6,
+				4,
+				true,
+				0
+			},
+			{
+				6,
+				3,
+				true,
+				0
+			},
+			{
+				6,
+				2,
+				true,
+				0
+			},
+			{
+				6,
+				1,
+				true,
+				0
+			},
+			{
+				6,
+				0,
+				true,
+				0
+			},
+			{
+				5,
+				8,
+				false,
+				0
+			},
+			{
+				5,
+				7,
+				true,
+				6
+			},
+			{
+				5,
+				6,
+				true,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				6
+			},
+			{
+				5,
+				4,
+				true,
+				8
+			},
+			{
+				5,
+				3,
+				true,
+				6
+			},
+			{
+				5,
+				2,
+				true,
+				0
+			},
+			{
+				5,
+				1,
+				true,
+				6
+			},
+			{
+				5,
+				0,
+				false,
+				0
+			},
+			{
+				4,
+				8,
+				false,
+				0
+			},
+			{
+				4,
+				7,
+				false,
+				0
+			},
+			{
+				4,
+				6,
+				true,
+				0
+			},
+			{
+				4,
+				5,
+				false,
+				0
+			},
+			{
+				4,
+				4,
+				false,
+				0
+			},
+			{
+				4,
+				3,
+				false,
+				0
+			},
+			{
+				4,
+				2,
+				true,
+				0
+			},
+			{
+				4,
+				1,
+				false,
+				0
+			},
+			{
+				4,
+				0,
+				false,
+				0
+			},
+			{
+				3,
+				8,
+				true,
+				0
+			},
+			{
+				3,
+				7,
+				true,
+				0
+			},
+			{
+				3,
+				6,
+				true,
+				0
+			},
+			{
+				3,
+				5,
+				true,
+				6
+			},
+			{
+				3,
+				4,
+				true,
+				0
+			},
+			{
+				3,
+				3,
+				true,
+				12
+			},
+			{
+				3,
+				2,
+				true,
+				0
+			},
+			{
+				3,
+				1,
+				true,
+				0
+			},
+			{
+				3,
+				0,
+				true,
+				1
+			},
+			{
+				2,
+				8,
+				true,
+				0
+			},
+			{
+				2,
+				7,
+				true,
+				4
+			},
+			{
+				2,
+				6,
+				true,
+				0
+			},
+			{
+				2,
+				5,
+				true,
+				0
+			},
+			{
+				2,
+				4,
+				true,
+				16
+			},
+			{
+				2,
+				3,
+				true,
+				0
+			},
+			{
+				2,
+				2,
+				true,
+				0
+			},
+			{
+				2,
+				1,
+				true,
+				0
+			},
+			{
+				2,
+				0,
+				true,
+				0
+			},
+			{
+				1,
+				8,
+				false,
+				0
+			},
+			{
+				1,
+				7,
+				false,
+				0
+			},
+			{
+				1,
+				6,
+				true,
+				4
+			},
+			{
+				1,
+				5,
+				true,
+				0
+			},
+			{
+				1,
+				4,
+				true,
+				6
+			},
+			{
+				1,
+				3,
+				false,
+				0
+			},
+			{
+				1,
+				2,
+				true,
+				0
+			},
+			{
+				1,
+				1,
+				true,
+				0
+			},
+			{
+				1,
+				0,
+				true,
+				1
+			},
+			{
+				0,
+				8,
+				false,
+				0
+			},
+			{
+				0,
+				7,
+				false,
+				100
+			},
+			{
+				0,
+				6,
+				true,
+				0
+			},
+			{
+				0,
+				5,
+				true,
+				0
+			},
+			{
+				0,
+				4,
+				true,
+				6
+			},
+			{
+				0,
+				3,
+				true,
+				0
+			},
+			{
+				0,
+				2,
+				true,
+				12
+			},
+			{
+				0,
+				1,
+				true,
+				0
+			},
+			{
+				0,
+				0,
+				false,
+				0
+			}
+		},
+		float_items = {
+			{
+				4,
+				7,
+				"dexiv3_2x2_3",
+				65,
+				-1
+			},
+			{
+				4,
+				3,
+				"dexiv3_3x1_2",
+				110,
+				29
+			},
+			{
+				4,
+				0,
+				"dexiv3_2x2_4",
+				41,
+				-15
+			},
+			{
+				1,
+				3,
+				"dexiv3_1x1_3",
+				0,
+				21
+			},
+			{
+				0,
+				0,
+				"dexiv3_1x1_2",
+				0,
+				22
+			}
+		},
+		ambush_event_ratio = {
+			{
+				3001,
+				5000
+			}
+		},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_doa",
+			45,
+			20,
+			-106,
+			-318,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			4,
+			22,
+			102,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {
+			"",
+			"",
+			"FUXIANGXIANZUOZHAN3"
+		},
+		defeat_story = {
+			"FUXIANGXIANZUOZHAN6"
+		},
+		defeat_story_count = {
+			2
+		},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {
+			{
+				5,
+				4
+			},
+			{
+				3,
+				2
+			},
+			{
+				1,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {
+			{
+				0,
+				7,
+				13
+			}
+		},
+		chapter_buff = {
+			8803
+		},
+		wall_prefab = {},
+		alarm_cell = {}
+	},
+	[1460002] = {
+		pos_x = "0.38203125",
+		num_3 = 1,
+		progress_boss = 34,
+		oil = 10,
+		is_limit_move = 1,
+		mine_id = 2001,
+		activate_time = 0,
+		story_refresh_boss = "FUXIANGXIANZUOZHAN8",
+		is_ambush = 0,
+		ammo_cost = 1,
+		collection_team = 0,
+		special_operation_list = "",
+		air_dominance = 130,
+		best_air_dominance = 170,
+		id = 1460002,
+		count = 0,
+		icon_outline = 0,
+		bg = "",
+		pre_chapter = 1460001,
+		formation = 1460001,
+		bgm = "story-6",
+		chapter_tag = 0,
+		star_require_1 = 1,
+		pos_y = "0.052083333",
+		pop_pic = "",
+		num_1 = 1,
+		model = 2,
+		investigation_ratio = 24,
+		ammo_submarine = 0,
+		num_2 = 15,
+		is_ai = 1,
+		map = 1460001,
+		unlocklevel = 0,
+		chapter_fx = "",
+		uifx = "",
+		name = "判定基准",
+		chapter_name = "A2",
+		type = 1,
+		act_id = 824,
+		enter_story = "FUXIANGXIANZUOZHAN7",
+		boss_refresh = 4,
+		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
+		friendly_id = 0,
+		mitigation_rate = 2,
+		mitigation_level = 5,
+		ammo_total = 5,
+		group_num = 2,
+		enter_story_limit = "",
+		star_require_3 = 3,
+		profiles = "判定流程：对于联络没有回应——无法正常交流——直接发动攻击—流程确认完毕；",
+		difficulty = 4,
+		avoid_ratio = 11,
+		star_require_2 = 2,
+		time = 43200,
+		win_condition_display = "win_condition_display_qijian",
+		submarine_num = 1,
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {},
+		property_limitation = {},
+		expedition_id_weight_list = {
+			{
+				1490101,
+				15,
+				0
+			},
+			{
+				1490102,
+				20,
+				0
+			},
+			{
+				1490103,
+				30,
+				1
+			},
+			{
+				1490104,
+				15,
+				0
+			},
+			{
+				1490105,
+				20,
+				0
+			},
+			{
+				1490106,
+				30,
+				1
+			},
+			{
+				1490107,
+				15,
+				0
+			},
+			{
+				1490108,
+				20,
+				0
+			},
+			{
+				1490109,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {
+			1490105,
+			1490108
+		},
+		ai_expedition_list = {
+			1490303,
+			1490304,
+			1490305
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1490113
+		},
+		enemy_refresh = {
+			1,
+			1,
+			1,
+			1,
+			0
+		},
+		elite_refresh = {
+			0
+		},
+		ai_refresh = {
+			1
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"qiaozhiwushi"
+		},
+		awards = {
+			{
+				2,
+				58089
+			},
+			{
+				2,
+				58077
+			},
+			{
+				2,
+				54012
+			},
+			{
+				2,
+				54022
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				5,
+				9,
+				false,
+				0
+			},
+			{
+				5,
+				8,
+				true,
+				0
+			},
+			{
+				5,
+				7,
+				true,
+				6
+			},
+			{
+				5,
+				6,
+				true,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				0
+			},
+			{
+				5,
+				4,
+				true,
+				0
+			},
+			{
+				5,
+				3,
+				false,
+				0
+			},
+			{
+				5,
+				2,
+				false,
+				0
+			},
+			{
+				5,
+				1,
+				true,
+				0
+			},
+			{
+				5,
+				0,
+				true,
+				0
+			},
+			{
+				4,
+				9,
+				true,
+				0
+			},
+			{
+				4,
+				8,
+				true,
+				6
+			},
+			{
+				4,
+				7,
+				true,
+				0
+			},
+			{
+				4,
+				6,
+				true,
+				0
+			},
+			{
+				4,
+				5,
+				false,
+				0
+			},
+			{
+				4,
+				4,
+				true,
+				4
+			},
+			{
+				4,
+				3,
+				false,
+				0
+			},
+			{
+				4,
+				2,
+				false,
+				100
+			},
+			{
+				4,
+				1,
+				true,
+				4
+			},
+			{
+				4,
+				0,
+				true,
+				0
+			},
+			{
+				3,
+				9,
+				true,
+				8
+			},
+			{
+				3,
+				8,
+				true,
+				0
+			},
+			{
+				3,
+				7,
+				true,
+				16
+			},
+			{
+				3,
+				6,
+				true,
+				6
+			},
+			{
+				3,
+				5,
+				false,
+				0
+			},
+			{
+				3,
+				4,
+				true,
+				0
+			},
+			{
+				3,
+				3,
+				true,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				0
+			},
+			{
+				3,
+				1,
+				true,
+				0
+			},
+			{
+				3,
+				0,
+				true,
+				6
+			},
+			{
+				2,
+				9,
+				true,
+				0
+			},
+			{
+				2,
+				8,
+				true,
+				6
+			},
+			{
+				2,
+				7,
+				true,
+				0
+			},
+			{
+				2,
+				6,
+				true,
+				0
+			},
+			{
+				2,
+				5,
+				true,
+				12
+			},
+			{
+				2,
+				4,
+				true,
+				0
+			},
+			{
+				2,
+				3,
+				false,
+				0
+			},
+			{
+				2,
+				2,
+				true,
+				12
+			},
+			{
+				2,
+				1,
+				true,
+				0
+			},
+			{
+				2,
+				0,
+				true,
+				6
+			},
+			{
+				1,
+				9,
+				false,
+				0
+			},
+			{
+				1,
+				8,
+				true,
+				0
+			},
+			{
+				1,
+				7,
+				true,
+				6
+			},
+			{
+				1,
+				6,
+				true,
+				0
+			},
+			{
+				1,
+				5,
+				true,
+				0
+			},
+			{
+				1,
+				4,
+				true,
+				0
+			},
+			{
+				1,
+				3,
+				true,
+				0
+			},
+			{
+				1,
+				2,
+				true,
+				0
+			},
+			{
+				1,
+				1,
+				true,
+				0
+			},
+			{
+				1,
+				0,
+				false,
+				0
+			},
+			{
+				0,
+				9,
+				false,
+				0
+			},
+			{
+				0,
+				8,
+				false,
+				0
+			},
+			{
+				0,
+				7,
+				true,
+				0
+			},
+			{
+				0,
+				6,
+				false,
+				0
+			},
+			{
+				0,
+				5,
+				true,
+				0
+			},
+			{
+				0,
+				4,
+				true,
+				0
+			},
+			{
+				0,
+				3,
+				true,
+				1
+			},
+			{
+				0,
+				2,
+				true,
+				0
+			},
+			{
+				0,
+				1,
+				true,
+				1
+			},
+			{
+				0,
+				0,
+				false,
+				0
+			}
+		},
+		float_items = {
+			{
+				5,
+				9,
+				"dexiv3_1x1_1",
+				0,
+				4
+			},
+			{
+				3,
+				5,
+				"dexiv3_1x2_2",
+				0,
+				-26
+			},
+			{
+				2,
+				3,
+				"dexiv3_1x1_2",
+				0,
+				19
+			},
+			{
+				0,
+				8,
+				"dexiv3_2x2_3",
+				76,
+				-7
+			},
+			{
+				0,
+				6,
+				"dexiv3_1x1_1",
+				0,
+				10
+			},
+			{
+				0,
+				0,
+				"dexiv3_1x2_1",
+				-2,
+				-18
+			}
+		},
+		ambush_event_ratio = {
+			{
+				3001,
+				5000
+			}
+		},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_doa",
+			45,
+			20,
+			-195,
+			-371,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			4,
+			22,
+			102,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {
+			"FUXIANGXIANZUOZHAN9"
+		},
+		defeat_story_count = {
+			3
+		},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {
+			{
+				5,
+				4
+			},
+			{
+				3,
+				2
+			},
+			{
+				1,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {
+			{
+				4,
+				2,
+				13
+			}
+		},
+		chapter_buff = {
+			8803
+		},
+		wall_prefab = {},
+		alarm_cell = {}
+	},
+	[1460003] = {
+		pos_x = "0.665625",
+		num_3 = 1,
+		progress_boss = 34,
+		oil = 10,
+		is_limit_move = 1,
+		mine_id = 2001,
+		activate_time = 0,
+		story_refresh_boss = "",
+		is_ambush = 0,
+		ammo_cost = 1,
+		collection_team = 0,
+		special_operation_list = "",
+		air_dominance = 205,
+		best_air_dominance = 270,
+		id = 1460003,
+		count = 0,
+		icon_outline = 0,
+		bg = "",
+		pre_chapter = 1460002,
+		formation = 1460001,
+		bgm = "story-6",
+		chapter_tag = 0,
+		star_require_1 = 1,
+		pos_y = "0.344791667",
+		pop_pic = "",
+		num_1 = 1,
+		model = 2,
+		investigation_ratio = 24,
+		ammo_submarine = 0,
+		num_2 = 15,
+		is_ai = 1,
+		map = 1460001,
+		unlocklevel = 0,
+		chapter_fx = "",
+		uifx = "",
+		name = "不受控",
+		chapter_name = "A3",
+		type = 1,
+		act_id = 824,
+		enter_story = "FUXIANGXIANZUOZHAN10",
+		boss_refresh = 4,
+		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
+		friendly_id = 0,
+		mitigation_rate = 2,
+		mitigation_level = 5,
+		ammo_total = 5,
+		group_num = 2,
+		enter_story_limit = "",
+		star_require_3 = 3,
+		profiles = "战场环境：铁血舰队行动异常——重樱舰队行动异常——撒丁帝国舰队行动异常—实弹装填完毕；",
+		difficulty = 5,
+		avoid_ratio = 11,
+		star_require_2 = 2,
+		time = 43200,
+		win_condition_display = "win_condition_display_qijian",
+		submarine_num = 1,
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {},
+		property_limitation = {},
+		expedition_id_weight_list = {
+			{
+				1490201,
+				15,
+				0
+			},
+			{
+				1490202,
+				20,
+				0
+			},
+			{
+				1490203,
+				30,
+				1
+			},
+			{
+				1490204,
+				15,
+				0
+			},
+			{
+				1490205,
+				20,
+				0
+			},
+			{
+				1490206,
+				30,
+				1
+			},
+			{
+				1490207,
+				15,
+				0
+			},
+			{
+				1490208,
+				20,
+				0
+			},
+			{
+				1490209,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {
+			1490205,
+			1490208
+		},
+		ai_expedition_list = {
+			1490306,
+			1490307
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1490213
+		},
+		enemy_refresh = {
+			1,
+			1,
+			1,
+			1,
+			0
+		},
+		elite_refresh = {
+			0
+		},
+		ai_refresh = {
+			1
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"ruihe"
+		},
+		awards = {
+			{
+				2,
+				58090
+			},
+			{
+				2,
+				58078
+			},
+			{
+				2,
+				54012
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				5,
+				9,
+				true,
+				0
+			},
+			{
+				5,
+				8,
+				true,
+				6
+			},
+			{
+				5,
+				7,
+				true,
+				0
+			},
+			{
+				5,
+				6,
+				true,
+				0
+			},
+			{
+				5,
+				5,
+				false,
+				0
+			},
+			{
+				5,
+				4,
+				false,
+				0
+			},
+			{
+				5,
+				3,
+				false,
+				0
+			},
+			{
+				5,
+				2,
+				true,
+				0
+			},
+			{
+				5,
+				1,
+				true,
+				1
+			},
+			{
+				5,
+				0,
+				true,
+				0
+			},
+			{
+				4,
+				9,
+				true,
+				0
+			},
+			{
+				4,
+				8,
+				false,
+				0
+			},
+			{
+				4,
+				7,
+				true,
+				6
+			},
+			{
+				4,
+				6,
+				true,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				6
+			},
+			{
+				4,
+				4,
+				true,
+				6
+			},
+			{
+				4,
+				3,
+				true,
+				12
+			},
+			{
+				4,
+				2,
+				true,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				0
+			},
+			{
+				4,
+				0,
+				true,
+				1
+			},
+			{
+				3,
+				9,
+				true,
+				6
+			},
+			{
+				3,
+				8,
+				false,
+				0
+			},
+			{
+				3,
+				7,
+				false,
+				0
+			},
+			{
+				3,
+				6,
+				true,
+				16
+			},
+			{
+				3,
+				5,
+				true,
+				0
+			},
+			{
+				3,
+				4,
+				true,
+				0
+			},
+			{
+				3,
+				3,
+				true,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				0
+			},
+			{
+				3,
+				1,
+				true,
+				0
+			},
+			{
+				3,
+				0,
+				false,
+				0
+			},
+			{
+				2,
+				9,
+				true,
+				0
+			},
+			{
+				2,
+				8,
+				true,
+				0
+			},
+			{
+				2,
+				7,
+				true,
+				0
+			},
+			{
+				2,
+				6,
+				true,
+				0
+			},
+			{
+				2,
+				5,
+				true,
+				8
+			},
+			{
+				2,
+				4,
+				true,
+				8
+			},
+			{
+				2,
+				3,
+				true,
+				0
+			},
+			{
+				2,
+				2,
+				true,
+				0
+			},
+			{
+				2,
+				1,
+				true,
+				12
+			},
+			{
+				2,
+				0,
+				false,
+				0
+			},
+			{
+				1,
+				9,
+				true,
+				6
+			},
+			{
+				1,
+				8,
+				true,
+				6
+			},
+			{
+				1,
+				7,
+				true,
+				0
+			},
+			{
+				1,
+				6,
+				true,
+				4
+			},
+			{
+				1,
+				5,
+				false,
+				0
+			},
+			{
+				1,
+				4,
+				false,
+				0
+			},
+			{
+				1,
+				3,
+				true,
+				4
+			},
+			{
+				1,
+				2,
+				true,
+				0
+			},
+			{
+				1,
+				1,
+				false,
+				0
+			},
+			{
+				1,
+				0,
+				true,
+				0
+			},
+			{
+				0,
+				9,
+				false,
+				0
+			},
+			{
+				0,
+				8,
+				false,
+				0
+			},
+			{
+				0,
+				7,
+				false,
+				0
+			},
+			{
+				0,
+				6,
+				true,
+				0
+			},
+			{
+				0,
+				5,
+				false,
+				0
+			},
+			{
+				0,
+				4,
+				false,
+				100
+			},
+			{
+				0,
+				3,
+				true,
+				0
+			},
+			{
+				0,
+				2,
+				true,
+				6
+			},
+			{
+				0,
+				1,
+				true,
+				0
+			},
+			{
+				0,
+				0,
+				true,
+				0
+			}
+		},
+		float_items = {
+			{
+				5,
+				3,
+				"dexiv3_3x1_2",
+				106,
+				27
+			},
+			{
+				3,
+				7,
+				"dexiv3_2x2_3",
+				65,
+				-11
+			},
+			{
+				2,
+				0,
+				"dexiv3_1x2_2",
+				0,
+				-27
+			},
+			{
+				1,
+				1,
+				"dexiv3_1x1_1",
+				0,
+				7
+			},
+			{
+				0,
+				7,
+				"dexiv3_3x1_1",
+				92,
+				26
+			}
+		},
+		ambush_event_ratio = {
+			{
+				3001,
+				5000
+			}
+		},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_doa",
+			45,
+			20,
+			-135,
+			-197,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			4,
+			22,
+			102,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {
+			"",
+			"",
+			"FUXIANGXIANZUOZHAN11"
+		},
+		defeat_story = {
+			"FUXIANGXIANZUOZHAN14"
+		},
+		defeat_story_count = {
+			3
+		},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {
+			{
+				5,
+				4
+			},
+			{
+				3,
+				2
+			},
+			{
+				1,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {
+			{
+				0,
+				4,
+				13
+			}
+		},
+		chapter_buff = {
+			8803
+		},
+		wall_prefab = {},
+		alarm_cell = {}
+	},
+	[1460004] = {
+		pos_x = "0.23125",
+		num_3 = 1,
+		progress_boss = 25,
+		oil = 10,
+		is_limit_move = 1,
+		mine_id = 2001,
+		activate_time = 0,
+		story_refresh_boss = "FUXIANGXIANZUOZHAN17",
+		is_ambush = 0,
+		ammo_cost = 1,
+		collection_team = 0,
+		special_operation_list = "",
+		air_dominance = 220,
+		best_air_dominance = 290,
+		id = 1460004,
+		count = 0,
+		icon_outline = 0,
+		bg = "",
+		pre_chapter = 1460003,
+		formation = 1460002,
+		bgm = "battle-executor-type1",
+		chapter_tag = 0,
+		star_require_1 = 1,
+		pos_y = "0.227083333",
+		pop_pic = "",
+		num_1 = 1,
+		model = 2,
+		investigation_ratio = 0,
+		ammo_submarine = 0,
+		num_2 = 25,
+		is_ai = 1,
+		map = 1460002,
+		unlocklevel = 0,
+		chapter_fx = "",
+		uifx = "",
+		name = "观光者",
+		chapter_name = "B1",
+		type = 1,
+		act_id = 825,
+		enter_story = "FUXIANGXIANZUOZHAN16",
+		boss_refresh = 4,
+		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
+		friendly_id = 0,
+		mitigation_rate = 2,
+		mitigation_level = 5,
+		ammo_total = 5,
+		group_num = 2,
+		enter_story_limit = "",
+		star_require_3 = 3,
+		profiles = "状态更新：铁血舰队正在接近——撒丁帝国舰队正在接近——重樱舰队已经交火—干扰频率调整中；",
+		difficulty = 5,
+		avoid_ratio = 10,
+		star_require_2 = 2,
+		time = 43200,
+		win_condition_display = "win_condition_display_qijian",
+		submarine_num = 1,
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {},
+		property_limitation = {},
+		expedition_id_weight_list = {
+			{
+				1491001,
+				15,
+				0
+			},
+			{
+				1491002,
+				20,
+				0
+			},
+			{
+				1491003,
+				30,
+				1
+			},
+			{
+				1491004,
+				15,
+				0
+			},
+			{
+				1491005,
+				20,
+				0
+			},
+			{
+				1491006,
+				30,
+				1
+			},
+			{
+				1491007,
+				15,
+				0
+			},
+			{
+				1491008,
+				20,
+				0
+			},
+			{
+				1491009,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {
+			1491005,
+			1491008
+		},
+		ai_expedition_list = {
+			1491301,
+			1491302,
+			1491303
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1491013
+		},
+		enemy_refresh = {
+			1,
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			0
+		},
+		ai_refresh = {
+			1
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"niulunbao"
+		},
+		awards = {
+			{
+				2,
+				58091
+			},
+			{
+				2,
+				58079
+			},
+			{
+				2,
+				54012
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				7,
+				8,
+				true,
+				0
+			},
+			{
+				7,
+				7,
+				true,
+				6
+			},
+			{
+				7,
+				6,
+				true,
+				0
+			},
+			{
+				7,
+				5,
+				true,
+				6
+			},
+			{
+				7,
+				4,
+				false,
+				0
+			},
+			{
+				7,
+				3,
+				true,
+				0
+			},
+			{
+				7,
+				2,
+				true,
+				1
+			},
+			{
+				7,
+				1,
+				true,
+				0
+			},
+			{
+				7,
+				0,
+				false,
+				0
+			},
+			{
+				6,
+				8,
+				true,
+				6
+			},
+			{
+				6,
+				7,
+				true,
+				0
+			},
+			{
+				6,
+				6,
+				true,
+				0
+			},
+			{
+				6,
+				5,
+				true,
+				0
+			},
+			{
+				6,
+				4,
+				true,
+				12
+			},
+			{
+				6,
+				3,
+				true,
+				0
+			},
+			{
+				6,
+				2,
+				true,
+				1
+			},
+			{
+				6,
+				1,
+				true,
+				0
+			},
+			{
+				6,
+				0,
+				false,
+				0
+			},
+			{
+				5,
+				8,
+				true,
+				0
+			},
+			{
+				5,
+				7,
+				true,
+				6
+			},
+			{
+				5,
+				6,
+				false,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				0
+			},
+			{
+				5,
+				4,
+				true,
+				0
+			},
+			{
+				5,
+				3,
+				true,
+				0
+			},
+			{
+				5,
+				2,
+				false,
+				0
+			},
+			{
+				5,
+				1,
+				false,
+				0
+			},
+			{
+				5,
+				0,
+				false,
+				0
+			},
+			{
+				4,
+				8,
+				true,
+				6
+			},
+			{
+				4,
+				7,
+				false,
+				0
+			},
+			{
+				4,
+				6,
+				false,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				12
+			},
+			{
+				4,
+				4,
+				true,
+				16
+			},
+			{
+				4,
+				3,
+				true,
+				0
+			},
+			{
+				4,
+				2,
+				true,
+				12
+			},
+			{
+				4,
+				1,
+				true,
+				0
+			},
+			{
+				4,
+				0,
+				true,
+				0
+			},
+			{
+				3,
+				8,
+				true,
+				0
+			},
+			{
+				3,
+				7,
+				true,
+				0
+			},
+			{
+				3,
+				6,
+				true,
+				6
+			},
+			{
+				3,
+				5,
+				true,
+				0
+			},
+			{
+				3,
+				4,
+				true,
+				0
+			},
+			{
+				3,
+				3,
+				true,
+				4
+			},
+			{
+				3,
+				2,
+				true,
+				0
+			},
+			{
+				3,
+				1,
+				true,
+				4
+			},
+			{
+				3,
+				0,
+				true,
+				0
+			},
+			{
+				2,
+				8,
+				true,
+				8
+			},
+			{
+				2,
+				7,
+				true,
+				0
+			},
+			{
+				2,
+				6,
+				true,
+				0
+			},
+			{
+				2,
+				5,
+				true,
+				0
+			},
+			{
+				2,
+				4,
+				false,
+				0
+			},
+			{
+				2,
+				3,
+				true,
+				0
+			},
+			{
+				2,
+				2,
+				false,
+				0
+			},
+			{
+				2,
+				1,
+				false,
+				0
+			},
+			{
+				2,
+				0,
+				false,
+				0
+			},
+			{
+				1,
+				8,
+				true,
+				0
+			},
+			{
+				1,
+				7,
+				true,
+				0
+			},
+			{
+				1,
+				6,
+				true,
+				6
+			},
+			{
+				1,
+				5,
+				true,
+				0
+			},
+			{
+				1,
+				4,
+				true,
+				0
+			},
+			{
+				1,
+				3,
+				true,
+				4
+			},
+			{
+				1,
+				2,
+				false,
+				0
+			},
+			{
+				1,
+				1,
+				false,
+				100
+			},
+			{
+				1,
+				0,
+				true,
+				0
+			},
+			{
+				0,
+				8,
+				false,
+				0
+			},
+			{
+				0,
+				7,
+				false,
+				0
+			},
+			{
+				0,
+				6,
+				false,
+				0
+			},
+			{
+				0,
+				5,
+				true,
+				6
+			},
+			{
+				0,
+				4,
+				true,
+				0
+			},
+			{
+				0,
+				3,
+				true,
+				0
+			},
+			{
+				0,
+				2,
+				false,
+				0
+			},
+			{
+				0,
+				1,
+				true,
+				0
+			},
+			{
+				0,
+				0,
+				true,
+				0
+			}
+		},
+		float_items = {
+			{
+				7,
+				4,
+				"dexiv3_1x1_3",
+				0,
+				15
+			},
+			{
+				6,
+				0,
+				"dexiv3_1x2_2",
+				-10,
+				-24
+			},
+			{
+				5,
+				0,
+				"dexiv3_3x1_1",
+				94,
+				25
+			},
+			{
+				4,
+				6,
+				"dexiv3_2x2_4",
+				43,
+				-2
+			},
+			{
+				2,
+				4,
+				"dexiv3_1x1_2",
+				0,
+				19
+			},
+			{
+				2,
+				0,
+				"dexiv3_1x1_1",
+				0,
+				7
+			},
+			{
+				0,
+				6,
+				"dexiv3_3x1_2",
+				109,
+				29
+			},
+			{
+				0,
+				2,
+				"dexiv3_1x1_1",
+				0,
+				12
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_chongdong",
+			45,
+			20,
+			-200,
+			10,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			5,
+			22,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {
+			"FUXIANGXIANZUOZHAN20"
+		},
+		defeat_story_count = {
+			4
+		},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {
+			{
+				5,
+				4
+			},
+			{
+				3,
+				2
+			},
+			{
+				1,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {
+			{
+				1,
+				1,
+				13
+			}
+		},
+		chapter_buff = {
+			8806
+		},
+		wall_prefab = {},
+		alarm_cell = {}
+	},
+	[1460005] = {
+		pos_x = "0.5390625",
+		num_3 = 1,
+		progress_boss = 25,
+		oil = 10,
+		is_limit_move = 1,
+		mine_id = 2001,
+		activate_time = 0,
+		story_refresh_boss = "FUXIANGXIANZUOZHAN22",
+		is_ambush = 0,
+		ammo_cost = 1,
+		collection_team = 0,
+		special_operation_list = "",
+		air_dominance = 300,
+		best_air_dominance = 390,
+		id = 1460005,
+		count = 0,
+		icon_outline = 0,
+		bg = "",
+		pre_chapter = 1460004,
+		formation = 1460002,
+		bgm = "battle-executor-type1",
+		chapter_tag = 0,
+		star_require_1 = 1,
+		pos_y = "0.052083333",
+		pop_pic = "",
+		num_1 = 1,
+		model = 2,
+		investigation_ratio = 0,
+		ammo_submarine = 0,
+		num_2 = 30,
+		is_ai = 1,
+		map = 1460002,
+		unlocklevel = 0,
+		chapter_fx = "",
+		uifx = "",
+		name = "攻击波",
+		chapter_name = "B2",
+		type = 1,
+		act_id = 825,
+		enter_story = "FUXIANGXIANZUOZHAN21",
+		boss_refresh = 5,
+		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
+		friendly_id = 0,
+		mitigation_rate = 2,
+		mitigation_level = 5,
+		ammo_total = 5,
+		group_num = 2,
+		enter_story_limit = "",
+		star_require_3 = 3,
+		profiles = "状态修正：A1至A3浮岛控制权限丧失——B1至B3浮岛控制权限丧失——中央系统控制权限正常—系统锁定中；",
+		difficulty = 6,
+		avoid_ratio = 11,
+		star_require_2 = 2,
+		time = 43200,
+		win_condition_display = "win_condition_display_qijian",
+		submarine_num = 1,
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {},
+		property_limitation = {},
+		expedition_id_weight_list = {
+			{
+				1491101,
+				15,
+				0
+			},
+			{
+				1491102,
+				20,
+				0
+			},
+			{
+				1491103,
+				30,
+				1
+			},
+			{
+				1491104,
+				15,
+				0
+			},
+			{
+				1491105,
+				20,
+				0
+			},
+			{
+				1491106,
+				30,
+				1
+			},
+			{
+				1491107,
+				15,
+				0
+			},
+			{
+				1491108,
+				20,
+				0
+			},
+			{
+				1491109,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {
+			1491105,
+			1491108
+		},
+		ai_expedition_list = {
+			1491304,
+			1491305,
+			1491306,
+			1491307
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1491113
+		},
+		enemy_refresh = {
+			1,
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			0
+		},
+		ai_refresh = {
+			1
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"ougen"
+		},
+		awards = {
+			{
+				2,
+				58092
+			},
+			{
+				2,
+				58080
+			},
+			{
+				2,
+				54012
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				6,
+				10,
+				false,
+				0
+			},
+			{
+				6,
+				9,
+				false,
+				0
+			},
+			{
+				6,
+				8,
+				false,
+				0
+			},
+			{
+				6,
+				7,
+				false,
+				0
+			},
+			{
+				6,
+				6,
+				false,
+				0
+			},
+			{
+				6,
+				5,
+				true,
+				6
+			},
+			{
+				6,
+				4,
+				true,
+				0
+			},
+			{
+				6,
+				3,
+				true,
+				6
+			},
+			{
+				6,
+				2,
+				true,
+				0
+			},
+			{
+				6,
+				1,
+				true,
+				12
+			},
+			{
+				6,
+				0,
+				true,
+				0
+			},
+			{
+				5,
+				10,
+				false,
+				0
+			},
+			{
+				5,
+				9,
+				false,
+				100
+			},
+			{
+				5,
+				8,
+				true,
+				4
+			},
+			{
+				5,
+				7,
+				true,
+				0
+			},
+			{
+				5,
+				6,
+				true,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				0
+			},
+			{
+				5,
+				4,
+				true,
+				0
+			},
+			{
+				5,
+				3,
+				false,
+				0
+			},
+			{
+				5,
+				2,
+				true,
+				12
+			},
+			{
+				5,
+				1,
+				true,
+				0
+			},
+			{
+				5,
+				0,
+				true,
+				12
+			},
+			{
+				4,
+				10,
+				true,
+				4
+			},
+			{
+				4,
+				9,
+				true,
+				4
+			},
+			{
+				4,
+				8,
+				true,
+				0
+			},
+			{
+				4,
+				7,
+				true,
+				0
+			},
+			{
+				4,
+				6,
+				true,
+				6
+			},
+			{
+				4,
+				5,
+				true,
+				0
+			},
+			{
+				4,
+				4,
+				true,
+				6
+			},
+			{
+				4,
+				3,
+				false,
+				0
+			},
+			{
+				4,
+				2,
+				false,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				0
+			},
+			{
+				4,
+				0,
+				false,
+				0
+			},
+			{
+				3,
+				10,
+				true,
+				0
+			},
+			{
+				3,
+				9,
+				true,
+				0
+			},
+			{
+				3,
+				8,
+				true,
+				0
+			},
+			{
+				3,
+				7,
+				false,
+				0
+			},
+			{
+				3,
+				6,
+				true,
+				0
+			},
+			{
+				3,
+				5,
+				true,
+				16
+			},
+			{
+				3,
+				4,
+				true,
+				0
+			},
+			{
+				3,
+				3,
+				true,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				0
+			},
+			{
+				3,
+				1,
+				true,
+				0
+			},
+			{
+				3,
+				0,
+				true,
+				0
+			},
+			{
+				2,
+				10,
+				false,
+				0
+			},
+			{
+				2,
+				9,
+				true,
+				6
+			},
+			{
+				2,
+				8,
+				true,
+				0
+			},
+			{
+				2,
+				7,
+				true,
+				6
+			},
+			{
+				2,
+				6,
+				false,
+				0
+			},
+			{
+				2,
+				5,
+				true,
+				0
+			},
+			{
+				2,
+				4,
+				true,
+				6
+			},
+			{
+				2,
+				3,
+				false,
+				0
+			},
+			{
+				2,
+				2,
+				true,
+				1
+			},
+			{
+				2,
+				1,
+				true,
+				0
+			},
+			{
+				2,
+				0,
+				true,
+				1
+			},
+			{
+				1,
+				10,
+				false,
+				0
+			},
+			{
+				1,
+				9,
+				true,
+				6
+			},
+			{
+				1,
+				8,
+				true,
+				0
+			},
+			{
+				1,
+				7,
+				true,
+				0
+			},
+			{
+				1,
+				6,
+				true,
+				0
+			},
+			{
+				1,
+				5,
+				true,
+				6
+			},
+			{
+				1,
+				4,
+				true,
+				0
+			},
+			{
+				1,
+				3,
+				false,
+				0
+			},
+			{
+				1,
+				2,
+				true,
+				0
+			},
+			{
+				1,
+				1,
+				true,
+				0
+			},
+			{
+				1,
+				0,
+				true,
+				0
+			},
+			{
+				0,
+				10,
+				false,
+				0
+			},
+			{
+				0,
+				9,
+				false,
+				0
+			},
+			{
+				0,
+				8,
+				false,
+				0
+			},
+			{
+				0,
+				7,
+				true,
+				8
+			},
+			{
+				0,
+				6,
+				true,
+				8
+			},
+			{
+				0,
+				5,
+				false,
+				0
+			},
+			{
+				0,
+				4,
+				false,
+				0
+			},
+			{
+				0,
+				3,
+				false,
+				0
+			},
+			{
+				0,
+				2,
+				true,
+				0
+			},
+			{
+				0,
+				1,
+				false,
+				0
+			},
+			{
+				0,
+				0,
+				true,
+				0
+			}
+		},
+		float_items = {
+			{
+				6,
+				6,
+				"dexiv3_3x1_1",
+				101,
+				23
+			},
+			{
+				4,
+				2,
+				"dexiv3_2x2_3",
+				71,
+				-7
+			},
+			{
+				4,
+				0,
+				"dexiv3_1x1_2",
+				0,
+				12
+			},
+			{
+				3,
+				7,
+				"dexiv3_1x1_1",
+				0,
+				4
+			},
+			{
+				2,
+				6,
+				"dexiv3_1x1_1",
+				0,
+				6
+			},
+			{
+				1,
+				10,
+				"dexiv3_1x2_2",
+				0,
+				-22
+			},
+			{
+				1,
+				3,
+				"dexiv3_1x2_2",
+				0,
+				-22
+			},
+			{
+				0,
+				8,
+				"dexiv3_3x1_1",
+				95,
+				23
+			},
+			{
+				0,
+				3,
+				"dexiv3_3x1_2",
+				109,
+				24
+			},
+			{
+				0,
+				1,
+				"dexiv3_1x1_3",
+				0,
+				16
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_chongdong",
+			45,
+			20,
+			-145,
+			-270,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			5,
+			22,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {
+			"FUXIANGXIANZUOZHAN24",
+			"FUXIANGXIANZUOZHAN25"
+		},
+		defeat_story_count = {
+			1,
+			4
+		},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {
+			{
+				5,
+				4
+			},
+			{
+				3,
+				2
+			},
+			{
+				1,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {
+			{
+				5,
+				9,
+				13
+			}
+		},
+		chapter_buff = {
+			8806
+		},
+		wall_prefab = {},
+		alarm_cell = {}
+	},
+	[1460006] = {
+		pos_x = "0.67109375",
+		num_3 = 1,
+		progress_boss = 25,
+		oil = 10,
+		is_limit_move = 1,
+		mine_id = 2001,
+		activate_time = 0,
+		story_refresh_boss = "FUXIANGXIANZUOZHAN27",
+		is_ambush = 0,
+		ammo_cost = 1,
+		collection_team = 0,
+		special_operation_list = "",
+		air_dominance = 455,
+		best_air_dominance = 595,
+		id = 1460006,
+		count = 0,
+		icon_outline = 0,
+		bg = "",
+		pre_chapter = 1460005,
+		formation = 1460002,
+		bgm = "battle-executor-type1",
+		chapter_tag = 0,
+		star_require_1 = 1,
+		pos_y = "0.383333333",
+		pop_pic = "",
+		num_1 = 1,
+		model = 2,
+		investigation_ratio = 0,
+		ammo_submarine = 0,
+		num_2 = 30,
+		is_ai = 1,
+		map = 1460002,
+		unlocklevel = 0,
+		chapter_fx = "",
+		uifx = "",
+		name = "夜空之上",
+		chapter_name = "B3",
+		type = 1,
+		act_id = 825,
+		enter_story = "FUXIANGXIANZUOZHAN26",
+		boss_refresh = 5,
+		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
+		friendly_id = 0,
+		mitigation_rate = 2,
+		mitigation_level = 5,
+		ammo_total = 5,
+		group_num = 2,
+		enter_story_limit = "",
+		star_require_3 = 3,
+		profiles = "警告：镜面海域控制系统失效；警告：电子干扰进程中断；警告：隐匿模块失效，本机坐标即将暴露；",
+		difficulty = 7,
+		avoid_ratio = 12,
+		star_require_2 = 2,
+		time = 43200,
+		win_condition_display = "win_condition_display_qijian",
+		submarine_num = 1,
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {},
+		property_limitation = {},
+		expedition_id_weight_list = {
+			{
+				1491201,
+				15,
+				0
+			},
+			{
+				1491202,
+				20,
+				0
+			},
+			{
+				1491203,
+				30,
+				1
+			},
+			{
+				1491204,
+				15,
+				0
+			},
+			{
+				1491205,
+				20,
+				0
+			},
+			{
+				1491206,
+				30,
+				1
+			},
+			{
+				1491207,
+				15,
+				0
+			},
+			{
+				1491208,
+				20,
+				0
+			},
+			{
+				1491209,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {
+			1491205,
+			1491208
+		},
+		ai_expedition_list = {
+			1491308,
+			1491309,
+			1491310
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1491213
+		},
+		enemy_refresh = {
+			0,
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			0
+		},
+		ai_refresh = {
+			2
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"unknown5"
+		},
+		awards = {
+			{
+				2,
+				58093
+			},
+			{
+				2,
+				58081
+			},
+			{
+				2,
+				54012
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				9,
+				9,
+				true,
+				0
+			},
+			{
+				9,
+				8,
+				false,
+				0
+			},
+			{
+				9,
+				7,
+				false,
+				0
+			},
+			{
+				9,
+				6,
+				false,
+				0
+			},
+			{
+				9,
+				5,
+				true,
+				1
+			},
+			{
+				9,
+				4,
+				true,
+				1
+			},
+			{
+				9,
+				3,
+				false,
+				0
+			},
+			{
+				9,
+				2,
+				false,
+				0
+			},
+			{
+				9,
+				1,
+				false,
+				0
+			},
+			{
+				9,
+				0,
+				true,
+				0
+			},
+			{
+				8,
+				9,
+				true,
+				0
+			},
+			{
+				8,
+				8,
+				false,
+				0
+			},
+			{
+				8,
+				7,
+				true,
+				12
+			},
+			{
+				8,
+				6,
+				true,
+				0
+			},
+			{
+				8,
+				5,
+				true,
+				0
+			},
+			{
+				8,
+				4,
+				true,
+				0
+			},
+			{
+				8,
+				3,
+				true,
+				0
+			},
+			{
+				8,
+				2,
+				true,
+				12
+			},
+			{
+				8,
+				1,
+				false,
+				0
+			},
+			{
+				8,
+				0,
+				true,
+				0
+			},
+			{
+				7,
+				9,
+				false,
+				0
+			},
+			{
+				7,
+				8,
+				false,
+				0
+			},
+			{
+				7,
+				7,
+				true,
+				0
+			},
+			{
+				7,
+				6,
+				true,
+				0
+			},
+			{
+				7,
+				5,
+				true,
+				4
+			},
+			{
+				7,
+				4,
+				true,
+				4
+			},
+			{
+				7,
+				3,
+				true,
+				0
+			},
+			{
+				7,
+				2,
+				true,
+				0
+			},
+			{
+				7,
+				1,
+				false,
+				0
+			},
+			{
+				7,
+				0,
+				false,
+				0
+			},
+			{
+				6,
+				9,
+				true,
+				0
+			},
+			{
+				6,
+				8,
+				true,
+				6
+			},
+			{
+				6,
+				7,
+				true,
+				0
+			},
+			{
+				6,
+				6,
+				true,
+				4
+			},
+			{
+				6,
+				5,
+				false,
+				0
+			},
+			{
+				6,
+				4,
+				false,
+				0
+			},
+			{
+				6,
+				3,
+				true,
+				4
+			},
+			{
+				6,
+				2,
+				true,
+				0
+			},
+			{
+				6,
+				1,
+				true,
+				6
+			},
+			{
+				6,
+				0,
+				true,
+				0
+			},
+			{
+				5,
+				9,
+				false,
+				0
+			},
+			{
+				5,
+				8,
+				true,
+				6
+			},
+			{
+				5,
+				7,
+				true,
+				0
+			},
+			{
+				5,
+				6,
+				true,
+				0
+			},
+			{
+				5,
+				5,
+				false,
+				0
+			},
+			{
+				5,
+				4,
+				false,
+				100
+			},
+			{
+				5,
+				3,
+				true,
+				0
+			},
+			{
+				5,
+				2,
+				true,
+				0
+			},
+			{
+				5,
+				1,
+				true,
+				6
+			},
+			{
+				5,
+				0,
+				false,
+				0
+			},
+			{
+				4,
+				9,
+				false,
+				0
+			},
+			{
+				4,
+				8,
+				false,
+				0
+			},
+			{
+				4,
+				7,
+				true,
+				12
+			},
+			{
+				4,
+				6,
+				true,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				16
+			},
+			{
+				4,
+				4,
+				true,
+				16
+			},
+			{
+				4,
+				3,
+				true,
+				0
+			},
+			{
+				4,
+				2,
+				true,
+				12
+			},
+			{
+				4,
+				1,
+				false,
+				0
+			},
+			{
+				4,
+				0,
+				false,
+				0
+			},
+			{
+				3,
+				9,
+				true,
+				0
+			},
+			{
+				3,
+				8,
+				false,
+				0
+			},
+			{
+				3,
+				7,
+				false,
+				0
+			},
+			{
+				3,
+				6,
+				true,
+				6
+			},
+			{
+				3,
+				5,
+				true,
+				0
+			},
+			{
+				3,
+				4,
+				true,
+				0
+			},
+			{
+				3,
+				3,
+				true,
+				6
+			},
+			{
+				3,
+				2,
+				false,
+				0
+			},
+			{
+				3,
+				1,
+				false,
+				0
+			},
+			{
+				3,
+				0,
+				true,
+				0
+			},
+			{
+				2,
+				9,
+				false,
+				0
+			},
+			{
+				2,
+				8,
+				true,
+				0
+			},
+			{
+				2,
+				7,
+				true,
+				0
+			},
+			{
+				2,
+				6,
+				true,
+				6
+			},
+			{
+				2,
+				5,
+				true,
+				0
+			},
+			{
+				2,
+				4,
+				true,
+				0
+			},
+			{
+				2,
+				3,
+				true,
+				6
+			},
+			{
+				2,
+				2,
+				true,
+				0
+			},
+			{
+				2,
+				1,
+				true,
+				0
+			},
+			{
+				2,
+				0,
+				false,
+				0
+			},
+			{
+				1,
+				9,
+				true,
+				0
+			},
+			{
+				1,
+				8,
+				true,
+				0
+			},
+			{
+				1,
+				7,
+				false,
+				0
+			},
+			{
+				1,
+				6,
+				true,
+				0
+			},
+			{
+				1,
+				5,
+				true,
+				8
+			},
+			{
+				1,
+				4,
+				true,
+				8
+			},
+			{
+				1,
+				3,
+				true,
+				0
+			},
+			{
+				1,
+				2,
+				false,
+				0
+			},
+			{
+				1,
+				1,
+				true,
+				0
+			},
+			{
+				1,
+				0,
+				true,
+				0
+			},
+			{
+				0,
+				9,
+				false,
+				0
+			},
+			{
+				0,
+				8,
+				true,
+				0
+			},
+			{
+				0,
+				7,
+				true,
+				0
+			},
+			{
+				0,
+				6,
+				true,
+				6
+			},
+			{
+				0,
+				5,
+				true,
+				0
+			},
+			{
+				0,
+				4,
+				true,
+				0
+			},
+			{
+				0,
+				3,
+				true,
+				6
+			},
+			{
+				0,
+				2,
+				true,
+				0
+			},
+			{
+				0,
+				1,
+				true,
+				0
+			},
+			{
+				0,
+				0,
+				false,
+				0
+			}
+		},
+		float_items = {
+			{
+				9,
+				6,
+				"dexiv3_3x1_1",
+				98,
+				21
+			},
+			{
+				9,
+				1,
+				"dexiv3_3x1_2",
+				109,
+				22
+			},
+			{
+				7,
+				8,
+				"dexiv3_2x2_4",
+				42,
+				-13
+			},
+			{
+				7,
+				0,
+				"dexiv3_2x2_3",
+				63,
+				-8
+			},
+			{
+				5,
+				0,
+				"dexiv3_1x2_2",
+				0,
+				51
+			},
+			{
+				4,
+				9,
+				"dexiv3_1x2_2",
+				0,
+				-18
+			},
+			{
+				3,
+				7,
+				"dexiv3_2x2_3",
+				68,
+				-4
+			},
+			{
+				3,
+				1,
+				"dexiv3_2x2_4",
+				42,
+				-10
+			},
+			{
+				2,
+				9,
+				"dexiv3_1x1_2",
+				0,
+				16
+			},
+			{
+				2,
+				0,
+				"dexiv3_1x1_2",
+				0,
+				16
+			},
+			{
+				1,
+				7,
+				"dexiv3_1x1_1",
+				0,
+				8
+			},
+			{
+				1,
+				2,
+				"dexiv3_1x1_1",
+				0,
+				5
+			},
+			{
+				0,
+				9,
+				"dexiv3_1x1_3",
+				0,
+				19
+			},
+			{
+				0,
+				0,
+				"dexiv3_1x1_3",
+				0,
+				19
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_chongdong",
+			45,
+			20,
+			-291,
+			225,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			5,
+			22,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {
+			"FUXIANGXIANZUOZHAN29",
+			"FUXIANGXIANZUOZHAN30",
+			"FUXIANGXIANZUOZHAN31",
+			"FUXIANGXIANZUOZHAN32",
+			"FUXIANGXIANZUOZHAN33",
+			"FUXIANGXIANZUOZHAN34",
+			"FUXIANGXIANZUOZHAN35"
+		},
+		defeat_story_count = {
+			1,
+			2,
+			4,
+			5,
+			6,
+			7,
+			8
+		},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {
+			{
+				5,
+				4
+			},
+			{
+				3,
+				2
+			},
+			{
+				1,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {
+			{
+				5,
+				4,
+				13
+			}
+		},
+		chapter_buff = {
+			8806
+		},
+		wall_prefab = {},
+		alarm_cell = {}
+	},
+	[1460021] = {
+		pos_x = "0.2515625",
+		num_3 = 1,
+		progress_boss = 34,
+		oil = 10,
+		is_limit_move = 1,
+		mine_id = 2001,
+		activate_time = 0,
+		story_refresh_boss = "FUXIANGXIANZUOZHAN4",
+		is_ambush = 0,
+		ammo_cost = 1,
+		collection_team = 0,
+		special_operation_list = "",
+		air_dominance = 450,
+		best_air_dominance = 585,
+		id = 1460021,
+		count = 0,
+		icon_outline = 0,
+		bg = "",
+		pre_chapter = 0,
+		formation = 1460011,
+		bgm = "story-6",
+		chapter_tag = 0,
+		star_require_1 = 1,
+		pos_y = "0.392708333",
+		pop_pic = "",
+		num_1 = 1,
+		model = 2,
+		investigation_ratio = 0,
+		ammo_submarine = 0,
+		num_2 = 17,
+		is_ai = 1,
+		map = 1460011,
+		unlocklevel = 0,
+		chapter_fx = "",
+		uifx = "",
+		name = "大海葵",
+		chapter_name = "C1",
+		type = 2,
+		act_id = 824,
+		enter_story = "FUXIANGXIANZUOZHAN2",
+		boss_refresh = 4,
+		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
+		friendly_id = 0,
+		mitigation_rate = 2,
+		mitigation_level = 8,
+		ammo_total = 5,
+		group_num = 2,
+		enter_story_limit = "",
+		star_require_3 = 3,
+		profiles = "覆写结束：量产型创建完成——棋子创建完成——塞壬精英创建完成—训练准备完毕；",
+		difficulty = 6,
+		avoid_ratio = 12,
+		star_require_2 = 2,
+		time = 43200,
+		win_condition_display = "win_condition_display_qijian",
+		submarine_num = 1,
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {
+			{
+				{
+					"hang",
+					0,
+					0
+				},
+				{
+					1,
+					2,
+					0
+				}
+			},
+			{
+				{
+					0,
+					0,
+					0
+				},
+				{
+					0,
+					0,
+					0
+				}
+			}
+		},
+		property_limitation = {
+			{
+				"level",
+				1,
+				70
+			},
+			{
+				"cannon",
+				1,
+				700
+			},
+			{
+				"antiaircraft",
+				1,
+				1200
+			}
+		},
+		expedition_id_weight_list = {
+			{
+				1492001,
+				15,
+				0
+			},
+			{
+				1492002,
+				20,
+				0
+			},
+			{
+				1492003,
+				30,
+				1
+			},
+			{
+				1492004,
+				15,
+				0
+			},
+			{
+				1492005,
+				20,
+				0
+			},
+			{
+				1492006,
+				30,
+				1
+			},
+			{
+				1492007,
+				15,
+				0
+			},
+			{
+				1492008,
+				20,
+				0
+			},
+			{
+				1492009,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {
+			1492005,
+			1492008
+		},
+		ai_expedition_list = {
+			1492301,
+			1492302
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1492013
+		},
+		enemy_refresh = {
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			0
+		},
+		ai_refresh = {
+			2
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"sairenhangmu"
+		},
+		awards = {
+			{
+				2,
+				58106
+			},
+			{
+				2,
+				58094
+			},
+			{
+				2,
+				54013
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				6,
+				8,
+				true,
+				0
+			},
+			{
+				6,
+				7,
+				true,
+				0
+			},
+			{
+				6,
+				6,
+				true,
+				0
+			},
+			{
+				6,
+				5,
+				true,
+				0
+			},
+			{
+				6,
+				4,
+				true,
+				0
+			},
+			{
+				6,
+				3,
+				true,
+				0
+			},
+			{
+				6,
+				2,
+				true,
+				0
+			},
+			{
+				6,
+				1,
+				true,
+				0
+			},
+			{
+				6,
+				0,
+				true,
+				0
+			},
+			{
+				5,
+				8,
+				false,
+				0
+			},
+			{
+				5,
+				7,
+				true,
+				6
+			},
+			{
+				5,
+				6,
+				true,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				6
+			},
+			{
+				5,
+				4,
+				true,
+				8
+			},
+			{
+				5,
+				3,
+				true,
+				6
+			},
+			{
+				5,
+				2,
+				true,
+				0
+			},
+			{
+				5,
+				1,
+				true,
+				6
+			},
+			{
+				5,
+				0,
+				false,
+				0
+			},
+			{
+				4,
+				8,
+				false,
+				0
+			},
+			{
+				4,
+				7,
+				false,
+				0
+			},
+			{
+				4,
+				6,
+				true,
+				0
+			},
+			{
+				4,
+				5,
+				false,
+				0
+			},
+			{
+				4,
+				4,
+				false,
+				0
+			},
+			{
+				4,
+				3,
+				false,
+				0
+			},
+			{
+				4,
+				2,
+				true,
+				0
+			},
+			{
+				4,
+				1,
+				false,
+				0
+			},
+			{
+				4,
+				0,
+				false,
+				0
+			},
+			{
+				3,
+				8,
+				true,
+				0
+			},
+			{
+				3,
+				7,
+				true,
+				0
+			},
+			{
+				3,
+				6,
+				true,
+				0
+			},
+			{
+				3,
+				5,
+				true,
+				6
+			},
+			{
+				3,
+				4,
+				true,
+				0
+			},
+			{
+				3,
+				3,
+				true,
+				12
+			},
+			{
+				3,
+				2,
+				true,
+				0
+			},
+			{
+				3,
+				1,
+				true,
+				0
+			},
+			{
+				3,
+				0,
+				true,
+				1
+			},
+			{
+				2,
+				8,
+				true,
+				0
+			},
+			{
+				2,
+				7,
+				true,
+				4
+			},
+			{
+				2,
+				6,
+				true,
+				0
+			},
+			{
+				2,
+				5,
+				true,
+				0
+			},
+			{
+				2,
+				4,
+				true,
+				16
+			},
+			{
+				2,
+				3,
+				true,
+				0
+			},
+			{
+				2,
+				2,
+				true,
+				0
+			},
+			{
+				2,
+				1,
+				true,
+				0
+			},
+			{
+				2,
+				0,
+				true,
+				0
+			},
+			{
+				1,
+				8,
+				false,
+				0
+			},
+			{
+				1,
+				7,
+				false,
+				0
+			},
+			{
+				1,
+				6,
+				true,
+				4
+			},
+			{
+				1,
+				5,
+				true,
+				0
+			},
+			{
+				1,
+				4,
+				true,
+				6
+			},
+			{
+				1,
+				3,
+				false,
+				0
+			},
+			{
+				1,
+				2,
+				true,
+				0
+			},
+			{
+				1,
+				1,
+				true,
+				0
+			},
+			{
+				1,
+				0,
+				true,
+				1
+			},
+			{
+				0,
+				8,
+				false,
+				0
+			},
+			{
+				0,
+				7,
+				false,
+				100
+			},
+			{
+				0,
+				6,
+				true,
+				0
+			},
+			{
+				0,
+				5,
+				true,
+				0
+			},
+			{
+				0,
+				4,
+				true,
+				6
+			},
+			{
+				0,
+				3,
+				true,
+				0
+			},
+			{
+				0,
+				2,
+				true,
+				12
+			},
+			{
+				0,
+				1,
+				true,
+				0
+			},
+			{
+				0,
+				0,
+				false,
+				0
+			}
+		},
+		float_items = {
+			{
+				4,
+				7,
+				"dexiv3_2x2_3",
+				65,
+				-1
+			},
+			{
+				4,
+				3,
+				"dexiv3_3x1_2",
+				110,
+				29
+			},
+			{
+				4,
+				0,
+				"dexiv3_2x2_4",
+				41,
+				-15
+			},
+			{
+				1,
+				3,
+				"dexiv3_1x1_3",
+				0,
+				21
+			},
+			{
+				0,
+				0,
+				"dexiv3_1x1_2",
+				0,
+				22
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_chongdong",
+			45,
+			20,
+			-106,
+			-318,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			7,
+			23,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {
+			"",
+			"",
+			"FUXIANGXIANZUOZHAN3"
+		},
+		defeat_story = {
+			"FUXIANGXIANZUOZHAN6"
+		},
+		defeat_story_count = {
+			3
+		},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {
+			{
+				8,
+				6
+			},
+			{
+				5,
+				3
+			},
+			{
+				2,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {
+			{
+				0,
+				7,
+				13
+			}
+		},
+		chapter_buff = {
+			8809
+		},
+		wall_prefab = {},
+		alarm_cell = {}
+	},
+	[1460022] = {
+		pos_x = "0.38203125",
+		num_3 = 1,
+		progress_boss = 34,
+		oil = 10,
+		is_limit_move = 1,
+		mine_id = 2001,
+		activate_time = 0,
+		story_refresh_boss = "FUXIANGXIANZUOZHAN8",
+		is_ambush = 0,
+		ammo_cost = 1,
+		collection_team = 0,
+		special_operation_list = "",
+		air_dominance = 470,
+		best_air_dominance = 615,
+		id = 1460022,
+		count = 0,
+		icon_outline = 0,
+		bg = "",
+		pre_chapter = 1460021,
+		formation = 1460011,
+		bgm = "story-6",
+		chapter_tag = 0,
+		star_require_1 = 1,
+		pos_y = "0.052083333",
+		pop_pic = "",
+		num_1 = 1,
+		model = 2,
+		investigation_ratio = 0,
+		ammo_submarine = 0,
+		num_2 = 17,
+		is_ai = 1,
+		map = 1460011,
+		unlocklevel = 0,
+		chapter_fx = "",
+		uifx = "",
+		name = "判定基准",
+		chapter_name = "C2",
+		type = 2,
+		act_id = 824,
+		enter_story = "FUXIANGXIANZUOZHAN7",
+		boss_refresh = 4,
+		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
+		friendly_id = 0,
+		mitigation_rate = 2,
+		mitigation_level = 8,
+		ammo_total = 5,
+		group_num = 2,
+		enter_story_limit = "",
+		star_require_3 = 3,
+		profiles = "判定流程：对于联络没有回应——无法正常交流——直接发动攻击—流程确认完毕；",
+		difficulty = 7,
+		avoid_ratio = 13,
+		star_require_2 = 2,
+		time = 43200,
+		win_condition_display = "win_condition_display_qijian",
+		submarine_num = 1,
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {
+			{
+				{
+					"hang",
+					0,
+					0
+				},
+				{
+					1,
+					2,
+					0
+				}
+			},
+			{
+				{
+					0,
+					0,
+					0
+				},
+				{
+					0,
+					0,
+					0
+				}
+			}
+		},
+		property_limitation = {
+			{
+				"level",
+				1,
+				80
+			},
+			{
+				"cannon",
+				1,
+				800
+			},
+			{
+				"reload",
+				1,
+				800
+			}
+		},
+		expedition_id_weight_list = {
+			{
+				1492101,
+				15,
+				0
+			},
+			{
+				1492102,
+				20,
+				0
+			},
+			{
+				1492103,
+				30,
+				1
+			},
+			{
+				1492104,
+				15,
+				0
+			},
+			{
+				1492105,
+				20,
+				0
+			},
+			{
+				1492106,
+				30,
+				1
+			},
+			{
+				1492107,
+				15,
+				0
+			},
+			{
+				1492108,
+				20,
+				0
+			},
+			{
+				1492109,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {
+			1492105,
+			1492108
+		},
+		ai_expedition_list = {
+			1492303,
+			1492304,
+			1492305
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1492113
+		},
+		enemy_refresh = {
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			0
+		},
+		ai_refresh = {
+			2
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"qiaozhiwushi"
+		},
+		awards = {
+			{
+				2,
+				58107
+			},
+			{
+				2,
+				58095
+			},
+			{
+				2,
+				54013
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				5,
+				9,
+				false,
+				0
+			},
+			{
+				5,
+				8,
+				true,
+				0
+			},
+			{
+				5,
+				7,
+				true,
+				6
+			},
+			{
+				5,
+				6,
+				true,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				0
+			},
+			{
+				5,
+				4,
+				true,
+				0
+			},
+			{
+				5,
+				3,
+				false,
+				0
+			},
+			{
+				5,
+				2,
+				false,
+				0
+			},
+			{
+				5,
+				1,
+				true,
+				0
+			},
+			{
+				5,
+				0,
+				true,
+				0
+			},
+			{
+				4,
+				9,
+				true,
+				0
+			},
+			{
+				4,
+				8,
+				true,
+				6
+			},
+			{
+				4,
+				7,
+				true,
+				0
+			},
+			{
+				4,
+				6,
+				true,
+				0
+			},
+			{
+				4,
+				5,
+				false,
+				0
+			},
+			{
+				4,
+				4,
+				true,
+				4
+			},
+			{
+				4,
+				3,
+				false,
+				0
+			},
+			{
+				4,
+				2,
+				false,
+				100
+			},
+			{
+				4,
+				1,
+				true,
+				4
+			},
+			{
+				4,
+				0,
+				true,
+				0
+			},
+			{
+				3,
+				9,
+				true,
+				8
+			},
+			{
+				3,
+				8,
+				true,
+				0
+			},
+			{
+				3,
+				7,
+				true,
+				16
+			},
+			{
+				3,
+				6,
+				true,
+				6
+			},
+			{
+				3,
+				5,
+				false,
+				0
+			},
+			{
+				3,
+				4,
+				true,
+				0
+			},
+			{
+				3,
+				3,
+				true,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				0
+			},
+			{
+				3,
+				1,
+				true,
+				0
+			},
+			{
+				3,
+				0,
+				true,
+				6
+			},
+			{
+				2,
+				9,
+				true,
+				0
+			},
+			{
+				2,
+				8,
+				true,
+				6
+			},
+			{
+				2,
+				7,
+				true,
+				0
+			},
+			{
+				2,
+				6,
+				true,
+				0
+			},
+			{
+				2,
+				5,
+				true,
+				12
+			},
+			{
+				2,
+				4,
+				true,
+				0
+			},
+			{
+				2,
+				3,
+				false,
+				0
+			},
+			{
+				2,
+				2,
+				true,
+				12
+			},
+			{
+				2,
+				1,
+				true,
+				0
+			},
+			{
+				2,
+				0,
+				true,
+				6
+			},
+			{
+				1,
+				9,
+				false,
+				0
+			},
+			{
+				1,
+				8,
+				true,
+				0
+			},
+			{
+				1,
+				7,
+				true,
+				6
+			},
+			{
+				1,
+				6,
+				true,
+				0
+			},
+			{
+				1,
+				5,
+				true,
+				0
+			},
+			{
+				1,
+				4,
+				true,
+				0
+			},
+			{
+				1,
+				3,
+				true,
+				0
+			},
+			{
+				1,
+				2,
+				true,
+				0
+			},
+			{
+				1,
+				1,
+				true,
+				0
+			},
+			{
+				1,
+				0,
+				false,
+				0
+			},
+			{
+				0,
+				9,
+				false,
+				0
+			},
+			{
+				0,
+				8,
+				false,
+				0
+			},
+			{
+				0,
+				7,
+				true,
+				0
+			},
+			{
+				0,
+				6,
+				false,
+				0
+			},
+			{
+				0,
+				5,
+				true,
+				0
+			},
+			{
+				0,
+				4,
+				true,
+				0
+			},
+			{
+				0,
+				3,
+				true,
+				1
+			},
+			{
+				0,
+				2,
+				true,
+				0
+			},
+			{
+				0,
+				1,
+				true,
+				1
+			},
+			{
+				0,
+				0,
+				false,
+				0
+			}
+		},
+		float_items = {
+			{
+				5,
+				9,
+				"dexiv3_1x1_1",
+				0,
+				4
+			},
+			{
+				3,
+				5,
+				"dexiv3_1x2_2",
+				0,
+				-26
+			},
+			{
+				2,
+				3,
+				"dexiv3_1x1_2",
+				0,
+				19
+			},
+			{
+				0,
+				8,
+				"dexiv3_2x2_3",
+				76,
+				-7
+			},
+			{
+				0,
+				6,
+				"dexiv3_1x1_1",
+				0,
+				10
+			},
+			{
+				0,
+				0,
+				"dexiv3_1x2_1",
+				-2,
+				-18
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_chongdong",
+			45,
+			20,
+			-195,
+			-371,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			7,
+			23,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {
+			"FUXIANGXIANZUOZHAN9"
+		},
+		defeat_story_count = {
+			3
+		},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {
+			{
+				8,
+				6
+			},
+			{
+				5,
+				3
+			},
+			{
+				2,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {
+			{
+				4,
+				2,
+				13
+			}
+		},
+		chapter_buff = {
+			8809
+		},
+		wall_prefab = {},
+		alarm_cell = {}
+	},
+	[1460023] = {
+		pos_x = "0.665625",
+		num_3 = 1,
+		progress_boss = 25,
+		oil = 10,
+		is_limit_move = 1,
+		mine_id = 2001,
+		activate_time = 0,
+		story_refresh_boss = "",
+		is_ambush = 0,
+		ammo_cost = 1,
+		collection_team = 0,
+		special_operation_list = "",
+		air_dominance = 685,
+		best_air_dominance = 895,
+		id = 1460023,
+		count = 0,
+		icon_outline = 0,
+		bg = "",
+		pre_chapter = 1460022,
+		formation = 1460011,
+		bgm = "story-6",
+		chapter_tag = 0,
+		star_require_1 = 1,
+		pos_y = "0.344791667",
+		pop_pic = "",
+		num_1 = 1,
+		model = 2,
+		investigation_ratio = 0,
+		ammo_submarine = 0,
+		num_2 = 21,
+		is_ai = 1,
+		map = 1460011,
+		unlocklevel = 0,
+		chapter_fx = "",
+		uifx = "",
+		name = "不受控",
+		chapter_name = "C3",
+		type = 2,
+		act_id = 824,
+		enter_story = "FUXIANGXIANZUOZHAN10",
+		boss_refresh = 5,
+		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
+		friendly_id = 0,
+		mitigation_rate = 2,
+		mitigation_level = 8,
+		ammo_total = 5,
+		group_num = 2,
+		enter_story_limit = "",
+		star_require_3 = 3,
+		profiles = "战场环境：铁血舰队行动异常——重樱舰队行动异常——撒丁帝国舰队行动异常—实弹装填完毕；",
+		difficulty = 8,
+		avoid_ratio = 14,
+		star_require_2 = 2,
+		time = 43200,
+		win_condition_display = "win_condition_display_qijian",
+		submarine_num = 1,
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {
+			{
+				{
+					"hang",
+					0,
+					0
+				},
+				{
+					1,
+					2,
+					0
+				}
+			},
+			{
+				{
+					0,
+					0,
+					0
+				},
+				{
+					0,
+					0,
+					0
+				}
+			}
+		},
+		property_limitation = {
+			{
+				"level",
+				1,
+				80
+			},
+			{
+				"cannon",
+				1,
+				1100
+			},
+			{
+				"antiaircraft",
+				1,
+				1750
+			}
+		},
+		expedition_id_weight_list = {
+			{
+				1492201,
+				15,
+				0
+			},
+			{
+				1492202,
+				20,
+				0
+			},
+			{
+				1492203,
+				30,
+				1
+			},
+			{
+				1492204,
+				15,
+				0
+			},
+			{
+				1492205,
+				20,
+				0
+			},
+			{
+				1492206,
+				30,
+				1
+			},
+			{
+				1492207,
+				15,
+				0
+			},
+			{
+				1492208,
+				20,
+				0
+			},
+			{
+				1492209,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {
+			1492205,
+			1492208
+		},
+		ai_expedition_list = {
+			1492306,
+			1492307,
+			1492308,
+			1492309
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1492213
+		},
+		enemy_refresh = {
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			0
+		},
+		ai_refresh = {
+			2
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"ruihe"
+		},
+		awards = {
+			{
+				2,
+				58108
+			},
+			{
+				2,
+				58096
+			},
+			{
+				2,
+				54013
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				5,
+				9,
+				true,
+				0
+			},
+			{
+				5,
+				8,
+				true,
+				6
+			},
+			{
+				5,
+				7,
+				true,
+				0
+			},
+			{
+				5,
+				6,
+				true,
+				0
+			},
+			{
+				5,
+				5,
+				false,
+				0
+			},
+			{
+				5,
+				4,
+				false,
+				0
+			},
+			{
+				5,
+				3,
+				false,
+				0
+			},
+			{
+				5,
+				2,
+				true,
+				0
+			},
+			{
+				5,
+				1,
+				true,
+				1
+			},
+			{
+				5,
+				0,
+				true,
+				0
+			},
+			{
+				4,
+				9,
+				true,
+				0
+			},
+			{
+				4,
+				8,
+				false,
+				0
+			},
+			{
+				4,
+				7,
+				true,
+				6
+			},
+			{
+				4,
+				6,
+				true,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				6
+			},
+			{
+				4,
+				4,
+				true,
+				6
+			},
+			{
+				4,
+				3,
+				true,
+				12
+			},
+			{
+				4,
+				2,
+				true,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				0
+			},
+			{
+				4,
+				0,
+				true,
+				1
+			},
+			{
+				3,
+				9,
+				true,
+				6
+			},
+			{
+				3,
+				8,
+				false,
+				0
+			},
+			{
+				3,
+				7,
+				false,
+				0
+			},
+			{
+				3,
+				6,
+				true,
+				16
+			},
+			{
+				3,
+				5,
+				true,
+				0
+			},
+			{
+				3,
+				4,
+				true,
+				0
+			},
+			{
+				3,
+				3,
+				true,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				0
+			},
+			{
+				3,
+				1,
+				true,
+				0
+			},
+			{
+				3,
+				0,
+				false,
+				0
+			},
+			{
+				2,
+				9,
+				true,
+				0
+			},
+			{
+				2,
+				8,
+				true,
+				0
+			},
+			{
+				2,
+				7,
+				true,
+				0
+			},
+			{
+				2,
+				6,
+				true,
+				0
+			},
+			{
+				2,
+				5,
+				true,
+				8
+			},
+			{
+				2,
+				4,
+				true,
+				8
+			},
+			{
+				2,
+				3,
+				true,
+				0
+			},
+			{
+				2,
+				2,
+				true,
+				0
+			},
+			{
+				2,
+				1,
+				true,
+				12
+			},
+			{
+				2,
+				0,
+				false,
+				0
+			},
+			{
+				1,
+				9,
+				true,
+				6
+			},
+			{
+				1,
+				8,
+				true,
+				6
+			},
+			{
+				1,
+				7,
+				true,
+				0
+			},
+			{
+				1,
+				6,
+				true,
+				4
+			},
+			{
+				1,
+				5,
+				false,
+				0
+			},
+			{
+				1,
+				4,
+				false,
+				0
+			},
+			{
+				1,
+				3,
+				true,
+				4
+			},
+			{
+				1,
+				2,
+				true,
+				0
+			},
+			{
+				1,
+				1,
+				false,
+				0
+			},
+			{
+				1,
+				0,
+				true,
+				0
+			},
+			{
+				0,
+				9,
+				false,
+				0
+			},
+			{
+				0,
+				8,
+				false,
+				0
+			},
+			{
+				0,
+				7,
+				false,
+				0
+			},
+			{
+				0,
+				6,
+				true,
+				0
+			},
+			{
+				0,
+				5,
+				false,
+				0
+			},
+			{
+				0,
+				4,
+				false,
+				100
+			},
+			{
+				0,
+				3,
+				true,
+				0
+			},
+			{
+				0,
+				2,
+				true,
+				6
+			},
+			{
+				0,
+				1,
+				true,
+				0
+			},
+			{
+				0,
+				0,
+				true,
+				0
+			}
+		},
+		float_items = {
+			{
+				5,
+				3,
+				"dexiv3_3x1_2",
+				106,
+				27
+			},
+			{
+				3,
+				7,
+				"dexiv3_2x2_3",
+				65,
+				-11
+			},
+			{
+				2,
+				0,
+				"dexiv3_1x2_2",
+				0,
+				-27
+			},
+			{
+				1,
+				1,
+				"dexiv3_1x1_1",
+				0,
+				7
+			},
+			{
+				0,
+				7,
+				"dexiv3_3x1_1",
+				92,
+				26
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_chongdong",
+			45,
+			20,
+			-135,
+			-197,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			7,
+			23,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {
+			"",
+			"",
+			"FUXIANGXIANZUOZHAN11"
+		},
+		defeat_story = {
+			"FUXIANGXIANZUOZHAN14"
+		},
+		defeat_story_count = {
+			4
+		},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {
+			{
+				8,
+				6
+			},
+			{
+				5,
+				3
+			},
+			{
+				2,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {
+			{
+				0,
+				4,
+				13
+			}
+		},
+		chapter_buff = {
+			8809
+		},
+		wall_prefab = {},
+		alarm_cell = {}
+	},
+	[1460024] = {
+		pos_x = "0.14609375",
+		num_3 = 1,
+		progress_boss = 25,
+		oil = 10,
+		is_limit_move = 1,
+		mine_id = 2001,
+		activate_time = 0,
+		story_refresh_boss = "FUXIANGXIANZUOZHAN17",
+		is_ambush = 0,
+		ammo_cost = 1,
+		collection_team = 0,
+		special_operation_list = "",
+		air_dominance = 730,
+		best_air_dominance = 950,
+		id = 1460024,
+		count = 0,
+		icon_outline = 0,
+		bg = "",
+		pre_chapter = 1460023,
+		formation = 1460012,
+		bgm = "battle-executor-type1",
+		chapter_tag = 0,
+		star_require_1 = 1,
+		pos_y = "0.380208333",
+		pop_pic = "",
+		num_1 = 1,
+		model = 2,
+		investigation_ratio = 0,
+		ammo_submarine = 0,
+		num_2 = 35,
+		is_ai = 1,
+		map = 1460012,
+		unlocklevel = 0,
+		chapter_fx = "",
+		uifx = "",
+		name = "观光者",
+		chapter_name = "D1",
+		type = 2,
+		act_id = 825,
+		enter_story = "FUXIANGXIANZUOZHAN16",
+		boss_refresh = 5,
+		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
+		friendly_id = 0,
+		mitigation_rate = 2,
+		mitigation_level = 8,
+		ammo_total = 5,
+		group_num = 2,
+		enter_story_limit = "",
+		star_require_3 = 3,
+		profiles = "状态更新：铁血舰队正在接近——撒丁帝国舰队正在接近——重樱舰队已经交火—干扰频率调整中；",
+		difficulty = 8,
+		avoid_ratio = 14,
+		star_require_2 = 2,
+		time = 43200,
+		win_condition_display = "win_condition_display_qijian",
+		submarine_num = 1,
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {
+			{
+				{
+					"hang",
+					0,
+					0
+				},
+				{
+					2,
+					1,
+					0
+				}
+			},
+			{
+				{
+					5,
+					0,
+					0
+				},
+				{
+					3,
+					1,
+					0
+				}
+			}
+		},
+		property_limitation = {
+			{
+				"level",
+				1,
+				90
+			},
+			{
+				"air",
+				1,
+				1200
+			},
+			{
+				"antisub",
+				1,
+				500
+			}
+		},
+		expedition_id_weight_list = {
+			{
+				1493001,
+				15,
+				0
+			},
+			{
+				1493002,
+				20,
+				0
+			},
+			{
+				1493003,
+				30,
+				1
+			},
+			{
+				1493004,
+				15,
+				0
+			},
+			{
+				1493005,
+				20,
+				0
+			},
+			{
+				1493006,
+				30,
+				1
+			},
+			{
+				1493007,
+				15,
+				0
+			},
+			{
+				1493008,
+				20,
+				0
+			},
+			{
+				1493009,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {
+			1493005,
+			1493008
+		},
+		ai_expedition_list = {
+			1493301,
+			1493302,
+			1493303
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1493013
+		},
+		enemy_refresh = {
+			1,
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			0
+		},
+		ai_refresh = {
+			2
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"niulunbao"
+		},
+		awards = {
+			{
+				2,
+				58109
+			},
+			{
+				2,
+				58097
+			},
+			{
+				2,
+				54013
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				7,
+				8,
+				true,
+				0
+			},
+			{
+				7,
+				7,
+				true,
+				6
+			},
+			{
+				7,
+				6,
+				true,
+				0
+			},
+			{
+				7,
+				5,
+				true,
+				6
+			},
+			{
+				7,
+				4,
+				false,
+				0
+			},
+			{
+				7,
+				3,
+				true,
+				0
+			},
+			{
+				7,
+				2,
+				true,
+				1
+			},
+			{
+				7,
+				1,
+				true,
+				0
+			},
+			{
+				7,
+				0,
+				false,
+				0
+			},
+			{
+				6,
+				8,
+				true,
+				6
+			},
+			{
+				6,
+				7,
+				true,
+				0
+			},
+			{
+				6,
+				6,
+				true,
+				0
+			},
+			{
+				6,
+				5,
+				true,
+				0
+			},
+			{
+				6,
+				4,
+				true,
+				12
+			},
+			{
+				6,
+				3,
+				true,
+				0
+			},
+			{
+				6,
+				2,
+				true,
+				1
+			},
+			{
+				6,
+				1,
+				true,
+				0
+			},
+			{
+				6,
+				0,
+				false,
+				0
+			},
+			{
+				5,
+				8,
+				true,
+				0
+			},
+			{
+				5,
+				7,
+				true,
+				6
+			},
+			{
+				5,
+				6,
+				false,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				0
+			},
+			{
+				5,
+				4,
+				true,
+				0
+			},
+			{
+				5,
+				3,
+				true,
+				0
+			},
+			{
+				5,
+				2,
+				false,
+				0
+			},
+			{
+				5,
+				1,
+				false,
+				0
+			},
+			{
+				5,
+				0,
+				false,
+				0
+			},
+			{
+				4,
+				8,
+				true,
+				6
+			},
+			{
+				4,
+				7,
+				false,
+				0
+			},
+			{
+				4,
+				6,
+				false,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				12
+			},
+			{
+				4,
+				4,
+				true,
+				16
+			},
+			{
+				4,
+				3,
+				true,
+				0
+			},
+			{
+				4,
+				2,
+				true,
+				12
+			},
+			{
+				4,
+				1,
+				true,
+				0
+			},
+			{
+				4,
+				0,
+				true,
+				0
+			},
+			{
+				3,
+				8,
+				true,
+				0
+			},
+			{
+				3,
+				7,
+				true,
+				0
+			},
+			{
+				3,
+				6,
+				true,
+				6
+			},
+			{
+				3,
+				5,
+				true,
+				0
+			},
+			{
+				3,
+				4,
+				true,
+				0
+			},
+			{
+				3,
+				3,
+				true,
+				4
+			},
+			{
+				3,
+				2,
+				true,
+				0
+			},
+			{
+				3,
+				1,
+				true,
+				4
+			},
+			{
+				3,
+				0,
+				true,
+				0
+			},
+			{
+				2,
+				8,
+				true,
+				8
+			},
+			{
+				2,
+				7,
+				true,
+				0
+			},
+			{
+				2,
+				6,
+				true,
+				0
+			},
+			{
+				2,
+				5,
+				true,
+				0
+			},
+			{
+				2,
+				4,
+				false,
+				0
+			},
+			{
+				2,
+				3,
+				true,
+				0
+			},
+			{
+				2,
+				2,
+				false,
+				0
+			},
+			{
+				2,
+				1,
+				false,
+				0
+			},
+			{
+				2,
+				0,
+				false,
+				0
+			},
+			{
+				1,
+				8,
+				true,
+				0
+			},
+			{
+				1,
+				7,
+				true,
+				0
+			},
+			{
+				1,
+				6,
+				true,
+				6
+			},
+			{
+				1,
+				5,
+				true,
+				0
+			},
+			{
+				1,
+				4,
+				true,
+				0
+			},
+			{
+				1,
+				3,
+				true,
+				4
+			},
+			{
+				1,
+				2,
+				false,
+				0
+			},
+			{
+				1,
+				1,
+				false,
+				100
+			},
+			{
+				1,
+				0,
+				true,
+				0
+			},
+			{
+				0,
+				8,
+				false,
+				0
+			},
+			{
+				0,
+				7,
+				false,
+				0
+			},
+			{
+				0,
+				6,
+				false,
+				0
+			},
+			{
+				0,
+				5,
+				true,
+				6
+			},
+			{
+				0,
+				4,
+				true,
+				0
+			},
+			{
+				0,
+				3,
+				true,
+				0
+			},
+			{
+				0,
+				2,
+				false,
+				0
+			},
+			{
+				0,
+				1,
+				true,
+				0
+			},
+			{
+				0,
+				0,
+				true,
+				0
+			}
+		},
+		float_items = {
+			{
+				7,
+				4,
+				"dexiv3_1x1_3",
+				0,
+				15
+			},
+			{
+				6,
+				0,
+				"dexiv3_1x2_2",
+				-10,
+				-24
+			},
+			{
+				5,
+				0,
+				"dexiv3_3x1_1",
+				94,
+				25
+			},
+			{
+				4,
+				6,
+				"dexiv3_2x2_4",
+				43,
+				-2
+			},
+			{
+				2,
+				4,
+				"dexiv3_1x1_2",
+				0,
+				19
+			},
+			{
+				2,
+				0,
+				"dexiv3_1x1_1",
+				0,
+				7
+			},
+			{
+				0,
+				6,
+				"dexiv3_3x1_2",
+				109,
+				29
+			},
+			{
+				0,
+				2,
+				"dexiv3_1x1_1",
+				0,
+				12
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_bisimai",
+			45,
+			20,
+			-200,
+			10,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			9,
+			23,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {
+			"FUXIANGXIANZUOZHAN20"
+		},
+		defeat_story_count = {
+			4
+		},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {
+			{
+				8,
+				6
+			},
+			{
+				5,
+				3
+			},
+			{
+				2,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {
+			{
+				1,
+				1,
+				13
+			}
+		},
+		chapter_buff = {
+			8812
+		},
+		wall_prefab = {},
+		alarm_cell = {}
+	},
+	[1460025] = {
+		pos_x = "0.28671875",
+		num_3 = 1,
+		progress_boss = 20,
+		oil = 10,
+		is_limit_move = 1,
+		mine_id = 2001,
+		activate_time = 0,
+		story_refresh_boss = "FUXIANGXIANZUOZHAN22",
+		is_ambush = 0,
+		ammo_cost = 1,
+		collection_team = 0,
+		special_operation_list = "",
+		air_dominance = 930,
+		best_air_dominance = 1210,
+		id = 1460025,
+		count = 0,
+		icon_outline = 0,
+		bg = "",
+		pre_chapter = 1460024,
+		formation = 1460012,
+		bgm = "battle-executor-type1",
+		chapter_tag = 0,
+		star_require_1 = 1,
+		pos_y = "0.122916667",
+		pop_pic = "",
+		num_1 = 1,
+		model = 2,
+		investigation_ratio = 0,
+		ammo_submarine = 0,
+		num_2 = 40,
+		is_ai = 1,
+		map = 1460012,
+		unlocklevel = 0,
+		chapter_fx = "",
+		uifx = "",
+		name = "攻击波",
+		chapter_name = "D2",
+		type = 2,
+		act_id = 825,
+		enter_story = "FUXIANGXIANZUOZHAN21",
+		boss_refresh = 6,
+		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
+		friendly_id = 0,
+		mitigation_rate = 2,
+		mitigation_level = 8,
+		ammo_total = 5,
+		group_num = 2,
+		enter_story_limit = "",
+		star_require_3 = 3,
+		profiles = "状态修正：A1至A3浮岛控制权限丧失——B1至B3浮岛控制权限丧失——中央系统控制权限正常—系统锁定中；",
+		difficulty = 9,
+		avoid_ratio = 15,
+		star_require_2 = 2,
+		time = 43200,
+		win_condition_display = "win_condition_display_qijian",
+		submarine_num = 1,
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {
+			{
+				{
+					"hang",
+					0,
+					0
+				},
+				{
+					2,
+					1,
+					0
+				}
+			},
+			{
+				{
+					5,
+					0,
+					0
+				},
+				{
+					3,
+					1,
+					0
+				}
+			}
+		},
+		property_limitation = {
+			{
+				"level",
+				1,
+				95
+			},
+			{
+				"air",
+				1,
+				1350
+			},
+			{
+				"dodge",
+				1,
+				650
+			}
+		},
+		expedition_id_weight_list = {
+			{
+				1493101,
+				15,
+				0
+			},
+			{
+				1493102,
+				20,
+				0
+			},
+			{
+				1493103,
+				30,
+				1
+			},
+			{
+				1493104,
+				15,
+				0
+			},
+			{
+				1493105,
+				20,
+				0
+			},
+			{
+				1493106,
+				30,
+				1
+			},
+			{
+				1493107,
+				15,
+				0
+			},
+			{
+				1493108,
+				20,
+				0
+			},
+			{
+				1493109,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {
+			1493105,
+			1493108
+		},
+		ai_expedition_list = {
+			1493304,
+			1493305,
+			1493306,
+			1493307
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1493113
+		},
+		enemy_refresh = {
+			1,
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			0
+		},
+		ai_refresh = {
+			2,
+			0,
+			1
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"ougen"
+		},
+		awards = {
+			{
+				2,
+				58110
+			},
+			{
+				2,
+				58098
+			},
+			{
+				2,
+				54013
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				6,
+				10,
+				false,
+				0
+			},
+			{
+				6,
+				9,
+				false,
+				0
+			},
+			{
+				6,
+				8,
+				false,
+				0
+			},
+			{
+				6,
+				7,
+				false,
+				0
+			},
+			{
+				6,
+				6,
+				false,
+				0
+			},
+			{
+				6,
+				5,
+				true,
+				6
+			},
+			{
+				6,
+				4,
+				true,
+				0
+			},
+			{
+				6,
+				3,
+				true,
+				6
+			},
+			{
+				6,
+				2,
+				true,
+				0
+			},
+			{
+				6,
+				1,
+				true,
+				12
+			},
+			{
+				6,
+				0,
+				true,
+				0
+			},
+			{
+				5,
+				10,
+				false,
+				0
+			},
+			{
+				5,
+				9,
+				false,
+				100
+			},
+			{
+				5,
+				8,
+				true,
+				4
+			},
+			{
+				5,
+				7,
+				true,
+				0
+			},
+			{
+				5,
+				6,
+				true,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				0
+			},
+			{
+				5,
+				4,
+				true,
+				0
+			},
+			{
+				5,
+				3,
+				false,
+				0
+			},
+			{
+				5,
+				2,
+				true,
+				12
+			},
+			{
+				5,
+				1,
+				true,
+				0
+			},
+			{
+				5,
+				0,
+				true,
+				12
+			},
+			{
+				4,
+				10,
+				true,
+				4
+			},
+			{
+				4,
+				9,
+				true,
+				4
+			},
+			{
+				4,
+				8,
+				true,
+				0
+			},
+			{
+				4,
+				7,
+				true,
+				0
+			},
+			{
+				4,
+				6,
+				true,
+				6
+			},
+			{
+				4,
+				5,
+				true,
+				0
+			},
+			{
+				4,
+				4,
+				true,
+				6
+			},
+			{
+				4,
+				3,
+				false,
+				0
+			},
+			{
+				4,
+				2,
+				false,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				0
+			},
+			{
+				4,
+				0,
+				false,
+				0
+			},
+			{
+				3,
+				10,
+				true,
+				0
+			},
+			{
+				3,
+				9,
+				true,
+				0
+			},
+			{
+				3,
+				8,
+				true,
+				0
+			},
+			{
+				3,
+				7,
+				false,
+				0
+			},
+			{
+				3,
+				6,
+				true,
+				0
+			},
+			{
+				3,
+				5,
+				true,
+				16
+			},
+			{
+				3,
+				4,
+				true,
+				0
+			},
+			{
+				3,
+				3,
+				true,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				0
+			},
+			{
+				3,
+				1,
+				true,
+				0
+			},
+			{
+				3,
+				0,
+				true,
+				0
+			},
+			{
+				2,
+				10,
+				false,
+				0
+			},
+			{
+				2,
+				9,
+				true,
+				6
+			},
+			{
+				2,
+				8,
+				true,
+				0
+			},
+			{
+				2,
+				7,
+				true,
+				6
+			},
+			{
+				2,
+				6,
+				false,
+				0
+			},
+			{
+				2,
+				5,
+				true,
+				0
+			},
+			{
+				2,
+				4,
+				true,
+				6
+			},
+			{
+				2,
+				3,
+				false,
+				0
+			},
+			{
+				2,
+				2,
+				true,
+				1
+			},
+			{
+				2,
+				1,
+				true,
+				0
+			},
+			{
+				2,
+				0,
+				true,
+				1
+			},
+			{
+				1,
+				10,
+				false,
+				0
+			},
+			{
+				1,
+				9,
+				true,
+				6
+			},
+			{
+				1,
+				8,
+				true,
+				0
+			},
+			{
+				1,
+				7,
+				true,
+				0
+			},
+			{
+				1,
+				6,
+				true,
+				0
+			},
+			{
+				1,
+				5,
+				true,
+				6
+			},
+			{
+				1,
+				4,
+				true,
+				0
+			},
+			{
+				1,
+				3,
+				false,
+				0
+			},
+			{
+				1,
+				2,
+				true,
+				0
+			},
+			{
+				1,
+				1,
+				true,
+				0
+			},
+			{
+				1,
+				0,
+				true,
+				0
+			},
+			{
+				0,
+				10,
+				false,
+				0
+			},
+			{
+				0,
+				9,
+				false,
+				0
+			},
+			{
+				0,
+				8,
+				false,
+				0
+			},
+			{
+				0,
+				7,
+				true,
+				8
+			},
+			{
+				0,
+				6,
+				true,
+				8
+			},
+			{
+				0,
+				5,
+				false,
+				0
+			},
+			{
+				0,
+				4,
+				false,
+				0
+			},
+			{
+				0,
+				3,
+				false,
+				0
+			},
+			{
+				0,
+				2,
+				true,
+				0
+			},
+			{
+				0,
+				1,
+				false,
+				0
+			},
+			{
+				0,
+				0,
+				true,
+				0
+			}
+		},
+		float_items = {
+			{
+				6,
+				6,
+				"dexiv3_3x1_1",
+				101,
+				23
+			},
+			{
+				4,
+				2,
+				"dexiv3_2x2_3",
+				71,
+				-7
+			},
+			{
+				4,
+				0,
+				"dexiv3_1x1_2",
+				0,
+				12
+			},
+			{
+				3,
+				7,
+				"dexiv3_1x1_1",
+				0,
+				4
+			},
+			{
+				2,
+				6,
+				"dexiv3_1x1_1",
+				0,
+				6
+			},
+			{
+				1,
+				10,
+				"dexiv3_1x2_2",
+				0,
+				-22
+			},
+			{
+				1,
+				3,
+				"dexiv3_1x2_2",
+				0,
+				-22
+			},
+			{
+				0,
+				8,
+				"dexiv3_3x1_1",
+				95,
+				23
+			},
+			{
+				0,
+				3,
+				"dexiv3_3x1_2",
+				109,
+				24
+			},
+			{
+				0,
+				1,
+				"dexiv3_1x1_3",
+				0,
+				16
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_bisimai",
+			45,
+			20,
+			-145,
+			-270,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			9,
+			23,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {
+			"FUXIANGXIANZUOZHAN24",
+			"FUXIANGXIANZUOZHAN25"
+		},
+		defeat_story_count = {
+			1,
+			5
+		},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {
+			{
+				8,
+				6
+			},
+			{
+				5,
+				3
+			},
+			{
+				2,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {
+			{
+				5,
+				9,
+				13
+			}
+		},
+		chapter_buff = {
+			8812
+		},
+		wall_prefab = {},
+		alarm_cell = {}
+	},
+	[1460026] = {
+		pos_x = "0.67109375",
+		num_3 = 1,
+		progress_boss = 20,
+		oil = 10,
+		is_limit_move = 1,
+		mine_id = 2001,
+		activate_time = 0,
+		story_refresh_boss = "FUXIANGXIANZUOZHAN27",
+		is_ambush = 0,
+		ammo_cost = 1,
+		collection_team = 0,
+		special_operation_list = "",
+		air_dominance = 1350,
+		best_air_dominance = 1755,
+		id = 1460026,
+		count = 0,
+		icon_outline = 0,
+		bg = "",
+		pre_chapter = 1460025,
+		formation = 1460012,
+		bgm = "battle-executor-type1",
+		chapter_tag = 0,
+		star_require_1 = 1,
+		pos_y = "0.35625",
+		pop_pic = "",
+		num_1 = 1,
+		model = 2,
+		investigation_ratio = 0,
+		ammo_submarine = 0,
+		num_2 = 40,
+		is_ai = 1,
+		map = 1460012,
+		unlocklevel = 0,
+		chapter_fx = "",
+		uifx = "",
+		name = "夜空之上",
+		chapter_name = "D3",
+		type = 2,
+		act_id = 825,
+		enter_story = "FUXIANGXIANZUOZHAN26",
+		boss_refresh = 6,
+		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
+		friendly_id = 0,
+		mitigation_rate = 2,
+		mitigation_level = 8,
+		ammo_total = 5,
+		group_num = 2,
+		enter_story_limit = "",
+		star_require_3 = 3,
+		profiles = "警告：镜面海域控制系统失效；警告：电子干扰进程中断；警告：隐匿模块失效，本机坐标即将暴露；",
+		difficulty = 10,
+		avoid_ratio = 16,
+		star_require_2 = 2,
+		time = 43200,
+		win_condition_display = "win_condition_display_qijian",
+		submarine_num = 1,
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {
+			{
+				{
+					"hang",
+					0,
+					0
+				},
+				{
+					2,
+					1,
+					0
+				}
+			},
+			{
+				{
+					5,
+					0,
+					0
+				},
+				{
+					3,
+					1,
+					0
+				}
+			}
+		},
+		property_limitation = {
+			{
+				"level",
+				1,
+				100
+			},
+			{
+				"air",
+				1,
+				1700
+			},
+			{
+				"antiaircraft",
+				1,
+				2500
+			}
+		},
+		expedition_id_weight_list = {
+			{
+				1493201,
+				15,
+				0
+			},
+			{
+				1493202,
+				20,
+				0
+			},
+			{
+				1493203,
+				30,
+				1
+			},
+			{
+				1493204,
+				15,
+				0
+			},
+			{
+				1493205,
+				20,
+				0
+			},
+			{
+				1493206,
+				30,
+				1
+			},
+			{
+				1493207,
+				15,
+				0
+			},
+			{
+				1493208,
+				20,
+				0
+			},
+			{
+				1493209,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {
+			1493205,
+			1493208
+		},
+		ai_expedition_list = {
+			1493308,
+			1493309,
+			1493310
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1493213
+		},
+		enemy_refresh = {
+			0,
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			0
+		},
+		ai_refresh = {
+			2,
+			0,
+			1
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"unknown5"
+		},
+		awards = {
+			{
+				2,
+				58111
+			},
+			{
+				2,
+				58099
+			},
+			{
+				2,
+				54013
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				9,
+				9,
+				true,
+				0
+			},
+			{
+				9,
+				8,
+				false,
+				0
+			},
+			{
+				9,
+				7,
+				false,
+				0
+			},
+			{
+				9,
+				6,
+				false,
+				0
+			},
+			{
+				9,
+				5,
+				true,
+				1
+			},
+			{
+				9,
+				4,
+				true,
+				1
+			},
+			{
+				9,
+				3,
+				false,
+				0
+			},
+			{
+				9,
+				2,
+				false,
+				0
+			},
+			{
+				9,
+				1,
+				false,
+				0
+			},
+			{
+				9,
+				0,
+				true,
+				0
+			},
+			{
+				8,
+				9,
+				true,
+				0
+			},
+			{
+				8,
+				8,
+				false,
+				0
+			},
+			{
+				8,
+				7,
+				true,
+				12
+			},
+			{
+				8,
+				6,
+				true,
+				0
+			},
+			{
+				8,
+				5,
+				true,
+				0
+			},
+			{
+				8,
+				4,
+				true,
+				0
+			},
+			{
+				8,
+				3,
+				true,
+				0
+			},
+			{
+				8,
+				2,
+				true,
+				12
+			},
+			{
+				8,
+				1,
+				false,
+				0
+			},
+			{
+				8,
+				0,
+				true,
+				0
+			},
+			{
+				7,
+				9,
+				false,
+				0
+			},
+			{
+				7,
+				8,
+				false,
+				0
+			},
+			{
+				7,
+				7,
+				true,
+				0
+			},
+			{
+				7,
+				6,
+				true,
+				0
+			},
+			{
+				7,
+				5,
+				true,
+				4
+			},
+			{
+				7,
+				4,
+				true,
+				4
+			},
+			{
+				7,
+				3,
+				true,
+				0
+			},
+			{
+				7,
+				2,
+				true,
+				0
+			},
+			{
+				7,
+				1,
+				false,
+				0
+			},
+			{
+				7,
+				0,
+				false,
+				0
+			},
+			{
+				6,
+				9,
+				true,
+				0
+			},
+			{
+				6,
+				8,
+				true,
+				6
+			},
+			{
+				6,
+				7,
+				true,
+				0
+			},
+			{
+				6,
+				6,
+				true,
+				4
+			},
+			{
+				6,
+				5,
+				false,
+				0
+			},
+			{
+				6,
+				4,
+				false,
+				0
+			},
+			{
+				6,
+				3,
+				true,
+				4
+			},
+			{
+				6,
+				2,
+				true,
+				0
+			},
+			{
+				6,
+				1,
+				true,
+				6
+			},
+			{
+				6,
+				0,
+				true,
+				0
+			},
+			{
+				5,
+				9,
+				false,
+				0
+			},
+			{
+				5,
+				8,
+				true,
+				6
+			},
+			{
+				5,
+				7,
+				true,
+				0
+			},
+			{
+				5,
+				6,
+				true,
+				0
+			},
+			{
+				5,
+				5,
+				false,
+				0
+			},
+			{
+				5,
+				4,
+				false,
+				100
+			},
+			{
+				5,
+				3,
+				true,
+				0
+			},
+			{
+				5,
+				2,
+				true,
+				0
+			},
+			{
+				5,
+				1,
+				true,
+				6
+			},
+			{
+				5,
+				0,
+				false,
+				0
+			},
+			{
+				4,
+				9,
+				false,
+				0
+			},
+			{
+				4,
+				8,
+				false,
+				0
+			},
+			{
+				4,
+				7,
+				true,
+				12
+			},
+			{
+				4,
+				6,
+				true,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				16
+			},
+			{
+				4,
+				4,
+				true,
+				16
+			},
+			{
+				4,
+				3,
+				true,
+				0
+			},
+			{
+				4,
+				2,
+				true,
+				12
+			},
+			{
+				4,
+				1,
+				false,
+				0
+			},
+			{
+				4,
+				0,
+				false,
+				0
+			},
+			{
+				3,
+				9,
+				true,
+				0
+			},
+			{
+				3,
+				8,
+				false,
+				0
+			},
+			{
+				3,
+				7,
+				false,
+				0
+			},
+			{
+				3,
+				6,
+				true,
+				6
+			},
+			{
+				3,
+				5,
+				true,
+				0
+			},
+			{
+				3,
+				4,
+				true,
+				0
+			},
+			{
+				3,
+				3,
+				true,
+				6
+			},
+			{
+				3,
+				2,
+				false,
+				0
+			},
+			{
+				3,
+				1,
+				false,
+				0
+			},
+			{
+				3,
+				0,
+				true,
+				0
+			},
+			{
+				2,
+				9,
+				false,
+				0
+			},
+			{
+				2,
+				8,
+				true,
+				0
+			},
+			{
+				2,
+				7,
+				true,
+				0
+			},
+			{
+				2,
+				6,
+				true,
+				6
+			},
+			{
+				2,
+				5,
+				true,
+				0
+			},
+			{
+				2,
+				4,
+				true,
+				0
+			},
+			{
+				2,
+				3,
+				true,
+				6
+			},
+			{
+				2,
+				2,
+				true,
+				0
+			},
+			{
+				2,
+				1,
+				true,
+				0
+			},
+			{
+				2,
+				0,
+				false,
+				0
+			},
+			{
+				1,
+				9,
+				true,
+				0
+			},
+			{
+				1,
+				8,
+				true,
+				0
+			},
+			{
+				1,
+				7,
+				false,
+				0
+			},
+			{
+				1,
+				6,
+				true,
+				0
+			},
+			{
+				1,
+				5,
+				true,
+				8
+			},
+			{
+				1,
+				4,
+				true,
+				8
+			},
+			{
+				1,
+				3,
+				true,
+				0
+			},
+			{
+				1,
+				2,
+				false,
+				0
+			},
+			{
+				1,
+				1,
+				true,
+				0
+			},
+			{
+				1,
+				0,
+				true,
+				0
+			},
+			{
+				0,
+				9,
+				false,
+				0
+			},
+			{
+				0,
+				8,
+				true,
+				0
+			},
+			{
+				0,
+				7,
+				true,
+				0
+			},
+			{
+				0,
+				6,
+				true,
+				6
+			},
+			{
+				0,
+				5,
+				true,
+				0
+			},
+			{
+				0,
+				4,
+				true,
+				0
+			},
+			{
+				0,
+				3,
+				true,
+				6
+			},
+			{
+				0,
+				2,
+				true,
+				0
+			},
+			{
+				0,
+				1,
+				true,
+				0
+			},
+			{
+				0,
+				0,
+				false,
+				0
+			}
+		},
+		float_items = {
+			{
+				9,
+				6,
+				"dexiv3_3x1_1",
+				98,
+				21
+			},
+			{
+				9,
+				1,
+				"dexiv3_3x1_2",
+				109,
+				22
+			},
+			{
+				7,
+				8,
+				"dexiv3_2x2_4",
+				42,
+				-13
+			},
+			{
+				7,
+				0,
+				"dexiv3_2x2_3",
+				63,
+				-8
+			},
+			{
+				5,
+				0,
+				"dexiv3_1x2_2",
+				0,
+				51
+			},
+			{
+				4,
+				9,
+				"dexiv3_1x2_2",
+				0,
+				-18
+			},
+			{
+				3,
+				7,
+				"dexiv3_2x2_3",
+				68,
+				-4
+			},
+			{
+				3,
+				1,
+				"dexiv3_2x2_4",
+				42,
+				-10
+			},
+			{
+				2,
+				9,
+				"dexiv3_1x1_2",
+				0,
+				16
+			},
+			{
+				2,
+				0,
+				"dexiv3_1x1_2",
+				0,
+				16
+			},
+			{
+				1,
+				7,
+				"dexiv3_1x1_1",
+				0,
+				8
+			},
+			{
+				1,
+				2,
+				"dexiv3_1x1_1",
+				0,
+				5
+			},
+			{
+				0,
+				9,
+				"dexiv3_1x1_3",
+				0,
+				19
+			},
+			{
+				0,
+				0,
+				"dexiv3_1x1_3",
+				0,
+				19
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_bisimai",
+			45,
+			20,
+			-291,
+			225,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			9,
+			23,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {
+			"FUXIANGXIANZUOZHAN29",
+			"FUXIANGXIANZUOZHAN30",
+			"FUXIANGXIANZUOZHAN31",
+			"FUXIANGXIANZUOZHAN32",
+			"FUXIANGXIANZUOZHAN33",
+			"FUXIANGXIANZUOZHAN34",
+			"FUXIANGXIANZUOZHAN35"
+		},
+		defeat_story_count = {
+			1,
+			2,
+			5,
+			6,
+			7,
+			8,
+			9
+		},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {
+			{
+				8,
+				6
+			},
+			{
+				5,
+				3
+			},
+			{
+				2,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {
+			{
+				5,
+				4,
+				13
+			}
+		},
+		chapter_buff = {
+			8812
+		},
+		wall_prefab = {},
+		alarm_cell = {}
+	},
+	[1460041] = {
+		pos_x = "0.479",
+		num_3 = 0,
+		progress_boss = 100,
+		oil = 10,
+		is_limit_move = 1,
+		mine_id = 2001,
+		activate_time = 0,
+		story_refresh_boss = "",
+		is_ambush = 0,
+		ammo_cost = 1,
+		collection_team = 0,
+		special_operation_list = "",
+		air_dominance = 2030,
+		best_air_dominance = 2640,
+		id = 1460041,
+		count = 1,
+		icon_outline = 0,
+		bg = "",
+		pre_chapter = 1460026,
+		formation = 1460025,
+		bgm = "xinnong-3",
+		chapter_tag = 0,
+		star_require_1 = 0,
+		pos_y = "0.2979",
+		pop_pic = "",
+		num_1 = 0,
+		model = 2,
+		investigation_ratio = 0,
+		ammo_submarine = 0,
+		num_2 = 0,
+		is_ai = 1,
+		map = 1460025,
+		unlocklevel = 0,
+		chapter_fx = "",
+		uifx = "",
+		name = "协议违反",
+		chapter_name = "SP",
+		type = 2,
+		act_id = 825,
+		enter_story = "",
+		boss_refresh = 7,
+		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
+		friendly_id = 0,
+		mitigation_rate = 0,
+		mitigation_level = 0,
+		ammo_total = 5,
+		group_num = 2,
+		enter_story_limit = "",
+		star_require_3 = 0,
+		profiles = "「今天，在此地，以你的名字起誓，一定要让这些塞壬感受一下失败与挫折的滋味！」",
+		difficulty = 10,
+		avoid_ratio = 16,
+		star_require_2 = 0,
+		time = 43200,
+		win_condition_display = "win_condition_display_qijian",
+		submarine_num = 1,
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {
+			{
+				{
+					0,
+					0,
+					0
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					0,
+					0,
+					0
+				},
+				{
+					0,
+					0,
+					0
+				}
+			}
+		},
+		property_limitation = {
+			{
+				"level",
+				1,
+				110
+			}
+		},
+		expedition_id_weight_list = {
+			{
+				1494001,
+				15,
+				0
+			},
+			{
+				1494002,
+				20,
+				0
+			},
+			{
+				1494003,
+				30,
+				1
+			},
+			{
+				1494004,
+				15,
+				0
+			},
+			{
+				1494005,
+				20,
+				0
+			},
+			{
+				1494006,
+				30,
+				1
+			},
+			{
+				1494007,
+				15,
+				0
+			},
+			{
+				1494008,
+				20,
+				0
+			},
+			{
+				1494009,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {
+			1494005,
+			1494008
+		},
+		ai_expedition_list = {
+			1494301,
+			1494302,
+			1494303
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1494013
+		},
+		enemy_refresh = {
+			1,
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			0
+		},
+		ai_refresh = {
+			2,
+			0,
+			1
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"haiyinlixi"
+		},
+		awards = {
+			{
+				2,
+				58114
+			},
+			{
+				2,
+				58112
+			},
+			{
+				2,
+				54013
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				9,
+				12,
+				true,
+				0
+			},
+			{
+				9,
+				11,
+				true,
+				0
+			},
+			{
+				9,
+				10,
+				true,
+				0
+			},
+			{
+				9,
+				9,
+				true,
+				0
+			},
+			{
+				9,
+				8,
+				true,
+				0
+			},
+			{
+				9,
+				7,
+				true,
+				12
+			},
+			{
+				9,
+				6,
+				true,
+				0
+			},
+			{
+				9,
+				5,
+				true,
+				12
+			},
+			{
+				9,
+				4,
+				true,
+				0
+			},
+			{
+				9,
+				3,
+				true,
+				0
+			},
+			{
+				9,
+				2,
+				true,
+				0
+			},
+			{
+				9,
+				1,
+				true,
+				0
+			},
+			{
+				9,
+				0,
+				true,
+				0
+			},
+			{
+				8,
+				12,
+				true,
+				0
+			},
+			{
+				8,
+				11,
+				false,
+				0
+			},
+			{
+				8,
+				10,
+				false,
+				0
+			},
+			{
+				8,
+				9,
+				true,
+				0
+			},
+			{
+				8,
+				8,
+				true,
+				0
+			},
+			{
+				8,
+				7,
+				true,
+				0
+			},
+			{
+				8,
+				6,
+				true,
+				16
+			},
+			{
+				8,
+				5,
+				true,
+				0
+			},
+			{
+				8,
+				4,
+				true,
+				0
+			},
+			{
+				8,
+				3,
+				true,
+				0
+			},
+			{
+				8,
+				2,
+				true,
+				1
+			},
+			{
+				8,
+				1,
+				true,
+				0
+			},
+			{
+				8,
+				0,
+				true,
+				0
+			},
+			{
+				7,
+				12,
+				true,
+				0
+			},
+			{
+				7,
+				11,
+				false,
+				0
+			},
+			{
+				7,
+				10,
+				false,
+				100
+			},
+			{
+				7,
+				9,
+				true,
+				0
+			},
+			{
+				7,
+				8,
+				true,
+				0
+			},
+			{
+				7,
+				7,
+				true,
+				12
+			},
+			{
+				7,
+				6,
+				true,
+				0
+			},
+			{
+				7,
+				5,
+				true,
+				12
+			},
+			{
+				7,
+				4,
+				true,
+				0
+			},
+			{
+				7,
+				3,
+				true,
+				0
+			},
+			{
+				7,
+				2,
+				true,
+				0
+			},
+			{
+				7,
+				1,
+				true,
+				1
+			},
+			{
+				7,
+				0,
+				true,
+				0
+			},
+			{
+				6,
+				12,
+				true,
+				0
+			},
+			{
+				6,
+				11,
+				true,
+				4
+			},
+			{
+				6,
+				10,
+				true,
+				4
+			},
+			{
+				6,
+				9,
+				true,
+				0
+			},
+			{
+				6,
+				8,
+				true,
+				6
+			},
+			{
+				6,
+				7,
+				false,
+				0
+			},
+			{
+				6,
+				6,
+				true,
+				8
+			},
+			{
+				6,
+				5,
+				false,
+				0
+			},
+			{
+				6,
+				4,
+				true,
+				6
+			},
+			{
+				6,
+				3,
+				true,
+				0
+			},
+			{
+				6,
+				2,
+				true,
+				0
+			},
+			{
+				6,
+				1,
+				true,
+				0
+			},
+			{
+				6,
+				0,
+				true,
+				0
+			},
+			{
+				5,
+				12,
+				true,
+				0
+			},
+			{
+				5,
+				11,
+				true,
+				0
+			},
+			{
+				5,
+				10,
+				true,
+				0
+			},
+			{
+				5,
+				9,
+				true,
+				6
+			},
+			{
+				5,
+				8,
+				true,
+				0
+			},
+			{
+				5,
+				7,
+				true,
+				0
+			},
+			{
+				5,
+				6,
+				false,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				0
+			},
+			{
+				5,
+				4,
+				true,
+				0
+			},
+			{
+				5,
+				3,
+				true,
+				6
+			},
+			{
+				5,
+				2,
+				true,
+				0
+			},
+			{
+				5,
+				1,
+				true,
+				0
+			},
+			{
+				5,
+				0,
+				true,
+				0
+			},
+			{
+				4,
+				12,
+				true,
+				0
+			},
+			{
+				4,
+				11,
+				true,
+				0
+			},
+			{
+				4,
+				10,
+				true,
+				6
+			},
+			{
+				4,
+				9,
+				true,
+				0
+			},
+			{
+				4,
+				8,
+				false,
+				0
+			},
+			{
+				4,
+				7,
+				false,
+				0
+			},
+			{
+				4,
+				6,
+				false,
+				0
+			},
+			{
+				4,
+				5,
+				false,
+				0
+			},
+			{
+				4,
+				4,
+				false,
+				0
+			},
+			{
+				4,
+				3,
+				true,
+				0
+			},
+			{
+				4,
+				2,
+				true,
+				6
+			},
+			{
+				4,
+				1,
+				true,
+				0
+			},
+			{
+				4,
+				0,
+				true,
+				0
+			},
+			{
+				3,
+				12,
+				true,
+				0
+			},
+			{
+				3,
+				11,
+				true,
+				0
+			},
+			{
+				3,
+				10,
+				false,
+				0
+			},
+			{
+				3,
+				9,
+				false,
+				0
+			},
+			{
+				3,
+				8,
+				false,
+				0
+			},
+			{
+				3,
+				7,
+				false,
+				0
+			},
+			{
+				3,
+				6,
+				false,
+				0
+			},
+			{
+				3,
+				5,
+				false,
+				0
+			},
+			{
+				3,
+				4,
+				false,
+				0
+			},
+			{
+				3,
+				3,
+				false,
+				0
+			},
+			{
+				3,
+				2,
+				false,
+				0
+			},
+			{
+				3,
+				1,
+				true,
+				0
+			},
+			{
+				3,
+				0,
+				true,
+				0
+			},
+			{
+				2,
+				12,
+				true,
+				0
+			},
+			{
+				2,
+				11,
+				false,
+				0
+			},
+			{
+				2,
+				10,
+				false,
+				0
+			},
+			{
+				2,
+				9,
+				false,
+				0
+			},
+			{
+				2,
+				8,
+				true,
+				0
+			},
+			{
+				2,
+				7,
+				true,
+				0
+			},
+			{
+				2,
+				6,
+				false,
+				0
+			},
+			{
+				2,
+				5,
+				true,
+				0
+			},
+			{
+				2,
+				4,
+				true,
+				0
+			},
+			{
+				2,
+				3,
+				false,
+				0
+			},
+			{
+				2,
+				2,
+				false,
+				0
+			},
+			{
+				2,
+				1,
+				false,
+				0
+			},
+			{
+				2,
+				0,
+				true,
+				0
+			},
+			{
+				1,
+				12,
+				true,
+				0
+			},
+			{
+				1,
+				11,
+				true,
+				0
+			},
+			{
+				1,
+				10,
+				true,
+				0
+			},
+			{
+				1,
+				9,
+				true,
+				0
+			},
+			{
+				1,
+				8,
+				true,
+				0
+			},
+			{
+				1,
+				7,
+				true,
+				0
+			},
+			{
+				1,
+				6,
+				false,
+				0
+			},
+			{
+				1,
+				5,
+				false,
+				0
+			},
+			{
+				1,
+				4,
+				true,
+				0
+			},
+			{
+				1,
+				3,
+				true,
+				0
+			},
+			{
+				1,
+				2,
+				true,
+				0
+			},
+			{
+				1,
+				1,
+				true,
+				0
+			},
+			{
+				1,
+				0,
+				true,
+				0
+			},
+			{
+				0,
+				12,
+				true,
+				0
+			},
+			{
+				0,
+				11,
+				true,
+				0
+			},
+			{
+				0,
+				10,
+				true,
+				0
+			},
+			{
+				0,
+				9,
+				true,
+				0
+			},
+			{
+				0,
+				8,
+				true,
+				0
+			},
+			{
+				0,
+				7,
+				true,
+				0
+			},
+			{
+				0,
+				6,
+				true,
+				0
+			},
+			{
+				0,
+				5,
+				true,
+				0
+			},
+			{
+				0,
+				4,
+				true,
+				0
+			},
+			{
+				0,
+				3,
+				true,
+				0
+			},
+			{
+				0,
+				2,
+				true,
+				0
+			},
+			{
+				0,
+				1,
+				true,
+				0
+			},
+			{
+				0,
+				0,
+				true,
+				0
+			}
+		},
+		float_items = {
+			{
+				6,
+				7,
+				"dexiv3_1x1_1",
+				0,
+				7
+			},
+			{
+				6,
+				5,
+				"dexiv3_1x1_1",
+				0,
+				7
+			},
+			{
+				4,
+				6,
+				"dexiv3_1x2_2",
+				0,
+				-31
+			},
+			{
+				3,
+				10,
+				"dexiv3_1x1_1",
+				14,
+				6
+			},
+			{
+				3,
+				8,
+				"dexiv3_2x2_4",
+				48,
+				-11
+			},
+			{
+				3,
+				7,
+				"dexiv3_1x2_2",
+				0,
+				-24
+			},
+			{
+				3,
+				6,
+				"dexiv3_1x1_3",
+				0,
+				21
+			},
+			{
+				3,
+				5,
+				"dexiv3_1x2_2",
+				0,
+				-24
+			},
+			{
+				3,
+				3,
+				"dexiv3_2x2_3",
+				61,
+				-10
+			},
+			{
+				3,
+				2,
+				"dexiv3_1x1_1",
+				-9,
+				10
+			},
+			{
+				2,
+				9,
+				"dexiv3_3x1_2",
+				107,
+				26
+			},
+			{
+				2,
+				1,
+				"dexiv3_3x1_1",
+				98,
+				26
+			},
+			{
+				1,
+				5,
+				"dexiv3_2x2_3",
+				60,
+				-13
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_bisimai",
+			45,
+			20,
+			-129,
+			235,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			9,
+			23,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {},
+		defeat_story_count = {},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {},
+		land_based = {
+			{
+				7,
+				10,
+				13
+			}
+		},
+		chapter_buff = {
+			8815
+		},
+		wall_prefab = {},
+		alarm_cell = {}
+	},
+	[1460051] = {
+		pos_x = "0.479",
+		num_3 = 0,
+		progress_boss = 100,
+		oil = 0,
+		is_limit_move = 0,
+		mine_id = 2001,
+		activate_time = 0,
+		story_refresh_boss = "",
+		is_ambush = 0,
+		ammo_cost = 1,
+		collection_team = 0,
+		special_operation_list = "",
+		air_dominance = 620,
+		best_air_dominance = 810,
+		id = 1460051,
+		count = 0,
+		icon_outline = 0,
+		bg = "",
+		pre_chapter = 1460026,
+		formation = 1460026,
+		bgm = "xinnong-3",
+		chapter_tag = 0,
+		star_require_1 = 0,
+		pos_y = "0.2979",
+		pop_pic = "",
+		num_1 = 0,
+		model = 5,
+		investigation_ratio = 0,
+		ammo_submarine = 0,
+		num_2 = 0,
+		is_ai = 0,
+		map = 1460026,
+		unlocklevel = 0,
+		chapter_fx = "",
+		uifx = "",
+		name = "「负象限作战」",
+		chapter_name = "EXTRA",
+		type = 2,
+		act_id = 825,
+		enter_story = "",
+		boss_refresh = 0,
+		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
+		friendly_id = 0,
+		mitigation_rate = 0,
+		mitigation_level = 0,
+		ammo_total = 5,
+		group_num = 1,
+		enter_story_limit = "",
+		star_require_3 = 0,
+		profiles = "<<SysLog>>T2-XI-N002号镜面海域数据录入结束，实验场设置完毕，测试开始；",
+		difficulty = 10,
+		avoid_ratio = 17,
+		star_require_2 = 0,
+		time = 43200,
+		win_condition_display = "win_condition_display_qijian",
+		submarine_num = 0,
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {
+			{
+				{
+					0,
+					0,
+					0
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					0,
+					0,
+					0
+				},
+				{
+					0,
+					0,
+					0
+				}
+			}
+		},
+		property_limitation = {},
+		expedition_id_weight_list = {},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {},
+		ai_expedition_list = {
+			1
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1495001
+		},
+		enemy_refresh = {
+			1,
+			1
+		},
+		elite_refresh = {
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ai_refresh = {
+			1
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"unknown5"
+		},
+		awards = {},
+		grids = {
+			{
+				6,
+				4,
+				true,
+				0
+			},
+			{
+				6,
+				3,
+				true,
+				0
+			},
+			{
+				6,
+				2,
+				true,
+				0
+			},
+			{
+				6,
+				1,
+				true,
+				0
+			},
+			{
+				6,
+				0,
+				true,
+				0
+			},
+			{
+				5,
+				4,
+				false,
+				0
+			},
+			{
+				5,
+				3,
+				true,
+				0
+			},
+			{
+				5,
+				2,
+				true,
+				1
+			},
+			{
+				5,
+				1,
+				true,
+				0
+			},
+			{
+				5,
+				0,
+				false,
+				0
+			},
+			{
+				4,
+				4,
+				false,
+				0
+			},
+			{
+				4,
+				3,
+				false,
+				0
+			},
+			{
+				4,
+				2,
+				true,
+				0
+			},
+			{
+				4,
+				1,
+				false,
+				0
+			},
+			{
+				4,
+				0,
+				false,
+				0
+			},
+			{
+				3,
+				4,
+				true,
+				0
+			},
+			{
+				3,
+				3,
+				false,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				8
+			},
+			{
+				3,
+				1,
+				false,
+				0
+			},
+			{
+				3,
+				0,
+				true,
+				0
+			},
+			{
+				2,
+				4,
+				true,
+				0
+			},
+			{
+				2,
+				3,
+				false,
+				0
+			},
+			{
+				2,
+				2,
+				true,
+				0
+			},
+			{
+				2,
+				1,
+				false,
+				0
+			},
+			{
+				2,
+				0,
+				true,
+				0
+			},
+			{
+				1,
+				4,
+				true,
+				0
+			},
+			{
+				1,
+				3,
+				false,
+				0
+			},
+			{
+				1,
+				2,
+				false,
+				0
+			},
+			{
+				1,
+				1,
+				false,
+				0
+			},
+			{
+				1,
+				0,
+				true,
+				0
+			},
+			{
+				0,
+				4,
+				true,
+				0
+			},
+			{
+				0,
+				3,
+				true,
+				0
+			},
+			{
+				0,
+				2,
+				true,
+				0
+			},
+			{
+				0,
+				1,
+				true,
+				0
+			},
+			{
+				0,
+				0,
+				true,
+				0
+			}
+		},
+		float_items = {
+			{
+				4,
+				3,
+				"dexiv3_2x2_3",
+				72,
+				-17
+			},
+			{
+				4,
+				0,
+				"dexiv3_2x2_4",
+				34,
+				-14
+			},
+			{
+				2,
+				3,
+				"dexiv3_1x2_2",
+				6,
+				-20
+			},
+			{
+				2,
+				1,
+				"dexiv3_1x2_2",
+				0,
+				-21
+			},
+			{
+				1,
+				3,
+				"dexiv3_1x1_2",
+				0,
+				18
+			},
+			{
+				1,
+				2,
+				"dexiv3_1x1_3",
+				0,
+				22
+			},
+			{
+				1,
+				1,
+				"dexiv3_1x1_2",
+				0,
+				18
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_bisimai",
+			45,
+			20,
+			-40,
+			-109,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			9,
+			23,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {},
+		defeat_story_count = {},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {},
+		land_based = {},
+		chapter_buff = {},
+		wall_prefab = {},
+		alarm_cell = {}
+	},
+	[2100001] = {
 		pos_x = "0.33125",
 		num_3 = 1,
 		progress_boss = 50,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "GUOQING4",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 150,
 		best_air_dominance = 195,
-		count = 0,
 		id = 2100001,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 0,
+		formation = 2100000,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.444791667",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 14,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 20,
+		is_ai = 0,
 		land_based = "",
+		map = 2100000,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -237092,7 +276379,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 2100000,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "穿越风暴，与同伴离散，{namecode:96}独自一人踏上了枫叶飘零的未知海域，这里就是大家苦苦寻找的“圣域”吗？",
@@ -237584,38 +276871,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[2100002] = {
-		mine_id = 2001,
 		pos_x = "0.56328125",
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "GUOQING7",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 205,
 		best_air_dominance = 270,
-		count = 0,
 		id = 2100002,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 2100001,
+		formation = 2100000,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.088541667",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 15,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 25,
+		is_ai = 0,
 		land_based = "",
+		map = 2100000,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -237632,7 +276921,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 2100000,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "就在{namecode:96}焦急又茫然地寻找同伴与姐姐之时，突然从前方海域传来了求救的信号，是陷阱？还是同伴？无论如何，唯有前往一探究竟了",
@@ -238181,38 +277470,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[2100003] = {
-		mine_id = 2001,
 		pos_x = "0.690625",
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "GUOQING9",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 270,
 		best_air_dominance = 355,
-		count = 0,
 		id = 2100003,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 2100002,
+		formation = 2100000,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.367708333",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 16,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 30,
+		is_ai = 0,
 		land_based = "",
+		map = 2100000,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -238229,7 +277520,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 2100000,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "根据先前收集的情报，这里毋庸置疑正是传说中的“圣域”，“她们”究竟在谋划什么？仿佛响应着疑惑一般，脱胎换骨的{namecode:79}挡在了{namecode:96}的眼前",
@@ -238845,38 +278136,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[2100004] = {
-		mine_id = 2001,
 		pos_x = "0.26875",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "GUOQING12",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 330,
 		best_air_dominance = 430,
-		count = 0,
 		id = 2100004,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 2100003,
+		formation = 2100001,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.090625",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 15,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 30,
+		is_ai = 0,
 		land_based = "",
+		map = 2100001,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -238893,7 +278186,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 2100001,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "枫叶飘零的岛屿，神社、参道，令人心醉而又怀念的风景之下，隐藏着不为人知的秘密",
@@ -239459,38 +278752,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[2100005] = {
-		mine_id = 2001,
 		pos_x = "0.6703125",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "GUOQING15",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 430,
 		best_air_dominance = 560,
-		count = 0,
 		id = 2100005,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 2100004,
+		formation = 2100001,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.1125",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 16,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 35,
+		is_ai = 0,
 		land_based = "",
+		map = 2100001,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -239507,7 +278802,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 2100001,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "「明明已经不想再让这种事情发生了…明明已经下定决心要变得坚强…但是为什么…为什么会变成这样呢…{namecode:95}姐！」",
@@ -240175,38 +279470,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[2100006] = {
-		mine_id = 2001,
 		pos_x = "0.5421875",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "GUOQING18",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 535,
 		best_air_dominance = 700,
-		count = 0,
 		id = 2100006,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 2100005,
+		formation = 2100001,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.4",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 17,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 35,
+		is_ai = 0,
 		land_based = "",
+		map = 2100001,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -240223,7 +279520,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 2100001,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "一切的真相，似乎都在{namecode:91}与{namecode:92}两位的手中，带着决心与觉悟，{namecode:96}向着“圣域”的最深处——",
@@ -240886,38 +280183,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[2100011] = {
-		mine_id = 2001,
 		pos_x = "0.33125",
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "GUOQING4",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 530,
 		best_air_dominance = 690,
-		count = 0,
 		id = 2100011,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 0,
+		formation = 2100010,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.444791667",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 17,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 25,
+		is_ai = 0,
 		land_based = "",
+		map = 2100010,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -240934,7 +280233,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 2100010,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "穿越风暴，与同伴离散，{namecode:96}独自一人踏上了枫叶飘零的未知海域，这里就是大家苦苦寻找的“圣域”吗？",
@@ -241467,38 +280766,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[2100012] = {
-		mine_id = 2001,
 		pos_x = "0.56328125",
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "GUOQING7",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 605,
 		best_air_dominance = 790,
-		count = 0,
 		id = 2100012,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 2100011,
+		formation = 2100010,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.088541667",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 18,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 25,
+		is_ai = 0,
 		land_based = "",
+		map = 2100010,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -241515,7 +280816,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 2100010,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "就在{namecode:96}焦急又茫然地寻找同伴与姐姐之时，突然从前方海域传来了求救的信号，是陷阱？还是同伴？无论如何，唯有前往一探究竟了",
@@ -242105,38 +281406,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[2100013] = {
-		mine_id = 2001,
 		pos_x = "0.690625",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "GUOQING9",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 680,
 		best_air_dominance = 885,
-		count = 0,
 		id = 2100013,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 2100012,
+		formation = 2100010,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.367708333",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 19,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 30,
+		is_ai = 0,
 		land_based = "",
+		map = 2100010,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -242153,7 +281456,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 2100010,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "根据先前收集的情报，这里毋庸置疑正是传说中的“圣域”，“她们”究竟在谋划什么？仿佛响应着疑惑一般，脱胎换骨的{namecode:79}挡在了{namecode:96}的眼前",
@@ -242811,38 +282114,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[2100014] = {
-		mine_id = 2001,
 		pos_x = "0.26875",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "GUOQING12",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 810,
 		best_air_dominance = 1055,
-		count = 0,
 		id = 2100014,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 2100013,
+		formation = 2100011,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.090625",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 19,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 30,
+		is_ai = 0,
 		land_based = "",
+		map = 2100011,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -242859,7 +282164,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 2100011,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "枫叶飘零的岛屿，神社、参道，令人心醉而又怀念的风景之下，隐藏着不为人之的秘密",
@@ -243467,38 +282772,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[2100015] = {
-		mine_id = 2001,
 		pos_x = "0.6703125",
 		num_3 = 1,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "GUOQING15",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 965,
 		best_air_dominance = 1255,
-		count = 0,
 		id = 2100015,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 2100014,
+		formation = 2100011,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.1125",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 20,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 35,
+		is_ai = 0,
 		land_based = "",
+		map = 2100011,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -243515,7 +282822,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 2100011,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "「明明已经不想再让这种事情发生了…明明已经下定决心要变得坚强…但是为什么…为什么会变成这样呢…{namecode:95}姐！」",
@@ -244225,38 +283532,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[2100016] = {
-		mine_id = 2001,
 		pos_x = "0.5421875",
 		num_3 = 1,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "GUOQING18",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 1130,
 		best_air_dominance = 1470,
-		count = 0,
 		id = 2100016,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 2100015,
+		formation = 2100011,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.4",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 21,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 40,
+		is_ai = 0,
 		land_based = "",
+		map = 2100011,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -244273,7 +283582,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 2100011,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "一切的真相，似乎都在{namecode:91}与{namecode:92}两位的手中，带着决心与觉悟，{namecode:96}向着“圣域”的最深处——",
@@ -244977,37 +284286,39 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[2100021] = {
-		mine_id = 2001,
 		pos_x = "0.15703125",
 		num_3 = 1,
 		progress_boss = 100,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 90,
 		best_air_dominance = 120,
-		count = 0,
 		id = 2100021,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 0,
+		formation = 2100020,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.361458333",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		is_ai = 1,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 15,
+		is_ai = 1,
+		map = 2100020,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -245024,7 +284335,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 2100020,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "完成护航任务的贝尔法斯特一行，在返航的途中遭遇了新型的塞壬。尽量规避它们的纠缠并取得胜利吧！",
@@ -245468,37 +284779,39 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[2100022] = {
-		mine_id = 2001,
 		pos_x = "0.50546875",
 		num_3 = 1,
 		progress_boss = 50,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 120,
 		best_air_dominance = 160,
-		count = 0,
 		id = 2100022,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 2100021,
+		formation = 2100020,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.111458333",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		is_ai = 1,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 20,
+		is_ai = 1,
+		map = 2100020,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -245515,7 +284828,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 2100020,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "收到紧急电报，第二物资船队正遭到铁血舰队追击，冰冷的北海再一次成为了战舰们的狩猎场。",
@@ -246021,37 +285334,39 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[2100023] = {
-		mine_id = 2001,
 		pos_x = "0.635546875",
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 160,
 		best_air_dominance = 210,
-		count = 0,
 		id = 2100023,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 2100022,
+		formation = 2100020,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.3446875",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		is_ai = 1,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 25,
+		is_ai = 1,
+		map = 2100020,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -246068,7 +285383,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 2100020,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "孤身一舰追击沙恩霍斯特的贝尔法斯特！谁是猎人，谁又是猎物？命运的捕鼠夹正在悄悄合拢…",
@@ -246664,37 +285979,39 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[2100024] = {
-		mine_id = 2001,
 		pos_x = "0.121875",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 200,
 		best_air_dominance = 260,
-		count = 0,
 		id = 2100024,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 2100023,
+		formation = 2100021,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.15",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		is_ai = 1,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 30,
+		is_ai = 1,
+		map = 2100021,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -246711,7 +286028,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 2100021,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "突然出现的新型塞壬和大范围兵器打乱了参与“钨”行动的皇家舰队，尝试一边击退敌人一边重新合流吧",
@@ -247330,37 +286647,39 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[2100025] = {
-		mine_id = 2001,
 		pos_x = "0.57734375",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 260,
 		best_air_dominance = 340,
-		count = 0,
 		id = 2100025,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 2100024,
+		formation = 2100021,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.073958",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		is_ai = 1,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 30,
+		is_ai = 1,
+		map = 2100021,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -247377,7 +286696,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 2100021,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "不明的大型武器打散了北海的迷雾，“钨”行动再次启动，目标——「北方的孤独女王」提尔比茨！",
@@ -248014,37 +287333,39 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[2100026] = {
-		mine_id = 2001,
 		pos_x = "0.621875",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 320,
 		best_air_dominance = 420,
-		count = 0,
 		id = 2100026,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 2100025,
+		formation = 2100021,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.347395833",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		is_ai = 1,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 35,
+		is_ai = 1,
+		map = 2100021,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -248061,7 +287382,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 2100021,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "虽然发现了身份不明的航母却让她脱逃了，相对的，被叫做净化者的塞壬已经被舰队重重包围，为了皇家的荣耀，开火！",
@@ -248873,37 +288194,39 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[2100031] = {
-		mine_id = 2001,
 		pos_x = "0.15703125",
 		num_3 = 1,
 		progress_boss = 100,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 320,
 		best_air_dominance = 420,
-		count = 0,
 		id = 2100031,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 0,
+		formation = 2100030,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.361458333",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		is_ai = 1,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 20,
+		is_ai = 1,
+		map = 2100030,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -248920,7 +288243,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 2100030,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "完成护航任务的贝尔法斯特一行，在返航的途中遭遇了新型的塞壬。尽量规避它们的纠缠并取得胜利吧！",
@@ -249405,37 +288728,39 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[2100032] = {
-		mine_id = 2001,
 		pos_x = "0.50546875",
 		num_3 = 1,
 		progress_boss = 50,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 360,
 		best_air_dominance = 470,
-		count = 0,
 		id = 2100032,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 2100031,
+		formation = 2100030,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.111458333",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		is_ai = 1,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 25,
+		is_ai = 1,
+		map = 2100030,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -249452,7 +288777,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 2100030,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "收到紧急电报，第二物资船队正遭到铁血舰队追击，冰冷的北海再一次成为了战舰们的狩猎场。",
@@ -249999,37 +289324,39 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[2100033] = {
-		mine_id = 2001,
 		pos_x = "0.635546875",
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 400,
 		best_air_dominance = 520,
-		count = 0,
 		id = 2100033,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 2100032,
+		formation = 2100030,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.3446875",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		is_ai = 1,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 30,
+		is_ai = 1,
+		map = 2100030,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -250046,7 +289373,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 2100030,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "孤身一舰追击沙恩霍斯特的贝尔法斯特！谁是猎人，谁又是猎物？命运的捕鼠夹正在悄悄合拢…",
@@ -250683,37 +290010,39 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[2100034] = {
-		mine_id = 2001,
 		pos_x = "0.121875",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 490,
 		best_air_dominance = 635,
-		count = 0,
 		id = 2100034,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 2100033,
+		formation = 2100031,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.15",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		is_ai = 1,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 35,
+		is_ai = 1,
+		map = 2100031,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -250730,7 +290059,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 2100031,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "突然出现的新型塞壬和大范围兵器打乱了参与“钨”行动的皇家舰队，尝试一边击退敌人一边重新合流吧",
@@ -251390,37 +290719,39 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[2100035] = {
-		mine_id = 2001,
 		pos_x = "0.57734375",
 		num_3 = 1,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 580,
 		best_air_dominance = 755,
-		count = 0,
 		id = 2100035,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 2100034,
+		formation = 2100031,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.073958",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		is_ai = 1,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 35,
+		is_ai = 1,
+		map = 2100031,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -251437,7 +290768,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 2100031,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "不明的大型武器打散了北海的迷雾，“钨”行动再次启动，目标——「北方的孤独女王」提尔比茨！",
@@ -252115,37 +291446,39 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[2100036] = {
-		mine_id = 2001,
 		pos_x = "0.621875",
 		num_3 = 1,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 680,
 		best_air_dominance = 885,
-		count = 0,
 		id = 2100036,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 2100035,
+		formation = 2100031,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.347395833",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		is_ai = 1,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 40,
+		is_ai = 1,
+		map = 2100031,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -252162,7 +291495,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 2100031,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "虽然发现了身份不明的航母却让她脱逃了，相对的，被叫做净化者的塞壬已经被舰队重重包围，为了皇家的荣耀，开火！",
@@ -253015,38 +292348,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[2100041] = {
-		mine_id = 2001,
 		pos_x = "0.1625",
 		num_3 = 1,
 		progress_boss = 50,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 100,
 		best_air_dominance = 130,
-		count = 0,
 		id = 2100041,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 0,
+		formation = 2100040,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.402083333",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 0,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 20,
+		is_ai = 0,
 		land_based = "",
+		map = 2100040,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -253063,7 +292398,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 2100040,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "<<SysLog.Id256>>重置所有战术模块，「白方」棋手准时加入棋局，      「黑方」「轻子〈Minor pieces〉」开始移动，行为匹配度：100%",
@@ -253567,38 +292902,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[2100042] = {
-		mine_id = 2001,
 		pos_x = "0.2375",
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 135,
 		best_air_dominance = 175,
-		count = 0,
 		id = 2100042,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 2100041,
+		formation = 2100040,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.123958333",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 0,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 20,
+		is_ai = 0,
 		land_based = "",
+		map = 2100040,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -253615,7 +292952,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 2100040,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "<<SysLog.Id256>>「白方」采用弃兵开局，获得较小的「出子〈Development〉」领先优势，行为匹配度：100%",
@@ -254259,38 +293596,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[2100043] = {
-		mine_id = 2001,
 		pos_x = "0.62109375",
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 170,
 		best_air_dominance = 220,
-		count = 0,
 		id = 2100043,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 2100042,
+		formation = 2100040,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.379166667",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 0,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 20,
+		is_ai = 0,
 		land_based = "",
+		map = 2100040,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -254307,7 +293646,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 2100040,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "<<SysLog.Id256>>「白方」获得暂时的「主动权〈Initiative〉」，「黑方」开始发动「反击〈Counterplay〉」，行为匹配度：93.6%",
@@ -254918,38 +294257,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[2100044] = {
-		mine_id = 2001,
 		pos_x = "0.68515625",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 205,
 		best_air_dominance = 265,
-		count = 0,
 		id = 2100044,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 2100043,
+		formation = 2100040,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.10625",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 0,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 25,
+		is_ai = 0,
 		land_based = "",
+		map = 2100040,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -254966,7 +294307,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 2100040,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "<<SysLog.Id256>>「白方」获得「变后〈Promotion〉」，「黑方」采取「穿串〈Skewer〉」行为，行为匹配度：76.2%",
@@ -255695,38 +295036,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[2100045] = {
-		mine_id = 2001,
 		pos_x = "0.228125",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 220,
 		best_air_dominance = 285,
-		count = 0,
 		id = 2100045,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 2100044,
+		formation = 2100041,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.3875",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 0,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 20,
+		is_ai = 0,
 		land_based = "",
+		map = 2100041,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -255743,7 +295086,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 2100041,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "<<SysLog.Id256>>测试被重置，原因不明，特殊保卫系统「风暴螺旋」开启，所有「棋子〈Piece〉」回归交汇点，行为匹配度：None",
@@ -256267,38 +295610,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[2100046] = {
-		mine_id = 2001,
 		pos_x = "0.67578125",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 320,
 		best_air_dominance = 415,
-		count = 0,
 		id = 2100046,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 2100045,
+		formation = 2100041,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.430208333",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 0,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 20,
+		is_ai = 0,
 		land_based = "",
+		map = 2100041,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -256315,7 +295660,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 2100041,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "<<SysLog.Id256>>「白方」将「黑方」保卫者「引离〈Skewer〉」，再次获得主动权，行为匹配度：None",
@@ -256847,38 +296192,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[2100047] = {
-		mine_id = 2001,
 		pos_x = "0.31640625",
 		num_3 = 1,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 425,
 		best_air_dominance = 555,
-		count = 0,
 		id = 2100047,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 2100046,
+		formation = 2100041,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.076041667",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 0,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 20,
+		is_ai = 0,
 		land_based = "",
+		map = 2100041,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -256895,7 +296242,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 2100041,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "<<SysLog.Id256>>警告，测试发现BUG，「黑方」多数「棋子〈Piece〉」出现觉醒反应，建议立刻执行紧急DEBUG",
@@ -257482,38 +296829,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[2100048] = {
-		mine_id = 2001,
 		pos_x = "0.55625",
 		num_3 = 1,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 535,
 		best_air_dominance = 695,
-		count = 0,
 		id = 2100048,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 2100047,
+		formation = 2100041,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.254166667",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 0,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 25,
+		is_ai = 0,
 		land_based = "",
+		map = 2100041,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -257530,7 +296879,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 2100041,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "<<SysLog.Id256>>日志记录被中断",
@@ -258273,38 +297622,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[2100051] = {
-		mine_id = 2001,
 		pos_x = "0.1625",
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 355,
 		best_air_dominance = 460,
-		count = 0,
 		id = 2100051,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 0,
+		formation = 2100050,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.402083333",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 0,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 30,
+		is_ai = 0,
 		land_based = "",
+		map = 2100050,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -258321,7 +297672,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 2100050,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "<<SysLog.Id256>>重置所有战术模块，「白方」棋手准时加入棋局，      「黑方」「轻子〈Minor pieces〉」开始移动，行为匹配度：98.3%",
@@ -258866,38 +298217,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[2100052] = {
-		mine_id = 2001,
 		pos_x = "0.2375",
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 430,
 		best_air_dominance = 560,
-		count = 0,
 		id = 2100052,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 2100051,
+		formation = 2100050,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.123958333",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 0,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 30,
+		is_ai = 0,
 		land_based = "",
+		map = 2100050,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -258914,7 +298267,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 2100050,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "<<SysLog.Id256>>「白方」采用弃兵开局，获得较小的「出子〈Development〉」领先优势，行为匹配度：97.1%",
@@ -259601,38 +298954,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[2100053] = {
-		mine_id = 2001,
 		pos_x = "0.62109375",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 505,
 		best_air_dominance = 655,
-		count = 0,
 		id = 2100053,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 2100052,
+		formation = 2100050,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.379166667",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 0,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 30,
+		is_ai = 0,
 		land_based = "",
+		map = 2100050,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -259649,7 +299004,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 2100050,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "<<SysLog.Id256>>「白方」获得暂时的「主动权〈Initiative〉」，「黑方」开始发动「反击〈Counterplay〉」，行为匹配度：84.3%",
@@ -260301,38 +299656,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[2100054] = {
-		mine_id = 2001,
 		pos_x = "0.68515625",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 580,
 		best_air_dominance = 755,
-		count = 0,
 		id = 2100054,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 2100053,
+		formation = 2100050,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.10625",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 0,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 35,
+		is_ai = 0,
 		land_based = "",
+		map = 2100050,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -260349,7 +299706,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 2100050,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "<<SysLog.Id256>>「白方」获得「变后〈Promotion〉」，「黑方」采取「穿串〈Skewer〉」行为，行为匹配度：57.9%",
@@ -261119,38 +300476,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[2100055] = {
-		mine_id = 2001,
 		pos_x = "0.228125",
 		num_3 = 1,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 635,
 		best_air_dominance = 825,
-		count = 0,
 		id = 2100055,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 2100054,
+		formation = 2100051,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.3875",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 0,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 30,
+		is_ai = 0,
 		land_based = "",
+		map = 2100051,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -261167,7 +300526,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 2100051,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "<<SysLog.Id256>>测试被重置，原因不明，特殊保卫系统「风暴螺旋」开启，所有「棋子〈Piece〉」回归交汇点，行为匹配度：None",
@@ -261732,38 +301091,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[2100056] = {
-		mine_id = 2001,
 		pos_x = "0.67578125",
 		num_3 = 1,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 790,
 		best_air_dominance = 1025,
-		count = 0,
 		id = 2100056,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 2100055,
+		formation = 2100051,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.430208333",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 0,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 30,
+		is_ai = 0,
 		land_based = "",
+		map = 2100051,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -261780,7 +301141,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 2100051,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "<<SysLog.Id256>>「白方」将「黑方」保卫者「引离〈Skewer〉」，再次获得主动权，行为匹配度：None",
@@ -262353,38 +301714,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[2100057] = {
-		mine_id = 2001,
 		pos_x = "0.31640625",
 		num_3 = 1,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 955,
 		best_air_dominance = 1240,
-		count = 0,
 		id = 2100057,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 2100056,
+		formation = 2100051,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.076041667",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 0,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 30,
+		is_ai = 0,
 		land_based = "",
+		map = 2100051,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -262401,7 +301764,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 2100051,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "<<SysLog.Id256>>警告，测试发现BUG，「黑方」多数「棋子〈Piece〉」出现觉醒反应，建议立刻执行紧急DEBUG",
@@ -263029,38 +302392,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[2100058] = {
-		mine_id = 2001,
 		pos_x = "0.55625",
 		num_3 = 1,
 		progress_boss = 17,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 1130,
 		best_air_dominance = 1470,
-		count = 0,
 		id = 2100058,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 2100057,
+		formation = 2100051,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.254166667",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 0,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 35,
+		is_ai = 0,
 		land_based = "",
+		map = 2100051,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -263077,7 +302442,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 2100051,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "<<SysLog.Id256>>日志记录被中断>>>检测到异常数据>>>日志记录被覆盖   <<SysLog.Id257>>重置所有战术模块，「白方」棋手准时加入棋局",
@@ -263861,38 +303226,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[2100061] = {
-		mine_id = 2001,
 		pos_x = "0.2515625",
 		num_3 = 1,
 		progress_boss = 100,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 120,
 		best_air_dominance = 160,
-		count = 0,
 		id = 2100061,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 0,
+		formation = 2100060,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.392708333",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 12,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 15,
+		is_ai = 0,
 		land_based = "",
+		map = 2100060,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -263909,7 +303276,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 2100060,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "收到的不明信号所指的坐标，竟是已经化为废墟的塞壬基地，这里是否还有残留的情报？",
@@ -264444,38 +303811,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[2100062] = {
-		mine_id = 2001,
 		pos_x = "0.38203125",
 		num_3 = 1,
 		progress_boss = 50,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 160,
 		best_air_dominance = 210,
-		count = 0,
 		id = 2100062,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 2100061,
+		formation = 2100060,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.052083333",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 12,
-		is_ai = 1,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 25,
+		is_ai = 1,
 		land_based = "",
+		map = 2100060,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -264492,7 +303861,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 2100060,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "特遣分队的行动已被察觉，资料不详的新型塞壬正在高速接近中，做好迎战准备！",
@@ -265085,38 +304454,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[2100063] = {
-		mine_id = 2001,
 		pos_x = "0.665625",
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 200,
 		best_air_dominance = 260,
-		count = 0,
 		id = 2100063,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 2100062,
+		formation = 2100060,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.344791667",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 13,
-		is_ai = 1,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 25,
+		is_ai = 1,
 		land_based = "",
+		map = 2100060,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -265133,7 +304504,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 2100060,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "敌方的新型舰不断地出现，神秘信号的线索却依然在云雾之中…将我们引导到这里的…究竟是何方神圣？",
@@ -265817,38 +305188,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[2100064] = {
-		mine_id = 2001,
 		pos_x = "0.23125",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 260,
 		best_air_dominance = 340,
-		count = 0,
 		id = 2100064,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 2100063,
+		formation = 2100061,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.227083333",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 14,
-		is_ai = 1,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 30,
+		is_ai = 1,
 		land_based = "",
+		map = 2100061,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -265865,7 +305238,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 2100061,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "接收到了新的加密电文，时间点不明…无论是不是陷阱，都只能前往一探究竟了",
@@ -266487,38 +305860,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[2100065] = {
-		mine_id = 2001,
 		pos_x = "0.5390625",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 320,
 		best_air_dominance = 420,
-		count = 0,
 		id = 2100065,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 2100064,
+		formation = 2100061,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.052083333",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 14,
-		is_ai = 1,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 30,
+		is_ai = 1,
 		land_based = "",
+		map = 2100061,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -266535,7 +305910,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 2100061,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "敌方火力与规模远远超出预期…新型的大型舰出乎意料的难缠，以破釜沉舟的气势战斗到底吧！",
@@ -267298,38 +306673,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[2100066] = {
-		mine_id = 2001,
 		pos_x = "0.6140625",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 320,
 		best_air_dominance = 420,
-		count = 0,
 		id = 2100066,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 2100065,
+		formation = 2100061,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.383333333",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 15,
-		is_ai = 1,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 35,
+		is_ai = 1,
 		land_based = "",
+		map = 2100061,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -267346,7 +306723,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 2100061,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "越接近发信源的区域，越多的塞壬在此徘徊，对方似乎也在警戒着其他的什么…先击败眼前的2艘大型战舰吧！",
@@ -268288,38 +307665,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[2100071] = {
-		mine_id = 2001,
 		pos_x = "0.2515625",
 		num_3 = 1,
 		progress_boss = 100,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 360,
 		best_air_dominance = 470,
-		count = 0,
 		id = 2100071,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 0,
+		formation = 2100070,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.392708333",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 14,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 20,
+		is_ai = 0,
 		land_based = "",
+		map = 2100070,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -268336,7 +307715,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 2100070,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "收到的不明信号所指的坐标，竟是已经化为废墟的塞壬基地，这里是否还有残留的情报？",
@@ -268912,38 +308291,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[2100072] = {
-		mine_id = 2001,
 		pos_x = "0.38203125",
 		num_3 = 1,
 		progress_boss = 50,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 400,
 		best_air_dominance = 520,
-		count = 0,
 		id = 2100072,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 2100071,
+		formation = 2100070,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.052083333",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 15,
-		is_ai = 1,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 25,
+		is_ai = 1,
 		land_based = "",
+		map = 2100070,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -268960,7 +308341,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 2100070,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "特遣分队的行动已被察觉，资料不详的新型塞壬正在高速接近中，做好迎战准备！",
@@ -269594,38 +308975,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[2100073] = {
-		mine_id = 2001,
 		pos_x = "0.665625",
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 490,
 		best_air_dominance = 635,
-		count = 0,
 		id = 2100073,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 2100072,
+		formation = 2100070,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.344791667",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 16,
-		is_ai = 1,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 30,
+		is_ai = 1,
 		land_based = "",
+		map = 2100070,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -269642,7 +309025,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 2100070,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "敌方的新型舰不断地出现，神秘信号的线索却依然在云雾之中…将我们引导到这里的…究竟是何方神圣？",
@@ -270367,38 +309750,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[2100074] = {
-		mine_id = 2001,
 		pos_x = "0.23125",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 580,
 		best_air_dominance = 755,
-		count = 0,
 		id = 2100074,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 2100073,
+		formation = 2100071,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.227083333",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 17,
-		is_ai = 1,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 35,
+		is_ai = 1,
 		land_based = "",
+		map = 2100071,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -270415,7 +309800,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 2100071,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "接收到了新的加密电文，时间点不明…无论是不是陷阱，都只能前往一探究竟了",
@@ -271078,38 +310463,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[2100075] = {
-		mine_id = 2001,
 		pos_x = "0.5390625",
 		num_3 = 1,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 680,
 		best_air_dominance = 885,
-		count = 0,
 		id = 2100075,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 2100074,
+		formation = 2100071,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.052083333",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 18,
-		is_ai = 1,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 35,
+		is_ai = 1,
 		land_based = "",
+		map = 2100071,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -271126,7 +310513,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 2100071,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "敌方火力与规模远远超出预期…新型的大型舰出乎意料的难缠，以破釜沉舟的气势战斗到底吧！",
@@ -271930,38 +311317,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[2100076] = {
-		mine_id = 2001,
 		pos_x = "0.6140625",
 		num_3 = 1,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 1130,
 		best_air_dominance = 1470,
-		count = 0,
 		id = 2100076,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 2100075,
+		formation = 2100071,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.383333333",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 19,
-		is_ai = 1,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 40,
+		is_ai = 1,
 		land_based = "",
+		map = 2100071,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -271978,7 +311367,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 2100071,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "越接近发信源的区域，越多的塞壬在此徘徊，对方似乎也在警戒着其他的什么…先击败眼前的2艘大型战舰吧！",
@@ -272961,38 +312350,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[2100081] = {
-		mine_id = 2001,
 		pos_x = "0.1625",
 		num_3 = 1,
 		progress_boss = 50,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 120,
 		best_air_dominance = 155,
-		count = 0,
 		id = 2100081,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 0,
+		formation = 2100080,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.402083333",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		is_ai = 1,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 10,
+		is_ai = 1,
 		land_based = "",
+		map = 2100080,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -273009,7 +312400,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 2100080,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "前往搜索攻击维希教廷的皇家H舰队，在途中遭遇了塞壬舰队前锋，一场遭遇战即将打响…",
@@ -273505,38 +312896,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[2100082] = {
-		mine_id = 2001,
 		pos_x = "0.62109375",
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 165,
 		best_air_dominance = 215,
-		count = 0,
 		id = 2100082,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 2100081,
+		formation = 2100080,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.379166667",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		is_ai = 1,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 15,
+		is_ai = 1,
 		land_based = "",
+		map = 2100080,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -273553,7 +312946,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 2100080,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "侦察机报告：塞壬的舰队严密守卫着凯比尔港，我们必须突破塞壬的防卫线，打开入港的航道！",
@@ -274155,38 +313548,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[2100083] = {
-		mine_id = 2001,
 		pos_x = "0.3813",
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 215,
 		best_air_dominance = 280,
-		count = 0,
 		id = 2100083,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 2100082,
+		formation = 2100080,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.1739",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		is_ai = 1,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 15,
+		is_ai = 1,
 		land_based = "",
+		map = 2100080,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -274203,7 +313598,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 2100080,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "面对拒绝了最后通牒的敦刻尔克，皇家舰队已别无选择…全舰队战斗准备！",
@@ -274917,38 +314312,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[2100084] = {
-		mine_id = 2001,
 		pos_x = "0.228125",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 265,
 		best_air_dominance = 345,
-		count = 0,
 		id = 2100084,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 2100083,
+		formation = 2100081,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.3875",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		is_ai = 1,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 25,
+		is_ai = 1,
 		land_based = "",
+		map = 2100081,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -274965,7 +314362,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 2100081,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "皇家和白鹰的联合登陆作战行动开始，在打击陆上目标之前，先试着突破塞壬的防御吧",
@@ -275474,38 +314871,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[2100085] = {
-		mine_id = 2001,
 		pos_x = "0.31640625",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 345,
 		best_air_dominance = 450,
-		count = 0,
 		id = 2100085,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 2100084,
+		formation = 2100081,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.076041667",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		is_ai = 1,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 30,
+		is_ai = 1,
 		land_based = "",
+		map = 2100081,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -275522,7 +314921,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 2100081,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "登陆行动受到来自维希教廷和塞壬航空舰队的反抗，是时候让他们知道“正义”的重量了！",
@@ -276136,37 +315535,39 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[2100086] = {
-		mine_id = 2001,
 		pos_x = "0.55625",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 425,
 		best_air_dominance = 555,
-		count = 0,
 		id = 2100086,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 2100085,
+		formation = 2100081,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.254166667",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		is_ai = 1,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 30,
+		is_ai = 1,
+		map = 2100081,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -276183,7 +315584,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 2100081,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "大洋彼岸“最强”的两艘战列舰，为了各自的正义与信仰，在这个宿命的舞台上展开了对决…",
@@ -276924,38 +316325,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[2100091] = {
-		mine_id = 2001,
 		pos_x = "0.1625",
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 425,
 		best_air_dominance = 550,
-		count = 0,
 		id = 2100091,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 0,
+		formation = 2100090,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.402083333",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		is_ai = 1,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 17,
+		is_ai = 1,
 		land_based = "",
+		map = 2100090,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -276972,7 +316375,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 2100090,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "前往搜索攻击维希教廷的皇家H舰队，在途中遭遇了塞壬舰队前锋，一场遭遇战即将打响…",
@@ -277509,38 +316912,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[2100092] = {
-		mine_id = 2001,
 		pos_x = "0.62109375",
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 485,
 		best_air_dominance = 630,
-		count = 0,
 		id = 2100092,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 2100091,
+		formation = 2100090,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.379166667",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		is_ai = 1,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 17,
+		is_ai = 1,
 		land_based = "",
+		map = 2100090,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -277557,7 +316962,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 2100090,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "侦察机报告：塞壬的舰队严密守卫着凯比尔港，我们必须突破塞壬的防卫线，打开入港的航道！",
@@ -278200,38 +317605,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[2100093] = {
-		mine_id = 2001,
 		pos_x = "0.3813",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 545,
 		best_air_dominance = 710,
-		count = 0,
 		id = 2100093,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 2100092,
+		formation = 2100090,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.1739",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		is_ai = 1,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 21,
+		is_ai = 1,
 		land_based = "",
+		map = 2100090,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -278248,7 +317655,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 2100090,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "面对拒绝了最后通牒的敦刻尔克，皇家舰队已别无选择…全舰队战斗准备！",
@@ -279003,38 +318410,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[2100094] = {
-		mine_id = 2001,
 		pos_x = "0.228125",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 650,
 		best_air_dominance = 845,
-		count = 0,
 		id = 2100094,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 2100093,
+		formation = 2100091,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.3875",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		is_ai = 1,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 35,
+		is_ai = 1,
 		land_based = "",
+		map = 2100091,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -279051,7 +318460,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 2100091,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "皇家和白鹰的联合登陆作战行动开始，在打击陆上目标之前，先试着突破塞壬的防御吧",
@@ -279601,38 +319010,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[2100095] = {
-		mine_id = 2001,
 		pos_x = "0.31640625",
 		num_3 = 1,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 770,
 		best_air_dominance = 1000,
-		count = 0,
 		id = 2100095,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 2100094,
+		formation = 2100091,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.076041667",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		is_ai = 1,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 40,
+		is_ai = 1,
 		land_based = "",
+		map = 2100091,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -279649,7 +319060,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 2100091,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "登陆行动受到来自维希教廷和塞壬航空舰队的反抗，是时候让他们知道“正义”的重量了！",
@@ -280306,38 +319717,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[2100096] = {
-		mine_id = 2001,
 		pos_x = "0.55625",
 		num_3 = 1,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 905,
 		best_air_dominance = 1175,
-		count = 0,
 		id = 2100096,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 2100095,
+		formation = 2100091,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.254166667",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		is_ai = 1,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 40,
+		is_ai = 1,
 		land_based = "",
+		map = 2100091,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -280354,7 +319767,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 2100091,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "大洋彼岸“最强”的两艘战列舰，为了各自的正义与信仰，在这个宿命的舞台上展开了对决…",
@@ -281137,36 +320550,38 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[2100101] = {
-		mine_id = 2001,
 		pos_x = "0.19375",
 		num_3 = 1,
 		progress_boss = 50,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 95,
 		best_air_dominance = 150,
-		count = 0,
 		id = 2100101,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 0,
+		formation = 2100100,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
 		star_require_1 = 1,
 		pos_y = "0.375",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		is_ai = 1,
-		group_num = 2,
+		ammo_submarine = 0,
 		num_2 = 10,
+		is_ai = 1,
+		map = 2100100,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -281183,7 +320598,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 2100100,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "为了寻找重要的同伴，新生重樱联合的众人回到了令人怀念的故土，然而，等在众人面前的，却是塞壬的舰影…",
@@ -281736,36 +321151,38 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[2100102] = {
-		mine_id = 2001,
 		pos_x = "0.2703125",
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 130,
 		best_air_dominance = 170,
-		count = 0,
 		id = 2100102,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 2100101,
+		formation = 2100100,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
 		star_require_1 = 1,
 		pos_y = "0.151041667",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		is_ai = 1,
-		group_num = 2,
+		ammo_submarine = 0,
 		num_2 = 15,
+		is_ai = 1,
+		map = 2100100,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -281782,7 +321199,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 2100100,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "枯萎的御神木，徘徊的塞壬，还有固执地守护着此地的同胞们…必须找到改变这种局面的办法",
@@ -282300,36 +321717,38 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[2100103] = {
-		mine_id = 2001,
 		pos_x = "0.68984375",
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 170,
 		best_air_dominance = 225,
-		count = 0,
 		id = 2100103,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 2100102,
+		formation = 2100100,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
 		star_require_1 = 1,
 		pos_y = "0.09583",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		is_ai = 1,
-		group_num = 2,
+		ammo_submarine = 0,
 		num_2 = 15,
+		is_ai = 1,
+		map = 2100100,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -282346,7 +321765,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 2100100,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "御神木的枯萎代表着信仰的丧失，守护御神木的神子此时亦不见踪影，继续往海域深处前进吧",
@@ -282962,36 +322381,38 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[2100104] = {
-		mine_id = 2001,
 		pos_x = "0.6109375",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 220,
 		best_air_dominance = 290,
-		count = 0,
 		id = 2100104,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 2100103,
+		formation = 2100100,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
 		star_require_1 = 1,
 		pos_y = "0.334375",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		is_ai = 1,
-		group_num = 2,
+		ammo_submarine = 0,
 		num_2 = 25,
+		is_ai = 1,
+		map = 2100100,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -283008,7 +322429,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 2100100,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "在海域深处能感觉到“她”的存在，神子…与御神木一同陷入了沉睡。此时，一个身影挡在了众人身前…",
@@ -283623,36 +323044,38 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[2100105] = {
-		mine_id = 2001,
 		pos_x = "0.26015625",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "YINGHUA11",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 285,
 		best_air_dominance = 375,
-		count = 0,
 		id = 2100105,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 2100104,
+		formation = 2100101,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
 		star_require_1 = 1,
 		pos_y = "0.175",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		is_ai = 1,
-		group_num = 2,
+		ammo_submarine = 0,
 		num_2 = 30,
+		is_ai = 1,
+		map = 2100101,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -283669,7 +323092,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 2100101,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "众人正在想方设法唤醒{namecode:74}之际，周围的塞壬却开始朝着御神木进行无差别攻击，关键时刻，空气开始躁动了起来…",
@@ -284335,36 +323758,38 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[2100106] = {
-		mine_id = 2001,
 		pos_x = "0.6453125",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 380,
 		best_air_dominance = 495,
-		count = 0,
 		id = 2100106,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 2100105,
+		formation = 2100101,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
 		star_require_1 = 1,
 		pos_y = "0.255208333",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		is_ai = 1,
-		group_num = 2,
+		ammo_submarine = 0,
 		num_2 = 30,
+		is_ai = 1,
+		map = 2100101,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -284381,7 +323806,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 2100101,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "纵然过去曾被染上不属于自己的色彩，但如今得以重新绽放，作为{namecode:74}姐妹正式服役的第一次实战，展现真正的实力吧！",
@@ -285107,37 +324532,39 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[2100111] = {
-		mine_id = 2001,
 		pos_x = "0.19375",
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 375,
 		best_air_dominance = 490,
-		count = 0,
 		id = 2100111,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 0,
+		formation = 2100110,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.375",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		is_ai = 1,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 17,
+		is_ai = 1,
+		map = 2100110,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -285154,7 +324581,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 2100110,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "为了寻找重要的同伴，新生重樱联合的众人回到了令人怀念的故土，然而，等在众人面前的，却是塞壬的舰影…",
@@ -285748,38 +325175,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[2100112] = {
-		mine_id = 2001,
 		pos_x = "0.2703125",
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 470,
 		best_air_dominance = 615,
-		count = 0,
 		id = 2100112,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 2100111,
+		formation = 2100110,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.151041667",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		is_ai = 1,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 17,
+		is_ai = 1,
 		land_based = "",
+		map = 2100110,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -285796,7 +325225,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 2100110,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "枯萎的御神木，徘徊的塞壬，还有固执地守护着此地的同胞们…必须找到改变这种局面的办法",
@@ -286354,38 +325783,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[2100113] = {
-		mine_id = 2001,
 		pos_x = "0.68984375",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 570,
 		best_air_dominance = 745,
-		count = 0,
 		id = 2100113,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 2100112,
+		formation = 2100110,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.09583",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		is_ai = 1,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 21,
+		is_ai = 1,
 		land_based = "",
+		map = 2100110,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -286402,7 +325833,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 2100110,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "御神木的枯萎代表着信仰的丧失，守护御神木的神子此时亦不见踪影，继续往海域深处前进吧",
@@ -287058,38 +326489,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[2100114] = {
-		mine_id = 2001,
 		pos_x = "0.6109375",
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 730,
 		best_air_dominance = 950,
-		count = 0,
 		id = 2100114,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 2100113,
+		formation = 2100110,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.334375",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		is_ai = 1,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 35,
+		is_ai = 1,
 		land_based = "",
+		map = 2100110,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -287106,7 +326539,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 2100110,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "在海域深处能感觉到“她”的存在，神子…与御神木一同陷入了沉睡。此时，一个身影挡在了众人身前…",
@@ -287761,38 +327194,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[2100115] = {
-		mine_id = 2001,
 		pos_x = "0.26015625",
 		num_3 = 1,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "YINGHUA11",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 915,
 		best_air_dominance = 1190,
-		count = 0,
 		id = 2100115,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 2100114,
+		formation = 2100111,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.175",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		is_ai = 1,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 40,
+		is_ai = 1,
 		land_based = "",
+		map = 2100111,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -287809,7 +327244,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 2100111,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "众人正在想方设法唤醒{namecode:74}之际，周围的塞壬却开始朝着御神木进行无差别攻击，关键时刻，空气开始躁动了起来…",
@@ -288517,38 +327952,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[2100116] = {
-		mine_id = 2001,
 		pos_x = "0.6453125",
 		num_3 = 1,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 1,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 1125,
 		best_air_dominance = 1465,
-		count = 0,
 		id = 2100116,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 2100115,
+		formation = 2100111,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.255208333",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		is_ai = 1,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 40,
+		is_ai = 1,
 		land_based = "",
+		map = 2100111,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -288565,7 +328002,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 2100111,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "纵然过去曾被染上不属于自己的色彩，但如今得以重新绽放，作为{namecode:74}姐妹正式服役的第一次实战，展现真正的实力吧！",
@@ -289333,37 +328770,39 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[2200001] = {
-		mine_id = 2001,
 		pos_x = "0.35625",
 		num_3 = 1,
 		progress_boss = 100,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 81,
 		best_air_dominance = 150,
-		count = 0,
 		id = 2200001,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 0,
+		formation = 2200000,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.43125",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 16,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 5,
+		is_ai = 0,
+		map = 2200000,
 		unlocklevel = 15,
 		chapter_fx = "",
 		uifx = "",
@@ -289380,7 +328819,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 2200000,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "近日重櫻在马来海域集结舰队，司令部已决定组成“Z”舰队前往马来海域一探虚实，指挥官将被编入支援舰队保护“Z”的侧翼，请指挥官做好出发准备。",
@@ -289741,38 +329180,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[2200002] = {
-		mine_id = 2001,
 		pos_x = "0.58203125",
 		num_3 = 1,
 		progress_boss = 42,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 100,
 		best_air_dominance = 150,
-		count = 0,
 		id = 2200002,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 2200001,
+		formation = 2200000,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.294791667",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 17,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 20,
+		is_ai = 0,
 		land_based = "",
+		map = 2200000,
 		unlocklevel = 15,
 		chapter_fx = "",
 		uifx = "",
@@ -289789,7 +329230,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 2200000,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "在重樱的陆航轰炸机面前，威尔士亲王号与反击号上的防空火力显得如此的薄弱，战斗很快陷入了僵局。",
@@ -290224,38 +329665,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[2200003] = {
-		mine_id = 2001,
 		pos_x = "0.44921875",
 		num_3 = 1,
 		progress_boss = 28,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 120,
 		best_air_dominance = 150,
-		count = 0,
 		id = 2200003,
+		count = 0,
 		icon_outline = 0,
 		bg = "",
-		bgm = "",
 		pre_chapter = 2200002,
+		formation = 2200000,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.080208333",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 18,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 25,
+		is_ai = 0,
 		land_based = "",
+		map = 2200000,
 		unlocklevel = 15,
 		chapter_fx = "",
 		uifx = "",
@@ -290272,7 +329715,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 2200000,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "反击号与威尔士亲王号先后被多发鱼雷命中，与此同时，重樱南遣舰队的水面部队也正在紧急赶往战场...",
@@ -290737,38 +330180,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[2200011] = {
-		mine_id = 2001,
 		pos_x = "0.7046875",
 		num_3 = 1,
 		progress_boss = 35,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 81,
 		best_air_dominance = 150,
-		count = 0,
 		id = 2200011,
+		count = 0,
 		icon_outline = 1,
 		bg = "",
-		bgm = "",
 		pre_chapter = 0,
+		formation = 2200010,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.313541667",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 15,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 25,
+		is_ai = 0,
 		land_based = "",
+		map = 2200010,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -290785,7 +330230,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 2200010,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "商船沉没前最后的信号，透露了斯佩伯爵的位置，根据信号找到斯佩伯爵！解决掉可能出现的对手吧！",
@@ -291319,38 +330764,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[2200012] = {
-		mine_id = 2001,
 		pos_x = "0.44375",
 		num_3 = 1,
 		progress_boss = 28,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 100,
 		best_air_dominance = 150,
-		count = 0,
 		id = 2200012,
+		count = 0,
 		icon_outline = 1,
 		bg = "",
-		bgm = "",
 		pre_chapter = 2200011,
+		formation = 2200010,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.079166667",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 18,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 30,
+		is_ai = 0,
 		land_based = "",
+		map = 2200010,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -291367,7 +330814,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 5,
 		ammo_total = 5,
-		map = 2200010,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "发现斯佩伯爵！做好战斗准备，不要让敌人逃掉了！",
@@ -292000,38 +331447,40 @@ pg.chapter_template = {
 		alarm_cell = {}
 	},
 	[2200013] = {
-		mine_id = 2001,
 		pos_x = "0.2953125",
 		num_3 = 1,
 		progress_boss = 22,
 		oil = 10,
 		is_limit_move = 0,
+		mine_id = 2001,
 		activate_time = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
+		special_operation_list = "",
 		air_dominance = 120,
 		best_air_dominance = 150,
-		count = 0,
 		id = 2200013,
+		count = 0,
 		icon_outline = 1,
 		bg = "",
-		bgm = "",
 		pre_chapter = 2200012,
+		formation = 2200010,
+		bgm = "",
 		chapter_tag = 0,
-		pop_pic = "",
-		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.373958333",
-		ammo_submarine = 0,
+		pop_pic = "",
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 21,
-		is_ai = 0,
-		group_num = 2,
+		wall_prefab = "",
+		ammo_submarine = 0,
 		num_2 = 35,
+		is_ai = 0,
 		land_based = "",
+		map = 2200010,
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
@@ -292048,7 +331497,7 @@ pg.chapter_template = {
 		mitigation_rate = 2,
 		mitigation_level = 8,
 		ammo_total = 5,
-		map = 2200010,
+		group_num = 2,
 		enter_story_limit = "",
 		star_require_3 = 3,
 		profiles = "埃克塞特受伤离场，然而敌人也已经是强弩之末。无论如何，接下来就是和斯佩伯爵的最后战斗了",
@@ -292738,6 +332187,2122 @@ pg.chapter_template = {
 		chapter_buff = {},
 		alarm_cell = {}
 	},
+	[2200021] = {
+		pos_x = "0.20234375",
+		num_3 = 1,
+		progress_boss = 34,
+		oil = 10,
+		is_limit_move = 0,
+		mine_id = 2001,
+		activate_time = 0,
+		story_refresh_boss = "",
+		is_ambush = 0,
+		ammo_cost = 1,
+		collection_team = 0,
+		special_operation_list = "",
+		air_dominance = 81,
+		best_air_dominance = 150,
+		id = 2200021,
+		count = 0,
+		icon_outline = 0,
+		bg = "",
+		pre_chapter = 0,
+		formation = 2200020,
+		bgm = "",
+		chapter_tag = 0,
+		star_require_1 = 1,
+		pos_y = "0.34375",
+		pop_pic = "",
+		num_1 = 1,
+		model = 1,
+		investigation_ratio = 18,
+		ammo_submarine = 0,
+		num_2 = 20,
+		is_ai = 0,
+		map = 2200020,
+		unlocklevel = 0,
+		chapter_fx = "",
+		uifx = "",
+		name = "大意与袭击",
+		chapter_name = "SP1",
+		type = 1,
+		act_id = 100001,
+		enter_story = "",
+		boss_refresh = 4,
+		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
+		friendly_id = 0,
+		mitigation_rate = 2,
+		mitigation_level = 5,
+		ammo_total = 5,
+		group_num = 2,
+		enter_story_limit = "",
+		star_require_3 = 3,
+		profiles = "告别皇家方舟，光荣在阿卡司塔与热心的护卫下单独起航，此时还没人能料想到，危机正在前方等待着她们……",
+		difficulty = 6,
+		avoid_ratio = 9,
+		star_require_2 = 2,
+		time = 43200,
+		win_condition_display = "win_condition_display_qijian",
+		submarine_num = 0,
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {},
+		property_limitation = {},
+		expedition_id_weight_list = {
+			{
+				1050010,
+				15,
+				0
+			},
+			{
+				1050020,
+				20,
+				0
+			},
+			{
+				1050030,
+				30,
+				1
+			},
+			{
+				1050040,
+				15,
+				0
+			},
+			{
+				1050050,
+				20,
+				0
+			},
+			{
+				1050060,
+				30,
+				1
+			},
+			{
+				1050070,
+				15,
+				0
+			},
+			{
+				1050080,
+				20,
+				0
+			},
+			{
+				1050090,
+				30,
+				1
+			},
+			{
+				1050100,
+				0,
+				2
+			}
+		},
+		ambush_expedition_list = {
+			1050210,
+			1050211,
+			1050212
+		},
+		guarder_expedition_list = {
+			1050020,
+			1050050,
+			1050080
+		},
+		elite_expedition_list = {
+			1050050,
+			1050080
+		},
+		ai_expedition_list = {
+			1
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1050500
+		},
+		enemy_refresh = {
+			0,
+			2,
+			1,
+			1
+		},
+		elite_refresh = {
+			3,
+			0,
+			0
+		},
+		ai_refresh = {
+			0
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"xipeierhaijunshangjiang"
+		},
+		awards = {
+			{
+				2,
+				57177
+			},
+			{
+				2,
+				57171
+			},
+			{
+				2,
+				54012
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				9,
+				9,
+				true,
+				0
+			},
+			{
+				9,
+				8,
+				true,
+				6
+			},
+			{
+				9,
+				7,
+				true,
+				0
+			},
+			{
+				9,
+				6,
+				true,
+				6
+			},
+			{
+				9,
+				5,
+				true,
+				6
+			},
+			{
+				9,
+				4,
+				true,
+				0
+			},
+			{
+				9,
+				3,
+				true,
+				6
+			},
+			{
+				9,
+				2,
+				true,
+				4
+			},
+			{
+				9,
+				1,
+				true,
+				0
+			},
+			{
+				8,
+				9,
+				true,
+				6
+			},
+			{
+				8,
+				8,
+				true,
+				0
+			},
+			{
+				8,
+				7,
+				true,
+				6
+			},
+			{
+				8,
+				6,
+				true,
+				0
+			},
+			{
+				8,
+				5,
+				true,
+				0
+			},
+			{
+				8,
+				4,
+				true,
+				0
+			},
+			{
+				8,
+				3,
+				true,
+				0
+			},
+			{
+				8,
+				2,
+				true,
+				0
+			},
+			{
+				8,
+				1,
+				false,
+				0
+			},
+			{
+				7,
+				9,
+				true,
+				6
+			},
+			{
+				7,
+				8,
+				true,
+				0
+			},
+			{
+				7,
+				7,
+				false,
+				0
+			},
+			{
+				7,
+				6,
+				true,
+				0
+			},
+			{
+				7,
+				5,
+				true,
+				0
+			},
+			{
+				7,
+				4,
+				true,
+				4
+			},
+			{
+				7,
+				3,
+				true,
+				0
+			},
+			{
+				7,
+				2,
+				true,
+				0
+			},
+			{
+				7,
+				1,
+				true,
+				0
+			},
+			{
+				6,
+				9,
+				false,
+				0
+			},
+			{
+				6,
+				8,
+				true,
+				0
+			},
+			{
+				6,
+				7,
+				true,
+				0
+			},
+			{
+				6,
+				6,
+				true,
+				0
+			},
+			{
+				6,
+				5,
+				false,
+				0
+			},
+			{
+				6,
+				4,
+				false,
+				0
+			},
+			{
+				6,
+				3,
+				true,
+				1
+			},
+			{
+				6,
+				2,
+				true,
+				1
+			},
+			{
+				6,
+				1,
+				true,
+				1
+			},
+			{
+				5,
+				9,
+				true,
+				0
+			},
+			{
+				5,
+				8,
+				true,
+				0
+			},
+			{
+				5,
+				7,
+				true,
+				6
+			},
+			{
+				5,
+				6,
+				true,
+				0
+			},
+			{
+				5,
+				5,
+				false,
+				0
+			},
+			{
+				5,
+				4,
+				false,
+				0
+			},
+			{
+				5,
+				3,
+				false,
+				0
+			},
+			{
+				5,
+				2,
+				false,
+				0
+			},
+			{
+				5,
+				1,
+				false,
+				0
+			},
+			{
+				4,
+				9,
+				true,
+				6
+			},
+			{
+				4,
+				8,
+				true,
+				0
+			},
+			{
+				4,
+				7,
+				false,
+				0
+			},
+			{
+				4,
+				6,
+				true,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				0
+			},
+			{
+				4,
+				4,
+				true,
+				0
+			},
+			{
+				4,
+				3,
+				true,
+				0
+			},
+			{
+				4,
+				2,
+				true,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				8
+			},
+			{
+				3,
+				9,
+				true,
+				0
+			},
+			{
+				3,
+				8,
+				true,
+				6
+			},
+			{
+				3,
+				7,
+				true,
+				0
+			},
+			{
+				3,
+				6,
+				true,
+				6
+			},
+			{
+				3,
+				5,
+				true,
+				4
+			},
+			{
+				3,
+				4,
+				false,
+				0
+			},
+			{
+				3,
+				3,
+				true,
+				6
+			},
+			{
+				3,
+				2,
+				true,
+				0
+			},
+			{
+				3,
+				1,
+				true,
+				8
+			}
+		},
+		float_items = {
+			{
+				8,
+				2,
+				"1x1IceIsland_2",
+				-108,
+				8
+			},
+			{
+				7,
+				7,
+				"1x1IceIsland_1",
+				0,
+				0
+			},
+			{
+				6,
+				9,
+				"1x1IceIsland_2",
+				4,
+				8
+			},
+			{
+				5,
+				4,
+				"2x3IceIsland_1",
+				41,
+				-23
+			},
+			{
+				5,
+				2,
+				"2x1ICEIsland_2",
+				61,
+				5
+			},
+			{
+				5,
+				1,
+				"2x1ICEIsland_1",
+				25,
+				-10
+			},
+			{
+				4,
+				7,
+				"2x1ICEIsland_1",
+				0,
+				0
+			},
+			{
+				3,
+				4,
+				"1x1IceIsland_2",
+				0,
+				22
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_day",
+			45,
+			20,
+			-278,
+			110,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			5,
+			22,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			1
+		},
+		story_refresh = {
+			"ZHUNUO2"
+		},
+		defeat_story = {},
+		defeat_story_count = {},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {
+			{
+				5,
+				4
+			},
+			{
+				3,
+				2
+			},
+			{
+				1,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {},
+		chapter_buff = {},
+		wall_prefab = {},
+		alarm_cell = {}
+	},
+	[2200022] = {
+		pos_x = "0.28671875",
+		num_3 = 1,
+		progress_boss = 25,
+		oil = 10,
+		is_limit_move = 0,
+		mine_id = 2001,
+		activate_time = 0,
+		story_refresh_boss = "",
+		is_ambush = 0,
+		ammo_cost = 1,
+		collection_team = 0,
+		special_operation_list = "",
+		air_dominance = 100,
+		best_air_dominance = 150,
+		id = 2200022,
+		count = 0,
+		icon_outline = 0,
+		bg = "",
+		pre_chapter = 2200021,
+		formation = 2200020,
+		bgm = "",
+		chapter_tag = 0,
+		star_require_1 = 1,
+		pos_y = "0.070833333",
+		pop_pic = "",
+		num_1 = 1,
+		model = 1,
+		investigation_ratio = 20,
+		ammo_submarine = 0,
+		num_2 = 30,
+		is_ai = 0,
+		map = 2200020,
+		unlocklevel = 0,
+		chapter_fx = "",
+		uifx = "",
+		name = "追击与逃亡",
+		chapter_name = "SP2",
+		type = 1,
+		act_id = 100001,
+		enter_story = "ZHUNUO5",
+		boss_refresh = 4,
+		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
+		friendly_id = 0,
+		mitigation_rate = 2,
+		mitigation_level = 5,
+		ammo_total = 5,
+		group_num = 2,
+		enter_story_limit = "",
+		star_require_3 = 3,
+		profiles = "因为一时的松懈而遭遇袭击的光荣等人，苦战后终于勉强脱离了战斗，但是，一切才刚刚开始……",
+		difficulty = 7,
+		avoid_ratio = 10,
+		star_require_2 = 2,
+		time = 43200,
+		win_condition_display = "win_condition_display_qijian",
+		submarine_num = 0,
+		scale = {
+			0.49,
+			0.35,
+			1.5
+		},
+		limitation = {},
+		property_limitation = {},
+		expedition_id_weight_list = {
+			{
+				1051010,
+				15,
+				0
+			},
+			{
+				1051020,
+				20,
+				0
+			},
+			{
+				1051030,
+				30,
+				1
+			},
+			{
+				1051040,
+				15,
+				0
+			},
+			{
+				1051050,
+				20,
+				0
+			},
+			{
+				1051060,
+				30,
+				1
+			},
+			{
+				1051070,
+				15,
+				0
+			},
+			{
+				1051080,
+				20,
+				0
+			},
+			{
+				1051090,
+				30,
+				1
+			},
+			{
+				1051100,
+				0,
+				2
+			}
+		},
+		ambush_expedition_list = {
+			1051210,
+			1051211,
+			1051212
+		},
+		guarder_expedition_list = {
+			1051020,
+			1051050,
+			1051080
+		},
+		elite_expedition_list = {
+			1051050,
+			1051080
+		},
+		ai_expedition_list = {
+			1
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1051500
+		},
+		enemy_refresh = {
+			0,
+			2,
+			1,
+			1
+		},
+		elite_refresh = {
+			4,
+			0,
+			0,
+			0
+		},
+		ai_refresh = {
+			0
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"genaisennao"
+		},
+		awards = {
+			{
+				2,
+				57178
+			},
+			{
+				2,
+				57172
+			},
+			{
+				2,
+				54013
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				7,
+				9,
+				true,
+				0
+			},
+			{
+				7,
+				8,
+				true,
+				4
+			},
+			{
+				7,
+				7,
+				true,
+				0
+			},
+			{
+				7,
+				6,
+				true,
+				1
+			},
+			{
+				7,
+				5,
+				false,
+				0
+			},
+			{
+				7,
+				4,
+				true,
+				1
+			},
+			{
+				7,
+				3,
+				true,
+				0
+			},
+			{
+				7,
+				2,
+				true,
+				4
+			},
+			{
+				7,
+				1,
+				true,
+				0
+			},
+			{
+				6,
+				9,
+				true,
+				4
+			},
+			{
+				6,
+				8,
+				false,
+				0
+			},
+			{
+				6,
+				7,
+				true,
+				0
+			},
+			{
+				6,
+				6,
+				false,
+				0
+			},
+			{
+				6,
+				5,
+				true,
+				8
+			},
+			{
+				6,
+				4,
+				false,
+				0
+			},
+			{
+				6,
+				3,
+				true,
+				0
+			},
+			{
+				6,
+				2,
+				true,
+				0
+			},
+			{
+				6,
+				1,
+				true,
+				4
+			},
+			{
+				5,
+				9,
+				true,
+				0
+			},
+			{
+				5,
+				8,
+				true,
+				0
+			},
+			{
+				5,
+				7,
+				true,
+				0
+			},
+			{
+				5,
+				6,
+				true,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				0
+			},
+			{
+				5,
+				4,
+				true,
+				0
+			},
+			{
+				5,
+				3,
+				true,
+				0
+			},
+			{
+				5,
+				2,
+				false,
+				0
+			},
+			{
+				5,
+				1,
+				true,
+				0
+			},
+			{
+				4,
+				9,
+				false,
+				0
+			},
+			{
+				4,
+				8,
+				true,
+				0
+			},
+			{
+				4,
+				7,
+				true,
+				0
+			},
+			{
+				4,
+				6,
+				true,
+				6
+			},
+			{
+				4,
+				5,
+				true,
+				8
+			},
+			{
+				4,
+				4,
+				true,
+				6
+			},
+			{
+				4,
+				3,
+				true,
+				0
+			},
+			{
+				4,
+				2,
+				true,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				6
+			},
+			{
+				3,
+				9,
+				true,
+				6
+			},
+			{
+				3,
+				8,
+				true,
+				0
+			},
+			{
+				3,
+				7,
+				true,
+				8
+			},
+			{
+				3,
+				6,
+				false,
+				0
+			},
+			{
+				3,
+				5,
+				false,
+				0
+			},
+			{
+				3,
+				4,
+				false,
+				0
+			},
+			{
+				3,
+				3,
+				true,
+				8
+			},
+			{
+				3,
+				2,
+				true,
+				0
+			},
+			{
+				3,
+				1,
+				false,
+				0
+			},
+			{
+				2,
+				9,
+				true,
+				6
+			},
+			{
+				2,
+				8,
+				true,
+				0
+			},
+			{
+				2,
+				7,
+				true,
+				0
+			},
+			{
+				2,
+				6,
+				true,
+				6
+			},
+			{
+				2,
+				5,
+				true,
+				6
+			},
+			{
+				2,
+				4,
+				true,
+				6
+			},
+			{
+				2,
+				3,
+				true,
+				0
+			},
+			{
+				2,
+				2,
+				true,
+				0
+			},
+			{
+				2,
+				1,
+				true,
+				6
+			},
+			{
+				1,
+				9,
+				true,
+				0
+			},
+			{
+				1,
+				8,
+				true,
+				6
+			},
+			{
+				1,
+				7,
+				true,
+				0
+			},
+			{
+				1,
+				6,
+				true,
+				0
+			},
+			{
+				1,
+				5,
+				true,
+				0
+			},
+			{
+				1,
+				4,
+				true,
+				0
+			},
+			{
+				1,
+				3,
+				true,
+				0
+			},
+			{
+				1,
+				2,
+				true,
+				6
+			},
+			{
+				1,
+				1,
+				true,
+				0
+			}
+		},
+		float_items = {
+			{
+				7,
+				5,
+				"1x1IceIsland_2",
+				0,
+				8
+			},
+			{
+				6,
+				8,
+				"1x1IceIsland_1",
+				0,
+				0
+			},
+			{
+				6,
+				6,
+				"2x1ICEIsland_2",
+				0,
+				0
+			},
+			{
+				6,
+				4,
+				"2x1ICEIsland_1",
+				0,
+				0
+			},
+			{
+				5,
+				2,
+				"2x1ICEIsland_2",
+				0,
+				0
+			},
+			{
+				4,
+				9,
+				"2x1ICEIsland_1",
+				1,
+				8
+			},
+			{
+				3,
+				6,
+				"2x1ICEIsland_2",
+				-9,
+				10
+			},
+			{
+				3,
+				5,
+				"2x1ICEIsland_1",
+				6,
+				-13
+			},
+			{
+				3,
+				4,
+				"1x1IceIsland_1",
+				-5,
+				6
+			},
+			{
+				3,
+				1,
+				"1x1IceIsland_2",
+				-4,
+				16
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_day",
+			45,
+			20,
+			-351,
+			9,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			5,
+			22,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			1
+		},
+		story_refresh = {},
+		defeat_story = {},
+		defeat_story_count = {},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {
+			{
+				5,
+				4
+			},
+			{
+				3,
+				2
+			},
+			{
+				1,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {},
+		chapter_buff = {},
+		wall_prefab = {},
+		alarm_cell = {}
+	},
+	[2200023] = {
+		pos_x = "0.6375",
+		num_3 = 1,
+		progress_boss = 20,
+		oil = 10,
+		is_limit_move = 0,
+		mine_id = 2001,
+		activate_time = 0,
+		story_refresh_boss = "",
+		is_ambush = 0,
+		ammo_cost = 1,
+		collection_team = 0,
+		special_operation_list = "",
+		air_dominance = 120,
+		best_air_dominance = 150,
+		id = 2200023,
+		count = 0,
+		icon_outline = 0,
+		bg = "",
+		pre_chapter = 2200022,
+		formation = 2200020,
+		bgm = "",
+		chapter_tag = 0,
+		star_require_1 = 1,
+		pos_y = "0.221875",
+		pop_pic = "",
+		num_1 = 1,
+		model = 1,
+		investigation_ratio = 22,
+		ammo_submarine = 0,
+		num_2 = 35,
+		is_ai = 0,
+		map = 2200020,
+		unlocklevel = 0,
+		chapter_fx = "",
+		uifx = "",
+		name = "光荣的一战",
+		chapter_name = "SP3",
+		type = 1,
+		act_id = 100001,
+		enter_story = "ZHUNUO8",
+		boss_refresh = 5,
+		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
+		friendly_id = 0,
+		mitigation_rate = 2,
+		mitigation_level = 8,
+		ammo_total = 5,
+		group_num = 2,
+		enter_story_limit = "",
+		star_require_3 = 3,
+		profiles = "强大的敌人近在眼前，抛弃多余的想法，让敌人看看皇家海军的实力吧！这是光荣的一战！",
+		difficulty = 8,
+		avoid_ratio = 11,
+		star_require_2 = 2,
+		time = 43200,
+		win_condition_display = "win_condition_display_qijian",
+		submarine_num = 0,
+		scale = {
+			0.61,
+			0.41,
+			1.5
+		},
+		limitation = {},
+		property_limitation = {},
+		expedition_id_weight_list = {
+			{
+				1052010,
+				15,
+				0
+			},
+			{
+				1052020,
+				20,
+				0
+			},
+			{
+				1052030,
+				30,
+				1
+			},
+			{
+				1052040,
+				15,
+				0
+			},
+			{
+				1052050,
+				20,
+				0
+			},
+			{
+				1052060,
+				30,
+				1
+			},
+			{
+				1052070,
+				15,
+				0
+			},
+			{
+				1052080,
+				20,
+				0
+			},
+			{
+				1052090,
+				30,
+				1
+			},
+			{
+				1052100,
+				0,
+				2
+			}
+		},
+		ambush_expedition_list = {
+			1052210,
+			1052211,
+			1052212
+		},
+		guarder_expedition_list = {
+			1052020,
+			1052050,
+			1052080
+		},
+		elite_expedition_list = {
+			1052050,
+			1052080
+		},
+		ai_expedition_list = {
+			1
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1052500
+		},
+		enemy_refresh = {
+			0,
+			2,
+			2,
+			1
+		},
+		elite_refresh = {
+			4,
+			0,
+			0,
+			0
+		},
+		ai_refresh = {
+			0
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"shaenhuosite",
+			"genaisennao"
+		},
+		awards = {
+			{
+				2,
+				57179
+			},
+			{
+				2,
+				57173
+			},
+			{
+				2,
+				54013
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				7,
+				9,
+				true,
+				1
+			},
+			{
+				7,
+				8,
+				true,
+				0
+			},
+			{
+				7,
+				7,
+				true,
+				0
+			},
+			{
+				7,
+				6,
+				true,
+				4
+			},
+			{
+				7,
+				5,
+				true,
+				0
+			},
+			{
+				7,
+				4,
+				true,
+				4
+			},
+			{
+				7,
+				3,
+				false,
+				0
+			},
+			{
+				7,
+				2,
+				true,
+				6
+			},
+			{
+				7,
+				1,
+				true,
+				0
+			},
+			{
+				6,
+				9,
+				true,
+				1
+			},
+			{
+				6,
+				8,
+				true,
+				0
+			},
+			{
+				6,
+				7,
+				true,
+				0
+			},
+			{
+				6,
+				6,
+				false,
+				0
+			},
+			{
+				6,
+				5,
+				false,
+				0
+			},
+			{
+				6,
+				4,
+				true,
+				0
+			},
+			{
+				6,
+				3,
+				true,
+				0
+			},
+			{
+				6,
+				2,
+				true,
+				0
+			},
+			{
+				6,
+				1,
+				true,
+				6
+			},
+			{
+				5,
+				9,
+				false,
+				0
+			},
+			{
+				5,
+				8,
+				false,
+				0
+			},
+			{
+				5,
+				7,
+				true,
+				0
+			},
+			{
+				5,
+				6,
+				true,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				0
+			},
+			{
+				5,
+				4,
+				true,
+				0
+			},
+			{
+				5,
+				3,
+				true,
+				6
+			},
+			{
+				5,
+				2,
+				true,
+				0
+			},
+			{
+				5,
+				1,
+				false,
+				0
+			},
+			{
+				4,
+				9,
+				false,
+				0
+			},
+			{
+				4,
+				8,
+				false,
+				0
+			},
+			{
+				4,
+				7,
+				true,
+				0
+			},
+			{
+				4,
+				6,
+				true,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				4
+			},
+			{
+				4,
+				4,
+				false,
+				0
+			},
+			{
+				4,
+				3,
+				true,
+				0
+			},
+			{
+				4,
+				2,
+				true,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				6
+			},
+			{
+				3,
+				9,
+				true,
+				8
+			},
+			{
+				3,
+				8,
+				true,
+				0
+			},
+			{
+				3,
+				7,
+				true,
+				0
+			},
+			{
+				3,
+				6,
+				true,
+				4
+			},
+			{
+				3,
+				5,
+				false,
+				0
+			},
+			{
+				3,
+				4,
+				true,
+				0
+			},
+			{
+				3,
+				3,
+				true,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				6
+			},
+			{
+				3,
+				1,
+				true,
+				0
+			},
+			{
+				2,
+				9,
+				true,
+				0
+			},
+			{
+				2,
+				8,
+				true,
+				6
+			},
+			{
+				2,
+				7,
+				true,
+				0
+			},
+			{
+				2,
+				6,
+				true,
+				0
+			},
+			{
+				2,
+				5,
+				true,
+				6
+			},
+			{
+				2,
+				4,
+				true,
+				0
+			},
+			{
+				2,
+				3,
+				true,
+				6
+			},
+			{
+				2,
+				2,
+				false,
+				0
+			},
+			{
+				2,
+				1,
+				true,
+				0
+			},
+			{
+				1,
+				9,
+				true,
+				8
+			},
+			{
+				1,
+				8,
+				false,
+				0
+			},
+			{
+				1,
+				7,
+				true,
+				6
+			},
+			{
+				1,
+				6,
+				true,
+				6
+			},
+			{
+				1,
+				5,
+				false,
+				0
+			},
+			{
+				1,
+				4,
+				false,
+				0
+			},
+			{
+				1,
+				3,
+				true,
+				6
+			},
+			{
+				1,
+				2,
+				true,
+				0
+			},
+			{
+				1,
+				1,
+				true,
+				0
+			}
+		},
+		float_items = {
+			{
+				7,
+				3,
+				"2x1ICEIsland_2",
+				0,
+				0
+			},
+			{
+				6,
+				6,
+				"1x1IceIsland_1",
+				0,
+				0
+			},
+			{
+				6,
+				5,
+				"2x1ICEIsland_1",
+				13,
+				14
+			},
+			{
+				5,
+				1,
+				"2x1ICEIsland_1",
+				0,
+				0
+			},
+			{
+				4,
+				9,
+				"2x3IceIsland_1",
+				-44,
+				-22
+			},
+			{
+				4,
+				4,
+				"2x1ICEIsland_2",
+				0,
+				0
+			},
+			{
+				3,
+				5,
+				"1x1IceIsland_2",
+				0,
+				10
+			},
+			{
+				2,
+				2,
+				"1x1IceIsland_1",
+				0,
+				0
+			},
+			{
+				1,
+				8,
+				"2x1ICEIsland_1",
+				0,
+				0
+			},
+			{
+				1,
+				5,
+				"2x1ICEIsland_2",
+				-6,
+				5
+			},
+			{
+				1,
+				4,
+				"2x1ICEIsland_1",
+				0,
+				10
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_day",
+			45,
+			20,
+			-442,
+			26,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			6,
+			22,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			1
+		},
+		story_refresh = {},
+		defeat_story = {},
+		defeat_story_count = {},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {
+			{
+				8,
+				6
+			},
+			{
+				5,
+				3
+			},
+			{
+				2,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {},
+		chapter_buff = {},
+		wall_prefab = {},
+		alarm_cell = {}
+	},
 	all = {
 		101,
 		102,
@@ -293110,6 +334675,58 @@ pg.chapter_template = {
 		1400016,
 		1400017,
 		1400021,
+		1410001,
+		1410002,
+		1410003,
+		1410004,
+		1410005,
+		1410006,
+		1410007,
+		1410008,
+		1410021,
+		1410022,
+		1410023,
+		1410024,
+		1410025,
+		1410026,
+		1410027,
+		1410028,
+		1410041,
+		1410051,
+		1420001,
+		1420002,
+		1420003,
+		1430001,
+		1430002,
+		1430003,
+		1430004,
+		1430005,
+		1430041,
+		1430051,
+		1440001,
+		1440002,
+		1440003,
+		1440004,
+		1450001,
+		1450002,
+		1450003,
+		1450004,
+		1450041,
+		1450051,
+		1460001,
+		1460002,
+		1460003,
+		1460004,
+		1460005,
+		1460006,
+		1460021,
+		1460022,
+		1460023,
+		1460024,
+		1460025,
+		1460026,
+		1460041,
+		1460051,
 		2100001,
 		2100002,
 		2100003,
@@ -293191,6 +334808,9 @@ pg.chapter_template = {
 		2200003,
 		2200011,
 		2200012,
-		2200013
+		2200013,
+		2200021,
+		2200022,
+		2200023
 	}
 }

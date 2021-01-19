@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.activity_banner = {
 	{
-		param = "20527",
+		param = "20639",
 		type = 3,
 		id = 1,
 		pic = "temp1",
@@ -9,8 +9,8 @@ pg.activity_banner = {
 			{
 				{
 					2020,
-					8,
-					27
+					12,
+					31
 				},
 				{
 					0,
@@ -20,9 +20,9 @@ pg.activity_banner = {
 			},
 			{
 				{
-					2020,
-					9,
-					10
+					2021,
+					1,
+					16
 				},
 				{
 					23,
@@ -46,8 +46,8 @@ pg.activity_banner = {
 			{
 				{
 					2020,
-					8,
-					27
+					12,
+					31
 				},
 				{
 					0,
@@ -57,9 +57,9 @@ pg.activity_banner = {
 			},
 			{
 				{
-					2020,
-					9,
-					10
+					2021,
+					1,
+					16
 				},
 				{
 					23,
@@ -74,15 +74,52 @@ pg.activity_banner = {
 		id = 3,
 		pic = "temp3",
 		param = {
+			"scene charge",
+			{
+				wrap = 4
+			}
+		},
+		time = {
+			{
+				{
+					2020,
+					12,
+					31
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					1,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		type = 2,
+		id = 4,
+		pic = "temp4",
+		param = {
 			"scene skinshop",
 			{}
 		},
 		time = {
 			{
 				{
-					2020,
-					8,
-					27
+					2021,
+					1,
+					14
 				},
 				{
 					0,
@@ -92,9 +129,9 @@ pg.activity_banner = {
 			},
 			{
 				{
-					2020,
-					9,
-					9
+					2021,
+					1,
+					27
 				},
 				{
 					23,
@@ -105,48 +142,21 @@ pg.activity_banner = {
 		}
 	},
 	{
-		param = "20525",
-		type = 3,
-		id = 4,
-		pic = "temp4",
-		time = {
-			{
-				{
-					2020,
-					8,
-					27
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					9,
-					10
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	{
-		param = "20524",
-		type = 3,
+		type = 2,
 		id = 5,
-		pic = "temp5",
+		pic = "temp8",
+		param = {
+			"scene charge",
+			{
+				wrap = 4
+			}
+		},
 		time = {
 			{
 				{
 					2020,
-					8,
-					27
+					12,
+					31
 				},
 				{
 					0,
@@ -156,9 +166,9 @@ pg.activity_banner = {
 			},
 			{
 				{
-					2020,
-					9,
-					10
+					2021,
+					1,
+					15
 				},
 				{
 					23,
@@ -179,8 +189,8 @@ pg.activity_banner = {
 			{
 				{
 					2020,
-					8,
-					27
+					12,
+					31
 				},
 				{
 					0,
@@ -190,9 +200,9 @@ pg.activity_banner = {
 			},
 			{
 				{
-					2020,
-					9,
-					9
+					2021,
+					1,
+					15
 				},
 				{
 					23,
@@ -207,17 +217,17 @@ pg.activity_banner = {
 		id = 7,
 		pic = "temp7",
 		param = {
-			"scene charge",
+			"scene shop",
 			{
-				wrap = 4
+				warp = "shopstreet"
 			}
 		},
 		time = {
 			{
 				{
 					2020,
-					8,
-					27
+					12,
+					31
 				},
 				{
 					0,
@@ -227,9 +237,41 @@ pg.activity_banner = {
 			},
 			{
 				{
+					2021,
+					1,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		param = "20631",
+		type = 3,
+		id = 8,
+		pic = "temp5",
+		time = {
+			{
+				{
 					2020,
-					9,
-					9
+					12,
+					22
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					1,
+					20
 				},
 				{
 					23,
@@ -246,6 +288,7 @@ pg.activity_banner = {
 		4,
 		5,
 		6,
-		7
+		7,
+		8
 	}
 }

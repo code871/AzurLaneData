@@ -172,8 +172,36 @@ function slot4._createGravitationBullet(slot0, slot1, slot2, slot3, slot4)
 	return slot5, true
 end
 
+function slot4._createMissile(slot0, slot1, slot2, slot3, slot4)
+	slot5 = uv0.Battle.BattleMissileUnit.New(slot0, slot2:GetIFF())
+
+	slot5:SetAttr(slot2._attr)
+	slot5:SetTemplateData(slot1)
+	slot5:SetImmuneCLS(true)
+	slot5:SetIsCld(false)
+
+	return slot5, false
+end
+
+function slot4._createSpaceLaser(slot0, slot1, slot2, slot3, slot4)
+	slot5 = uv0.Battle.BattleSpaceLaserUnit.New(slot0, slot2:GetIFF())
+
+	slot5:SetIsCld(true)
+	slot5:SetImmuneCLS(true)
+
+	return slot5, true
+end
+
 function slot4._createScaleBullet(slot0, slot1, slot2, slot3, slot4)
 	slot5 = uv0.Battle.BattleScaleBulletUnit.New(slot0, slot2:GetIFF())
+
+	slot5:SetIsCld(true)
+
+	return slot5, true
+end
+
+function slot4._createAAMissile(slot0, slot1, slot2, slot3, slot4)
+	slot5 = uv0.Battle.BattleTrackingAAMissileUnit.New(slot0, slot2:GetIFF())
 
 	slot5:SetIsCld(true)
 
@@ -193,7 +221,11 @@ slot4.generateBulletFuncs = {
 	[slot1.BulletType.BEAM] = slot4._createBeamBullet,
 	[slot1.BulletType.G_BULLET] = slot4._createGravitationBullet,
 	[slot1.BulletType.ELECTRIC_ARC] = slot4._createDirectBullet,
-	[slot1.BulletType.SCALE] = slot4._createScaleBullet
+	[slot1.BulletType.MISSILE] = slot4._createMissile,
+	[slot1.BulletType.SPACE_LASER] = slot4._createSpaceLaser,
+	[slot1.BulletType.SCALE] = slot4._createScaleBullet,
+	[slot1.BulletType.TRIGGER_BOMB] = slot4._createBombBullet,
+	[slot1.BulletType.AAMissile] = slot4._createAAMissile
 }
 
 function slot4.ConvertBarrage()

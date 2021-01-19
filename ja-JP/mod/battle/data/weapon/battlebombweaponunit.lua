@@ -75,6 +75,8 @@ function slot2.Update(slot0, slot1)
 end
 
 function slot2.PreCast(slot0, slot1)
+	slot0:cacheBulletID()
+
 	for slot5, slot6 in ipairs(slot0._majorEmitterList) do
 		slot6:Ready()
 	end
@@ -115,13 +117,13 @@ function slot2.createMajorEmitter(slot0, slot1, slot2, slot3, slot4, slot5)
 	slot0._cacheList[slot9] = slot9
 
 	uv1.super.createMajorEmitter(slot0, slot1, slot2, nil, function (slot0, slot1, slot2, slot3, slot4)
-		slot6 = uv0:Spawn(uv0._bulletList[uv1], slot4)
+		slot6 = uv0:Spawn(uv0._emitBulletIDList[uv1], slot4)
 
 		slot6:SetOffsetPriority(slot3)
 		slot6:SetShiftInfo(slot0, slot1)
 
 		if uv0._tmpData.aim_type == uv2.Battle.BattleConst.WeaponAimType.AIM and slot4 ~= nil then
-			slot6:SetRotateInfo(slot4:GetCLDZCenterPosition(), uv0:GetBaseAngle(), slot2)
+			slot6:SetRotateInfo(slot4:GetBeenAimedPosition(), uv0:GetBaseAngle(), slot2)
 		else
 			slot6:SetRotateInfo(nil, uv0:GetBaseAngle(), slot2)
 		end

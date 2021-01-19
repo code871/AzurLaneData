@@ -113,6 +113,18 @@ function slot0.getActivitiesByTypes(slot0, slot1)
 	return slot2
 end
 
+function slot0.GetEarliestActByType(slot0, slot1)
+	slot3 = _.select(slot0:getActivitiesByType(slot1), function (slot0)
+		return not slot0:isEnd()
+	end)
+
+	table.sort(slot3, function (slot0, slot1)
+		return slot0.id < slot1.id
+	end)
+
+	return slot3[1]
+end
+
 function slot0.getMilitaryExerciseActivity(slot0)
 	slot1 = nil
 
@@ -278,6 +290,10 @@ function slot0.deleteActivityById(slot0, slot1)
 	slot0.facade:sendNotification(uv0.ACTIVITY_DELETED, slot1)
 end
 
+function slot0.IsActivityNotEnd(slot0, slot1)
+	return slot0.data[slot1] and not slot0.data[slot1]:isEnd()
+end
+
 function slot0.readyToAchieveByType(slot0, slot1)
 	slot2 = false
 
@@ -341,6 +357,18 @@ function slot0.GetBuildingBuff(slot0)
 				if pg.activity_event_building[slot5] then
 					table.insert(uv0, ActivityBuff.New(slot0.id, slot7.buff[slot6]))
 				end
+			end
+		end
+	end)
+
+	return {}
+end
+
+function slot0.GetPTActivityBuff(slot0)
+	_.each(slot0:getActivitiesByType(ActivityConst.ACTIVITY_TYPE_PT_BUFF), function (slot0)
+		if slot0 and not slot0:isEnd() then
+			for slot5, slot6 in pairs(slot0.data3_list) do
+				table.insert(uv0, ActivityBuff.New(slot0.id, slot6))
 			end
 		end
 	end)

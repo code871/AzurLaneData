@@ -2,15 +2,15 @@ pg = pg or {}
 pg.equip_data_statistics = {
 	[2] = {
 		name = "序章重巡-萨福克（瞄准型）",
+		tech = 1,
 		speciality = "锁定",
 		type = 3,
 		rarity = 2,
-		tech = 1,
 		descrip = "序章用",
 		value_2 = 0,
 		icon = "23000",
 		nationality = 1,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 2,
 		torpedo_ammo = 0,
@@ -19,11 +19,7 @@ pg.equip_data_statistics = {
 			1
 		},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			2
 		},
@@ -38,15 +34,15 @@ pg.equip_data_statistics = {
 	},
 	[3] = {
 		name = "序章重巡-诺福克（散射型、肉盾）",
+		tech = 1,
 		speciality = "散射",
 		type = 3,
 		rarity = 2,
-		tech = 1,
 		descrip = "序章用",
 		value_2 = 0,
 		icon = "22200",
 		nationality = 1,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 3,
 		torpedo_ammo = 0,
@@ -55,11 +51,7 @@ pg.equip_data_statistics = {
 			1
 		},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			3
 		},
@@ -76,15 +68,15 @@ pg.equip_data_statistics = {
 	},
 	[4] = {
 		name = "序章战巡-胡德",
+		tech = 1,
 		speciality = "炮击",
 		type = 4,
 		rarity = 5,
-		tech = 1,
 		descrip = "序章用",
 		value_2 = 0,
 		icon = "24100",
 		nationality = 1,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 4,
 		torpedo_ammo = 0,
@@ -93,11 +85,7 @@ pg.equip_data_statistics = {
 			1
 		},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			4
 		},
@@ -116,15 +104,15 @@ pg.equip_data_statistics = {
 	},
 	[5] = {
 		name = "序章战列-威尔士亲王",
+		tech = 1,
 		speciality = "炮击",
 		type = 4,
 		rarity = 3,
-		tech = 1,
 		descrip = "序章用",
 		value_2 = 0,
 		icon = "24000",
 		nationality = 1,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 5,
 		torpedo_ammo = 0,
@@ -133,11 +121,7 @@ pg.equip_data_statistics = {
 			1
 		},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			5
 		},
@@ -156,15 +140,15 @@ pg.equip_data_statistics = {
 	},
 	[6] = {
 		name = "序章重巡-萨福克三联533mm鱼雷",
+		tech = 1,
 		speciality = "雷击",
 		type = 5,
 		rarity = 2,
-		tech = 1,
 		descrip = "序章用",
 		value_2 = 0,
 		icon = "5000",
 		nationality = 0,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 6,
 		torpedo_ammo = 0,
@@ -173,11 +157,7 @@ pg.equip_data_statistics = {
 			1
 		},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			6
 		},
@@ -199,15 +179,15 @@ pg.equip_data_statistics = {
 	},
 	[7] = {
 		name = "序章重巡-诺福克四联533mm鱼雷",
+		tech = 1,
 		speciality = "雷击",
 		type = 5,
 		rarity = 2,
-		tech = 1,
 		descrip = "序章用",
 		value_2 = 0,
 		icon = "5000",
 		nationality = 0,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 7,
 		torpedo_ammo = 0,
@@ -216,11 +196,7 @@ pg.equip_data_statistics = {
 			1
 		},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			7
 		},
@@ -242,15 +218,15 @@ pg.equip_data_statistics = {
 	},
 	[8] = {
 		name = "序章重巡-欧根亲王（瞄准型）",
+		tech = 1,
 		speciality = "锁定",
 		type = 3,
 		rarity = 2,
-		tech = 1,
 		descrip = "序章用",
 		value_2 = 0,
 		icon = "23000",
 		nationality = 1,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 8,
 		torpedo_ammo = 0,
@@ -259,11 +235,7 @@ pg.equip_data_statistics = {
 			1
 		},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			8
 		},
@@ -278,15 +250,15 @@ pg.equip_data_statistics = {
 	},
 	[20] = {
 		name = "U556关卡单发鱼雷-弹药2",
+		tech = 1,
 		speciality = "锁定",
 		type = 5,
 		rarity = 1,
-		tech = 1,
 		descrip = "序章用",
 		value_2 = 0,
 		icon = "2700",
 		nationality = 4,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 20,
 		torpedo_ammo = 0,
@@ -295,11 +267,7 @@ pg.equip_data_statistics = {
 			1
 		},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			20
 		},
@@ -321,15 +289,15 @@ pg.equip_data_statistics = {
 	},
 	[21] = {
 		name = "U556关卡单发鱼雷-弹药4",
+		tech = 1,
 		speciality = "锁定",
 		type = 5,
 		rarity = 1,
-		tech = 1,
 		descrip = "序章用",
 		value_2 = 0,
 		icon = "2700",
 		nationality = 4,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 21,
 		torpedo_ammo = 0,
@@ -338,11 +306,7 @@ pg.equip_data_statistics = {
 			1
 		},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			20
 		},
@@ -364,15 +328,15 @@ pg.equip_data_statistics = {
 	},
 	[22] = {
 		name = "U556关卡单发鱼雷-弹药6",
+		tech = 1,
 		speciality = "锁定",
 		type = 5,
 		rarity = 1,
-		tech = 1,
 		descrip = "序章用",
 		value_2 = 0,
 		icon = "2700",
 		nationality = 4,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 22,
 		torpedo_ammo = 0,
@@ -381,11 +345,7 @@ pg.equip_data_statistics = {
 			1
 		},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			20
 		},
@@ -405,34 +365,159 @@ pg.equip_data_statistics = {
 		equip_parameters = {},
 		label = {}
 	},
+	[23] = {
+		name = "J-10机炮 FC-1机炮 双管",
+		speciality = "通常",
+		type = 1,
+		tech = 1,
+		rarity = 1,
+		descrip = "中飞关卡武器",
+		value_2 = 0,
+		icon = "1",
+		damage = "1 x 2",
+		nationality = 5,
+		ammo = 5,
+		value_3 = 0,
+		id = 23,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			1
+		},
+		ammo_info = {},
+		equip_info = {},
+		weapon_id = {
+			23
+		},
+		skill_id = {},
+		part_main = {
+			1
+		},
+		part_sub = {},
+		equip_parameters = {},
+		label = {}
+	},
+	[24] = {
+		name = "J-15机炮 单管",
+		speciality = "通常",
+		type = 1,
+		tech = 1,
+		rarity = 1,
+		descrip = "中飞关卡武器",
+		value_2 = 0,
+		icon = "1",
+		damage = "1 x 1",
+		nationality = 5,
+		ammo = 5,
+		value_3 = 0,
+		id = 24,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			1
+		},
+		ammo_info = {},
+		equip_info = {},
+		weapon_id = {
+			24
+		},
+		skill_id = {},
+		part_main = {
+			1
+		},
+		part_sub = {},
+		equip_parameters = {},
+		label = {}
+	},
+	[25] = {
+		name = "中飞导弹1",
+		speciality = "通常",
+		type = 1,
+		tech = 1,
+		rarity = 1,
+		descrip = "中飞关卡武器",
+		value_2 = 0,
+		icon = "1",
+		damage = "1 x 1",
+		nationality = 5,
+		ammo = 5,
+		value_3 = 0,
+		id = 25,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			1
+		},
+		ammo_info = {},
+		equip_info = {},
+		weapon_id = {
+			25
+		},
+		skill_id = {},
+		part_main = {
+			1
+		},
+		part_sub = {},
+		equip_parameters = {},
+		label = {}
+	},
+	[26] = {
+		name = "中飞导弹2",
+		speciality = "通常",
+		type = 1,
+		tech = 1,
+		rarity = 1,
+		descrip = "中飞关卡武器",
+		value_2 = 0,
+		icon = "1",
+		damage = "1 x 1",
+		nationality = 5,
+		ammo = 5,
+		value_3 = 0,
+		id = 26,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			1
+		},
+		ammo_info = {},
+		equip_info = {},
+		weapon_id = {
+			25
+		},
+		skill_id = {},
+		part_main = {
+			1
+		},
+		part_sub = {},
+		equip_parameters = {},
+		label = {}
+	},
 	[98] = {
 		name = "可打断测试武器",
+		tech = 1,
 		speciality = "无",
 		type = 1,
 		rarity = 1,
-		tech = 1,
 		descrip = "测试装备",
 		value_2 = 0,
 		icon = "1",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 98,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			98
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -448,26 +533,22 @@ pg.equip_data_statistics = {
 	},
 	[99] = {
 		name = "测试鱼雷",
+		tech = 1,
 		speciality = "无",
 		type = 5,
 		rarity = 1,
-		tech = 1,
 		descrip = "测试装备",
 		value_2 = 0,
 		icon = "1",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 99,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			319517
 		},
@@ -498,7 +579,7 @@ pg.equip_data_statistics = {
 		icon = "1",
 		damage = "2 x 1",
 		nationality = 0,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 100,
 		torpedo_ammo = 0,
@@ -507,17 +588,14 @@ pg.equip_data_statistics = {
 			1
 		},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			100
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -546,7 +624,7 @@ pg.equip_data_statistics = {
 		icon = "1",
 		damage = "5 x 1",
 		nationality = 0,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 101,
 		torpedo_ammo = 0,
@@ -555,11 +633,7 @@ pg.equip_data_statistics = {
 			1
 		},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			101
 		},
@@ -588,7 +662,7 @@ pg.equip_data_statistics = {
 		icon = "1",
 		damage = "12 x 2",
 		nationality = 0,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 102,
 		torpedo_ammo = 0,
@@ -597,11 +671,7 @@ pg.equip_data_statistics = {
 			1
 		},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			102
 		},
@@ -629,7 +699,7 @@ pg.equip_data_statistics = {
 		icon = "1",
 		damage = "16 x 2",
 		nationality = 0,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 103,
 		torpedo_ammo = 0,
@@ -638,11 +708,7 @@ pg.equip_data_statistics = {
 			1
 		},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			103
 		},
@@ -672,18 +738,14 @@ pg.equip_data_statistics = {
 		icon = "1",
 		damage = "4/轮",
 		nationality = 0,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 104,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			1,
-			2,
-			6
-		},
+		equip_info = {},
 		weapon_id = {
 			104
 		},
@@ -698,7 +760,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			1,
@@ -710,7 +773,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -730,18 +794,14 @@ pg.equip_data_statistics = {
 		icon = "1",
 		damage = "17 x 2",
 		nationality = 0,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 105,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			105
 		},
@@ -777,18 +837,14 @@ pg.equip_data_statistics = {
 		icon = "1",
 		damage = "17 x 3",
 		nationality = 0,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 106,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			106
 		},
@@ -824,18 +880,14 @@ pg.equip_data_statistics = {
 		icon = "1",
 		damage = "17 x 4",
 		nationality = 0,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 107,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			107
 		},
@@ -871,18 +923,14 @@ pg.equip_data_statistics = {
 		icon = "1",
 		damage = "17 x 5",
 		nationality = 0,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 108,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			108
 		},
@@ -909,26 +957,22 @@ pg.equip_data_statistics = {
 	},
 	[109] = {
 		name = "默认白鹰战斗机",
+		tech = 1,
 		speciality = "空战",
 		type = 7,
 		rarity = 1,
-		tech = 1,
 		descrip = "默认装备",
 		value_2 = 0,
 		icon = "1",
 		nationality = 1,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 109,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			109,
 			112
@@ -951,26 +995,22 @@ pg.equip_data_statistics = {
 	},
 	[110] = {
 		name = "默认白鹰鱼雷机",
+		tech = 1,
 		speciality = "雷击",
 		type = 8,
 		rarity = 1,
-		tech = 1,
 		descrip = "默认装备",
 		value_2 = 0,
 		icon = "1",
 		nationality = 1,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 110,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			110
 		},
@@ -992,26 +1032,22 @@ pg.equip_data_statistics = {
 	},
 	[111] = {
 		name = "默认白鹰轰炸机",
+		tech = 1,
 		speciality = "轰炸",
 		type = 9,
 		rarity = 1,
-		tech = 1,
 		descrip = "默认装备",
 		value_2 = 0,
 		icon = "1",
 		nationality = 1,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 111,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			111
 		},
@@ -1033,26 +1069,22 @@ pg.equip_data_statistics = {
 	},
 	[113] = {
 		name = "默认皇家战斗机",
+		tech = 1,
 		speciality = "空战",
 		type = 7,
 		rarity = 1,
-		tech = 1,
 		descrip = "默认装备",
 		value_2 = 0,
 		icon = "1",
 		nationality = 2,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 113,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			113,
 			116
@@ -1075,26 +1107,22 @@ pg.equip_data_statistics = {
 	},
 	[114] = {
 		name = "默认皇家鱼雷机",
+		tech = 1,
 		speciality = "雷击",
 		type = 8,
 		rarity = 1,
-		tech = 1,
 		descrip = "默认装备",
 		value_2 = 0,
 		icon = "1",
 		nationality = 2,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 114,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			114
 		},
@@ -1116,26 +1144,22 @@ pg.equip_data_statistics = {
 	},
 	[115] = {
 		name = "默认皇家轰炸机",
+		tech = 1,
 		speciality = "轰炸",
 		type = 9,
 		rarity = 1,
-		tech = 1,
 		descrip = "默认装备",
 		value_2 = 0,
 		icon = "1",
 		nationality = 2,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 115,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			115
 		},
@@ -1157,26 +1181,22 @@ pg.equip_data_statistics = {
 	},
 	[117] = {
 		name = "默认重樱战斗机",
+		tech = 1,
 		speciality = "空战",
 		type = 7,
 		rarity = 1,
-		tech = 1,
 		descrip = "默认装备",
 		value_2 = 0,
 		icon = "1",
 		nationality = 3,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 117,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			117,
 			120
@@ -1199,26 +1219,22 @@ pg.equip_data_statistics = {
 	},
 	[118] = {
 		name = "默认重樱鱼雷机",
+		tech = 1,
 		speciality = "雷击",
 		type = 8,
 		rarity = 1,
-		tech = 1,
 		descrip = "默认装备",
 		value_2 = 0,
 		icon = "1",
 		nationality = 3,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 118,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			118
 		},
@@ -1240,26 +1256,22 @@ pg.equip_data_statistics = {
 	},
 	[119] = {
 		name = "默认重樱轰炸机",
+		tech = 1,
 		speciality = "轰炸",
 		type = 9,
 		rarity = 1,
-		tech = 1,
 		descrip = "默认装备",
 		value_2 = 0,
 		icon = "1",
 		nationality = 3,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 119,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			119
 		},
@@ -1281,26 +1293,22 @@ pg.equip_data_statistics = {
 	},
 	[121] = {
 		name = "默认铁血战斗机",
+		tech = 1,
 		speciality = "空战",
 		type = 7,
 		rarity = 1,
-		tech = 1,
 		descrip = "默认装备",
 		value_2 = 0,
 		icon = "1",
 		nationality = 3,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 121,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			121,
 			124
@@ -1323,26 +1331,22 @@ pg.equip_data_statistics = {
 	},
 	[122] = {
 		name = "默认铁血鱼雷机",
+		tech = 1,
 		speciality = "雷击",
 		type = 8,
 		rarity = 1,
-		tech = 1,
 		descrip = "默认装备",
 		value_2 = 0,
 		icon = "1",
 		nationality = 3,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 122,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			122
 		},
@@ -1364,26 +1368,22 @@ pg.equip_data_statistics = {
 	},
 	[123] = {
 		name = "默认铁血轰炸机",
+		tech = 1,
 		speciality = "轰炸",
 		type = 9,
 		rarity = 1,
-		tech = 1,
 		descrip = "默认装备",
 		value_2 = 0,
 		icon = "1",
 		nationality = 3,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 123,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			123
 		},
@@ -1405,26 +1405,22 @@ pg.equip_data_statistics = {
 	},
 	[125] = {
 		name = "默认鸢尾战斗机",
+		tech = 1,
 		speciality = "空战",
 		type = 7,
 		rarity = 1,
-		tech = 1,
 		descrip = "默认装备",
 		value_2 = 0,
 		icon = "1",
 		nationality = 3,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 125,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			125,
 			128
@@ -1447,26 +1443,22 @@ pg.equip_data_statistics = {
 	},
 	[126] = {
 		name = "默认鸢尾鱼雷机",
+		tech = 1,
 		speciality = "雷击",
 		type = 8,
 		rarity = 1,
-		tech = 1,
 		descrip = "默认装备",
 		value_2 = 0,
 		icon = "1",
 		nationality = 3,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 126,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			126
 		},
@@ -1488,26 +1480,22 @@ pg.equip_data_statistics = {
 	},
 	[127] = {
 		name = "默认鸢尾轰炸机",
+		tech = 1,
 		speciality = "轰炸",
 		type = 9,
 		rarity = 1,
-		tech = 1,
 		descrip = "默认装备",
 		value_2 = 0,
 		icon = "1",
 		nationality = 3,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 127,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			127
 		},
@@ -1538,18 +1526,14 @@ pg.equip_data_statistics = {
 		icon = "1",
 		damage = "17 x 1",
 		nationality = 0,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 140,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			140
 		},
@@ -1570,27 +1554,23 @@ pg.equip_data_statistics = {
 		}
 	},
 	[141] = {
-		name = "默认深水炸弹",
+		name = "默认深水炸弹_驱逐",
+		tech = 1,
 		speciality = "反潜",
 		type = 10,
 		rarity = 1,
-		tech = 1,
 		descrip = "默认装备",
 		value_2 = 0,
 		icon = "1",
 		nationality = 0,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 141,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			141
 		},
@@ -1606,27 +1586,23 @@ pg.equip_data_statistics = {
 	},
 	[144] = {
 		name = "默认潜母水侦",
-		speciality = "轰炸",
-		type = 12,
 		tech = 1,
-		rarity = 1,
+		type = 12,
+		speciality = "轰炸",
 		attribute_3 = "air",
+		rarity = 1,
 		value_2 = 5,
 		icon = "39200",
 		descrip = "默认装备",
 		nationality = 3,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 144,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			144
 		},
@@ -1644,6 +1620,37 @@ pg.equip_data_statistics = {
 			"SCOUT"
 		}
 	},
+	[147] = {
+		name = "默认深水炸弹_轻巡",
+		tech = 1,
+		speciality = "反潜",
+		type = 10,
+		rarity = 1,
+		descrip = "默认装备",
+		value_2 = 0,
+		icon = "1",
+		nationality = 0,
+		ammo = 5,
+		value_3 = 0,
+		id = 147,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {},
+		weapon_id = {
+			147
+		},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"UN",
+			"ST",
+			"DC"
+		}
+	},
 	[201] = {
 		name = "白鹰雷击轻巡副炮T1",
 		speciality = "锁定",
@@ -1655,7 +1662,7 @@ pg.equip_data_statistics = {
 		icon = "1",
 		damage = "3 x 2",
 		nationality = 0,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 201,
 		torpedo_ammo = 0,
@@ -1664,17 +1671,14 @@ pg.equip_data_statistics = {
 			1
 		},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			201
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -1742,7 +1746,7 @@ pg.equip_data_statistics = {
 		icon = "1",
 		damage = "3 x 2",
 		nationality = 0,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 211,
 		torpedo_ammo = 0,
@@ -1751,17 +1755,14 @@ pg.equip_data_statistics = {
 			1
 		},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			211
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -1834,7 +1835,7 @@ pg.equip_data_statistics = {
 		icon = "1",
 		damage = "2 x 2",
 		nationality = 0,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 221,
 		torpedo_ammo = 0,
@@ -1843,17 +1844,14 @@ pg.equip_data_statistics = {
 			1
 		},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			221
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -1921,7 +1919,7 @@ pg.equip_data_statistics = {
 		icon = "1",
 		damage = "2 x 2",
 		nationality = 0,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 231,
 		torpedo_ammo = 0,
@@ -1930,17 +1928,14 @@ pg.equip_data_statistics = {
 			2
 		},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			231
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -2002,7 +1997,7 @@ pg.equip_data_statistics = {
 		icon = "1",
 		damage = "2 x 2",
 		nationality = 0,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 251,
 		torpedo_ammo = 0,
@@ -2011,17 +2006,14 @@ pg.equip_data_statistics = {
 			2
 		},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			251
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -2098,7 +2090,7 @@ pg.equip_data_statistics = {
 		icon = "1",
 		damage = "3 x 2",
 		nationality = 0,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 261,
 		torpedo_ammo = 0,
@@ -2107,17 +2099,14 @@ pg.equip_data_statistics = {
 			1
 		},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			261
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -2185,7 +2174,7 @@ pg.equip_data_statistics = {
 		icon = "1",
 		damage = "2 x 3",
 		nationality = 0,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 271,
 		torpedo_ammo = 0,
@@ -2194,17 +2183,14 @@ pg.equip_data_statistics = {
 			1
 		},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			271
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -2272,7 +2258,7 @@ pg.equip_data_statistics = {
 		icon = "1",
 		damage = "3 x 3",
 		nationality = 0,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 301,
 		torpedo_ammo = 0,
@@ -2281,17 +2267,14 @@ pg.equip_data_statistics = {
 			1
 		},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			301
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -2359,7 +2342,7 @@ pg.equip_data_statistics = {
 		icon = "1",
 		damage = "3 x 3",
 		nationality = 0,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 311,
 		torpedo_ammo = 0,
@@ -2368,17 +2351,14 @@ pg.equip_data_statistics = {
 			1
 		},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			311
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -2440,7 +2420,7 @@ pg.equip_data_statistics = {
 		icon = "1",
 		damage = "2 x 3",
 		nationality = 0,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 321,
 		torpedo_ammo = 0,
@@ -2449,17 +2429,14 @@ pg.equip_data_statistics = {
 			1
 		},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			321
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -2527,7 +2504,7 @@ pg.equip_data_statistics = {
 		icon = "1",
 		damage = "2 x 3",
 		nationality = 0,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 331,
 		torpedo_ammo = 0,
@@ -2536,17 +2513,14 @@ pg.equip_data_statistics = {
 			2
 		},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			331
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -2608,7 +2582,7 @@ pg.equip_data_statistics = {
 		icon = "1",
 		damage = "2 x 2",
 		nationality = 0,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 351,
 		torpedo_ammo = 0,
@@ -2617,17 +2591,14 @@ pg.equip_data_statistics = {
 			2
 		},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			351
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -2704,7 +2675,7 @@ pg.equip_data_statistics = {
 		icon = "1",
 		damage = "2 x 3",
 		nationality = 0,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 371,
 		torpedo_ammo = 0,
@@ -2713,17 +2684,14 @@ pg.equip_data_statistics = {
 			3
 		},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			371
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -2786,7 +2754,7 @@ pg.equip_data_statistics = {
 		icon = "1",
 		damage = "21 x 4",
 		nationality = 4,
-		ammo = "穿甲弹",
+		ammo = 1,
 		value_3 = 0,
 		id = 431,
 		torpedo_ammo = 0,
@@ -2795,17 +2763,14 @@ pg.equip_data_statistics = {
 			2
 		},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			431
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -2835,7 +2800,7 @@ pg.equip_data_statistics = {
 		icon = "1",
 		damage = "21 x 6",
 		nationality = 4,
-		ammo = "穿甲弹",
+		ammo = 1,
 		value_3 = 0,
 		id = 432,
 		torpedo_ammo = 0,
@@ -2844,11 +2809,7 @@ pg.equip_data_statistics = {
 			2
 		},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			432
 		},
@@ -2879,7 +2840,7 @@ pg.equip_data_statistics = {
 		rarity = 5,
 		damage = "145 x 4",
 		nationality = 4,
-		ammo = "声导",
+		ammo = 4,
 		value_3 = 0,
 		id = 433,
 		torpedo_ammo = 0,
@@ -2891,17 +2852,7 @@ pg.equip_data_statistics = {
 				1803
 			}
 		},
-		equip_info = {
-			{
-				3,
-				1803
-			},
-			{
-				4,
-				1403
-			},
-			6
-		},
+		equip_info = {},
 		weapon_id = {
 			433
 		},
@@ -2938,7 +2889,7 @@ pg.equip_data_statistics = {
 		rarity = 6,
 		damage = "35 x 6",
 		nationality = 2,
-		ammo = "通常弹",
+		ammo = 3,
 		value_3 = 0,
 		id = 434,
 		torpedo_ammo = 0,
@@ -2952,19 +2903,7 @@ pg.equip_data_statistics = {
 				1418
 			}
 		},
-		equip_info = {
-			1,
-			2,
-			{
-				3,
-				1418
-			},
-			{
-				4,
-				1222
-			},
-			6
-		},
+		equip_info = {},
 		weapon_id = {
 			434
 		},
@@ -2993,7 +2932,7 @@ pg.equip_data_statistics = {
 		icon = "1",
 		damage = "10 x 4",
 		nationality = 0,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 435,
 		torpedo_ammo = 0,
@@ -3002,17 +2941,14 @@ pg.equip_data_statistics = {
 			1
 		},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			435
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -3030,9 +2966,46 @@ pg.equip_data_statistics = {
 			"MG"
 		}
 	},
+	[436] = {
+		name = "P1突破后自带150mm副炮",
+		speciality = "锁定",
+		type = 2,
+		tech = 1,
+		rarity = 1,
+		descrip = "默认装备",
+		value_2 = 0,
+		icon = "1",
+		damage = "21 x 4",
+		nationality = 4,
+		ammo = 1,
+		value_3 = 0,
+		id = 436,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			2
+		},
+		ammo_info = {},
+		equip_info = {},
+		weapon_id = {
+			436
+		},
+		skill_id = {},
+		part_main = {
+			3
+		},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"KMS",
+			"CL",
+			"MG",
+			"AP"
+		}
+	},
 	[500] = {
 		name = "小海狸中队队徽",
-		tech = 1,
+		tech = 0,
 		type = 10,
 		speciality = "无",
 		id = 500,
@@ -3043,7 +3016,7 @@ pg.equip_data_statistics = {
 		rarity = 5,
 		descrip = "白鹰第23驱逐舰中队\n<color=#ffde38>全体小海狸，保持31节匀速前进！——查尔斯·奥斯本</color>",
 		nationality = 1,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		attribute_1 = "dodge",
 		torpedo_ammo = 0,
@@ -3051,9 +3024,7 @@ pg.equip_data_statistics = {
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {
-			{
-				6
-			}
+			6
 		},
 		weapon_id = {},
 		skill_id = {
@@ -3146,29 +3117,54 @@ pg.equip_data_statistics = {
 		torpedo_ammo = 0,
 		property_rate = {}
 	},
+	[511] = {
+		id = 511,
+		anti_siren = 100,
+		base = 500,
+		value_2 = 80,
+		value_1 = "38",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[512] = {
+		id = 512,
+		anti_siren = 200,
+		base = 500,
+		value_2 = 85,
+		value_1 = "41",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[513] = {
+		id = 513,
+		anti_siren = 300,
+		base = 500,
+		value_2 = 90,
+		value_1 = "44",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
 	[520] = {
 		name = "珍珠之泪",
-		tech = 1,
+		tech = 0,
 		type = 10,
 		speciality = "无",
-		id = 520,
+		attribute_1 = "durability",
 		value_2 = 0,
 		icon = "520",
 		value_1 = "200",
 		descrip = "一颗奇怪的珠子，似乎记载着某一段历史",
 		rarity = 5,
 		nationality = 1,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
-		attribute_1 = "durability",
+		id = 520,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {
-			{
-				6
-			}
+			6
 		},
 		weapon_id = {},
 		skill_id = {
@@ -3251,29 +3247,51 @@ pg.equip_data_statistics = {
 		torpedo_ammo = 0,
 		property_rate = {}
 	},
+	[531] = {
+		anti_siren = 100,
+		base = 520,
+		id = 531,
+		value_1 = "530",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[532] = {
+		anti_siren = 200,
+		base = 520,
+		id = 532,
+		value_1 = "560",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[533] = {
+		anti_siren = 300,
+		base = 520,
+		id = 533,
+		value_1 = "590",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
 	[540] = {
 		name = "治愈系猫爪",
-		tech = 1,
+		tech = 0,
 		type = 10,
 		speciality = "无",
-		id = 540,
+		attribute_1 = "durability",
 		value_2 = 0,
 		icon = "540",
 		value_1 = "120",
 		descrip = "{namecode:89}酱用的猫爪，似乎有着某种治愈效果",
 		rarity = 5,
 		nationality = 3,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
-		attribute_1 = "durability",
+		id = 540,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {
-			{
-				6
-			}
+			6
 		},
 		weapon_id = {},
 		skill_id = {
@@ -3356,29 +3374,51 @@ pg.equip_data_statistics = {
 		torpedo_ammo = 0,
 		property_rate = {}
 	},
+	[551] = {
+		anti_siren = 100,
+		base = 540,
+		id = 551,
+		value_1 = "318",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[552] = {
+		anti_siren = 200,
+		base = 540,
+		id = 552,
+		value_1 = "336",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[553] = {
+		anti_siren = 300,
+		base = 540,
+		id = 553,
+		value_1 = "354",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
 	[560] = {
 		name = "“宁海号”水上侦察机",
 		tech = 0,
 		type = 10,
 		speciality = "无",
-		id = 560,
+		attribute_1 = "hit",
 		value_2 = 0,
 		icon = "560",
 		value_1 = "15",
 		descrip = "宁海一直带着的侦察机，似乎很珍贵？",
 		rarity = 4,
 		nationality = 5,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
-		attribute_1 = "hit",
+		id = 560,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {
-			{
-				6
-			}
+			6
 		},
 		weapon_id = {},
 		skill_id = {
@@ -3472,6 +3512,14 @@ pg.equip_data_statistics = {
 		torpedo_ammo = 0,
 		property_rate = {}
 	},
+	[571] = {
+		anti_siren = 100,
+		base = 560,
+		id = 571,
+		value_1 = "37",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
 	[580] = {
 		name = "九一式穿甲弹",
 		tech = 0,
@@ -3485,7 +3533,7 @@ pg.equip_data_statistics = {
 		rarity = 4,
 		descrip = "远距离炮击战的秘密武器『九一式穿甲弹』。提高了炮弹入水后的性能，能够有效破坏水线以下部分装甲并突入舰体内后爆炸的炮弹",
 		nationality = 3,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		attribute_1 = "cannon",
 		torpedo_ammo = 0,
@@ -3493,9 +3541,7 @@ pg.equip_data_statistics = {
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {
-			{
-				6
-			}
+			6
 		},
 		weapon_id = {},
 		skill_id = {
@@ -3596,6 +3642,15 @@ pg.equip_data_statistics = {
 		torpedo_ammo = 0,
 		property_rate = {}
 	},
+	[591] = {
+		id = 591,
+		anti_siren = 100,
+		base = 580,
+		value_2 = 11,
+		value_1 = "38",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
 	[600] = {
 		name = "一式穿甲弹",
 		tech = 0,
@@ -3609,7 +3664,7 @@ pg.equip_data_statistics = {
 		rarity = 5,
 		descrip = "『九一式穿甲弹』的改进型『一式穿甲弹』。比起九一式在性能上有所提升",
 		nationality = 3,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		attribute_1 = "cannon",
 		torpedo_ammo = 0,
@@ -3617,9 +3672,7 @@ pg.equip_data_statistics = {
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {
-			{
-				6
-			}
+			6
 		},
 		weapon_id = {},
 		skill_id = {
@@ -3719,29 +3772,54 @@ pg.equip_data_statistics = {
 		torpedo_ammo = 0,
 		property_rate = {}
 	},
+	[611] = {
+		id = 611,
+		anti_siren = 100,
+		base = 600,
+		value_2 = 16,
+		value_1 = "59",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[612] = {
+		id = 612,
+		anti_siren = 200,
+		base = 600,
+		value_2 = 17,
+		value_1 = "63",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[613] = {
+		id = 613,
+		anti_siren = 300,
+		base = 600,
+		value_2 = 18,
+		value_1 = "67",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
 	[620] = {
 		name = "超重弹",
 		tech = 0,
 		type = 10,
 		speciality = "无",
-		id = 620,
+		attribute_1 = "cannon",
 		value_2 = 0,
 		icon = "620",
 		value_1 = "28",
 		descrip = "弹重系数远大于一般弹药的炮弹，称为『超重弹』，有着非同一般的重量",
 		rarity = 5,
 		nationality = 1,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
-		attribute_1 = "cannon",
+		id = 620,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {
-			{
-				6
-			}
+			6
 		},
 		weapon_id = {},
 		skill_id = {
@@ -3832,21 +3910,45 @@ pg.equip_data_statistics = {
 		torpedo_ammo = 0,
 		property_rate = {}
 	},
+	[631] = {
+		anti_siren = 100,
+		base = 620,
+		id = 631,
+		value_1 = "75",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[632] = {
+		anti_siren = 200,
+		base = 620,
+		id = 632,
+		value_1 = "80",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[633] = {
+		anti_siren = 300,
+		base = 620,
+		id = 633,
+		value_1 = "85",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
 	[640] = {
 		name = "Z旗",
-		speciality = "无",
-		type = 10,
 		tech = 0,
+		type = 10,
+		speciality = "无",
+		attribute_3 = "luck",
 		id = 640,
-		rarity = 6,
 		value_2 = 4,
 		icon = "640",
 		value_1 = "6",
 		attribute_2 = "hit",
-		attribute_3 = "luck",
+		rarity = 6,
 		nationality = 3,
 		descrip = "Z代表着好运，必胜和正义，挂上这面旗帜，开始战斗动员吧！",
-		ammo = "无",
+		ammo = 10,
 		value_3 = 5,
 		attribute_1 = "dodge",
 		torpedo_ammo = 0,
@@ -3854,9 +3956,7 @@ pg.equip_data_statistics = {
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {
-			{
-				6
-			}
+			6
 		},
 		weapon_id = {},
 		skill_id = {
@@ -3958,29 +4058,54 @@ pg.equip_data_statistics = {
 		torpedo_ammo = 0,
 		property_rate = {}
 	},
+	[651] = {
+		id = 651,
+		anti_siren = 100,
+		base = 640,
+		value_2 = 11,
+		value_1 = "16",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[652] = {
+		id = 652,
+		anti_siren = 200,
+		base = 640,
+		value_2 = 12,
+		value_1 = "17",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[653] = {
+		id = 653,
+		anti_siren = 300,
+		base = 640,
+		value_2 = 13,
+		value_1 = "18",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
 	[660] = {
 		name = "100/150号航空燃油",
 		tech = 0,
 		type = 10,
 		speciality = "无",
-		id = 660,
+		attribute_1 = "air",
 		value_2 = 0,
 		icon = "660",
 		value_1 = "28",
 		descrip = "性能值达到150的航空燃油，拥有纯异辛烷1.5倍的抗暴燃能力，能够大幅提升发动机的功率",
 		rarity = 4,
 		nationality = 1,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
-		attribute_1 = "air",
+		id = 660,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {
-			{
-				6
-			}
+			6
 		},
 		weapon_id = {},
 		skill_id = {
@@ -4071,29 +4196,35 @@ pg.equip_data_statistics = {
 		torpedo_ammo = 0,
 		property_rate = {}
 	},
+	[671] = {
+		anti_siren = 100,
+		base = 660,
+		id = 671,
+		value_1 = "75",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
 	[680] = {
 		name = "归航信标",
 		tech = 0,
 		type = 10,
 		speciality = "无",
-		id = 680,
+		attribute_1 = "air",
 		value_2 = 0,
 		icon = "680",
 		value_1 = "18",
 		descrip = "72DM型返航指示信标，安装在航母主桅上方，帮助舰载机确认母舰的实时位置 ",
 		rarity = 4,
 		nationality = 2,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
-		attribute_1 = "air",
+		id = 680,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {
-			{
-				6
-			}
+			6
 		},
 		weapon_id = {},
 		skill_id = {
@@ -4184,29 +4315,35 @@ pg.equip_data_statistics = {
 		torpedo_ammo = 0,
 		property_rate = {}
 	},
+	[691] = {
+		anti_siren = 100,
+		base = 680,
+		id = 691,
+		value_1 = "65",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
 	[700] = {
 		name = "九八式射击延迟装置",
 		tech = 0,
 		type = 10,
 		speciality = "无",
-		id = 700,
+		attribute_1 = "cannon",
 		value_2 = 0,
 		icon = "700",
 		value_1 = "12",
 		descrip = "九八式射击延迟装置，通过使各炮射击之间形成微小的时间差，从而减少炮弹飞行中的互相干扰，缩小散布界",
 		rarity = 4,
 		nationality = 3,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
-		attribute_1 = "cannon",
+		id = 700,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {
-			{
-				6
-			}
+			6
 		},
 		weapon_id = {},
 		skill_id = {
@@ -4299,6 +4436,14 @@ pg.equip_data_statistics = {
 		torpedo_ammo = 0,
 		property_rate = {}
 	},
+	[711] = {
+		anti_siren = 100,
+		base = 700,
+		id = 711,
+		value_1 = "34",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
 	[720] = {
 		name = "约定的证明",
 		tech = 0,
@@ -4312,7 +4457,7 @@ pg.equip_data_statistics = {
 		rarity = 5,
 		descrip = "写着真诚誓言的“保证书”——「就算用拖的，我也会将俾斯麦安全带回家的！」",
 		nationality = 4,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		attribute_1 = "dodge",
 		torpedo_ammo = 0,
@@ -4320,9 +4465,7 @@ pg.equip_data_statistics = {
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {
-			{
-				6
-			}
+			6
 		},
 		weapon_id = {},
 		skill_id = {
@@ -4425,29 +4568,54 @@ pg.equip_data_statistics = {
 		torpedo_ammo = 0,
 		property_rate = {}
 	},
+	[731] = {
+		id = 731,
+		anti_siren = 100,
+		base = 720,
+		value_2 = 160,
+		value_1 = "21",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[732] = {
+		id = 732,
+		anti_siren = 200,
+		base = 720,
+		value_2 = 170,
+		value_1 = "22",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[733] = {
+		id = 733,
+		anti_siren = 300,
+		base = 720,
+		value_2 = 180,
+		value_1 = "23",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
 	[740] = {
 		name = "Fl-282直升机",
 		tech = 0,
 		type = 17,
 		speciality = "无",
-		id = 740,
+		attribute_1 = "antisub",
 		value_2 = 0,
 		icon = "740",
 		value_1 = "9",
 		descrip = "铁血公国轻型舰载直升机Fl-282“蜂鸟”",
 		rarity = 4,
 		nationality = 4,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
-		attribute_1 = "antisub",
+		id = 740,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {
-			{
-				6
-			}
+			6
 		},
 		weapon_id = {},
 		skill_id = {},
@@ -4542,6 +4710,14 @@ pg.equip_data_statistics = {
 		property_rate = {},
 		weapon_id = {}
 	},
+	[751] = {
+		anti_siren = 100,
+		base = 740,
+		id = 751,
+		value_1 = "27",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
 	[760] = {
 		name = "侦察报告·纽约近海",
 		tech = 0,
@@ -4555,7 +4731,7 @@ pg.equip_data_statistics = {
 		rarity = 4,
 		descrip = "针对纽约近海塞壬控制区的正式侦查报告书，虽因干扰导致行动提前结束，但依然收集了丰富数据",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		attribute_1 = "dodge",
 		torpedo_ammo = 0,
@@ -4563,9 +4739,7 @@ pg.equip_data_statistics = {
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {
-			{
-				6
-			}
+			6
 		},
 		weapon_id = {},
 		skill_id = {
@@ -4658,6 +4832,15 @@ pg.equip_data_statistics = {
 		torpedo_ammo = 0,
 		property_rate = {}
 	},
+	[771] = {
+		id = 771,
+		anti_siren = 100,
+		base = 760,
+		value_2 = 130,
+		value_1 = "16",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
 	[780] = {
 		name = "机密文件·极地海峡",
 		tech = 0,
@@ -4671,7 +4854,7 @@ pg.equip_data_statistics = {
 		rarity = 4,
 		descrip = "通过解析冰雪要塞战役中的获得的情报，整理而成的机密报告书",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		attribute_1 = "cannon",
 		torpedo_ammo = 0,
@@ -4679,9 +4862,7 @@ pg.equip_data_statistics = {
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {
-			{
-				6
-			}
+			6
 		},
 		weapon_id = {},
 		skill_id = {
@@ -4774,21 +4955,30 @@ pg.equip_data_statistics = {
 		torpedo_ammo = 0,
 		property_rate = {}
 	},
+	[791] = {
+		id = 791,
+		anti_siren = 100,
+		base = 780,
+		value_2 = 190,
+		value_1 = "21",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
 	[800] = {
 		name = "艇壳改良设计案",
-		speciality = "无",
-		type = 10,
 		tech = 2,
+		type = 10,
+		speciality = "无",
+		attribute_3 = "raid_distance",
 		id = 800,
-		rarity = 4,
 		value_2 = 40,
 		icon = "800",
 		value_1 = "15",
 		attribute_2 = "durability",
-		attribute_3 = "raid_distance",
+		rarity = 4,
 		nationality = 4,
 		descrip = "通过对艇壳形状的改良，减小了潜艇水下航行的阻力，提高了战斗中的航速与航程",
-		ammo = "无",
+		ammo = 10,
 		value_3 = -8,
 		attribute_1 = "torpedo",
 		torpedo_ammo = 0,
@@ -4796,9 +4986,7 @@ pg.equip_data_statistics = {
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {
-			{
-				6
-			}
+			6
 		},
 		weapon_id = {},
 		skill_id = {
@@ -4897,19 +5085,167 @@ pg.equip_data_statistics = {
 		torpedo_ammo = 0,
 		property_rate = {}
 	},
-	[1000] = {
-		name = "舰艇维修设备",
-		tech = 1,
+	[820] = {
+		name = "开拓者奖章",
+		tech = 0,
 		type = 10,
 		speciality = "无",
-		id = 1000,
-		value_2 = 0,
-		icon = "1000",
-		value_1 = "90",
-		descrip = "用于维修角色的设备，只有修理舰可以使用",
-		rarity = 3,
+		id = 820,
+		value_2 = 20,
+		icon = "820",
+		value_1 = "40",
+		attribute_2 = "durability",
+		rarity = 5,
+		descrip = "航空先驱者的勋章，标志着航空母舰时代的到来，大炮巨舰正成为过去",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
+		value_3 = 0,
+		attribute_1 = "air",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			6
+		},
+		weapon_id = {},
+		skill_id = {
+			6740
+		},
+		part_main = {
+			6,
+			7
+		},
+		part_sub = {
+			6,
+			7
+		},
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
+	},
+	[821] = {
+		id = 821,
+		base = 820,
+		value_2 = 24,
+		value_1 = "46",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[822] = {
+		id = 822,
+		base = 820,
+		value_2 = 28,
+		value_1 = "52",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[823] = {
+		id = 823,
+		base = 820,
+		value_2 = 32,
+		value_1 = "58",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[824] = {
+		id = 824,
+		base = 820,
+		value_2 = 36,
+		value_1 = "64",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[825] = {
+		id = 825,
+		base = 820,
+		value_2 = 40,
+		value_1 = "70",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[826] = {
+		id = 826,
+		base = 820,
+		value_2 = 44,
+		value_1 = "76",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[827] = {
+		id = 827,
+		base = 820,
+		value_2 = 48,
+		value_1 = "82",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[828] = {
+		id = 828,
+		base = 820,
+		value_2 = 52,
+		value_1 = "88",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[829] = {
+		id = 829,
+		base = 820,
+		value_2 = 56,
+		value_1 = "94",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[830] = {
+		id = 830,
+		base = 820,
+		value_2 = 60,
+		value_1 = "100",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[831] = {
+		id = 831,
+		anti_siren = 100,
+		base = 820,
+		value_2 = 64,
+		value_1 = "106",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[832] = {
+		id = 832,
+		anti_siren = 200,
+		base = 820,
+		value_2 = 68,
+		value_1 = "112",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[833] = {
+		id = 833,
+		anti_siren = 300,
+		base = 820,
+		value_2 = 72,
+		value_1 = "118",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[840] = {
+		name = "白鹰精英损管",
+		tech = 0,
+		type = 10,
+		speciality = "无",
+		id = 840,
+		value_2 = 8,
+		icon = "840",
+		value_1 = "200",
+		attribute_2 = "antiaircraft",
+		rarity = 5,
+		descrip = "白鹰先进的损害管制系统，有着优秀的应急处置能力，在战争中减少了大量的舰船损失",
+		nationality = 1,
+		ammo = 10,
 		value_3 = 0,
 		attribute_1 = "durability",
 		torpedo_ammo = 0,
@@ -4917,9 +5253,434 @@ pg.equip_data_statistics = {
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {
-			{
-				6
-			}
+			6
+		},
+		weapon_id = {},
+		skill_id = {
+			6750
+		},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"DEV",
+			"UEDC"
+		}
+	},
+	[841] = {
+		id = 841,
+		base = 840,
+		value_2 = 8,
+		value_1 = "230",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[842] = {
+		id = 842,
+		base = 840,
+		value_2 = 9,
+		value_1 = "260",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[843] = {
+		id = 843,
+		base = 840,
+		value_2 = 10,
+		value_1 = "290",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[844] = {
+		id = 844,
+		base = 840,
+		value_2 = 11,
+		value_1 = "320",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[845] = {
+		id = 845,
+		base = 840,
+		value_2 = 12,
+		value_1 = "350",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[846] = {
+		id = 846,
+		base = 840,
+		value_2 = 13,
+		value_1 = "380",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[847] = {
+		id = 847,
+		base = 840,
+		value_2 = 14,
+		value_1 = "410",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[848] = {
+		id = 848,
+		base = 840,
+		value_2 = 16,
+		value_1 = "440",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[849] = {
+		id = 849,
+		base = 840,
+		value_2 = 18,
+		value_1 = "470",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[850] = {
+		id = 850,
+		base = 840,
+		value_2 = 20,
+		value_1 = "500",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[851] = {
+		id = 851,
+		anti_siren = 100,
+		base = 840,
+		value_2 = 22,
+		value_1 = "530",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[852] = {
+		id = 852,
+		anti_siren = 200,
+		base = 840,
+		value_2 = 24,
+		value_1 = "560",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[853] = {
+		id = 853,
+		anti_siren = 300,
+		base = 840,
+		value_2 = 26,
+		value_1 = "610",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[860] = {
+		name = "华盛顿海军条约",
+		tech = 0,
+		type = 10,
+		speciality = "无",
+		id = 860,
+		value_2 = 12,
+		icon = "860",
+		value_1 = "8",
+		attribute_2 = "hit",
+		rarity = 5,
+		descrip = "......我们决心，为达此目的，签订条约限制各自的海军军备",
+		nationality = 0,
+		ammo = 10,
+		value_3 = 0,
+		attribute_1 = "dodge",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			6
+		},
+		weapon_id = {},
+		skill_id = {
+			6760
+		},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
+	},
+	[861] = {
+		id = 861,
+		base = 860,
+		value_2 = 13,
+		value_1 = "8",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[862] = {
+		id = 862,
+		base = 860,
+		value_2 = 14,
+		value_1 = "9",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[863] = {
+		id = 863,
+		base = 860,
+		value_2 = 16,
+		value_1 = "10",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[864] = {
+		id = 864,
+		base = 860,
+		value_2 = 18,
+		value_1 = "11",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[865] = {
+		id = 865,
+		base = 860,
+		value_2 = 20,
+		value_1 = "12",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[866] = {
+		id = 866,
+		base = 860,
+		value_2 = 22,
+		value_1 = "13",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[867] = {
+		id = 867,
+		base = 860,
+		value_2 = 24,
+		value_1 = "14",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[868] = {
+		id = 868,
+		base = 860,
+		value_2 = 26,
+		value_1 = "16",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[869] = {
+		id = 869,
+		base = 860,
+		value_2 = 28,
+		value_1 = "18",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[870] = {
+		id = 870,
+		base = 860,
+		value_2 = 30,
+		value_1 = "20",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[871] = {
+		id = 871,
+		anti_siren = 100,
+		base = 860,
+		value_2 = 32,
+		value_1 = "22",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[872] = {
+		id = 872,
+		anti_siren = 200,
+		base = 860,
+		value_2 = 34,
+		value_1 = "24",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[873] = {
+		id = 873,
+		anti_siren = 300,
+		base = 860,
+		value_2 = 36,
+		value_1 = "26",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[880] = {
+		name = "纳尔逊的旗语",
+		tech = 0,
+		type = 10,
+		speciality = "无",
+		id = 880,
+		value_2 = 8,
+		icon = "880",
+		value_1 = "20",
+		attribute_2 = "hit",
+		rarity = 5,
+		descrip = "英格兰期望每个人都恪尽职守",
+		nationality = 2,
+		ammo = 10,
+		value_3 = 0,
+		attribute_1 = "cannon",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			6
+		},
+		weapon_id = {},
+		skill_id = {
+			6770
+		},
+		part_main = {
+			4,
+			5,
+			10
+		},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
+	},
+	[881] = {
+		id = 881,
+		base = 880,
+		value_2 = 8,
+		value_1 = "23",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[882] = {
+		id = 882,
+		base = 880,
+		value_2 = 9,
+		value_1 = "26",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[883] = {
+		id = 883,
+		base = 880,
+		value_2 = 10,
+		value_1 = "29",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[884] = {
+		id = 884,
+		base = 880,
+		value_2 = 11,
+		value_1 = "32",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[885] = {
+		id = 885,
+		base = 880,
+		value_2 = 12,
+		value_1 = "35",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[886] = {
+		id = 886,
+		base = 880,
+		value_2 = 13,
+		value_1 = "38",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[887] = {
+		id = 887,
+		base = 880,
+		value_2 = 14,
+		value_1 = "41",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[888] = {
+		id = 888,
+		base = 880,
+		value_2 = 16,
+		value_1 = "44",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[889] = {
+		id = 889,
+		base = 880,
+		value_2 = 18,
+		value_1 = "47",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[890] = {
+		id = 890,
+		base = 880,
+		value_2 = 20,
+		value_1 = "50",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[891] = {
+		id = 891,
+		anti_siren = 100,
+		base = 880,
+		value_2 = 22,
+		value_1 = "53",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[892] = {
+		id = 892,
+		anti_siren = 200,
+		base = 880,
+		value_2 = 24,
+		value_1 = "56",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[893] = {
+		id = 893,
+		anti_siren = 300,
+		base = 880,
+		value_2 = 26,
+		value_1 = "59",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[1000] = {
+		name = "舰艇维修设备",
+		tech = 1,
+		type = 10,
+		speciality = "无",
+		attribute_1 = "durability",
+		value_2 = 0,
+		icon = "1000",
+		value_1 = "90",
+		descrip = "用于维修角色的设备，只有修理舰可以使用",
+		rarity = 3,
+		nationality = 0,
+		ammo = 10,
+		value_3 = 0,
+		id = 1000,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			6
 		},
 		weapon_id = {},
 		skill_id = {
@@ -4983,24 +5744,22 @@ pg.equip_data_statistics = {
 		tech = 2,
 		type = 10,
 		speciality = "无",
-		id = 1020,
+		attribute_1 = "durability",
 		value_2 = 0,
 		icon = "1000",
 		value_1 = "140",
 		descrip = "用于维修角色的设备，只有修理舰可以使用",
 		rarity = 4,
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
-		attribute_1 = "durability",
+		id = 1020,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {
-			{
-				6
-			}
+			6
 		},
 		weapon_id = {},
 		skill_id = {
@@ -5092,24 +5851,22 @@ pg.equip_data_statistics = {
 		tech = 3,
 		type = 10,
 		speciality = "无",
-		id = 1040,
+		attribute_1 = "durability",
 		value_2 = 0,
 		icon = "1000",
 		value_1 = "200",
 		descrip = "用于维修角色的设备，只有修理舰可以使用",
 		rarity = 5,
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
-		attribute_1 = "durability",
+		id = 1040,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {
-			{
-				6
-			}
+			6
 		},
 		weapon_id = {},
 		skill_id = {
@@ -5196,29 +5953,51 @@ pg.equip_data_statistics = {
 		torpedo_ammo = 0,
 		property_rate = {}
 	},
+	[1051] = {
+		anti_siren = 100,
+		base = 1040,
+		id = 1051,
+		value_1 = "530",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[1052] = {
+		anti_siren = 200,
+		base = 1040,
+		id = 1052,
+		value_1 = "560",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[1053] = {
+		anti_siren = 300,
+		base = 1040,
+		id = 1053,
+		value_1 = "590",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
 	[1100] = {
 		name = "对空雷达",
 		tech = 1,
 		type = 10,
 		speciality = "无",
-		id = 1100,
+		attribute_1 = "antiaircraft",
 		value_2 = 0,
 		icon = "1100",
 		value_1 = "10",
 		descrip = "对空搜索雷达，可以提高防空能力",
 		rarity = 2,
 		nationality = 1,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
-		attribute_1 = "antiaircraft",
+		id = 1100,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {
-			{
-				6
-			}
+			6
 		},
 		weapon_id = {},
 		skill_id = {},
@@ -5255,24 +6034,22 @@ pg.equip_data_statistics = {
 		tech = 2,
 		type = 10,
 		speciality = "无",
-		id = 1120,
+		attribute_1 = "antiaircraft",
 		value_2 = 0,
 		icon = "1100",
 		value_1 = "18",
 		descrip = "对空搜索雷达，可以提高防空能力",
 		rarity = 3,
 		nationality = 1,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
-		attribute_1 = "antiaircraft",
+		id = 1120,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {
-			{
-				6
-			}
+			6
 		},
 		weapon_id = {},
 		skill_id = {},
@@ -5330,24 +6107,22 @@ pg.equip_data_statistics = {
 		tech = 3,
 		type = 10,
 		speciality = "无",
-		id = 1140,
+		attribute_1 = "antiaircraft",
 		value_2 = 0,
 		icon = "1100",
 		value_1 = "28",
 		descrip = "对空搜索雷达，可以提高防空能力",
 		rarity = 4,
 		nationality = 1,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
-		attribute_1 = "antiaircraft",
+		id = 1140,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {
-			{
-				6
-			}
+			6
 		},
 		weapon_id = {},
 		skill_id = {},
@@ -5428,29 +6203,35 @@ pg.equip_data_statistics = {
 		torpedo_ammo = 0,
 		property_rate = {}
 	},
+	[1151] = {
+		anti_siren = 100,
+		base = 1140,
+		id = 1151,
+		value_1 = "75",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
 	[1160] = {
 		name = "高性能对空雷达",
 		tech = 0,
 		type = 10,
 		speciality = "无",
-		id = 1160,
+		attribute_1 = "antiaircraft",
 		value_2 = 0,
 		icon = "1160",
 		value_1 = "40",
 		descrip = "293对空搜索雷达，可以提高防空能力",
 		rarity = 5,
 		nationality = 2,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
-		attribute_1 = "antiaircraft",
+		id = 1160,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {
-			{
-				6
-			}
+			6
 		},
 		weapon_id = {},
 		skill_id = {
@@ -5535,6 +6316,30 @@ pg.equip_data_statistics = {
 		torpedo_ammo = 0,
 		property_rate = {}
 	},
+	[1171] = {
+		anti_siren = 100,
+		base = 1160,
+		id = 1171,
+		value_1 = "106",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[1172] = {
+		anti_siren = 200,
+		base = 1160,
+		id = 1172,
+		value_1 = "112",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[1173] = {
+		anti_siren = 300,
+		base = 1160,
+		id = 1173,
+		value_1 = "118",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
 	[1200] = {
 		name = "火控雷达",
 		tech = 1,
@@ -5548,7 +6353,7 @@ pg.equip_data_statistics = {
 		rarity = 2,
 		descrip = "火控雷达，提高炮击命中和伤害",
 		nationality = 1,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		attribute_1 = "hit",
 		torpedo_ammo = 0,
@@ -5556,9 +6361,7 @@ pg.equip_data_statistics = {
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {
-			{
-				6
-			}
+			6
 		},
 		weapon_id = {},
 		skill_id = {},
@@ -5568,7 +6371,8 @@ pg.equip_data_statistics = {
 			5,
 			10,
 			13,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			3,
@@ -5576,7 +6380,8 @@ pg.equip_data_statistics = {
 			5,
 			10,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -5618,7 +6423,7 @@ pg.equip_data_statistics = {
 		rarity = 3,
 		descrip = "火控雷达，提高炮击命中和伤害",
 		nationality = 1,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		attribute_1 = "hit",
 		torpedo_ammo = 0,
@@ -5626,9 +6431,7 @@ pg.equip_data_statistics = {
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {
-			{
-				6
-			}
+			6
 		},
 		weapon_id = {},
 		skill_id = {},
@@ -5638,7 +6441,8 @@ pg.equip_data_statistics = {
 			5,
 			10,
 			13,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			3,
@@ -5646,7 +6450,8 @@ pg.equip_data_statistics = {
 			5,
 			10,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -5714,7 +6519,7 @@ pg.equip_data_statistics = {
 		rarity = 4,
 		descrip = "火控雷达，提高炮击命中和伤害",
 		nationality = 1,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		attribute_1 = "hit",
 		torpedo_ammo = 0,
@@ -5722,9 +6527,7 @@ pg.equip_data_statistics = {
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {
-			{
-				6
-			}
+			6
 		},
 		weapon_id = {},
 		skill_id = {},
@@ -5734,7 +6537,8 @@ pg.equip_data_statistics = {
 			5,
 			10,
 			13,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			3,
@@ -5742,7 +6546,8 @@ pg.equip_data_statistics = {
 			5,
 			10,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -5829,6 +6634,15 @@ pg.equip_data_statistics = {
 		torpedo_ammo = 0,
 		property_rate = {}
 	},
+	[1251] = {
+		id = 1251,
+		anti_siren = 100,
+		base = 1240,
+		value_2 = 23,
+		value_1 = "25",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
 	[1260] = {
 		name = "高性能火控雷达",
 		tech = 0,
@@ -5842,7 +6656,7 @@ pg.equip_data_statistics = {
 		rarity = 5,
 		descrip = "先进的火控雷达，有效提高炮击命中和伤害，比普通的火控雷达性能更好",
 		nationality = 1,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		attribute_1 = "hit",
 		torpedo_ammo = 0,
@@ -5850,9 +6664,7 @@ pg.equip_data_statistics = {
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {
-			{
-				6
-			}
+			6
 		},
 		weapon_id = {},
 		skill_id = {
@@ -5955,29 +6767,54 @@ pg.equip_data_statistics = {
 		torpedo_ammo = 0,
 		property_rate = {}
 	},
+	[1271] = {
+		id = 1271,
+		anti_siren = 100,
+		base = 1260,
+		value_2 = 32,
+		value_1 = "39",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[1272] = {
+		id = 1272,
+		anti_siren = 200,
+		base = 1260,
+		value_2 = 34,
+		value_1 = "42",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[1273] = {
+		id = 1273,
+		anti_siren = 300,
+		base = 1260,
+		value_2 = 36,
+		value_1 = "45",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
 	[1300] = {
 		name = "防鱼雷隔舱",
 		tech = 1,
 		type = 10,
 		speciality = "无",
-		id = 1300,
+		attribute_1 = "durability",
 		value_2 = 0,
 		icon = "1300",
 		value_1 = "50",
 		descrip = "防鱼雷隔舱，可以减少鱼雷造成的伤害",
 		rarity = 2,
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
-		attribute_1 = "durability",
+		id = 1300,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {
-			{
-				6
-			}
+			6
 		},
 		weapon_id = {},
 		skill_id = {
@@ -5994,7 +6831,8 @@ pg.equip_data_statistics = {
 			11,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			2,
@@ -6007,7 +6845,8 @@ pg.equip_data_statistics = {
 			11,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -6040,24 +6879,22 @@ pg.equip_data_statistics = {
 		tech = 2,
 		type = 10,
 		speciality = "无",
-		id = 1320,
+		attribute_1 = "durability",
 		value_2 = 0,
 		icon = "1300",
 		value_1 = "90",
 		descrip = "防鱼雷隔舱，可以减少鱼雷造成的伤害",
 		rarity = 3,
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
-		attribute_1 = "durability",
+		id = 1320,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {
-			{
-				6
-			}
+			6
 		},
 		weapon_id = {},
 		skill_id = {
@@ -6074,7 +6911,8 @@ pg.equip_data_statistics = {
 			11,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			2,
@@ -6087,7 +6925,8 @@ pg.equip_data_statistics = {
 			11,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -6141,24 +6980,22 @@ pg.equip_data_statistics = {
 		tech = 3,
 		type = 10,
 		speciality = "无",
-		id = 1340,
+		attribute_1 = "durability",
 		value_2 = 0,
 		icon = "1300",
 		value_1 = "140",
 		descrip = "防鱼雷隔舱，可以减少鱼雷造成的伤害",
 		rarity = 4,
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
-		attribute_1 = "durability",
+		id = 1340,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {
-			{
-				6
-			}
+			6
 		},
 		weapon_id = {},
 		skill_id = {
@@ -6175,7 +7012,8 @@ pg.equip_data_statistics = {
 			11,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			2,
@@ -6188,7 +7026,8 @@ pg.equip_data_statistics = {
 			11,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -6265,6 +7104,14 @@ pg.equip_data_statistics = {
 		torpedo_ammo = 0,
 		property_rate = {}
 	},
+	[1351] = {
+		anti_siren = 100,
+		base = 1340,
+		id = 1351,
+		value_1 = "371",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
 	[1400] = {
 		name = "液压弹射装置",
 		tech = 1,
@@ -6278,7 +7125,7 @@ pg.equip_data_statistics = {
 		rarity = 3,
 		descrip = "用于飞机弹射起飞，可以提高航空能力",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		attribute_1 = "air",
 		torpedo_ammo = 0,
@@ -6286,9 +7133,7 @@ pg.equip_data_statistics = {
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {
-			{
-				6
-			}
+			6
 		},
 		weapon_id = {},
 		skill_id = {},
@@ -6368,7 +7213,7 @@ pg.equip_data_statistics = {
 		rarity = 4,
 		descrip = "用于飞机弹射起飞，可以提高航空能力",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		attribute_1 = "air",
 		torpedo_ammo = 0,
@@ -6376,9 +7221,7 @@ pg.equip_data_statistics = {
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {
-			{
-				6
-			}
+			6
 		},
 		weapon_id = {},
 		skill_id = {},
@@ -6490,7 +7333,7 @@ pg.equip_data_statistics = {
 		rarity = 5,
 		descrip = "用于飞机弹射起飞，可以提高航空能力",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		attribute_1 = "air",
 		torpedo_ammo = 0,
@@ -6498,9 +7341,7 @@ pg.equip_data_statistics = {
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {
-			{
-				6
-			}
+			6
 		},
 		weapon_id = {},
 		skill_id = {},
@@ -6599,6 +7440,33 @@ pg.equip_data_statistics = {
 		torpedo_ammo = 0,
 		property_rate = {}
 	},
+	[1451] = {
+		id = 1451,
+		anti_siren = 100,
+		base = 1440,
+		value_2 = 80,
+		value_1 = "106",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[1452] = {
+		id = 1452,
+		anti_siren = 200,
+		base = 1440,
+		value_2 = 85,
+		value_1 = "112",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[1453] = {
+		id = 1453,
+		anti_siren = 300,
+		base = 1440,
+		value_2 = 90,
+		value_1 = "118",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
 	[1500] = {
 		name = "SG雷达",
 		tech = 1,
@@ -6612,7 +7480,7 @@ pg.equip_data_statistics = {
 		rarity = 3,
 		descrip = "白鹰联邦的先进雷达，可以更有效的发现敌人并选择作战或避开",
 		nationality = 1,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		attribute_1 = "hit",
 		torpedo_ammo = 0,
@@ -6620,9 +7488,7 @@ pg.equip_data_statistics = {
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {
-			{
-				6
-			}
+			6
 		},
 		weapon_id = {},
 		skill_id = {
@@ -6640,7 +7506,8 @@ pg.equip_data_statistics = {
 			12,
 			13,
 			17,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			1,
@@ -6654,7 +7521,8 @@ pg.equip_data_statistics = {
 			12,
 			13,
 			17,
-			18
+			18,
+			19
 		},
 		equip_parameters = {
 			avoid_extra = 500,
@@ -6726,7 +7594,7 @@ pg.equip_data_statistics = {
 		rarity = 4,
 		descrip = "白鹰联邦的先进雷达，可以更有效的发现敌人并选择作战或避开",
 		nationality = 1,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		attribute_1 = "hit",
 		torpedo_ammo = 0,
@@ -6734,9 +7602,7 @@ pg.equip_data_statistics = {
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {
-			{
-				6
-			}
+			6
 		},
 		weapon_id = {},
 		skill_id = {
@@ -6754,7 +7620,8 @@ pg.equip_data_statistics = {
 			12,
 			13,
 			17,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			1,
@@ -6768,7 +7635,8 @@ pg.equip_data_statistics = {
 			12,
 			13,
 			17,
-			18
+			18,
+			19
 		},
 		equip_parameters = {
 			avoid_extra = 800,
@@ -6871,7 +7739,7 @@ pg.equip_data_statistics = {
 		rarity = 5,
 		descrip = "白鹰联邦的先进雷达，可以更有效的发现敌人并选择作战或避开",
 		nationality = 1,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		attribute_1 = "hit",
 		torpedo_ammo = 0,
@@ -6879,9 +7747,7 @@ pg.equip_data_statistics = {
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {
-			{
-				6
-			}
+			6
 		},
 		weapon_id = {},
 		skill_id = {
@@ -6899,7 +7765,8 @@ pg.equip_data_statistics = {
 			12,
 			13,
 			17,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			1,
@@ -6913,7 +7780,8 @@ pg.equip_data_statistics = {
 			12,
 			13,
 			17,
-			18
+			18,
+			19
 		},
 		equip_parameters = {
 			avoid_extra = 1200,
@@ -7003,29 +7871,54 @@ pg.equip_data_statistics = {
 		torpedo_ammo = 0,
 		property_rate = {}
 	},
+	[1551] = {
+		id = 1551,
+		anti_siren = 100,
+		base = 1540,
+		value_2 = 16,
+		value_1 = "38",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[1552] = {
+		id = 1552,
+		anti_siren = 200,
+		base = 1540,
+		value_2 = 17,
+		value_1 = "41",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[1553] = {
+		id = 1553,
+		anti_siren = 300,
+		base = 1540,
+		value_2 = 18,
+		value_1 = "44",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
 	[1600] = {
 		name = "电动扬弹机",
 		tech = 1,
 		type = 10,
 		speciality = "无",
-		id = 1600,
+		attribute_1 = "reload",
 		value_2 = 0,
 		icon = "1600",
 		value_1 = "2",
 		descrip = "电动扬弹机，能够提高装填和炮击",
 		rarity = 1,
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
-		attribute_1 = "reload",
+		id = 1600,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {
-			{
-				6
-			}
+			6
 		},
 		weapon_id = {},
 		skill_id = {},
@@ -7041,7 +7934,8 @@ pg.equip_data_statistics = {
 			12,
 			13,
 			17,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			1,
@@ -7055,7 +7949,8 @@ pg.equip_data_statistics = {
 			12,
 			13,
 			17,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -7101,7 +7996,7 @@ pg.equip_data_statistics = {
 		rarity = 2,
 		descrip = "电动扬弹机，能够提高装填和炮击",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		attribute_1 = "reload",
 		torpedo_ammo = 0,
@@ -7109,9 +8004,7 @@ pg.equip_data_statistics = {
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {
-			{
-				6
-			}
+			6
 		},
 		weapon_id = {},
 		skill_id = {},
@@ -7127,7 +8020,8 @@ pg.equip_data_statistics = {
 			12,
 			13,
 			17,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			1,
@@ -7141,7 +8035,8 @@ pg.equip_data_statistics = {
 			12,
 			13,
 			17,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -7184,7 +8079,7 @@ pg.equip_data_statistics = {
 		rarity = 3,
 		descrip = "电动扬弹机，能够提高装填和炮击",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		attribute_1 = "reload",
 		torpedo_ammo = 0,
@@ -7192,9 +8087,7 @@ pg.equip_data_statistics = {
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {
-			{
-				6
-			}
+			6
 		},
 		weapon_id = {},
 		skill_id = {},
@@ -7210,7 +8103,8 @@ pg.equip_data_statistics = {
 			12,
 			13,
 			17,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			1,
@@ -7224,7 +8118,8 @@ pg.equip_data_statistics = {
 			12,
 			13,
 			17,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -7277,6 +8172,14 @@ pg.equip_data_statistics = {
 		torpedo_ammo = 0,
 		property_rate = {}
 	},
+	[1647] = {
+		id = 1647,
+		base = 1640,
+		value_2 = 6,
+		value_1 = "19",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
 	[1700] = {
 		name = "液压舵机",
 		tech = 1,
@@ -7290,7 +8193,7 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		descrip = "舵坏了可就麻烦啦，能够提高机动值",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		attribute_1 = "dodge",
 		torpedo_ammo = 0,
@@ -7298,9 +8201,7 @@ pg.equip_data_statistics = {
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {
-			{
-				6
-			}
+			6
 		},
 		weapon_id = {},
 		skill_id = {},
@@ -7347,7 +8248,7 @@ pg.equip_data_statistics = {
 		rarity = 2,
 		descrip = "舵坏了可就麻烦啦，能够提高机动值",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		attribute_1 = "dodge",
 		torpedo_ammo = 0,
@@ -7355,9 +8256,7 @@ pg.equip_data_statistics = {
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {
-			{
-				6
-			}
+			6
 		},
 		weapon_id = {},
 		skill_id = {},
@@ -7404,7 +8303,7 @@ pg.equip_data_statistics = {
 		rarity = 3,
 		descrip = "舵坏了可就麻烦啦，能够提高机动值",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		attribute_1 = "dodge",
 		torpedo_ammo = 0,
@@ -7412,9 +8311,7 @@ pg.equip_data_statistics = {
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {
-			{
-				6
-			}
+			6
 		},
 		weapon_id = {},
 		skill_id = {},
@@ -7473,6 +8370,14 @@ pg.equip_data_statistics = {
 		torpedo_ammo = 0,
 		property_rate = {}
 	},
+	[1747] = {
+		id = 1747,
+		base = 1740,
+		value_2 = 48,
+		value_1 = "19",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
 	[1760] = {
 		name = "高性能舵机",
 		tech = 0,
@@ -7486,7 +8391,7 @@ pg.equip_data_statistics = {
 		rarity = 5,
 		descrip = "高性能的舵机，能够提高机动值",
 		nationality = 1,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		attribute_1 = "dodge",
 		torpedo_ammo = 0,
@@ -7494,9 +8399,7 @@ pg.equip_data_statistics = {
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {
-			{
-				6
-			}
+			6
 		},
 		weapon_id = {},
 		skill_id = {
@@ -7589,6 +8492,33 @@ pg.equip_data_statistics = {
 		torpedo_ammo = 0,
 		property_rate = {}
 	},
+	[1771] = {
+		id = 1771,
+		anti_siren = 100,
+		base = 1760,
+		value_2 = 64,
+		value_1 = "43",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[1772] = {
+		id = 1772,
+		anti_siren = 200,
+		base = 1760,
+		value_2 = 68,
+		value_1 = "46",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[1773] = {
+		id = 1773,
+		anti_siren = 300,
+		base = 1760,
+		value_2 = 72,
+		value_1 = "49",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
 	[1800] = {
 		name = "改良锅炉",
 		tech = 1,
@@ -7602,7 +8532,7 @@ pg.equip_data_statistics = {
 		rarity = 2,
 		descrip = "比较先进的锅炉，有效的提高了航速和耐久性能",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		attribute_1 = "durability",
 		torpedo_ammo = 0,
@@ -7610,9 +8540,7 @@ pg.equip_data_statistics = {
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {
-			{
-				6
-			}
+			6
 		},
 		weapon_id = {},
 		skill_id = {},
@@ -7657,7 +8585,7 @@ pg.equip_data_statistics = {
 		rarity = 3,
 		descrip = "比较先进的锅炉，有效的提高了航速和耐久性能",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		attribute_1 = "durability",
 		torpedo_ammo = 0,
@@ -7665,9 +8593,7 @@ pg.equip_data_statistics = {
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {
-			{
-				6
-			}
+			6
 		},
 		weapon_id = {},
 		skill_id = {},
@@ -7737,7 +8663,7 @@ pg.equip_data_statistics = {
 		rarity = 4,
 		descrip = "比较先进的锅炉，有效的提高了航速和耐久性能",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		attribute_1 = "durability",
 		torpedo_ammo = 0,
@@ -7745,9 +8671,7 @@ pg.equip_data_statistics = {
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {
-			{
-				6
-			}
+			6
 		},
 		weapon_id = {},
 		skill_id = {},
@@ -7837,6 +8761,15 @@ pg.equip_data_statistics = {
 		torpedo_ammo = 0,
 		property_rate = {}
 	},
+	[1851] = {
+		id = 1851,
+		anti_siren = 100,
+		base = 1840,
+		value_2 = 8,
+		value_1 = "260",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
 	[1900] = {
 		name = "海军迷彩",
 		tech = 1,
@@ -7850,7 +8783,7 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		descrip = "虽说涂装可以随意，但是这么贵的东西就不要弄个一点隐蔽性能都没有的东西了吧",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		attribute_1 = "dodge",
 		torpedo_ammo = 0,
@@ -7858,9 +8791,7 @@ pg.equip_data_statistics = {
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {
-			{
-				6
-			}
+			6
 		},
 		weapon_id = {},
 		skill_id = {},
@@ -7907,7 +8838,7 @@ pg.equip_data_statistics = {
 		rarity = 2,
 		descrip = "虽说涂装可以随意，但是这么贵的东西就不要弄个一点隐蔽性能都没有的东西了吧",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		attribute_1 = "dodge",
 		torpedo_ammo = 0,
@@ -7915,9 +8846,7 @@ pg.equip_data_statistics = {
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {
-			{
-				6
-			}
+			6
 		},
 		weapon_id = {},
 		skill_id = {},
@@ -7964,7 +8893,7 @@ pg.equip_data_statistics = {
 		rarity = 3,
 		descrip = "虽说涂装可以随意，但是这么贵的东西就不要弄个一点隐蔽性能都没有的东西了吧",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		attribute_1 = "dodge",
 		torpedo_ammo = 0,
@@ -7972,9 +8901,7 @@ pg.equip_data_statistics = {
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {
-			{
-				6
-			}
+			6
 		},
 		weapon_id = {},
 		skill_id = {},
@@ -8033,6 +8960,14 @@ pg.equip_data_statistics = {
 		torpedo_ammo = 0,
 		property_rate = {}
 	},
+	[1947] = {
+		id = 1947,
+		base = 1940,
+		value_2 = 48,
+		value_1 = "19",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
 	[1960] = {
 		name = "海魂迷彩",
 		tech = 0,
@@ -8046,7 +8981,7 @@ pg.equip_data_statistics = {
 		rarity = 4,
 		descrip = "似乎是能提高战斗力的涂装",
 		nationality = 7,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		attribute_1 = "dodge",
 		torpedo_ammo = 0,
@@ -8054,9 +8989,7 @@ pg.equip_data_statistics = {
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {
-			{
-				6
-			}
+			6
 		},
 		weapon_id = {},
 		skill_id = {},
@@ -8147,6 +9080,15 @@ pg.equip_data_statistics = {
 		torpedo_ammo = 0,
 		property_rate = {}
 	},
+	[1971] = {
+		id = 1971,
+		anti_siren = 100,
+		base = 1960,
+		value_2 = 110,
+		value_1 = "19",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
 	[2000] = {
 		name = "燃油滤清器",
 		tech = 1,
@@ -8160,7 +9102,7 @@ pg.equip_data_statistics = {
 		rarity = 2,
 		descrip = "可以提高燃油质量哦",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		attribute_1 = "durability",
 		torpedo_ammo = 0,
@@ -8168,9 +9110,7 @@ pg.equip_data_statistics = {
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {
-			{
-				6
-			}
+			6
 		},
 		weapon_id = {},
 		skill_id = {},
@@ -8215,7 +9155,7 @@ pg.equip_data_statistics = {
 		rarity = 3,
 		descrip = "可以提高燃油质量哦",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		attribute_1 = "durability",
 		torpedo_ammo = 0,
@@ -8223,9 +9163,7 @@ pg.equip_data_statistics = {
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {
-			{
-				6
-			}
+			6
 		},
 		weapon_id = {},
 		skill_id = {},
@@ -8294,7 +9232,7 @@ pg.equip_data_statistics = {
 		rarity = 4,
 		descrip = "可以提高燃油质量哦",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		attribute_1 = "durability",
 		torpedo_ammo = 0,
@@ -8302,9 +9240,7 @@ pg.equip_data_statistics = {
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {
-			{
-				6
-			}
+			6
 		},
 		weapon_id = {},
 		skill_id = {},
@@ -8392,6 +9328,15 @@ pg.equip_data_statistics = {
 		torpedo_ammo = 0,
 		property_rate = {}
 	},
+	[2051] = {
+		id = 2051,
+		anti_siren = 100,
+		base = 2040,
+		value_2 = 6,
+		value_1 = "371",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
 	[2100] = {
 		name = "航空副油箱",
 		tech = 1,
@@ -8405,7 +9350,7 @@ pg.equip_data_statistics = {
 		rarity = 2,
 		descrip = "携带副油箱可以有效提高舰载机的耐久性能",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		attribute_1 = "air",
 		torpedo_ammo = 0,
@@ -8413,9 +9358,7 @@ pg.equip_data_statistics = {
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {
-			{
-				6
-			}
+			6
 		},
 		weapon_id = {},
 		skill_id = {
@@ -8473,7 +9416,7 @@ pg.equip_data_statistics = {
 		rarity = 3,
 		descrip = "携带副油箱可以有效提高舰载机的耐久性能",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		attribute_1 = "air",
 		torpedo_ammo = 0,
@@ -8481,9 +9424,7 @@ pg.equip_data_statistics = {
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {
-			{
-				6
-			}
+			6
 		},
 		weapon_id = {},
 		skill_id = {
@@ -8565,7 +9506,7 @@ pg.equip_data_statistics = {
 		rarity = 4,
 		descrip = "携带副油箱可以有效提高舰载机的耐久性能",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		attribute_1 = "air",
 		torpedo_ammo = 0,
@@ -8573,9 +9514,7 @@ pg.equip_data_statistics = {
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {
-			{
-				6
-			}
+			6
 		},
 		weapon_id = {},
 		skill_id = {
@@ -8676,6 +9615,15 @@ pg.equip_data_statistics = {
 		torpedo_ammo = 0,
 		property_rate = {}
 	},
+	[2151] = {
+		id = 2151,
+		anti_siren = 100,
+		base = 2140,
+		value_2 = 64,
+		value_1 = "75",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
 	[2200] = {
 		name = "链式装弹机",
 		tech = 1,
@@ -8689,7 +9637,7 @@ pg.equip_data_statistics = {
 		rarity = 2,
 		descrip = "较先进的装弹机，总比一个个手动填装要好得多",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		attribute_1 = "reload",
 		torpedo_ammo = 0,
@@ -8697,9 +9645,7 @@ pg.equip_data_statistics = {
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {
-			{
-				6
-			}
+			6
 		},
 		weapon_id = {},
 		skill_id = {},
@@ -8715,7 +9661,8 @@ pg.equip_data_statistics = {
 			12,
 			13,
 			17,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			1,
@@ -8729,7 +9676,8 @@ pg.equip_data_statistics = {
 			12,
 			13,
 			17,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -8770,7 +9718,7 @@ pg.equip_data_statistics = {
 		rarity = 3,
 		descrip = "较先进的装弹机，总比一个个手动填装要好得多",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		attribute_1 = "reload",
 		torpedo_ammo = 0,
@@ -8778,9 +9726,7 @@ pg.equip_data_statistics = {
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {
-			{
-				6
-			}
+			6
 		},
 		weapon_id = {},
 		skill_id = {},
@@ -8796,7 +9742,8 @@ pg.equip_data_statistics = {
 			12,
 			13,
 			17,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			1,
@@ -8810,7 +9757,8 @@ pg.equip_data_statistics = {
 			12,
 			13,
 			17,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -8876,7 +9824,7 @@ pg.equip_data_statistics = {
 		rarity = 4,
 		descrip = "较先进的装弹机，总比一个个手动填装要好得多",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		attribute_1 = "reload",
 		torpedo_ammo = 0,
@@ -8884,9 +9832,7 @@ pg.equip_data_statistics = {
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {
-			{
-				6
-			}
+			6
 		},
 		weapon_id = {},
 		skill_id = {},
@@ -8902,7 +9848,8 @@ pg.equip_data_statistics = {
 			12,
 			13,
 			17,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			1,
@@ -8916,7 +9863,8 @@ pg.equip_data_statistics = {
 			12,
 			13,
 			17,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -9001,6 +9949,15 @@ pg.equip_data_statistics = {
 		torpedo_ammo = 0,
 		property_rate = {}
 	},
+	[2251] = {
+		id = 2251,
+		anti_siren = 100,
+		base = 2240,
+		value_2 = 8,
+		value_1 = "38",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
 	[2300] = {
 		name = "陀螺仪",
 		tech = 1,
@@ -9014,7 +9971,7 @@ pg.equip_data_statistics = {
 		rarity = 2,
 		descrip = "陀螺仪可以稳定舰体，从而提高命中和航速",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		attribute_1 = "hit",
 		torpedo_ammo = 0,
@@ -9022,9 +9979,7 @@ pg.equip_data_statistics = {
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {
-			{
-				6
-			}
+			6
 		},
 		weapon_id = {},
 		skill_id = {},
@@ -9040,7 +9995,8 @@ pg.equip_data_statistics = {
 			12,
 			13,
 			17,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			1,
@@ -9054,7 +10010,8 @@ pg.equip_data_statistics = {
 			12,
 			13,
 			17,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -9094,7 +10051,7 @@ pg.equip_data_statistics = {
 		rarity = 3,
 		descrip = "陀螺仪可以稳定舰体，从而提高命中和航速",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		attribute_1 = "hit",
 		torpedo_ammo = 0,
@@ -9102,9 +10059,7 @@ pg.equip_data_statistics = {
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {
-			{
-				6
-			}
+			6
 		},
 		weapon_id = {},
 		skill_id = {},
@@ -9120,7 +10075,8 @@ pg.equip_data_statistics = {
 			12,
 			13,
 			17,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			1,
@@ -9134,7 +10090,8 @@ pg.equip_data_statistics = {
 			12,
 			13,
 			17,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -9200,7 +10157,7 @@ pg.equip_data_statistics = {
 		rarity = 4,
 		descrip = "陀螺仪可以稳定舰体，从而提高命中和航速",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		attribute_1 = "hit",
 		torpedo_ammo = 0,
@@ -9208,9 +10165,7 @@ pg.equip_data_statistics = {
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {
-			{
-				6
-			}
+			6
 		},
 		weapon_id = {},
 		skill_id = {},
@@ -9226,7 +10181,8 @@ pg.equip_data_statistics = {
 			12,
 			13,
 			17,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			1,
@@ -9240,7 +10196,8 @@ pg.equip_data_statistics = {
 			12,
 			13,
 			17,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -9326,29 +10283,36 @@ pg.equip_data_statistics = {
 		torpedo_ammo = 0,
 		property_rate = {}
 	},
+	[2351] = {
+		id = 2351,
+		anti_siren = 100,
+		base = 2340,
+		value_2 = 8,
+		value_1 = "38",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
 	[2400] = {
 		name = "维修工具",
 		tech = 1,
 		type = 10,
 		speciality = "无",
-		id = 2400,
+		attribute_1 = "durability",
 		value_2 = 0,
 		icon = "2400",
 		value_1 = "90",
 		descrip = "携带维修工具才能让损管队有效损管，但是只能维修自身",
 		rarity = 2,
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
-		attribute_1 = "durability",
+		id = 2400,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {
-			{
-				6
-			}
+			6
 		},
 		weapon_id = {},
 		skill_id = {
@@ -9387,24 +10351,22 @@ pg.equip_data_statistics = {
 		tech = 2,
 		type = 10,
 		speciality = "无",
-		id = 2420,
+		attribute_1 = "durability",
 		value_2 = 0,
 		icon = "2400",
 		value_1 = "140",
 		descrip = "携带维修工具才能让损管队有效损管，但是只能维修自身",
 		rarity = 3,
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
-		attribute_1 = "durability",
+		id = 2420,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {
-			{
-				6
-			}
+			6
 		},
 		weapon_id = {},
 		skill_id = {
@@ -9464,24 +10426,22 @@ pg.equip_data_statistics = {
 		tech = 3,
 		type = 10,
 		speciality = "无",
-		id = 2440,
+		attribute_1 = "durability",
 		value_2 = 0,
 		icon = "2400",
 		value_1 = "200",
 		descrip = "携带维修工具才能让损管队有效损管，但是只能维修自身",
 		rarity = 4,
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
-		attribute_1 = "durability",
+		id = 2440,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {
-			{
-				6
-			}
+			6
 		},
 		weapon_id = {},
 		skill_id = {
@@ -9564,29 +10524,35 @@ pg.equip_data_statistics = {
 		torpedo_ammo = 0,
 		property_rate = {}
 	},
+	[2451] = {
+		anti_siren = 100,
+		base = 2440,
+		id = 2451,
+		value_1 = "530",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
 	[2500] = {
 		name = "灭火器",
 		tech = 1,
 		type = 10,
 		speciality = "无",
-		id = 2500,
+		attribute_1 = "durability",
 		value_2 = 0,
 		icon = "2500",
 		value_1 = "50",
 		descrip = "防止火灾啦",
 		rarity = 1,
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
-		attribute_1 = "durability",
+		id = 2500,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {
-			{
-				6
-			}
+			6
 		},
 		weapon_id = {},
 		skill_id = {
@@ -9625,24 +10591,22 @@ pg.equip_data_statistics = {
 		tech = 2,
 		type = 10,
 		speciality = "无",
-		id = 2520,
+		attribute_1 = "durability",
 		value_2 = 0,
 		icon = "2500",
 		value_1 = "90",
 		descrip = "防止火灾啦",
 		rarity = 2,
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
-		attribute_1 = "durability",
+		id = 2520,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {
-			{
-				6
-			}
+			6
 		},
 		weapon_id = {},
 		skill_id = {
@@ -9681,24 +10645,22 @@ pg.equip_data_statistics = {
 		tech = 3,
 		type = 10,
 		speciality = "无",
-		id = 2540,
+		attribute_1 = "durability",
 		value_2 = 0,
 		icon = "2500",
 		value_1 = "140",
 		descrip = "防止火灾啦",
 		rarity = 3,
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
-		attribute_1 = "durability",
+		id = 2540,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {
-			{
-				6
-			}
+			6
 		},
 		weapon_id = {},
 		skill_id = {
@@ -9753,6 +10715,13 @@ pg.equip_data_statistics = {
 		torpedo_ammo = 0,
 		property_rate = {}
 	},
+	[2547] = {
+		base = 2540,
+		id = 2547,
+		value_1 = "287",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
 	[2600] = {
 		name = "九三式纯氧鱼雷",
 		tech = 1,
@@ -9766,7 +10735,7 @@ pg.equip_data_statistics = {
 		rarity = 4,
 		descrip = "九三式纯氧鱼雷，性能优于大部分鱼雷，可装备在设备栏，提高角色的雷击属性",
 		nationality = 3,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		attribute_1 = "torpedo",
 		torpedo_ammo = 1,
@@ -9774,9 +10743,7 @@ pg.equip_data_statistics = {
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {
-			{
-				6
-			}
+			6
 		},
 		weapon_id = {},
 		skill_id = {},
@@ -9895,7 +10862,7 @@ pg.equip_data_statistics = {
 		rarity = 5,
 		descrip = "九三式纯氧鱼雷，性能优于大部分鱼雷，可装备在设备栏，提高角色的雷击属性",
 		nationality = 3,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		attribute_1 = "torpedo",
 		torpedo_ammo = 1,
@@ -9903,9 +10870,7 @@ pg.equip_data_statistics = {
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {
-			{
-				6
-			}
+			6
 		},
 		weapon_id = {},
 		skill_id = {},
@@ -10024,7 +10989,7 @@ pg.equip_data_statistics = {
 		rarity = 6,
 		descrip = "九三式纯氧鱼雷，性能优于大部分鱼雷，可装备在设备栏，提高角色的雷击属性",
 		nationality = 3,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		attribute_1 = "torpedo",
 		torpedo_ammo = 1,
@@ -10032,9 +10997,7 @@ pg.equip_data_statistics = {
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {
-			{
-				6
-			}
+			6
 		},
 		weapon_id = {},
 		skill_id = {},
@@ -10140,6 +11103,33 @@ pg.equip_data_statistics = {
 		torpedo_ammo = 4,
 		property_rate = {}
 	},
+	[2651] = {
+		id = 2651,
+		anti_siren = 100,
+		base = 2640,
+		value_2 = 11,
+		value_1 = "106",
+		torpedo_ammo = 4,
+		property_rate = {}
+	},
+	[2652] = {
+		id = 2652,
+		anti_siren = 200,
+		base = 2640,
+		value_2 = 12,
+		value_1 = "112",
+		torpedo_ammo = 4,
+		property_rate = {}
+	},
+	[2653] = {
+		id = 2653,
+		anti_siren = 300,
+		base = 2640,
+		value_2 = 13,
+		value_1 = "118",
+		torpedo_ammo = 4,
+		property_rate = {}
+	},
 	[2700] = {
 		name = "533mm磁性鱼雷（水面舰艇用）",
 		tech = 1,
@@ -10153,7 +11143,7 @@ pg.equip_data_statistics = {
 		rarity = 3,
 		descrip = "仅限水面舰艇使用的533mm磁性鱼雷，使用了磁性引信和声导技术",
 		nationality = 4,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		attribute_1 = "torpedo",
 		torpedo_ammo = 0,
@@ -10161,9 +11151,7 @@ pg.equip_data_statistics = {
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {
-			{
-				6
-			}
+			6
 		},
 		weapon_id = {},
 		skill_id = {},
@@ -10247,7 +11235,7 @@ pg.equip_data_statistics = {
 		rarity = 4,
 		descrip = "仅限水面舰艇使用的533mm磁性鱼雷，使用了磁性引信和声导技术",
 		nationality = 4,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		attribute_1 = "torpedo",
 		torpedo_ammo = 0,
@@ -10255,9 +11243,7 @@ pg.equip_data_statistics = {
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {
-			{
-				6
-			}
+			6
 		},
 		weapon_id = {},
 		skill_id = {},
@@ -10372,7 +11358,7 @@ pg.equip_data_statistics = {
 		rarity = 5,
 		descrip = "仅限水面舰艇使用的533mm磁性鱼雷，使用了磁性引信和声导技术",
 		nationality = 4,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		attribute_1 = "torpedo",
 		torpedo_ammo = 0,
@@ -10380,9 +11366,7 @@ pg.equip_data_statistics = {
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {
-			{
-				6
-			}
+			6
 		},
 		weapon_id = {},
 		skill_id = {
@@ -10486,6 +11470,33 @@ pg.equip_data_statistics = {
 		torpedo_ammo = 0,
 		property_rate = {}
 	},
+	[2751] = {
+		id = 2751,
+		anti_siren = 100,
+		base = 2740,
+		value_2 = 16,
+		value_1 = "75",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[2752] = {
+		id = 2752,
+		anti_siren = 200,
+		base = 2740,
+		value_2 = 17,
+		value_1 = "80",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[2753] = {
+		id = 2753,
+		anti_siren = 300,
+		base = 2740,
+		value_2 = 18,
+		value_1 = "85",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
 	[2800] = {
 		name = "94式高射装置",
 		tech = 0,
@@ -10499,7 +11510,7 @@ pg.equip_data_statistics = {
 		rarity = 4,
 		descrip = "高角炮对空射击用的高射装置，安装了测距仪，用以支持高射炮进行有效的对空射击。",
 		nationality = 3,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		attribute_1 = "antiaircraft",
 		torpedo_ammo = 0,
@@ -10507,9 +11518,7 @@ pg.equip_data_statistics = {
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {
-			{
-				6
-			}
+			6
 		},
 		weapon_id = {},
 		skill_id = {},
@@ -10600,6 +11609,15 @@ pg.equip_data_statistics = {
 		torpedo_ammo = 0,
 		property_rate = {}
 	},
+	[2811] = {
+		id = 2811,
+		anti_siren = 100,
+		base = 2800,
+		value_2 = 11,
+		value_1 = "59",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
 	[2900] = {
 		name = "基础声呐",
 		tech = 1,
@@ -10613,7 +11631,7 @@ pg.equip_data_statistics = {
 		rarity = 2,
 		descrip = "说明未填写",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		attribute_1 = "antisub",
 		torpedo_ammo = 0,
@@ -10621,9 +11639,7 @@ pg.equip_data_statistics = {
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {
-			{
-				6
-			}
+			6
 		},
 		weapon_id = {},
 		skill_id = {},
@@ -10636,9 +11652,7 @@ pg.equip_data_statistics = {
 			2
 		},
 		equip_parameters = {
-			interval = 5,
-			range = 45,
-			duration = 7
+			range = 3
 		},
 		label = {
 			"DEV"
@@ -10681,7 +11695,7 @@ pg.equip_data_statistics = {
 		rarity = 3,
 		descrip = "说明未填写",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		attribute_1 = "antisub",
 		torpedo_ammo = 0,
@@ -10689,9 +11703,7 @@ pg.equip_data_statistics = {
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {
-			{
-				6
-			}
+			6
 		},
 		weapon_id = {},
 		skill_id = {},
@@ -10704,9 +11716,7 @@ pg.equip_data_statistics = {
 			2
 		},
 		equip_parameters = {
-			interval = 4.8,
-			range = 45,
-			duration = 7
+			range = 3
 		},
 		label = {
 			"DEV"
@@ -10773,7 +11783,7 @@ pg.equip_data_statistics = {
 		rarity = 4,
 		descrip = "说明未填写",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		attribute_1 = "antisub",
 		torpedo_ammo = 0,
@@ -10781,12 +11791,12 @@ pg.equip_data_statistics = {
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {
-			{
-				6
-			}
+			6
 		},
 		weapon_id = {},
-		skill_id = {},
+		skill_id = {
+			6620
+		},
 		part_main = {
 			1,
 			2
@@ -10796,9 +11806,7 @@ pg.equip_data_statistics = {
 			2
 		},
 		equip_parameters = {
-			interval = 4.5,
-			range = 45,
-			duration = 7
+			range = 5
 		},
 		label = {
 			"DEV"
@@ -10884,6 +11892,15 @@ pg.equip_data_statistics = {
 		torpedo_ammo = 0,
 		property_rate = {}
 	},
+	[2951] = {
+		id = 2951,
+		anti_siren = 100,
+		base = 2940,
+		value_2 = 10,
+		value_1 = "20",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
 	[3000] = {
 		name = "改良声呐",
 		tech = 1,
@@ -10897,7 +11914,7 @@ pg.equip_data_statistics = {
 		rarity = 3,
 		descrip = "说明未填写",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		attribute_1 = "antisub",
 		torpedo_ammo = 0,
@@ -10905,9 +11922,7 @@ pg.equip_data_statistics = {
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {
-			{
-				6
-			}
+			6
 		},
 		weapon_id = {},
 		skill_id = {},
@@ -10920,9 +11935,7 @@ pg.equip_data_statistics = {
 			2
 		},
 		equip_parameters = {
-			interval = 4,
-			range = 48,
-			duration = 7
+			range = 5
 		},
 		label = {
 			"DEV"
@@ -10989,7 +12002,7 @@ pg.equip_data_statistics = {
 		rarity = 4,
 		descrip = "说明未填写",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		attribute_1 = "antisub",
 		torpedo_ammo = 0,
@@ -10997,9 +12010,7 @@ pg.equip_data_statistics = {
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {
-			{
-				6
-			}
+			6
 		},
 		weapon_id = {},
 		skill_id = {},
@@ -11012,9 +12023,7 @@ pg.equip_data_statistics = {
 			2
 		},
 		equip_parameters = {
-			interval = 3.8,
-			range = 48,
-			duration = 7
+			range = 5
 		},
 		label = {
 			"DEV"
@@ -11113,7 +12122,7 @@ pg.equip_data_statistics = {
 		rarity = 5,
 		descrip = "说明未填写",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		attribute_1 = "antisub",
 		torpedo_ammo = 0,
@@ -11121,12 +12130,12 @@ pg.equip_data_statistics = {
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {
-			{
-				6
-			}
+			6
 		},
 		weapon_id = {},
-		skill_id = {},
+		skill_id = {
+			6650
+		},
 		part_main = {
 			1,
 			2
@@ -11136,9 +12145,7 @@ pg.equip_data_statistics = {
 			2
 		},
 		equip_parameters = {
-			interval = 3.5,
-			range = 48,
-			duration = 7
+			range = 8
 		},
 		label = {
 			"DEV"
@@ -11224,29 +12231,54 @@ pg.equip_data_statistics = {
 		torpedo_ammo = 0,
 		property_rate = {}
 	},
+	[3051] = {
+		id = 3051,
+		anti_siren = 100,
+		base = 3040,
+		value_2 = 13,
+		value_1 = "38",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[3052] = {
+		id = 3052,
+		anti_siren = 200,
+		base = 3040,
+		value_2 = 14,
+		value_1 = "41",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[3053] = {
+		id = 3053,
+		anti_siren = 300,
+		base = 3040,
+		value_2 = 15,
+		value_1 = "44",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
 	[3100] = {
 		name = "高压氧气瓶",
 		tech = 0,
 		type = 10,
 		speciality = "无",
-		id = 3100,
+		attribute_1 = "oxy_max",
 		value_2 = 0,
 		icon = "3100",
 		value_1 = "18",
 		descrip = "充装气压约15兆帕的压缩空气,可提供长时间呼吸",
 		rarity = 4,
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
-		attribute_1 = "oxy_max",
+		id = 3100,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {
-			{
-				6
-			}
+			6
 		},
 		weapon_id = {},
 		skill_id = {},
@@ -11333,29 +12365,37 @@ pg.equip_data_statistics = {
 		torpedo_ammo = 0,
 		property_rate = {}
 	},
+	[3111] = {
+		value_2 = 10,
+		anti_siren = 100,
+		base = 3100,
+		id = 3111,
+		torpedo_ammo = 0,
+		value_1 = "45",
+		attribute_2 = "hit",
+		property_rate = {}
+	},
 	[3120] = {
 		name = "改良型水下进气管",
 		tech = 0,
 		type = 10,
 		speciality = "无",
-		id = 3120,
+		attribute_1 = "oxy_max",
 		value_2 = 0,
 		icon = "3120",
 		value_1 = "34",
 		descrip = "通气管使潜艇能在潜望镜深度进行空气交换",
 		rarity = 5,
 		nationality = 4,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
-		attribute_1 = "oxy_max",
+		id = 3120,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {
-			{
-				6
-			}
+			6
 		},
 		weapon_id = {},
 		skill_id = {},
@@ -11442,29 +12482,57 @@ pg.equip_data_statistics = {
 		torpedo_ammo = 0,
 		property_rate = {}
 	},
+	[3131] = {
+		value_2 = 10,
+		anti_siren = 100,
+		base = 3120,
+		id = 3131,
+		torpedo_ammo = 0,
+		value_1 = "85",
+		attribute_2 = "hit",
+		property_rate = {}
+	},
+	[3132] = {
+		value_2 = 24,
+		anti_siren = 200,
+		base = 3120,
+		id = 3132,
+		torpedo_ammo = 0,
+		value_1 = "85",
+		attribute_2 = "hit",
+		property_rate = {}
+	},
+	[3133] = {
+		value_2 = 35,
+		anti_siren = 300,
+		base = 3120,
+		id = 3133,
+		torpedo_ammo = 0,
+		value_1 = "85",
+		attribute_2 = "hit",
+		property_rate = {}
+	},
 	[3140] = {
 		name = "改良蓄电池阵列",
 		tech = 0,
 		type = 10,
 		speciality = "无",
-		id = 3140,
+		attribute_1 = "dodge",
 		value_2 = 0,
 		icon = "3140",
 		value_1 = "2",
 		descrip = "优化后的电池自能提供更长的潜航距离",
 		rarity = 5,
 		nationality = 4,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
-		attribute_1 = "dodge",
+		id = 3140,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {
-			{
-				6
-			}
+			6
 		},
 		weapon_id = {},
 		skill_id = {
@@ -11561,29 +12629,69 @@ pg.equip_data_statistics = {
 			hunting_lv = 2
 		}
 	},
+	[3151] = {
+		anti_siren = 100,
+		base = 3140,
+		id = 3151,
+		value_1 = "17",
+		torpedo_ammo = 0,
+		property_rate = {},
+		skill_id = {
+			6291
+		},
+		equip_parameters = {
+			hunting_lv = 2
+		}
+	},
+	[3152] = {
+		anti_siren = 200,
+		base = 3140,
+		id = 3152,
+		value_1 = "19",
+		torpedo_ammo = 0,
+		property_rate = {},
+		skill_id = {
+			6291
+		},
+		equip_parameters = {
+			hunting_lv = 2
+		}
+	},
+	[3153] = {
+		anti_siren = 300,
+		base = 3140,
+		id = 3153,
+		value_1 = "21",
+		torpedo_ammo = 0,
+		property_rate = {},
+		skill_id = {
+			6291
+		},
+		equip_parameters = {
+			hunting_lv = 2
+		}
+	},
 	[3200] = {
 		name = "VH装甲钢板",
 		tech = 0,
 		type = 10,
 		speciality = "无",
-		id = 3200,
+		attribute_1 = "durability",
 		value_2 = 0,
 		icon = "3200",
 		value_1 = "350",
 		descrip = "『VC装甲钢板』的改进型，用新工艺取代了表面渗碳的过程，提高了装甲板硬度",
 		rarity = 5,
 		nationality = 3,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
-		attribute_1 = "durability",
+		id = 3200,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {
-			{
-				6
-			}
+			6
 		},
 		weapon_id = {},
 		skill_id = {
@@ -11678,29 +12786,51 @@ pg.equip_data_statistics = {
 		torpedo_ammo = 0,
 		property_rate = {}
 	},
+	[3211] = {
+		anti_siren = 100,
+		base = 3200,
+		id = 3211,
+		value_1 = "680",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[3212] = {
+		anti_siren = 200,
+		base = 3200,
+		id = 3212,
+		value_1 = "710",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[3213] = {
+		anti_siren = 300,
+		base = 3200,
+		id = 3213,
+		value_1 = "740",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
 	[3220] = {
 		name = "VC装甲钢板",
 		tech = 0,
 		type = 10,
 		speciality = "无",
-		id = 3220,
+		attribute_1 = "durability",
 		value_2 = 0,
 		icon = "3220",
 		value_1 = "220",
 		descrip = "重樱帝国引进皇家表面渗碳硬化技术制作的装甲钢板，对穿甲弹的防护性能较好",
 		rarity = 4,
 		nationality = 3,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
-		attribute_1 = "durability",
+		id = 3220,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {
-			{
-				6
-			}
+			6
 		},
 		weapon_id = {},
 		skill_id = {
@@ -11796,29 +12926,36 @@ pg.equip_data_statistics = {
 		property_rate = {},
 		equip_parameters = {}
 	},
+	[3231] = {
+		anti_siren = 100,
+		base = 3220,
+		id = 3231,
+		value_1 = "550",
+		torpedo_ammo = 0,
+		property_rate = {},
+		equip_parameters = {}
+	},
 	[3300] = {
 		name = "四神之印",
 		tech = 0,
 		type = 10,
 		speciality = "无",
-		id = 3300,
+		attribute_1 = "durability",
 		value_2 = 0,
 		icon = "3300",
 		value_1 = "250",
 		descrip = "雕刻着东煌古国四神兽的玉器，似乎蕴含着来自东方的神秘力量",
 		rarity = 5,
 		nationality = 5,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
-		attribute_1 = "durability",
+		id = 3300,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {
-			{
-				6
-			}
+			6
 		},
 		weapon_id = {},
 		skill_id = {
@@ -11905,6 +13042,506 @@ pg.equip_data_statistics = {
 		torpedo_ammo = 0,
 		property_rate = {}
 	},
+	[3311] = {
+		anti_siren = 100,
+		base = 3300,
+		id = 3311,
+		value_1 = "580",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[3312] = {
+		anti_siren = 200,
+		base = 3300,
+		id = 3312,
+		value_1 = "610",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[3313] = {
+		anti_siren = 300,
+		base = 3300,
+		id = 3313,
+		value_1 = "640",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[3400] = {
+		name = "“九四式40厘米炮”部件",
+		tech = 0,
+		type = 18,
+		speciality = "无",
+		attribute_1 = "durability",
+		value_2 = 0,
+		icon = "3400",
+		value_1 = "450",
+		descrip = "重樱研发的“九四式40厘米炮”之部件",
+		rarity = 5,
+		nationality = 3,
+		ammo = 10,
+		value_3 = 0,
+		id = 3400,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			6
+		},
+		weapon_id = {},
+		skill_id = {
+			6590
+		},
+		part_main = {
+			19
+		},
+		part_sub = {
+			19
+		},
+		equip_parameters = {},
+		label = {
+			"GDS"
+		}
+	},
+	[3401] = {
+		base = 3400,
+		id = 3401,
+		value_1 = "480",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[3402] = {
+		base = 3400,
+		id = 3402,
+		value_1 = "510",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[3403] = {
+		base = 3400,
+		id = 3403,
+		value_1 = "540",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[3404] = {
+		base = 3400,
+		id = 3404,
+		value_1 = "570",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[3405] = {
+		base = 3400,
+		id = 3405,
+		value_1 = "600",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[3406] = {
+		base = 3400,
+		id = 3406,
+		value_1 = "630",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[3407] = {
+		base = 3400,
+		id = 3407,
+		value_1 = "660",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[3408] = {
+		base = 3400,
+		id = 3408,
+		value_1 = "690",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[3409] = {
+		base = 3400,
+		id = 3409,
+		value_1 = "720",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[3410] = {
+		base = 3400,
+		id = 3410,
+		value_1 = "750",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[3411] = {
+		anti_siren = 100,
+		base = 3400,
+		id = 3411,
+		value_1 = "780",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[3412] = {
+		anti_siren = 200,
+		base = 3400,
+		id = 3412,
+		value_1 = "810",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[3413] = {
+		anti_siren = 300,
+		base = 3400,
+		id = 3413,
+		value_1 = "840",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[3500] = {
+		name = "兵装补给（航空）",
+		tech = 0,
+		type = 18,
+		speciality = "无",
+		attribute_1 = "durability",
+		value_2 = 0,
+		icon = "3500",
+		value_1 = "250",
+		descrip = "运输舰装载的航空兵装补给",
+		rarity = 4,
+		nationality = 0,
+		ammo = 10,
+		value_3 = 0,
+		id = 3500,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			6
+		},
+		weapon_id = {},
+		skill_id = {
+			6660
+		},
+		part_main = {
+			19
+		},
+		part_sub = {
+			19
+		},
+		equip_parameters = {},
+		label = {
+			"GDS"
+		}
+	},
+	[3501] = {
+		base = 3500,
+		id = 3501,
+		value_1 = "280",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[3502] = {
+		base = 3500,
+		id = 3502,
+		value_1 = "310",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[3503] = {
+		base = 3500,
+		id = 3503,
+		value_1 = "340",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[3504] = {
+		base = 3500,
+		id = 3504,
+		value_1 = "370",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[3505] = {
+		base = 3500,
+		id = 3505,
+		value_1 = "400",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[3506] = {
+		base = 3500,
+		id = 3506,
+		value_1 = "430",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[3507] = {
+		base = 3500,
+		id = 3507,
+		value_1 = "460",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[3508] = {
+		base = 3500,
+		id = 3508,
+		value_1 = "490",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[3509] = {
+		base = 3500,
+		id = 3509,
+		value_1 = "520",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[3510] = {
+		base = 3500,
+		id = 3510,
+		value_1 = "550",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[3511] = {
+		anti_siren = 100,
+		base = 3500,
+		id = 3511,
+		value_1 = "580",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[3520] = {
+		name = "兵装补给（中小口径武器）",
+		tech = 0,
+		type = 18,
+		speciality = "无",
+		attribute_1 = "durability",
+		value_2 = 0,
+		icon = "3520",
+		value_1 = "250",
+		descrip = "运输舰装载的火炮兵装补给",
+		rarity = 4,
+		nationality = 0,
+		ammo = 10,
+		value_3 = 0,
+		id = 3520,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			6
+		},
+		weapon_id = {},
+		skill_id = {
+			6670
+		},
+		part_main = {
+			19
+		},
+		part_sub = {
+			19
+		},
+		equip_parameters = {},
+		label = {
+			"GDS"
+		}
+	},
+	[3521] = {
+		base = 3520,
+		id = 3521,
+		value_1 = "280",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[3522] = {
+		base = 3520,
+		id = 3522,
+		value_1 = "310",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[3523] = {
+		base = 3520,
+		id = 3523,
+		value_1 = "340",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[3524] = {
+		base = 3520,
+		id = 3524,
+		value_1 = "370",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[3525] = {
+		base = 3520,
+		id = 3525,
+		value_1 = "400",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[3526] = {
+		base = 3520,
+		id = 3526,
+		value_1 = "430",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[3527] = {
+		base = 3520,
+		id = 3527,
+		value_1 = "460",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[3528] = {
+		base = 3520,
+		id = 3528,
+		value_1 = "490",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[3529] = {
+		base = 3520,
+		id = 3529,
+		value_1 = "520",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[3530] = {
+		base = 3520,
+		id = 3530,
+		value_1 = "550",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[3531] = {
+		anti_siren = 100,
+		base = 3520,
+		id = 3531,
+		value_1 = "580",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[3540] = {
+		name = "兵装补给（鱼雷）",
+		tech = 0,
+		type = 18,
+		speciality = "无",
+		attribute_1 = "durability",
+		value_2 = 0,
+		icon = "3540",
+		value_1 = "250",
+		descrip = "运输舰装载的鱼雷兵装补给",
+		rarity = 4,
+		nationality = 0,
+		ammo = 10,
+		value_3 = 0,
+		id = 3540,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			6
+		},
+		weapon_id = {},
+		skill_id = {
+			6680
+		},
+		part_main = {
+			19
+		},
+		part_sub = {
+			19
+		},
+		equip_parameters = {},
+		label = {
+			"GDS"
+		}
+	},
+	[3541] = {
+		base = 3540,
+		id = 3541,
+		value_1 = "280",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[3542] = {
+		base = 3540,
+		id = 3542,
+		value_1 = "310",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[3543] = {
+		base = 3540,
+		id = 3543,
+		value_1 = "340",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[3544] = {
+		base = 3540,
+		id = 3544,
+		value_1 = "370",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[3545] = {
+		base = 3540,
+		id = 3545,
+		value_1 = "400",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[3546] = {
+		base = 3540,
+		id = 3546,
+		value_1 = "430",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[3547] = {
+		base = 3540,
+		id = 3547,
+		value_1 = "460",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[3548] = {
+		base = 3540,
+		id = 3548,
+		value_1 = "490",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[3549] = {
+		base = 3540,
+		id = 3549,
+		value_1 = "520",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[3550] = {
+		base = 3540,
+		id = 3550,
+		value_1 = "550",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[3551] = {
+		anti_siren = 100,
+		base = 3540,
+		id = 3551,
+		value_1 = "580",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
 	[4000] = {
 		name = "基础深弹投射器",
 		speciality = "反潜",
@@ -11914,9 +13551,9 @@ pg.equip_data_statistics = {
 		descrip = "说明未填写",
 		value_2 = 0,
 		icon = "4000",
-		damage = "31 x 1",
+		damage = "16 x 3",
 		nationality = 2,
-		ammo = "通常",
+		ammo = 8,
 		value_3 = 0,
 		id = 4000,
 		torpedo_ammo = 0,
@@ -11924,14 +13561,17 @@ pg.equip_data_statistics = {
 		ammo_icon = {},
 		ammo_info = {
 			{
-				2,
+				7,
 				1811
 			}
 		},
 		equip_info = {
 			1,
 			2,
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			4000
@@ -11951,7 +13591,7 @@ pg.equip_data_statistics = {
 		}
 	},
 	[4001] = {
-		damage = "34 x 1",
+		damage = "17 x 3",
 		base = 4000,
 		id = 4001,
 		torpedo_ammo = 0,
@@ -11961,7 +13601,7 @@ pg.equip_data_statistics = {
 		}
 	},
 	[4002] = {
-		damage = "37 x 1",
+		damage = "18 x 3",
 		base = 4000,
 		id = 4002,
 		torpedo_ammo = 0,
@@ -11971,7 +13611,7 @@ pg.equip_data_statistics = {
 		}
 	},
 	[4003] = {
-		damage = "40 x 1",
+		damage = "20 x 3",
 		base = 4000,
 		id = 4003,
 		torpedo_ammo = 0,
@@ -11990,9 +13630,9 @@ pg.equip_data_statistics = {
 		icon = "4000",
 		attribute_2 = "antisub",
 		rarity = 2,
-		damage = "38 x 1",
+		damage = "19 x 3",
 		nationality = 2,
-		ammo = "通常",
+		ammo = 8,
 		value_3 = 0,
 		id = 4020,
 		torpedo_ammo = 0,
@@ -12000,14 +13640,17 @@ pg.equip_data_statistics = {
 		ammo_icon = {},
 		ammo_info = {
 			{
-				2,
+				7,
 				1811
 			}
 		},
 		equip_info = {
 			1,
 			2,
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			4020
@@ -12027,7 +13670,7 @@ pg.equip_data_statistics = {
 		}
 	},
 	[4021] = {
-		damage = "41 x 1",
+		damage = "20 x 3",
 		base = 4020,
 		id = 4021,
 		torpedo_ammo = 0,
@@ -12037,7 +13680,7 @@ pg.equip_data_statistics = {
 		}
 	},
 	[4022] = {
-		damage = "44 x 1",
+		damage = "22 x 3",
 		base = 4020,
 		id = 4022,
 		torpedo_ammo = 0,
@@ -12047,7 +13690,7 @@ pg.equip_data_statistics = {
 		}
 	},
 	[4023] = {
-		damage = "48 x 1",
+		damage = "24 x 3",
 		base = 4020,
 		id = 4023,
 		torpedo_ammo = 0,
@@ -12066,9 +13709,9 @@ pg.equip_data_statistics = {
 		icon = "4000",
 		attribute_2 = "antisub",
 		rarity = 3,
-		damage = "45 x 1",
+		damage = "22 x 3",
 		nationality = 2,
-		ammo = "通常",
+		ammo = 8,
 		value_3 = 0,
 		id = 4040,
 		torpedo_ammo = 0,
@@ -12076,14 +13719,17 @@ pg.equip_data_statistics = {
 		ammo_icon = {},
 		ammo_info = {
 			{
-				2,
+				7,
 				1811
 			}
 		},
 		equip_info = {
 			1,
 			2,
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			4040
@@ -12103,7 +13749,7 @@ pg.equip_data_statistics = {
 		}
 	},
 	[4041] = {
-		damage = "49 x 1",
+		damage = "24 x 3",
 		base = 4040,
 		id = 4041,
 		torpedo_ammo = 0,
@@ -12113,7 +13759,7 @@ pg.equip_data_statistics = {
 		}
 	},
 	[4042] = {
-		damage = "53 x 1",
+		damage = "26 x 3",
 		base = 4040,
 		id = 4042,
 		torpedo_ammo = 0,
@@ -12123,7 +13769,7 @@ pg.equip_data_statistics = {
 		}
 	},
 	[4043] = {
-		damage = "58 x 1",
+		damage = "29 x 3",
 		base = 4040,
 		id = 4043,
 		torpedo_ammo = 0,
@@ -12133,7 +13779,7 @@ pg.equip_data_statistics = {
 		}
 	},
 	[4044] = {
-		damage = "63 x 1",
+		damage = "31 x 3",
 		base = 4040,
 		id = 4044,
 		torpedo_ammo = 0,
@@ -12143,7 +13789,7 @@ pg.equip_data_statistics = {
 		}
 	},
 	[4045] = {
-		damage = "68 x 1",
+		damage = "34 x 3",
 		base = 4040,
 		id = 4045,
 		torpedo_ammo = 0,
@@ -12153,13 +13799,23 @@ pg.equip_data_statistics = {
 		}
 	},
 	[4046] = {
-		damage = "73 x 1",
+		damage = "37 x 3",
 		base = 4040,
 		id = 4046,
 		torpedo_ammo = 0,
 		property_rate = {},
 		weapon_id = {
 			4046
+		}
+	},
+	[4047] = {
+		damage = "37 x 3",
+		base = 4040,
+		id = 4047,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			4047
 		}
 	},
 	[4100] = {
@@ -12172,9 +13828,9 @@ pg.equip_data_statistics = {
 		icon = "4100",
 		attribute_2 = "antisub",
 		rarity = 2,
-		damage = "41 x 1",
+		damage = "20 x 3",
 		nationality = 1,
-		ammo = "通常",
+		ammo = 8,
 		value_3 = 0,
 		id = 4100,
 		torpedo_ammo = 0,
@@ -12182,14 +13838,17 @@ pg.equip_data_statistics = {
 		ammo_icon = {},
 		ammo_info = {
 			{
-				2,
+				7,
 				1812
 			}
 		},
 		equip_info = {
 			1,
 			2,
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			4100
@@ -12209,7 +13868,7 @@ pg.equip_data_statistics = {
 		}
 	},
 	[4101] = {
-		damage = "44 x 1",
+		damage = "22 x 3",
 		base = 4100,
 		id = 4101,
 		torpedo_ammo = 0,
@@ -12219,7 +13878,7 @@ pg.equip_data_statistics = {
 		}
 	},
 	[4102] = {
-		damage = "48 x 1",
+		damage = "24 x 3",
 		base = 4100,
 		id = 4102,
 		torpedo_ammo = 0,
@@ -12229,7 +13888,7 @@ pg.equip_data_statistics = {
 		}
 	},
 	[4103] = {
-		damage = "52 x 1",
+		damage = "26 x 3",
 		base = 4100,
 		id = 4103,
 		torpedo_ammo = 0,
@@ -12248,9 +13907,9 @@ pg.equip_data_statistics = {
 		icon = "4100",
 		attribute_2 = "antisub",
 		rarity = 3,
-		damage = "48 x 1",
+		damage = "24 x 3",
 		nationality = 1,
-		ammo = "通常",
+		ammo = 8,
 		value_3 = 0,
 		id = 4120,
 		torpedo_ammo = 0,
@@ -12258,14 +13917,17 @@ pg.equip_data_statistics = {
 		ammo_icon = {},
 		ammo_info = {
 			{
-				2,
+				7,
 				1812
 			}
 		},
 		equip_info = {
 			1,
 			2,
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			4120
@@ -12285,7 +13947,7 @@ pg.equip_data_statistics = {
 		}
 	},
 	[4121] = {
-		damage = "53 x 1",
+		damage = "26 x 3",
 		base = 4120,
 		id = 4121,
 		torpedo_ammo = 0,
@@ -12295,7 +13957,7 @@ pg.equip_data_statistics = {
 		}
 	},
 	[4122] = {
-		damage = "58 x 1",
+		damage = "28 x 3",
 		base = 4120,
 		id = 4122,
 		torpedo_ammo = 0,
@@ -12305,7 +13967,7 @@ pg.equip_data_statistics = {
 		}
 	},
 	[4123] = {
-		damage = "63 x 1",
+		damage = "30 x 3",
 		base = 4120,
 		id = 4123,
 		torpedo_ammo = 0,
@@ -12315,7 +13977,7 @@ pg.equip_data_statistics = {
 		}
 	},
 	[4124] = {
-		damage = "68 x 1",
+		damage = "33 x 3",
 		base = 4120,
 		id = 4124,
 		torpedo_ammo = 0,
@@ -12325,7 +13987,7 @@ pg.equip_data_statistics = {
 		}
 	},
 	[4125] = {
-		damage = "73 x 1",
+		damage = "36 x 3",
 		base = 4120,
 		id = 4125,
 		torpedo_ammo = 0,
@@ -12335,7 +13997,7 @@ pg.equip_data_statistics = {
 		}
 	},
 	[4126] = {
-		damage = "78 x 1",
+		damage = "39 x 3",
 		base = 4120,
 		id = 4126,
 		torpedo_ammo = 0,
@@ -12354,9 +14016,9 @@ pg.equip_data_statistics = {
 		icon = "4100",
 		attribute_2 = "antisub",
 		rarity = 4,
-		damage = "55 x 1",
+		damage = "27 x 3",
 		nationality = 1,
-		ammo = "通常",
+		ammo = 8,
 		value_3 = 0,
 		id = 4140,
 		torpedo_ammo = 0,
@@ -12364,14 +14026,17 @@ pg.equip_data_statistics = {
 		ammo_icon = {},
 		ammo_info = {
 			{
-				2,
+				7,
 				1812
 			}
 		},
 		equip_info = {
 			1,
 			2,
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			4140
@@ -12391,7 +14056,7 @@ pg.equip_data_statistics = {
 		}
 	},
 	[4141] = {
-		damage = "61 x 1",
+		damage = "30 x 3",
 		base = 4140,
 		id = 4141,
 		torpedo_ammo = 0,
@@ -12401,7 +14066,7 @@ pg.equip_data_statistics = {
 		}
 	},
 	[4142] = {
-		damage = "67 x 1",
+		damage = "33 x 3",
 		base = 4140,
 		id = 4142,
 		torpedo_ammo = 0,
@@ -12411,7 +14076,7 @@ pg.equip_data_statistics = {
 		}
 	},
 	[4143] = {
-		damage = "73 x 1",
+		damage = "36 x 3",
 		base = 4140,
 		id = 4143,
 		torpedo_ammo = 0,
@@ -12421,7 +14086,7 @@ pg.equip_data_statistics = {
 		}
 	},
 	[4144] = {
-		damage = "79 x 1",
+		damage = "39 x 3",
 		base = 4140,
 		id = 4144,
 		torpedo_ammo = 0,
@@ -12431,7 +14096,7 @@ pg.equip_data_statistics = {
 		}
 	},
 	[4145] = {
-		damage = "85 x 1",
+		damage = "42 x 3",
 		base = 4140,
 		id = 4145,
 		torpedo_ammo = 0,
@@ -12441,7 +14106,7 @@ pg.equip_data_statistics = {
 		}
 	},
 	[4146] = {
-		damage = "92 x 1",
+		damage = "45 x 3",
 		base = 4140,
 		id = 4146,
 		torpedo_ammo = 0,
@@ -12451,7 +14116,7 @@ pg.equip_data_statistics = {
 		}
 	},
 	[4147] = {
-		damage = "99 x 1",
+		damage = "49 x 3",
 		base = 4140,
 		id = 4147,
 		torpedo_ammo = 0,
@@ -12461,7 +14126,7 @@ pg.equip_data_statistics = {
 		}
 	},
 	[4148] = {
-		damage = "106 x 1",
+		damage = "53 x 3",
 		base = 4140,
 		id = 4148,
 		torpedo_ammo = 0,
@@ -12471,7 +14136,7 @@ pg.equip_data_statistics = {
 		}
 	},
 	[4149] = {
-		damage = "113 x 1",
+		damage = "57 x 3",
 		base = 4140,
 		id = 4149,
 		torpedo_ammo = 0,
@@ -12481,13 +14146,24 @@ pg.equip_data_statistics = {
 		}
 	},
 	[4150] = {
-		damage = "120 x 1",
+		damage = "61 x 3",
 		base = 4140,
 		id = 4150,
 		torpedo_ammo = 0,
 		property_rate = {},
 		weapon_id = {
 			4150
+		}
+	},
+	[4151] = {
+		anti_siren = 100,
+		damage = "61 x 3",
+		base = 4140,
+		id = 4151,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			4151
 		}
 	},
 	[4200] = {
@@ -12501,7 +14177,7 @@ pg.equip_data_statistics = {
 		icon = "4200",
 		attribute_2 = "antisub",
 		nationality = 2,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 4200,
 		torpedo_ammo = 0,
@@ -12509,13 +14185,14 @@ pg.equip_data_statistics = {
 		ammo_icon = {},
 		ammo_info = {
 			{
-				5,
+				8,
 				53100
 			}
 		},
 		equip_info = {
 			6,
 			7,
+			8,
 			9
 		},
 		weapon_id = {
@@ -12540,7 +14217,7 @@ pg.equip_data_statistics = {
 		property_rate = {},
 		ammo_info = {
 			{
-				5,
+				8,
 				53101
 			}
 		},
@@ -12555,7 +14232,7 @@ pg.equip_data_statistics = {
 		property_rate = {},
 		ammo_info = {
 			{
-				5,
+				8,
 				53102
 			}
 		},
@@ -12570,7 +14247,7 @@ pg.equip_data_statistics = {
 		property_rate = {},
 		ammo_info = {
 			{
-				5,
+				8,
 				53103
 			}
 		},
@@ -12589,7 +14266,7 @@ pg.equip_data_statistics = {
 		icon = "4200",
 		attribute_2 = "antisub",
 		nationality = 2,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 4220,
 		torpedo_ammo = 0,
@@ -12597,13 +14274,14 @@ pg.equip_data_statistics = {
 		ammo_icon = {},
 		ammo_info = {
 			{
-				5,
+				8,
 				53120
 			}
 		},
 		equip_info = {
 			6,
 			7,
+			8,
 			9
 		},
 		weapon_id = {
@@ -12628,7 +14306,7 @@ pg.equip_data_statistics = {
 		property_rate = {},
 		ammo_info = {
 			{
-				5,
+				8,
 				53121
 			}
 		},
@@ -12643,7 +14321,7 @@ pg.equip_data_statistics = {
 		property_rate = {},
 		ammo_info = {
 			{
-				5,
+				8,
 				53122
 			}
 		},
@@ -12658,7 +14336,7 @@ pg.equip_data_statistics = {
 		property_rate = {},
 		ammo_info = {
 			{
-				5,
+				8,
 				53123
 			}
 		},
@@ -12673,7 +14351,7 @@ pg.equip_data_statistics = {
 		property_rate = {},
 		ammo_info = {
 			{
-				5,
+				8,
 				53124
 			}
 		},
@@ -12688,7 +14366,7 @@ pg.equip_data_statistics = {
 		property_rate = {},
 		ammo_info = {
 			{
-				5,
+				8,
 				53125
 			}
 		},
@@ -12703,7 +14381,7 @@ pg.equip_data_statistics = {
 		property_rate = {},
 		ammo_info = {
 			{
-				5,
+				8,
 				53126
 			}
 		},
@@ -12722,7 +14400,7 @@ pg.equip_data_statistics = {
 		icon = "4200",
 		attribute_2 = "antisub",
 		nationality = 2,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 4240,
 		torpedo_ammo = 0,
@@ -12730,13 +14408,14 @@ pg.equip_data_statistics = {
 		ammo_icon = {},
 		ammo_info = {
 			{
-				5,
+				8,
 				53140
 			}
 		},
 		equip_info = {
 			6,
 			7,
+			8,
 			9
 		},
 		weapon_id = {
@@ -12761,7 +14440,7 @@ pg.equip_data_statistics = {
 		property_rate = {},
 		ammo_info = {
 			{
-				5,
+				8,
 				53141
 			}
 		},
@@ -12776,7 +14455,7 @@ pg.equip_data_statistics = {
 		property_rate = {},
 		ammo_info = {
 			{
-				5,
+				8,
 				53142
 			}
 		},
@@ -12791,7 +14470,7 @@ pg.equip_data_statistics = {
 		property_rate = {},
 		ammo_info = {
 			{
-				5,
+				8,
 				53143
 			}
 		},
@@ -12806,7 +14485,7 @@ pg.equip_data_statistics = {
 		property_rate = {},
 		ammo_info = {
 			{
-				5,
+				8,
 				53144
 			}
 		},
@@ -12821,7 +14500,7 @@ pg.equip_data_statistics = {
 		property_rate = {},
 		ammo_info = {
 			{
-				5,
+				8,
 				53145
 			}
 		},
@@ -12836,7 +14515,7 @@ pg.equip_data_statistics = {
 		property_rate = {},
 		ammo_info = {
 			{
-				5,
+				8,
 				53146
 			}
 		},
@@ -12851,7 +14530,7 @@ pg.equip_data_statistics = {
 		property_rate = {},
 		ammo_info = {
 			{
-				5,
+				8,
 				53147
 			}
 		},
@@ -12866,7 +14545,7 @@ pg.equip_data_statistics = {
 		property_rate = {},
 		ammo_info = {
 			{
-				5,
+				8,
 				53148
 			}
 		},
@@ -12881,7 +14560,7 @@ pg.equip_data_statistics = {
 		property_rate = {},
 		ammo_info = {
 			{
-				5,
+				8,
 				53149
 			}
 		},
@@ -12896,12 +14575,28 @@ pg.equip_data_statistics = {
 		property_rate = {},
 		ammo_info = {
 			{
-				5,
+				8,
 				53150
 			}
 		},
 		weapon_id = {
 			4250
+		}
+	},
+	[4251] = {
+		anti_siren = 100,
+		base = 4240,
+		id = 4251,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				8,
+				53150
+			}
+		},
+		weapon_id = {
+			4251
 		}
 	},
 	[4300] = {
@@ -12915,7 +14610,7 @@ pg.equip_data_statistics = {
 		icon = "4300",
 		attribute_2 = "antisub",
 		nationality = 1,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 4300,
 		torpedo_ammo = 0,
@@ -12923,13 +14618,14 @@ pg.equip_data_statistics = {
 		ammo_icon = {},
 		ammo_info = {
 			{
-				5,
+				8,
 				53200
 			}
 		},
 		equip_info = {
 			6,
 			7,
+			8,
 			9
 		},
 		weapon_id = {
@@ -12954,7 +14650,7 @@ pg.equip_data_statistics = {
 		property_rate = {},
 		ammo_info = {
 			{
-				5,
+				8,
 				53201
 			}
 		},
@@ -12969,7 +14665,7 @@ pg.equip_data_statistics = {
 		property_rate = {},
 		ammo_info = {
 			{
-				5,
+				8,
 				53202
 			}
 		},
@@ -12984,7 +14680,7 @@ pg.equip_data_statistics = {
 		property_rate = {},
 		ammo_info = {
 			{
-				5,
+				8,
 				53203
 			}
 		},
@@ -13003,7 +14699,7 @@ pg.equip_data_statistics = {
 		icon = "4300",
 		attribute_2 = "antisub",
 		nationality = 1,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 4320,
 		torpedo_ammo = 0,
@@ -13011,13 +14707,14 @@ pg.equip_data_statistics = {
 		ammo_icon = {},
 		ammo_info = {
 			{
-				5,
+				8,
 				53220
 			}
 		},
 		equip_info = {
 			6,
 			7,
+			8,
 			9
 		},
 		weapon_id = {
@@ -13042,7 +14739,7 @@ pg.equip_data_statistics = {
 		property_rate = {},
 		ammo_info = {
 			{
-				5,
+				8,
 				53221
 			}
 		},
@@ -13057,7 +14754,7 @@ pg.equip_data_statistics = {
 		property_rate = {},
 		ammo_info = {
 			{
-				5,
+				8,
 				53222
 			}
 		},
@@ -13072,7 +14769,7 @@ pg.equip_data_statistics = {
 		property_rate = {},
 		ammo_info = {
 			{
-				5,
+				8,
 				53223
 			}
 		},
@@ -13087,7 +14784,7 @@ pg.equip_data_statistics = {
 		property_rate = {},
 		ammo_info = {
 			{
-				5,
+				8,
 				53224
 			}
 		},
@@ -13102,7 +14799,7 @@ pg.equip_data_statistics = {
 		property_rate = {},
 		ammo_info = {
 			{
-				5,
+				8,
 				53225
 			}
 		},
@@ -13117,7 +14814,7 @@ pg.equip_data_statistics = {
 		property_rate = {},
 		ammo_info = {
 			{
-				5,
+				8,
 				53226
 			}
 		},
@@ -13136,7 +14833,7 @@ pg.equip_data_statistics = {
 		icon = "4300",
 		attribute_2 = "antisub",
 		nationality = 1,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 4340,
 		torpedo_ammo = 0,
@@ -13144,13 +14841,14 @@ pg.equip_data_statistics = {
 		ammo_icon = {},
 		ammo_info = {
 			{
-				5,
+				8,
 				53240
 			}
 		},
 		equip_info = {
 			6,
 			7,
+			8,
 			9
 		},
 		weapon_id = {
@@ -13175,7 +14873,7 @@ pg.equip_data_statistics = {
 		property_rate = {},
 		ammo_info = {
 			{
-				5,
+				8,
 				53241
 			}
 		},
@@ -13190,7 +14888,7 @@ pg.equip_data_statistics = {
 		property_rate = {},
 		ammo_info = {
 			{
-				5,
+				8,
 				53242
 			}
 		},
@@ -13205,7 +14903,7 @@ pg.equip_data_statistics = {
 		property_rate = {},
 		ammo_info = {
 			{
-				5,
+				8,
 				53243
 			}
 		},
@@ -13220,7 +14918,7 @@ pg.equip_data_statistics = {
 		property_rate = {},
 		ammo_info = {
 			{
-				5,
+				8,
 				53244
 			}
 		},
@@ -13235,7 +14933,7 @@ pg.equip_data_statistics = {
 		property_rate = {},
 		ammo_info = {
 			{
-				5,
+				8,
 				53245
 			}
 		},
@@ -13250,7 +14948,7 @@ pg.equip_data_statistics = {
 		property_rate = {},
 		ammo_info = {
 			{
-				5,
+				8,
 				53246
 			}
 		},
@@ -13265,7 +14963,7 @@ pg.equip_data_statistics = {
 		property_rate = {},
 		ammo_info = {
 			{
-				5,
+				8,
 				53247
 			}
 		},
@@ -13280,7 +14978,7 @@ pg.equip_data_statistics = {
 		property_rate = {},
 		ammo_info = {
 			{
-				5,
+				8,
 				53248
 			}
 		},
@@ -13295,7 +14993,7 @@ pg.equip_data_statistics = {
 		property_rate = {},
 		ammo_info = {
 			{
-				5,
+				8,
 				53249
 			}
 		},
@@ -13310,12 +15008,28 @@ pg.equip_data_statistics = {
 		property_rate = {},
 		ammo_info = {
 			{
-				5,
+				8,
 				53250
 			}
 		},
 		weapon_id = {
 			4350
+		}
+	},
+	[4351] = {
+		anti_siren = 100,
+		base = 4340,
+		id = 4351,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				8,
+				53250
+			}
+		},
+		weapon_id = {
+			4351
 		}
 	},
 	[5000] = {
@@ -13329,7 +15043,7 @@ pg.equip_data_statistics = {
 		icon = "5000",
 		damage = "46 x 3",
 		nationality = 0,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 5000,
 		torpedo_ammo = 0,
@@ -13350,7 +15064,10 @@ pg.equip_data_statistics = {
 				4,
 				1402
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			5000
@@ -13418,7 +15135,7 @@ pg.equip_data_statistics = {
 		rarity = 2,
 		damage = "50 x 3",
 		nationality = 0,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 5020,
 		torpedo_ammo = 0,
@@ -13439,7 +15156,10 @@ pg.equip_data_statistics = {
 				4,
 				1402
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			5020
@@ -13507,7 +15227,7 @@ pg.equip_data_statistics = {
 		rarity = 3,
 		damage = "56 x 3",
 		nationality = 0,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 5040,
 		torpedo_ammo = 0,
@@ -13528,7 +15248,10 @@ pg.equip_data_statistics = {
 				4,
 				1402
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			5040
@@ -13614,6 +15337,16 @@ pg.equip_data_statistics = {
 			5046
 		}
 	},
+	[5047] = {
+		damage = "116 x 3",
+		base = 5040,
+		id = 5047,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			5047
+		}
+	},
 	[5100] = {
 		name = "四联装533mm鱼雷",
 		speciality = "雷击",
@@ -13626,7 +15359,7 @@ pg.equip_data_statistics = {
 		rarity = 2,
 		damage = "46 x 4",
 		nationality = 0,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 5100,
 		torpedo_ammo = 0,
@@ -13647,7 +15380,10 @@ pg.equip_data_statistics = {
 				4,
 				1403
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			5100
@@ -13715,7 +15451,7 @@ pg.equip_data_statistics = {
 		rarity = 3,
 		damage = "50 x 4",
 		nationality = 0,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 5120,
 		torpedo_ammo = 0,
@@ -13736,7 +15472,10 @@ pg.equip_data_statistics = {
 				4,
 				1403
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			5120
@@ -13834,7 +15573,7 @@ pg.equip_data_statistics = {
 		rarity = 4,
 		damage = "56 x 4",
 		nationality = 0,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 5140,
 		torpedo_ammo = 0,
@@ -13855,7 +15594,10 @@ pg.equip_data_statistics = {
 				4,
 				1403
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			5140
@@ -13981,6 +15723,17 @@ pg.equip_data_statistics = {
 			5150
 		}
 	},
+	[5151] = {
+		anti_siren = 100,
+		damage = "156 x 4",
+		base = 5140,
+		id = 5151,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			5151
+		}
+	},
 	[5200] = {
 		name = "五联装533mm鱼雷",
 		speciality = "雷击",
@@ -13993,7 +15746,7 @@ pg.equip_data_statistics = {
 		rarity = 3,
 		damage = "46 x 5",
 		nationality = 0,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 5200,
 		torpedo_ammo = 0,
@@ -14014,7 +15767,10 @@ pg.equip_data_statistics = {
 				4,
 				1404
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			5200
@@ -14112,7 +15868,7 @@ pg.equip_data_statistics = {
 		rarity = 4,
 		damage = "50 x 5",
 		nationality = 0,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 5220,
 		torpedo_ammo = 0,
@@ -14133,7 +15889,10 @@ pg.equip_data_statistics = {
 				4,
 				1404
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			5220
@@ -14271,7 +16030,7 @@ pg.equip_data_statistics = {
 		rarity = 5,
 		damage = "56 x 5",
 		nationality = 0,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 5240,
 		torpedo_ammo = 0,
@@ -14292,7 +16051,10 @@ pg.equip_data_statistics = {
 				4,
 				1404
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			5240
@@ -14418,6 +16180,39 @@ pg.equip_data_statistics = {
 			5250
 		}
 	},
+	[5251] = {
+		anti_siren = 100,
+		damage = "156 x 5",
+		base = 5240,
+		id = 5251,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			5251
+		}
+	},
+	[5252] = {
+		anti_siren = 200,
+		damage = "156 x 5",
+		base = 5240,
+		id = 5252,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			5252
+		}
+	},
+	[5253] = {
+		anti_siren = 300,
+		damage = "156 x 5",
+		base = 5240,
+		id = 5253,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			5253
+		}
+	},
 	[5300] = {
 		name = "双联装550mm鱼雷",
 		speciality = "雷击",
@@ -14429,7 +16224,7 @@ pg.equip_data_statistics = {
 		icon = "5300",
 		damage = "42 x 2",
 		nationality = 8,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 5300,
 		torpedo_ammo = 0,
@@ -14450,7 +16245,10 @@ pg.equip_data_statistics = {
 				4,
 				1401
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			5300
@@ -14518,7 +16316,7 @@ pg.equip_data_statistics = {
 		rarity = 2,
 		damage = "47 x 2",
 		nationality = 8,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 5320,
 		torpedo_ammo = 0,
@@ -14539,7 +16337,10 @@ pg.equip_data_statistics = {
 				4,
 				1401
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			5320
@@ -14607,7 +16408,7 @@ pg.equip_data_statistics = {
 		rarity = 3,
 		damage = "52 x 2",
 		nationality = 8,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 5340,
 		torpedo_ammo = 0,
@@ -14628,7 +16429,10 @@ pg.equip_data_statistics = {
 				4,
 				1401
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			5340
@@ -14714,6 +16518,16 @@ pg.equip_data_statistics = {
 			5346
 		}
 	},
+	[5347] = {
+		damage = "108 x 2",
+		base = 5340,
+		id = 5347,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			5347
+		}
+	},
 	[5400] = {
 		name = "三联装550mm鱼雷",
 		speciality = "雷击",
@@ -14726,7 +16540,7 @@ pg.equip_data_statistics = {
 		rarity = 2,
 		damage = "47 x 3",
 		nationality = 8,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 5400,
 		torpedo_ammo = 0,
@@ -14747,7 +16561,10 @@ pg.equip_data_statistics = {
 				4,
 				1402
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			5400
@@ -14815,7 +16632,7 @@ pg.equip_data_statistics = {
 		rarity = 3,
 		damage = "52 x 3",
 		nationality = 8,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 5420,
 		torpedo_ammo = 0,
@@ -14836,7 +16653,10 @@ pg.equip_data_statistics = {
 				4,
 				1402
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			5420
@@ -14934,7 +16754,7 @@ pg.equip_data_statistics = {
 		rarity = 4,
 		damage = "58 x 3",
 		nationality = 8,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 5440,
 		torpedo_ammo = 0,
@@ -14955,7 +16775,10 @@ pg.equip_data_statistics = {
 				4,
 				1402
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			5440
@@ -15081,6 +16904,17 @@ pg.equip_data_statistics = {
 			5450
 		}
 	},
+	[5451] = {
+		anti_siren = 100,
+		damage = "162 x 3",
+		base = 5440,
+		id = 5451,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			5451
+		}
+	},
 	[5500] = {
 		name = "潜艇用550mm24V鱼雷",
 		speciality = "雷击",
@@ -15093,7 +16927,7 @@ pg.equip_data_statistics = {
 		rarity = 2,
 		damage = "44 x 2",
 		nationality = 8,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 5500,
 		torpedo_ammo = 0,
@@ -15116,7 +16950,10 @@ pg.equip_data_statistics = {
 				4,
 				1601
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			5500
@@ -15179,7 +17016,7 @@ pg.equip_data_statistics = {
 		rarity = 3,
 		damage = "49 x 2",
 		nationality = 8,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 5520,
 		torpedo_ammo = 0,
@@ -15202,7 +17039,10 @@ pg.equip_data_statistics = {
 				4,
 				1601
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			5520
@@ -15295,7 +17135,7 @@ pg.equip_data_statistics = {
 		rarity = 4,
 		damage = "54 x 2",
 		nationality = 8,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 5540,
 		torpedo_ammo = 0,
@@ -15318,7 +17158,10 @@ pg.equip_data_statistics = {
 				4,
 				1601
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			5540
@@ -15439,6 +17282,17 @@ pg.equip_data_statistics = {
 			5550
 		}
 	},
+	[5551] = {
+		anti_siren = 100,
+		damage = "135 x 2",
+		base = 5540,
+		id = 5551,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			5551
+		}
+	},
 	[6000] = {
 		name = "12.7mm防空机枪",
 		speciality = "防空",
@@ -15450,7 +17304,7 @@ pg.equip_data_statistics = {
 		icon = "6000",
 		damage = "6/轮",
 		nationality = 0,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 6000,
 		torpedo_ammo = 0,
@@ -15460,7 +17314,8 @@ pg.equip_data_statistics = {
 		equip_info = {
 			1,
 			2,
-			6
+			6,
+			10
 		},
 		weapon_id = {
 			6000
@@ -15476,7 +17331,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			1,
@@ -15488,7 +17344,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -15539,7 +17396,7 @@ pg.equip_data_statistics = {
 		rarity = 2,
 		damage = "8/轮",
 		nationality = 0,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 6020,
 		torpedo_ammo = 0,
@@ -15549,7 +17406,8 @@ pg.equip_data_statistics = {
 		equip_info = {
 			1,
 			2,
-			6
+			6,
+			10
 		},
 		weapon_id = {
 			6020
@@ -15565,7 +17423,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			1,
@@ -15577,7 +17436,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -15628,7 +17488,7 @@ pg.equip_data_statistics = {
 		rarity = 3,
 		damage = "8/轮",
 		nationality = 0,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 6040,
 		torpedo_ammo = 0,
@@ -15638,7 +17498,8 @@ pg.equip_data_statistics = {
 		equip_info = {
 			1,
 			2,
-			6
+			6,
+			10
 		},
 		weapon_id = {
 			6040
@@ -15654,7 +17515,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			1,
@@ -15666,7 +17528,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -15735,6 +17598,16 @@ pg.equip_data_statistics = {
 			6046
 		}
 	},
+	[6047] = {
+		damage = "15/轮",
+		base = 6040,
+		id = 6047,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			6047
+		}
+	},
 	[6100] = {
 		name = "双联装100mm高炮",
 		speciality = "防空",
@@ -15746,7 +17619,7 @@ pg.equip_data_statistics = {
 		icon = "6100",
 		damage = "18/轮",
 		nationality = 8,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 6100,
 		torpedo_ammo = 0,
@@ -15756,7 +17629,8 @@ pg.equip_data_statistics = {
 		equip_info = {
 			1,
 			2,
-			6
+			6,
+			10
 		},
 		weapon_id = {
 			6100
@@ -15772,7 +17646,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			1,
@@ -15784,7 +17659,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -15835,7 +17711,7 @@ pg.equip_data_statistics = {
 		rarity = 2,
 		damage = "20/轮",
 		nationality = 8,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 6120,
 		torpedo_ammo = 0,
@@ -15845,7 +17721,8 @@ pg.equip_data_statistics = {
 		equip_info = {
 			1,
 			2,
-			6
+			6,
+			10
 		},
 		weapon_id = {
 			6120
@@ -15861,7 +17738,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			1,
@@ -15873,7 +17751,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -15924,7 +17803,7 @@ pg.equip_data_statistics = {
 		rarity = 3,
 		damage = "22/轮",
 		nationality = 8,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 6140,
 		torpedo_ammo = 0,
@@ -15934,7 +17813,8 @@ pg.equip_data_statistics = {
 		equip_info = {
 			1,
 			2,
-			6
+			6,
+			10
 		},
 		weapon_id = {
 			6140
@@ -15950,7 +17830,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			1,
@@ -15962,7 +17843,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -16031,6 +17913,16 @@ pg.equip_data_statistics = {
 			6146
 		}
 	},
+	[6147] = {
+		damage = "44/轮",
+		base = 6140,
+		id = 6147,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			6147
+		}
+	},
 	[7000] = {
 		name = "单装152mm主炮",
 		speciality = "通常",
@@ -16042,7 +17934,7 @@ pg.equip_data_statistics = {
 		icon = "7000",
 		damage = "16 x 3",
 		nationality = 7,
-		ammo = "通常弹",
+		ammo = 3,
 		value_3 = 0,
 		id = 7000,
 		torpedo_ammo = 0,
@@ -16067,7 +17959,10 @@ pg.equip_data_statistics = {
 				4,
 				1103
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			7000
@@ -16128,7 +18023,7 @@ pg.equip_data_statistics = {
 		rarity = 2,
 		damage = "18 x 3",
 		nationality = 7,
-		ammo = "通常弹",
+		ammo = 3,
 		value_3 = 0,
 		id = 7020,
 		torpedo_ammo = 0,
@@ -16153,7 +18048,10 @@ pg.equip_data_statistics = {
 				4,
 				1103
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			7020
@@ -16214,7 +18112,7 @@ pg.equip_data_statistics = {
 		rarity = 3,
 		damage = "20 x 3",
 		nationality = 7,
-		ammo = "通常弹",
+		ammo = 3,
 		value_3 = 0,
 		id = 7040,
 		torpedo_ammo = 0,
@@ -16239,7 +18137,10 @@ pg.equip_data_statistics = {
 				4,
 				1103
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			7040
@@ -16318,6 +18219,16 @@ pg.equip_data_statistics = {
 			7046
 		}
 	},
+	[7047] = {
+		damage = "34 x 3",
+		base = 7040,
+		id = 7047,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			7047
+		}
+	},
 	[7100] = {
 		name = "单装150mm主炮",
 		speciality = "通常",
@@ -16329,7 +18240,7 @@ pg.equip_data_statistics = {
 		icon = "7100",
 		damage = "14 x 3",
 		nationality = 5,
-		ammo = "通常弹",
+		ammo = 3,
 		value_3 = 0,
 		id = 7100,
 		torpedo_ammo = 0,
@@ -16354,7 +18265,10 @@ pg.equip_data_statistics = {
 				4,
 				1103
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			7100
@@ -16415,7 +18329,7 @@ pg.equip_data_statistics = {
 		rarity = 2,
 		damage = "16 x 3",
 		nationality = 5,
-		ammo = "通常弹",
+		ammo = 3,
 		value_3 = 0,
 		id = 7120,
 		torpedo_ammo = 0,
@@ -16440,7 +18354,10 @@ pg.equip_data_statistics = {
 				4,
 				1103
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			7120
@@ -16501,7 +18418,7 @@ pg.equip_data_statistics = {
 		rarity = 3,
 		damage = "18 x 3",
 		nationality = 5,
-		ammo = "通常弹",
+		ammo = 3,
 		value_3 = 0,
 		id = 7140,
 		torpedo_ammo = 0,
@@ -16526,7 +18443,10 @@ pg.equip_data_statistics = {
 				4,
 				1103
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			7140
@@ -16605,6 +18525,16 @@ pg.equip_data_statistics = {
 			7146
 		}
 	},
+	[7147] = {
+		damage = "32 x 3",
+		base = 7140,
+		id = 7147,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			7147
+		}
+	},
 	[7200] = {
 		name = "130mm单装炮",
 		speciality = "锁定",
@@ -16617,7 +18547,7 @@ pg.equip_data_statistics = {
 		rarity = 2,
 		damage = "4 x 3",
 		nationality = 7,
-		ammo = "通常弹",
+		ammo = 3,
 		value_3 = 0,
 		id = 7200,
 		torpedo_ammo = 0,
@@ -16642,14 +18572,18 @@ pg.equip_data_statistics = {
 				4,
 				1018
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			7200
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -16709,7 +18643,7 @@ pg.equip_data_statistics = {
 		rarity = 3,
 		damage = "5 x 3",
 		nationality = 7,
-		ammo = "通常弹",
+		ammo = 3,
 		value_3 = 0,
 		id = 7220,
 		torpedo_ammo = 0,
@@ -16734,14 +18668,18 @@ pg.equip_data_statistics = {
 				4,
 				1018
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			7220
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -16831,7 +18769,7 @@ pg.equip_data_statistics = {
 		rarity = 4,
 		damage = "6 x 3",
 		nationality = 7,
-		ammo = "高爆弹",
+		ammo = 2,
 		value_3 = 0,
 		id = 7240,
 		torpedo_ammo = 0,
@@ -16856,14 +18794,18 @@ pg.equip_data_statistics = {
 				4,
 				1018
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			7240
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -16982,6 +18924,17 @@ pg.equip_data_statistics = {
 			7250
 		}
 	},
+	[7251] = {
+		anti_siren = 100,
+		damage = "17 x 3",
+		base = 7240,
+		id = 7251,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			7251
+		}
+	},
 	[7300] = {
 		name = "试作型三联装203mm舰炮",
 		speciality = "锁定",
@@ -16994,7 +18947,7 @@ pg.equip_data_statistics = {
 		rarity = 5,
 		damage = "30 x 3",
 		nationality = 8,
-		ammo = "高爆弹",
+		ammo = 2,
 		value_3 = 0,
 		id = 7300,
 		torpedo_ammo = 0,
@@ -17019,7 +18972,10 @@ pg.equip_data_statistics = {
 				4,
 				1213
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			7300
@@ -17138,6 +19094,39 @@ pg.equip_data_statistics = {
 			7310
 		}
 	},
+	[7311] = {
+		anti_siren = 100,
+		damage = "52 x 3",
+		base = 7300,
+		id = 7311,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			7311
+		}
+	},
+	[7312] = {
+		anti_siren = 200,
+		damage = "52 x 3",
+		base = 7300,
+		id = 7312,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			7312
+		}
+	},
+	[7313] = {
+		anti_siren = 300,
+		damage = "52 x 3",
+		base = 7300,
+		id = 7313,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			7313
+		}
+	},
 	[7320] = {
 		name = "四联装130mm副炮Mle1932",
 		speciality = "锁定",
@@ -17150,7 +19139,7 @@ pg.equip_data_statistics = {
 		rarity = 3,
 		damage = "4 x 4",
 		nationality = 8,
-		ammo = "通常弹",
+		ammo = 3,
 		value_3 = 0,
 		id = 7320,
 		torpedo_ammo = 0,
@@ -17175,14 +19164,18 @@ pg.equip_data_statistics = {
 				4,
 				1019
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			7320
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -17260,6 +19253,16 @@ pg.equip_data_statistics = {
 			7326
 		}
 	},
+	[7327] = {
+		damage = "10 x 4",
+		base = 7320,
+		id = 7327,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			7327
+		}
+	},
 	[7340] = {
 		name = "双联装203mm主炮Mle1924(潜艇用)",
 		speciality = "锁定",
@@ -17272,7 +19275,7 @@ pg.equip_data_statistics = {
 		rarity = 3,
 		damage = "22 x 4",
 		nationality = 8,
-		ammo = "通常弹",
+		ammo = 3,
 		value_3 = 0,
 		id = 7340,
 		torpedo_ammo = 0,
@@ -17297,7 +19300,10 @@ pg.equip_data_statistics = {
 				4,
 				1205
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			7340
@@ -17376,6 +19382,16 @@ pg.equip_data_statistics = {
 			7346
 		}
 	},
+	[7347] = {
+		damage = "34 x 4",
+		base = 7340,
+		id = 7347,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			7347
+		}
+	},
 	[11000] = {
 		name = "76mm火炮",
 		speciality = "锁定",
@@ -17387,7 +19403,7 @@ pg.equip_data_statistics = {
 		icon = "11000",
 		damage = "3 x 1",
 		nationality = 1,
-		ammo = "通常弹",
+		ammo = 3,
 		value_3 = 0,
 		id = 11000,
 		torpedo_ammo = 0,
@@ -17412,14 +19428,18 @@ pg.equip_data_statistics = {
 				4,
 				1000
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			11000
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -17478,7 +19498,7 @@ pg.equip_data_statistics = {
 		rarity = 2,
 		damage = "3 x 1",
 		nationality = 1,
-		ammo = "通常弹",
+		ammo = 3,
 		value_3 = 0,
 		id = 11020,
 		torpedo_ammo = 0,
@@ -17503,14 +19523,18 @@ pg.equip_data_statistics = {
 				4,
 				1000
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			11020
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -17569,7 +19593,7 @@ pg.equip_data_statistics = {
 		rarity = 3,
 		damage = "3 x 1",
 		nationality = 1,
-		ammo = "通常弹",
+		ammo = 3,
 		value_3 = 0,
 		id = 11040,
 		torpedo_ammo = 0,
@@ -17594,14 +19618,18 @@ pg.equip_data_statistics = {
 				4,
 				1000
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			11040
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -17678,6 +19706,151 @@ pg.equip_data_statistics = {
 			11046
 		}
 	},
+	[11047] = {
+		damage = "7 x 1",
+		base = 11040,
+		id = 11047,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			11047
+		}
+	},
+	[11060] = {
+		name = "127mm单装炮早期型",
+		speciality = "锁定",
+		type = 1,
+		tech = 0,
+		descrip = "说明未填写",
+		value_2 = 12,
+		icon = "11060",
+		attribute_2 = "cannon",
+		rarity = 3,
+		damage = "3 x 2",
+		nationality = 1,
+		ammo = 3,
+		value_3 = 0,
+		id = 11060,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			1
+		},
+		ammo_info = {
+			{
+				1,
+				1000
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			{
+				3,
+				1000
+			},
+			{
+				4,
+				1007
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			11060
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			19
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
+		equip_parameters = {},
+		label = {
+			"USS",
+			"DD",
+			"MG"
+		}
+	},
+	[11061] = {
+		base = 11060,
+		id = 11061,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			11061
+		}
+	},
+	[11062] = {
+		damage = "4 x 2",
+		base = 11060,
+		id = 11062,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			11062
+		}
+	},
+	[11063] = {
+		damage = "6 x 2",
+		base = 11060,
+		id = 11063,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			11063
+		}
+	},
+	[11064] = {
+		damage = "8 x 2",
+		base = 11060,
+		id = 11064,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			11064
+		}
+	},
+	[11065] = {
+		damage = "10 x 2",
+		base = 11060,
+		id = 11065,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			11065
+		}
+	},
+	[11066] = {
+		damage = "12 x 2",
+		base = 11060,
+		id = 11066,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			11066
+		}
+	},
+	[11067] = {
+		damage = "12 x 2",
+		base = 11060,
+		id = 11067,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			11067
+		}
+	},
 	[11100] = {
 		name = "127mm单装炮",
 		speciality = "锁定",
@@ -17690,7 +19863,7 @@ pg.equip_data_statistics = {
 		rarity = 2,
 		damage = "4 x 3",
 		nationality = 1,
-		ammo = "通常弹",
+		ammo = 3,
 		value_3 = 0,
 		id = 11100,
 		torpedo_ammo = 0,
@@ -17715,14 +19888,18 @@ pg.equip_data_statistics = {
 				4,
 				1003
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			11100
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -17781,7 +19958,7 @@ pg.equip_data_statistics = {
 		rarity = 3,
 		damage = "4 x 3",
 		nationality = 1,
-		ammo = "通常弹",
+		ammo = 3,
 		value_3 = 0,
 		id = 11120,
 		torpedo_ammo = 0,
@@ -17806,14 +19983,18 @@ pg.equip_data_statistics = {
 				4,
 				1003
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			11120
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -17902,7 +20083,7 @@ pg.equip_data_statistics = {
 		rarity = 4,
 		damage = "4 x 3",
 		nationality = 1,
-		ammo = "高爆弹",
+		ammo = 2,
 		value_3 = 0,
 		id = 11140,
 		torpedo_ammo = 0,
@@ -17927,14 +20108,18 @@ pg.equip_data_statistics = {
 				4,
 				1003
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			11140
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -18052,8 +20237,196 @@ pg.equip_data_statistics = {
 			11150
 		}
 	},
+	[11151] = {
+		anti_siren = 100,
+		damage = "15 x 3",
+		base = 11140,
+		id = 11151,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			11151
+		}
+	},
+	[11160] = {
+		name = "双联装127mm副炮",
+		speciality = "锁定",
+		type = 1,
+		tech = 0,
+		descrip = "说明未填写",
+		value_2 = 25,
+		icon = "11160",
+		attribute_2 = "cannon",
+		rarity = 4,
+		damage = "4 x 4",
+		nationality = 1,
+		ammo = 2,
+		value_3 = 0,
+		id = 11160,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			3
+		},
+		ammo_info = {
+			{
+				1,
+				1006
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			{
+				3,
+				1006
+			},
+			{
+				4,
+				1027
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			11160
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			19
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
+		equip_parameters = {},
+		label = {
+			"USS",
+			"DD",
+			"MG",
+			"HE"
+		}
+	},
+	[11161] = {
+		base = 11160,
+		id = 11161,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			11161
+		}
+	},
+	[11162] = {
+		damage = "7 x 4",
+		base = 11160,
+		id = 11162,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			11162
+		}
+	},
+	[11163] = {
+		damage = "8 x 4",
+		base = 11160,
+		id = 11163,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			11163
+		}
+	},
+	[11164] = {
+		damage = "9 x 4",
+		base = 11160,
+		id = 11164,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			11164
+		}
+	},
+	[11165] = {
+		damage = "10 x 4",
+		base = 11160,
+		id = 11165,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			11165
+		}
+	},
+	[11166] = {
+		damage = "11 x 4",
+		base = 11160,
+		id = 11166,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			11166
+		}
+	},
+	[11167] = {
+		damage = "12 x 4",
+		base = 11160,
+		id = 11167,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			11167
+		}
+	},
+	[11168] = {
+		damage = "13 x 4",
+		base = 11160,
+		id = 11168,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			11168
+		}
+	},
+	[11169] = {
+		damage = "14 x 4",
+		base = 11160,
+		id = 11169,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			11169
+		}
+	},
+	[11170] = {
+		damage = "15 x 4",
+		base = 11160,
+		id = 11170,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			11170
+		}
+	},
+	[11171] = {
+		anti_siren = 100,
+		damage = "15 x 4",
+		base = 11160,
+		id = 11171,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			11171
+		}
+	},
 	[11200] = {
-		name = "双联装127mm高平两用炮MK12",
+		name = "双联装127mm高平两用炮Mk12",
 		speciality = "锁定",
 		type = 1,
 		attribute_3 = "antiaircraft",
@@ -18065,7 +20438,7 @@ pg.equip_data_statistics = {
 		rarity = 3,
 		damage = "4 x 4",
 		nationality = 1,
-		ammo = "通常弹",
+		ammo = 3,
 		value_3 = 7,
 		id = 11200,
 		torpedo_ammo = 0,
@@ -18090,14 +20463,18 @@ pg.equip_data_statistics = {
 				4,
 				1001
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			11200
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -18175,7 +20552,7 @@ pg.equip_data_statistics = {
 		}
 	},
 	[11220] = {
-		name = "双联装127mm高平两用炮MK12",
+		name = "双联装127mm高平两用炮Mk12",
 		speciality = "锁定",
 		type = 1,
 		attribute_3 = "antiaircraft",
@@ -18187,7 +20564,7 @@ pg.equip_data_statistics = {
 		rarity = 4,
 		damage = "4 x 4",
 		nationality = 1,
-		ammo = "高爆弹",
+		ammo = 2,
 		value_3 = 14,
 		id = 11220,
 		torpedo_ammo = 0,
@@ -18212,14 +20589,18 @@ pg.equip_data_statistics = {
 				4,
 				1001
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			11220
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -18338,7 +20719,7 @@ pg.equip_data_statistics = {
 		}
 	},
 	[11240] = {
-		name = "双联装127mm高平两用炮MK12",
+		name = "双联装127mm高平两用炮Mk12",
 		speciality = "锁定",
 		type = 1,
 		attribute_3 = "antiaircraft",
@@ -18350,7 +20731,7 @@ pg.equip_data_statistics = {
 		rarity = 5,
 		damage = "4 x 4",
 		nationality = 1,
-		ammo = "高爆弹",
+		ammo = 2,
 		value_3 = 25,
 		id = 11240,
 		torpedo_ammo = 0,
@@ -18375,14 +20756,18 @@ pg.equip_data_statistics = {
 				4,
 				1001
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			11240
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -18500,6 +20885,39 @@ pg.equip_data_statistics = {
 			11250
 		}
 	},
+	[11251] = {
+		anti_siren = 100,
+		damage = "15 x 4",
+		base = 11240,
+		id = 11251,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			11251
+		}
+	},
+	[11252] = {
+		anti_siren = 200,
+		damage = "15 x 4",
+		base = 11240,
+		id = 11252,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			11252
+		}
+	},
+	[11253] = {
+		anti_siren = 300,
+		damage = "15 x 4",
+		base = 11240,
+		id = 11253,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			11253
+		}
+	},
 	[12000] = {
 		name = "双联152mm主炮",
 		speciality = "锁定",
@@ -18511,7 +20929,7 @@ pg.equip_data_statistics = {
 		icon = "12000",
 		damage = "7 x 4",
 		nationality = 1,
-		ammo = "通常弹",
+		ammo = 3,
 		value_3 = 0,
 		id = 12000,
 		torpedo_ammo = 0,
@@ -18536,7 +20954,10 @@ pg.equip_data_statistics = {
 				4,
 				1101
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			12000
@@ -18597,7 +21018,7 @@ pg.equip_data_statistics = {
 		rarity = 2,
 		damage = "8 x 4",
 		nationality = 1,
-		ammo = "通常弹",
+		ammo = 3,
 		value_3 = 0,
 		id = 12020,
 		torpedo_ammo = 0,
@@ -18622,7 +21043,10 @@ pg.equip_data_statistics = {
 				4,
 				1101
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			12020
@@ -18683,7 +21107,7 @@ pg.equip_data_statistics = {
 		rarity = 3,
 		damage = "9 x 4",
 		nationality = 1,
-		ammo = "通常弹",
+		ammo = 3,
 		value_3 = 0,
 		id = 12040,
 		torpedo_ammo = 0,
@@ -18708,7 +21132,10 @@ pg.equip_data_statistics = {
 				4,
 				1101
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			12040
@@ -18787,6 +21214,145 @@ pg.equip_data_statistics = {
 			12046
 		}
 	},
+	[12047] = {
+		damage = "15 x 4",
+		base = 12040,
+		id = 12047,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			12047
+		}
+	},
+	[12060] = {
+		name = "双联152mm主炮Mk15",
+		speciality = "锁定",
+		type = 2,
+		tech = 0,
+		descrip = "说明未填写",
+		value_2 = 12,
+		icon = "12060",
+		attribute_2 = "cannon",
+		rarity = 3,
+		damage = "10 x 4",
+		nationality = 1,
+		ammo = 3,
+		value_3 = 0,
+		id = 12060,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			1
+		},
+		ammo_info = {
+			{
+				1,
+				1010
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			{
+				3,
+				1010
+			},
+			{
+				4,
+				1101
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			12060
+		},
+		skill_id = {},
+		part_main = {
+			2
+		},
+		part_sub = {
+			5
+		},
+		equip_parameters = {},
+		label = {
+			"USS",
+			"CL",
+			"MG"
+		}
+	},
+	[12061] = {
+		damage = "11 x 4",
+		base = 12060,
+		id = 12061,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			12061
+		}
+	},
+	[12062] = {
+		damage = "12 x 4",
+		base = 12060,
+		id = 12062,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			12062
+		}
+	},
+	[12063] = {
+		damage = "13 x 4",
+		base = 12060,
+		id = 12063,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			12063
+		}
+	},
+	[12064] = {
+		damage = "14 x 4",
+		base = 12060,
+		id = 12064,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			12064
+		}
+	},
+	[12065] = {
+		damage = "15 x 4",
+		base = 12060,
+		id = 12065,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			12065
+		}
+	},
+	[12066] = {
+		damage = "16 x 4",
+		base = 12060,
+		id = 12066,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			12066
+		}
+	},
+	[12067] = {
+		damage = "16 x 4",
+		base = 12060,
+		id = 12067,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			12067
+		}
+	},
 	[12100] = {
 		name = "三联装152mm主炮",
 		speciality = "锁定",
@@ -18799,7 +21365,7 @@ pg.equip_data_statistics = {
 		rarity = 2,
 		damage = "7 x 6",
 		nationality = 1,
-		ammo = "通常弹",
+		ammo = 3,
 		value_3 = 0,
 		id = 12100,
 		torpedo_ammo = 0,
@@ -18824,7 +21390,10 @@ pg.equip_data_statistics = {
 				4,
 				1102
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			12100
@@ -18885,7 +21454,7 @@ pg.equip_data_statistics = {
 		rarity = 3,
 		damage = "8 x 6",
 		nationality = 1,
-		ammo = "通常弹",
+		ammo = 3,
 		value_3 = 0,
 		id = 12120,
 		torpedo_ammo = 0,
@@ -18910,7 +21479,10 @@ pg.equip_data_statistics = {
 				4,
 				1102
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			12120
@@ -19001,7 +21573,7 @@ pg.equip_data_statistics = {
 		rarity = 4,
 		damage = "9 x 6",
 		nationality = 1,
-		ammo = "高爆弹",
+		ammo = 2,
 		value_3 = 0,
 		id = 12140,
 		torpedo_ammo = 0,
@@ -19026,7 +21598,10 @@ pg.equip_data_statistics = {
 				4,
 				1102
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			12140
@@ -19146,6 +21721,210 @@ pg.equip_data_statistics = {
 			12150
 		}
 	},
+	[12151] = {
+		anti_siren = 100,
+		damage = "19 x 6",
+		base = 12140,
+		id = 12151,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			12151
+		}
+	},
+	[12160] = {
+		name = "三联装152mm主炮Mk16",
+		speciality = "锁定",
+		type = 2,
+		tech = 0,
+		descrip = "说明未填写",
+		value_2 = 45,
+		icon = "12160",
+		attribute_2 = "cannon",
+		rarity = 5,
+		damage = "10 x 6",
+		nationality = 1,
+		ammo = 2,
+		value_3 = 0,
+		id = 12160,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			3
+		},
+		ammo_info = {
+			{
+				1,
+				1007
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			{
+				3,
+				1007
+			},
+			{
+				4,
+				1111
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			12160
+		},
+		skill_id = {},
+		part_main = {
+			2
+		},
+		part_sub = {
+			5
+		},
+		equip_parameters = {},
+		label = {
+			"USS",
+			"CL",
+			"MG",
+			"HE"
+		}
+	},
+	[12161] = {
+		damage = "11 x 6",
+		base = 12160,
+		id = 12161,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			12161
+		}
+	},
+	[12162] = {
+		damage = "12 x 6",
+		base = 12160,
+		id = 12162,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			12162
+		}
+	},
+	[12163] = {
+		damage = "13 x 6",
+		base = 12160,
+		id = 12163,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			12163
+		}
+	},
+	[12164] = {
+		damage = "14 x 6",
+		base = 12160,
+		id = 12164,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			12164
+		}
+	},
+	[12165] = {
+		damage = "15 x 6",
+		base = 12160,
+		id = 12165,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			12165
+		}
+	},
+	[12166] = {
+		damage = "16 x 6",
+		base = 12160,
+		id = 12166,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			12166
+		}
+	},
+	[12167] = {
+		damage = "17 x 6",
+		base = 12160,
+		id = 12167,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			12167
+		}
+	},
+	[12168] = {
+		damage = "18 x 6",
+		base = 12160,
+		id = 12168,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			12168
+		}
+	},
+	[12169] = {
+		damage = "19 x 6",
+		base = 12160,
+		id = 12169,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			12169
+		}
+	},
+	[12170] = {
+		damage = "20 x 6",
+		base = 12160,
+		id = 12170,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			12170
+		}
+	},
+	[12171] = {
+		anti_siren = 100,
+		damage = "20 x 6",
+		base = 12160,
+		id = 12171,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			12171
+		}
+	},
+	[12172] = {
+		anti_siren = 200,
+		damage = "20 x 6",
+		base = 12160,
+		id = 12172,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			12172
+		}
+	},
+	[12173] = {
+		anti_siren = 300,
+		damage = "20 x 6",
+		base = 12160,
+		id = 12173,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			12173
+		}
+	},
 	[12200] = {
 		name = "试作型三联装152mm高平两用炮Mk17",
 		speciality = "锁定",
@@ -19159,7 +21938,7 @@ pg.equip_data_statistics = {
 		rarity = 5,
 		damage = "5 x 6",
 		nationality = 1,
-		ammo = "高爆弹",
+		ammo = 2,
 		value_3 = 15,
 		id = 12200,
 		torpedo_ammo = 0,
@@ -19184,7 +21963,10 @@ pg.equip_data_statistics = {
 				4,
 				1109
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			12200
@@ -19304,6 +22086,39 @@ pg.equip_data_statistics = {
 			12210
 		}
 	},
+	[12211] = {
+		anti_siren = 100,
+		damage = "15 x 6",
+		base = 12200,
+		id = 12211,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			12211
+		}
+	},
+	[12212] = {
+		anti_siren = 200,
+		damage = "15 x 6",
+		base = 12200,
+		id = 12212,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			12212
+		}
+	},
+	[12213] = {
+		anti_siren = 300,
+		damage = "15 x 6",
+		base = 12200,
+		id = 12213,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			12213
+		}
+	},
 	[13000] = {
 		name = "三联装203mm主炮",
 		speciality = "锁定",
@@ -19315,7 +22130,7 @@ pg.equip_data_statistics = {
 		icon = "13000",
 		damage = "22 x 3",
 		nationality = 1,
-		ammo = "通常弹",
+		ammo = 3,
 		value_3 = 0,
 		id = 13000,
 		torpedo_ammo = 0,
@@ -19340,7 +22155,10 @@ pg.equip_data_statistics = {
 				4,
 				1204
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			13000
@@ -19401,7 +22219,7 @@ pg.equip_data_statistics = {
 		rarity = 2,
 		damage = "24 x 3",
 		nationality = 1,
-		ammo = "通常弹",
+		ammo = 3,
 		value_3 = 0,
 		id = 13020,
 		torpedo_ammo = 0,
@@ -19426,7 +22244,10 @@ pg.equip_data_statistics = {
 				4,
 				1204
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			13020
@@ -19487,7 +22308,7 @@ pg.equip_data_statistics = {
 		rarity = 3,
 		damage = "26 x 3",
 		nationality = 1,
-		ammo = "高爆弹",
+		ammo = 2,
 		value_3 = 0,
 		id = 13040,
 		torpedo_ammo = 0,
@@ -19512,7 +22333,10 @@ pg.equip_data_statistics = {
 				4,
 				1204
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			13040
@@ -19591,6 +22415,145 @@ pg.equip_data_statistics = {
 			13046
 		}
 	},
+	[13047] = {
+		damage = "39 x 3",
+		base = 13040,
+		id = 13047,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			13047
+		}
+	},
+	[13060] = {
+		name = "三联装203mm主炮Mk13",
+		speciality = "锁定",
+		type = 3,
+		tech = 0,
+		descrip = "说明未填写",
+		value_2 = 12,
+		icon = "13060",
+		attribute_2 = "cannon",
+		rarity = 3,
+		damage = "23 x 3",
+		nationality = 1,
+		ammo = 2,
+		value_3 = 0,
+		id = 13060,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			3
+		},
+		ammo_info = {
+			{
+				1,
+				1402
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			{
+				3,
+				1402
+			},
+			{
+				4,
+				1204
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			13060
+		},
+		skill_id = {},
+		part_main = {
+			3,
+			18
+		},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"USS",
+			"CA",
+			"MG",
+			"HE"
+		}
+	},
+	[13061] = {
+		damage = "26 x 3",
+		base = 13060,
+		id = 13061,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			13061
+		}
+	},
+	[13062] = {
+		damage = "29 x 3",
+		base = 13060,
+		id = 13062,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			13062
+		}
+	},
+	[13063] = {
+		damage = "32 x 3",
+		base = 13060,
+		id = 13063,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			13063
+		}
+	},
+	[13064] = {
+		damage = "36 x 3",
+		base = 13060,
+		id = 13064,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			13064
+		}
+	},
+	[13065] = {
+		damage = "40 x 3",
+		base = 13060,
+		id = 13065,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			13065
+		}
+	},
+	[13066] = {
+		damage = "44 x 3",
+		base = 13060,
+		id = 13066,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			13066
+		}
+	},
+	[13067] = {
+		damage = "44 x 3",
+		base = 13060,
+		id = 13067,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			13067
+		}
+	},
 	[13100] = {
 		name = "三联装203mm主炮改进型",
 		speciality = "锁定",
@@ -19603,7 +22566,7 @@ pg.equip_data_statistics = {
 		rarity = 2,
 		damage = "24 x 3",
 		nationality = 1,
-		ammo = "通常弹",
+		ammo = 3,
 		value_3 = 0,
 		id = 13100,
 		torpedo_ammo = 0,
@@ -19628,7 +22591,10 @@ pg.equip_data_statistics = {
 				4,
 				1204
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			13100
@@ -19689,7 +22655,7 @@ pg.equip_data_statistics = {
 		rarity = 3,
 		damage = "26 x 3",
 		nationality = 1,
-		ammo = "高爆弹",
+		ammo = 2,
 		value_3 = 0,
 		id = 13120,
 		torpedo_ammo = 0,
@@ -19714,7 +22680,10 @@ pg.equip_data_statistics = {
 				4,
 				1204
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			13120
@@ -19805,7 +22774,7 @@ pg.equip_data_statistics = {
 		rarity = 4,
 		damage = "28 x 3",
 		nationality = 1,
-		ammo = "高爆弹",
+		ammo = 2,
 		value_3 = 0,
 		id = 13140,
 		torpedo_ammo = 0,
@@ -19830,7 +22799,10 @@ pg.equip_data_statistics = {
 				4,
 				1204
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			13140
@@ -19949,8 +22921,211 @@ pg.equip_data_statistics = {
 			13150
 		}
 	},
+	[13151] = {
+		anti_siren = 100,
+		damage = "52 x 3",
+		base = 13140,
+		id = 13151,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			13151
+		}
+	},
+	[13160] = {
+		name = "三联装203mm主炮Mk15",
+		speciality = "锁定",
+		type = 3,
+		tech = 0,
+		descrip = "说明未填写",
+		value_2 = 45,
+		icon = "13160",
+		attribute_2 = "cannon",
+		rarity = 5,
+		damage = "27 x 6",
+		nationality = 1,
+		ammo = 1,
+		value_3 = 0,
+		id = 13160,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			2
+		},
+		ammo_info = {
+			{
+				1,
+				1420
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			{
+				3,
+				1420
+			},
+			{
+				4,
+				1214
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			13160
+		},
+		skill_id = {},
+		part_main = {
+			3,
+			18
+		},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"USS",
+			"CA",
+			"MG",
+			"AP"
+		}
+	},
+	[13161] = {
+		damage = "30 x 6",
+		base = 13160,
+		id = 13161,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			13161
+		}
+	},
+	[13162] = {
+		damage = "33 x 6",
+		base = 13160,
+		id = 13162,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			13162
+		}
+	},
+	[13163] = {
+		damage = "35 x 6",
+		base = 13160,
+		id = 13163,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			13163
+		}
+	},
+	[13164] = {
+		damage = "37 x 6",
+		base = 13160,
+		id = 13164,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			13164
+		}
+	},
+	[13165] = {
+		damage = "39 x 6",
+		base = 13160,
+		id = 13165,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			13165
+		}
+	},
+	[13166] = {
+		damage = "42 x 6",
+		base = 13160,
+		id = 13166,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			13166
+		}
+	},
+	[13167] = {
+		damage = "45 x 6",
+		base = 13160,
+		id = 13167,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			13167
+		}
+	},
+	[13168] = {
+		damage = "47 x 6",
+		base = 13160,
+		id = 13168,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			13168
+		}
+	},
+	[13169] = {
+		damage = "49 x 6",
+		base = 13160,
+		id = 13169,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			13169
+		}
+	},
+	[13170] = {
+		damage = "51 x 6",
+		base = 13160,
+		id = 13170,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			13170
+		}
+	},
+	[13171] = {
+		anti_siren = 100,
+		damage = "51 x 6",
+		base = 13160,
+		id = 13171,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			13171
+		}
+	},
+	[13172] = {
+		anti_siren = 200,
+		damage = "51 x 6",
+		base = 13160,
+		id = 13172,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			13172
+		}
+	},
+	[13173] = {
+		anti_siren = 300,
+		damage = "51 x 6",
+		base = 13160,
+		id = 13173,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			13173
+		}
+	},
 	[14000] = {
-		name = "三联装305mm主炮MK8",
+		name = "三联装305mm主炮Mk8",
 		speciality = "跨射",
 		type = 4,
 		tech = 1,
@@ -19961,7 +23136,7 @@ pg.equip_data_statistics = {
 		rarity = 3,
 		damage = "36 x 3",
 		nationality = 1,
-		ammo = "通常弹",
+		ammo = 3,
 		value_3 = 0,
 		id = 14000,
 		torpedo_ammo = 0,
@@ -19978,7 +23153,10 @@ pg.equip_data_statistics = {
 		equip_info = {
 			1,
 			2,
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			14000
@@ -20059,7 +23237,7 @@ pg.equip_data_statistics = {
 		}
 	},
 	[14020] = {
-		name = "三联装305mm主炮MK8",
+		name = "三联装305mm主炮Mk8",
 		speciality = "跨射",
 		type = 4,
 		tech = 2,
@@ -20070,7 +23248,7 @@ pg.equip_data_statistics = {
 		rarity = 4,
 		damage = "40 x 3",
 		nationality = 1,
-		ammo = "通常弹",
+		ammo = 3,
 		value_3 = 0,
 		id = 14020,
 		torpedo_ammo = 0,
@@ -20087,7 +23265,10 @@ pg.equip_data_statistics = {
 		equip_info = {
 			1,
 			2,
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			14020
@@ -20208,7 +23389,7 @@ pg.equip_data_statistics = {
 		}
 	},
 	[14040] = {
-		name = "三联装305mm主炮MK8",
+		name = "三联装305mm主炮Mk8",
 		speciality = "跨射",
 		type = 4,
 		tech = 3,
@@ -20219,7 +23400,7 @@ pg.equip_data_statistics = {
 		rarity = 5,
 		damage = "44 x 3",
 		nationality = 1,
-		ammo = "通常弹",
+		ammo = 3,
 		value_3 = 0,
 		id = 14040,
 		torpedo_ammo = 0,
@@ -20236,7 +23417,10 @@ pg.equip_data_statistics = {
 		equip_info = {
 			1,
 			2,
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			14040
@@ -20356,6 +23540,39 @@ pg.equip_data_statistics = {
 			14050
 		}
 	},
+	[14051] = {
+		anti_siren = 100,
+		damage = "92 x 3",
+		base = 14040,
+		id = 14051,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			14051
+		}
+	},
+	[14052] = {
+		anti_siren = 200,
+		damage = "92 x 3",
+		base = 14040,
+		id = 14052,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			14052
+		}
+	},
+	[14053] = {
+		anti_siren = 300,
+		damage = "92 x 3",
+		base = 14040,
+		id = 14053,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			14053
+		}
+	},
 	[14100] = {
 		name = "三联装356mm主炮",
 		speciality = "跨射",
@@ -20367,7 +23584,7 @@ pg.equip_data_statistics = {
 		icon = "14100",
 		damage = "40 x 3",
 		nationality = 1,
-		ammo = "通常弹",
+		ammo = 3,
 		value_3 = 0,
 		id = 14100,
 		torpedo_ammo = 0,
@@ -20384,7 +23601,10 @@ pg.equip_data_statistics = {
 		equip_info = {
 			1,
 			2,
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			14100
@@ -20446,7 +23666,7 @@ pg.equip_data_statistics = {
 		rarity = 2,
 		damage = "44 x 3",
 		nationality = 1,
-		ammo = "高爆弹",
+		ammo = 2,
 		value_3 = 0,
 		id = 14120,
 		torpedo_ammo = 0,
@@ -20463,7 +23683,10 @@ pg.equip_data_statistics = {
 		equip_info = {
 			1,
 			2,
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			14120
@@ -20526,7 +23749,7 @@ pg.equip_data_statistics = {
 		rarity = 3,
 		damage = "48 x 3",
 		nationality = 1,
-		ammo = "高爆弹",
+		ammo = 2,
 		value_3 = 0,
 		id = 14140,
 		torpedo_ammo = 0,
@@ -20543,7 +23766,10 @@ pg.equip_data_statistics = {
 		equip_info = {
 			1,
 			2,
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			14140
@@ -20624,8 +23850,305 @@ pg.equip_data_statistics = {
 			14146
 		}
 	},
+	[14147] = {
+		damage = "84 x 3",
+		base = 14140,
+		id = 14147,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			14147
+		}
+	},
+	[14160] = {
+		name = "试作型四联装356mm主炮MkB",
+		speciality = "跨射",
+		type = 4,
+		tech = 0,
+		descrip = "说明未填写",
+		value_2 = 25,
+		icon = "14160",
+		attribute_2 = "cannon",
+		rarity = 4,
+		damage = "56 x 4",
+		nationality = 1,
+		ammo = 2,
+		value_3 = 0,
+		id = 14160,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			3
+		},
+		ammo_info = {
+			{
+				2,
+				1522
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			14160
+		},
+		skill_id = {},
+		part_main = {
+			4,
+			5,
+			10,
+			13
+		},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"USS",
+			"BB",
+			"MG",
+			"HE"
+		}
+	},
+	[14161] = {
+		damage = "63 x 4",
+		base = 14160,
+		id = 14161,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			14161
+		}
+	},
+	[14162] = {
+		damage = "68 x 4",
+		base = 14160,
+		id = 14162,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			14162
+		}
+	},
+	[14163] = {
+		damage = "75 x 4",
+		base = 14160,
+		id = 14163,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			14163
+		}
+	},
+	[14164] = {
+		damage = "80 x 4",
+		base = 14160,
+		id = 14164,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			14164
+		}
+	},
+	[14165] = {
+		damage = "87 x 4",
+		base = 14160,
+		id = 14165,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			14165
+		}
+	},
+	[14166] = {
+		damage = "92 x 4",
+		base = 14160,
+		id = 14166,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			14166
+		}
+	},
+	[14167] = {
+		damage = "99 x 4",
+		base = 14160,
+		id = 14167,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			14167
+		}
+	},
+	[14168] = {
+		damage = "104 x 4",
+		base = 14160,
+		id = 14168,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			14168
+		}
+	},
+	[14169] = {
+		damage = "111 x 4",
+		base = 14160,
+		id = 14169,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			14169
+		}
+	},
+	[14170] = {
+		damage = "116 x 4",
+		base = 14160,
+		id = 14170,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			14170
+		}
+	},
+	[14171] = {
+		anti_siren = 100,
+		damage = "116 x 4",
+		base = 14160,
+		id = 14171,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			14171
+		}
+	},
+	[14180] = {
+		name = "双联装406mm主炮Mk1",
+		speciality = "跨射",
+		type = 4,
+		tech = 0,
+		descrip = "说明未填写",
+		value_2 = 12,
+		icon = "14180",
+		attribute_2 = "cannon",
+		rarity = 3,
+		damage = "53 x 2",
+		nationality = 1,
+		ammo = 1,
+		value_3 = 0,
+		id = 14180,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			2
+		},
+		ammo_info = {
+			{
+				2,
+				1501
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			14180
+		},
+		skill_id = {},
+		part_main = {
+			4,
+			5,
+			10,
+			13
+		},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"USS",
+			"BB",
+			"MG",
+			"AP"
+		}
+	},
+	[14181] = {
+		damage = "62 x 2",
+		base = 14180,
+		id = 14181,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			14181
+		}
+	},
+	[14182] = {
+		damage = "70 x 2",
+		base = 14180,
+		id = 14182,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			14182
+		}
+	},
+	[14183] = {
+		damage = "79 x 2",
+		base = 14180,
+		id = 14183,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			14183
+		}
+	},
+	[14184] = {
+		damage = "88 x 2",
+		base = 14180,
+		id = 14184,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			14184
+		}
+	},
+	[14185] = {
+		damage = "97 x 2",
+		base = 14180,
+		id = 14185,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			14185
+		}
+	},
+	[14186] = {
+		damage = "106 x 2",
+		base = 14180,
+		id = 14186,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			14186
+		}
+	},
+	[14187] = {
+		damage = "106 x 2",
+		base = 14180,
+		id = 14187,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			14187
+		}
+	},
 	[14200] = {
-		name = "双联装406mm主炮MK5",
+		name = "双联装406mm主炮Mk5",
 		speciality = "跨射",
 		type = 4,
 		tech = 1,
@@ -20636,7 +24159,7 @@ pg.equip_data_statistics = {
 		rarity = 2,
 		damage = "48 x 2",
 		nationality = 1,
-		ammo = "通常弹",
+		ammo = 3,
 		value_3 = 0,
 		id = 14200,
 		torpedo_ammo = 0,
@@ -20653,7 +24176,10 @@ pg.equip_data_statistics = {
 		equip_info = {
 			1,
 			2,
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			14200
@@ -20704,7 +24230,7 @@ pg.equip_data_statistics = {
 		}
 	},
 	[14220] = {
-		name = "双联装406mm主炮MK5",
+		name = "双联装406mm主炮Mk5",
 		speciality = "跨射",
 		type = 4,
 		tech = 2,
@@ -20715,7 +24241,7 @@ pg.equip_data_statistics = {
 		rarity = 3,
 		damage = "53 x 2",
 		nationality = 1,
-		ammo = "穿甲弹",
+		ammo = 1,
 		value_3 = 0,
 		id = 14220,
 		torpedo_ammo = 0,
@@ -20732,7 +24258,10 @@ pg.equip_data_statistics = {
 		equip_info = {
 			1,
 			2,
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			14220
@@ -20814,7 +24343,7 @@ pg.equip_data_statistics = {
 		}
 	},
 	[14240] = {
-		name = "双联装406mm主炮MK5",
+		name = "双联装406mm主炮Mk5",
 		speciality = "跨射",
 		type = 4,
 		tech = 3,
@@ -20825,7 +24354,7 @@ pg.equip_data_statistics = {
 		rarity = 4,
 		damage = "58 x 2",
 		nationality = 1,
-		ammo = "穿甲弹",
+		ammo = 1,
 		value_3 = 0,
 		id = 14240,
 		torpedo_ammo = 0,
@@ -20842,7 +24371,10 @@ pg.equip_data_statistics = {
 		equip_info = {
 			1,
 			2,
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			14240
@@ -20963,8 +24495,183 @@ pg.equip_data_statistics = {
 			14250
 		}
 	},
+	[14251] = {
+		anti_siren = 100,
+		damage = "154 x 2",
+		base = 14240,
+		id = 14251,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			14251
+		}
+	},
+	[14260] = {
+		name = "双联装406mm主炮Mk8",
+		speciality = "跨射",
+		type = 4,
+		tech = 0,
+		descrip = "说明未填写",
+		value_2 = 25,
+		icon = "14260",
+		attribute_2 = "cannon",
+		rarity = 4,
+		damage = "58 x 2",
+		nationality = 1,
+		ammo = 1,
+		value_3 = 0,
+		id = 14260,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			2
+		},
+		ammo_info = {
+			{
+				2,
+				1501
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			14260
+		},
+		skill_id = {},
+		part_main = {
+			4,
+			5,
+			10,
+			13
+		},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"USS",
+			"BB",
+			"MG",
+			"AP"
+		}
+	},
+	[14261] = {
+		damage = "68 x 2",
+		base = 14260,
+		id = 14261,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			14261
+		}
+	},
+	[14262] = {
+		damage = "76 x 2",
+		base = 14260,
+		id = 14262,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			14262
+		}
+	},
+	[14263] = {
+		damage = "86 x 2",
+		base = 14260,
+		id = 14263,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			14263
+		}
+	},
+	[14264] = {
+		damage = "96 x 2",
+		base = 14260,
+		id = 14264,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			14264
+		}
+	},
+	[14265] = {
+		damage = "106 x 2",
+		base = 14260,
+		id = 14265,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			14265
+		}
+	},
+	[14266] = {
+		damage = "116 x 2",
+		base = 14260,
+		id = 14266,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			14266
+		}
+	},
+	[14267] = {
+		damage = "124 x 2",
+		base = 14260,
+		id = 14267,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			14267
+		}
+	},
+	[14268] = {
+		damage = "134 x 2",
+		base = 14260,
+		id = 14268,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			14268
+		}
+	},
+	[14269] = {
+		damage = "144 x 2",
+		base = 14260,
+		id = 14269,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			14269
+		}
+	},
+	[14270] = {
+		damage = "154 x 2",
+		base = 14260,
+		id = 14270,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			14270
+		}
+	},
+	[14271] = {
+		anti_siren = 100,
+		damage = "154 x 2",
+		base = 14260,
+		id = 14271,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			14271
+		}
+	},
 	[14300] = {
-		name = "三联装406mm主炮MK6",
+		name = "三联装406mm主炮Mk6",
 		speciality = "跨射",
 		type = 4,
 		tech = 1,
@@ -20975,7 +24682,7 @@ pg.equip_data_statistics = {
 		rarity = 2,
 		damage = "50 x 3",
 		nationality = 1,
-		ammo = "通常弹",
+		ammo = 3,
 		value_3 = 0,
 		id = 14300,
 		torpedo_ammo = 0,
@@ -20992,7 +24699,10 @@ pg.equip_data_statistics = {
 		equip_info = {
 			1,
 			2,
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			14300
@@ -21043,7 +24753,7 @@ pg.equip_data_statistics = {
 		}
 	},
 	[14320] = {
-		name = "三联装406mm主炮MK6",
+		name = "三联装406mm主炮Mk6",
 		speciality = "跨射",
 		type = 4,
 		tech = 2,
@@ -21054,7 +24764,7 @@ pg.equip_data_statistics = {
 		rarity = 3,
 		damage = "55 x 3",
 		nationality = 1,
-		ammo = "高爆弹",
+		ammo = 2,
 		value_3 = 0,
 		id = 14320,
 		torpedo_ammo = 0,
@@ -21071,7 +24781,10 @@ pg.equip_data_statistics = {
 		equip_info = {
 			1,
 			2,
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			14320
@@ -21153,7 +24866,7 @@ pg.equip_data_statistics = {
 		}
 	},
 	[14340] = {
-		name = "三联装406mm主炮MK6",
+		name = "三联装406mm主炮Mk6",
 		speciality = "跨射",
 		type = 4,
 		tech = 3,
@@ -21164,7 +24877,7 @@ pg.equip_data_statistics = {
 		rarity = 4,
 		damage = "60 x 3",
 		nationality = 1,
-		ammo = "高爆弹",
+		ammo = 2,
 		value_3 = 0,
 		id = 14340,
 		torpedo_ammo = 0,
@@ -21181,7 +24894,10 @@ pg.equip_data_statistics = {
 		equip_info = {
 			1,
 			2,
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			14340
@@ -21302,8 +25018,368 @@ pg.equip_data_statistics = {
 			14350
 		}
 	},
+	[14351] = {
+		anti_siren = 100,
+		damage = "156 x 3",
+		base = 14340,
+		id = 14351,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			14351
+		}
+	},
+	[14360] = {
+		name = "试作型三联装406mm主炮MkD",
+		speciality = "跨射",
+		type = 4,
+		tech = 0,
+		descrip = "说明未填写",
+		value_2 = 45,
+		icon = "14360",
+		attribute_2 = "cannon",
+		rarity = 5,
+		damage = "58 x 3",
+		nationality = 1,
+		ammo = 1,
+		value_3 = 0,
+		id = 14360,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			2
+		},
+		ammo_info = {
+			{
+				2,
+				1513
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			14360
+		},
+		skill_id = {},
+		part_main = {
+			4,
+			5,
+			10,
+			13
+		},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"USS",
+			"BB",
+			"MG",
+			"AP"
+		}
+	},
+	[14361] = {
+		damage = "68 x 3",
+		base = 14360,
+		id = 14361,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			14361
+		}
+	},
+	[14362] = {
+		damage = "76 x 3",
+		base = 14360,
+		id = 14362,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			14362
+		}
+	},
+	[14363] = {
+		damage = "86 x 3",
+		base = 14360,
+		id = 14363,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			14363
+		}
+	},
+	[14364] = {
+		damage = "96 x 3",
+		base = 14360,
+		id = 14364,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			14364
+		}
+	},
+	[14365] = {
+		damage = "106 x 3",
+		base = 14360,
+		id = 14365,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			14365
+		}
+	},
+	[14366] = {
+		damage = "116 x 3",
+		base = 14360,
+		id = 14366,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			14366
+		}
+	},
+	[14367] = {
+		damage = "124 x 3",
+		base = 14360,
+		id = 14367,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			14367
+		}
+	},
+	[14368] = {
+		damage = "134 x 3",
+		base = 14360,
+		id = 14368,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			14368
+		}
+	},
+	[14369] = {
+		damage = "144 x 3",
+		base = 14360,
+		id = 14369,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			14369
+		}
+	},
+	[14370] = {
+		damage = "154 x 3",
+		base = 14360,
+		id = 14370,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			14370
+		}
+	},
+	[14371] = {
+		anti_siren = 100,
+		damage = "154 x 3",
+		base = 14360,
+		id = 14371,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			14371
+		}
+	},
+	[14372] = {
+		anti_siren = 200,
+		damage = "154 x 3",
+		base = 14360,
+		id = 14372,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			14372
+		}
+	},
+	[14373] = {
+		anti_siren = 300,
+		damage = "154 x 3",
+		base = 14360,
+		id = 14373,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			14373
+		}
+	},
+	[14380] = {
+		name = "三联装406mm主炮Mk2",
+		speciality = "跨射",
+		type = 4,
+		tech = 0,
+		descrip = "说明未填写",
+		value_2 = 25,
+		icon = "14380",
+		attribute_2 = "cannon",
+		rarity = 4,
+		damage = "60 x 3",
+		nationality = 1,
+		ammo = 3,
+		value_3 = 0,
+		id = 14380,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			1
+		},
+		ammo_info = {
+			{
+				2,
+				1510
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			14380
+		},
+		skill_id = {},
+		part_main = {
+			4,
+			5,
+			10,
+			13
+		},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"USS",
+			"BB",
+			"MG"
+		}
+	},
+	[14381] = {
+		damage = "70 x 3",
+		base = 14380,
+		id = 14381,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			14381
+		}
+	},
+	[14382] = {
+		damage = "80 x 3",
+		base = 14380,
+		id = 14382,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			14382
+		}
+	},
+	[14383] = {
+		damage = "88 x 3",
+		base = 14380,
+		id = 14383,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			14383
+		}
+	},
+	[14384] = {
+		damage = "98 x 3",
+		base = 14380,
+		id = 14384,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			14384
+		}
+	},
+	[14385] = {
+		damage = "108 x 3",
+		base = 14380,
+		id = 14385,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			14385
+		}
+	},
+	[14386] = {
+		damage = "118 x 3",
+		base = 14380,
+		id = 14386,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			14386
+		}
+	},
+	[14387] = {
+		damage = "128 x 3",
+		base = 14380,
+		id = 14387,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			14387
+		}
+	},
+	[14388] = {
+		damage = "136 x 3",
+		base = 14380,
+		id = 14388,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			14388
+		}
+	},
+	[14389] = {
+		damage = "146 x 3",
+		base = 14380,
+		id = 14389,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			14389
+		}
+	},
+	[14390] = {
+		damage = "156 x 3",
+		base = 14380,
+		id = 14390,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			14390
+		}
+	},
+	[14391] = {
+		anti_siren = 100,
+		damage = "156 x 3",
+		base = 14380,
+		id = 14391,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			14391
+		}
+	},
 	[14400] = {
-		name = "三联装406mm主炮MK7",
+		name = "三联装406mm主炮Mk7",
 		speciality = "跨射",
 		type = 4,
 		tech = 1,
@@ -21314,7 +25390,7 @@ pg.equip_data_statistics = {
 		rarity = 3,
 		damage = "52 x 3",
 		nationality = 1,
-		ammo = "通常弹",
+		ammo = 3,
 		value_3 = 0,
 		id = 14400,
 		torpedo_ammo = 0,
@@ -21331,7 +25407,10 @@ pg.equip_data_statistics = {
 		equip_info = {
 			1,
 			2,
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			14400
@@ -21412,7 +25491,7 @@ pg.equip_data_statistics = {
 		}
 	},
 	[14420] = {
-		name = "三联装406mm主炮MK7",
+		name = "三联装406mm主炮Mk7",
 		speciality = "跨射",
 		type = 4,
 		tech = 2,
@@ -21423,7 +25502,7 @@ pg.equip_data_statistics = {
 		rarity = 4,
 		damage = "57 x 3",
 		nationality = 1,
-		ammo = "高爆弹",
+		ammo = 2,
 		value_3 = 0,
 		id = 14420,
 		torpedo_ammo = 0,
@@ -21440,7 +25519,10 @@ pg.equip_data_statistics = {
 		equip_info = {
 			1,
 			2,
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			14420
@@ -21562,7 +25644,7 @@ pg.equip_data_statistics = {
 		}
 	},
 	[14440] = {
-		name = "三联装406mm主炮MK7",
+		name = "三联装406mm主炮Mk7",
 		speciality = "跨射",
 		type = 4,
 		tech = 3,
@@ -21573,7 +25655,7 @@ pg.equip_data_statistics = {
 		rarity = 5,
 		damage = "62 x 3",
 		nationality = 1,
-		ammo = "穿甲弹",
+		ammo = 1,
 		value_3 = 0,
 		id = 14440,
 		torpedo_ammo = 0,
@@ -21590,7 +25672,10 @@ pg.equip_data_statistics = {
 		equip_info = {
 			1,
 			2,
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			14440
@@ -21711,8 +25796,41 @@ pg.equip_data_statistics = {
 			14450
 		}
 	},
+	[14451] = {
+		anti_siren = 100,
+		damage = "182 x 3",
+		base = 14440,
+		id = 14451,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			14451
+		}
+	},
+	[14452] = {
+		anti_siren = 200,
+		damage = "182 x 3",
+		base = 14440,
+		id = 14452,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			14452
+		}
+	},
+	[14453] = {
+		anti_siren = 300,
+		damage = "182 x 3",
+		base = 14440,
+		id = 14453,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			14453
+		}
+	},
 	[14500] = {
-		name = "试作型双联装457mm主炮MKA",
+		name = "试作型双联装457mm主炮Mk A",
 		speciality = "跨射",
 		type = 4,
 		tech = 0,
@@ -21723,7 +25841,7 @@ pg.equip_data_statistics = {
 		rarity = 6,
 		damage = "78 x 2",
 		nationality = 1,
-		ammo = "穿甲弹",
+		ammo = 1,
 		value_3 = 0,
 		id = 14500,
 		torpedo_ammo = 0,
@@ -21740,7 +25858,10 @@ pg.equip_data_statistics = {
 		equip_info = {
 			1,
 			2,
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			14500
@@ -21861,8 +25982,41 @@ pg.equip_data_statistics = {
 			14510
 		}
 	},
+	[14511] = {
+		anti_siren = 100,
+		damage = "207 x 2",
+		base = 14500,
+		id = 14511,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			14511
+		}
+	},
+	[14512] = {
+		anti_siren = 200,
+		damage = "207 x 2",
+		base = 14500,
+		id = 14512,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			14512
+		}
+	},
+	[14513] = {
+		anti_siren = 300,
+		damage = "207 x 2",
+		base = 14500,
+		id = 14513,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			14513
+		}
+	},
 	[15000] = {
-		name = "潜艇用Mark14鱼雷",
+		name = "潜艇用Mark 14鱼雷",
 		speciality = "雷击",
 		type = 13,
 		tech = 1,
@@ -21873,7 +26027,7 @@ pg.equip_data_statistics = {
 		rarity = 2,
 		damage = "42 x 3",
 		nationality = 1,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 15000,
 		torpedo_ammo = 0,
@@ -21896,7 +26050,10 @@ pg.equip_data_statistics = {
 				4,
 				1602
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			15000
@@ -21948,7 +26105,7 @@ pg.equip_data_statistics = {
 		}
 	},
 	[15020] = {
-		name = "潜艇用Mark14鱼雷",
+		name = "潜艇用Mark 14鱼雷",
 		speciality = "雷击",
 		type = 13,
 		tech = 2,
@@ -21959,7 +26116,7 @@ pg.equip_data_statistics = {
 		rarity = 3,
 		damage = "47 x 3",
 		nationality = 1,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 15020,
 		torpedo_ammo = 0,
@@ -21982,7 +26139,10 @@ pg.equip_data_statistics = {
 				4,
 				1602
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			15020
@@ -22064,7 +26224,7 @@ pg.equip_data_statistics = {
 		}
 	},
 	[15040] = {
-		name = "潜艇用Mark14鱼雷",
+		name = "潜艇用Mark 14鱼雷",
 		speciality = "雷击",
 		type = 13,
 		tech = 3,
@@ -22075,7 +26235,7 @@ pg.equip_data_statistics = {
 		rarity = 4,
 		damage = "52 x 3",
 		nationality = 1,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 15040,
 		torpedo_ammo = 0,
@@ -22098,7 +26258,10 @@ pg.equip_data_statistics = {
 				4,
 				1602
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			15040
@@ -22219,8 +26382,189 @@ pg.equip_data_statistics = {
 			15050
 		}
 	},
+	[15051] = {
+		anti_siren = 100,
+		damage = "131 x 3",
+		base = 15040,
+		id = 15051,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			15051
+		}
+	},
+	[15060] = {
+		name = "潜艇用Mark 18鱼雷",
+		speciality = "雷击",
+		type = 13,
+		tech = 0,
+		descrip = "说明未填写",
+		value_2 = 25,
+		icon = "15060",
+		attribute_2 = "torpedo",
+		rarity = 4,
+		damage = "41 x 2",
+		nationality = 1,
+		ammo = 4,
+		value_3 = 0,
+		id = 15060,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				3,
+				1823
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			{
+				3,
+				1823
+			},
+			{
+				4,
+				1601
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			15060
+		},
+		skill_id = {},
+		part_main = {
+			8,
+			17
+		},
+		part_sub = {
+			8,
+			17
+		},
+		equip_parameters = {},
+		label = {
+			"USS",
+			"SS",
+			"TP"
+		}
+	},
+	[15061] = {
+		damage = "48 x 2",
+		base = 15060,
+		id = 15061,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			15061
+		}
+	},
+	[15062] = {
+		damage = "56 x 2",
+		base = 15060,
+		id = 15062,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			15062
+		}
+	},
+	[15063] = {
+		damage = "64 x 2",
+		base = 15060,
+		id = 15063,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			15063
+		}
+	},
+	[15064] = {
+		damage = "72 x 2",
+		base = 15060,
+		id = 15064,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			15064
+		}
+	},
+	[15065] = {
+		damage = "80 x 2",
+		base = 15060,
+		id = 15065,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			15065
+		}
+	},
+	[15066] = {
+		damage = "88 x 2",
+		base = 15060,
+		id = 15066,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			15066
+		}
+	},
+	[15067] = {
+		damage = "96 x 2",
+		base = 15060,
+		id = 15067,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			15067
+		}
+	},
+	[15068] = {
+		damage = "104 x 2",
+		base = 15060,
+		id = 15068,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			15068
+		}
+	},
+	[15069] = {
+		damage = "112 x 2",
+		base = 15060,
+		id = 15069,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			15069
+		}
+	},
+	[15070] = {
+		damage = "120 x 2",
+		base = 15060,
+		id = 15070,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			15070
+		}
+	},
+	[15071] = {
+		anti_siren = 100,
+		damage = "120 x 2",
+		base = 15060,
+		id = 15071,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			15071
+		}
+	},
 	[15100] = {
-		name = "潜艇用Mark16鱼雷",
+		name = "潜艇用Mark 16鱼雷",
 		speciality = "雷击",
 		type = 13,
 		tech = 1,
@@ -22231,7 +26575,7 @@ pg.equip_data_statistics = {
 		rarity = 3,
 		damage = "58 x 3",
 		nationality = 1,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 15100,
 		torpedo_ammo = 0,
@@ -22254,7 +26598,10 @@ pg.equip_data_statistics = {
 				4,
 				1602
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			15100
@@ -22336,7 +26683,7 @@ pg.equip_data_statistics = {
 		}
 	},
 	[15120] = {
-		name = "潜艇用Mark16鱼雷",
+		name = "潜艇用Mark 16鱼雷",
 		speciality = "雷击",
 		type = 13,
 		tech = 2,
@@ -22347,7 +26694,7 @@ pg.equip_data_statistics = {
 		rarity = 4,
 		damage = "65 x 3",
 		nationality = 1,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 15120,
 		torpedo_ammo = 0,
@@ -22370,7 +26717,10 @@ pg.equip_data_statistics = {
 				4,
 				1602
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			15120
@@ -22492,7 +26842,7 @@ pg.equip_data_statistics = {
 		}
 	},
 	[15140] = {
-		name = "潜艇用Mark16鱼雷",
+		name = "潜艇用Mark 16鱼雷",
 		speciality = "雷击",
 		type = 13,
 		tech = 3,
@@ -22503,7 +26853,7 @@ pg.equip_data_statistics = {
 		rarity = 5,
 		damage = "72 x 3",
 		nationality = 1,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 15140,
 		torpedo_ammo = 0,
@@ -22526,7 +26876,10 @@ pg.equip_data_statistics = {
 				4,
 				1602
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			15140
@@ -22647,6 +27000,731 @@ pg.equip_data_statistics = {
 			15150
 		}
 	},
+	[15151] = {
+		anti_siren = 100,
+		damage = "181 x 3",
+		base = 15140,
+		id = 15151,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			15151
+		}
+	},
+	[15152] = {
+		anti_siren = 200,
+		damage = "181 x 3",
+		base = 15140,
+		id = 15152,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			15152
+		}
+	},
+	[15153] = {
+		anti_siren = 300,
+		damage = "181 x 3",
+		base = 15140,
+		id = 15153,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			15153
+		}
+	},
+	[15160] = {
+		name = "潜艇用Mark 28鱼雷",
+		speciality = "雷击",
+		type = 13,
+		tech = 0,
+		descrip = "说明未填写",
+		value_2 = 45,
+		icon = "15160",
+		attribute_2 = "torpedo",
+		rarity = 5,
+		damage = "53 x 2",
+		nationality = 1,
+		ammo = 4,
+		value_3 = 0,
+		id = 15160,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				3,
+				1833
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			{
+				3,
+				1833
+			},
+			{
+				4,
+				1601
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			15160
+		},
+		skill_id = {},
+		part_main = {
+			8,
+			17
+		},
+		part_sub = {
+			8,
+			17
+		},
+		equip_parameters = {},
+		label = {
+			"USS",
+			"SS",
+			"TP"
+		}
+	},
+	[15161] = {
+		damage = "62 x 2",
+		base = 15160,
+		id = 15161,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			15161
+		}
+	},
+	[15162] = {
+		damage = "71 x 2",
+		base = 15160,
+		id = 15162,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			15162
+		}
+	},
+	[15163] = {
+		damage = "80 x 2",
+		base = 15160,
+		id = 15163,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			15163
+		}
+	},
+	[15164] = {
+		damage = "89 x 2",
+		base = 15160,
+		id = 15164,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			15164
+		}
+	},
+	[15165] = {
+		damage = "99 x 2",
+		base = 15160,
+		id = 15165,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			15165
+		}
+	},
+	[15166] = {
+		damage = "109 x 2",
+		base = 15160,
+		id = 15166,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			15166
+		}
+	},
+	[15167] = {
+		damage = "119 x 2",
+		base = 15160,
+		id = 15167,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			15167
+		}
+	},
+	[15168] = {
+		damage = "129 x 2",
+		base = 15160,
+		id = 15168,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			15168
+		}
+	},
+	[15169] = {
+		damage = "139 x 2",
+		base = 15160,
+		id = 15169,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			15169
+		}
+	},
+	[15170] = {
+		damage = "149 x 2",
+		base = 15160,
+		id = 15170,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			15170
+		}
+	},
+	[15171] = {
+		anti_siren = 100,
+		damage = "149 x 2",
+		base = 15160,
+		id = 15171,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			15171
+		}
+	},
+	[15172] = {
+		anti_siren = 200,
+		damage = "149 x 2",
+		base = 15160,
+		id = 15172,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			15172
+		}
+	},
+	[15173] = {
+		anti_siren = 300,
+		damage = "149 x 2",
+		base = 15160,
+		id = 15173,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			15173
+		}
+	},
+	[15200] = {
+		name = "三联装533mm鱼雷Mk17",
+		speciality = "雷击",
+		type = 5,
+		tech = 0,
+		descrip = "说明未填写",
+		value_2 = 12,
+		icon = "15200",
+		attribute_2 = "torpedo",
+		rarity = 3,
+		damage = "60 x 3",
+		nationality = 1,
+		ammo = 5,
+		value_3 = 0,
+		id = 15200,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				3,
+				1800
+			}
+		},
+		equip_info = {
+			{
+				3,
+				1800
+			},
+			{
+				4,
+				1402
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			15200
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			2,
+			3,
+			18
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			18
+		},
+		equip_parameters = {},
+		label = {
+			"USS",
+			"ST",
+			"TP",
+			"TRI"
+		}
+	},
+	[15201] = {
+		damage = "70 x 3",
+		base = 15200,
+		id = 15201,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			15201
+		}
+	},
+	[15202] = {
+		damage = "80 x 3",
+		base = 15200,
+		id = 15202,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			15202
+		}
+	},
+	[15203] = {
+		damage = "90 x 3",
+		base = 15200,
+		id = 15203,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			15203
+		}
+	},
+	[15204] = {
+		damage = "100 x 3",
+		base = 15200,
+		id = 15204,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			15204
+		}
+	},
+	[15205] = {
+		damage = "110 x 3",
+		base = 15200,
+		id = 15205,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			15205
+		}
+	},
+	[15206] = {
+		damage = "120 x 3",
+		base = 15200,
+		id = 15206,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			15206
+		}
+	},
+	[15207] = {
+		damage = "120 x 3",
+		base = 15200,
+		id = 15207,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			15207
+		}
+	},
+	[15220] = {
+		name = "四联装533mm鱼雷Mk17",
+		speciality = "雷击",
+		type = 5,
+		tech = 0,
+		descrip = "说明未填写",
+		value_2 = 25,
+		icon = "15220",
+		attribute_2 = "torpedo",
+		rarity = 4,
+		damage = "60 x 4",
+		nationality = 1,
+		ammo = 5,
+		value_3 = 0,
+		id = 15220,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				3,
+				1800
+			}
+		},
+		equip_info = {
+			{
+				3,
+				1800
+			},
+			{
+				4,
+				1403
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			15220
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			2,
+			3,
+			18
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			18
+		},
+		equip_parameters = {},
+		label = {
+			"USS",
+			"ST",
+			"TP",
+			"QUAD"
+		}
+	},
+	[15221] = {
+		damage = "70 x 4",
+		base = 15220,
+		id = 15221,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			15221
+		}
+	},
+	[15222] = {
+		damage = "80 x 4",
+		base = 15220,
+		id = 15222,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			15222
+		}
+	},
+	[15223] = {
+		damage = "90 x 4",
+		base = 15220,
+		id = 15223,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			15223
+		}
+	},
+	[15224] = {
+		damage = "100 x 4",
+		base = 15220,
+		id = 15224,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			15224
+		}
+	},
+	[15225] = {
+		damage = "110 x 4",
+		base = 15220,
+		id = 15225,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			15225
+		}
+	},
+	[15226] = {
+		damage = "120 x 4",
+		base = 15220,
+		id = 15226,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			15226
+		}
+	},
+	[15227] = {
+		damage = "130 x 4",
+		base = 15220,
+		id = 15227,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			15227
+		}
+	},
+	[15228] = {
+		damage = "140 x 4",
+		base = 15220,
+		id = 15228,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			15228
+		}
+	},
+	[15229] = {
+		damage = "150 x 4",
+		base = 15220,
+		id = 15229,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			15229
+		}
+	},
+	[15230] = {
+		damage = "160 x 4",
+		base = 15220,
+		id = 15230,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			15230
+		}
+	},
+	[15231] = {
+		anti_siren = 100,
+		damage = "160 x 4",
+		base = 15220,
+		id = 15231,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			15231
+		}
+	},
+	[15240] = {
+		name = "五联装533mm鱼雷Mk17",
+		speciality = "雷击",
+		type = 5,
+		tech = 0,
+		descrip = "说明未填写",
+		value_2 = 45,
+		icon = "15240",
+		attribute_2 = "torpedo",
+		rarity = 5,
+		damage = "60 x 5",
+		nationality = 1,
+		ammo = 5,
+		value_3 = 0,
+		id = 15240,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				3,
+				1800
+			}
+		},
+		equip_info = {
+			{
+				3,
+				1800
+			},
+			{
+				4,
+				1404
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			15240
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			2,
+			3,
+			18
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			18
+		},
+		equip_parameters = {},
+		label = {
+			"USS",
+			"ST",
+			"TP",
+			"QUINT"
+		}
+	},
+	[15241] = {
+		damage = "70 x 5",
+		base = 15240,
+		id = 15241,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			15241
+		}
+	},
+	[15242] = {
+		damage = "80 x 5",
+		base = 15240,
+		id = 15242,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			15242
+		}
+	},
+	[15243] = {
+		damage = "90 x 5",
+		base = 15240,
+		id = 15243,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			15243
+		}
+	},
+	[15244] = {
+		damage = "100 x 5",
+		base = 15240,
+		id = 15244,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			15244
+		}
+	},
+	[15245] = {
+		damage = "110 x 5",
+		base = 15240,
+		id = 15245,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			15245
+		}
+	},
+	[15246] = {
+		damage = "120 x 5",
+		base = 15240,
+		id = 15246,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			15246
+		}
+	},
+	[15247] = {
+		damage = "130 x 5",
+		base = 15240,
+		id = 15247,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			15247
+		}
+	},
+	[15248] = {
+		damage = "140 x 5",
+		base = 15240,
+		id = 15248,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			15248
+		}
+	},
+	[15249] = {
+		damage = "150 x 5",
+		base = 15240,
+		id = 15249,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			15249
+		}
+	},
+	[15250] = {
+		damage = "160 x 5",
+		base = 15240,
+		id = 15250,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			15250
+		}
+	},
+	[15251] = {
+		anti_siren = 100,
+		damage = "160 x 5",
+		base = 15240,
+		id = 15251,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			15251
+		}
+	},
+	[15252] = {
+		anti_siren = 200,
+		damage = "160 x 5",
+		base = 15240,
+		id = 15252,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			15252
+		}
+	},
+	[15253] = {
+		anti_siren = 300,
+		damage = "160 x 5",
+		base = 15240,
+		id = 15253,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			15253
+		}
+	},
 	[15500] = {
 		name = "PBY-5A卡特琳娜水上机",
 		tech = 0,
@@ -22660,7 +27738,7 @@ pg.equip_data_statistics = {
 		rarity = 4,
 		descrip = "在反潜警戒、人员救援中有着出色表现的多用途飞机",
 		nationality = 1,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		attribute_1 = "hit",
 		torpedo_ammo = 0,
@@ -22668,9 +27746,7 @@ pg.equip_data_statistics = {
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {
-			{
-				6
-			}
+			6
 		},
 		weapon_id = {},
 		skill_id = {
@@ -22789,8 +27865,20 @@ pg.equip_data_statistics = {
 		property_rate = {},
 		weapon_id = {}
 	},
+	[15511] = {
+		id = 15511,
+		anti_siren = 100,
+		base = 15500,
+		value_2 = 32,
+		value_1 = "38",
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			1
+		}
+	},
 	[16000] = {
-		name = "20mm厄利空高射炮",
+		name = "20mm厄利孔高射炮",
 		speciality = "防空",
 		type = 6,
 		tech = 1,
@@ -22800,7 +27888,7 @@ pg.equip_data_statistics = {
 		icon = "16000",
 		damage = "8/轮",
 		nationality = 1,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 16000,
 		torpedo_ammo = 0,
@@ -22810,7 +27898,8 @@ pg.equip_data_statistics = {
 		equip_info = {
 			1,
 			2,
-			6
+			6,
+			10
 		},
 		weapon_id = {
 			16000
@@ -22826,7 +27915,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			1,
@@ -22838,7 +27928,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -22878,7 +27969,7 @@ pg.equip_data_statistics = {
 		}
 	},
 	[16020] = {
-		name = "20mm厄利空高射炮",
+		name = "20mm厄利孔高射炮",
 		speciality = "防空",
 		type = 6,
 		tech = 2,
@@ -22889,7 +27980,7 @@ pg.equip_data_statistics = {
 		rarity = 2,
 		damage = "9/轮",
 		nationality = 1,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 16020,
 		torpedo_ammo = 0,
@@ -22899,7 +27990,8 @@ pg.equip_data_statistics = {
 		equip_info = {
 			1,
 			2,
-			6
+			6,
+			10
 		},
 		weapon_id = {
 			16020
@@ -22915,7 +28007,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			1,
@@ -22927,7 +28020,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -22967,7 +28061,7 @@ pg.equip_data_statistics = {
 		}
 	},
 	[16040] = {
-		name = "20mm厄利空高射炮",
+		name = "20mm厄利孔高射炮",
 		speciality = "防空",
 		type = 6,
 		tech = 3,
@@ -22978,7 +28072,7 @@ pg.equip_data_statistics = {
 		rarity = 3,
 		damage = "11/轮",
 		nationality = 1,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 16040,
 		torpedo_ammo = 0,
@@ -22988,7 +28082,8 @@ pg.equip_data_statistics = {
 		equip_info = {
 			1,
 			2,
-			6
+			6,
+			10
 		},
 		weapon_id = {
 			16040
@@ -23004,7 +28099,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			1,
@@ -23016,7 +28112,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -23085,8 +28182,386 @@ pg.equip_data_statistics = {
 			16046
 		}
 	},
+	[16047] = {
+		damage = "20/轮",
+		base = 16040,
+		id = 16047,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			16047
+		}
+	},
+	[16060] = {
+		name = "76mm高射炮改进型",
+		speciality = "防空",
+		type = 6,
+		tech = 0,
+		descrip = "说明未填写",
+		value_2 = 25,
+		icon = "16060",
+		attribute_2 = "antiaircraft",
+		rarity = 4,
+		damage = "29/轮",
+		nationality = 1,
+		ammo = 5,
+		value_3 = 0,
+		id = 16060,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			1,
+			2,
+			6,
+			10
+		},
+		weapon_id = {
+			16060
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		equip_parameters = {},
+		label = {
+			"USS",
+			"ST",
+			"AA"
+		}
+	},
+	[16061] = {
+		damage = "32/轮",
+		base = 16060,
+		id = 16061,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			16061
+		}
+	},
+	[16062] = {
+		damage = "35/轮",
+		base = 16060,
+		id = 16062,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			16062
+		}
+	},
+	[16063] = {
+		damage = "38/轮",
+		base = 16060,
+		id = 16063,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			16063
+		}
+	},
+	[16064] = {
+		damage = "41/轮",
+		base = 16060,
+		id = 16064,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			16064
+		}
+	},
+	[16065] = {
+		damage = "44/轮",
+		base = 16060,
+		id = 16065,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			16065
+		}
+	},
+	[16066] = {
+		damage = "47/轮",
+		base = 16060,
+		id = 16066,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			16066
+		}
+	},
+	[16067] = {
+		damage = "50/轮",
+		base = 16060,
+		id = 16067,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			16067
+		}
+	},
+	[16068] = {
+		damage = "53/轮",
+		base = 16060,
+		id = 16068,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			16068
+		}
+	},
+	[16069] = {
+		damage = "57/轮",
+		base = 16060,
+		id = 16069,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			16069
+		}
+	},
+	[16070] = {
+		damage = "61/轮",
+		base = 16060,
+		id = 16070,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			16070
+		}
+	},
+	[16071] = {
+		anti_siren = 100,
+		damage = "61/轮",
+		base = 16060,
+		id = 16071,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			16071
+		}
+	},
+	[16080] = {
+		name = "双联装76mmRF火炮Mk27",
+		speciality = "防空",
+		type = 6,
+		tech = 0,
+		descrip = "说明未填写",
+		value_2 = 45,
+		icon = "16080",
+		attribute_2 = "antiaircraft",
+		rarity = 5,
+		damage = "33/轮",
+		nationality = 1,
+		ammo = 5,
+		value_3 = 0,
+		id = 16080,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			1,
+			2,
+			6,
+			10
+		},
+		weapon_id = {
+			16080
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		equip_parameters = {},
+		label = {
+			"USS",
+			"ST",
+			"AA"
+		}
+	},
+	[16081] = {
+		damage = "39/轮",
+		base = 16080,
+		id = 16081,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			16081
+		}
+	},
+	[16082] = {
+		damage = "45/轮",
+		base = 16080,
+		id = 16082,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			16082
+		}
+	},
+	[16083] = {
+		damage = "51/轮",
+		base = 16080,
+		id = 16083,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			16083
+		}
+	},
+	[16084] = {
+		damage = "57/轮",
+		base = 16080,
+		id = 16084,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			16084
+		}
+	},
+	[16085] = {
+		damage = "63/轮",
+		base = 16080,
+		id = 16085,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			16085
+		}
+	},
+	[16086] = {
+		damage = "69/轮",
+		base = 16080,
+		id = 16086,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			16086
+		}
+	},
+	[16087] = {
+		damage = "75/轮",
+		base = 16080,
+		id = 16087,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			16087
+		}
+	},
+	[16088] = {
+		damage = "81/轮",
+		base = 16080,
+		id = 16088,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			16088
+		}
+	},
+	[16089] = {
+		damage = "87/轮",
+		base = 16080,
+		id = 16089,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			16089
+		}
+	},
+	[16090] = {
+		damage = "94/轮",
+		base = 16080,
+		id = 16090,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			16090
+		}
+	},
+	[16091] = {
+		anti_siren = 100,
+		damage = "94/轮",
+		base = 16080,
+		id = 16091,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			16091
+		}
+	},
+	[16092] = {
+		anti_siren = 200,
+		damage = "94/轮",
+		base = 16080,
+		id = 16092,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			16092
+		}
+	},
+	[16093] = {
+		anti_siren = 300,
+		damage = "94/轮",
+		base = 16080,
+		id = 16093,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			16093
+		}
+	},
 	[16100] = {
-		name = "双管20mm厄利空高射炮",
+		name = "双管20mm厄利孔高射炮",
 		speciality = "防空",
 		type = 6,
 		tech = 1,
@@ -23097,7 +28572,7 @@ pg.equip_data_statistics = {
 		rarity = 2,
 		damage = "14/轮",
 		nationality = 1,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 16100,
 		torpedo_ammo = 0,
@@ -23107,7 +28582,8 @@ pg.equip_data_statistics = {
 		equip_info = {
 			1,
 			2,
-			6
+			6,
+			10
 		},
 		weapon_id = {
 			16100
@@ -23123,7 +28599,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			1,
@@ -23135,7 +28612,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -23175,7 +28653,7 @@ pg.equip_data_statistics = {
 		}
 	},
 	[16120] = {
-		name = "双管20mm厄利空高射炮",
+		name = "双管20mm厄利孔高射炮",
 		speciality = "防空",
 		type = 6,
 		tech = 2,
@@ -23186,7 +28664,7 @@ pg.equip_data_statistics = {
 		rarity = 3,
 		damage = "15/轮",
 		nationality = 1,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 16120,
 		torpedo_ammo = 0,
@@ -23196,7 +28674,8 @@ pg.equip_data_statistics = {
 		equip_info = {
 			1,
 			2,
-			6
+			6,
+			10
 		},
 		weapon_id = {
 			16120
@@ -23212,7 +28691,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			1,
@@ -23224,7 +28704,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -23294,7 +28775,7 @@ pg.equip_data_statistics = {
 		}
 	},
 	[16140] = {
-		name = "双管20mm厄利空高射炮",
+		name = "双管20mm厄利孔高射炮",
 		speciality = "防空",
 		type = 6,
 		tech = 3,
@@ -23305,7 +28786,7 @@ pg.equip_data_statistics = {
 		rarity = 4,
 		damage = "18/轮",
 		nationality = 1,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 16140,
 		torpedo_ammo = 0,
@@ -23315,7 +28796,8 @@ pg.equip_data_statistics = {
 		equip_info = {
 			1,
 			2,
-			6
+			6,
+			10
 		},
 		weapon_id = {
 			16140
@@ -23331,7 +28813,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			1,
@@ -23343,7 +28826,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -23452,6 +28936,190 @@ pg.equip_data_statistics = {
 			16150
 		}
 	},
+	[16151] = {
+		anti_siren = 100,
+		damage = "45/轮",
+		base = 16140,
+		id = 16151,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			16151
+		}
+	},
+	[16160] = {
+		name = "四联装20mm厄利孔高射炮Mk15",
+		speciality = "防空",
+		type = 6,
+		tech = 0,
+		descrip = "说明未填写",
+		value_2 = 25,
+		icon = "16160",
+		attribute_2 = "antiaircraft",
+		rarity = 4,
+		damage = "25/轮",
+		nationality = 1,
+		ammo = 5,
+		value_3 = 0,
+		id = 16160,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			1,
+			2,
+			6,
+			10
+		},
+		weapon_id = {
+			16160
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		equip_parameters = {},
+		label = {
+			"USS",
+			"ST",
+			"AA"
+		}
+	},
+	[16161] = {
+		damage = "27/轮",
+		base = 16160,
+		id = 16161,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			16161
+		}
+	},
+	[16162] = {
+		damage = "29/轮",
+		base = 16160,
+		id = 16162,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			16162
+		}
+	},
+	[16163] = {
+		damage = "31/轮",
+		base = 16160,
+		id = 16163,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			16163
+		}
+	},
+	[16164] = {
+		damage = "34/轮",
+		base = 16160,
+		id = 16164,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			16164
+		}
+	},
+	[16165] = {
+		damage = "37/轮",
+		base = 16160,
+		id = 16165,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			16165
+		}
+	},
+	[16166] = {
+		damage = "40/轮",
+		base = 16160,
+		id = 16166,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			16166
+		}
+	},
+	[16167] = {
+		damage = "43/轮",
+		base = 16160,
+		id = 16167,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			16167
+		}
+	},
+	[16168] = {
+		damage = "46/轮",
+		base = 16160,
+		id = 16168,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			16168
+		}
+	},
+	[16169] = {
+		damage = "49/轮",
+		base = 16160,
+		id = 16169,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			16169
+		}
+	},
+	[16170] = {
+		damage = "52/轮",
+		base = 16160,
+		id = 16170,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			16170
+		}
+	},
+	[16171] = {
+		anti_siren = 100,
+		damage = "52/轮",
+		base = 16160,
+		id = 16171,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			16171
+		}
+	},
 	[16200] = {
 		name = "四联装28mm“芝加哥钢琴”",
 		speciality = "防空",
@@ -23464,7 +29132,7 @@ pg.equip_data_statistics = {
 		rarity = 2,
 		damage = "22/轮",
 		nationality = 1,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 16200,
 		torpedo_ammo = 0,
@@ -23474,7 +29142,8 @@ pg.equip_data_statistics = {
 		equip_info = {
 			1,
 			2,
-			6
+			6,
+			10
 		},
 		weapon_id = {
 			16200
@@ -23490,7 +29159,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			1,
@@ -23502,7 +29172,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -23553,7 +29224,7 @@ pg.equip_data_statistics = {
 		rarity = 3,
 		damage = "25/轮",
 		nationality = 1,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 16220,
 		torpedo_ammo = 0,
@@ -23563,7 +29234,8 @@ pg.equip_data_statistics = {
 		equip_info = {
 			1,
 			2,
-			6
+			6,
+			10
 		},
 		weapon_id = {
 			16220
@@ -23579,7 +29251,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			1,
@@ -23591,7 +29264,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -23672,7 +29346,7 @@ pg.equip_data_statistics = {
 		rarity = 4,
 		damage = "29/轮",
 		nationality = 1,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 16240,
 		torpedo_ammo = 0,
@@ -23682,7 +29356,8 @@ pg.equip_data_statistics = {
 		equip_info = {
 			1,
 			2,
-			6
+			6,
+			10
 		},
 		weapon_id = {
 			16240
@@ -23698,7 +29373,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			1,
@@ -23710,7 +29386,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -23819,6 +29496,17 @@ pg.equip_data_statistics = {
 			16250
 		}
 	},
+	[16251] = {
+		anti_siren = 100,
+		damage = "72/轮",
+		base = 16240,
+		id = 16251,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			16251
+		}
+	},
 	[16300] = {
 		name = "双联40mm博福斯对空机炮",
 		speciality = "防空",
@@ -23831,7 +29519,7 @@ pg.equip_data_statistics = {
 		rarity = 2,
 		damage = "19/轮",
 		nationality = 1,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 16300,
 		torpedo_ammo = 0,
@@ -23841,7 +29529,8 @@ pg.equip_data_statistics = {
 		equip_info = {
 			1,
 			2,
-			6
+			6,
+			10
 		},
 		weapon_id = {
 			16300
@@ -23857,7 +29546,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			1,
@@ -23869,7 +29559,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -23920,7 +29611,7 @@ pg.equip_data_statistics = {
 		rarity = 3,
 		damage = "23/轮",
 		nationality = 1,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 16320,
 		torpedo_ammo = 0,
@@ -23930,7 +29621,8 @@ pg.equip_data_statistics = {
 		equip_info = {
 			1,
 			2,
-			6
+			6,
+			10
 		},
 		weapon_id = {
 			16320
@@ -23946,7 +29638,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			1,
@@ -23958,7 +29651,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -24039,7 +29733,7 @@ pg.equip_data_statistics = {
 		rarity = 4,
 		damage = "25/轮",
 		nationality = 1,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 16340,
 		torpedo_ammo = 0,
@@ -24049,7 +29743,8 @@ pg.equip_data_statistics = {
 		equip_info = {
 			1,
 			2,
-			6
+			6,
+			10
 		},
 		weapon_id = {
 			16340
@@ -24065,7 +29760,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			1,
@@ -24077,7 +29773,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -24186,6 +29883,17 @@ pg.equip_data_statistics = {
 			16350
 		}
 	},
+	[16351] = {
+		anti_siren = 100,
+		damage = "62/轮",
+		base = 16340,
+		id = 16351,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			16351
+		}
+	},
 	[16400] = {
 		name = "四联40mm博福斯对空机炮",
 		speciality = "防空",
@@ -24198,7 +29906,7 @@ pg.equip_data_statistics = {
 		rarity = 3,
 		damage = "38/轮",
 		nationality = 1,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 16400,
 		torpedo_ammo = 0,
@@ -24208,7 +29916,8 @@ pg.equip_data_statistics = {
 		equip_info = {
 			1,
 			2,
-			6
+			6,
+			10
 		},
 		weapon_id = {
 			16400
@@ -24224,7 +29933,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			1,
@@ -24236,7 +29946,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -24317,7 +30028,7 @@ pg.equip_data_statistics = {
 		rarity = 4,
 		damage = "43/轮",
 		nationality = 1,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 16420,
 		torpedo_ammo = 0,
@@ -24327,7 +30038,8 @@ pg.equip_data_statistics = {
 		equip_info = {
 			1,
 			2,
-			6
+			6,
+			10
 		},
 		weapon_id = {
 			16420
@@ -24343,7 +30055,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			1,
@@ -24355,7 +30068,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -24476,7 +30190,7 @@ pg.equip_data_statistics = {
 		rarity = 5,
 		damage = "48/轮",
 		nationality = 1,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 16440,
 		torpedo_ammo = 0,
@@ -24486,7 +30200,8 @@ pg.equip_data_statistics = {
 		equip_info = {
 			1,
 			2,
-			6
+			6,
+			10
 		},
 		weapon_id = {
 			16440
@@ -24502,7 +30217,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			1,
@@ -24514,7 +30230,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -24623,17 +30340,50 @@ pg.equip_data_statistics = {
 			16450
 		}
 	},
+	[16451] = {
+		anti_siren = 100,
+		damage = "120/轮",
+		base = 16440,
+		id = 16451,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			16451
+		}
+	},
+	[16452] = {
+		anti_siren = 200,
+		damage = "120/轮",
+		base = 16440,
+		id = 16452,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			16452
+		}
+	},
+	[16453] = {
+		anti_siren = 300,
+		damage = "120/轮",
+		base = 16440,
+		id = 16453,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			16453
+		}
+	},
 	[17000] = {
 		name = "F2A水牛",
+		tech = 1,
 		speciality = "空战",
 		type = 7,
 		rarity = 1,
-		tech = 1,
 		descrip = "说明未填写",
 		value_2 = 0,
 		icon = "17000",
 		nationality = 1,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 17000,
 		torpedo_ammo = 0,
@@ -24648,6 +30398,7 @@ pg.equip_data_statistics = {
 		equip_info = {
 			6,
 			7,
+			8,
 			9
 		},
 		weapon_id = {
@@ -24729,7 +30480,7 @@ pg.equip_data_statistics = {
 		icon = "17000",
 		attribute_2 = "air",
 		nationality = 1,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 17020,
 		torpedo_ammo = 0,
@@ -24744,6 +30495,7 @@ pg.equip_data_statistics = {
 		equip_info = {
 			6,
 			7,
+			8,
 			9
 		},
 		weapon_id = {
@@ -24825,7 +30577,7 @@ pg.equip_data_statistics = {
 		icon = "17000",
 		attribute_2 = "air",
 		nationality = 1,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 17040,
 		torpedo_ammo = 0,
@@ -24840,6 +30592,7 @@ pg.equip_data_statistics = {
 		equip_info = {
 			6,
 			7,
+			8,
 			9
 		},
 		weapon_id = {
@@ -24958,6 +30711,22 @@ pg.equip_data_statistics = {
 			81046
 		}
 	},
+	[17047] = {
+		base = 17040,
+		id = 17047,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50347
+			}
+		},
+		weapon_id = {
+			17047,
+			81047
+		}
+	},
 	[17060] = {
 		name = "F2A水牛(萨奇队)",
 		type = 7,
@@ -24969,7 +30738,7 @@ pg.equip_data_statistics = {
 		icon = "17060",
 		attribute_2 = "air",
 		nationality = 1,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 17060,
 		torpedo_ammo = 0,
@@ -24984,6 +30753,7 @@ pg.equip_data_statistics = {
 		equip_info = {
 			6,
 			7,
+			8,
 			9
 		},
 		weapon_id = {
@@ -25168,6 +30938,331 @@ pg.equip_data_statistics = {
 			81070
 		}
 	},
+	[17071] = {
+		anti_siren = 100,
+		base = 17060,
+		id = 17071,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50371
+			}
+		},
+		weapon_id = {
+			17071,
+			81071
+		}
+	},
+	[17072] = {
+		anti_siren = 200,
+		base = 17060,
+		id = 17072,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50372
+			}
+		},
+		weapon_id = {
+			17072,
+			81072
+		}
+	},
+	[17073] = {
+		anti_siren = 300,
+		base = 17060,
+		id = 17073,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50373
+			}
+		},
+		weapon_id = {
+			17073,
+			81073
+		}
+	},
+	[17080] = {
+		name = "试作型XF2A-4水牛",
+		type = 7,
+		speciality = "空战",
+		rarity = 4,
+		tech = 0,
+		descrip = "说明未填写",
+		value_2 = 25,
+		icon = "17080",
+		attribute_2 = "air",
+		nationality = 1,
+		ammo = 5,
+		value_3 = 0,
+		id = 17080,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				6,
+				50340
+			},
+			{
+				5,
+				52140
+			}
+		},
+		equip_info = {
+			6,
+			7,
+			8,
+			9
+		},
+		weapon_id = {
+			17080,
+			81080
+		},
+		skill_id = {},
+		part_main = {
+			6,
+			7
+		},
+		part_sub = {
+			6,
+			7
+		},
+		equip_parameters = {},
+		label = {
+			"USS",
+			"CV",
+			"FT"
+		}
+	},
+	[17081] = {
+		base = 17080,
+		id = 17081,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50341
+			},
+			{
+				5,
+				52141
+			}
+		},
+		weapon_id = {
+			17081,
+			81081
+		}
+	},
+	[17082] = {
+		base = 17080,
+		id = 17082,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50342
+			},
+			{
+				5,
+				52142
+			}
+		},
+		weapon_id = {
+			17082,
+			81082
+		}
+	},
+	[17083] = {
+		base = 17080,
+		id = 17083,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50343
+			},
+			{
+				5,
+				52143
+			}
+		},
+		weapon_id = {
+			17083,
+			81083
+		}
+	},
+	[17084] = {
+		base = 17080,
+		id = 17084,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50344
+			},
+			{
+				5,
+				52144
+			}
+		},
+		weapon_id = {
+			17084,
+			81084
+		}
+	},
+	[17085] = {
+		base = 17080,
+		id = 17085,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50345
+			},
+			{
+				5,
+				52145
+			}
+		},
+		weapon_id = {
+			17085,
+			81085
+		}
+	},
+	[17086] = {
+		base = 17080,
+		id = 17086,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50346
+			},
+			{
+				5,
+				52146
+			}
+		},
+		weapon_id = {
+			17086,
+			81086
+		}
+	},
+	[17087] = {
+		base = 17080,
+		id = 17087,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50347
+			},
+			{
+				5,
+				52147
+			}
+		},
+		weapon_id = {
+			17087,
+			81087
+		}
+	},
+	[17088] = {
+		base = 17080,
+		id = 17088,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50348
+			},
+			{
+				5,
+				52148
+			}
+		},
+		weapon_id = {
+			17088,
+			81088
+		}
+	},
+	[17089] = {
+		base = 17080,
+		id = 17089,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50349
+			},
+			{
+				5,
+				52149
+			}
+		},
+		weapon_id = {
+			17089,
+			81089
+		}
+	},
+	[17090] = {
+		base = 17080,
+		id = 17090,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50350
+			},
+			{
+				5,
+				52150
+			}
+		},
+		weapon_id = {
+			17090,
+			81090
+		}
+	},
+	[17091] = {
+		anti_siren = 100,
+		base = 17080,
+		id = 17091,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50351
+			},
+			{
+				5,
+				52151
+			}
+		},
+		weapon_id = {
+			17091,
+			81091
+		}
+	},
 	[17100] = {
 		name = "F4F野猫",
 		type = 7,
@@ -25179,7 +31274,7 @@ pg.equip_data_statistics = {
 		icon = "17100",
 		attribute_2 = "air",
 		nationality = 1,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 17100,
 		torpedo_ammo = 0,
@@ -25194,6 +31289,7 @@ pg.equip_data_statistics = {
 		equip_info = {
 			6,
 			7,
+			8,
 			9
 		},
 		weapon_id = {
@@ -25275,7 +31371,7 @@ pg.equip_data_statistics = {
 		icon = "17100",
 		attribute_2 = "air",
 		nationality = 1,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 17120,
 		torpedo_ammo = 0,
@@ -25290,6 +31386,7 @@ pg.equip_data_statistics = {
 		equip_info = {
 			6,
 			7,
+			8,
 			9
 		},
 		weapon_id = {
@@ -25419,7 +31516,7 @@ pg.equip_data_statistics = {
 		icon = "17100",
 		attribute_2 = "air",
 		nationality = 1,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 17140,
 		torpedo_ammo = 0,
@@ -25434,6 +31531,7 @@ pg.equip_data_statistics = {
 		equip_info = {
 			6,
 			7,
+			8,
 			9
 		},
 		weapon_id = {
@@ -25616,6 +31714,23 @@ pg.equip_data_statistics = {
 			81150
 		}
 	},
+	[17151] = {
+		anti_siren = 100,
+		base = 17140,
+		id = 17151,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50451
+			}
+		},
+		weapon_id = {
+			17151,
+			81151
+		}
+	},
 	[17200] = {
 		name = "F4U海盗",
 		type = 7,
@@ -25627,7 +31742,7 @@ pg.equip_data_statistics = {
 		icon = "17200",
 		attribute_2 = "air",
 		nationality = 1,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 17200,
 		torpedo_ammo = 0,
@@ -25646,6 +31761,7 @@ pg.equip_data_statistics = {
 		equip_info = {
 			6,
 			7,
+			8,
 			9
 		},
 		weapon_id = {
@@ -25739,7 +31855,7 @@ pg.equip_data_statistics = {
 		icon = "17200",
 		attribute_2 = "air",
 		nationality = 1,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 17220,
 		torpedo_ammo = 0,
@@ -25758,6 +31874,7 @@ pg.equip_data_statistics = {
 		equip_info = {
 			6,
 			7,
+			8,
 			9
 		},
 		weapon_id = {
@@ -25911,7 +32028,7 @@ pg.equip_data_statistics = {
 		icon = "17200",
 		attribute_2 = "air",
 		nationality = 1,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 17240,
 		torpedo_ammo = 0,
@@ -25930,6 +32047,7 @@ pg.equip_data_statistics = {
 		equip_info = {
 			6,
 			7,
+			8,
 			9
 		},
 		weapon_id = {
@@ -26152,6 +32270,27 @@ pg.equip_data_statistics = {
 			81250
 		}
 	},
+	[17251] = {
+		anti_siren = 100,
+		base = 17240,
+		id = 17251,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50451
+			},
+			{
+				5,
+				52351
+			}
+		},
+		weapon_id = {
+			17251,
+			81251
+		}
+	},
 	[17260] = {
 		name = "F4U（VF-17“海盗”中队）",
 		type = 7,
@@ -26163,7 +32302,7 @@ pg.equip_data_statistics = {
 		icon = "17260",
 		attribute_2 = "air",
 		nationality = 1,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 17260,
 		torpedo_ammo = 0,
@@ -26182,6 +32321,7 @@ pg.equip_data_statistics = {
 		equip_info = {
 			6,
 			7,
+			8,
 			9
 		},
 		weapon_id = {
@@ -26406,6 +32546,69 @@ pg.equip_data_statistics = {
 			81270
 		}
 	},
+	[17271] = {
+		anti_siren = 100,
+		base = 17260,
+		id = 17271,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50471
+			},
+			{
+				5,
+				52371
+			}
+		},
+		weapon_id = {
+			17271,
+			81271
+		}
+	},
+	[17272] = {
+		anti_siren = 200,
+		base = 17260,
+		id = 17272,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50472
+			},
+			{
+				5,
+				52372
+			}
+		},
+		weapon_id = {
+			17272,
+			81272
+		}
+	},
+	[17273] = {
+		anti_siren = 300,
+		base = 17260,
+		id = 17273,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50473
+			},
+			{
+				5,
+				52373
+			}
+		},
+		weapon_id = {
+			17273,
+			81273
+		}
+	},
 	[17300] = {
 		name = "F6F地狱猫",
 		type = 7,
@@ -26417,7 +32620,7 @@ pg.equip_data_statistics = {
 		icon = "17300",
 		attribute_2 = "air",
 		nationality = 1,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 17300,
 		torpedo_ammo = 0,
@@ -26440,6 +32643,7 @@ pg.equip_data_statistics = {
 		equip_info = {
 			6,
 			7,
+			8,
 			9
 		},
 		weapon_id = {
@@ -26618,7 +32822,7 @@ pg.equip_data_statistics = {
 		icon = "17300",
 		attribute_2 = "air",
 		nationality = 1,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 17320,
 		torpedo_ammo = 0,
@@ -26641,6 +32845,7 @@ pg.equip_data_statistics = {
 		equip_info = {
 			6,
 			7,
+			8,
 			9
 		},
 		weapon_id = {
@@ -26915,7 +33120,7 @@ pg.equip_data_statistics = {
 		icon = "17300",
 		attribute_2 = "air",
 		nationality = 1,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 17340,
 		torpedo_ammo = 0,
@@ -26938,6 +33143,7 @@ pg.equip_data_statistics = {
 		equip_info = {
 			6,
 			7,
+			8,
 			9
 		},
 		weapon_id = {
@@ -27201,6 +33407,713 @@ pg.equip_data_statistics = {
 			81350
 		}
 	},
+	[17351] = {
+		anti_siren = 100,
+		base = 17340,
+		id = 17351,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50351
+			},
+			{
+				6,
+				50551
+			},
+			{
+				5,
+				52351
+			}
+		},
+		weapon_id = {
+			17351,
+			81351
+		}
+	},
+	[17352] = {
+		anti_siren = 200,
+		base = 17340,
+		id = 17352,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50352
+			},
+			{
+				6,
+				50552
+			},
+			{
+				5,
+				52352
+			}
+		},
+		weapon_id = {
+			17352,
+			81352
+		}
+	},
+	[17353] = {
+		anti_siren = 300,
+		base = 17340,
+		id = 17353,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50353
+			},
+			{
+				6,
+				50553
+			},
+			{
+				5,
+				52353
+			}
+		},
+		weapon_id = {
+			17353,
+			81353
+		}
+	},
+	[17360] = {
+		name = "F7F虎猫",
+		type = 7,
+		speciality = "空战",
+		rarity = 5,
+		tech = 0,
+		descrip = "说明未填写",
+		value_2 = 45,
+		icon = "17360",
+		attribute_2 = "air",
+		nationality = 1,
+		ammo = 5,
+		value_3 = 0,
+		id = 17360,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				6,
+				50660
+			},
+			{
+				5,
+				52760
+			}
+		},
+		equip_info = {
+			6,
+			7,
+			8,
+			9
+		},
+		weapon_id = {
+			17360,
+			81360
+		},
+		skill_id = {},
+		part_main = {
+			6,
+			7
+		},
+		part_sub = {
+			6,
+			7
+		},
+		equip_parameters = {},
+		label = {
+			"USS",
+			"CV",
+			"FT"
+		}
+	},
+	[17361] = {
+		base = 17360,
+		id = 17361,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50661
+			},
+			{
+				5,
+				52761
+			}
+		},
+		weapon_id = {
+			17361,
+			81361
+		}
+	},
+	[17362] = {
+		base = 17360,
+		id = 17362,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50662
+			},
+			{
+				5,
+				52762
+			}
+		},
+		weapon_id = {
+			17362,
+			81362
+		}
+	},
+	[17363] = {
+		base = 17360,
+		id = 17363,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50663
+			},
+			{
+				5,
+				52763
+			}
+		},
+		weapon_id = {
+			17363,
+			81363
+		}
+	},
+	[17364] = {
+		base = 17360,
+		id = 17364,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50664
+			},
+			{
+				5,
+				52764
+			}
+		},
+		weapon_id = {
+			17364,
+			81364
+		}
+	},
+	[17365] = {
+		base = 17360,
+		id = 17365,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50665
+			},
+			{
+				5,
+				52765
+			}
+		},
+		weapon_id = {
+			17365,
+			81365
+		}
+	},
+	[17366] = {
+		base = 17360,
+		id = 17366,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50666
+			},
+			{
+				5,
+				52766
+			}
+		},
+		weapon_id = {
+			17366,
+			81366
+		}
+	},
+	[17367] = {
+		base = 17360,
+		id = 17367,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50667
+			},
+			{
+				5,
+				52767
+			}
+		},
+		weapon_id = {
+			17367,
+			81367
+		}
+	},
+	[17368] = {
+		base = 17360,
+		id = 17368,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50668
+			},
+			{
+				5,
+				52768
+			}
+		},
+		weapon_id = {
+			17368,
+			81368
+		}
+	},
+	[17369] = {
+		base = 17360,
+		id = 17369,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50669
+			},
+			{
+				5,
+				52769
+			}
+		},
+		weapon_id = {
+			17369,
+			81369
+		}
+	},
+	[17370] = {
+		base = 17360,
+		id = 17370,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50670
+			},
+			{
+				5,
+				52770
+			}
+		},
+		weapon_id = {
+			17370,
+			81370
+		}
+	},
+	[17371] = {
+		anti_siren = 100,
+		base = 17360,
+		id = 17371,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50671
+			},
+			{
+				5,
+				52771
+			}
+		},
+		weapon_id = {
+			17371,
+			81371
+		}
+	},
+	[17372] = {
+		anti_siren = 200,
+		base = 17360,
+		id = 17372,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50672
+			},
+			{
+				5,
+				52772
+			}
+		},
+		weapon_id = {
+			17372,
+			81372
+		}
+	},
+	[17373] = {
+		anti_siren = 300,
+		base = 17360,
+		id = 17373,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50673
+			},
+			{
+				5,
+				52773
+			}
+		},
+		weapon_id = {
+			17373,
+			81373
+		}
+	},
+	[17380] = {
+		name = "F8F熊猫",
+		type = 7,
+		speciality = "空战",
+		rarity = 5,
+		tech = 0,
+		descrip = "说明未填写",
+		value_2 = 45,
+		icon = "17380",
+		attribute_2 = "air",
+		nationality = 1,
+		ammo = 5,
+		value_3 = 0,
+		id = 17380,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				6,
+				50660
+			},
+			{
+				5,
+				52660
+			}
+		},
+		equip_info = {
+			6,
+			7,
+			8,
+			9
+		},
+		weapon_id = {
+			17380,
+			81380
+		},
+		skill_id = {},
+		part_main = {
+			6,
+			7
+		},
+		part_sub = {
+			6,
+			7
+		},
+		equip_parameters = {},
+		label = {
+			"USS",
+			"CV",
+			"FT"
+		}
+	},
+	[17381] = {
+		base = 17380,
+		id = 17381,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50661
+			},
+			{
+				5,
+				52661
+			}
+		},
+		weapon_id = {
+			17381,
+			81381
+		}
+	},
+	[17382] = {
+		base = 17380,
+		id = 17382,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50662
+			},
+			{
+				5,
+				52662
+			}
+		},
+		weapon_id = {
+			17382,
+			81382
+		}
+	},
+	[17383] = {
+		base = 17380,
+		id = 17383,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50663
+			},
+			{
+				5,
+				52663
+			}
+		},
+		weapon_id = {
+			17383,
+			81383
+		}
+	},
+	[17384] = {
+		base = 17380,
+		id = 17384,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50664
+			},
+			{
+				5,
+				52664
+			}
+		},
+		weapon_id = {
+			17384,
+			81384
+		}
+	},
+	[17385] = {
+		base = 17380,
+		id = 17385,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50665
+			},
+			{
+				5,
+				52665
+			}
+		},
+		weapon_id = {
+			17385,
+			81385
+		}
+	},
+	[17386] = {
+		base = 17380,
+		id = 17386,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50666
+			},
+			{
+				5,
+				52666
+			}
+		},
+		weapon_id = {
+			17386,
+			81386
+		}
+	},
+	[17387] = {
+		base = 17380,
+		id = 17387,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50667
+			},
+			{
+				5,
+				52667
+			}
+		},
+		weapon_id = {
+			17387,
+			81387
+		}
+	},
+	[17388] = {
+		base = 17380,
+		id = 17388,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50668
+			},
+			{
+				5,
+				52668
+			}
+		},
+		weapon_id = {
+			17388,
+			81388
+		}
+	},
+	[17389] = {
+		base = 17380,
+		id = 17389,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50669
+			},
+			{
+				5,
+				52669
+			}
+		},
+		weapon_id = {
+			17389,
+			81389
+		}
+	},
+	[17390] = {
+		base = 17380,
+		id = 17390,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50670
+			},
+			{
+				5,
+				52670
+			}
+		},
+		weapon_id = {
+			17390,
+			81390
+		}
+	},
+	[17391] = {
+		anti_siren = 100,
+		base = 17380,
+		id = 17391,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50671
+			},
+			{
+				5,
+				52671
+			}
+		},
+		weapon_id = {
+			17391,
+			81391
+		}
+	},
+	[17392] = {
+		anti_siren = 200,
+		base = 17380,
+		id = 17392,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50672
+			},
+			{
+				5,
+				52672
+			}
+		},
+		weapon_id = {
+			17392,
+			81392
+		}
+	},
+	[17393] = {
+		anti_siren = 300,
+		base = 17380,
+		id = 17393,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50673
+			},
+			{
+				5,
+				52673
+			}
+		},
+		weapon_id = {
+			17393,
+			81393
+		}
+	},
 	[17400] = {
 		name = "XF5F天箭",
 		type = 7,
@@ -27212,7 +34125,7 @@ pg.equip_data_statistics = {
 		icon = "17400",
 		attribute_2 = "air",
 		nationality = 1,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 17400,
 		torpedo_ammo = 0,
@@ -27231,6 +34144,7 @@ pg.equip_data_statistics = {
 		equip_info = {
 			6,
 			7,
+			8,
 			9
 		},
 		weapon_id = {
@@ -27453,17 +34367,38 @@ pg.equip_data_statistics = {
 			81410
 		}
 	},
+	[17411] = {
+		anti_siren = 100,
+		base = 17400,
+		id = 17411,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50551
+			},
+			{
+				6,
+				50751
+			}
+		},
+		weapon_id = {
+			17411,
+			81411
+		}
+	},
 	[18000] = {
 		name = "TBD蹂躏者",
+		tech = 1,
 		speciality = "雷击",
 		type = 8,
 		rarity = 1,
-		tech = 1,
 		descrip = "说明未填写",
 		value_2 = 0,
 		icon = "18000",
 		nationality = 1,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 18000,
 		torpedo_ammo = 0,
@@ -27482,6 +34417,7 @@ pg.equip_data_statistics = {
 		equip_info = {
 			6,
 			7,
+			8,
 			9
 		},
 		weapon_id = {
@@ -27571,7 +34507,7 @@ pg.equip_data_statistics = {
 		icon = "18000",
 		attribute_2 = "air",
 		nationality = 1,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 18020,
 		torpedo_ammo = 0,
@@ -27590,6 +34526,7 @@ pg.equip_data_statistics = {
 		equip_info = {
 			6,
 			7,
+			8,
 			9
 		},
 		weapon_id = {
@@ -27679,7 +34616,7 @@ pg.equip_data_statistics = {
 		icon = "18000",
 		attribute_2 = "air",
 		nationality = 1,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 18040,
 		torpedo_ammo = 0,
@@ -27698,6 +34635,7 @@ pg.equip_data_statistics = {
 		equip_info = {
 			6,
 			7,
+			8,
 			9
 		},
 		weapon_id = {
@@ -27833,6 +34771,25 @@ pg.equip_data_statistics = {
 			18046
 		}
 	},
+	[18047] = {
+		base = 18040,
+		id = 18047,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50047
+			},
+			{
+				4,
+				51047
+			}
+		},
+		weapon_id = {
+			18047
+		}
+	},
 	[18060] = {
 		name = "TBD蹂躏者(VT-8中队)",
 		type = 8,
@@ -27844,7 +34801,7 @@ pg.equip_data_statistics = {
 		icon = "18060",
 		attribute_2 = "air",
 		nationality = 1,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 18060,
 		torpedo_ammo = 0,
@@ -27863,6 +34820,7 @@ pg.equip_data_statistics = {
 		equip_info = {
 			6,
 			7,
+			8,
 			9
 		},
 		weapon_id = {
@@ -28106,6 +35064,75 @@ pg.equip_data_statistics = {
 			6330
 		}
 	},
+	[18071] = {
+		anti_siren = 100,
+		base = 18060,
+		id = 18071,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				59571
+			},
+			{
+				4,
+				59591
+			}
+		},
+		weapon_id = {
+			18071
+		},
+		skill_id = {
+			6331
+		}
+	},
+	[18072] = {
+		anti_siren = 200,
+		base = 18060,
+		id = 18072,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				59572
+			},
+			{
+				4,
+				59592
+			}
+		},
+		weapon_id = {
+			18072
+		},
+		skill_id = {
+			6332
+		}
+	},
+	[18073] = {
+		anti_siren = 300,
+		base = 18060,
+		id = 18073,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				59573
+			},
+			{
+				4,
+				59593
+			}
+		},
+		weapon_id = {
+			18073
+		},
+		skill_id = {
+			6333
+		}
+	},
 	[18100] = {
 		name = "TBF复仇者",
 		type = 8,
@@ -28117,7 +35144,7 @@ pg.equip_data_statistics = {
 		icon = "18100",
 		attribute_2 = "air",
 		nationality = 1,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 18100,
 		torpedo_ammo = 0,
@@ -28136,6 +35163,7 @@ pg.equip_data_statistics = {
 		equip_info = {
 			6,
 			7,
+			8,
 			9
 		},
 		weapon_id = {
@@ -28225,7 +35253,7 @@ pg.equip_data_statistics = {
 		icon = "18100",
 		attribute_2 = "air",
 		nationality = 1,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 18120,
 		torpedo_ammo = 0,
@@ -28244,6 +35272,7 @@ pg.equip_data_statistics = {
 		equip_info = {
 			6,
 			7,
+			8,
 			9
 		},
 		weapon_id = {
@@ -28390,7 +35419,7 @@ pg.equip_data_statistics = {
 		icon = "18100",
 		attribute_2 = "air",
 		nationality = 1,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 18140,
 		torpedo_ammo = 0,
@@ -28409,6 +35438,7 @@ pg.equip_data_statistics = {
 		equip_info = {
 			6,
 			7,
+			8,
 			9
 		},
 		weapon_id = {
@@ -28620,6 +35650,26 @@ pg.equip_data_statistics = {
 			18150
 		}
 	},
+	[18151] = {
+		anti_siren = 100,
+		base = 18140,
+		id = 18151,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50051
+			},
+			{
+				4,
+				51151
+			}
+		},
+		weapon_id = {
+			18151
+		}
+	},
 	[18180] = {
 		name = "TBM复仇者(VT-18中队)",
 		type = 8,
@@ -28631,7 +35681,7 @@ pg.equip_data_statistics = {
 		icon = "18180",
 		attribute_2 = "air",
 		nationality = 1,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 18180,
 		torpedo_ammo = 0,
@@ -28650,13 +35700,14 @@ pg.equip_data_statistics = {
 		equip_info = {
 			6,
 			7,
+			8,
 			9
 		},
 		weapon_id = {
 			18180
 		},
 		skill_id = {
-			6540
+			6790
 		},
 		part_main = {
 			6,
@@ -28681,7 +35732,7 @@ pg.equip_data_statistics = {
 		ammo_info = {
 			{
 				6,
-				50040
+				50041
 			},
 			{
 				4,
@@ -28690,6 +35741,9 @@ pg.equip_data_statistics = {
 		},
 		weapon_id = {
 			18181
+		},
+		skill_id = {
+			6791
 		}
 	},
 	[18182] = {
@@ -28700,7 +35754,7 @@ pg.equip_data_statistics = {
 		ammo_info = {
 			{
 				6,
-				50040
+				50042
 			},
 			{
 				4,
@@ -28709,6 +35763,9 @@ pg.equip_data_statistics = {
 		},
 		weapon_id = {
 			18182
+		},
+		skill_id = {
+			6792
 		}
 	},
 	[18183] = {
@@ -28719,7 +35776,7 @@ pg.equip_data_statistics = {
 		ammo_info = {
 			{
 				6,
-				50040
+				50043
 			},
 			{
 				4,
@@ -28728,6 +35785,9 @@ pg.equip_data_statistics = {
 		},
 		weapon_id = {
 			18183
+		},
+		skill_id = {
+			6793
 		}
 	},
 	[18184] = {
@@ -28738,7 +35798,7 @@ pg.equip_data_statistics = {
 		ammo_info = {
 			{
 				6,
-				50040
+				50044
 			},
 			{
 				4,
@@ -28747,6 +35807,9 @@ pg.equip_data_statistics = {
 		},
 		weapon_id = {
 			18184
+		},
+		skill_id = {
+			6794
 		}
 	},
 	[18185] = {
@@ -28757,7 +35820,7 @@ pg.equip_data_statistics = {
 		ammo_info = {
 			{
 				6,
-				50040
+				50045
 			},
 			{
 				4,
@@ -28766,6 +35829,9 @@ pg.equip_data_statistics = {
 		},
 		weapon_id = {
 			18185
+		},
+		skill_id = {
+			6795
 		}
 	},
 	[18186] = {
@@ -28776,7 +35842,7 @@ pg.equip_data_statistics = {
 		ammo_info = {
 			{
 				6,
-				50040
+				50046
 			},
 			{
 				4,
@@ -28785,6 +35851,9 @@ pg.equip_data_statistics = {
 		},
 		weapon_id = {
 			18186
+		},
+		skill_id = {
+			6796
 		}
 	},
 	[18187] = {
@@ -28795,7 +35864,7 @@ pg.equip_data_statistics = {
 		ammo_info = {
 			{
 				6,
-				50040
+				50047
 			},
 			{
 				4,
@@ -28804,6 +35873,9 @@ pg.equip_data_statistics = {
 		},
 		weapon_id = {
 			18187
+		},
+		skill_id = {
+			6797
 		}
 	},
 	[18188] = {
@@ -28814,7 +35886,7 @@ pg.equip_data_statistics = {
 		ammo_info = {
 			{
 				6,
-				50040
+				50048
 			},
 			{
 				4,
@@ -28823,6 +35895,9 @@ pg.equip_data_statistics = {
 		},
 		weapon_id = {
 			18188
+		},
+		skill_id = {
+			6798
 		}
 	},
 	[18189] = {
@@ -28833,7 +35908,7 @@ pg.equip_data_statistics = {
 		ammo_info = {
 			{
 				6,
-				50040
+				50049
 			},
 			{
 				4,
@@ -28842,6 +35917,9 @@ pg.equip_data_statistics = {
 		},
 		weapon_id = {
 			18189
+		},
+		skill_id = {
+			6799
 		}
 	},
 	[18190] = {
@@ -28852,7 +35930,7 @@ pg.equip_data_statistics = {
 		ammo_info = {
 			{
 				6,
-				50040
+				50050
 			},
 			{
 				4,
@@ -28861,19 +35939,393 @@ pg.equip_data_statistics = {
 		},
 		weapon_id = {
 			18190
+		},
+		skill_id = {
+			6800
+		}
+	},
+	[18191] = {
+		anti_siren = 100,
+		base = 18180,
+		id = 18191,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50051
+			},
+			{
+				4,
+				59631
+			}
+		},
+		weapon_id = {
+			18191
+		},
+		skill_id = {
+			6801
+		}
+	},
+	[18192] = {
+		anti_siren = 200,
+		base = 18180,
+		id = 18192,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50052
+			},
+			{
+				4,
+				59632
+			}
+		},
+		weapon_id = {
+			18192
+		},
+		skill_id = {
+			6802
+		}
+	},
+	[18193] = {
+		anti_siren = 300,
+		base = 18180,
+		id = 18193,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50053
+			},
+			{
+				4,
+				59633
+			}
+		},
+		weapon_id = {
+			18193
+		},
+		skill_id = {
+			6803
+		}
+	},
+	[18220] = {
+		name = "XTB2D-1天空海盗",
+		type = 8,
+		speciality = "雷击",
+		rarity = 5,
+		tech = 0,
+		descrip = "说明未填写",
+		value_2 = 45,
+		icon = "18220",
+		attribute_2 = "air",
+		nationality = 1,
+		ammo = 5,
+		value_3 = 0,
+		id = 18220,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				6,
+				59740
+			},
+			{
+				4,
+				51240
+			}
+		},
+		equip_info = {
+			6,
+			7,
+			8,
+			9
+		},
+		weapon_id = {
+			18220
+		},
+		skill_id = {},
+		part_main = {
+			6,
+			7
+		},
+		part_sub = {
+			6,
+			7
+		},
+		equip_parameters = {},
+		label = {
+			"USS",
+			"CV",
+			"TB"
+		}
+	},
+	[18221] = {
+		base = 18220,
+		id = 18221,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				59741
+			},
+			{
+				4,
+				51241
+			}
+		},
+		weapon_id = {
+			18221
+		}
+	},
+	[18222] = {
+		base = 18220,
+		id = 18222,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				59742
+			},
+			{
+				4,
+				51242
+			}
+		},
+		weapon_id = {
+			18222
+		}
+	},
+	[18223] = {
+		base = 18220,
+		id = 18223,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				59743
+			},
+			{
+				4,
+				51243
+			}
+		},
+		weapon_id = {
+			18223
+		}
+	},
+	[18224] = {
+		base = 18220,
+		id = 18224,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				59744
+			},
+			{
+				4,
+				51244
+			}
+		},
+		weapon_id = {
+			18224
+		}
+	},
+	[18225] = {
+		base = 18220,
+		id = 18225,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				59745
+			},
+			{
+				4,
+				51245
+			}
+		},
+		weapon_id = {
+			18225
+		}
+	},
+	[18226] = {
+		base = 18220,
+		id = 18226,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				59746
+			},
+			{
+				4,
+				51246
+			}
+		},
+		weapon_id = {
+			18226
+		}
+	},
+	[18227] = {
+		base = 18220,
+		id = 18227,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				59747
+			},
+			{
+				4,
+				51247
+			}
+		},
+		weapon_id = {
+			18227
+		}
+	},
+	[18228] = {
+		base = 18220,
+		id = 18228,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				59748
+			},
+			{
+				4,
+				51248
+			}
+		},
+		weapon_id = {
+			18228
+		}
+	},
+	[18229] = {
+		base = 18220,
+		id = 18229,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				59749
+			},
+			{
+				4,
+				51249
+			}
+		},
+		weapon_id = {
+			18229
+		}
+	},
+	[18230] = {
+		base = 18220,
+		id = 18230,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				59750
+			},
+			{
+				4,
+				51250
+			}
+		},
+		weapon_id = {
+			18230
+		}
+	},
+	[18231] = {
+		anti_siren = 100,
+		base = 18220,
+		id = 18231,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				59751
+			},
+			{
+				4,
+				51251
+			}
+		},
+		weapon_id = {
+			18231
+		}
+	},
+	[18232] = {
+		anti_siren = 200,
+		base = 18220,
+		id = 18232,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				59752
+			},
+			{
+				4,
+				51252
+			}
+		},
+		weapon_id = {
+			18232
+		}
+	},
+	[18233] = {
+		anti_siren = 300,
+		base = 18220,
+		id = 18233,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				59753
+			},
+			{
+				4,
+				51253
+			}
+		},
+		weapon_id = {
+			18233
 		}
 	},
 	[19000] = {
 		name = "SBD无畏",
+		tech = 1,
 		speciality = "轰炸",
 		type = 9,
 		rarity = 1,
-		tech = 1,
 		descrip = "说明未填写",
 		value_2 = 0,
 		icon = "19000",
 		nationality = 1,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 19000,
 		torpedo_ammo = 0,
@@ -28896,6 +36348,7 @@ pg.equip_data_statistics = {
 		equip_info = {
 			6,
 			7,
+			8,
 			9
 		},
 		weapon_id = {
@@ -28997,7 +36450,7 @@ pg.equip_data_statistics = {
 		icon = "19000",
 		attribute_2 = "air",
 		nationality = 1,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 19020,
 		torpedo_ammo = 0,
@@ -29020,6 +36473,7 @@ pg.equip_data_statistics = {
 		equip_info = {
 			6,
 			7,
+			8,
 			9
 		},
 		weapon_id = {
@@ -29121,7 +36575,7 @@ pg.equip_data_statistics = {
 		icon = "19000",
 		attribute_2 = "air",
 		nationality = 1,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 19040,
 		torpedo_ammo = 0,
@@ -29144,6 +36598,7 @@ pg.equip_data_statistics = {
 		equip_info = {
 			6,
 			7,
+			8,
 			9
 		},
 		weapon_id = {
@@ -29303,6 +36758,29 @@ pg.equip_data_statistics = {
 			19046
 		}
 	},
+	[19047] = {
+		base = 19040,
+		id = 19047,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50747
+			},
+			{
+				5,
+				52947
+			},
+			{
+				5,
+				52147
+			}
+		},
+		weapon_id = {
+			19047
+		}
+	},
 	[19060] = {
 		name = "SBD无畏(麦克拉斯基队)",
 		type = 9,
@@ -29314,7 +36792,7 @@ pg.equip_data_statistics = {
 		icon = "19060",
 		attribute_2 = "air",
 		nationality = 1,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 19060,
 		torpedo_ammo = 0,
@@ -29333,6 +36811,7 @@ pg.equip_data_statistics = {
 		equip_info = {
 			6,
 			7,
+			8,
 			9
 		},
 		weapon_id = {
@@ -29546,6 +37025,66 @@ pg.equip_data_statistics = {
 			19070
 		}
 	},
+	[19071] = {
+		anti_siren = 100,
+		base = 19060,
+		id = 19071,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				5,
+				52971
+			},
+			{
+				5,
+				52171
+			}
+		},
+		weapon_id = {
+			19071
+		}
+	},
+	[19072] = {
+		anti_siren = 200,
+		base = 19060,
+		id = 19072,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				5,
+				52972
+			},
+			{
+				5,
+				52172
+			}
+		},
+		weapon_id = {
+			19072
+		}
+	},
+	[19073] = {
+		anti_siren = 300,
+		base = 19060,
+		id = 19073,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				5,
+				52973
+			},
+			{
+				5,
+				52173
+			}
+		},
+		weapon_id = {
+			19073
+		}
+	},
 	[19100] = {
 		name = "SB2C地狱俯冲者",
 		type = 9,
@@ -29557,7 +37096,7 @@ pg.equip_data_statistics = {
 		icon = "19100",
 		attribute_2 = "air",
 		nationality = 1,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 19100,
 		torpedo_ammo = 0,
@@ -29580,6 +37119,7 @@ pg.equip_data_statistics = {
 		equip_info = {
 			6,
 			7,
+			8,
 			9
 		},
 		weapon_id = {
@@ -29681,7 +37221,7 @@ pg.equip_data_statistics = {
 		icon = "19100",
 		attribute_2 = "air",
 		nationality = 1,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 19120,
 		torpedo_ammo = 0,
@@ -29704,6 +37244,7 @@ pg.equip_data_statistics = {
 		equip_info = {
 			6,
 			7,
+			8,
 			9
 		},
 		weapon_id = {
@@ -29874,7 +37415,7 @@ pg.equip_data_statistics = {
 		icon = "19100",
 		attribute_2 = "air",
 		nationality = 1,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 19140,
 		torpedo_ammo = 0,
@@ -29897,6 +37438,7 @@ pg.equip_data_statistics = {
 		equip_info = {
 			6,
 			7,
+			8,
 			9
 		},
 		weapon_id = {
@@ -30148,6 +37690,388 @@ pg.equip_data_statistics = {
 			19150
 		}
 	},
+	[19151] = {
+		anti_siren = 100,
+		base = 19140,
+		id = 19151,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50751
+			},
+			{
+				5,
+				52951
+			},
+			{
+				5,
+				52351
+			}
+		},
+		weapon_id = {
+			19151
+		}
+	},
+	[19160] = {
+		name = "实验型XSB3C-1",
+		type = 9,
+		speciality = "轰炸",
+		rarity = 5,
+		tech = 0,
+		descrip = "说明未填写",
+		value_2 = 45,
+		icon = "19160",
+		attribute_2 = "air",
+		nationality = 1,
+		ammo = 5,
+		value_3 = 0,
+		id = 19160,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				6,
+				50640
+			},
+			{
+				5,
+				52940
+			},
+			{
+				5,
+				52340
+			}
+		},
+		equip_info = {
+			6,
+			7,
+			8,
+			9
+		},
+		weapon_id = {
+			19160
+		},
+		skill_id = {},
+		part_main = {
+			6,
+			7
+		},
+		part_sub = {
+			6,
+			7
+		},
+		equip_parameters = {},
+		label = {
+			"USS",
+			"CV",
+			"DB"
+		}
+	},
+	[19161] = {
+		base = 19160,
+		id = 19161,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50641
+			},
+			{
+				5,
+				52941
+			},
+			{
+				5,
+				52341
+			}
+		},
+		weapon_id = {
+			19161
+		}
+	},
+	[19162] = {
+		base = 19160,
+		id = 19162,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50642
+			},
+			{
+				5,
+				52942
+			},
+			{
+				5,
+				52342
+			}
+		},
+		weapon_id = {
+			19162
+		}
+	},
+	[19163] = {
+		base = 19160,
+		id = 19163,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50643
+			},
+			{
+				5,
+				52943
+			},
+			{
+				5,
+				52343
+			}
+		},
+		weapon_id = {
+			19163
+		}
+	},
+	[19164] = {
+		base = 19160,
+		id = 19164,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50644
+			},
+			{
+				5,
+				52944
+			},
+			{
+				5,
+				52344
+			}
+		},
+		weapon_id = {
+			19164
+		}
+	},
+	[19165] = {
+		base = 19160,
+		id = 19165,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50645
+			},
+			{
+				5,
+				52945
+			},
+			{
+				5,
+				52345
+			}
+		},
+		weapon_id = {
+			19165
+		}
+	},
+	[19166] = {
+		base = 19160,
+		id = 19166,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50646
+			},
+			{
+				5,
+				52946
+			},
+			{
+				5,
+				52346
+			}
+		},
+		weapon_id = {
+			19166
+		}
+	},
+	[19167] = {
+		base = 19160,
+		id = 19167,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50647
+			},
+			{
+				5,
+				52947
+			},
+			{
+				5,
+				52347
+			}
+		},
+		weapon_id = {
+			19167
+		}
+	},
+	[19168] = {
+		base = 19160,
+		id = 19168,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50648
+			},
+			{
+				5,
+				52948
+			},
+			{
+				5,
+				52348
+			}
+		},
+		weapon_id = {
+			19168
+		}
+	},
+	[19169] = {
+		base = 19160,
+		id = 19169,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50649
+			},
+			{
+				5,
+				52949
+			},
+			{
+				5,
+				52349
+			}
+		},
+		weapon_id = {
+			19169
+		}
+	},
+	[19170] = {
+		base = 19160,
+		id = 19170,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50650
+			},
+			{
+				5,
+				52950
+			},
+			{
+				5,
+				52350
+			}
+		},
+		weapon_id = {
+			19170
+		}
+	},
+	[19171] = {
+		anti_siren = 100,
+		base = 19160,
+		id = 19171,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50651
+			},
+			{
+				5,
+				52951
+			},
+			{
+				5,
+				52351
+			}
+		},
+		weapon_id = {
+			19171
+		}
+	},
+	[19172] = {
+		anti_siren = 200,
+		base = 19160,
+		id = 19172,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50652
+			},
+			{
+				5,
+				52952
+			},
+			{
+				5,
+				52352
+			}
+		},
+		weapon_id = {
+			19172
+		}
+	},
+	[19173] = {
+		anti_siren = 300,
+		base = 19160,
+		id = 19173,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50653
+			},
+			{
+				5,
+				52953
+			},
+			{
+				5,
+				52353
+			}
+		},
+		weapon_id = {
+			19173
+		}
+	},
 	[19200] = {
 		name = "BTD-1毁灭者",
 		type = 9,
@@ -30159,7 +38083,7 @@ pg.equip_data_statistics = {
 		icon = "19200",
 		attribute_2 = "air",
 		nationality = 1,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 19200,
 		torpedo_ammo = 0,
@@ -30178,6 +38102,7 @@ pg.equip_data_statistics = {
 		equip_info = {
 			6,
 			7,
+			8,
 			9
 		},
 		weapon_id = {
@@ -30324,7 +38249,7 @@ pg.equip_data_statistics = {
 		icon = "19200",
 		attribute_2 = "air",
 		nationality = 1,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 19220,
 		torpedo_ammo = 0,
@@ -30343,6 +38268,7 @@ pg.equip_data_statistics = {
 		equip_info = {
 			6,
 			7,
+			8,
 			9
 		},
 		weapon_id = {
@@ -30565,7 +38491,7 @@ pg.equip_data_statistics = {
 		icon = "19200",
 		attribute_2 = "air",
 		nationality = 1,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 19240,
 		torpedo_ammo = 0,
@@ -30584,6 +38510,7 @@ pg.equip_data_statistics = {
 		equip_info = {
 			6,
 			7,
+			8,
 			9
 		},
 		weapon_id = {
@@ -30795,6 +38722,66 @@ pg.equip_data_statistics = {
 			19250
 		}
 	},
+	[19251] = {
+		anti_siren = 100,
+		base = 19240,
+		id = 19251,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50551
+			},
+			{
+				5,
+				52851
+			}
+		},
+		weapon_id = {
+			19251
+		}
+	},
+	[19252] = {
+		anti_siren = 200,
+		base = 19240,
+		id = 19252,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50552
+			},
+			{
+				5,
+				52852
+			}
+		},
+		weapon_id = {
+			19252
+		}
+	},
+	[19253] = {
+		anti_siren = 300,
+		base = 19240,
+		id = 19253,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50553
+			},
+			{
+				5,
+				52853
+			}
+		},
+		weapon_id = {
+			19253
+		}
+	},
 	[21000] = {
 		name = "单装102mm副炮",
 		speciality = "锁定",
@@ -30806,7 +38793,7 @@ pg.equip_data_statistics = {
 		icon = "21000",
 		damage = "3 x 1",
 		nationality = 2,
-		ammo = "通常弹",
+		ammo = 3,
 		value_3 = 0,
 		id = 21000,
 		torpedo_ammo = 0,
@@ -30831,14 +38818,18 @@ pg.equip_data_statistics = {
 				4,
 				1000
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			21000
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -30897,7 +38888,7 @@ pg.equip_data_statistics = {
 		rarity = 2,
 		damage = "3 x 1",
 		nationality = 2,
-		ammo = "通常弹",
+		ammo = 3,
 		value_3 = 0,
 		id = 21020,
 		torpedo_ammo = 0,
@@ -30922,14 +38913,18 @@ pg.equip_data_statistics = {
 				4,
 				1000
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			21020
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -30988,7 +38983,7 @@ pg.equip_data_statistics = {
 		rarity = 3,
 		damage = "3 x 1",
 		nationality = 2,
-		ammo = "通常弹",
+		ammo = 3,
 		value_3 = 0,
 		id = 21040,
 		torpedo_ammo = 0,
@@ -31013,14 +39008,18 @@ pg.equip_data_statistics = {
 				4,
 				1000
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			21040
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -31097,6 +39096,16 @@ pg.equip_data_statistics = {
 			21046
 		}
 	},
+	[21047] = {
+		damage = "7 x 1",
+		base = 21040,
+		id = 21047,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			21047
+		}
+	},
 	[21100] = {
 		name = "双联装102mm副炮",
 		speciality = "锁定",
@@ -31108,7 +39117,7 @@ pg.equip_data_statistics = {
 		icon = "21100",
 		damage = "3 x 2",
 		nationality = 2,
-		ammo = "通常弹",
+		ammo = 3,
 		value_3 = 0,
 		id = 21100,
 		torpedo_ammo = 0,
@@ -31133,14 +39142,18 @@ pg.equip_data_statistics = {
 				4,
 				1007
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			21100
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -31199,7 +39212,7 @@ pg.equip_data_statistics = {
 		rarity = 2,
 		damage = "3 x 2",
 		nationality = 2,
-		ammo = "通常弹",
+		ammo = 3,
 		value_3 = 0,
 		id = 21120,
 		torpedo_ammo = 0,
@@ -31224,14 +39237,18 @@ pg.equip_data_statistics = {
 				4,
 				1007
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			21120
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -31290,7 +39307,7 @@ pg.equip_data_statistics = {
 		rarity = 3,
 		damage = "3 x 2",
 		nationality = 2,
-		ammo = "通常弹",
+		ammo = 3,
 		value_3 = 0,
 		id = 21140,
 		torpedo_ammo = 0,
@@ -31315,14 +39332,18 @@ pg.equip_data_statistics = {
 				4,
 				1007
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			21140
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -31399,6 +39420,190 @@ pg.equip_data_statistics = {
 			21146
 		}
 	},
+	[21147] = {
+		damage = "7 x 2",
+		base = 21140,
+		id = 21147,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			21147
+		}
+	},
+	[21160] = {
+		name = "双联装102mm副炮Mark XVI",
+		speciality = "锁定",
+		type = 1,
+		tech = 0,
+		descrip = "说明未填写",
+		value_2 = 25,
+		icon = "21160",
+		attribute_2 = "cannon",
+		rarity = 4,
+		damage = "3 x 2",
+		nationality = 2,
+		ammo = 3,
+		value_3 = 0,
+		id = 21160,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			1
+		},
+		ammo_info = {
+			{
+				1,
+				1100
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			{
+				3,
+				1100
+			},
+			{
+				4,
+				1007
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			21160
+		},
+		skill_id = {},
+		part_main = {
+			1
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13
+		},
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"DD",
+			"MG"
+		}
+	},
+	[21161] = {
+		base = 21160,
+		id = 21161,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			21161
+		}
+	},
+	[21162] = {
+		damage = "4 x 2",
+		base = 21160,
+		id = 21162,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			21162
+		}
+	},
+	[21163] = {
+		damage = "4 x 2",
+		base = 21160,
+		id = 21163,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			21163
+		}
+	},
+	[21164] = {
+		damage = "5 x 2",
+		base = 21160,
+		id = 21164,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			21164
+		}
+	},
+	[21165] = {
+		damage = "5 x 2",
+		base = 21160,
+		id = 21165,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			21165
+		}
+	},
+	[21166] = {
+		damage = "8 x 2",
+		base = 21160,
+		id = 21166,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			21166
+		}
+	},
+	[21167] = {
+		damage = "8 x 2",
+		base = 21160,
+		id = 21167,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			21167
+		}
+	},
+	[21168] = {
+		damage = "9 x 2",
+		base = 21160,
+		id = 21168,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			21168
+		}
+	},
+	[21169] = {
+		damage = "9 x 2",
+		base = 21160,
+		id = 21169,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			21169
+		}
+	},
+	[21170] = {
+		damage = "10 x 2",
+		base = 21160,
+		id = 21170,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			21170
+		}
+	},
+	[21171] = {
+		anti_siren = 100,
+		damage = "10 x 2",
+		base = 21160,
+		id = 21171,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			21171
+		}
+	},
 	[21200] = {
 		name = "三联装102mm副炮",
 		speciality = "锁定",
@@ -31411,7 +39616,7 @@ pg.equip_data_statistics = {
 		rarity = 2,
 		damage = "3 x 3",
 		nationality = 2,
-		ammo = "通常弹",
+		ammo = 3,
 		value_3 = 0,
 		id = 21200,
 		torpedo_ammo = 0,
@@ -31436,14 +39641,18 @@ pg.equip_data_statistics = {
 				4,
 				1003
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			21200
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -31502,7 +39711,7 @@ pg.equip_data_statistics = {
 		rarity = 3,
 		damage = "3 x 3",
 		nationality = 2,
-		ammo = "通常弹",
+		ammo = 3,
 		value_3 = 0,
 		id = 21220,
 		torpedo_ammo = 0,
@@ -31527,14 +39736,18 @@ pg.equip_data_statistics = {
 				4,
 				1003
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			21220
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -31623,7 +39836,7 @@ pg.equip_data_statistics = {
 		rarity = 4,
 		damage = "3 x 3",
 		nationality = 2,
-		ammo = "通常弹",
+		ammo = 3,
 		value_3 = 0,
 		id = 21240,
 		torpedo_ammo = 0,
@@ -31648,14 +39861,18 @@ pg.equip_data_statistics = {
 				4,
 				1003
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			21240
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -31772,6 +39989,17 @@ pg.equip_data_statistics = {
 			21250
 		}
 	},
+	[21251] = {
+		anti_siren = 100,
+		damage = "10 x 3",
+		base = 21240,
+		id = 21251,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			21251
+		}
+	},
 	[21300] = {
 		name = "120mm单装炮",
 		speciality = "锁定",
@@ -31783,7 +40011,7 @@ pg.equip_data_statistics = {
 		icon = "21300",
 		damage = "4 x 1",
 		nationality = 2,
-		ammo = "通常弹",
+		ammo = 3,
 		value_3 = 0,
 		id = 21300,
 		torpedo_ammo = 0,
@@ -31808,14 +40036,18 @@ pg.equip_data_statistics = {
 				4,
 				1000
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			21300
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -31874,7 +40106,7 @@ pg.equip_data_statistics = {
 		rarity = 2,
 		damage = "4 x 1",
 		nationality = 2,
-		ammo = "通常弹",
+		ammo = 3,
 		value_3 = 0,
 		id = 21320,
 		torpedo_ammo = 0,
@@ -31899,14 +40131,18 @@ pg.equip_data_statistics = {
 				4,
 				1000
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			21320
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -31965,7 +40201,7 @@ pg.equip_data_statistics = {
 		rarity = 3,
 		damage = "4 x 1",
 		nationality = 2,
-		ammo = "通常弹",
+		ammo = 3,
 		value_3 = 0,
 		id = 21340,
 		torpedo_ammo = 0,
@@ -31990,14 +40226,18 @@ pg.equip_data_statistics = {
 				4,
 				1000
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			21340
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -32074,6 +40314,16 @@ pg.equip_data_statistics = {
 			21346
 		}
 	},
+	[21347] = {
+		damage = "11 x 1",
+		base = 21340,
+		id = 21347,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			21347
+		}
+	},
 	[21400] = {
 		name = "双联装120mm主炮",
 		speciality = "锁定",
@@ -32086,7 +40336,7 @@ pg.equip_data_statistics = {
 		rarity = 2,
 		damage = "4 x 4",
 		nationality = 2,
-		ammo = "通常弹",
+		ammo = 3,
 		value_3 = 0,
 		id = 21400,
 		torpedo_ammo = 0,
@@ -32111,14 +40361,18 @@ pg.equip_data_statistics = {
 				4,
 				1001
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			21400
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -32177,7 +40431,7 @@ pg.equip_data_statistics = {
 		rarity = 3,
 		damage = "4 x 4",
 		nationality = 2,
-		ammo = "通常弹",
+		ammo = 3,
 		value_3 = 0,
 		id = 21420,
 		torpedo_ammo = 0,
@@ -32202,14 +40456,18 @@ pg.equip_data_statistics = {
 				4,
 				1001
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			21420
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -32298,7 +40556,7 @@ pg.equip_data_statistics = {
 		rarity = 4,
 		damage = "4 x 4",
 		nationality = 2,
-		ammo = "通常弹",
+		ammo = 3,
 		value_3 = 0,
 		id = 21440,
 		torpedo_ammo = 0,
@@ -32323,14 +40581,18 @@ pg.equip_data_statistics = {
 				4,
 				1001
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			21440
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -32447,6 +40709,215 @@ pg.equip_data_statistics = {
 			21450
 		}
 	},
+	[21451] = {
+		anti_siren = 100,
+		damage = "15 x 4",
+		base = 21440,
+		id = 21451,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			21451
+		}
+	},
+	[21460] = {
+		name = "双联装120mm高平两用炮Mark XI",
+		speciality = "锁定",
+		type = 1,
+		attribute_3 = "antiaircraft",
+		tech = 0,
+		value_2 = 20,
+		icon = "21460",
+		attribute_2 = "cannon",
+		descrip = "说明未填写",
+		rarity = 5,
+		damage = "6 x 4",
+		nationality = 2,
+		ammo = 3,
+		value_3 = 25,
+		id = 21460,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			1
+		},
+		ammo_info = {
+			{
+				1,
+				1100
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			{
+				3,
+				1100
+			},
+			{
+				4,
+				1001
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			21460
+		},
+		skill_id = {},
+		part_main = {
+			1
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13
+		},
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"DD",
+			"MG"
+		}
+	},
+	[21461] = {
+		damage = "7 x 4",
+		base = 21460,
+		id = 21461,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			21461
+		}
+	},
+	[21462] = {
+		damage = "8 x 4",
+		base = 21460,
+		id = 21462,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			21462
+		}
+	},
+	[21463] = {
+		damage = "9 x 4",
+		base = 21460,
+		id = 21463,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			21463
+		}
+	},
+	[21464] = {
+		damage = "10 x 4",
+		base = 21460,
+		id = 21464,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			21464
+		}
+	},
+	[21465] = {
+		damage = "11 x 4",
+		base = 21460,
+		id = 21465,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			21465
+		}
+	},
+	[21466] = {
+		damage = "12 x 4",
+		base = 21460,
+		id = 21466,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			21466
+		}
+	},
+	[21467] = {
+		damage = "13 x 4",
+		base = 21460,
+		id = 21467,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			21467
+		}
+	},
+	[21468] = {
+		damage = "14 x 4",
+		base = 21460,
+		id = 21468,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			21468
+		}
+	},
+	[21469] = {
+		damage = "15 x 4",
+		base = 21460,
+		id = 21469,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			21469
+		}
+	},
+	[21470] = {
+		damage = "17 x 4",
+		base = 21460,
+		id = 21470,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			21470
+		}
+	},
+	[21471] = {
+		anti_siren = 100,
+		damage = "17 x 4",
+		base = 21460,
+		id = 21471,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			21471
+		}
+	},
+	[21472] = {
+		anti_siren = 200,
+		damage = "17 x 4",
+		base = 21460,
+		id = 21472,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			21472
+		}
+	},
+	[21473] = {
+		anti_siren = 300,
+		damage = "17 x 4",
+		base = 21460,
+		id = 21473,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			21473
+		}
+	},
 	[21500] = {
 		name = "双联装134mm高炮",
 		speciality = "锁定",
@@ -32460,7 +40931,7 @@ pg.equip_data_statistics = {
 		rarity = 2,
 		damage = "4 x 2",
 		nationality = 2,
-		ammo = "通常弹",
+		ammo = 3,
 		value_3 = 3,
 		id = 21500,
 		torpedo_ammo = 0,
@@ -32485,14 +40956,18 @@ pg.equip_data_statistics = {
 				4,
 				1011
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			21500
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -32552,7 +41027,7 @@ pg.equip_data_statistics = {
 		rarity = 3,
 		damage = "4 x 2",
 		nationality = 2,
-		ammo = "穿甲弹",
+		ammo = 1,
 		value_3 = 7,
 		id = 21520,
 		torpedo_ammo = 0,
@@ -32577,14 +41052,18 @@ pg.equip_data_statistics = {
 				4,
 				1011
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			21520
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -32675,7 +41154,7 @@ pg.equip_data_statistics = {
 		rarity = 4,
 		damage = "4 x 2",
 		nationality = 2,
-		ammo = "穿甲弹",
+		ammo = 1,
 		value_3 = 15,
 		id = 21540,
 		torpedo_ammo = 0,
@@ -32700,14 +41179,18 @@ pg.equip_data_statistics = {
 				4,
 				1011
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			21540
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -32825,8 +41308,19 @@ pg.equip_data_statistics = {
 			21550
 		}
 	},
+	[21551] = {
+		anti_siren = 100,
+		damage = "11 x 2",
+		base = 21540,
+		id = 21551,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			21551
+		}
+	},
 	[21600] = {
-		name = "双联装114mm高平两用炮MarkIV",
+		name = "双联装114mm高平两用炮Mark IV",
 		speciality = "锁定",
 		type = 1,
 		attribute_3 = "antiaircraft",
@@ -32838,7 +41332,7 @@ pg.equip_data_statistics = {
 		rarity = 5,
 		damage = "4 x 4",
 		nationality = 2,
-		ammo = "通常弹",
+		ammo = 3,
 		value_3 = 20,
 		id = 21600,
 		torpedo_ammo = 0,
@@ -32863,14 +41357,18 @@ pg.equip_data_statistics = {
 				4,
 				1001
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			21600
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -32989,6 +41487,39 @@ pg.equip_data_statistics = {
 			21610
 		}
 	},
+	[21611] = {
+		anti_siren = 100,
+		damage = "13 x 4",
+		base = 21600,
+		id = 21611,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			21611
+		}
+	},
+	[21612] = {
+		anti_siren = 200,
+		damage = "13 x 4",
+		base = 21600,
+		id = 21612,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			21612
+		}
+	},
+	[21613] = {
+		anti_siren = 300,
+		damage = "13 x 4",
+		base = 21600,
+		id = 21613,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			21613
+		}
+	},
 	[22000] = {
 		name = "单装152mm副炮",
 		speciality = "散射",
@@ -33000,7 +41531,7 @@ pg.equip_data_statistics = {
 		icon = "22000",
 		damage = "8 x 3",
 		nationality = 2,
-		ammo = "穿甲弹",
+		ammo = 1,
 		value_3 = 0,
 		id = 22000,
 		torpedo_ammo = 0,
@@ -33025,7 +41556,10 @@ pg.equip_data_statistics = {
 				4,
 				1100
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			22000
@@ -33087,7 +41621,7 @@ pg.equip_data_statistics = {
 		rarity = 2,
 		damage = "9 x 3",
 		nationality = 2,
-		ammo = "穿甲弹",
+		ammo = 1,
 		value_3 = 0,
 		id = 22020,
 		torpedo_ammo = 0,
@@ -33112,7 +41646,10 @@ pg.equip_data_statistics = {
 				4,
 				1100
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			22020
@@ -33174,7 +41711,7 @@ pg.equip_data_statistics = {
 		rarity = 3,
 		damage = "10 x 3",
 		nationality = 2,
-		ammo = "穿甲弹",
+		ammo = 1,
 		value_3 = 0,
 		id = 22040,
 		torpedo_ammo = 0,
@@ -33199,7 +41736,10 @@ pg.equip_data_statistics = {
 				4,
 				1100
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			22040
@@ -33279,6 +41819,146 @@ pg.equip_data_statistics = {
 			22046
 		}
 	},
+	[22047] = {
+		damage = "16 x 3",
+		base = 22040,
+		id = 22047,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			22047
+		}
+	},
+	[22060] = {
+		name = "双联装152mm副炮",
+		speciality = "锁定",
+		type = 2,
+		tech = 0,
+		descrip = "说明未填写",
+		value_2 = 12,
+		icon = "22060",
+		attribute_2 = "cannon",
+		rarity = 3,
+		damage = "10 x 4",
+		nationality = 2,
+		ammo = 2,
+		value_3 = 0,
+		id = 22060,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			3
+		},
+		ammo_info = {
+			{
+				1,
+				1107
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			{
+				3,
+				1107
+			},
+			{
+				4,
+				1101
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			22060
+		},
+		skill_id = {},
+		part_main = {
+			2
+		},
+		part_sub = {
+			5
+		},
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"CL",
+			"MG",
+			"HE"
+		}
+	},
+	[22061] = {
+		damage = "11 x 4",
+		base = 22060,
+		id = 22061,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			22061
+		}
+	},
+	[22062] = {
+		damage = "12 x 4",
+		base = 22060,
+		id = 22062,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			22062
+		}
+	},
+	[22063] = {
+		damage = "13 x 4",
+		base = 22060,
+		id = 22063,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			22063
+		}
+	},
+	[22064] = {
+		damage = "14 x 4",
+		base = 22060,
+		id = 22064,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			22064
+		}
+	},
+	[22065] = {
+		damage = "15 x 4",
+		base = 22060,
+		id = 22065,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			22065
+		}
+	},
+	[22066] = {
+		damage = "16 x 4",
+		base = 22060,
+		id = 22066,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			22066
+		}
+	},
+	[22067] = {
+		damage = "16 x 4",
+		base = 22060,
+		id = 22067,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			22067
+		}
+	},
 	[22100] = {
 		name = "双联装152mm主炮",
 		speciality = "锁定",
@@ -33291,7 +41971,7 @@ pg.equip_data_statistics = {
 		rarity = 2,
 		damage = "8 x 4",
 		nationality = 2,
-		ammo = "穿甲弹",
+		ammo = 1,
 		value_3 = 0,
 		id = 22100,
 		torpedo_ammo = 0,
@@ -33316,7 +41996,10 @@ pg.equip_data_statistics = {
 				4,
 				1101
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			22100
@@ -33378,7 +42061,7 @@ pg.equip_data_statistics = {
 		rarity = 3,
 		damage = "9 x 4",
 		nationality = 2,
-		ammo = "穿甲弹",
+		ammo = 1,
 		value_3 = 0,
 		id = 22120,
 		torpedo_ammo = 0,
@@ -33403,7 +42086,10 @@ pg.equip_data_statistics = {
 				4,
 				1101
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			22120
@@ -33495,7 +42181,7 @@ pg.equip_data_statistics = {
 		rarity = 4,
 		damage = "10 x 4",
 		nationality = 2,
-		ammo = "穿甲弹",
+		ammo = 1,
 		value_3 = 0,
 		id = 22140,
 		torpedo_ammo = 0,
@@ -33520,7 +42206,10 @@ pg.equip_data_statistics = {
 				4,
 				1101
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			22140
@@ -33640,6 +42329,17 @@ pg.equip_data_statistics = {
 			22150
 		}
 	},
+	[22151] = {
+		anti_siren = 100,
+		damage = "22 x 4",
+		base = 22140,
+		id = 22151,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			22151
+		}
+	},
 	[22200] = {
 		name = "三联装152mm主炮",
 		speciality = "锁定",
@@ -33652,7 +42352,7 @@ pg.equip_data_statistics = {
 		rarity = 2,
 		damage = "8 x 6",
 		nationality = 2,
-		ammo = "穿甲弹",
+		ammo = 1,
 		value_3 = 0,
 		id = 22200,
 		torpedo_ammo = 0,
@@ -33677,7 +42377,10 @@ pg.equip_data_statistics = {
 				4,
 				1102
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			22200
@@ -33739,7 +42442,7 @@ pg.equip_data_statistics = {
 		rarity = 3,
 		damage = "9 x 6",
 		nationality = 2,
-		ammo = "穿甲弹",
+		ammo = 1,
 		value_3 = 0,
 		id = 22220,
 		torpedo_ammo = 0,
@@ -33764,7 +42467,10 @@ pg.equip_data_statistics = {
 				4,
 				1102
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			22220
@@ -33856,7 +42562,7 @@ pg.equip_data_statistics = {
 		rarity = 4,
 		damage = "10 x 6",
 		nationality = 2,
-		ammo = "穿甲弹",
+		ammo = 1,
 		value_3 = 0,
 		id = 22240,
 		torpedo_ammo = 0,
@@ -33881,7 +42587,10 @@ pg.equip_data_statistics = {
 				4,
 				1102
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			22240
@@ -34001,6 +42710,17 @@ pg.equip_data_statistics = {
 			22250
 		}
 	},
+	[22251] = {
+		anti_siren = 100,
+		damage = "22 x 6",
+		base = 22240,
+		id = 22251,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			22251
+		}
+	},
 	[22260] = {
 		name = "试作型三联装152mm主炮",
 		speciality = "锁定",
@@ -34013,7 +42733,7 @@ pg.equip_data_statistics = {
 		rarity = 5,
 		damage = "11 x 3",
 		nationality = 2,
-		ammo = "穿甲弹",
+		ammo = 1,
 		value_3 = 0,
 		id = 22260,
 		torpedo_ammo = 0,
@@ -34038,7 +42758,10 @@ pg.equip_data_statistics = {
 				4,
 				1108
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			22260
@@ -34158,6 +42881,39 @@ pg.equip_data_statistics = {
 			22270
 		}
 	},
+	[22271] = {
+		anti_siren = 100,
+		damage = "24 x 3",
+		base = 22260,
+		id = 22271,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			22271
+		}
+	},
+	[22272] = {
+		anti_siren = 200,
+		damage = "24 x 3",
+		base = 22260,
+		id = 22272,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			22272
+		}
+	},
+	[22273] = {
+		anti_siren = 300,
+		damage = "24 x 3",
+		base = 22260,
+		id = 22273,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			22273
+		}
+	},
 	[23000] = {
 		name = "双联装203mm主炮",
 		speciality = "锁定",
@@ -34170,7 +42926,7 @@ pg.equip_data_statistics = {
 		rarity = 2,
 		damage = "24 x 4",
 		nationality = 2,
-		ammo = "通常弹",
+		ammo = 3,
 		value_3 = 0,
 		id = 23000,
 		torpedo_ammo = 0,
@@ -34195,7 +42951,10 @@ pg.equip_data_statistics = {
 				4,
 				1205
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			23000
@@ -34256,7 +43015,7 @@ pg.equip_data_statistics = {
 		rarity = 3,
 		damage = "26 x 4",
 		nationality = 2,
-		ammo = "穿甲弹",
+		ammo = 1,
 		value_3 = 0,
 		id = 23020,
 		torpedo_ammo = 0,
@@ -34281,7 +43040,10 @@ pg.equip_data_statistics = {
 				4,
 				1205
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			23020
@@ -34372,7 +43134,7 @@ pg.equip_data_statistics = {
 		rarity = 4,
 		damage = "28 x 4",
 		nationality = 2,
-		ammo = "穿甲弹",
+		ammo = 1,
 		value_3 = 0,
 		id = 23040,
 		torpedo_ammo = 0,
@@ -34397,7 +43159,10 @@ pg.equip_data_statistics = {
 				4,
 				1205
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			23040
@@ -34516,6 +43281,17 @@ pg.equip_data_statistics = {
 			23050
 		}
 	},
+	[23051] = {
+		anti_siren = 100,
+		damage = "48 x 4",
+		base = 23040,
+		id = 23051,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			23051
+		}
+	},
 	[23100] = {
 		name = "试作型双联装234mm主炮",
 		speciality = "锁定",
@@ -34528,7 +43304,7 @@ pg.equip_data_statistics = {
 		rarity = 5,
 		damage = "35 x 4",
 		nationality = 2,
-		ammo = "通常弹",
+		ammo = 3,
 		value_3 = 0,
 		id = 23100,
 		torpedo_ammo = 0,
@@ -34553,7 +43329,10 @@ pg.equip_data_statistics = {
 				4,
 				1223
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			23100
@@ -34672,6 +43451,39 @@ pg.equip_data_statistics = {
 			23110
 		}
 	},
+	[23111] = {
+		anti_siren = 100,
+		damage = "54 x 4",
+		base = 23100,
+		id = 23111,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			23111
+		}
+	},
+	[23112] = {
+		anti_siren = 200,
+		damage = "54 x 4",
+		base = 23100,
+		id = 23112,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			23112
+		}
+	},
+	[23113] = {
+		anti_siren = 300,
+		damage = "54 x 4",
+		base = 23100,
+		id = 23113,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			23113
+		}
+	},
 	[23120] = {
 		name = "试作型三联装234mm主炮",
 		speciality = "锁定",
@@ -34684,7 +43496,7 @@ pg.equip_data_statistics = {
 		rarity = 6,
 		damage = "35 x 6",
 		nationality = 2,
-		ammo = "通常弹",
+		ammo = 3,
 		value_3 = 0,
 		id = 23120,
 		torpedo_ammo = 0,
@@ -34709,7 +43521,10 @@ pg.equip_data_statistics = {
 				4,
 				1222
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			23120
@@ -34828,6 +43643,231 @@ pg.equip_data_statistics = {
 			23130
 		}
 	},
+	[23131] = {
+		anti_siren = 100,
+		damage = "54 x 6",
+		base = 23120,
+		id = 23131,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			23131
+		}
+	},
+	[23132] = {
+		anti_siren = 200,
+		damage = "54 x 6",
+		base = 23120,
+		id = 23132,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			23132
+		}
+	},
+	[23133] = {
+		anti_siren = 300,
+		damage = "54 x 6",
+		base = 23120,
+		id = 23133,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			23133
+		}
+	},
+	[23200] = {
+		name = "试作型三联装203mm主炮Mark IX",
+		speciality = "锁定",
+		type = 3,
+		tech = 0,
+		descrip = "说明未填写",
+		value_2 = 45,
+		icon = "23200",
+		attribute_2 = "cannon",
+		rarity = 5,
+		damage = "28 x 3",
+		nationality = 2,
+		ammo = 2,
+		value_3 = 0,
+		id = 23200,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			3
+		},
+		ammo_info = {
+			{
+				1,
+				1402
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			{
+				3,
+				1402
+			},
+			{
+				4,
+				1214
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			23200
+		},
+		skill_id = {},
+		part_main = {
+			3,
+			18
+		},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"CA",
+			"MG",
+			"HE"
+		}
+	},
+	[23201] = {
+		damage = "30 x 3",
+		base = 23200,
+		id = 23201,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			23201
+		}
+	},
+	[23202] = {
+		damage = "32 x 3",
+		base = 23200,
+		id = 23202,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			23202
+		}
+	},
+	[23203] = {
+		damage = "34 x 3",
+		base = 23200,
+		id = 23203,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			23203
+		}
+	},
+	[23204] = {
+		damage = "36 x 3",
+		base = 23200,
+		id = 23204,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			23204
+		}
+	},
+	[23205] = {
+		damage = "38 x 3",
+		base = 23200,
+		id = 23205,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			23205
+		}
+	},
+	[23206] = {
+		damage = "40 x 3",
+		base = 23200,
+		id = 23206,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			23206
+		}
+	},
+	[23207] = {
+		damage = "42 x 3",
+		base = 23200,
+		id = 23207,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			23207
+		}
+	},
+	[23208] = {
+		damage = "44 x 3",
+		base = 23200,
+		id = 23208,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			23208
+		}
+	},
+	[23209] = {
+		damage = "46 x 3",
+		base = 23200,
+		id = 23209,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			23209
+		}
+	},
+	[23210] = {
+		damage = "49 x 3",
+		base = 23200,
+		id = 23210,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			23210
+		}
+	},
+	[23211] = {
+		anti_siren = 100,
+		damage = "49 x 3",
+		base = 23200,
+		id = 23211,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			23211
+		}
+	},
+	[23212] = {
+		anti_siren = 200,
+		damage = "49 x 3",
+		base = 23200,
+		id = 23212,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			23212
+		}
+	},
+	[23213] = {
+		anti_siren = 300,
+		damage = "49 x 3",
+		base = 23200,
+		id = 23213,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			23213
+		}
+	},
 	[24000] = {
 		name = "四联装356mm主炮",
 		speciality = "跨射",
@@ -34840,7 +43880,7 @@ pg.equip_data_statistics = {
 		rarity = 3,
 		damage = "40 x 4",
 		nationality = 2,
-		ammo = "通常弹",
+		ammo = 3,
 		value_3 = 0,
 		id = 24000,
 		torpedo_ammo = 0,
@@ -34857,7 +43897,10 @@ pg.equip_data_statistics = {
 		equip_info = {
 			1,
 			2,
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			24000
@@ -34949,7 +43992,7 @@ pg.equip_data_statistics = {
 		rarity = 4,
 		damage = "44 x 4",
 		nationality = 2,
-		ammo = "高爆弹",
+		ammo = 2,
 		value_3 = 0,
 		id = 24020,
 		torpedo_ammo = 0,
@@ -34966,7 +44009,10 @@ pg.equip_data_statistics = {
 		equip_info = {
 			1,
 			2,
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			24020
@@ -35099,7 +44145,7 @@ pg.equip_data_statistics = {
 		rarity = 5,
 		damage = "48 x 4",
 		nationality = 2,
-		ammo = "高爆弹",
+		ammo = 2,
 		value_3 = 0,
 		id = 24040,
 		torpedo_ammo = 0,
@@ -35116,7 +44162,10 @@ pg.equip_data_statistics = {
 		equip_info = {
 			1,
 			2,
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			24040
@@ -35237,6 +44286,203 @@ pg.equip_data_statistics = {
 			24050
 		}
 	},
+	[24051] = {
+		anti_siren = 100,
+		damage = "108 x 4",
+		base = 24040,
+		id = 24051,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			24051
+		}
+	},
+	[24052] = {
+		anti_siren = 200,
+		damage = "108 x 4",
+		base = 24040,
+		id = 24052,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			24052
+		}
+	},
+	[24053] = {
+		anti_siren = 300,
+		damage = "108 x 4",
+		base = 24040,
+		id = 24053,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			24053
+		}
+	},
+	[24060] = {
+		name = "双联装356mm主炮",
+		speciality = "跨射",
+		type = 4,
+		tech = 0,
+		descrip = "说明未填写",
+		value_2 = 25,
+		icon = "24060",
+		attribute_2 = "cannon",
+		rarity = 4,
+		damage = "56 x 2",
+		nationality = 2,
+		ammo = 2,
+		value_3 = 0,
+		id = 24060,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			3
+		},
+		ammo_info = {
+			{
+				2,
+				1522
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			24060
+		},
+		skill_id = {},
+		part_main = {
+			4,
+			5,
+			10,
+			13
+		},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"BB",
+			"MG",
+			"HE"
+		}
+	},
+	[24061] = {
+		damage = "63 x 2",
+		base = 24060,
+		id = 24061,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			24061
+		}
+	},
+	[24062] = {
+		damage = "68 x 2",
+		base = 24060,
+		id = 24062,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			24062
+		}
+	},
+	[24063] = {
+		damage = "75 x 2",
+		base = 24060,
+		id = 24063,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			24063
+		}
+	},
+	[24064] = {
+		damage = "80 x 2",
+		base = 24060,
+		id = 24064,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			24064
+		}
+	},
+	[24065] = {
+		damage = "87 x 2",
+		base = 24060,
+		id = 24065,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			24065
+		}
+	},
+	[24066] = {
+		damage = "92 x 2",
+		base = 24060,
+		id = 24066,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			24066
+		}
+	},
+	[24067] = {
+		damage = "99 x 2",
+		base = 24060,
+		id = 24067,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			24067
+		}
+	},
+	[24068] = {
+		damage = "104 x 2",
+		base = 24060,
+		id = 24068,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			24068
+		}
+	},
+	[24069] = {
+		damage = "111 x 2",
+		base = 24060,
+		id = 24069,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			24069
+		}
+	},
+	[24070] = {
+		damage = "116 x 2",
+		base = 24060,
+		id = 24070,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			24070
+		}
+	},
+	[24071] = {
+		anti_siren = 100,
+		damage = "116 x 2",
+		base = 24060,
+		id = 24071,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			24071
+		}
+	},
 	[24100] = {
 		name = "双联装381mm主炮",
 		speciality = "跨射",
@@ -35249,7 +44495,7 @@ pg.equip_data_statistics = {
 		rarity = 2,
 		damage = "46 x 2",
 		nationality = 2,
-		ammo = "通常弹",
+		ammo = 3,
 		value_3 = 0,
 		id = 24100,
 		torpedo_ammo = 0,
@@ -35266,7 +44512,10 @@ pg.equip_data_statistics = {
 		equip_info = {
 			1,
 			2,
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			24100
@@ -35328,7 +44577,7 @@ pg.equip_data_statistics = {
 		rarity = 3,
 		damage = "51 x 2",
 		nationality = 2,
-		ammo = "穿甲弹",
+		ammo = 1,
 		value_3 = 0,
 		id = 24120,
 		torpedo_ammo = 0,
@@ -35345,7 +44594,10 @@ pg.equip_data_statistics = {
 		equip_info = {
 			1,
 			2,
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			24120
@@ -35438,7 +44690,7 @@ pg.equip_data_statistics = {
 		rarity = 4,
 		damage = "56 x 2",
 		nationality = 2,
-		ammo = "穿甲弹",
+		ammo = 1,
 		value_3 = 0,
 		id = 24140,
 		torpedo_ammo = 0,
@@ -35455,7 +44707,10 @@ pg.equip_data_statistics = {
 		equip_info = {
 			1,
 			2,
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			24140
@@ -35576,6 +44831,17 @@ pg.equip_data_statistics = {
 			24150
 		}
 	},
+	[24151] = {
+		anti_siren = 100,
+		damage = "128 x 2",
+		base = 24140,
+		id = 24151,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			24151
+		}
+	},
 	[24160] = {
 		name = "试作型三联装381mm主炮",
 		speciality = "跨射",
@@ -35588,7 +44854,7 @@ pg.equip_data_statistics = {
 		rarity = 5,
 		damage = "56 x 3",
 		nationality = 2,
-		ammo = "高爆弹",
+		ammo = 2,
 		value_3 = 0,
 		id = 24160,
 		torpedo_ammo = 0,
@@ -35605,7 +44871,10 @@ pg.equip_data_statistics = {
 		equip_info = {
 			1,
 			2,
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			24160
@@ -35726,6 +44995,39 @@ pg.equip_data_statistics = {
 			24170
 		}
 	},
+	[24171] = {
+		anti_siren = 100,
+		damage = "142 x 3",
+		base = 24160,
+		id = 24171,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			24171
+		}
+	},
+	[24172] = {
+		anti_siren = 200,
+		damage = "142 x 3",
+		base = 24160,
+		id = 24172,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			24172
+		}
+	},
+	[24173] = {
+		anti_siren = 300,
+		damage = "142 x 3",
+		base = 24160,
+		id = 24173,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			24173
+		}
+	},
 	[24200] = {
 		name = "三联装406mm主炮",
 		speciality = "跨射",
@@ -35738,7 +45040,7 @@ pg.equip_data_statistics = {
 		rarity = 3,
 		damage = "48 x 3",
 		nationality = 2,
-		ammo = "通常弹",
+		ammo = 3,
 		value_3 = 0,
 		id = 24200,
 		torpedo_ammo = 0,
@@ -35755,7 +45057,10 @@ pg.equip_data_statistics = {
 		equip_info = {
 			1,
 			2,
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			24200
@@ -35847,7 +45152,7 @@ pg.equip_data_statistics = {
 		rarity = 4,
 		damage = "53 x 3",
 		nationality = 2,
-		ammo = "通常弹",
+		ammo = 3,
 		value_3 = 0,
 		id = 24220,
 		torpedo_ammo = 0,
@@ -35864,7 +45169,10 @@ pg.equip_data_statistics = {
 		equip_info = {
 			1,
 			2,
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			24220
@@ -35996,7 +45304,7 @@ pg.equip_data_statistics = {
 		rarity = 5,
 		damage = "58 x 3",
 		nationality = 2,
-		ammo = "通常弹",
+		ammo = 3,
 		value_3 = 0,
 		id = 24240,
 		torpedo_ammo = 0,
@@ -36013,7 +45321,10 @@ pg.equip_data_statistics = {
 		equip_info = {
 			1,
 			2,
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			24240
@@ -36133,8 +45444,41 @@ pg.equip_data_statistics = {
 			24250
 		}
 	},
+	[24251] = {
+		anti_siren = 100,
+		damage = "154 x 3",
+		base = 24240,
+		id = 24251,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			24251
+		}
+	},
+	[24252] = {
+		anti_siren = 200,
+		damage = "154 x 3",
+		base = 24240,
+		id = 24252,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			24252
+		}
+	},
+	[24253] = {
+		anti_siren = 300,
+		damage = "154 x 3",
+		base = 24240,
+		id = 24253,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			24253
+		}
+	},
 	[24300] = {
-		name = "双联装381mm主炮.改",
+		name = "双联装381mm主炮改",
 		speciality = "跨射",
 		type = 4,
 		tech = 1,
@@ -36145,7 +45489,7 @@ pg.equip_data_statistics = {
 		rarity = 3,
 		damage = "46 x 2",
 		nationality = 2,
-		ammo = "通常弹",
+		ammo = 3,
 		value_3 = 0,
 		id = 24300,
 		torpedo_ammo = 0,
@@ -36162,7 +45506,10 @@ pg.equip_data_statistics = {
 		equip_info = {
 			1,
 			2,
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			24300
@@ -36243,7 +45590,7 @@ pg.equip_data_statistics = {
 		}
 	},
 	[24320] = {
-		name = "双联装381mm主炮.改",
+		name = "双联装381mm主炮改",
 		speciality = "跨射",
 		type = 4,
 		tech = 2,
@@ -36254,7 +45601,7 @@ pg.equip_data_statistics = {
 		rarity = 4,
 		damage = "51 x 2",
 		nationality = 2,
-		ammo = "高爆弹",
+		ammo = 2,
 		value_3 = 0,
 		id = 24320,
 		torpedo_ammo = 0,
@@ -36271,7 +45618,10 @@ pg.equip_data_statistics = {
 		equip_info = {
 			1,
 			2,
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			24320
@@ -36393,7 +45743,7 @@ pg.equip_data_statistics = {
 		}
 	},
 	[24340] = {
-		name = "双联装381mm主炮.改",
+		name = "双联装381mm主炮改",
 		speciality = "跨射",
 		type = 4,
 		tech = 0,
@@ -36404,7 +45754,7 @@ pg.equip_data_statistics = {
 		rarity = 5,
 		damage = "56 x 2",
 		nationality = 2,
-		ammo = "高爆弹",
+		ammo = 2,
 		value_3 = 0,
 		id = 24340,
 		torpedo_ammo = 0,
@@ -36421,7 +45771,10 @@ pg.equip_data_statistics = {
 		equip_info = {
 			1,
 			2,
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			24340
@@ -36542,6 +45895,1483 @@ pg.equip_data_statistics = {
 			24350
 		}
 	},
+	[24351] = {
+		anti_siren = 100,
+		damage = "133 x 2",
+		base = 24340,
+		id = 24351,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			24351
+		}
+	},
+	[24352] = {
+		anti_siren = 200,
+		damage = "133 x 2",
+		base = 24340,
+		id = 24352,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			24352
+		}
+	},
+	[24353] = {
+		anti_siren = 300,
+		damage = "133 x 2",
+		base = 24340,
+		id = 24353,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			24353
+		}
+	},
+	[25000] = {
+		name = "三联装533mm鱼雷Mark IX",
+		speciality = "雷击",
+		type = 5,
+		tech = 0,
+		descrip = "说明未填写",
+		value_2 = 12,
+		icon = "25000",
+		attribute_2 = "torpedo",
+		rarity = 3,
+		damage = "62 x 3",
+		nationality = 2,
+		ammo = 5,
+		value_3 = 0,
+		id = 25000,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				3,
+				1828
+			}
+		},
+		equip_info = {
+			{
+				3,
+				1828
+			},
+			{
+				4,
+				1402
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			25000
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			2,
+			3,
+			18
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			18
+		},
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"ST",
+			"TP",
+			"TRI"
+		}
+	},
+	[25001] = {
+		damage = "73 x 3",
+		base = 25000,
+		id = 25001,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			25001
+		}
+	},
+	[25002] = {
+		damage = "84 x 3",
+		base = 25000,
+		id = 25002,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			25002
+		}
+	},
+	[25003] = {
+		damage = "95 x 3",
+		base = 25000,
+		id = 25003,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			25003
+		}
+	},
+	[25004] = {
+		damage = "106 x 3",
+		base = 25000,
+		id = 25004,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			25004
+		}
+	},
+	[25005] = {
+		damage = "117 x 3",
+		base = 25000,
+		id = 25005,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			25005
+		}
+	},
+	[25006] = {
+		damage = "128 x 3",
+		base = 25000,
+		id = 25006,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			25006
+		}
+	},
+	[25007] = {
+		damage = "128 x 3",
+		base = 25000,
+		id = 25007,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			25007
+		}
+	},
+	[25020] = {
+		name = "四联装533mm鱼雷Mark IX",
+		speciality = "雷击",
+		type = 5,
+		tech = 0,
+		descrip = "说明未填写",
+		value_2 = 25,
+		icon = "25020",
+		attribute_2 = "torpedo",
+		rarity = 4,
+		damage = "62 x 4",
+		nationality = 2,
+		ammo = 5,
+		value_3 = 0,
+		id = 25020,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				3,
+				1828
+			}
+		},
+		equip_info = {
+			{
+				3,
+				1828
+			},
+			{
+				4,
+				1403
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			25020
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			2,
+			3,
+			18
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			18
+		},
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"ST",
+			"TP",
+			"QUAD"
+		}
+	},
+	[25021] = {
+		damage = "73 x 4",
+		base = 25020,
+		id = 25021,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			25021
+		}
+	},
+	[25022] = {
+		damage = "84 x 4",
+		base = 25020,
+		id = 25022,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			25022
+		}
+	},
+	[25023] = {
+		damage = "95 x 4",
+		base = 25020,
+		id = 25023,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			25023
+		}
+	},
+	[25024] = {
+		damage = "106 x 4",
+		base = 25020,
+		id = 25024,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			25024
+		}
+	},
+	[25025] = {
+		damage = "117 x 4",
+		base = 25020,
+		id = 25025,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			25025
+		}
+	},
+	[25026] = {
+		damage = "128 x 4",
+		base = 25020,
+		id = 25026,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			25026
+		}
+	},
+	[25027] = {
+		damage = "139 x 4",
+		base = 25020,
+		id = 25027,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			25027
+		}
+	},
+	[25028] = {
+		damage = "150 x 4",
+		base = 25020,
+		id = 25028,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			25028
+		}
+	},
+	[25029] = {
+		damage = "161 x 4",
+		base = 25020,
+		id = 25029,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			25029
+		}
+	},
+	[25030] = {
+		damage = "172 x 4",
+		base = 25020,
+		id = 25030,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			25030
+		}
+	},
+	[25031] = {
+		anti_siren = 100,
+		damage = "172 x 4",
+		base = 25020,
+		id = 25031,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			25031
+		}
+	},
+	[25040] = {
+		name = "五联装533mm鱼雷Mark IX",
+		speciality = "雷击",
+		type = 5,
+		tech = 0,
+		descrip = "说明未填写",
+		value_2 = 45,
+		icon = "25040",
+		attribute_2 = "torpedo",
+		rarity = 5,
+		damage = "62 x 5",
+		nationality = 2,
+		ammo = 5,
+		value_3 = 0,
+		id = 25040,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				3,
+				1828
+			}
+		},
+		equip_info = {
+			{
+				3,
+				1828
+			},
+			{
+				4,
+				1404
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			25040
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			2,
+			3,
+			18
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			18
+		},
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"ST",
+			"TP",
+			"QUINT"
+		}
+	},
+	[25041] = {
+		damage = "73 x 5",
+		base = 25040,
+		id = 25041,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			25041
+		}
+	},
+	[25042] = {
+		damage = "84 x 5",
+		base = 25040,
+		id = 25042,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			25042
+		}
+	},
+	[25043] = {
+		damage = "95 x 5",
+		base = 25040,
+		id = 25043,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			25043
+		}
+	},
+	[25044] = {
+		damage = "106 x 5",
+		base = 25040,
+		id = 25044,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			25044
+		}
+	},
+	[25045] = {
+		damage = "117 x 5",
+		base = 25040,
+		id = 25045,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			25045
+		}
+	},
+	[25046] = {
+		damage = "128 x 5",
+		base = 25040,
+		id = 25046,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			25046
+		}
+	},
+	[25047] = {
+		damage = "139 x 5",
+		base = 25040,
+		id = 25047,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			25047
+		}
+	},
+	[25048] = {
+		damage = "150 x 5",
+		base = 25040,
+		id = 25048,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			25048
+		}
+	},
+	[25049] = {
+		damage = "161 x 5",
+		base = 25040,
+		id = 25049,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			25049
+		}
+	},
+	[25050] = {
+		damage = "172 x 5",
+		base = 25040,
+		id = 25050,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			25050
+		}
+	},
+	[25051] = {
+		anti_siren = 100,
+		damage = "172 x 5",
+		base = 25040,
+		id = 25051,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			25051
+		}
+	},
+	[25052] = {
+		anti_siren = 200,
+		damage = "172 x 5",
+		base = 25040,
+		id = 25052,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			25052
+		}
+	},
+	[25053] = {
+		anti_siren = 300,
+		damage = "172 x 5",
+		base = 25040,
+		id = 25053,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			25053
+		}
+	},
+	[25100] = {
+		name = "潜艇用Mark VIII鱼雷",
+		speciality = "雷击",
+		type = 13,
+		tech = 1,
+		descrip = "说明未填写",
+		value_2 = 5,
+		icon = "25100",
+		attribute_2 = "torpedo",
+		rarity = 2,
+		damage = "51 x 3",
+		nationality = 2,
+		ammo = 5,
+		value_3 = 0,
+		id = 25100,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				3,
+				1825
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			{
+				3,
+				1825
+			},
+			{
+				4,
+				1601
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			25100
+		},
+		skill_id = {},
+		part_main = {
+			8,
+			17
+		},
+		part_sub = {
+			8,
+			17
+		},
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"SS",
+			"TP"
+		}
+	},
+	[25101] = {
+		damage = "57 x 3",
+		base = 25100,
+		id = 25101,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			25101
+		}
+	},
+	[25102] = {
+		damage = "65 x 3",
+		base = 25100,
+		id = 25102,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			25102
+		}
+	},
+	[25103] = {
+		damage = "73 x 3",
+		base = 25100,
+		id = 25103,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			25103
+		}
+	},
+	[25120] = {
+		name = "潜艇用Mark VIII鱼雷",
+		speciality = "雷击",
+		type = 13,
+		tech = 2,
+		descrip = "说明未填写",
+		value_2 = 12,
+		icon = "25100",
+		attribute_2 = "torpedo",
+		rarity = 3,
+		damage = "57 x 3",
+		nationality = 2,
+		ammo = 5,
+		value_3 = 0,
+		id = 25120,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				3,
+				1825
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			{
+				3,
+				1825
+			},
+			{
+				4,
+				1601
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			25120
+		},
+		skill_id = {},
+		part_main = {
+			8,
+			17
+		},
+		part_sub = {
+			8,
+			17
+		},
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"SS",
+			"TP"
+		}
+	},
+	[25121] = {
+		damage = "65 x 3",
+		base = 25120,
+		id = 25121,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			25121
+		}
+	},
+	[25122] = {
+		damage = "73 x 3",
+		base = 25120,
+		id = 25122,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			25122
+		}
+	},
+	[25123] = {
+		damage = "81 x 3",
+		base = 25120,
+		id = 25123,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			25123
+		}
+	},
+	[25124] = {
+		damage = "90 x 3",
+		base = 25120,
+		id = 25124,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			25124
+		}
+	},
+	[25125] = {
+		damage = "99 x 3",
+		base = 25120,
+		id = 25125,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			25125
+		}
+	},
+	[25126] = {
+		damage = "108 x 3",
+		base = 25120,
+		id = 25126,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			25126
+		}
+	},
+	[25140] = {
+		name = "潜艇用Mark VIII鱼雷",
+		speciality = "雷击",
+		type = 13,
+		tech = 3,
+		descrip = "说明未填写",
+		value_2 = 25,
+		icon = "25100",
+		attribute_2 = "torpedo",
+		rarity = 4,
+		damage = "64 x 3",
+		nationality = 2,
+		ammo = 5,
+		value_3 = 0,
+		id = 25140,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				3,
+				1829
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			{
+				3,
+				1829
+			},
+			{
+				4,
+				1602
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			25140
+		},
+		skill_id = {},
+		part_main = {
+			8,
+			17
+		},
+		part_sub = {
+			8,
+			17
+		},
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"SS",
+			"TP"
+		}
+	},
+	[25141] = {
+		damage = "73 x 3",
+		base = 25140,
+		id = 25141,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			25141
+		}
+	},
+	[25142] = {
+		damage = "82 x 3",
+		base = 25140,
+		id = 25142,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			25142
+		}
+	},
+	[25143] = {
+		damage = "91 x 3",
+		base = 25140,
+		id = 25143,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			25143
+		}
+	},
+	[25144] = {
+		damage = "100 x 3",
+		base = 25140,
+		id = 25144,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			25144
+		}
+	},
+	[25145] = {
+		damage = "109 x 3",
+		base = 25140,
+		id = 25145,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			25145
+		}
+	},
+	[25146] = {
+		damage = "119 x 3",
+		base = 25140,
+		id = 25146,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			25146
+		}
+	},
+	[25147] = {
+		damage = "129 x 3",
+		base = 25140,
+		id = 25147,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			25147
+		}
+	},
+	[25148] = {
+		damage = "139 x 3",
+		base = 25140,
+		id = 25148,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			25148
+		}
+	},
+	[25149] = {
+		damage = "149 x 3",
+		base = 25140,
+		id = 25149,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			25149
+		}
+	},
+	[25150] = {
+		damage = "159 x 3",
+		base = 25140,
+		id = 25150,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			25150
+		}
+	},
+	[25151] = {
+		anti_siren = 100,
+		damage = "159 x 3",
+		base = 25140,
+		id = 25151,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			25151
+		}
+	},
+	[25200] = {
+		name = "潜艇用Mark 12鱼雷-菲里",
+		speciality = "雷击",
+		type = 13,
+		tech = 0,
+		descrip = "说明未填写",
+		value_2 = 45,
+		icon = "25200",
+		attribute_2 = "torpedo",
+		rarity = 5,
+		damage = "56 x 3",
+		nationality = 2,
+		ammo = 5,
+		value_3 = 0,
+		id = 25200,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				3,
+				1830
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			{
+				3,
+				1830
+			},
+			{
+				4,
+				1602
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			25200
+		},
+		skill_id = {},
+		part_main = {
+			8,
+			17
+		},
+		part_sub = {
+			8,
+			17
+		},
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"SS",
+			"TP"
+		}
+	},
+	[25201] = {
+		damage = "64 x 3",
+		base = 25200,
+		id = 25201,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			25201
+		}
+	},
+	[25202] = {
+		damage = "72 x 3",
+		base = 25200,
+		id = 25202,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			25202
+		}
+	},
+	[25203] = {
+		damage = "80 x 3",
+		base = 25200,
+		id = 25203,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			25203
+		}
+	},
+	[25204] = {
+		damage = "88 x 3",
+		base = 25200,
+		id = 25204,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			25204
+		}
+	},
+	[25205] = {
+		damage = "96 x 3",
+		base = 25200,
+		id = 25205,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			25205
+		}
+	},
+	[25206] = {
+		damage = "104 x 3",
+		base = 25200,
+		id = 25206,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			25206
+		}
+	},
+	[25207] = {
+		damage = "113 x 3",
+		base = 25200,
+		id = 25207,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			25207
+		}
+	},
+	[25208] = {
+		damage = "122 x 3",
+		base = 25200,
+		id = 25208,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			25208
+		}
+	},
+	[25209] = {
+		damage = "130 x 3",
+		base = 25200,
+		id = 25209,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			25209
+		}
+	},
+	[25210] = {
+		damage = "139 x 3",
+		base = 25200,
+		id = 25210,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			25210
+		}
+	},
+	[25211] = {
+		anti_siren = 100,
+		damage = "139 x 3",
+		base = 25200,
+		id = 25211,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			25211
+		}
+	},
+	[25212] = {
+		anti_siren = 200,
+		damage = "139 x 3",
+		base = 25200,
+		id = 25212,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			25212
+		}
+	},
+	[25213] = {
+		anti_siren = 300,
+		damage = "139 x 3",
+		base = 25200,
+		id = 25213,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			25213
+		}
+	},
+	[25300] = {
+		name = "潜艇用Mark 20 S鱼雷-彼得",
+		speciality = "雷击",
+		type = 13,
+		tech = 0,
+		descrip = "说明未填写",
+		value_2 = 45,
+		icon = "25300",
+		attribute_2 = "torpedo",
+		rarity = 5,
+		damage = "70 x 3",
+		nationality = 2,
+		ammo = 4,
+		value_3 = 0,
+		id = 25300,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				3,
+				1831
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			{
+				3,
+				1831
+			},
+			{
+				4,
+				1602
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			25300
+		},
+		skill_id = {},
+		part_main = {
+			8,
+			17
+		},
+		part_sub = {
+			8,
+			17
+		},
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"SS",
+			"TP"
+		}
+	},
+	[25301] = {
+		damage = "80 x 3",
+		base = 25300,
+		id = 25301,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			25301
+		}
+	},
+	[25302] = {
+		damage = "90 x 3",
+		base = 25300,
+		id = 25302,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			25302
+		}
+	},
+	[25303] = {
+		damage = "100 x 3",
+		base = 25300,
+		id = 25303,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			25303
+		}
+	},
+	[25304] = {
+		damage = "110 x 3",
+		base = 25300,
+		id = 25304,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			25304
+		}
+	},
+	[25305] = {
+		damage = "121 x 3",
+		base = 25300,
+		id = 25305,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			25305
+		}
+	},
+	[25306] = {
+		damage = "132 x 3",
+		base = 25300,
+		id = 25306,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			25306
+		}
+	},
+	[25307] = {
+		damage = "143 x 3",
+		base = 25300,
+		id = 25307,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			25307
+		}
+	},
+	[25308] = {
+		damage = "154 x 3",
+		base = 25300,
+		id = 25308,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			25308
+		}
+	},
+	[25309] = {
+		damage = "165 x 3",
+		base = 25300,
+		id = 25309,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			25309
+		}
+	},
+	[25310] = {
+		damage = "176 x 3",
+		base = 25300,
+		id = 25310,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			25310
+		}
+	},
+	[25311] = {
+		anti_siren = 100,
+		damage = "176 x 3",
+		base = 25300,
+		id = 25311,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			25311
+		}
+	},
+	[25312] = {
+		anti_siren = 200,
+		damage = "176 x 3",
+		base = 25300,
+		id = 25312,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			25312
+		}
+	},
+	[25313] = {
+		anti_siren = 300,
+		damage = "176 x 3",
+		base = 25300,
+		id = 25313,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			25313
+		}
+	},
+	[25800] = {
+		name = "刺猬弹",
+		speciality = "反潜",
+		type = 14,
+		tech = 0,
+		descrip = "说明未填写",
+		value_2 = 45,
+		icon = "25800",
+		attribute_2 = "antisub",
+		rarity = 5,
+		damage = "85 ~ 170",
+		nationality = 2,
+		ammo = 9,
+		value_3 = 0,
+		id = 25800,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				7,
+				9008
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			25800
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			2
+		},
+		part_sub = {
+			1,
+			2
+		},
+		equip_parameters = {},
+		label = {
+			"DC"
+		}
+	},
+	[25801] = {
+		damage = "94 ~ 188",
+		base = 25800,
+		id = 25801,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			25801
+		}
+	},
+	[25802] = {
+		damage = "103 ~ 206",
+		base = 25800,
+		id = 25802,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			25802
+		}
+	},
+	[25803] = {
+		damage = "112 ~ 224",
+		base = 25800,
+		id = 25803,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			25803
+		}
+	},
+	[25804] = {
+		damage = "122 ~ 244",
+		base = 25800,
+		id = 25804,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			25804
+		}
+	},
+	[25805] = {
+		damage = "132 ~ 264",
+		base = 25800,
+		id = 25805,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			25805
+		}
+	},
+	[25806] = {
+		damage = "142 ~ 284",
+		base = 25800,
+		id = 25806,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			25806
+		}
+	},
+	[25807] = {
+		damage = "153 ~ 306",
+		base = 25800,
+		id = 25807,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			25807
+		}
+	},
+	[25808] = {
+		damage = "164 ~ 328",
+		base = 25800,
+		id = 25808,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			25808
+		}
+	},
+	[25809] = {
+		damage = "175 ~ 350",
+		base = 25800,
+		id = 25809,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			25809
+		}
+	},
+	[25810] = {
+		damage = "186 ~ 372",
+		base = 25800,
+		id = 25810,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			25810
+		}
+	},
+	[25811] = {
+		anti_siren = 100,
+		damage = "186 ~ 372",
+		base = 25800,
+		id = 25811,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			25811
+		}
+	},
+	[25812] = {
+		anti_siren = 200,
+		damage = "186 ~ 372",
+		base = 25800,
+		id = 25812,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			25812
+		}
+	},
+	[25813] = {
+		anti_siren = 300,
+		damage = "186 ~ 372",
+		base = 25800,
+		id = 25813,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			25813
+		}
+	},
 	[26000] = {
 		name = "双联装40mm“砰砰”炮",
 		speciality = "防空",
@@ -36553,7 +47383,7 @@ pg.equip_data_statistics = {
 		icon = "26000",
 		damage = "14/轮",
 		nationality = 2,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 26000,
 		torpedo_ammo = 0,
@@ -36563,7 +47393,8 @@ pg.equip_data_statistics = {
 		equip_info = {
 			1,
 			2,
-			6
+			6,
+			10
 		},
 		weapon_id = {
 			26000
@@ -36579,7 +47410,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			1,
@@ -36591,7 +47423,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -36642,7 +47475,7 @@ pg.equip_data_statistics = {
 		rarity = 2,
 		damage = "19/轮",
 		nationality = 2,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 26020,
 		torpedo_ammo = 0,
@@ -36652,7 +47485,8 @@ pg.equip_data_statistics = {
 		equip_info = {
 			1,
 			2,
-			6
+			6,
+			10
 		},
 		weapon_id = {
 			26020
@@ -36668,7 +47502,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			1,
@@ -36680,7 +47515,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -36731,7 +47567,7 @@ pg.equip_data_statistics = {
 		rarity = 3,
 		damage = "23/轮",
 		nationality = 2,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 26040,
 		torpedo_ammo = 0,
@@ -36741,7 +47577,8 @@ pg.equip_data_statistics = {
 		equip_info = {
 			1,
 			2,
-			6
+			6,
+			10
 		},
 		weapon_id = {
 			26040
@@ -36757,7 +47594,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			1,
@@ -36769,7 +47607,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -36838,6 +47677,189 @@ pg.equip_data_statistics = {
 			26046
 		}
 	},
+	[26047] = {
+		damage = "45/轮",
+		base = 26040,
+		id = 26047,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			26047
+		}
+	},
+	[26060] = {
+		name = "双联装40mm博福斯对空机炮Mark I",
+		speciality = "防空",
+		type = 6,
+		tech = 0,
+		descrip = "说明未填写",
+		value_2 = 25,
+		icon = "26060",
+		attribute_2 = "antiaircraft",
+		rarity = 4,
+		damage = "28/轮",
+		nationality = 2,
+		ammo = 5,
+		value_3 = 0,
+		id = 26060,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			1,
+			2,
+			6,
+			10
+		},
+		weapon_id = {
+			26060
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"ST",
+			"AA"
+		}
+	},
+	[26061] = {
+		damage = "30/轮",
+		base = 26060,
+		id = 26061,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			26061
+		}
+	},
+	[26062] = {
+		damage = "32/轮",
+		base = 26060,
+		id = 26062,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			26062
+		}
+	},
+	[26063] = {
+		damage = "36/轮",
+		base = 26060,
+		id = 26063,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			26063
+		}
+	},
+	[26064] = {
+		damage = "38/轮",
+		base = 26060,
+		id = 26064,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			26064
+		}
+	},
+	[26065] = {
+		damage = "40/轮",
+		base = 26060,
+		id = 26065,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			26065
+		}
+	},
+	[26066] = {
+		damage = "44/轮",
+		base = 26060,
+		id = 26066,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			26066
+		}
+	},
+	[26067] = {
+		damage = "48/轮",
+		base = 26060,
+		id = 26067,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			26067
+		}
+	},
+	[26068] = {
+		damage = "54/轮",
+		base = 26060,
+		id = 26068,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			26068
+		}
+	},
+	[26069] = {
+		damage = "54/轮",
+		base = 26060,
+		id = 26069,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			26069
+		}
+	},
+	[26070] = {
+		damage = "62/轮",
+		base = 26060,
+		id = 26070,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			26070
+		}
+	},
+	[26071] = {
+		anti_siren = 100,
+		damage = "62/轮",
+		base = 26060,
+		id = 26071,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			26071
+		}
+	},
 	[26100] = {
 		name = "四联装40mm“砰砰”炮",
 		speciality = "防空",
@@ -36850,7 +47872,7 @@ pg.equip_data_statistics = {
 		rarity = 2,
 		damage = "27/轮",
 		nationality = 2,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 26100,
 		torpedo_ammo = 0,
@@ -36860,7 +47882,8 @@ pg.equip_data_statistics = {
 		equip_info = {
 			1,
 			2,
-			6
+			6,
+			10
 		},
 		weapon_id = {
 			26100
@@ -36876,7 +47899,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			1,
@@ -36888,7 +47912,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -36939,7 +47964,7 @@ pg.equip_data_statistics = {
 		rarity = 3,
 		damage = "30/轮",
 		nationality = 2,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 26120,
 		torpedo_ammo = 0,
@@ -36949,7 +47974,8 @@ pg.equip_data_statistics = {
 		equip_info = {
 			1,
 			2,
-			6
+			6,
+			10
 		},
 		weapon_id = {
 			26120
@@ -36965,7 +47991,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			1,
@@ -36977,7 +48004,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -37058,7 +48086,7 @@ pg.equip_data_statistics = {
 		rarity = 4,
 		damage = "34/轮",
 		nationality = 2,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 26140,
 		torpedo_ammo = 0,
@@ -37068,7 +48096,8 @@ pg.equip_data_statistics = {
 		equip_info = {
 			1,
 			2,
-			6
+			6,
+			10
 		},
 		weapon_id = {
 			26140
@@ -37084,7 +48113,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			1,
@@ -37096,7 +48126,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -37205,6 +48236,17 @@ pg.equip_data_statistics = {
 			26150
 		}
 	},
+	[26151] = {
+		anti_siren = 100,
+		damage = "84/轮",
+		base = 26140,
+		id = 26151,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			26151
+		}
+	},
 	[26200] = {
 		name = "八联装40mm“砰砰”炮",
 		speciality = "防空",
@@ -37217,7 +48259,7 @@ pg.equip_data_statistics = {
 		rarity = 3,
 		damage = "42/轮",
 		nationality = 2,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 26200,
 		torpedo_ammo = 0,
@@ -37227,7 +48269,8 @@ pg.equip_data_statistics = {
 		equip_info = {
 			1,
 			2,
-			6
+			6,
+			10
 		},
 		weapon_id = {
 			26200
@@ -37243,7 +48286,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			1,
@@ -37255,7 +48299,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -37336,7 +48381,7 @@ pg.equip_data_statistics = {
 		rarity = 4,
 		damage = "46/轮",
 		nationality = 2,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 26220,
 		torpedo_ammo = 0,
@@ -37346,7 +48391,8 @@ pg.equip_data_statistics = {
 		equip_info = {
 			1,
 			2,
-			6
+			6,
+			10
 		},
 		weapon_id = {
 			26220
@@ -37362,7 +48408,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			1,
@@ -37374,7 +48421,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -37495,7 +48543,7 @@ pg.equip_data_statistics = {
 		rarity = 5,
 		damage = "50/轮",
 		nationality = 2,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 26240,
 		torpedo_ammo = 0,
@@ -37505,7 +48553,8 @@ pg.equip_data_statistics = {
 		equip_info = {
 			1,
 			2,
-			6
+			6,
+			10
 		},
 		weapon_id = {
 			26240
@@ -37521,7 +48570,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			1,
@@ -37533,7 +48583,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -37642,6 +48693,39 @@ pg.equip_data_statistics = {
 			26250
 		}
 	},
+	[26251] = {
+		anti_siren = 100,
+		damage = "128/轮",
+		base = 26240,
+		id = 26251,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			26251
+		}
+	},
+	[26252] = {
+		anti_siren = 200,
+		damage = "128/轮",
+		base = 26240,
+		id = 26252,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			26252
+		}
+	},
+	[26253] = {
+		anti_siren = 300,
+		damage = "128/轮",
+		base = 26240,
+		id = 26253,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			26253
+		}
+	},
 	[26300] = {
 		name = "76mm高射炮",
 		speciality = "防空",
@@ -37653,8 +48737,8 @@ pg.equip_data_statistics = {
 		attribute_2 = "antiaircraft",
 		rarity = 2,
 		damage = "16/轮",
-		nationality = 2,
-		ammo = "通常",
+		nationality = 1,
+		ammo = 5,
 		value_3 = 0,
 		id = 26300,
 		torpedo_ammo = 0,
@@ -37664,7 +48748,8 @@ pg.equip_data_statistics = {
 		equip_info = {
 			1,
 			2,
-			6
+			6,
+			10
 		},
 		weapon_id = {
 			26300
@@ -37680,7 +48765,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			1,
@@ -37692,7 +48778,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -37742,8 +48829,8 @@ pg.equip_data_statistics = {
 		attribute_2 = "antiaircraft",
 		rarity = 3,
 		damage = "18/轮",
-		nationality = 2,
-		ammo = "通常",
+		nationality = 1,
+		ammo = 5,
 		value_3 = 0,
 		id = 26320,
 		torpedo_ammo = 0,
@@ -37753,7 +48840,8 @@ pg.equip_data_statistics = {
 		equip_info = {
 			1,
 			2,
-			6
+			6,
+			10
 		},
 		weapon_id = {
 			26320
@@ -37769,7 +48857,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			1,
@@ -37781,7 +48870,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -37861,8 +48951,8 @@ pg.equip_data_statistics = {
 		attribute_2 = "antiaircraft",
 		rarity = 4,
 		damage = "22/轮",
-		nationality = 2,
-		ammo = "通常",
+		nationality = 1,
+		ammo = 5,
 		value_3 = 0,
 		id = 26340,
 		torpedo_ammo = 0,
@@ -37872,7 +48962,8 @@ pg.equip_data_statistics = {
 		equip_info = {
 			1,
 			2,
-			6
+			6,
+			10
 		},
 		weapon_id = {
 			26340
@@ -37888,7 +48979,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			1,
@@ -37900,7 +48992,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -38009,6 +49102,190 @@ pg.equip_data_statistics = {
 			26350
 		}
 	},
+	[26351] = {
+		anti_siren = 100,
+		damage = "54/轮",
+		base = 26340,
+		id = 26351,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			26351
+		}
+	},
+	[26360] = {
+		name = "20mm厄利孔高射炮MkII",
+		speciality = "防空",
+		type = 6,
+		tech = 0,
+		descrip = "说明未填写",
+		value_2 = 25,
+		icon = "26360",
+		attribute_2 = "antiaircraft",
+		rarity = 4,
+		damage = "16/轮",
+		nationality = 2,
+		ammo = 5,
+		value_3 = 0,
+		id = 26360,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			1,
+			2,
+			6,
+			10
+		},
+		weapon_id = {
+			26360
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"ST",
+			"AA"
+		}
+	},
+	[26361] = {
+		damage = "18/轮",
+		base = 26360,
+		id = 26361,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			26361
+		}
+	},
+	[26362] = {
+		damage = "20/轮",
+		base = 26360,
+		id = 26362,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			26362
+		}
+	},
+	[26363] = {
+		damage = "22/轮",
+		base = 26360,
+		id = 26363,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			26363
+		}
+	},
+	[26364] = {
+		damage = "24/轮",
+		base = 26360,
+		id = 26364,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			26364
+		}
+	},
+	[26365] = {
+		damage = "26/轮",
+		base = 26360,
+		id = 26365,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			26365
+		}
+	},
+	[26366] = {
+		damage = "28/轮",
+		base = 26360,
+		id = 26366,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			26366
+		}
+	},
+	[26367] = {
+		damage = "28/轮",
+		base = 26360,
+		id = 26367,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			26367
+		}
+	},
+	[26368] = {
+		damage = "30/轮",
+		base = 26360,
+		id = 26368,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			26368
+		}
+	},
+	[26369] = {
+		damage = "30/轮",
+		base = 26360,
+		id = 26369,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			26369
+		}
+	},
+	[26370] = {
+		damage = "32/轮",
+		base = 26360,
+		id = 26370,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			26370
+		}
+	},
+	[26371] = {
+		anti_siren = 100,
+		damage = "32/轮",
+		base = 26360,
+		id = 26371,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			26371
+		}
+	},
 	[26400] = {
 		name = "102mm高射炮",
 		speciality = "防空",
@@ -38021,7 +49298,7 @@ pg.equip_data_statistics = {
 		rarity = 2,
 		damage = "19/轮",
 		nationality = 2,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 26400,
 		torpedo_ammo = 0,
@@ -38031,7 +49308,8 @@ pg.equip_data_statistics = {
 		equip_info = {
 			1,
 			2,
-			6
+			6,
+			10
 		},
 		weapon_id = {
 			26400
@@ -38047,7 +49325,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			1,
@@ -38059,7 +49338,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -38110,7 +49390,7 @@ pg.equip_data_statistics = {
 		rarity = 3,
 		damage = "21/轮",
 		nationality = 2,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 26420,
 		torpedo_ammo = 0,
@@ -38120,7 +49400,8 @@ pg.equip_data_statistics = {
 		equip_info = {
 			1,
 			2,
-			6
+			6,
+			10
 		},
 		weapon_id = {
 			26420
@@ -38136,7 +49417,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			1,
@@ -38148,7 +49430,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -38229,7 +49512,7 @@ pg.equip_data_statistics = {
 		rarity = 4,
 		damage = "25/轮",
 		nationality = 2,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 26440,
 		torpedo_ammo = 0,
@@ -38239,7 +49522,8 @@ pg.equip_data_statistics = {
 		equip_info = {
 			1,
 			2,
-			6
+			6,
+			10
 		},
 		weapon_id = {
 			26440
@@ -38255,7 +49539,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			1,
@@ -38267,7 +49552,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -38376,6 +49662,190 @@ pg.equip_data_statistics = {
 			26450
 		}
 	},
+	[26451] = {
+		anti_siren = 100,
+		damage = "63/轮",
+		base = 26440,
+		id = 26451,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			26451
+		}
+	},
+	[26460] = {
+		name = "120mm高射炮Mark VIII",
+		speciality = "防空",
+		type = 6,
+		tech = 0,
+		descrip = "说明未填写",
+		value_2 = 25,
+		icon = "26460",
+		attribute_2 = "antiaircraft",
+		rarity = 4,
+		damage = "41/轮",
+		nationality = 2,
+		ammo = 5,
+		value_3 = 0,
+		id = 26460,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			1,
+			2,
+			6,
+			10
+		},
+		weapon_id = {
+			26460
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"ST",
+			"AA"
+		}
+	},
+	[26461] = {
+		damage = "47/轮",
+		base = 26460,
+		id = 26461,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			26461
+		}
+	},
+	[26462] = {
+		damage = "53/轮",
+		base = 26460,
+		id = 26462,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			26462
+		}
+	},
+	[26463] = {
+		damage = "59/轮",
+		base = 26460,
+		id = 26463,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			26463
+		}
+	},
+	[26464] = {
+		damage = "66/轮",
+		base = 26460,
+		id = 26464,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			26464
+		}
+	},
+	[26465] = {
+		damage = "73/轮",
+		base = 26460,
+		id = 26465,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			26465
+		}
+	},
+	[26466] = {
+		damage = "80/轮",
+		base = 26460,
+		id = 26466,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			26466
+		}
+	},
+	[26467] = {
+		damage = "87/轮",
+		base = 26460,
+		id = 26467,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			26467
+		}
+	},
+	[26468] = {
+		damage = "94/轮",
+		base = 26460,
+		id = 26468,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			26468
+		}
+	},
+	[26469] = {
+		damage = "101/轮",
+		base = 26460,
+		id = 26469,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			26469
+		}
+	},
+	[26470] = {
+		damage = "108/轮",
+		base = 26460,
+		id = 26470,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			26470
+		}
+	},
+	[26471] = {
+		anti_siren = 100,
+		damage = "108/轮",
+		base = 26460,
+		id = 26471,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			26471
+		}
+	},
 	[26500] = {
 		name = "双联装113mm高射炮",
 		speciality = "防空",
@@ -38388,7 +49858,7 @@ pg.equip_data_statistics = {
 		rarity = 3,
 		damage = "38/轮",
 		nationality = 2,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 26500,
 		torpedo_ammo = 0,
@@ -38398,7 +49868,8 @@ pg.equip_data_statistics = {
 		equip_info = {
 			1,
 			2,
-			6
+			6,
+			10
 		},
 		weapon_id = {
 			26500
@@ -38414,7 +49885,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			1,
@@ -38426,7 +49898,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -38507,7 +49980,7 @@ pg.equip_data_statistics = {
 		rarity = 4,
 		damage = "45/轮",
 		nationality = 2,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 26520,
 		torpedo_ammo = 0,
@@ -38517,7 +49990,8 @@ pg.equip_data_statistics = {
 		equip_info = {
 			1,
 			2,
-			6
+			6,
+			10
 		},
 		weapon_id = {
 			26520
@@ -38533,7 +50007,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			1,
@@ -38545,7 +50020,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -38666,7 +50142,7 @@ pg.equip_data_statistics = {
 		rarity = 5,
 		damage = "52/轮",
 		nationality = 2,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 26540,
 		torpedo_ammo = 0,
@@ -38676,7 +50152,8 @@ pg.equip_data_statistics = {
 		equip_info = {
 			1,
 			2,
-			6
+			6,
+			10
 		},
 		weapon_id = {
 			26540
@@ -38692,7 +50169,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			1,
@@ -38704,7 +50182,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -38813,6 +50292,39 @@ pg.equip_data_statistics = {
 			26550
 		}
 	},
+	[26551] = {
+		anti_siren = 100,
+		damage = "130/轮",
+		base = 26540,
+		id = 26551,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			26551
+		}
+	},
+	[26552] = {
+		anti_siren = 200,
+		damage = "130/轮",
+		base = 26540,
+		id = 26552,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			26552
+		}
+	},
+	[26553] = {
+		anti_siren = 300,
+		damage = "130/轮",
+		base = 26540,
+		id = 26553,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			26553
+		}
+	},
 	[26600] = {
 		name = "双联装40mm博福斯STAAG",
 		speciality = "防空",
@@ -38826,7 +50338,7 @@ pg.equip_data_statistics = {
 		rarity = 5,
 		damage = "38/轮",
 		nationality = 2,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 10,
 		id = 26600,
 		torpedo_ammo = 0,
@@ -38836,7 +50348,8 @@ pg.equip_data_statistics = {
 		equip_info = {
 			1,
 			2,
-			6
+			6,
+			10
 		},
 		weapon_id = {
 			26600
@@ -38852,7 +50365,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			1,
@@ -38864,7 +50378,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -38973,6 +50488,39 @@ pg.equip_data_statistics = {
 			26610
 		}
 	},
+	[26611] = {
+		anti_siren = 100,
+		damage = "96/轮",
+		base = 26600,
+		id = 26611,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			26611
+		}
+	},
+	[26612] = {
+		anti_siren = 200,
+		damage = "96/轮",
+		base = 26600,
+		id = 26612,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			26612
+		}
+	},
+	[26613] = {
+		anti_siren = 300,
+		damage = "96/轮",
+		base = 26600,
+		id = 26613,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			26613
+		}
+	},
 	[26620] = {
 		name = "双联装40mm博福斯海兹梅耶",
 		speciality = "防空",
@@ -38986,7 +50534,7 @@ pg.equip_data_statistics = {
 		rarity = 5,
 		damage = "38/轮",
 		nationality = 2,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 5,
 		id = 26620,
 		torpedo_ammo = 0,
@@ -38996,7 +50544,8 @@ pg.equip_data_statistics = {
 		equip_info = {
 			1,
 			2,
-			6
+			6,
+			10
 		},
 		weapon_id = {
 			26620
@@ -39012,7 +50561,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			1,
@@ -39024,7 +50574,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -39133,6 +50684,39 @@ pg.equip_data_statistics = {
 			26630
 		}
 	},
+	[26631] = {
+		anti_siren = 100,
+		damage = "96/轮",
+		base = 26620,
+		id = 26631,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			26631
+		}
+	},
+	[26632] = {
+		anti_siren = 200,
+		damage = "96/轮",
+		base = 26620,
+		id = 26632,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			26632
+		}
+	},
+	[26633] = {
+		anti_siren = 300,
+		damage = "96/轮",
+		base = 26620,
+		id = 26633,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			26633
+		}
+	},
 	[26640] = {
 		name = "双联装134mm高炮",
 		speciality = "防空",
@@ -39146,7 +50730,7 @@ pg.equip_data_statistics = {
 		rarity = 5,
 		damage = "53/轮",
 		nationality = 2,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 15,
 		id = 26640,
 		torpedo_ammo = 0,
@@ -39156,7 +50740,8 @@ pg.equip_data_statistics = {
 		equip_info = {
 			1,
 			2,
-			6
+			6,
+			10
 		},
 		weapon_id = {
 			26640
@@ -39172,7 +50757,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			1,
@@ -39184,7 +50770,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -39293,6 +50880,39 @@ pg.equip_data_statistics = {
 			26650
 		}
 	},
+	[26651] = {
+		anti_siren = 100,
+		damage = "132/轮",
+		base = 26640,
+		id = 26651,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			26651
+		}
+	},
+	[26652] = {
+		anti_siren = 200,
+		damage = "132/轮",
+		base = 26640,
+		id = 26652,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			26652
+		}
+	},
+	[26653] = {
+		anti_siren = 300,
+		damage = "132/轮",
+		base = 26640,
+		id = 26653,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			26653
+		}
+	},
 	[26660] = {
 		name = "六联装40mm博福斯对空机炮",
 		speciality = "防空",
@@ -39305,7 +50925,7 @@ pg.equip_data_statistics = {
 		rarity = 5,
 		damage = "42/轮",
 		nationality = 2,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 26660,
 		torpedo_ammo = 0,
@@ -39315,7 +50935,8 @@ pg.equip_data_statistics = {
 		equip_info = {
 			1,
 			2,
-			6
+			6,
+			10
 		},
 		weapon_id = {
 			26660
@@ -39331,7 +50952,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			1,
@@ -39343,7 +50965,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -39452,6 +51075,39 @@ pg.equip_data_statistics = {
 			26670
 		}
 	},
+	[26671] = {
+		anti_siren = 100,
+		damage = "150/轮",
+		base = 26660,
+		id = 26671,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			26671
+		}
+	},
+	[26672] = {
+		anti_siren = 200,
+		damage = "150/轮",
+		base = 26660,
+		id = 26672,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			26672
+		}
+	},
+	[26673] = {
+		anti_siren = 300,
+		damage = "150/轮",
+		base = 26660,
+		id = 26673,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			26673
+		}
+	},
 	[27000] = {
 		name = "海喷火",
 		type = 7,
@@ -39463,7 +51119,7 @@ pg.equip_data_statistics = {
 		icon = "27000",
 		attribute_2 = "air",
 		nationality = 2,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 27000,
 		torpedo_ammo = 0,
@@ -39486,6 +51142,7 @@ pg.equip_data_statistics = {
 		equip_info = {
 			6,
 			7,
+			8,
 			9
 		},
 		weapon_id = {
@@ -39591,7 +51248,7 @@ pg.equip_data_statistics = {
 		icon = "27000",
 		attribute_2 = "air",
 		nationality = 2,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 27020,
 		torpedo_ammo = 0,
@@ -39614,6 +51271,7 @@ pg.equip_data_statistics = {
 		equip_info = {
 			6,
 			7,
+			8,
 			9
 		},
 		weapon_id = {
@@ -39791,7 +51449,7 @@ pg.equip_data_statistics = {
 		icon = "27000",
 		attribute_2 = "air",
 		nationality = 2,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 27040,
 		torpedo_ammo = 0,
@@ -39814,6 +51472,7 @@ pg.equip_data_statistics = {
 		equip_info = {
 			6,
 			7,
+			8,
 			9
 		},
 		weapon_id = {
@@ -40076,6 +51735,403 @@ pg.equip_data_statistics = {
 			82050
 		}
 	},
+	[27051] = {
+		anti_siren = 100,
+		base = 27040,
+		id = 27051,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50151
+			},
+			{
+				6,
+				50551
+			},
+			{
+				5,
+				52251
+			}
+		},
+		weapon_id = {
+			27051,
+			82051
+		}
+	},
+	[27060] = {
+		name = "海喷火FR.47",
+		type = 7,
+		speciality = "空战",
+		rarity = 5,
+		tech = 0,
+		descrip = "说明未填写",
+		value_2 = 45,
+		icon = "27060",
+		attribute_2 = "air",
+		nationality = 2,
+		ammo = 5,
+		value_3 = 0,
+		id = 27060,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				6,
+				50160
+			},
+			{
+				6,
+				50560
+			},
+			{
+				5,
+				52240
+			}
+		},
+		equip_info = {
+			6,
+			7,
+			8,
+			9
+		},
+		weapon_id = {
+			27060,
+			82060
+		},
+		skill_id = {},
+		part_main = {
+			6,
+			7
+		},
+		part_sub = {
+			6,
+			7
+		},
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"CV",
+			"FT"
+		}
+	},
+	[27061] = {
+		base = 27060,
+		id = 27061,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50161
+			},
+			{
+				6,
+				50561
+			},
+			{
+				5,
+				52241
+			}
+		},
+		weapon_id = {
+			27061,
+			82061
+		}
+	},
+	[27062] = {
+		base = 27060,
+		id = 27062,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50162
+			},
+			{
+				6,
+				50562
+			},
+			{
+				5,
+				52242
+			}
+		},
+		weapon_id = {
+			27062,
+			82062
+		}
+	},
+	[27063] = {
+		base = 27060,
+		id = 27063,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50163
+			},
+			{
+				6,
+				50563
+			},
+			{
+				5,
+				52243
+			}
+		},
+		weapon_id = {
+			27063,
+			82063
+		}
+	},
+	[27064] = {
+		base = 27060,
+		id = 27064,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50164
+			},
+			{
+				6,
+				50564
+			},
+			{
+				5,
+				52244
+			}
+		},
+		weapon_id = {
+			27064,
+			82064
+		}
+	},
+	[27065] = {
+		base = 27060,
+		id = 27065,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50165
+			},
+			{
+				6,
+				50565
+			},
+			{
+				5,
+				52245
+			}
+		},
+		weapon_id = {
+			27065,
+			82065
+		}
+	},
+	[27066] = {
+		base = 27060,
+		id = 27066,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50166
+			},
+			{
+				6,
+				50566
+			},
+			{
+				5,
+				52246
+			}
+		},
+		weapon_id = {
+			27066,
+			82066
+		}
+	},
+	[27067] = {
+		base = 27060,
+		id = 27067,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50167
+			},
+			{
+				6,
+				50567
+			},
+			{
+				5,
+				52247
+			}
+		},
+		weapon_id = {
+			27067,
+			82067
+		}
+	},
+	[27068] = {
+		base = 27060,
+		id = 27068,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50168
+			},
+			{
+				6,
+				50568
+			},
+			{
+				5,
+				52248
+			}
+		},
+		weapon_id = {
+			27068,
+			82068
+		}
+	},
+	[27069] = {
+		base = 27060,
+		id = 27069,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50169
+			},
+			{
+				6,
+				50569
+			},
+			{
+				5,
+				52249
+			}
+		},
+		weapon_id = {
+			27069,
+			82069
+		}
+	},
+	[27070] = {
+		base = 27060,
+		id = 27070,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50170
+			},
+			{
+				6,
+				50570
+			},
+			{
+				5,
+				52250
+			}
+		},
+		weapon_id = {
+			27070,
+			82070
+		}
+	},
+	[27071] = {
+		anti_siren = 100,
+		base = 27060,
+		id = 27071,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50171
+			},
+			{
+				6,
+				50571
+			},
+			{
+				5,
+				52251
+			}
+		},
+		weapon_id = {
+			27071,
+			82071
+		}
+	},
+	[27072] = {
+		anti_siren = 200,
+		base = 27060,
+		id = 27072,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50172
+			},
+			{
+				6,
+				50572
+			},
+			{
+				5,
+				52252
+			}
+		},
+		weapon_id = {
+			27072,
+			82072
+		}
+	},
+	[27073] = {
+		anti_siren = 300,
+		base = 27060,
+		id = 27073,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50173
+			},
+			{
+				6,
+				50573
+			},
+			{
+				5,
+				52253
+			}
+		},
+		weapon_id = {
+			27073,
+			82073
+		}
+	},
 	[27100] = {
 		name = "海毒牙",
 		type = 7,
@@ -40087,7 +52143,7 @@ pg.equip_data_statistics = {
 		icon = "27100",
 		attribute_2 = "air",
 		nationality = 2,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 27100,
 		torpedo_ammo = 0,
@@ -40106,6 +52162,7 @@ pg.equip_data_statistics = {
 		equip_info = {
 			6,
 			7,
+			8,
 			9
 		},
 		weapon_id = {
@@ -40259,7 +52316,7 @@ pg.equip_data_statistics = {
 		icon = "27100",
 		attribute_2 = "air",
 		nationality = 2,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 27120,
 		torpedo_ammo = 0,
@@ -40278,6 +52335,7 @@ pg.equip_data_statistics = {
 		equip_info = {
 			6,
 			7,
+			8,
 			9
 		},
 		weapon_id = {
@@ -40511,7 +52569,7 @@ pg.equip_data_statistics = {
 		icon = "27100",
 		attribute_2 = "air",
 		nationality = 2,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 27140,
 		torpedo_ammo = 0,
@@ -40530,6 +52588,7 @@ pg.equip_data_statistics = {
 		equip_info = {
 			6,
 			7,
+			8,
 			9
 		},
 		weapon_id = {
@@ -40752,17 +52811,80 @@ pg.equip_data_statistics = {
 			82150
 		}
 	},
+	[27151] = {
+		anti_siren = 100,
+		base = 27140,
+		id = 27151,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50651
+			},
+			{
+				5,
+				52351
+			}
+		},
+		weapon_id = {
+			27151,
+			82151
+		}
+	},
+	[27152] = {
+		anti_siren = 200,
+		base = 27140,
+		id = 27152,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50652
+			},
+			{
+				5,
+				52352
+			}
+		},
+		weapon_id = {
+			27152,
+			82152
+		}
+	},
+	[27153] = {
+		anti_siren = 300,
+		base = 27140,
+		id = 27153,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50653
+			},
+			{
+				5,
+				52353
+			}
+		},
+		weapon_id = {
+			27153,
+			82153
+		}
+	},
 	[27200] = {
 		name = "海斗士",
+		tech = 1,
 		speciality = "空战",
 		type = 7,
 		rarity = 1,
-		tech = 1,
 		descrip = "说明未填写",
 		value_2 = 0,
 		icon = "27200",
 		nationality = 2,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 27200,
 		torpedo_ammo = 0,
@@ -40777,6 +52899,7 @@ pg.equip_data_statistics = {
 		equip_info = {
 			6,
 			7,
+			8,
 			9
 		},
 		weapon_id = {
@@ -40858,7 +52981,7 @@ pg.equip_data_statistics = {
 		icon = "27200",
 		attribute_2 = "air",
 		nationality = 2,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 27220,
 		torpedo_ammo = 0,
@@ -40873,6 +52996,7 @@ pg.equip_data_statistics = {
 		equip_info = {
 			6,
 			7,
+			8,
 			9
 		},
 		weapon_id = {
@@ -40954,7 +53078,7 @@ pg.equip_data_statistics = {
 		icon = "27200",
 		attribute_2 = "air",
 		nationality = 2,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 27240,
 		torpedo_ammo = 0,
@@ -40969,6 +53093,7 @@ pg.equip_data_statistics = {
 		equip_info = {
 			6,
 			7,
+			8,
 			9
 		},
 		weapon_id = {
@@ -41087,6 +53212,183 @@ pg.equip_data_statistics = {
 			82246
 		}
 	},
+	[27247] = {
+		base = 27240,
+		id = 27247,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50147
+			}
+		},
+		weapon_id = {
+			27247,
+			82247
+		}
+	},
+	[27260] = {
+		name = "海飓风",
+		type = 7,
+		speciality = "空战",
+		rarity = 3,
+		tech = 3,
+		descrip = "说明未填写",
+		value_2 = 12,
+		icon = "27260",
+		attribute_2 = "air",
+		nationality = 2,
+		ammo = 5,
+		value_3 = 0,
+		id = 27260,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				6,
+				50140
+			}
+		},
+		equip_info = {
+			6,
+			7,
+			8,
+			9
+		},
+		weapon_id = {
+			27260,
+			82260
+		},
+		skill_id = {},
+		part_main = {
+			6,
+			7
+		},
+		part_sub = {
+			6,
+			7
+		},
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"CV",
+			"FT"
+		}
+	},
+	[27261] = {
+		base = 27260,
+		id = 27261,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50141
+			}
+		},
+		weapon_id = {
+			27261,
+			82261
+		}
+	},
+	[27262] = {
+		base = 27260,
+		id = 27262,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50142
+			}
+		},
+		weapon_id = {
+			27262,
+			82262
+		}
+	},
+	[27263] = {
+		base = 27260,
+		id = 27263,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50143
+			}
+		},
+		weapon_id = {
+			27263,
+			82263
+		}
+	},
+	[27264] = {
+		base = 27260,
+		id = 27264,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50144
+			}
+		},
+		weapon_id = {
+			27264,
+			82264
+		}
+	},
+	[27265] = {
+		base = 27260,
+		id = 27265,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50145
+			}
+		},
+		weapon_id = {
+			27265,
+			82265
+		}
+	},
+	[27266] = {
+		base = 27260,
+		id = 27266,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50146
+			}
+		},
+		weapon_id = {
+			27266,
+			82266
+		}
+	},
+	[27267] = {
+		base = 27260,
+		id = 27267,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50147
+			}
+		},
+		weapon_id = {
+			27267,
+			82267
+		}
+	},
 	[27300] = {
 		name = "海怒",
 		type = 7,
@@ -41098,7 +53400,7 @@ pg.equip_data_statistics = {
 		icon = "27300",
 		attribute_2 = "air",
 		nationality = 2,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 27300,
 		torpedo_ammo = 0,
@@ -41117,6 +53419,7 @@ pg.equip_data_statistics = {
 		equip_info = {
 			6,
 			7,
+			8,
 			9
 		},
 		weapon_id = {
@@ -41339,6 +53642,69 @@ pg.equip_data_statistics = {
 			82310
 		}
 	},
+	[27311] = {
+		anti_siren = 100,
+		base = 27300,
+		id = 27311,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50671
+			},
+			{
+				5,
+				52351
+			}
+		},
+		weapon_id = {
+			27311,
+			82311
+		}
+	},
+	[27312] = {
+		anti_siren = 200,
+		base = 27300,
+		id = 27312,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50672
+			},
+			{
+				5,
+				52352
+			}
+		},
+		weapon_id = {
+			27312,
+			82312
+		}
+	},
+	[27313] = {
+		anti_siren = 300,
+		base = 27300,
+		id = 27313,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50673
+			},
+			{
+				5,
+				52353
+			}
+		},
+		weapon_id = {
+			27313,
+			82313
+		}
+	},
 	[27320] = {
 		name = "海大黄蜂",
 		type = 7,
@@ -41350,7 +53716,7 @@ pg.equip_data_statistics = {
 		icon = "27320",
 		attribute_2 = "air",
 		nationality = 2,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 27320,
 		torpedo_ammo = 0,
@@ -41369,6 +53735,7 @@ pg.equip_data_statistics = {
 		equip_info = {
 			6,
 			7,
+			8,
 			9
 		},
 		weapon_id = {
@@ -41591,6 +53958,69 @@ pg.equip_data_statistics = {
 			82330
 		}
 	},
+	[27331] = {
+		anti_siren = 100,
+		base = 27320,
+		id = 27331,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50671
+			},
+			{
+				5,
+				52771
+			}
+		},
+		weapon_id = {
+			27331,
+			82331
+		}
+	},
+	[27332] = {
+		anti_siren = 200,
+		base = 27320,
+		id = 27332,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50672
+			},
+			{
+				5,
+				52772
+			}
+		},
+		weapon_id = {
+			27332,
+			82332
+		}
+	},
+	[27333] = {
+		anti_siren = 300,
+		base = 27320,
+		id = 27333,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50673
+			},
+			{
+				5,
+				52773
+			}
+		},
+		weapon_id = {
+			27333,
+			82333
+		}
+	},
 	[28000] = {
 		name = "剑鱼",
 		type = 8,
@@ -41602,7 +54032,7 @@ pg.equip_data_statistics = {
 		icon = "28000",
 		attribute_2 = "air",
 		nationality = 2,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 28000,
 		torpedo_ammo = 0,
@@ -41621,6 +54051,7 @@ pg.equip_data_statistics = {
 		equip_info = {
 			6,
 			7,
+			8,
 			9
 		},
 		weapon_id = {
@@ -41710,7 +54141,7 @@ pg.equip_data_statistics = {
 		icon = "28000",
 		attribute_2 = "air",
 		nationality = 2,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 28020,
 		torpedo_ammo = 0,
@@ -41729,6 +54160,7 @@ pg.equip_data_statistics = {
 		equip_info = {
 			6,
 			7,
+			8,
 			9
 		},
 		weapon_id = {
@@ -41875,7 +54307,7 @@ pg.equip_data_statistics = {
 		icon = "28000",
 		attribute_2 = "air",
 		nationality = 2,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 28040,
 		torpedo_ammo = 0,
@@ -41894,6 +54326,7 @@ pg.equip_data_statistics = {
 		equip_info = {
 			6,
 			7,
+			8,
 			9
 		},
 		weapon_id = {
@@ -42105,6 +54538,26 @@ pg.equip_data_statistics = {
 			28050
 		}
 	},
+	[28051] = {
+		anti_siren = 100,
+		base = 28040,
+		id = 28051,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50051
+			},
+			{
+				4,
+				51051
+			}
+		},
+		weapon_id = {
+			28051
+		}
+	},
 	[28060] = {
 		name = "剑鱼(818中队)",
 		type = 8,
@@ -42116,7 +54569,7 @@ pg.equip_data_statistics = {
 		icon = "28060",
 		attribute_2 = "air",
 		nationality = 2,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 28060,
 		torpedo_ammo = 0,
@@ -42135,13 +54588,14 @@ pg.equip_data_statistics = {
 		equip_info = {
 			6,
 			7,
+			8,
 			9
 		},
 		weapon_id = {
 			28060
 		},
 		skill_id = {
-			6220
+			6810
 		},
 		part_main = {
 			6,
@@ -42175,6 +54629,9 @@ pg.equip_data_statistics = {
 		},
 		weapon_id = {
 			28061
+		},
+		skill_id = {
+			6811
 		}
 	},
 	[28062] = {
@@ -42194,6 +54651,9 @@ pg.equip_data_statistics = {
 		},
 		weapon_id = {
 			28062
+		},
+		skill_id = {
+			6812
 		}
 	},
 	[28063] = {
@@ -42213,6 +54673,9 @@ pg.equip_data_statistics = {
 		},
 		weapon_id = {
 			28063
+		},
+		skill_id = {
+			6813
 		}
 	},
 	[28064] = {
@@ -42232,6 +54695,9 @@ pg.equip_data_statistics = {
 		},
 		weapon_id = {
 			28064
+		},
+		skill_id = {
+			6814
 		}
 	},
 	[28065] = {
@@ -42251,6 +54717,9 @@ pg.equip_data_statistics = {
 		},
 		weapon_id = {
 			28065
+		},
+		skill_id = {
+			6815
 		}
 	},
 	[28066] = {
@@ -42270,6 +54739,9 @@ pg.equip_data_statistics = {
 		},
 		weapon_id = {
 			28066
+		},
+		skill_id = {
+			6816
 		}
 	},
 	[28067] = {
@@ -42289,6 +54761,9 @@ pg.equip_data_statistics = {
 		},
 		weapon_id = {
 			28067
+		},
+		skill_id = {
+			6817
 		}
 	},
 	[28068] = {
@@ -42308,6 +54783,9 @@ pg.equip_data_statistics = {
 		},
 		weapon_id = {
 			28068
+		},
+		skill_id = {
+			6818
 		}
 	},
 	[28069] = {
@@ -42327,6 +54805,9 @@ pg.equip_data_statistics = {
 		},
 		weapon_id = {
 			28069
+		},
+		skill_id = {
+			6819
 		}
 	},
 	[28070] = {
@@ -42346,6 +54827,78 @@ pg.equip_data_statistics = {
 		},
 		weapon_id = {
 			28070
+		},
+		skill_id = {
+			6820
+		}
+	},
+	[28071] = {
+		anti_siren = 100,
+		base = 28060,
+		id = 28071,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50051
+			},
+			{
+				4,
+				51071
+			}
+		},
+		weapon_id = {
+			28071
+		},
+		skill_id = {
+			6821
+		}
+	},
+	[28072] = {
+		anti_siren = 200,
+		base = 28060,
+		id = 28072,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50052
+			},
+			{
+				4,
+				51072
+			}
+		},
+		weapon_id = {
+			28072
+		},
+		skill_id = {
+			6822
+		}
+	},
+	[28073] = {
+		anti_siren = 300,
+		base = 28060,
+		id = 28073,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50053
+			},
+			{
+				4,
+				51073
+			}
+		},
+		weapon_id = {
+			28073
+		},
+		skill_id = {
+			6823
 		}
 	},
 	[28100] = {
@@ -42359,7 +54912,7 @@ pg.equip_data_statistics = {
 		icon = "28100",
 		attribute_2 = "air",
 		nationality = 2,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 28100,
 		torpedo_ammo = 0,
@@ -42378,6 +54931,7 @@ pg.equip_data_statistics = {
 		equip_info = {
 			6,
 			7,
+			8,
 			9
 		},
 		weapon_id = {
@@ -42524,7 +55078,7 @@ pg.equip_data_statistics = {
 		icon = "28100",
 		attribute_2 = "air",
 		nationality = 2,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 28120,
 		torpedo_ammo = 0,
@@ -42543,6 +55097,7 @@ pg.equip_data_statistics = {
 		equip_info = {
 			6,
 			7,
+			8,
 			9
 		},
 		weapon_id = {
@@ -42765,7 +55320,7 @@ pg.equip_data_statistics = {
 		icon = "28100",
 		attribute_2 = "air",
 		nationality = 2,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 28140,
 		torpedo_ammo = 0,
@@ -42784,6 +55339,7 @@ pg.equip_data_statistics = {
 		equip_info = {
 			6,
 			7,
+			8,
 			9
 		},
 		weapon_id = {
@@ -42995,6 +55551,66 @@ pg.equip_data_statistics = {
 			28150
 		}
 	},
+	[28151] = {
+		anti_siren = 100,
+		base = 28140,
+		id = 28151,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50051
+			},
+			{
+				4,
+				51151
+			}
+		},
+		weapon_id = {
+			28151
+		}
+	},
+	[28152] = {
+		anti_siren = 200,
+		base = 28140,
+		id = 28152,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50052
+			},
+			{
+				4,
+				51152
+			}
+		},
+		weapon_id = {
+			28152
+		}
+	},
+	[28153] = {
+		anti_siren = 300,
+		base = 28140,
+		id = 28153,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50053
+			},
+			{
+				4,
+				51153
+			}
+		},
+		weapon_id = {
+			28153
+		}
+	},
 	[28200] = {
 		name = "火把",
 		type = 8,
@@ -43006,7 +55622,7 @@ pg.equip_data_statistics = {
 		icon = "28200",
 		attribute_2 = "air",
 		nationality = 2,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 28200,
 		torpedo_ammo = 0,
@@ -43025,6 +55641,7 @@ pg.equip_data_statistics = {
 		equip_info = {
 			6,
 			7,
+			8,
 			9
 		},
 		weapon_id = {
@@ -43236,6 +55853,368 @@ pg.equip_data_statistics = {
 			28210
 		}
 	},
+	[28211] = {
+		anti_siren = 100,
+		base = 28200,
+		id = 28211,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50671
+			},
+			{
+				4,
+				51151
+			}
+		},
+		weapon_id = {
+			28211
+		}
+	},
+	[28212] = {
+		anti_siren = 200,
+		base = 28200,
+		id = 28212,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50672
+			},
+			{
+				4,
+				51152
+			}
+		},
+		weapon_id = {
+			28212
+		}
+	},
+	[28213] = {
+		anti_siren = 300,
+		base = 28200,
+		id = 28213,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50673
+			},
+			{
+				4,
+				51153
+			}
+		},
+		weapon_id = {
+			28213
+		}
+	},
+	[28220] = {
+		name = "火冠",
+		type = 8,
+		speciality = "雷击",
+		rarity = 5,
+		tech = 0,
+		descrip = "占坑",
+		value_2 = 45,
+		icon = "28220",
+		attribute_2 = "air",
+		nationality = 2,
+		ammo = 5,
+		value_3 = 0,
+		id = 28220,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				6,
+				50660
+			},
+			{
+				4,
+				51140
+			}
+		},
+		equip_info = {
+			6,
+			7,
+			8,
+			9
+		},
+		weapon_id = {
+			28200
+		},
+		skill_id = {},
+		part_main = {
+			6,
+			7
+		},
+		part_sub = {
+			6,
+			7
+		},
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"CV",
+			"TB"
+		}
+	},
+	[28221] = {
+		base = 28220,
+		id = 28221,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50661
+			},
+			{
+				4,
+				51141
+			}
+		},
+		weapon_id = {
+			28201
+		}
+	},
+	[28222] = {
+		base = 28220,
+		id = 28222,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50662
+			},
+			{
+				4,
+				51142
+			}
+		},
+		weapon_id = {
+			28202
+		}
+	},
+	[28223] = {
+		base = 28220,
+		id = 28223,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50663
+			},
+			{
+				4,
+				51143
+			}
+		},
+		weapon_id = {
+			28203
+		}
+	},
+	[28224] = {
+		base = 28220,
+		id = 28224,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50664
+			},
+			{
+				4,
+				51144
+			}
+		},
+		weapon_id = {
+			28204
+		}
+	},
+	[28225] = {
+		base = 28220,
+		id = 28225,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50665
+			},
+			{
+				4,
+				51145
+			}
+		},
+		weapon_id = {
+			28205
+		}
+	},
+	[28226] = {
+		base = 28220,
+		id = 28226,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50666
+			},
+			{
+				4,
+				51146
+			}
+		},
+		weapon_id = {
+			28206
+		}
+	},
+	[28227] = {
+		base = 28220,
+		id = 28227,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50667
+			},
+			{
+				4,
+				51147
+			}
+		},
+		weapon_id = {
+			28207
+		}
+	},
+	[28228] = {
+		base = 28220,
+		id = 28228,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50668
+			},
+			{
+				4,
+				51148
+			}
+		},
+		weapon_id = {
+			28208
+		}
+	},
+	[28229] = {
+		base = 28220,
+		id = 28229,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50669
+			},
+			{
+				4,
+				51149
+			}
+		},
+		weapon_id = {
+			28209
+		}
+	},
+	[28230] = {
+		base = 28220,
+		id = 28230,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50670
+			},
+			{
+				4,
+				51150
+			}
+		},
+		weapon_id = {
+			28210
+		}
+	},
+	[28231] = {
+		anti_siren = 100,
+		base = 28220,
+		id = 28231,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50671
+			},
+			{
+				4,
+				51151
+			}
+		},
+		weapon_id = {
+			28211
+		}
+	},
+	[28232] = {
+		anti_siren = 200,
+		base = 28220,
+		id = 28232,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50672
+			},
+			{
+				4,
+				51152
+			}
+		},
+		weapon_id = {
+			28212
+		}
+	},
+	[28233] = {
+		anti_siren = 300,
+		base = 28220,
+		id = 28233,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50673
+			},
+			{
+				4,
+				51153
+			}
+		},
+		weapon_id = {
+			28213
+		}
+	},
 	[28300] = {
 		name = "青花鱼",
 		type = 8,
@@ -43247,7 +56226,7 @@ pg.equip_data_statistics = {
 		icon = "28300",
 		attribute_2 = "air",
 		nationality = 2,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 28300,
 		torpedo_ammo = 0,
@@ -43266,6 +56245,7 @@ pg.equip_data_statistics = {
 		equip_info = {
 			6,
 			7,
+			8,
 			9
 		},
 		weapon_id = {
@@ -43356,7 +56336,7 @@ pg.equip_data_statistics = {
 		icon = "28300",
 		attribute_2 = "air",
 		nationality = 2,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 28320,
 		torpedo_ammo = 0,
@@ -43375,6 +56355,7 @@ pg.equip_data_statistics = {
 		equip_info = {
 			6,
 			7,
+			8,
 			9
 		},
 		weapon_id = {
@@ -43522,7 +56503,7 @@ pg.equip_data_statistics = {
 		icon = "28300",
 		attribute_2 = "air",
 		nationality = 2,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 28340,
 		torpedo_ammo = 0,
@@ -43541,6 +56522,7 @@ pg.equip_data_statistics = {
 		equip_info = {
 			6,
 			7,
+			8,
 			9
 		},
 		weapon_id = {
@@ -43753,17 +56735,353 @@ pg.equip_data_statistics = {
 			28350
 		}
 	},
+	[28351] = {
+		anti_siren = 100,
+		base = 28340,
+		id = 28351,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50051
+			},
+			{
+				4,
+				51051
+			}
+		},
+		weapon_id = {
+			28351
+		}
+	},
+	[28400] = {
+		name = "飞龙",
+		type = 8,
+		speciality = "雷击",
+		rarity = 6,
+		tech = 0,
+		descrip = "说明未填写",
+		value_2 = 65,
+		icon = "28400",
+		attribute_2 = "air",
+		nationality = 2,
+		ammo = 5,
+		value_3 = 0,
+		id = 28400,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				6,
+				50660
+			},
+			{
+				4,
+				51580
+			}
+		},
+		equip_info = {
+			6,
+			7,
+			8,
+			9
+		},
+		weapon_id = {
+			28400,
+			82980
+		},
+		skill_id = {},
+		part_main = {
+			6,
+			7
+		},
+		part_sub = {
+			6,
+			7
+		},
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"CV",
+			"TB"
+		}
+	},
+	[28401] = {
+		base = 28400,
+		id = 28401,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50661
+			},
+			{
+				4,
+				51581
+			}
+		},
+		weapon_id = {
+			28401,
+			82981
+		}
+	},
+	[28402] = {
+		base = 28400,
+		id = 28402,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50662
+			},
+			{
+				4,
+				51582
+			}
+		},
+		weapon_id = {
+			28402,
+			82982
+		}
+	},
+	[28403] = {
+		base = 28400,
+		id = 28403,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50663
+			},
+			{
+				4,
+				51583
+			}
+		},
+		weapon_id = {
+			28403,
+			82983
+		}
+	},
+	[28404] = {
+		base = 28400,
+		id = 28404,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50664
+			},
+			{
+				4,
+				51584
+			}
+		},
+		weapon_id = {
+			28404,
+			82984
+		}
+	},
+	[28405] = {
+		base = 28400,
+		id = 28405,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50665
+			},
+			{
+				4,
+				51585
+			}
+		},
+		weapon_id = {
+			28405,
+			82985
+		}
+	},
+	[28406] = {
+		base = 28400,
+		id = 28406,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50666
+			},
+			{
+				4,
+				51586
+			}
+		},
+		weapon_id = {
+			28406,
+			82986
+		}
+	},
+	[28407] = {
+		base = 28400,
+		id = 28407,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50667
+			},
+			{
+				4,
+				51587
+			}
+		},
+		weapon_id = {
+			28407,
+			82987
+		}
+	},
+	[28408] = {
+		base = 28400,
+		id = 28408,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50668
+			},
+			{
+				4,
+				51588
+			}
+		},
+		weapon_id = {
+			28408,
+			82988
+		}
+	},
+	[28409] = {
+		base = 28400,
+		id = 28409,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50669
+			},
+			{
+				4,
+				51589
+			}
+		},
+		weapon_id = {
+			28409,
+			82989
+		}
+	},
+	[28410] = {
+		base = 28400,
+		id = 28410,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50670
+			},
+			{
+				4,
+				51590
+			}
+		},
+		weapon_id = {
+			28410,
+			82990
+		}
+	},
+	[28411] = {
+		anti_siren = 100,
+		base = 28400,
+		id = 28411,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50671
+			},
+			{
+				4,
+				51591
+			}
+		},
+		weapon_id = {
+			28411,
+			82991
+		}
+	},
+	[28412] = {
+		anti_siren = 200,
+		base = 28400,
+		id = 28412,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50672
+			},
+			{
+				4,
+				51592
+			}
+		},
+		weapon_id = {
+			28412,
+			82992
+		}
+	},
+	[28413] = {
+		anti_siren = 300,
+		base = 28400,
+		id = 28413,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50673
+			},
+			{
+				4,
+				51593
+			}
+		},
+		weapon_id = {
+			28413,
+			82993
+		}
+	},
 	[29000] = {
 		name = "贼鸥",
+		tech = 1,
 		speciality = "轰炸",
 		type = 9,
 		rarity = 1,
-		tech = 1,
 		descrip = "说明未填写",
 		value_2 = 0,
 		icon = "29000",
 		nationality = 2,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 29000,
 		torpedo_ammo = 0,
@@ -43782,6 +57100,7 @@ pg.equip_data_statistics = {
 		equip_info = {
 			6,
 			7,
+			8,
 			9
 		},
 		weapon_id = {
@@ -43871,7 +57190,7 @@ pg.equip_data_statistics = {
 		icon = "29000",
 		attribute_2 = "air",
 		nationality = 2,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 29020,
 		torpedo_ammo = 0,
@@ -43890,6 +57209,7 @@ pg.equip_data_statistics = {
 		equip_info = {
 			6,
 			7,
+			8,
 			9
 		},
 		weapon_id = {
@@ -43979,7 +57299,7 @@ pg.equip_data_statistics = {
 		icon = "29000",
 		attribute_2 = "air",
 		nationality = 2,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 29040,
 		torpedo_ammo = 0,
@@ -43998,6 +57318,7 @@ pg.equip_data_statistics = {
 		equip_info = {
 			6,
 			7,
+			8,
 			9
 		},
 		weapon_id = {
@@ -44133,6 +57454,25 @@ pg.equip_data_statistics = {
 			29046
 		}
 	},
+	[29047] = {
+		base = 29040,
+		id = 29047,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50147
+			},
+			{
+				5,
+				52247
+			}
+		},
+		weapon_id = {
+			29047
+		}
+	},
 	[29100] = {
 		name = "海燕",
 		type = 9,
@@ -44144,7 +57484,7 @@ pg.equip_data_statistics = {
 		icon = "29100",
 		attribute_2 = "air",
 		nationality = 2,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 29100,
 		torpedo_ammo = 0,
@@ -44163,6 +57503,7 @@ pg.equip_data_statistics = {
 		equip_info = {
 			6,
 			7,
+			8,
 			9
 		},
 		weapon_id = {
@@ -44252,7 +57593,7 @@ pg.equip_data_statistics = {
 		icon = "29100",
 		attribute_2 = "air",
 		nationality = 2,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 29120,
 		torpedo_ammo = 0,
@@ -44271,6 +57612,7 @@ pg.equip_data_statistics = {
 		equip_info = {
 			6,
 			7,
+			8,
 			9
 		},
 		weapon_id = {
@@ -44417,7 +57759,7 @@ pg.equip_data_statistics = {
 		icon = "29100",
 		attribute_2 = "air",
 		nationality = 2,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 29140,
 		torpedo_ammo = 0,
@@ -44436,6 +57778,7 @@ pg.equip_data_statistics = {
 		equip_info = {
 			6,
 			7,
+			8,
 			9
 		},
 		weapon_id = {
@@ -44647,6 +57990,26 @@ pg.equip_data_statistics = {
 			29150
 		}
 	},
+	[29151] = {
+		anti_siren = 100,
+		base = 29140,
+		id = 29151,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50251
+			},
+			{
+				5,
+				52151
+			}
+		},
+		weapon_id = {
+			29151
+		}
+	},
 	[29200] = {
 		name = "萤火虫",
 		type = 9,
@@ -44658,7 +58021,7 @@ pg.equip_data_statistics = {
 		icon = "29200",
 		attribute_2 = "air",
 		nationality = 2,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 29200,
 		torpedo_ammo = 0,
@@ -44677,6 +58040,7 @@ pg.equip_data_statistics = {
 		equip_info = {
 			6,
 			7,
+			8,
 			9
 		},
 		weapon_id = {
@@ -44888,6 +58252,66 @@ pg.equip_data_statistics = {
 			29210
 		}
 	},
+	[29211] = {
+		anti_siren = 100,
+		base = 29200,
+		id = 29211,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50671
+			},
+			{
+				5,
+				52751
+			}
+		},
+		weapon_id = {
+			29211
+		}
+	},
+	[29212] = {
+		anti_siren = 200,
+		base = 29200,
+		id = 29212,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50672
+			},
+			{
+				5,
+				52752
+			}
+		},
+		weapon_id = {
+			29212
+		}
+	},
+	[29213] = {
+		anti_siren = 300,
+		base = 29200,
+		id = 29213,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50673
+			},
+			{
+				5,
+				52753
+			}
+		},
+		weapon_id = {
+			29213
+		}
+	},
 	[29300] = {
 		name = "梭鱼(831中队)",
 		type = 9,
@@ -44899,7 +58323,7 @@ pg.equip_data_statistics = {
 		icon = "29300",
 		attribute_2 = "air",
 		nationality = 2,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 29300,
 		torpedo_ammo = 0,
@@ -44918,13 +58342,14 @@ pg.equip_data_statistics = {
 		equip_info = {
 			6,
 			7,
+			8,
 			9
 		},
 		weapon_id = {
 			29300
 		},
 		skill_id = {
-			6420
+			6830
 		},
 		part_main = {
 			6,
@@ -44958,6 +58383,9 @@ pg.equip_data_statistics = {
 		},
 		weapon_id = {
 			29301
+		},
+		skill_id = {
+			6831
 		}
 	},
 	[29302] = {
@@ -44977,6 +58405,9 @@ pg.equip_data_statistics = {
 		},
 		weapon_id = {
 			29302
+		},
+		skill_id = {
+			6832
 		}
 	},
 	[29303] = {
@@ -44996,6 +58427,9 @@ pg.equip_data_statistics = {
 		},
 		weapon_id = {
 			29303
+		},
+		skill_id = {
+			6833
 		}
 	},
 	[29304] = {
@@ -45015,6 +58449,9 @@ pg.equip_data_statistics = {
 		},
 		weapon_id = {
 			29304
+		},
+		skill_id = {
+			6834
 		}
 	},
 	[29305] = {
@@ -45034,6 +58471,9 @@ pg.equip_data_statistics = {
 		},
 		weapon_id = {
 			29305
+		},
+		skill_id = {
+			6835
 		}
 	},
 	[29306] = {
@@ -45053,6 +58493,9 @@ pg.equip_data_statistics = {
 		},
 		weapon_id = {
 			29306
+		},
+		skill_id = {
+			6836
 		}
 	},
 	[29307] = {
@@ -45072,6 +58515,9 @@ pg.equip_data_statistics = {
 		},
 		weapon_id = {
 			29307
+		},
+		skill_id = {
+			6837
 		}
 	},
 	[29308] = {
@@ -45091,6 +58537,9 @@ pg.equip_data_statistics = {
 		},
 		weapon_id = {
 			29308
+		},
+		skill_id = {
+			6838
 		}
 	},
 	[29309] = {
@@ -45110,6 +58559,9 @@ pg.equip_data_statistics = {
 		},
 		weapon_id = {
 			29309
+		},
+		skill_id = {
+			6839
 		}
 	},
 	[29310] = {
@@ -45129,6 +58581,78 @@ pg.equip_data_statistics = {
 		},
 		weapon_id = {
 			29310
+		},
+		skill_id = {
+			6840
+		}
+	},
+	[29311] = {
+		anti_siren = 100,
+		base = 29300,
+		id = 29311,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50051
+			},
+			{
+				5,
+				53291
+			}
+		},
+		weapon_id = {
+			29311
+		},
+		skill_id = {
+			6841
+		}
+	},
+	[29312] = {
+		anti_siren = 200,
+		base = 29300,
+		id = 29312,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50052
+			},
+			{
+				5,
+				53292
+			}
+		},
+		weapon_id = {
+			29312
+		},
+		skill_id = {
+			6842
+		}
+	},
+	[29313] = {
+		anti_siren = 300,
+		base = 29300,
+		id = 29313,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50053
+			},
+			{
+				5,
+				53293
+			}
+		},
+		weapon_id = {
+			29313
+		},
+		skill_id = {
+			6843
 		}
 	},
 	[30000] = {
@@ -45143,7 +58667,7 @@ pg.equip_data_statistics = {
 		rarity = 3,
 		damage = "40 x 2",
 		nationality = 3,
-		ammo = "通常弹",
+		ammo = 3,
 		value_3 = 0,
 		id = 30000,
 		torpedo_ammo = 0,
@@ -45160,7 +58684,10 @@ pg.equip_data_statistics = {
 		equip_info = {
 			1,
 			2,
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			30000
@@ -45240,6 +58767,16 @@ pg.equip_data_statistics = {
 			30006
 		}
 	},
+	[30007] = {
+		damage = "74 x 2",
+		base = 30000,
+		id = 30007,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			30007
+		}
+	},
 	[31000] = {
 		name = "双联100mm98式高射炮",
 		speciality = "锁定",
@@ -45253,7 +58790,7 @@ pg.equip_data_statistics = {
 		rarity = 3,
 		damage = "4 x 4",
 		nationality = 3,
-		ammo = "通常弹",
+		ammo = 3,
 		value_3 = 8,
 		id = 31000,
 		torpedo_ammo = 0,
@@ -45278,14 +58815,18 @@ pg.equip_data_statistics = {
 				4,
 				1001
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			31000
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -45375,7 +58916,7 @@ pg.equip_data_statistics = {
 		rarity = 4,
 		damage = "4 x 4",
 		nationality = 3,
-		ammo = "通常弹",
+		ammo = 3,
 		value_3 = 16,
 		id = 31020,
 		torpedo_ammo = 0,
@@ -45400,14 +58941,18 @@ pg.equip_data_statistics = {
 				4,
 				1001
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			31020
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -45537,7 +59082,7 @@ pg.equip_data_statistics = {
 		rarity = 5,
 		damage = "4 x 4",
 		nationality = 3,
-		ammo = "通常弹",
+		ammo = 3,
 		value_3 = 30,
 		id = 31040,
 		torpedo_ammo = 0,
@@ -45562,14 +59107,18 @@ pg.equip_data_statistics = {
 				4,
 				1001
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			31040
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -45686,6 +59235,215 @@ pg.equip_data_statistics = {
 			31050
 		}
 	},
+	[31051] = {
+		anti_siren = 100,
+		damage = "12 x 4",
+		base = 31040,
+		id = 31051,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			31051
+		}
+	},
+	[31052] = {
+		anti_siren = 200,
+		damage = "12 x 4",
+		base = 31040,
+		id = 31052,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			31052
+		}
+	},
+	[31053] = {
+		anti_siren = 300,
+		damage = "12 x 4",
+		base = 31040,
+		id = 31053,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			31053
+		}
+	},
+	[31060] = {
+		name = "100mm88式火炮",
+		speciality = "锁定",
+		type = 1,
+		tech = 0,
+		descrip = "说明未填写",
+		value_2 = 10,
+		icon = "31060",
+		attribute_2 = "cannon",
+		rarity = 4,
+		damage = "4 x 4",
+		nationality = 3,
+		ammo = 3,
+		value_3 = 15,
+		id = 31060,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			1
+		},
+		ammo_info = {
+			{
+				1,
+				1200
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			{
+				3,
+				1200
+			},
+			{
+				4,
+				1001
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			31060
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			19
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"DD",
+			"MG"
+		}
+	},
+	[31061] = {
+		base = 31060,
+		id = 31061,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			31061
+		}
+	},
+	[31062] = {
+		damage = "5 x 4",
+		base = 31060,
+		id = 31062,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			31062
+		}
+	},
+	[31063] = {
+		damage = "5 x 4",
+		base = 31060,
+		id = 31063,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			31063
+		}
+	},
+	[31064] = {
+		damage = "6 x 4",
+		base = 31060,
+		id = 31064,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			31064
+		}
+	},
+	[31065] = {
+		damage = "6 x 4",
+		base = 31060,
+		id = 31065,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			31065
+		}
+	},
+	[31066] = {
+		damage = "7 x 4",
+		base = 31060,
+		id = 31066,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			31066
+		}
+	},
+	[31067] = {
+		damage = "7 x 4",
+		base = 31060,
+		id = 31067,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			31067
+		}
+	},
+	[31068] = {
+		damage = "8 x 4",
+		base = 31060,
+		id = 31068,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			31068
+		}
+	},
+	[31069] = {
+		damage = "8 x 4",
+		base = 31060,
+		id = 31069,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			31069
+		}
+	},
+	[31070] = {
+		damage = "9 x 4",
+		base = 31060,
+		id = 31070,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			31070
+		}
+	},
+	[31071] = {
+		anti_siren = 100,
+		damage = "9 x 4",
+		base = 31060,
+		id = 31071,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			31071
+		}
+	},
 	[31100] = {
 		name = "120mm单装炮",
 		speciality = "锁定",
@@ -45697,7 +59455,7 @@ pg.equip_data_statistics = {
 		icon = "31100",
 		damage = "3 x 1",
 		nationality = 3,
-		ammo = "通常弹",
+		ammo = 3,
 		value_3 = 0,
 		id = 31100,
 		torpedo_ammo = 0,
@@ -45722,14 +59480,18 @@ pg.equip_data_statistics = {
 				4,
 				1000
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			31100
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -45788,7 +59550,7 @@ pg.equip_data_statistics = {
 		rarity = 2,
 		damage = "3 x 1",
 		nationality = 3,
-		ammo = "通常弹",
+		ammo = 3,
 		value_3 = 0,
 		id = 31120,
 		torpedo_ammo = 0,
@@ -45813,14 +59575,18 @@ pg.equip_data_statistics = {
 				4,
 				1000
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			31120
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -45879,7 +59645,7 @@ pg.equip_data_statistics = {
 		rarity = 3,
 		damage = "3 x 1",
 		nationality = 3,
-		ammo = "通常弹",
+		ammo = 3,
 		value_3 = 0,
 		id = 31140,
 		torpedo_ammo = 0,
@@ -45904,14 +59670,18 @@ pg.equip_data_statistics = {
 				4,
 				1000
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			31140
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -45988,6 +59758,328 @@ pg.equip_data_statistics = {
 			31146
 		}
 	},
+	[31147] = {
+		damage = "8 x 1",
+		base = 31140,
+		id = 31147,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			31147
+		}
+	},
+	[31160] = {
+		name = "十一年式120mm单装炮",
+		speciality = "锁定",
+		type = 1,
+		tech = 0,
+		descrip = "说明未填写",
+		value_2 = 12,
+		icon = "31160",
+		attribute_2 = "cannon",
+		rarity = 3,
+		damage = "3 x 2",
+		nationality = 3,
+		ammo = 3,
+		value_3 = 0,
+		id = 31160,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			1
+		},
+		ammo_info = {
+			{
+				1,
+				1200
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			{
+				3,
+				1200
+			},
+			{
+				4,
+				1007
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			31160
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			19
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"DD",
+			"MG"
+		}
+	},
+	[31161] = {
+		base = 31160,
+		id = 31161,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			31161
+		}
+	},
+	[31162] = {
+		damage = "4 x 2",
+		base = 31160,
+		id = 31162,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			31162
+		}
+	},
+	[31163] = {
+		damage = "4 x 2",
+		base = 31160,
+		id = 31163,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			31163
+		}
+	},
+	[31164] = {
+		damage = "7 x 2",
+		base = 31160,
+		id = 31164,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			31164
+		}
+	},
+	[31165] = {
+		damage = "7 x 2",
+		base = 31160,
+		id = 31165,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			31165
+		}
+	},
+	[31166] = {
+		damage = "8 x 2",
+		base = 31160,
+		id = 31166,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			31166
+		}
+	},
+	[31167] = {
+		damage = "8 x 2",
+		base = 31160,
+		id = 31167,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			31167
+		}
+	},
+	[31180] = {
+		name = "120mm单装高角炮",
+		speciality = "锁定",
+		type = 1,
+		attribute_3 = "antiaircraft",
+		tech = 0,
+		value_2 = 10,
+		icon = "31180",
+		attribute_2 = "cannon",
+		descrip = "说明未填写",
+		rarity = 4,
+		damage = "4 x 3",
+		nationality = 3,
+		ammo = 3,
+		value_3 = 15,
+		id = 31180,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			1
+		},
+		ammo_info = {
+			{
+				1,
+				1200
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			{
+				3,
+				1200
+			},
+			{
+				4,
+				1003
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			31180
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			19
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"DD",
+			"MG"
+		}
+	},
+	[31181] = {
+		base = 31180,
+		id = 31181,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			31181
+		}
+	},
+	[31182] = {
+		damage = "5 x 3",
+		base = 31180,
+		id = 31182,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			31182
+		}
+	},
+	[31183] = {
+		damage = "5 x 3",
+		base = 31180,
+		id = 31183,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			31183
+		}
+	},
+	[31184] = {
+		damage = "7 x 3",
+		base = 31180,
+		id = 31184,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			31184
+		}
+	},
+	[31185] = {
+		damage = "7 x 3",
+		base = 31180,
+		id = 31185,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			31185
+		}
+	},
+	[31186] = {
+		damage = "8 x 3",
+		base = 31180,
+		id = 31186,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			31186
+		}
+	},
+	[31187] = {
+		damage = "9 x 3",
+		base = 31180,
+		id = 31187,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			31187
+		}
+	},
+	[31188] = {
+		damage = "9 x 3",
+		base = 31180,
+		id = 31188,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			31188
+		}
+	},
+	[31189] = {
+		damage = "10 x 3",
+		base = 31180,
+		id = 31189,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			31189
+		}
+	},
+	[31190] = {
+		damage = "11 x 3",
+		base = 31180,
+		id = 31190,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			31190
+		}
+	},
+	[31191] = {
+		anti_siren = 100,
+		damage = "11 x 3",
+		base = 31180,
+		id = 31191,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			31191
+		}
+	},
 	[31200] = {
 		name = "127mm连装炮",
 		speciality = "锁定",
@@ -46000,7 +60092,7 @@ pg.equip_data_statistics = {
 		rarity = 2,
 		damage = "4 x 4",
 		nationality = 3,
-		ammo = "通常弹",
+		ammo = 3,
 		value_3 = 0,
 		id = 31200,
 		torpedo_ammo = 0,
@@ -46025,14 +60117,18 @@ pg.equip_data_statistics = {
 				4,
 				1001
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			31200
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -46091,7 +60187,7 @@ pg.equip_data_statistics = {
 		rarity = 3,
 		damage = "4 x 4",
 		nationality = 3,
-		ammo = "通常弹",
+		ammo = 3,
 		value_3 = 0,
 		id = 31220,
 		torpedo_ammo = 0,
@@ -46116,14 +60212,18 @@ pg.equip_data_statistics = {
 				4,
 				1001
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			31220
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -46212,7 +60312,7 @@ pg.equip_data_statistics = {
 		rarity = 4,
 		damage = "4 x 4",
 		nationality = 3,
-		ammo = "高爆弹",
+		ammo = 2,
 		value_3 = 0,
 		id = 31240,
 		torpedo_ammo = 0,
@@ -46237,14 +60337,18 @@ pg.equip_data_statistics = {
 				4,
 				1001
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			31240
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -46362,6 +60466,331 @@ pg.equip_data_statistics = {
 			31250
 		}
 	},
+	[31251] = {
+		anti_siren = 100,
+		damage = "12 x 4",
+		base = 31240,
+		id = 31251,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			31251
+		}
+	},
+	[31260] = {
+		name = "127mm单装两用炮",
+		speciality = "锁定",
+		type = 1,
+		attribute_3 = "antiaircraft",
+		tech = 0,
+		value_2 = 5,
+		icon = "31260",
+		attribute_2 = "cannon",
+		descrip = "说明未填写",
+		rarity = 3,
+		damage = "3 x 2",
+		nationality = 3,
+		ammo = 3,
+		value_3 = 7,
+		id = 31260,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			1
+		},
+		ammo_info = {
+			{
+				1,
+				1200
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			{
+				3,
+				1200
+			},
+			{
+				4,
+				1007
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			31260
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			19
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"DD",
+			"MG"
+		}
+	},
+	[31261] = {
+		base = 31260,
+		id = 31261,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			31261
+		}
+	},
+	[31262] = {
+		damage = "4 x 2",
+		base = 31260,
+		id = 31262,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			31262
+		}
+	},
+	[31263] = {
+		damage = "4 x 2",
+		base = 31260,
+		id = 31263,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			31263
+		}
+	},
+	[31264] = {
+		damage = "7 x 2",
+		base = 31260,
+		id = 31264,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			31264
+		}
+	},
+	[31265] = {
+		damage = "7 x 2",
+		base = 31260,
+		id = 31265,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			31265
+		}
+	},
+	[31266] = {
+		damage = "8 x 2",
+		base = 31260,
+		id = 31266,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			31266
+		}
+	},
+	[31267] = {
+		damage = "8 x 2",
+		base = 31260,
+		id = 31267,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			31267
+		}
+	},
+	[31280] = {
+		name = "127mm连装炮改",
+		speciality = "锁定",
+		type = 1,
+		tech = 0,
+		descrip = "说明未填写",
+		value_2 = 25,
+		icon = "31280",
+		attribute_2 = "cannon",
+		rarity = 4,
+		damage = "4 x 4",
+		nationality = 3,
+		ammo = 2,
+		value_3 = 0,
+		id = 31280,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			3
+		},
+		ammo_info = {
+			{
+				1,
+				1206
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			{
+				3,
+				1206
+			},
+			{
+				4,
+				1001
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			31280
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			19
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"DD",
+			"MG",
+			"HE"
+		}
+	},
+	[31281] = {
+		damage = "5 x 4",
+		base = 31280,
+		id = 31281,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			31281
+		}
+	},
+	[31282] = {
+		damage = "6 x 4",
+		base = 31280,
+		id = 31282,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			31282
+		}
+	},
+	[31283] = {
+		damage = "7 x 4",
+		base = 31280,
+		id = 31283,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			31283
+		}
+	},
+	[31284] = {
+		damage = "8 x 4",
+		base = 31280,
+		id = 31284,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			31284
+		}
+	},
+	[31285] = {
+		damage = "9 x 4",
+		base = 31280,
+		id = 31285,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			31285
+		}
+	},
+	[31286] = {
+		damage = "10 x 4",
+		base = 31280,
+		id = 31286,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			31286
+		}
+	},
+	[31287] = {
+		damage = "11 x 4",
+		base = 31280,
+		id = 31287,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			31287
+		}
+	},
+	[31288] = {
+		damage = "12 x 4",
+		base = 31280,
+		id = 31288,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			31288
+		}
+	},
+	[31289] = {
+		damage = "13 x 4",
+		base = 31280,
+		id = 31289,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			31289
+		}
+	},
+	[31290] = {
+		damage = "14 x 4",
+		base = 31280,
+		id = 31290,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			31290
+		}
+	},
+	[31291] = {
+		anti_siren = 100,
+		damage = "14 x 4",
+		base = 31280,
+		id = 31291,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			31291
+		}
+	},
 	[32000] = {
 		name = "140mm单装炮",
 		speciality = "锁定",
@@ -46373,7 +60802,7 @@ pg.equip_data_statistics = {
 		icon = "32000",
 		damage = "5 x 3",
 		nationality = 3,
-		ammo = "通常弹",
+		ammo = 3,
 		value_3 = 0,
 		id = 32000,
 		torpedo_ammo = 0,
@@ -46398,7 +60827,10 @@ pg.equip_data_statistics = {
 				4,
 				1003
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			32000
@@ -46459,7 +60891,7 @@ pg.equip_data_statistics = {
 		rarity = 2,
 		damage = "6 x 3",
 		nationality = 3,
-		ammo = "通常弹",
+		ammo = 3,
 		value_3 = 0,
 		id = 32020,
 		torpedo_ammo = 0,
@@ -46484,7 +60916,10 @@ pg.equip_data_statistics = {
 				4,
 				1003
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			32020
@@ -46545,7 +60980,7 @@ pg.equip_data_statistics = {
 		rarity = 3,
 		damage = "7 x 3",
 		nationality = 3,
-		ammo = "高爆弹",
+		ammo = 2,
 		value_3 = 0,
 		id = 32040,
 		torpedo_ammo = 0,
@@ -46570,7 +61005,10 @@ pg.equip_data_statistics = {
 				4,
 				1003
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			32040
@@ -46649,6 +61087,146 @@ pg.equip_data_statistics = {
 			32046
 		}
 	},
+	[32047] = {
+		damage = "13 x 3",
+		base = 32040,
+		id = 32047,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			32047
+		}
+	},
+	[32060] = {
+		name = "152mm单装炮",
+		speciality = "锁定",
+		type = 2,
+		tech = 3,
+		descrip = "说明未填写",
+		value_2 = 12,
+		icon = "32060",
+		attribute_2 = "cannon",
+		rarity = 3,
+		damage = "6 x 3",
+		nationality = 3,
+		ammo = 2,
+		value_3 = 0,
+		id = 32060,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			1
+		},
+		ammo_info = {
+			{
+				1,
+				1207
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			{
+				3,
+				1207
+			},
+			{
+				4,
+				1003
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			32060
+		},
+		skill_id = {},
+		part_main = {
+			2
+		},
+		part_sub = {
+			5
+		},
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"CL",
+			"MG",
+			"HE"
+		}
+	},
+	[32061] = {
+		damage = "8 x 3",
+		base = 32060,
+		id = 32061,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			32061
+		}
+	},
+	[32062] = {
+		damage = "10 x 3",
+		base = 32060,
+		id = 32062,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			32062
+		}
+	},
+	[32063] = {
+		damage = "12 x 3",
+		base = 32060,
+		id = 32063,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			32063
+		}
+	},
+	[32064] = {
+		damage = "14 x 3",
+		base = 32060,
+		id = 32064,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			32064
+		}
+	},
+	[32065] = {
+		damage = "15 x 3",
+		base = 32060,
+		id = 32065,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			32065
+		}
+	},
+	[32066] = {
+		damage = "16 x 3",
+		base = 32060,
+		id = 32066,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			32066
+		}
+	},
+	[32067] = {
+		damage = "16 x 3",
+		base = 32060,
+		id = 32067,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			32067
+		}
+	},
 	[32100] = {
 		name = "140mm连装炮",
 		speciality = "散射",
@@ -46661,7 +61239,7 @@ pg.equip_data_statistics = {
 		rarity = 2,
 		damage = "5 x 4",
 		nationality = 3,
-		ammo = "通常弹",
+		ammo = 3,
 		value_3 = 0,
 		id = 32100,
 		torpedo_ammo = 0,
@@ -46686,7 +61264,10 @@ pg.equip_data_statistics = {
 				4,
 				1101
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			32100
@@ -46747,7 +61328,7 @@ pg.equip_data_statistics = {
 		rarity = 3,
 		damage = "6 x 4",
 		nationality = 3,
-		ammo = "高爆弹",
+		ammo = 2,
 		value_3 = 0,
 		id = 32120,
 		torpedo_ammo = 0,
@@ -46772,7 +61353,10 @@ pg.equip_data_statistics = {
 				4,
 				1101
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			32120
@@ -46863,7 +61447,7 @@ pg.equip_data_statistics = {
 		rarity = 4,
 		damage = "7 x 4",
 		nationality = 3,
-		ammo = "高爆弹",
+		ammo = 2,
 		value_3 = 0,
 		id = 32140,
 		torpedo_ammo = 0,
@@ -46888,7 +61472,10 @@ pg.equip_data_statistics = {
 				4,
 				1101
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			32140
@@ -47008,6 +61595,17 @@ pg.equip_data_statistics = {
 			32150
 		}
 	},
+	[32151] = {
+		anti_siren = 100,
+		damage = "17 x 4",
+		base = 32140,
+		id = 32151,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			32151
+		}
+	},
 	[32200] = {
 		name = "155mm三连装炮",
 		speciality = "锁定",
@@ -47020,7 +61618,7 @@ pg.equip_data_statistics = {
 		rarity = 3,
 		damage = "6 x 6",
 		nationality = 3,
-		ammo = "通常弹",
+		ammo = 3,
 		value_3 = 0,
 		id = 32200,
 		torpedo_ammo = 0,
@@ -47045,7 +61643,10 @@ pg.equip_data_statistics = {
 				4,
 				1105
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			32200
@@ -47136,7 +61737,7 @@ pg.equip_data_statistics = {
 		rarity = 4,
 		damage = "7 x 6",
 		nationality = 3,
-		ammo = "高爆弹",
+		ammo = 2,
 		value_3 = 0,
 		id = 32220,
 		torpedo_ammo = 0,
@@ -47161,7 +61762,10 @@ pg.equip_data_statistics = {
 				4,
 				1105
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			32220
@@ -47293,7 +61897,7 @@ pg.equip_data_statistics = {
 		rarity = 5,
 		damage = "8 x 6",
 		nationality = 3,
-		ammo = "高爆弹",
+		ammo = 2,
 		value_3 = 0,
 		id = 32240,
 		torpedo_ammo = 0,
@@ -47318,7 +61922,10 @@ pg.equip_data_statistics = {
 				4,
 				1105
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			32240
@@ -47438,6 +62045,39 @@ pg.equip_data_statistics = {
 			32250
 		}
 	},
+	[32251] = {
+		anti_siren = 100,
+		damage = "18 x 6",
+		base = 32240,
+		id = 32251,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			32251
+		}
+	},
+	[32252] = {
+		anti_siren = 200,
+		damage = "18 x 6",
+		base = 32240,
+		id = 32252,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			32252
+		}
+	},
+	[32253] = {
+		anti_siren = 300,
+		damage = "18 x 6",
+		base = 32240,
+		id = 32253,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			32253
+		}
+	},
 	[32300] = {
 		name = "152mm连装炮",
 		speciality = "散射",
@@ -47450,7 +62090,7 @@ pg.equip_data_statistics = {
 		rarity = 2,
 		damage = "6 x 4",
 		nationality = 3,
-		ammo = "通常弹",
+		ammo = 3,
 		value_3 = 0,
 		id = 32300,
 		torpedo_ammo = 0,
@@ -47475,7 +62115,10 @@ pg.equip_data_statistics = {
 				4,
 				1101
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			32300
@@ -47536,7 +62179,7 @@ pg.equip_data_statistics = {
 		rarity = 3,
 		damage = "7 x 4",
 		nationality = 3,
-		ammo = "高爆弹",
+		ammo = 2,
 		value_3 = 0,
 		id = 32320,
 		torpedo_ammo = 0,
@@ -47561,7 +62204,10 @@ pg.equip_data_statistics = {
 				4,
 				1101
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			32320
@@ -47653,7 +62299,7 @@ pg.equip_data_statistics = {
 		rarity = 4,
 		damage = "8 x 4",
 		nationality = 3,
-		ammo = "高爆弹",
+		ammo = 2,
 		value_3 = 0,
 		id = 32340,
 		torpedo_ammo = 0,
@@ -47678,7 +62324,10 @@ pg.equip_data_statistics = {
 				4,
 				1101
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			32340
@@ -47798,6 +62447,17 @@ pg.equip_data_statistics = {
 			32350
 		}
 	},
+	[32351] = {
+		anti_siren = 100,
+		damage = "18 x 4",
+		base = 32340,
+		id = 32351,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			32351
+		}
+	},
 	[33000] = {
 		name = "203mm连装炮",
 		speciality = "锁定",
@@ -47810,7 +62470,7 @@ pg.equip_data_statistics = {
 		rarity = 2,
 		damage = "22 x 4",
 		nationality = 3,
-		ammo = "通常弹",
+		ammo = 3,
 		value_3 = 0,
 		id = 33000,
 		torpedo_ammo = 0,
@@ -47835,7 +62495,10 @@ pg.equip_data_statistics = {
 				4,
 				1205
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			33000
@@ -47896,7 +62559,7 @@ pg.equip_data_statistics = {
 		rarity = 3,
 		damage = "24 x 4",
 		nationality = 3,
-		ammo = "高爆弹",
+		ammo = 2,
 		value_3 = 0,
 		id = 33020,
 		torpedo_ammo = 0,
@@ -47921,7 +62584,10 @@ pg.equip_data_statistics = {
 				4,
 				1205
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			33020
@@ -48012,7 +62678,7 @@ pg.equip_data_statistics = {
 		rarity = 4,
 		damage = "26 x 4",
 		nationality = 3,
-		ammo = "高爆弹",
+		ammo = 2,
 		value_3 = 0,
 		id = 33040,
 		torpedo_ammo = 0,
@@ -48037,7 +62703,10 @@ pg.equip_data_statistics = {
 				4,
 				1205
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			33040
@@ -48156,6 +62825,17 @@ pg.equip_data_statistics = {
 			33050
 		}
 	},
+	[33051] = {
+		anti_siren = 100,
+		damage = "46 x 4",
+		base = 33040,
+		id = 33051,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			33051
+		}
+	},
 	[33060] = {
 		name = "试作型203mm(3号)连装炮",
 		speciality = "锁定",
@@ -48168,7 +62848,7 @@ pg.equip_data_statistics = {
 		rarity = 5,
 		damage = "28 x 4",
 		nationality = 3,
-		ammo = "高爆弹",
+		ammo = 2,
 		value_3 = 0,
 		id = 33060,
 		torpedo_ammo = 0,
@@ -48193,7 +62873,10 @@ pg.equip_data_statistics = {
 				4,
 				1205
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			33060
@@ -48312,6 +62995,209 @@ pg.equip_data_statistics = {
 			33070
 		}
 	},
+	[33071] = {
+		anti_siren = 100,
+		damage = "48 x 4",
+		base = 33060,
+		id = 33071,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			33071
+		}
+	},
+	[33072] = {
+		anti_siren = 200,
+		damage = "48 x 4",
+		base = 33060,
+		id = 33072,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			33072
+		}
+	},
+	[33073] = {
+		anti_siren = 300,
+		damage = "48 x 4",
+		base = 33060,
+		id = 33073,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			33073
+		}
+	},
+	[33080] = {
+		name = "203mm连装炮改",
+		speciality = "锁定",
+		type = 3,
+		tech = 3,
+		descrip = "说明未填写",
+		value_2 = 25,
+		icon = "33080",
+		attribute_2 = "cannon",
+		rarity = 4,
+		damage = "28 x 4",
+		nationality = 3,
+		ammo = 2,
+		value_3 = 0,
+		id = 33080,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			3
+		},
+		ammo_info = {
+			{
+				1,
+				1402
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			{
+				3,
+				1402
+			},
+			{
+				4,
+				1205
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			33080
+		},
+		skill_id = {},
+		part_main = {
+			3,
+			18
+		},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"CA",
+			"MG",
+			"HE"
+		}
+	},
+	[33081] = {
+		damage = "30 x 4",
+		base = 33080,
+		id = 33081,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			33081
+		}
+	},
+	[33082] = {
+		damage = "32 x 4",
+		base = 33080,
+		id = 33082,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			33082
+		}
+	},
+	[33083] = {
+		damage = "34 x 4",
+		base = 33080,
+		id = 33083,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			33083
+		}
+	},
+	[33084] = {
+		damage = "36 x 4",
+		base = 33080,
+		id = 33084,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			33084
+		}
+	},
+	[33085] = {
+		damage = "38 x 4",
+		base = 33080,
+		id = 33085,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			33085
+		}
+	},
+	[33086] = {
+		damage = "40 x 4",
+		base = 33080,
+		id = 33086,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			33086
+		}
+	},
+	[33087] = {
+		damage = "42 x 4",
+		base = 33080,
+		id = 33087,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			33087
+		}
+	},
+	[33088] = {
+		damage = "44 x 4",
+		base = 33080,
+		id = 33088,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			33088
+		}
+	},
+	[33089] = {
+		damage = "46 x 4",
+		base = 33080,
+		id = 33089,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			33089
+		}
+	},
+	[33090] = {
+		damage = "48 x 4",
+		base = 33080,
+		id = 33090,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			33090
+		}
+	},
+	[33091] = {
+		anti_siren = 100,
+		damage = "48 x 4",
+		base = 33080,
+		id = 33091,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			33091
+		}
+	},
 	[33100] = {
 		name = "试作型三联装310mm主炮",
 		speciality = "跨射",
@@ -48324,7 +63210,7 @@ pg.equip_data_statistics = {
 		rarity = 5,
 		damage = "36 x 6",
 		nationality = 3,
-		ammo = "高爆弹",
+		ammo = 2,
 		value_3 = 0,
 		id = 33100,
 		torpedo_ammo = 0,
@@ -48341,7 +63227,10 @@ pg.equip_data_statistics = {
 		equip_info = {
 			1,
 			2,
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			33100
@@ -48459,6 +63348,39 @@ pg.equip_data_statistics = {
 			33110
 		}
 	},
+	[33111] = {
+		anti_siren = 100,
+		damage = "56 x 6",
+		base = 33100,
+		id = 33111,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			33111
+		}
+	},
+	[33112] = {
+		anti_siren = 200,
+		damage = "56 x 6",
+		base = 33100,
+		id = 33112,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			33112
+		}
+	},
+	[33113] = {
+		anti_siren = 300,
+		damage = "56 x 6",
+		base = 33100,
+		id = 33113,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			33113
+		}
+	},
 	[34000] = {
 		name = "356mm连装炮",
 		speciality = "跨射",
@@ -48470,7 +63392,7 @@ pg.equip_data_statistics = {
 		icon = "34000",
 		damage = "38 x 2",
 		nationality = 3,
-		ammo = "通常弹",
+		ammo = 3,
 		value_3 = 0,
 		id = 34000,
 		torpedo_ammo = 0,
@@ -48487,7 +63409,10 @@ pg.equip_data_statistics = {
 		equip_info = {
 			1,
 			2,
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			34000
@@ -48549,7 +63474,7 @@ pg.equip_data_statistics = {
 		rarity = 2,
 		damage = "42 x 2",
 		nationality = 3,
-		ammo = "高爆弹",
+		ammo = 2,
 		value_3 = 0,
 		id = 34020,
 		torpedo_ammo = 0,
@@ -48566,7 +63491,10 @@ pg.equip_data_statistics = {
 		equip_info = {
 			1,
 			2,
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			34020
@@ -48629,7 +63557,7 @@ pg.equip_data_statistics = {
 		rarity = 3,
 		damage = "46 x 2",
 		nationality = 3,
-		ammo = "高爆弹",
+		ammo = 2,
 		value_3 = 0,
 		id = 34040,
 		torpedo_ammo = 0,
@@ -48646,7 +63574,10 @@ pg.equip_data_statistics = {
 		equip_info = {
 			1,
 			2,
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			34040
@@ -48727,6 +63658,139 @@ pg.equip_data_statistics = {
 			34046
 		}
 	},
+	[34047] = {
+		damage = "88 x 2",
+		base = 34040,
+		id = 34047,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			34047
+		}
+	},
+	[34060] = {
+		name = "356mm毘式连装炮",
+		speciality = "跨射",
+		type = 4,
+		tech = 0,
+		descrip = "说明未填写",
+		value_2 = 12,
+		icon = "34060",
+		attribute_2 = "cannon",
+		rarity = 3,
+		damage = "52 x 2",
+		nationality = 3,
+		ammo = 2,
+		value_3 = 0,
+		id = 34060,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			3
+		},
+		ammo_info = {
+			{
+				2,
+				1502
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			34060
+		},
+		skill_id = {},
+		part_main = {
+			4,
+			5,
+			10,
+			13
+		},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"BB",
+			"MG",
+			"HE"
+		}
+	},
+	[34061] = {
+		damage = "58 x 2",
+		base = 34060,
+		id = 34061,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			34061
+		}
+	},
+	[34062] = {
+		damage = "66 x 2",
+		base = 34060,
+		id = 34062,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			34062
+		}
+	},
+	[34063] = {
+		damage = "74 x 2",
+		base = 34060,
+		id = 34063,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			34063
+		}
+	},
+	[34064] = {
+		damage = "80 x 2",
+		base = 34060,
+		id = 34064,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			34064
+		}
+	},
+	[34065] = {
+		damage = "88 x 2",
+		base = 34060,
+		id = 34065,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			34065
+		}
+	},
+	[34066] = {
+		damage = "94 x 2",
+		base = 34060,
+		id = 34066,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			34066
+		}
+	},
+	[34067] = {
+		damage = "94 x 2",
+		base = 34060,
+		id = 34067,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			34067
+		}
+	},
 	[34100] = {
 		name = "410mm连装炮",
 		speciality = "跨射",
@@ -48739,7 +63803,7 @@ pg.equip_data_statistics = {
 		rarity = 2,
 		damage = "48 x 2",
 		nationality = 3,
-		ammo = "通常弹",
+		ammo = 3,
 		value_3 = 0,
 		id = 34100,
 		torpedo_ammo = 0,
@@ -48756,7 +63820,10 @@ pg.equip_data_statistics = {
 		equip_info = {
 			1,
 			2,
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			34100
@@ -48818,7 +63885,7 @@ pg.equip_data_statistics = {
 		rarity = 3,
 		damage = "53 x 2",
 		nationality = 3,
-		ammo = "高爆弹",
+		ammo = 2,
 		value_3 = 0,
 		id = 34120,
 		torpedo_ammo = 0,
@@ -48835,7 +63902,10 @@ pg.equip_data_statistics = {
 		equip_info = {
 			1,
 			2,
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			34120
@@ -48928,7 +63998,7 @@ pg.equip_data_statistics = {
 		rarity = 4,
 		damage = "58 x 2",
 		nationality = 3,
-		ammo = "高爆弹",
+		ammo = 2,
 		value_3 = 0,
 		id = 34140,
 		torpedo_ammo = 0,
@@ -48945,7 +64015,10 @@ pg.equip_data_statistics = {
 		equip_info = {
 			1,
 			2,
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			34140
@@ -49066,6 +64139,17 @@ pg.equip_data_statistics = {
 			34150
 		}
 	},
+	[34151] = {
+		anti_siren = 100,
+		damage = "154 x 2",
+		base = 34140,
+		id = 34151,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			34151
+		}
+	},
 	[34160] = {
 		name = "410mm连装炮(三式弹)",
 		speciality = "散射",
@@ -49079,7 +64163,7 @@ pg.equip_data_statistics = {
 		rarity = 5,
 		damage = "12 x 10 x 2",
 		nationality = 3,
-		ammo = "三式弹",
+		ammo = 6,
 		value_3 = 25,
 		id = 34160,
 		torpedo_ammo = 0,
@@ -49096,7 +64180,10 @@ pg.equip_data_statistics = {
 		equip_info = {
 			1,
 			2,
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			34160
@@ -49217,6 +64304,39 @@ pg.equip_data_statistics = {
 			34170
 		}
 	},
+	[34171] = {
+		anti_siren = 100,
+		damage = "22 x 10 x 2",
+		base = 34160,
+		id = 34171,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			34171
+		}
+	},
+	[34172] = {
+		anti_siren = 200,
+		damage = "22 x 10 x 2",
+		base = 34160,
+		id = 34172,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			34172
+		}
+	},
+	[34173] = {
+		anti_siren = 300,
+		damage = "22 x 10 x 2",
+		base = 34160,
+		id = 34173,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			34173
+		}
+	},
 	[34180] = {
 		name = "试作型410mm三连装炮",
 		speciality = "跨射",
@@ -49229,7 +64349,7 @@ pg.equip_data_statistics = {
 		rarity = 5,
 		damage = "58 x 3",
 		nationality = 3,
-		ammo = "穿甲弹",
+		ammo = 1,
 		value_3 = 0,
 		id = 34180,
 		torpedo_ammo = 0,
@@ -49246,7 +64366,10 @@ pg.equip_data_statistics = {
 		equip_info = {
 			1,
 			2,
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			34180
@@ -49367,6 +64490,39 @@ pg.equip_data_statistics = {
 			34190
 		}
 	},
+	[34191] = {
+		anti_siren = 100,
+		damage = "154 x 3",
+		base = 34180,
+		id = 34191,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			34191
+		}
+	},
+	[34192] = {
+		anti_siren = 200,
+		damage = "154 x 3",
+		base = 34180,
+		id = 34192,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			34192
+		}
+	},
+	[34193] = {
+		anti_siren = 300,
+		damage = "154 x 3",
+		base = 34180,
+		id = 34193,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			34193
+		}
+	},
 	[34200] = {
 		name = "460mm三连装炮",
 		speciality = "跨射",
@@ -49379,7 +64535,7 @@ pg.equip_data_statistics = {
 		rarity = 4,
 		damage = "60 x 3",
 		nationality = 3,
-		ammo = "通常弹",
+		ammo = 3,
 		value_3 = 0,
 		id = 34200,
 		torpedo_ammo = 0,
@@ -49396,7 +64552,10 @@ pg.equip_data_statistics = {
 		equip_info = {
 			1,
 			2,
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			34200
@@ -49528,7 +64687,7 @@ pg.equip_data_statistics = {
 		rarity = 5,
 		damage = "66 x 3",
 		nationality = 3,
-		ammo = "通常弹",
+		ammo = 3,
 		value_3 = 0,
 		id = 34220,
 		torpedo_ammo = 0,
@@ -49545,7 +64704,10 @@ pg.equip_data_statistics = {
 		equip_info = {
 			1,
 			2,
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			34220
@@ -49677,7 +64839,7 @@ pg.equip_data_statistics = {
 		rarity = 6,
 		damage = "72 x 3",
 		nationality = 3,
-		ammo = "穿甲弹",
+		ammo = 1,
 		value_3 = 0,
 		id = 34240,
 		torpedo_ammo = 0,
@@ -49694,7 +64856,10 @@ pg.equip_data_statistics = {
 		equip_info = {
 			1,
 			2,
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			34240
@@ -49815,6 +64980,203 @@ pg.equip_data_statistics = {
 			34250
 		}
 	},
+	[34251] = {
+		anti_siren = 100,
+		damage = "216 x 3",
+		base = 34240,
+		id = 34251,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			34251
+		}
+	},
+	[34252] = {
+		anti_siren = 200,
+		damage = "216 x 3",
+		base = 34240,
+		id = 34252,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			34252
+		}
+	},
+	[34253] = {
+		anti_siren = 300,
+		damage = "216 x 3",
+		base = 34240,
+		id = 34253,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			34253
+		}
+	},
+	[34300] = {
+		name = "410mm连装炮改",
+		speciality = "跨射",
+		type = 4,
+		tech = 0,
+		descrip = "说明未填写",
+		value_2 = 25,
+		icon = "34300",
+		attribute_2 = "cannon",
+		rarity = 4,
+		damage = "60 x 2",
+		nationality = 3,
+		ammo = 2,
+		value_3 = 0,
+		id = 34300,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			3
+		},
+		ammo_info = {
+			{
+				2,
+				1502
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			34300
+		},
+		skill_id = {},
+		part_main = {
+			4,
+			5,
+			10,
+			13
+		},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"BB",
+			"MG",
+			"HE"
+		}
+	},
+	[34301] = {
+		damage = "70 x 2",
+		base = 34300,
+		id = 34301,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			34301
+		}
+	},
+	[34302] = {
+		damage = "80 x 2",
+		base = 34300,
+		id = 34302,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			34302
+		}
+	},
+	[34303] = {
+		damage = "88 x 2",
+		base = 34300,
+		id = 34303,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			34303
+		}
+	},
+	[34304] = {
+		damage = "98 x 2",
+		base = 34300,
+		id = 34304,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			34304
+		}
+	},
+	[34305] = {
+		damage = "108 x 2",
+		base = 34300,
+		id = 34305,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			34305
+		}
+	},
+	[34306] = {
+		damage = "118 x 2",
+		base = 34300,
+		id = 34306,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			34306
+		}
+	},
+	[34307] = {
+		damage = "128 x 2",
+		base = 34300,
+		id = 34307,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			34307
+		}
+	},
+	[34308] = {
+		damage = "136 x 2",
+		base = 34300,
+		id = 34308,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			34308
+		}
+	},
+	[34309] = {
+		damage = "146 x 2",
+		base = 34300,
+		id = 34309,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			34309
+		}
+	},
+	[34310] = {
+		damage = "156 x 2",
+		base = 34300,
+		id = 34310,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			34310
+		}
+	},
+	[34311] = {
+		anti_siren = 100,
+		damage = "156 x 2",
+		base = 34300,
+		id = 34311,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			34311
+		}
+	},
 	[35000] = {
 		name = "双联装610mm鱼雷",
 		speciality = "雷击",
@@ -49826,7 +65188,7 @@ pg.equip_data_statistics = {
 		icon = "35000",
 		damage = "52 x 2",
 		nationality = 3,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 35000,
 		torpedo_ammo = 0,
@@ -49847,7 +65209,10 @@ pg.equip_data_statistics = {
 				4,
 				1401
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			35000
@@ -49915,7 +65280,7 @@ pg.equip_data_statistics = {
 		rarity = 2,
 		damage = "58 x 2",
 		nationality = 3,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 35020,
 		torpedo_ammo = 0,
@@ -49936,7 +65301,10 @@ pg.equip_data_statistics = {
 				4,
 				1401
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			35020
@@ -50004,7 +65372,7 @@ pg.equip_data_statistics = {
 		rarity = 3,
 		damage = "66 x 2",
 		nationality = 3,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 35040,
 		torpedo_ammo = 0,
@@ -50025,7 +65393,10 @@ pg.equip_data_statistics = {
 				4,
 				1401
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			35040
@@ -50111,6 +65482,16 @@ pg.equip_data_statistics = {
 			35046
 		}
 	},
+	[35047] = {
+		damage = "150 x 2",
+		base = 35040,
+		id = 35047,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			35047
+		}
+	},
 	[35100] = {
 		name = "三联装610mm鱼雷",
 		speciality = "雷击",
@@ -50123,7 +65504,7 @@ pg.equip_data_statistics = {
 		rarity = 2,
 		damage = "52 x 3",
 		nationality = 3,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 35100,
 		torpedo_ammo = 0,
@@ -50144,7 +65525,10 @@ pg.equip_data_statistics = {
 				4,
 				1402
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			35100
@@ -50212,7 +65596,7 @@ pg.equip_data_statistics = {
 		rarity = 3,
 		damage = "58 x 3",
 		nationality = 3,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 35120,
 		torpedo_ammo = 0,
@@ -50233,7 +65617,10 @@ pg.equip_data_statistics = {
 				4,
 				1402
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			35120
@@ -50331,7 +65718,7 @@ pg.equip_data_statistics = {
 		rarity = 4,
 		damage = "66 x 3",
 		nationality = 3,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 35140,
 		torpedo_ammo = 0,
@@ -50352,7 +65739,10 @@ pg.equip_data_statistics = {
 				4,
 				1402
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			35140
@@ -50478,6 +65868,190 @@ pg.equip_data_statistics = {
 			35150
 		}
 	},
+	[35151] = {
+		anti_siren = 100,
+		damage = "206 x 3",
+		base = 35140,
+		id = 35151,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			35151
+		}
+	},
+	[35160] = {
+		name = "三联装610mm鱼雷改",
+		speciality = "雷击",
+		type = 5,
+		tech = 3,
+		descrip = "说明未填写",
+		value_2 = 25,
+		icon = "35160",
+		attribute_2 = "torpedo",
+		rarity = 4,
+		damage = "70 x 3",
+		nationality = 3,
+		ammo = 5,
+		value_3 = 0,
+		id = 35160,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				3,
+				1801
+			}
+		},
+		equip_info = {
+			{
+				3,
+				1801
+			},
+			{
+				4,
+				1402
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			35160
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			2,
+			3,
+			18
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			18
+		},
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"ST",
+			"TP",
+			"TRI"
+		}
+	},
+	[35161] = {
+		damage = "84 x 3",
+		base = 35160,
+		id = 35161,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			35161
+		}
+	},
+	[35162] = {
+		damage = "98 x 3",
+		base = 35160,
+		id = 35162,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			35162
+		}
+	},
+	[35163] = {
+		damage = "112 x 3",
+		base = 35160,
+		id = 35163,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			35163
+		}
+	},
+	[35164] = {
+		damage = "126 x 3",
+		base = 35160,
+		id = 35164,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			35164
+		}
+	},
+	[35165] = {
+		damage = "140 x 3",
+		base = 35160,
+		id = 35165,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			35165
+		}
+	},
+	[35166] = {
+		damage = "154 x 3",
+		base = 35160,
+		id = 35166,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			35166
+		}
+	},
+	[35167] = {
+		damage = "168 x 3",
+		base = 35160,
+		id = 35167,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			35167
+		}
+	},
+	[35168] = {
+		damage = "182 x 3",
+		base = 35160,
+		id = 35168,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			35168
+		}
+	},
+	[35169] = {
+		damage = "196 x 3",
+		base = 35160,
+		id = 35169,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			35169
+		}
+	},
+	[35170] = {
+		damage = "210 x 3",
+		base = 35160,
+		id = 35170,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			35170
+		}
+	},
+	[35171] = {
+		anti_siren = 100,
+		damage = "210 x 3",
+		base = 35160,
+		id = 35171,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			35171
+		}
+	},
 	[35200] = {
 		name = "四联装610mm鱼雷",
 		speciality = "雷击",
@@ -50490,7 +66064,7 @@ pg.equip_data_statistics = {
 		rarity = 3,
 		damage = "52 x 4",
 		nationality = 3,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 35200,
 		torpedo_ammo = 0,
@@ -50511,7 +66085,10 @@ pg.equip_data_statistics = {
 				4,
 				1403
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			35200
@@ -50609,7 +66186,7 @@ pg.equip_data_statistics = {
 		rarity = 4,
 		damage = "58 x 4",
 		nationality = 3,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 35220,
 		torpedo_ammo = 0,
@@ -50630,7 +66207,10 @@ pg.equip_data_statistics = {
 				4,
 				1403
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			35220
@@ -50768,7 +66348,7 @@ pg.equip_data_statistics = {
 		rarity = 5,
 		damage = "66 x 4",
 		nationality = 3,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 35240,
 		torpedo_ammo = 0,
@@ -50789,7 +66369,10 @@ pg.equip_data_statistics = {
 				4,
 				1403
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			35240
@@ -50915,6 +66498,234 @@ pg.equip_data_statistics = {
 			35250
 		}
 	},
+	[35251] = {
+		anti_siren = 100,
+		damage = "206 x 4",
+		base = 35240,
+		id = 35251,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			35251
+		}
+	},
+	[35252] = {
+		anti_siren = 200,
+		damage = "206 x 4",
+		base = 35240,
+		id = 35252,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			35252
+		}
+	},
+	[35253] = {
+		anti_siren = 300,
+		damage = "206 x 4",
+		base = 35240,
+		id = 35253,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			35253
+		}
+	},
+	[35260] = {
+		name = "四联装610mm鱼雷改",
+		speciality = "雷击",
+		type = 5,
+		tech = 0,
+		descrip = "说明未填写",
+		value_2 = 45,
+		icon = "35260",
+		attribute_2 = "torpedo",
+		rarity = 5,
+		damage = "70 x 4",
+		nationality = 3,
+		ammo = 5,
+		value_3 = 0,
+		id = 35260,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				3,
+				1801
+			}
+		},
+		equip_info = {
+			{
+				3,
+				1801
+			},
+			{
+				4,
+				1403
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			35260
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			2,
+			3,
+			18
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			18
+		},
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"ST",
+			"TP",
+			"QUAD"
+		}
+	},
+	[35261] = {
+		damage = "84 x 4",
+		base = 35260,
+		id = 35261,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			35261
+		}
+	},
+	[35262] = {
+		damage = "98 x 4",
+		base = 35260,
+		id = 35262,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			35262
+		}
+	},
+	[35263] = {
+		damage = "112 x 4",
+		base = 35260,
+		id = 35263,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			35263
+		}
+	},
+	[35264] = {
+		damage = "126 x 4",
+		base = 35260,
+		id = 35264,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			35264
+		}
+	},
+	[35265] = {
+		damage = "140 x 4",
+		base = 35260,
+		id = 35265,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			35265
+		}
+	},
+	[35266] = {
+		damage = "154 x 4",
+		base = 35260,
+		id = 35266,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			35266
+		}
+	},
+	[35267] = {
+		damage = "168 x 4",
+		base = 35260,
+		id = 35267,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			35267
+		}
+	},
+	[35268] = {
+		damage = "182 x 4",
+		base = 35260,
+		id = 35268,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			35268
+		}
+	},
+	[35269] = {
+		damage = "196 x 4",
+		base = 35260,
+		id = 35269,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			35269
+		}
+	},
+	[35270] = {
+		damage = "210 x 4",
+		base = 35260,
+		id = 35270,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			35270
+		}
+	},
+	[35271] = {
+		anti_siren = 100,
+		damage = "210 x 4",
+		base = 35260,
+		id = 35271,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			35271
+		}
+	},
+	[35272] = {
+		anti_siren = 200,
+		damage = "210 x 4",
+		base = 35260,
+		id = 35272,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			35272
+		}
+	},
+	[35273] = {
+		anti_siren = 300,
+		damage = "210 x 4",
+		base = 35260,
+		id = 35273,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			35273
+		}
+	},
 	[35300] = {
 		name = "五联装610mm鱼雷",
 		speciality = "雷击",
@@ -50927,7 +66738,7 @@ pg.equip_data_statistics = {
 		rarity = 4,
 		damage = "52 x 5",
 		nationality = 3,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 35300,
 		torpedo_ammo = 0,
@@ -50948,7 +66759,10 @@ pg.equip_data_statistics = {
 				4,
 				1404
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			35300
@@ -51086,7 +66900,7 @@ pg.equip_data_statistics = {
 		rarity = 5,
 		damage = "58 x 5",
 		nationality = 3,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 35320,
 		torpedo_ammo = 0,
@@ -51107,7 +66921,10 @@ pg.equip_data_statistics = {
 				4,
 				1404
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			35320
@@ -51245,7 +67062,7 @@ pg.equip_data_statistics = {
 		rarity = 6,
 		damage = "66 x 5",
 		nationality = 3,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 35340,
 		torpedo_ammo = 0,
@@ -51266,7 +67083,10 @@ pg.equip_data_statistics = {
 				4,
 				1404
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			35340
@@ -51392,6 +67212,39 @@ pg.equip_data_statistics = {
 			35350
 		}
 	},
+	[35351] = {
+		anti_siren = 100,
+		damage = "206 x 5",
+		base = 35340,
+		id = 35351,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			35351
+		}
+	},
+	[35352] = {
+		anti_siren = 200,
+		damage = "206 x 5",
+		base = 35340,
+		id = 35352,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			35352
+		}
+	},
+	[35353] = {
+		anti_siren = 300,
+		damage = "206 x 5",
+		base = 35340,
+		id = 35353,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			35353
+		}
+	},
 	[35400] = {
 		name = "潜艇用92式潜射鱼雷",
 		speciality = "雷击",
@@ -51404,7 +67257,7 @@ pg.equip_data_statistics = {
 		rarity = 2,
 		damage = "48 x 2",
 		nationality = 3,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 35400,
 		torpedo_ammo = 0,
@@ -51427,7 +67280,10 @@ pg.equip_data_statistics = {
 				4,
 				1601
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			35400
@@ -51490,7 +67346,7 @@ pg.equip_data_statistics = {
 		rarity = 3,
 		damage = "54 x 2",
 		nationality = 3,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 35420,
 		torpedo_ammo = 0,
@@ -51513,7 +67369,10 @@ pg.equip_data_statistics = {
 				4,
 				1601
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			35420
@@ -51606,7 +67465,7 @@ pg.equip_data_statistics = {
 		rarity = 4,
 		damage = "60 x 2",
 		nationality = 3,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 35440,
 		torpedo_ammo = 0,
@@ -51629,7 +67488,10 @@ pg.equip_data_statistics = {
 				4,
 				1601
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			35440
@@ -51750,6 +67612,187 @@ pg.equip_data_statistics = {
 			35450
 		}
 	},
+	[35451] = {
+		anti_siren = 100,
+		damage = "150 x 2",
+		base = 35440,
+		id = 35451,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			35451
+		}
+	},
+	[35460] = {
+		name = "潜艇用92式潜射鱼雷改",
+		speciality = "雷击",
+		type = 13,
+		tech = 0,
+		descrip = "说明未填写",
+		value_2 = 25,
+		icon = "35460",
+		attribute_2 = "torpedo",
+		rarity = 4,
+		damage = "60 x 2",
+		nationality = 3,
+		ammo = 5,
+		value_3 = 0,
+		id = 35460,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				3,
+				1834
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			{
+				3,
+				1834
+			},
+			{
+				4,
+				1601
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			35460
+		},
+		skill_id = {},
+		part_main = {
+			8,
+			17
+		},
+		part_sub = {
+			8,
+			17
+		},
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"SS",
+			"TP"
+		}
+	},
+	[35461] = {
+		damage = "69 x 2",
+		base = 35460,
+		id = 35461,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			35461
+		}
+	},
+	[35462] = {
+		damage = "78 x 2",
+		base = 35460,
+		id = 35462,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			35462
+		}
+	},
+	[35463] = {
+		damage = "87 x 2",
+		base = 35460,
+		id = 35463,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			35463
+		}
+	},
+	[35464] = {
+		damage = "96 x 2",
+		base = 35460,
+		id = 35464,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			35464
+		}
+	},
+	[35465] = {
+		damage = "105 x 2",
+		base = 35460,
+		id = 35465,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			35465
+		}
+	},
+	[35466] = {
+		damage = "114 x 2",
+		base = 35460,
+		id = 35466,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			35466
+		}
+	},
+	[35467] = {
+		damage = "123 x 2",
+		base = 35460,
+		id = 35467,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			35467
+		}
+	},
+	[35468] = {
+		damage = "132 x 2",
+		base = 35460,
+		id = 35468,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			35468
+		}
+	},
+	[35469] = {
+		damage = "141 x 2",
+		base = 35460,
+		id = 35469,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			35469
+		}
+	},
+	[35470] = {
+		damage = "150 x 2",
+		base = 35460,
+		id = 35470,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			35470
+		}
+	},
+	[35471] = {
+		anti_siren = 100,
+		damage = "150 x 2",
+		base = 35460,
+		id = 35471,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			35471
+		}
+	},
 	[35500] = {
 		name = "潜艇用95式纯氧鱼雷",
 		speciality = "雷击",
@@ -51762,7 +67805,7 @@ pg.equip_data_statistics = {
 		rarity = 3,
 		damage = "56 x 2",
 		nationality = 3,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 35500,
 		torpedo_ammo = 0,
@@ -51785,7 +67828,10 @@ pg.equip_data_statistics = {
 				4,
 				1601
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			35500
@@ -51878,7 +67924,7 @@ pg.equip_data_statistics = {
 		rarity = 4,
 		damage = "63 x 2",
 		nationality = 3,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 35520,
 		torpedo_ammo = 0,
@@ -51901,7 +67947,10 @@ pg.equip_data_statistics = {
 				4,
 				1601
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			35520
@@ -52034,7 +68083,7 @@ pg.equip_data_statistics = {
 		rarity = 5,
 		damage = "70 x 2",
 		nationality = 3,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 35540,
 		torpedo_ammo = 0,
@@ -52057,7 +68106,10 @@ pg.equip_data_statistics = {
 				4,
 				1601
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			35540
@@ -52178,6 +68230,231 @@ pg.equip_data_statistics = {
 			35550
 		}
 	},
+	[35551] = {
+		anti_siren = 100,
+		damage = "174 x 2",
+		base = 35540,
+		id = 35551,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			35551
+		}
+	},
+	[35552] = {
+		anti_siren = 200,
+		damage = "174 x 2",
+		base = 35540,
+		id = 35552,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			35552
+		}
+	},
+	[35553] = {
+		anti_siren = 300,
+		damage = "174 x 2",
+		base = 35540,
+		id = 35553,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			35553
+		}
+	},
+	[35560] = {
+		name = "潜艇用96式纯氧鱼雷",
+		speciality = "雷击",
+		type = 13,
+		tech = 3,
+		descrip = "说明未填写",
+		value_2 = 45,
+		icon = "35560",
+		attribute_2 = "torpedo",
+		rarity = 5,
+		damage = "76 x 2",
+		nationality = 3,
+		ammo = 5,
+		value_3 = 0,
+		id = 35560,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				3,
+				1835
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			{
+				3,
+				1835
+			},
+			{
+				4,
+				1601
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			35560
+		},
+		skill_id = {},
+		part_main = {
+			8,
+			17
+		},
+		part_sub = {
+			8,
+			17
+		},
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"SS",
+			"TP"
+		}
+	},
+	[35561] = {
+		damage = "86 x 2",
+		base = 35560,
+		id = 35561,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			35561
+		}
+	},
+	[35562] = {
+		damage = "96 x 2",
+		base = 35560,
+		id = 35562,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			35562
+		}
+	},
+	[35563] = {
+		damage = "106 x 2",
+		base = 35560,
+		id = 35563,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			35563
+		}
+	},
+	[35564] = {
+		damage = "116 x 2",
+		base = 35560,
+		id = 35564,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			35564
+		}
+	},
+	[35565] = {
+		damage = "126 x 2",
+		base = 35560,
+		id = 35565,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			35565
+		}
+	},
+	[35566] = {
+		damage = "136 x 2",
+		base = 35560,
+		id = 35566,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			35566
+		}
+	},
+	[35567] = {
+		damage = "147 x 2",
+		base = 35560,
+		id = 35567,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			35567
+		}
+	},
+	[35568] = {
+		damage = "158 x 2",
+		base = 35560,
+		id = 35568,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			35568
+		}
+	},
+	[35569] = {
+		damage = "169 x 2",
+		base = 35560,
+		id = 35569,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			35569
+		}
+	},
+	[35570] = {
+		damage = "180 x 2",
+		base = 35560,
+		id = 35570,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			35570
+		}
+	},
+	[35571] = {
+		anti_siren = 100,
+		damage = "180 x 2",
+		base = 35560,
+		id = 35571,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			35571
+		}
+	},
+	[35572] = {
+		anti_siren = 200,
+		damage = "180 x 2",
+		base = 35560,
+		id = 35572,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			35572
+		}
+	},
+	[35573] = {
+		anti_siren = 300,
+		damage = "180 x 2",
+		base = 35560,
+		id = 35573,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			35573
+		}
+	},
 	[36100] = {
 		name = "25mm高射机枪",
 		speciality = "防空",
@@ -52189,7 +68466,7 @@ pg.equip_data_statistics = {
 		icon = "36100",
 		damage = "8/轮",
 		nationality = 3,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 36100,
 		torpedo_ammo = 0,
@@ -52199,7 +68476,8 @@ pg.equip_data_statistics = {
 		equip_info = {
 			1,
 			2,
-			6
+			6,
+			10
 		},
 		weapon_id = {
 			36100
@@ -52215,7 +68493,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			1,
@@ -52227,7 +68506,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -52278,7 +68558,7 @@ pg.equip_data_statistics = {
 		rarity = 2,
 		damage = "9/轮",
 		nationality = 3,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 36120,
 		torpedo_ammo = 0,
@@ -52288,7 +68568,8 @@ pg.equip_data_statistics = {
 		equip_info = {
 			1,
 			2,
-			6
+			6,
+			10
 		},
 		weapon_id = {
 			36120
@@ -52304,7 +68585,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			1,
@@ -52316,7 +68598,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -52367,7 +68650,7 @@ pg.equip_data_statistics = {
 		rarity = 3,
 		damage = "11/轮",
 		nationality = 3,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 36140,
 		torpedo_ammo = 0,
@@ -52377,7 +68660,8 @@ pg.equip_data_statistics = {
 		equip_info = {
 			1,
 			2,
-			6
+			6,
+			10
 		},
 		weapon_id = {
 			36140
@@ -52393,7 +68677,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			1,
@@ -52405,7 +68690,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -52474,6 +68760,16 @@ pg.equip_data_statistics = {
 			36146
 		}
 	},
+	[36147] = {
+		damage = "21/轮",
+		base = 36140,
+		id = 36147,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			36147
+		}
+	},
 	[36200] = {
 		name = "25mm连装高射机枪",
 		speciality = "防空",
@@ -52486,7 +68782,7 @@ pg.equip_data_statistics = {
 		rarity = 2,
 		damage = "13/轮",
 		nationality = 3,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 36200,
 		torpedo_ammo = 0,
@@ -52496,7 +68792,8 @@ pg.equip_data_statistics = {
 		equip_info = {
 			1,
 			2,
-			6
+			6,
+			10
 		},
 		weapon_id = {
 			36200
@@ -52512,7 +68809,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			1,
@@ -52524,7 +68822,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -52575,7 +68874,7 @@ pg.equip_data_statistics = {
 		rarity = 3,
 		damage = "14/轮",
 		nationality = 3,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 36220,
 		torpedo_ammo = 0,
@@ -52585,7 +68884,8 @@ pg.equip_data_statistics = {
 		equip_info = {
 			1,
 			2,
-			6
+			6,
+			10
 		},
 		weapon_id = {
 			36220
@@ -52601,7 +68901,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			1,
@@ -52613,7 +68914,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -52694,7 +68996,7 @@ pg.equip_data_statistics = {
 		rarity = 4,
 		damage = "16/轮",
 		nationality = 3,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 36240,
 		torpedo_ammo = 0,
@@ -52704,7 +69006,8 @@ pg.equip_data_statistics = {
 		equip_info = {
 			1,
 			2,
-			6
+			6,
+			10
 		},
 		weapon_id = {
 			36240
@@ -52720,7 +69023,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			1,
@@ -52732,7 +69036,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -52841,6 +69146,17 @@ pg.equip_data_statistics = {
 			36250
 		}
 	},
+	[36251] = {
+		anti_siren = 100,
+		damage = "40/轮",
+		base = 36240,
+		id = 36251,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			36251
+		}
+	},
 	[36300] = {
 		name = "25mm三连装高射机枪",
 		speciality = "防空",
@@ -52853,7 +69169,7 @@ pg.equip_data_statistics = {
 		rarity = 2,
 		damage = "16/轮",
 		nationality = 3,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 36300,
 		torpedo_ammo = 0,
@@ -52863,7 +69179,8 @@ pg.equip_data_statistics = {
 		equip_info = {
 			1,
 			2,
-			6
+			6,
+			10
 		},
 		weapon_id = {
 			36300
@@ -52879,7 +69196,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			1,
@@ -52891,7 +69209,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -52942,7 +69261,7 @@ pg.equip_data_statistics = {
 		rarity = 3,
 		damage = "18/轮",
 		nationality = 3,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 36320,
 		torpedo_ammo = 0,
@@ -52952,7 +69271,8 @@ pg.equip_data_statistics = {
 		equip_info = {
 			1,
 			2,
-			6
+			6,
+			10
 		},
 		weapon_id = {
 			36320
@@ -52968,7 +69288,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			1,
@@ -52980,7 +69301,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -53061,7 +69383,7 @@ pg.equip_data_statistics = {
 		rarity = 4,
 		damage = "22/轮",
 		nationality = 3,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 36340,
 		torpedo_ammo = 0,
@@ -53071,7 +69393,8 @@ pg.equip_data_statistics = {
 		equip_info = {
 			1,
 			2,
-			6
+			6,
+			10
 		},
 		weapon_id = {
 			36340
@@ -53087,7 +69410,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			1,
@@ -53099,7 +69423,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -53208,6 +69533,212 @@ pg.equip_data_statistics = {
 			36350
 		}
 	},
+	[36351] = {
+		anti_siren = 100,
+		damage = "54/轮",
+		base = 36340,
+		id = 36351,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			36351
+		}
+	},
+	[36360] = {
+		name = "九六式25mm三连装暴风避盾机炮",
+		speciality = "防空",
+		type = 6,
+		tech = 0,
+		descrip = "说明未填写",
+		value_2 = 45,
+		icon = "36360",
+		attribute_2 = "antiaircraft",
+		rarity = 5,
+		damage = "40/轮",
+		nationality = 3,
+		ammo = 5,
+		value_3 = 0,
+		id = 36360,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			1,
+			2,
+			6,
+			10
+		},
+		weapon_id = {
+			36360
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"ST",
+			"AA"
+		}
+	},
+	[36361] = {
+		damage = "43/轮",
+		base = 36360,
+		id = 36361,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			36361
+		}
+	},
+	[36362] = {
+		damage = "46/轮",
+		base = 36360,
+		id = 36362,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			36362
+		}
+	},
+	[36363] = {
+		damage = "49/轮",
+		base = 36360,
+		id = 36363,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			36363
+		}
+	},
+	[36364] = {
+		damage = "52/轮",
+		base = 36360,
+		id = 36364,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			36364
+		}
+	},
+	[36365] = {
+		damage = "55/轮",
+		base = 36360,
+		id = 36365,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			36365
+		}
+	},
+	[36366] = {
+		damage = "58/轮",
+		base = 36360,
+		id = 36366,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			36366
+		}
+	},
+	[36367] = {
+		damage = "61/轮",
+		base = 36360,
+		id = 36367,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			36367
+		}
+	},
+	[36368] = {
+		damage = "64/轮",
+		base = 36360,
+		id = 36368,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			36368
+		}
+	},
+	[36369] = {
+		damage = "68/轮",
+		base = 36360,
+		id = 36369,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			36369
+		}
+	},
+	[36370] = {
+		damage = "72/轮",
+		base = 36360,
+		id = 36370,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			36370
+		}
+	},
+	[36371] = {
+		anti_siren = 100,
+		damage = "72/轮",
+		base = 36360,
+		id = 36371,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			36371
+		}
+	},
+	[36372] = {
+		anti_siren = 200,
+		damage = "72/轮",
+		base = 36360,
+		id = 36372,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			36372
+		}
+	},
+	[36373] = {
+		anti_siren = 300,
+		damage = "72/轮",
+		base = 36360,
+		id = 36373,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			36373
+		}
+	},
 	[36400] = {
 		name = "毘式40mm连装机枪",
 		speciality = "防空",
@@ -53220,7 +69751,7 @@ pg.equip_data_statistics = {
 		rarity = 2,
 		damage = "19/轮",
 		nationality = 3,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 36400,
 		torpedo_ammo = 0,
@@ -53230,7 +69761,8 @@ pg.equip_data_statistics = {
 		equip_info = {
 			1,
 			2,
-			6
+			6,
+			10
 		},
 		weapon_id = {
 			36400
@@ -53246,7 +69778,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			1,
@@ -53258,7 +69791,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -53309,7 +69843,7 @@ pg.equip_data_statistics = {
 		rarity = 3,
 		damage = "22/轮",
 		nationality = 3,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 36420,
 		torpedo_ammo = 0,
@@ -53319,7 +69853,8 @@ pg.equip_data_statistics = {
 		equip_info = {
 			1,
 			2,
-			6
+			6,
+			10
 		},
 		weapon_id = {
 			36420
@@ -53335,7 +69870,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			1,
@@ -53347,7 +69883,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -53428,7 +69965,7 @@ pg.equip_data_statistics = {
 		rarity = 4,
 		damage = "26/轮",
 		nationality = 3,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 36440,
 		torpedo_ammo = 0,
@@ -53438,7 +69975,8 @@ pg.equip_data_statistics = {
 		equip_info = {
 			1,
 			2,
-			6
+			6,
+			10
 		},
 		weapon_id = {
 			36440
@@ -53454,7 +69992,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			1,
@@ -53466,7 +70005,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -53575,6 +70115,17 @@ pg.equip_data_statistics = {
 			36450
 		}
 	},
+	[36451] = {
+		anti_siren = 100,
+		damage = "65/轮",
+		base = 36440,
+		id = 36451,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			36451
+		}
+	},
 	[36500] = {
 		name = "76mm高射炮",
 		speciality = "防空",
@@ -53587,7 +70138,7 @@ pg.equip_data_statistics = {
 		rarity = 2,
 		damage = "16/轮",
 		nationality = 3,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 36500,
 		torpedo_ammo = 0,
@@ -53597,7 +70148,8 @@ pg.equip_data_statistics = {
 		equip_info = {
 			1,
 			2,
-			6
+			6,
+			10
 		},
 		weapon_id = {
 			36500
@@ -53613,7 +70165,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			1,
@@ -53625,7 +70178,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -53676,7 +70230,7 @@ pg.equip_data_statistics = {
 		rarity = 3,
 		damage = "18/轮",
 		nationality = 3,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 36520,
 		torpedo_ammo = 0,
@@ -53686,7 +70240,8 @@ pg.equip_data_statistics = {
 		equip_info = {
 			1,
 			2,
-			6
+			6,
+			10
 		},
 		weapon_id = {
 			36520
@@ -53702,7 +70257,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			1,
@@ -53714,7 +70270,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -53795,7 +70352,7 @@ pg.equip_data_statistics = {
 		rarity = 4,
 		damage = "22/轮",
 		nationality = 3,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 36540,
 		torpedo_ammo = 0,
@@ -53805,7 +70362,8 @@ pg.equip_data_statistics = {
 		equip_info = {
 			1,
 			2,
-			6
+			6,
+			10
 		},
 		weapon_id = {
 			36540
@@ -53821,7 +70379,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			1,
@@ -53833,7 +70392,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -53942,6 +70502,17 @@ pg.equip_data_statistics = {
 			36550
 		}
 	},
+	[36551] = {
+		anti_siren = 100,
+		damage = "54/轮",
+		base = 36540,
+		id = 36551,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			36551
+		}
+	},
 	[36560] = {
 		name = "100mm连装高炮",
 		speciality = "防空",
@@ -53954,7 +70525,7 @@ pg.equip_data_statistics = {
 		rarity = 5,
 		damage = "50/轮",
 		nationality = 3,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 36560,
 		torpedo_ammo = 0,
@@ -53964,7 +70535,8 @@ pg.equip_data_statistics = {
 		equip_info = {
 			1,
 			2,
-			6
+			6,
+			10
 		},
 		weapon_id = {
 			36560
@@ -53980,7 +70552,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			1,
@@ -53992,7 +70565,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -54101,6 +70675,212 @@ pg.equip_data_statistics = {
 			36570
 		}
 	},
+	[36571] = {
+		anti_siren = 100,
+		damage = "126/轮",
+		base = 36560,
+		id = 36571,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			36571
+		}
+	},
+	[36572] = {
+		anti_siren = 200,
+		damage = "126/轮",
+		base = 36560,
+		id = 36572,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			36572
+		}
+	},
+	[36573] = {
+		anti_siren = 300,
+		damage = "126/轮",
+		base = 36560,
+		id = 36573,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			36573
+		}
+	},
+	[36580] = {
+		name = "80mm高射炮",
+		speciality = "防空",
+		type = 6,
+		tech = 0,
+		descrip = "说明未填写",
+		value_2 = 25,
+		icon = "36580",
+		attribute_2 = "antiaircraft",
+		rarity = 4,
+		damage = "44/轮",
+		nationality = 3,
+		ammo = 5,
+		value_3 = 0,
+		id = 36580,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			1,
+			2,
+			6,
+			10
+		},
+		weapon_id = {
+			36580
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"ST",
+			"AA"
+		}
+	},
+	[36581] = {
+		damage = "48/轮",
+		base = 36580,
+		id = 36581,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			36581
+		}
+	},
+	[36582] = {
+		damage = "52/轮",
+		base = 36580,
+		id = 36582,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			36582
+		}
+	},
+	[36583] = {
+		damage = "56/轮",
+		base = 36580,
+		id = 36583,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			36583
+		}
+	},
+	[36584] = {
+		damage = "60/轮",
+		base = 36580,
+		id = 36584,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			36584
+		}
+	},
+	[36585] = {
+		damage = "64/轮",
+		base = 36580,
+		id = 36585,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			36585
+		}
+	},
+	[36586] = {
+		damage = "68/轮",
+		base = 36580,
+		id = 36586,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			36586
+		}
+	},
+	[36587] = {
+		damage = "72/轮",
+		base = 36580,
+		id = 36587,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			36587
+		}
+	},
+	[36588] = {
+		damage = "76/轮",
+		base = 36580,
+		id = 36588,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			36588
+		}
+	},
+	[36589] = {
+		damage = "80/轮",
+		base = 36580,
+		id = 36589,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			36589
+		}
+	},
+	[36590] = {
+		damage = "84/轮",
+		base = 36580,
+		id = 36590,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			36590
+		}
+	},
+	[36591] = {
+		anti_siren = 100,
+		damage = "84/轮",
+		base = 36580,
+		id = 36591,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			36591
+		}
+	},
 	[36600] = {
 		name = "127mm连装高射炮",
 		speciality = "防空",
@@ -54113,7 +70893,7 @@ pg.equip_data_statistics = {
 		rarity = 2,
 		damage = "32/轮",
 		nationality = 3,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 36600,
 		torpedo_ammo = 0,
@@ -54123,7 +70903,8 @@ pg.equip_data_statistics = {
 		equip_info = {
 			1,
 			2,
-			6
+			6,
+			10
 		},
 		weapon_id = {
 			36600
@@ -54139,7 +70920,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			1,
@@ -54151,7 +70933,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -54202,7 +70985,7 @@ pg.equip_data_statistics = {
 		rarity = 3,
 		damage = "39/轮",
 		nationality = 3,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 36620,
 		torpedo_ammo = 0,
@@ -54212,7 +70995,8 @@ pg.equip_data_statistics = {
 		equip_info = {
 			1,
 			2,
-			6
+			6,
+			10
 		},
 		weapon_id = {
 			36620
@@ -54228,7 +71012,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			1,
@@ -54240,7 +71025,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -54321,7 +71107,7 @@ pg.equip_data_statistics = {
 		rarity = 4,
 		damage = "46/轮",
 		nationality = 3,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 36640,
 		torpedo_ammo = 0,
@@ -54331,7 +71117,8 @@ pg.equip_data_statistics = {
 		equip_info = {
 			1,
 			2,
-			6
+			6,
+			10
 		},
 		weapon_id = {
 			36640
@@ -54347,7 +71134,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			1,
@@ -54359,7 +71147,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -54468,6 +71257,212 @@ pg.equip_data_statistics = {
 			36650
 		}
 	},
+	[36651] = {
+		anti_siren = 100,
+		damage = "116/轮",
+		base = 36640,
+		id = 36651,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			36651
+		}
+	},
+	[36660] = {
+		name = "127mm连装高角炮改",
+		speciality = "防空",
+		type = 6,
+		tech = 0,
+		descrip = "说明未填写",
+		value_2 = 45,
+		icon = "36660",
+		attribute_2 = "antiaircraft",
+		rarity = 5,
+		damage = "54/轮",
+		nationality = 3,
+		ammo = 5,
+		value_3 = 0,
+		id = 36660,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			1,
+			2,
+			6,
+			10
+		},
+		weapon_id = {
+			36660
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"ST",
+			"AA"
+		}
+	},
+	[36661] = {
+		damage = "61/轮",
+		base = 36660,
+		id = 36661,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			36661
+		}
+	},
+	[36662] = {
+		damage = "68/轮",
+		base = 36660,
+		id = 36662,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			36662
+		}
+	},
+	[36663] = {
+		damage = "75/轮",
+		base = 36660,
+		id = 36663,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			36663
+		}
+	},
+	[36664] = {
+		damage = "82/轮",
+		base = 36660,
+		id = 36664,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			36664
+		}
+	},
+	[36665] = {
+		damage = "89/轮",
+		base = 36660,
+		id = 36665,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			36665
+		}
+	},
+	[36666] = {
+		damage = "96/轮",
+		base = 36660,
+		id = 36666,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			36666
+		}
+	},
+	[36667] = {
+		damage = "103/轮",
+		base = 36660,
+		id = 36667,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			36667
+		}
+	},
+	[36668] = {
+		damage = "110/轮",
+		base = 36660,
+		id = 36668,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			36668
+		}
+	},
+	[36669] = {
+		damage = "117/轮",
+		base = 36660,
+		id = 36669,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			36669
+		}
+	},
+	[36670] = {
+		damage = "124/轮",
+		base = 36660,
+		id = 36670,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			36670
+		}
+	},
+	[36671] = {
+		anti_siren = 100,
+		damage = "124/轮",
+		base = 36660,
+		id = 36671,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			36671
+		}
+	},
+	[36672] = {
+		anti_siren = 200,
+		damage = "124/轮",
+		base = 36660,
+		id = 36672,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			36672
+		}
+	},
+	[36673] = {
+		anti_siren = 300,
+		damage = "124/轮",
+		base = 36660,
+		id = 36673,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			36673
+		}
+	},
 	[36700] = {
 		name = "试作型五式40mm高射机关炮",
 		speciality = "防空",
@@ -54480,7 +71475,7 @@ pg.equip_data_statistics = {
 		rarity = 5,
 		damage = "47/轮",
 		nationality = 3,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 36700,
 		torpedo_ammo = 0,
@@ -54490,7 +71485,8 @@ pg.equip_data_statistics = {
 		equip_info = {
 			1,
 			2,
-			6
+			6,
+			10
 		},
 		weapon_id = {
 			36700
@@ -54506,7 +71502,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			1,
@@ -54518,7 +71515,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -54627,17 +71625,50 @@ pg.equip_data_statistics = {
 			36710
 		}
 	},
+	[36711] = {
+		anti_siren = 100,
+		damage = "87/轮",
+		base = 36700,
+		id = 36711,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			36711
+		}
+	},
+	[36712] = {
+		anti_siren = 200,
+		damage = "87/轮",
+		base = 36700,
+		id = 36712,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			36712
+		}
+	},
+	[36713] = {
+		anti_siren = 300,
+		damage = "87/轮",
+		base = 36700,
+		id = 36713,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			36713
+		}
+	},
 	[37000] = {
 		name = "九六式舰战",
+		tech = 1,
 		speciality = "空战",
 		type = 7,
 		rarity = 1,
-		tech = 1,
 		descrip = "说明未填写",
 		value_2 = 0,
 		icon = "37000",
 		nationality = 3,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 37000,
 		torpedo_ammo = 0,
@@ -54652,6 +71683,7 @@ pg.equip_data_statistics = {
 		equip_info = {
 			6,
 			7,
+			8,
 			9
 		},
 		weapon_id = {
@@ -54733,7 +71765,7 @@ pg.equip_data_statistics = {
 		icon = "37000",
 		attribute_2 = "air",
 		nationality = 3,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 37020,
 		torpedo_ammo = 0,
@@ -54748,6 +71780,7 @@ pg.equip_data_statistics = {
 		equip_info = {
 			6,
 			7,
+			8,
 			9
 		},
 		weapon_id = {
@@ -54829,7 +71862,7 @@ pg.equip_data_statistics = {
 		icon = "37000",
 		attribute_2 = "air",
 		nationality = 3,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 37040,
 		torpedo_ammo = 0,
@@ -54844,6 +71877,7 @@ pg.equip_data_statistics = {
 		equip_info = {
 			6,
 			7,
+			8,
 			9
 		},
 		weapon_id = {
@@ -54962,6 +71996,22 @@ pg.equip_data_statistics = {
 			83046
 		}
 	},
+	[37047] = {
+		base = 37040,
+		id = 37047,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50047
+			}
+		},
+		weapon_id = {
+			37047,
+			83047
+		}
+	},
 	[37100] = {
 		name = "零战二一型",
 		type = 7,
@@ -54973,7 +72023,7 @@ pg.equip_data_statistics = {
 		icon = "37100",
 		attribute_2 = "air",
 		nationality = 3,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 37100,
 		torpedo_ammo = 0,
@@ -54996,6 +72046,7 @@ pg.equip_data_statistics = {
 		equip_info = {
 			6,
 			7,
+			8,
 			9
 		},
 		weapon_id = {
@@ -55101,7 +72152,7 @@ pg.equip_data_statistics = {
 		icon = "37100",
 		attribute_2 = "air",
 		nationality = 3,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 37120,
 		torpedo_ammo = 0,
@@ -55124,6 +72175,7 @@ pg.equip_data_statistics = {
 		equip_info = {
 			6,
 			7,
+			8,
 			9
 		},
 		weapon_id = {
@@ -55301,7 +72353,7 @@ pg.equip_data_statistics = {
 		icon = "37100",
 		attribute_2 = "air",
 		nationality = 3,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 37140,
 		torpedo_ammo = 0,
@@ -55324,6 +72376,7 @@ pg.equip_data_statistics = {
 		equip_info = {
 			6,
 			7,
+			8,
 			9
 		},
 		weapon_id = {
@@ -55586,6 +72639,353 @@ pg.equip_data_statistics = {
 			83150
 		}
 	},
+	[37151] = {
+		anti_siren = 100,
+		base = 37140,
+		id = 37151,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50051
+			},
+			{
+				6,
+				50551
+			},
+			{
+				5,
+				52151
+			}
+		},
+		weapon_id = {
+			37151,
+			83151
+		}
+	},
+	[37160] = {
+		name = "零战三二型",
+		type = 7,
+		speciality = "空战",
+		rarity = 4,
+		tech = 0,
+		descrip = "说明未填写",
+		value_2 = 25,
+		icon = "37160",
+		attribute_2 = "air",
+		nationality = 3,
+		ammo = 5,
+		value_3 = 0,
+		id = 37160,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				6,
+				50040
+			},
+			{
+				6,
+				50560
+			},
+			{
+				5,
+				52140
+			}
+		},
+		equip_info = {
+			6,
+			7,
+			8,
+			9
+		},
+		weapon_id = {
+			37160,
+			83160
+		},
+		skill_id = {},
+		part_main = {
+			6,
+			7
+		},
+		part_sub = {
+			6,
+			7
+		},
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"CV",
+			"FT"
+		}
+	},
+	[37161] = {
+		base = 37160,
+		id = 37161,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50041
+			},
+			{
+				6,
+				50561
+			},
+			{
+				5,
+				52141
+			}
+		},
+		weapon_id = {
+			37161,
+			83161
+		}
+	},
+	[37162] = {
+		base = 37160,
+		id = 37162,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50042
+			},
+			{
+				6,
+				50562
+			},
+			{
+				5,
+				52142
+			}
+		},
+		weapon_id = {
+			37162,
+			83162
+		}
+	},
+	[37163] = {
+		base = 37160,
+		id = 37163,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50043
+			},
+			{
+				6,
+				50563
+			},
+			{
+				5,
+				52143
+			}
+		},
+		weapon_id = {
+			37163,
+			83163
+		}
+	},
+	[37164] = {
+		base = 37160,
+		id = 37164,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50044
+			},
+			{
+				6,
+				50564
+			},
+			{
+				5,
+				52144
+			}
+		},
+		weapon_id = {
+			37164,
+			83164
+		}
+	},
+	[37165] = {
+		base = 37160,
+		id = 37165,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50045
+			},
+			{
+				6,
+				50565
+			},
+			{
+				5,
+				52145
+			}
+		},
+		weapon_id = {
+			37165,
+			83165
+		}
+	},
+	[37166] = {
+		base = 37160,
+		id = 37166,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50046
+			},
+			{
+				6,
+				50566
+			},
+			{
+				5,
+				52146
+			}
+		},
+		weapon_id = {
+			37166,
+			83166
+		}
+	},
+	[37167] = {
+		base = 37160,
+		id = 37167,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50047
+			},
+			{
+				6,
+				50567
+			},
+			{
+				5,
+				52147
+			}
+		},
+		weapon_id = {
+			37167,
+			83167
+		}
+	},
+	[37168] = {
+		base = 37160,
+		id = 37168,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50048
+			},
+			{
+				6,
+				50568
+			},
+			{
+				5,
+				52148
+			}
+		},
+		weapon_id = {
+			37168,
+			83168
+		}
+	},
+	[37169] = {
+		base = 37160,
+		id = 37169,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50049
+			},
+			{
+				6,
+				50569
+			},
+			{
+				5,
+				52149
+			}
+		},
+		weapon_id = {
+			37169,
+			83169
+		}
+	},
+	[37170] = {
+		base = 37160,
+		id = 37170,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50050
+			},
+			{
+				6,
+				50560
+			},
+			{
+				5,
+				52150
+			}
+		},
+		weapon_id = {
+			37170,
+			83170
+		}
+	},
+	[37171] = {
+		anti_siren = 100,
+		base = 37160,
+		id = 37171,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50051
+			},
+			{
+				6,
+				50551
+			},
+			{
+				5,
+				52151
+			}
+		},
+		weapon_id = {
+			37171,
+			83171
+		}
+	},
 	[37200] = {
 		name = "零战五二型",
 		type = 7,
@@ -55597,7 +72997,7 @@ pg.equip_data_statistics = {
 		icon = "37200",
 		attribute_2 = "air",
 		nationality = 3,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 37200,
 		torpedo_ammo = 0,
@@ -55620,6 +73020,7 @@ pg.equip_data_statistics = {
 		equip_info = {
 			6,
 			7,
+			8,
 			9
 		},
 		weapon_id = {
@@ -55797,7 +73198,7 @@ pg.equip_data_statistics = {
 		icon = "37200",
 		attribute_2 = "air",
 		nationality = 3,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 37220,
 		torpedo_ammo = 0,
@@ -55820,6 +73221,7 @@ pg.equip_data_statistics = {
 		equip_info = {
 			6,
 			7,
+			8,
 			9
 		},
 		weapon_id = {
@@ -56093,7 +73495,7 @@ pg.equip_data_statistics = {
 		icon = "37200",
 		attribute_2 = "air",
 		nationality = 3,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 37240,
 		torpedo_ammo = 0,
@@ -56116,6 +73518,7 @@ pg.equip_data_statistics = {
 		equip_info = {
 			6,
 			7,
+			8,
 			9
 		},
 		weapon_id = {
@@ -56378,6 +73781,81 @@ pg.equip_data_statistics = {
 			83250
 		}
 	},
+	[37251] = {
+		anti_siren = 100,
+		base = 37240,
+		id = 37251,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50051
+			},
+			{
+				6,
+				50551
+			},
+			{
+				5,
+				52151
+			}
+		},
+		weapon_id = {
+			37251,
+			83251
+		}
+	},
+	[37252] = {
+		anti_siren = 200,
+		base = 37240,
+		id = 37252,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50052
+			},
+			{
+				6,
+				50552
+			},
+			{
+				5,
+				52152
+			}
+		},
+		weapon_id = {
+			37252,
+			83252
+		}
+	},
+	[37253] = {
+		anti_siren = 300,
+		base = 37240,
+		id = 37253,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50053
+			},
+			{
+				6,
+				50553
+			},
+			{
+				5,
+				52153
+			}
+		},
+		weapon_id = {
+			37253,
+			83253
+		}
+	},
 	[37300] = {
 		name = "烈风",
 		type = 7,
@@ -56389,7 +73867,7 @@ pg.equip_data_statistics = {
 		icon = "37300",
 		attribute_2 = "air",
 		nationality = 3,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 37300,
 		torpedo_ammo = 0,
@@ -56408,6 +73886,7 @@ pg.equip_data_statistics = {
 		equip_info = {
 			6,
 			7,
+			8,
 			9
 		},
 		weapon_id = {
@@ -56561,7 +74040,7 @@ pg.equip_data_statistics = {
 		icon = "37300",
 		attribute_2 = "air",
 		nationality = 3,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 37320,
 		torpedo_ammo = 0,
@@ -56580,6 +74059,7 @@ pg.equip_data_statistics = {
 		equip_info = {
 			6,
 			7,
+			8,
 			9
 		},
 		weapon_id = {
@@ -56813,7 +74293,7 @@ pg.equip_data_statistics = {
 		icon = "37300",
 		attribute_2 = "air",
 		nationality = 3,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 37340,
 		torpedo_ammo = 0,
@@ -56832,6 +74312,7 @@ pg.equip_data_statistics = {
 		equip_info = {
 			6,
 			7,
+			8,
 			9
 		},
 		weapon_id = {
@@ -57054,17 +74535,1096 @@ pg.equip_data_statistics = {
 			83350
 		}
 	},
+	[37351] = {
+		anti_siren = 100,
+		base = 37340,
+		id = 37351,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				59551
+			},
+			{
+				5,
+				52351
+			}
+		},
+		weapon_id = {
+			37351,
+			83351
+		}
+	},
+	[37352] = {
+		anti_siren = 200,
+		base = 37340,
+		id = 37352,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				59552
+			},
+			{
+				5,
+				52352
+			}
+		},
+		weapon_id = {
+			37352,
+			83352
+		}
+	},
+	[37353] = {
+		anti_siren = 300,
+		base = 37340,
+		id = 37353,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				59553
+			},
+			{
+				5,
+				52353
+			}
+		},
+		weapon_id = {
+			37353,
+			83353
+		}
+	},
+	[37400] = {
+		name = "紫电改二",
+		type = 7,
+		speciality = "空战",
+		rarity = 5,
+		tech = 0,
+		descrip = "Kawanishi N1K3-A Shiden 紫電改二舰载战斗机。",
+		value_2 = 45,
+		icon = "37400",
+		attribute_2 = "air",
+		nationality = 3,
+		ammo = 5,
+		value_3 = 0,
+		id = 37400,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				6,
+				59540
+			},
+			{
+				6,
+				50860
+			},
+			{
+				5,
+				52340
+			}
+		},
+		equip_info = {
+			6,
+			7,
+			8,
+			9
+		},
+		weapon_id = {
+			37400,
+			83400
+		},
+		skill_id = {},
+		part_main = {
+			6,
+			7
+		},
+		part_sub = {
+			6,
+			7
+		},
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"CV",
+			"FT"
+		}
+	},
+	[37401] = {
+		base = 37400,
+		id = 37401,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				59541
+			},
+			{
+				6,
+				50861
+			},
+			{
+				5,
+				52341
+			}
+		},
+		weapon_id = {
+			37401,
+			83401
+		}
+	},
+	[37402] = {
+		base = 37400,
+		id = 37402,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				59542
+			},
+			{
+				6,
+				50862
+			},
+			{
+				5,
+				52342
+			}
+		},
+		weapon_id = {
+			37402,
+			83402
+		}
+	},
+	[37403] = {
+		base = 37400,
+		id = 37403,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				59543
+			},
+			{
+				6,
+				50863
+			},
+			{
+				5,
+				52343
+			}
+		},
+		weapon_id = {
+			37403,
+			83403
+		}
+	},
+	[37404] = {
+		base = 37400,
+		id = 37404,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				59544
+			},
+			{
+				6,
+				50864
+			},
+			{
+				5,
+				52344
+			}
+		},
+		weapon_id = {
+			37404,
+			83404
+		}
+	},
+	[37405] = {
+		base = 37400,
+		id = 37405,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				59545
+			},
+			{
+				6,
+				50865
+			},
+			{
+				5,
+				52345
+			}
+		},
+		weapon_id = {
+			37405,
+			83405
+		}
+	},
+	[37406] = {
+		base = 37400,
+		id = 37406,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				59546
+			},
+			{
+				6,
+				50866
+			},
+			{
+				5,
+				52346
+			}
+		},
+		weapon_id = {
+			37406,
+			83406
+		}
+	},
+	[37407] = {
+		base = 37400,
+		id = 37407,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				59547
+			},
+			{
+				6,
+				50867
+			},
+			{
+				5,
+				52347
+			}
+		},
+		weapon_id = {
+			37407,
+			83407
+		}
+	},
+	[37408] = {
+		base = 37400,
+		id = 37408,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				59548
+			},
+			{
+				6,
+				50868
+			},
+			{
+				5,
+				52348
+			}
+		},
+		weapon_id = {
+			37408,
+			83408
+		}
+	},
+	[37409] = {
+		base = 37400,
+		id = 37409,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				59549
+			},
+			{
+				6,
+				50869
+			},
+			{
+				5,
+				52349
+			}
+		},
+		weapon_id = {
+			37409,
+			83409
+		}
+	},
+	[37410] = {
+		base = 37400,
+		id = 37410,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				59550
+			},
+			{
+				6,
+				50870
+			},
+			{
+				5,
+				52350
+			}
+		},
+		weapon_id = {
+			37410,
+			83410
+		}
+	},
+	[37411] = {
+		anti_siren = 100,
+		base = 37400,
+		id = 37411,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				59551
+			},
+			{
+				6,
+				50871
+			},
+			{
+				5,
+				52351
+			}
+		},
+		weapon_id = {
+			37411,
+			83411
+		}
+	},
+	[37412] = {
+		anti_siren = 200,
+		base = 37400,
+		id = 37412,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				59552
+			},
+			{
+				6,
+				50872
+			},
+			{
+				5,
+				52352
+			}
+		},
+		weapon_id = {
+			37412,
+			83412
+		}
+	},
+	[37413] = {
+		anti_siren = 300,
+		base = 37400,
+		id = 37413,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				59553
+			},
+			{
+				6,
+				50873
+			},
+			{
+				5,
+				52353
+			}
+		},
+		weapon_id = {
+			37413,
+			83413
+		}
+	},
+	[37420] = {
+		name = "二式水上战斗机",
+		type = 12,
+		speciality = "空战",
+		rarity = 4,
+		tech = 0,
+		descrip = "说明未填写",
+		value_2 = 25,
+		icon = "37420",
+		attribute_2 = "air",
+		nationality = 3,
+		ammo = 5,
+		value_3 = 0,
+		id = 37420,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				6,
+				50040
+			},
+			{
+				6,
+				50540
+			},
+			{
+				5,
+				52140
+			}
+		},
+		equip_info = {
+			6,
+			7,
+			8,
+			9
+		},
+		weapon_id = {
+			37420,
+			83420
+		},
+		skill_id = {},
+		part_main = {
+			10,
+			17
+		},
+		part_sub = {
+			10,
+			17
+		},
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"ST",
+			"SCOUT"
+		}
+	},
+	[37421] = {
+		base = 37420,
+		id = 37421,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50041
+			},
+			{
+				6,
+				50541
+			},
+			{
+				5,
+				52141
+			}
+		},
+		weapon_id = {
+			37421,
+			83421
+		}
+	},
+	[37422] = {
+		base = 37420,
+		id = 37422,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50042
+			},
+			{
+				6,
+				50542
+			},
+			{
+				5,
+				52142
+			}
+		},
+		weapon_id = {
+			37422,
+			83422
+		}
+	},
+	[37423] = {
+		base = 37420,
+		id = 37423,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50043
+			},
+			{
+				6,
+				50543
+			},
+			{
+				5,
+				52143
+			}
+		},
+		weapon_id = {
+			37423,
+			83423
+		}
+	},
+	[37424] = {
+		base = 37420,
+		id = 37424,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50044
+			},
+			{
+				6,
+				50544
+			},
+			{
+				5,
+				52144
+			}
+		},
+		weapon_id = {
+			37424,
+			83424
+		}
+	},
+	[37425] = {
+		base = 37420,
+		id = 37425,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50045
+			},
+			{
+				6,
+				50545
+			},
+			{
+				5,
+				52145
+			}
+		},
+		weapon_id = {
+			37425,
+			83425
+		}
+	},
+	[37426] = {
+		base = 37420,
+		id = 37426,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50046
+			},
+			{
+				6,
+				50546
+			},
+			{
+				5,
+				52146
+			}
+		},
+		weapon_id = {
+			37426,
+			83426
+		}
+	},
+	[37427] = {
+		base = 37420,
+		id = 37427,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50047
+			},
+			{
+				6,
+				50547
+			},
+			{
+				5,
+				52147
+			}
+		},
+		weapon_id = {
+			37427,
+			83427
+		}
+	},
+	[37428] = {
+		base = 37420,
+		id = 37428,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50048
+			},
+			{
+				6,
+				50548
+			},
+			{
+				5,
+				52148
+			}
+		},
+		weapon_id = {
+			37428,
+			83428
+		}
+	},
+	[37429] = {
+		base = 37420,
+		id = 37429,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50049
+			},
+			{
+				6,
+				50549
+			},
+			{
+				5,
+				52149
+			}
+		},
+		weapon_id = {
+			37429,
+			83429
+		}
+	},
+	[37430] = {
+		base = 37420,
+		id = 37430,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50050
+			},
+			{
+				6,
+				50550
+			},
+			{
+				5,
+				52150
+			}
+		},
+		weapon_id = {
+			37430,
+			83430
+		}
+	},
+	[37431] = {
+		anti_siren = 100,
+		base = 37420,
+		id = 37431,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50051
+			},
+			{
+				6,
+				50551
+			},
+			{
+				5,
+				52151
+			}
+		},
+		weapon_id = {
+			37431,
+			83431
+		}
+	},
+	[37440] = {
+		name = "强风",
+		type = 12,
+		speciality = "空战",
+		rarity = 4,
+		tech = 0,
+		descrip = "说明未填写",
+		value_2 = 25,
+		icon = "37440",
+		attribute_2 = "air",
+		nationality = 3,
+		ammo = 5,
+		value_3 = 0,
+		id = 37440,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				6,
+				50040
+			},
+			{
+				6,
+				50560
+			},
+			{
+				5,
+				52160
+			}
+		},
+		equip_info = {
+			6,
+			7,
+			8,
+			9
+		},
+		weapon_id = {
+			37440,
+			83440
+		},
+		skill_id = {},
+		part_main = {
+			10,
+			17
+		},
+		part_sub = {
+			10,
+			17
+		},
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"ST",
+			"SCOUT"
+		}
+	},
+	[37441] = {
+		base = 37440,
+		id = 37441,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50041
+			},
+			{
+				6,
+				50561
+			},
+			{
+				5,
+				52141
+			}
+		},
+		weapon_id = {
+			37441,
+			83441
+		}
+	},
+	[37442] = {
+		base = 37440,
+		id = 37442,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50042
+			},
+			{
+				6,
+				50562
+			},
+			{
+				5,
+				52142
+			}
+		},
+		weapon_id = {
+			37442,
+			83442
+		}
+	},
+	[37443] = {
+		base = 37440,
+		id = 37443,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50043
+			},
+			{
+				6,
+				50563
+			},
+			{
+				5,
+				52143
+			}
+		},
+		weapon_id = {
+			37443,
+			83443
+		}
+	},
+	[37444] = {
+		base = 37440,
+		id = 37444,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50044
+			},
+			{
+				6,
+				50564
+			},
+			{
+				5,
+				52144
+			}
+		},
+		weapon_id = {
+			37444,
+			83444
+		}
+	},
+	[37445] = {
+		base = 37440,
+		id = 37445,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50045
+			},
+			{
+				6,
+				50565
+			},
+			{
+				5,
+				52145
+			}
+		},
+		weapon_id = {
+			37445,
+			83445
+		}
+	},
+	[37446] = {
+		base = 37440,
+		id = 37446,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50046
+			},
+			{
+				6,
+				50566
+			},
+			{
+				5,
+				52146
+			}
+		},
+		weapon_id = {
+			37446,
+			83446
+		}
+	},
+	[37447] = {
+		base = 37440,
+		id = 37447,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50047
+			},
+			{
+				6,
+				50567
+			},
+			{
+				5,
+				52147
+			}
+		},
+		weapon_id = {
+			37447,
+			83447
+		}
+	},
+	[37448] = {
+		base = 37440,
+		id = 37448,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50048
+			},
+			{
+				6,
+				50568
+			},
+			{
+				5,
+				52148
+			}
+		},
+		weapon_id = {
+			37448,
+			83448
+		}
+	},
+	[37449] = {
+		base = 37440,
+		id = 37449,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50049
+			},
+			{
+				6,
+				50569
+			},
+			{
+				5,
+				52149
+			}
+		},
+		weapon_id = {
+			37449,
+			83449
+		}
+	},
+	[37450] = {
+		base = 37440,
+		id = 37450,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50050
+			},
+			{
+				6,
+				50570
+			},
+			{
+				5,
+				52150
+			}
+		},
+		weapon_id = {
+			37450,
+			83450
+		}
+	},
+	[37451] = {
+		anti_siren = 100,
+		base = 37440,
+		id = 37451,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50051
+			},
+			{
+				6,
+				50571
+			},
+			{
+				5,
+				52151
+			}
+		},
+		weapon_id = {
+			37451,
+			83451
+		}
+	},
 	[38000] = {
 		name = "九七式舰攻",
+		tech = 1,
 		speciality = "雷击",
 		type = 8,
 		rarity = 1,
-		tech = 1,
 		descrip = "说明未填写",
 		value_2 = 0,
 		icon = "38000",
 		nationality = 3,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 38000,
 		torpedo_ammo = 0,
@@ -57083,6 +75643,7 @@ pg.equip_data_statistics = {
 		equip_info = {
 			6,
 			7,
+			8,
 			9
 		},
 		weapon_id = {
@@ -57172,7 +75733,7 @@ pg.equip_data_statistics = {
 		icon = "38000",
 		attribute_2 = "air",
 		nationality = 3,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 38020,
 		torpedo_ammo = 0,
@@ -57191,6 +75752,7 @@ pg.equip_data_statistics = {
 		equip_info = {
 			6,
 			7,
+			8,
 			9
 		},
 		weapon_id = {
@@ -57280,7 +75842,7 @@ pg.equip_data_statistics = {
 		icon = "38000",
 		attribute_2 = "air",
 		nationality = 3,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 38040,
 		torpedo_ammo = 0,
@@ -57299,6 +75861,7 @@ pg.equip_data_statistics = {
 		equip_info = {
 			6,
 			7,
+			8,
 			9
 		},
 		weapon_id = {
@@ -57434,6 +75997,210 @@ pg.equip_data_statistics = {
 			38046
 		}
 	},
+	[38047] = {
+		base = 38040,
+		id = 38047,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50047
+			},
+			{
+				4,
+				51347
+			}
+		},
+		weapon_id = {
+			38047
+		}
+	},
+	[38060] = {
+		name = "九七式舰攻改",
+		type = 8,
+		speciality = "雷击",
+		rarity = 3,
+		tech = 0,
+		descrip = "说明未填写",
+		value_2 = 12,
+		icon = "38060",
+		attribute_2 = "air",
+		nationality = 3,
+		ammo = 5,
+		value_3 = 0,
+		id = 38060,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				6,
+				50040
+			},
+			{
+				4,
+				51340
+			}
+		},
+		equip_info = {
+			6,
+			7,
+			8,
+			9
+		},
+		weapon_id = {
+			38060
+		},
+		skill_id = {},
+		part_main = {
+			6,
+			7
+		},
+		part_sub = {
+			6,
+			7
+		},
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"CV",
+			"TB"
+		}
+	},
+	[38061] = {
+		base = 38060,
+		id = 38061,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50041
+			},
+			{
+				4,
+				51341
+			}
+		},
+		weapon_id = {
+			38061
+		}
+	},
+	[38062] = {
+		base = 38060,
+		id = 38062,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50042
+			},
+			{
+				4,
+				51342
+			}
+		},
+		weapon_id = {
+			38062
+		}
+	},
+	[38063] = {
+		base = 38060,
+		id = 38063,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50043
+			},
+			{
+				4,
+				51343
+			}
+		},
+		weapon_id = {
+			38063
+		}
+	},
+	[38064] = {
+		base = 38060,
+		id = 38064,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50044
+			},
+			{
+				4,
+				51344
+			}
+		},
+		weapon_id = {
+			38064
+		}
+	},
+	[38065] = {
+		base = 38060,
+		id = 38065,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50045
+			},
+			{
+				4,
+				51345
+			}
+		},
+		weapon_id = {
+			38065
+		}
+	},
+	[38066] = {
+		base = 38060,
+		id = 38066,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50046
+			},
+			{
+				4,
+				51346
+			}
+		},
+		weapon_id = {
+			38066
+		}
+	},
+	[38067] = {
+		base = 38060,
+		id = 38067,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50047
+			},
+			{
+				4,
+				51347
+			}
+		},
+		weapon_id = {
+			38067
+		}
+	},
 	[38100] = {
 		name = "天山",
 		type = 8,
@@ -57445,7 +76212,7 @@ pg.equip_data_statistics = {
 		icon = "38100",
 		attribute_2 = "air",
 		nationality = 3,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 38100,
 		torpedo_ammo = 0,
@@ -57464,6 +76231,7 @@ pg.equip_data_statistics = {
 		equip_info = {
 			6,
 			7,
+			8,
 			9
 		},
 		weapon_id = {
@@ -57553,7 +76321,7 @@ pg.equip_data_statistics = {
 		icon = "38100",
 		attribute_2 = "air",
 		nationality = 3,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 38120,
 		torpedo_ammo = 0,
@@ -57572,6 +76340,7 @@ pg.equip_data_statistics = {
 		equip_info = {
 			6,
 			7,
+			8,
 			9
 		},
 		weapon_id = {
@@ -57718,7 +76487,7 @@ pg.equip_data_statistics = {
 		icon = "38100",
 		attribute_2 = "air",
 		nationality = 3,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 38140,
 		torpedo_ammo = 0,
@@ -57737,6 +76506,7 @@ pg.equip_data_statistics = {
 		equip_info = {
 			6,
 			7,
+			8,
 			9
 		},
 		weapon_id = {
@@ -57948,6 +76718,336 @@ pg.equip_data_statistics = {
 			38150
 		}
 	},
+	[38151] = {
+		anti_siren = 100,
+		base = 38140,
+		id = 38151,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50051
+			},
+			{
+				4,
+				51451
+			}
+		},
+		weapon_id = {
+			38151
+		}
+	},
+	[38160] = {
+		name = "天山改",
+		type = 8,
+		speciality = "雷击",
+		rarity = 4,
+		tech = 0,
+		descrip = "说明未填写",
+		value_2 = 25,
+		icon = "38160",
+		attribute_2 = "air",
+		nationality = 3,
+		ammo = 5,
+		value_3 = 0,
+		id = 38160,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				6,
+				50840
+			},
+			{
+				6,
+				59720
+			},
+			{
+				4,
+				51460
+			}
+		},
+		equip_info = {
+			6,
+			7,
+			8,
+			9
+		},
+		weapon_id = {
+			38160
+		},
+		skill_id = {},
+		part_main = {
+			6,
+			7
+		},
+		part_sub = {
+			6,
+			7
+		},
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"CV",
+			"TB"
+		}
+	},
+	[38161] = {
+		base = 38160,
+		id = 38161,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50841
+			},
+			{
+				6,
+				59721
+			},
+			{
+				4,
+				51461
+			}
+		},
+		weapon_id = {
+			38161
+		}
+	},
+	[38162] = {
+		base = 38160,
+		id = 38162,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50842
+			},
+			{
+				6,
+				59722
+			},
+			{
+				4,
+				51462
+			}
+		},
+		weapon_id = {
+			38162
+		}
+	},
+	[38163] = {
+		base = 38160,
+		id = 38163,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50843
+			},
+			{
+				6,
+				59723
+			},
+			{
+				4,
+				51463
+			}
+		},
+		weapon_id = {
+			38163
+		}
+	},
+	[38164] = {
+		base = 38160,
+		id = 38164,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50844
+			},
+			{
+				6,
+				59724
+			},
+			{
+				4,
+				51464
+			}
+		},
+		weapon_id = {
+			38164
+		}
+	},
+	[38165] = {
+		base = 38160,
+		id = 38165,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50845
+			},
+			{
+				6,
+				59725
+			},
+			{
+				4,
+				51465
+			}
+		},
+		weapon_id = {
+			38165
+		}
+	},
+	[38166] = {
+		base = 38160,
+		id = 38166,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50846
+			},
+			{
+				6,
+				59726
+			},
+			{
+				4,
+				51466
+			}
+		},
+		weapon_id = {
+			38166
+		}
+	},
+	[38167] = {
+		base = 38160,
+		id = 38167,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50847
+			},
+			{
+				6,
+				59727
+			},
+			{
+				4,
+				51467
+			}
+		},
+		weapon_id = {
+			38167
+		}
+	},
+	[38168] = {
+		base = 38160,
+		id = 38168,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50848
+			},
+			{
+				6,
+				59728
+			},
+			{
+				4,
+				51468
+			}
+		},
+		weapon_id = {
+			38168
+		}
+	},
+	[38169] = {
+		base = 38160,
+		id = 38169,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50849
+			},
+			{
+				6,
+				59729
+			},
+			{
+				4,
+				51469
+			}
+		},
+		weapon_id = {
+			38169
+		}
+	},
+	[38170] = {
+		base = 38160,
+		id = 38170,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50850
+			},
+			{
+				6,
+				59730
+			},
+			{
+				4,
+				51470
+			}
+		},
+		weapon_id = {
+			38170
+		}
+	},
+	[38171] = {
+		anti_siren = 100,
+		base = 38160,
+		id = 38171,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50851
+			},
+			{
+				6,
+				59731
+			},
+			{
+				4,
+				51471
+			}
+		},
+		weapon_id = {
+			38171
+		}
+	},
 	[38200] = {
 		name = "流星",
 		type = 8,
@@ -57959,7 +77059,7 @@ pg.equip_data_statistics = {
 		icon = "38200",
 		attribute_2 = "air",
 		nationality = 3,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 38200,
 		torpedo_ammo = 0,
@@ -57982,6 +77082,7 @@ pg.equip_data_statistics = {
 		equip_info = {
 			6,
 			7,
+			8,
 			9
 		},
 		weapon_id = {
@@ -58152,7 +77253,7 @@ pg.equip_data_statistics = {
 		icon = "38200",
 		attribute_2 = "air",
 		nationality = 3,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 38220,
 		torpedo_ammo = 0,
@@ -58175,6 +77276,7 @@ pg.equip_data_statistics = {
 		equip_info = {
 			6,
 			7,
+			8,
 			9
 		},
 		weapon_id = {
@@ -58437,7 +77539,7 @@ pg.equip_data_statistics = {
 		icon = "38200",
 		attribute_2 = "air",
 		nationality = 3,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 38240,
 		torpedo_ammo = 0,
@@ -58460,6 +77562,7 @@ pg.equip_data_statistics = {
 		equip_info = {
 			6,
 			7,
+			8,
 			9
 		},
 		weapon_id = {
@@ -58711,6 +77814,78 @@ pg.equip_data_statistics = {
 			38250
 		}
 	},
+	[38251] = {
+		anti_siren = 100,
+		base = 38240,
+		id = 38251,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50551
+			},
+			{
+				6,
+				50851
+			},
+			{
+				4,
+				51471
+			}
+		},
+		weapon_id = {
+			38251
+		}
+	},
+	[38252] = {
+		anti_siren = 200,
+		base = 38240,
+		id = 38252,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50552
+			},
+			{
+				6,
+				50852
+			},
+			{
+				4,
+				51472
+			}
+		},
+		weapon_id = {
+			38252
+		}
+	},
+	[38253] = {
+		anti_siren = 300,
+		base = 38240,
+		id = 38253,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50553
+			},
+			{
+				6,
+				50853
+			},
+			{
+				4,
+				51473
+			}
+		},
+		weapon_id = {
+			38253
+		}
+	},
 	[39000] = {
 		name = "九九式舰爆",
 		type = 9,
@@ -58722,7 +77897,7 @@ pg.equip_data_statistics = {
 		icon = "39000",
 		attribute_2 = "air",
 		nationality = 3,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 39000,
 		torpedo_ammo = 0,
@@ -58745,6 +77920,7 @@ pg.equip_data_statistics = {
 		equip_info = {
 			6,
 			7,
+			8,
 			9
 		},
 		weapon_id = {
@@ -58846,7 +78022,7 @@ pg.equip_data_statistics = {
 		icon = "39000",
 		attribute_2 = "air",
 		nationality = 3,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 39020,
 		torpedo_ammo = 0,
@@ -58869,6 +78045,7 @@ pg.equip_data_statistics = {
 		equip_info = {
 			6,
 			7,
+			8,
 			9
 		},
 		weapon_id = {
@@ -59039,7 +78216,7 @@ pg.equip_data_statistics = {
 		icon = "39000",
 		attribute_2 = "air",
 		nationality = 3,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 39040,
 		torpedo_ammo = 0,
@@ -59062,6 +78239,7 @@ pg.equip_data_statistics = {
 		equip_info = {
 			6,
 			7,
+			8,
 			9
 		},
 		weapon_id = {
@@ -59313,6 +78491,340 @@ pg.equip_data_statistics = {
 			39050
 		}
 	},
+	[39051] = {
+		anti_siren = 100,
+		base = 39040,
+		id = 39051,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50051
+			},
+			{
+				5,
+				52251
+			},
+			{
+				5,
+				52151
+			}
+		},
+		weapon_id = {
+			39051
+		}
+	},
+	[39060] = {
+		name = "九九式舰爆改",
+		type = 9,
+		speciality = "轰炸",
+		rarity = 4,
+		tech = 0,
+		descrip = "说明未填写",
+		value_2 = 25,
+		icon = "39060",
+		attribute_2 = "air",
+		nationality = 3,
+		ammo = 5,
+		value_3 = 0,
+		id = 39060,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				6,
+				50040
+			},
+			{
+				5,
+				52240
+			},
+			{
+				5,
+				52160
+			}
+		},
+		equip_info = {
+			6,
+			7,
+			8,
+			9
+		},
+		weapon_id = {
+			39060
+		},
+		skill_id = {},
+		part_main = {
+			6,
+			7
+		},
+		part_sub = {
+			6,
+			7
+		},
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"CV",
+			"DB"
+		}
+	},
+	[39061] = {
+		base = 39060,
+		id = 39061,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50041
+			},
+			{
+				5,
+				52241
+			},
+			{
+				5,
+				52161
+			}
+		},
+		weapon_id = {
+			39061
+		}
+	},
+	[39062] = {
+		base = 39060,
+		id = 39062,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50042
+			},
+			{
+				5,
+				52242
+			},
+			{
+				5,
+				52162
+			}
+		},
+		weapon_id = {
+			39062
+		}
+	},
+	[39063] = {
+		base = 39060,
+		id = 39063,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50043
+			},
+			{
+				5,
+				52243
+			},
+			{
+				5,
+				52163
+			}
+		},
+		weapon_id = {
+			39063
+		}
+	},
+	[39064] = {
+		base = 39060,
+		id = 39064,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50044
+			},
+			{
+				5,
+				52244
+			},
+			{
+				5,
+				52164
+			}
+		},
+		weapon_id = {
+			39064
+		}
+	},
+	[39065] = {
+		base = 39060,
+		id = 39065,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50045
+			},
+			{
+				5,
+				52245
+			},
+			{
+				5,
+				52165
+			}
+		},
+		weapon_id = {
+			39065
+		}
+	},
+	[39066] = {
+		base = 39060,
+		id = 39066,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50046
+			},
+			{
+				5,
+				52246
+			},
+			{
+				5,
+				52166
+			}
+		},
+		weapon_id = {
+			39066
+		}
+	},
+	[39067] = {
+		base = 39060,
+		id = 39067,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50047
+			},
+			{
+				5,
+				52247
+			},
+			{
+				5,
+				52167
+			}
+		},
+		weapon_id = {
+			39067
+		}
+	},
+	[39068] = {
+		base = 39060,
+		id = 39068,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50048
+			},
+			{
+				5,
+				52248
+			},
+			{
+				5,
+				52168
+			}
+		},
+		weapon_id = {
+			39068
+		}
+	},
+	[39069] = {
+		base = 39060,
+		id = 39069,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50049
+			},
+			{
+				5,
+				52249
+			},
+			{
+				5,
+				52169
+			}
+		},
+		weapon_id = {
+			39069
+		}
+	},
+	[39070] = {
+		base = 39060,
+		id = 39070,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50050
+			},
+			{
+				5,
+				52250
+			},
+			{
+				5,
+				52170
+			}
+		},
+		weapon_id = {
+			39070
+		}
+	},
+	[39071] = {
+		anti_siren = 100,
+		base = 39060,
+		id = 39071,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50051
+			},
+			{
+				5,
+				52251
+			},
+			{
+				5,
+				52171
+			}
+		},
+		weapon_id = {
+			39071
+		}
+	},
 	[39100] = {
 		name = "彗星",
 		type = 9,
@@ -59324,7 +78836,7 @@ pg.equip_data_statistics = {
 		icon = "39100",
 		attribute_2 = "air",
 		nationality = 3,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 39100,
 		torpedo_ammo = 0,
@@ -59347,6 +78859,7 @@ pg.equip_data_statistics = {
 		equip_info = {
 			6,
 			7,
+			8,
 			9
 		},
 		weapon_id = {
@@ -59517,7 +79030,7 @@ pg.equip_data_statistics = {
 		icon = "39100",
 		attribute_2 = "air",
 		nationality = 3,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 39120,
 		torpedo_ammo = 0,
@@ -59540,6 +79053,7 @@ pg.equip_data_statistics = {
 		equip_info = {
 			6,
 			7,
+			8,
 			9
 		},
 		weapon_id = {
@@ -59802,7 +79316,7 @@ pg.equip_data_statistics = {
 		icon = "39100",
 		attribute_2 = "air",
 		nationality = 3,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 39140,
 		torpedo_ammo = 0,
@@ -59825,6 +79339,7 @@ pg.equip_data_statistics = {
 		equip_info = {
 			6,
 			7,
+			8,
 			9
 		},
 		weapon_id = {
@@ -60076,18 +79591,448 @@ pg.equip_data_statistics = {
 			39150
 		}
 	},
+	[39151] = {
+		anti_siren = 100,
+		base = 39140,
+		id = 39151,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50051
+			},
+			{
+				5,
+				52651
+			},
+			{
+				5,
+				52151
+			}
+		},
+		weapon_id = {
+			39151
+		}
+	},
+	[39152] = {
+		anti_siren = 200,
+		base = 39140,
+		id = 39152,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50052
+			},
+			{
+				5,
+				52652
+			},
+			{
+				5,
+				52152
+			}
+		},
+		weapon_id = {
+			39152
+		}
+	},
+	[39153] = {
+		anti_siren = 300,
+		base = 39140,
+		id = 39153,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50053
+			},
+			{
+				5,
+				52653
+			},
+			{
+				5,
+				52153
+			}
+		},
+		weapon_id = {
+			39153
+		}
+	},
+	[39160] = {
+		name = "彗星一二型甲",
+		type = 9,
+		speciality = "轰炸",
+		rarity = 5,
+		tech = 0,
+		descrip = "说明未填写",
+		value_2 = 45,
+		icon = "39160",
+		attribute_2 = "air",
+		nationality = 3,
+		ammo = 5,
+		value_3 = 0,
+		id = 39160,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				6,
+				50040
+			},
+			{
+				5,
+				52660
+			},
+			{
+				5,
+				52160
+			}
+		},
+		equip_info = {
+			6,
+			7,
+			8,
+			9
+		},
+		weapon_id = {
+			39160
+		},
+		skill_id = {},
+		part_main = {
+			6,
+			7
+		},
+		part_sub = {
+			6,
+			7
+		},
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"CV",
+			"DB"
+		}
+	},
+	[39161] = {
+		base = 39160,
+		id = 39161,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50041
+			},
+			{
+				5,
+				52661
+			},
+			{
+				5,
+				52161
+			}
+		},
+		weapon_id = {
+			39161
+		}
+	},
+	[39162] = {
+		base = 39160,
+		id = 39162,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50042
+			},
+			{
+				5,
+				52662
+			},
+			{
+				5,
+				52162
+			}
+		},
+		weapon_id = {
+			39162
+		}
+	},
+	[39163] = {
+		base = 39160,
+		id = 39163,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50043
+			},
+			{
+				5,
+				52663
+			},
+			{
+				5,
+				52163
+			}
+		},
+		weapon_id = {
+			39163
+		}
+	},
+	[39164] = {
+		base = 39160,
+		id = 39164,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50044
+			},
+			{
+				5,
+				52664
+			},
+			{
+				5,
+				52164
+			}
+		},
+		weapon_id = {
+			39164
+		}
+	},
+	[39165] = {
+		base = 39160,
+		id = 39165,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50045
+			},
+			{
+				5,
+				52665
+			},
+			{
+				5,
+				52165
+			}
+		},
+		weapon_id = {
+			39165
+		}
+	},
+	[39166] = {
+		base = 39160,
+		id = 39166,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50046
+			},
+			{
+				5,
+				52666
+			},
+			{
+				5,
+				52166
+			}
+		},
+		weapon_id = {
+			39166
+		}
+	},
+	[39167] = {
+		base = 39160,
+		id = 39167,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50047
+			},
+			{
+				5,
+				52667
+			},
+			{
+				5,
+				52167
+			}
+		},
+		weapon_id = {
+			39167
+		}
+	},
+	[39168] = {
+		base = 39160,
+		id = 39168,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50048
+			},
+			{
+				5,
+				52668
+			},
+			{
+				5,
+				52168
+			}
+		},
+		weapon_id = {
+			39168
+		}
+	},
+	[39169] = {
+		base = 39160,
+		id = 39169,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50049
+			},
+			{
+				5,
+				52669
+			},
+			{
+				5,
+				52169
+			}
+		},
+		weapon_id = {
+			39169
+		}
+	},
+	[39170] = {
+		base = 39160,
+		id = 39170,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50050
+			},
+			{
+				5,
+				52670
+			},
+			{
+				5,
+				52170
+			}
+		},
+		weapon_id = {
+			39170
+		}
+	},
+	[39171] = {
+		anti_siren = 100,
+		base = 39160,
+		id = 39171,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50051
+			},
+			{
+				5,
+				52671
+			},
+			{
+				5,
+				52171
+			}
+		},
+		weapon_id = {
+			39171
+		}
+	},
+	[39172] = {
+		anti_siren = 200,
+		base = 39160,
+		id = 39172,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50052
+			},
+			{
+				5,
+				52672
+			},
+			{
+				5,
+				52172
+			}
+		},
+		weapon_id = {
+			39172
+		}
+	},
+	[39173] = {
+		anti_siren = 300,
+		base = 39160,
+		id = 39173,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50053
+			},
+			{
+				5,
+				52673
+			},
+			{
+				5,
+				52173
+			}
+		},
+		weapon_id = {
+			39173
+		}
+	},
 	[39200] = {
 		name = "瑞云",
-		speciality = "轰炸",
-		type = 12,
 		tech = 1,
-		rarity = 2,
+		type = 12,
+		speciality = "轰炸",
 		attribute_3 = "air",
+		rarity = 2,
 		value_2 = 5,
 		icon = "39200",
 		descrip = "Aichi E16A Zuiun 瑞云式水上侦察机，搭载有2门20毫米机炮、1门13mm机枪和1枚500磅炸弹",
 		nationality = 3,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 39200,
 		torpedo_ammo = 0,
@@ -60110,6 +80055,7 @@ pg.equip_data_statistics = {
 		equip_info = {
 			6,
 			7,
+			8,
 			9
 		},
 		weapon_id = {
@@ -60211,7 +80157,7 @@ pg.equip_data_statistics = {
 		icon = "39200",
 		attribute_2 = "air",
 		nationality = 3,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 39220,
 		torpedo_ammo = 0,
@@ -60234,6 +80180,7 @@ pg.equip_data_statistics = {
 		equip_info = {
 			6,
 			7,
+			8,
 			9
 		},
 		weapon_id = {
@@ -60404,7 +80351,7 @@ pg.equip_data_statistics = {
 		icon = "39200",
 		attribute_2 = "air",
 		nationality = 3,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 39240,
 		torpedo_ammo = 0,
@@ -60427,6 +80374,7 @@ pg.equip_data_statistics = {
 		equip_info = {
 			6,
 			7,
+			8,
 			9
 		},
 		weapon_id = {
@@ -60678,6 +80626,30 @@ pg.equip_data_statistics = {
 			39250
 		}
 	},
+	[39251] = {
+		anti_siren = 100,
+		base = 39240,
+		id = 39251,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50551
+			},
+			{
+				6,
+				50851
+			},
+			{
+				5,
+				52251
+			}
+		},
+		weapon_id = {
+			39251
+		}
+	},
 	[39300] = {
 		name = "晴岚",
 		type = 12,
@@ -60689,7 +80661,7 @@ pg.equip_data_statistics = {
 		icon = "39300",
 		attribute_2 = "air",
 		nationality = 3,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 39300,
 		torpedo_ammo = 0,
@@ -60708,6 +80680,7 @@ pg.equip_data_statistics = {
 		equip_info = {
 			6,
 			7,
+			8,
 			9
 		},
 		weapon_id = {
@@ -60921,6 +80894,382 @@ pg.equip_data_statistics = {
 			39310
 		}
 	},
+	[39311] = {
+		anti_siren = 100,
+		base = 39300,
+		id = 39311,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50851
+			},
+			{
+				5,
+				53271
+			}
+		},
+		weapon_id = {
+			39311
+		}
+	},
+	[39320] = {
+		name = "彗星二一型",
+		type = 9,
+		speciality = "轰炸",
+		rarity = 5,
+		tech = 0,
+		descrip = "说明未填写",
+		value_2 = 45,
+		icon = "39320",
+		attribute_2 = "air",
+		nationality = 3,
+		ammo = 5,
+		value_3 = 0,
+		id = 39320,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				6,
+				50040
+			},
+			{
+				5,
+				52640
+			},
+			{
+				5,
+				52140
+			}
+		},
+		equip_info = {
+			6,
+			7,
+			8,
+			9
+		},
+		weapon_id = {
+			39320
+		},
+		skill_id = {},
+		part_main = {
+			10
+		},
+		part_sub = {
+			10
+		},
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"CV",
+			"DB"
+		}
+	},
+	[39321] = {
+		base = 39320,
+		id = 39321,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50041
+			},
+			{
+				5,
+				52641
+			},
+			{
+				5,
+				52141
+			}
+		},
+		weapon_id = {
+			39321
+		}
+	},
+	[39322] = {
+		base = 39320,
+		id = 39322,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50042
+			},
+			{
+				5,
+				52642
+			},
+			{
+				5,
+				52142
+			}
+		},
+		weapon_id = {
+			39322
+		}
+	},
+	[39323] = {
+		base = 39320,
+		id = 39323,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50043
+			},
+			{
+				5,
+				52643
+			},
+			{
+				5,
+				52143
+			}
+		},
+		weapon_id = {
+			39323
+		}
+	},
+	[39324] = {
+		base = 39320,
+		id = 39324,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50044
+			},
+			{
+				5,
+				52644
+			},
+			{
+				5,
+				52144
+			}
+		},
+		weapon_id = {
+			39324
+		}
+	},
+	[39325] = {
+		base = 39320,
+		id = 39325,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50045
+			},
+			{
+				5,
+				52645
+			},
+			{
+				5,
+				52145
+			}
+		},
+		weapon_id = {
+			39325
+		}
+	},
+	[39326] = {
+		base = 39320,
+		id = 39326,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50046
+			},
+			{
+				5,
+				52646
+			},
+			{
+				5,
+				52146
+			}
+		},
+		weapon_id = {
+			39326
+		}
+	},
+	[39327] = {
+		base = 39320,
+		id = 39327,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50047
+			},
+			{
+				5,
+				52647
+			},
+			{
+				5,
+				52147
+			}
+		},
+		weapon_id = {
+			39327
+		}
+	},
+	[39328] = {
+		base = 39320,
+		id = 39328,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50048
+			},
+			{
+				5,
+				52648
+			},
+			{
+				5,
+				52148
+			}
+		},
+		weapon_id = {
+			39328
+		}
+	},
+	[39329] = {
+		base = 39320,
+		id = 39329,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50049
+			},
+			{
+				5,
+				52649
+			},
+			{
+				5,
+				52149
+			}
+		},
+		weapon_id = {
+			39329
+		}
+	},
+	[39330] = {
+		base = 39320,
+		id = 39330,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50050
+			},
+			{
+				5,
+				52650
+			},
+			{
+				5,
+				52150
+			}
+		},
+		weapon_id = {
+			39330
+		}
+	},
+	[39331] = {
+		anti_siren = 100,
+		base = 39320,
+		id = 39331,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50051
+			},
+			{
+				5,
+				52651
+			},
+			{
+				5,
+				52151
+			}
+		},
+		weapon_id = {
+			39331
+		}
+	},
+	[39332] = {
+		anti_siren = 200,
+		base = 39320,
+		id = 39332,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50052
+			},
+			{
+				5,
+				52652
+			},
+			{
+				5,
+				52152
+			}
+		},
+		weapon_id = {
+			39332
+		}
+	},
+	[39333] = {
+		anti_siren = 300,
+		base = 39320,
+		id = 39333,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50053
+			},
+			{
+				5,
+				52653
+			},
+			{
+				5,
+				52153
+			}
+		},
+		weapon_id = {
+			39333
+		}
+	},
 	[41000] = {
 		name = "单装127mm主炮",
 		speciality = "锁定",
@@ -60932,7 +81281,7 @@ pg.equip_data_statistics = {
 		icon = "41000",
 		damage = "4 x 1",
 		nationality = 4,
-		ammo = "穿甲弹",
+		ammo = 1,
 		value_3 = 0,
 		id = 41000,
 		torpedo_ammo = 0,
@@ -60957,14 +81306,18 @@ pg.equip_data_statistics = {
 				4,
 				1000
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			41000
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -61024,7 +81377,7 @@ pg.equip_data_statistics = {
 		rarity = 2,
 		damage = "4 x 1",
 		nationality = 4,
-		ammo = "穿甲弹",
+		ammo = 1,
 		value_3 = 0,
 		id = 41020,
 		torpedo_ammo = 0,
@@ -61049,14 +81402,18 @@ pg.equip_data_statistics = {
 				4,
 				1000
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			41020
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -61116,7 +81473,7 @@ pg.equip_data_statistics = {
 		rarity = 3,
 		damage = "4 x 1",
 		nationality = 4,
-		ammo = "穿甲弹",
+		ammo = 1,
 		value_3 = 0,
 		id = 41040,
 		torpedo_ammo = 0,
@@ -61141,14 +81498,18 @@ pg.equip_data_statistics = {
 				4,
 				1000
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			41040
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -61226,6 +81587,194 @@ pg.equip_data_statistics = {
 			41046
 		}
 	},
+	[41047] = {
+		damage = "9 x 1",
+		base = 41040,
+		id = 41047,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			41047
+		}
+	},
+	[41060] = {
+		name = "双联装127mmKM40主炮",
+		speciality = "锁定",
+		type = 1,
+		tech = 0,
+		descrip = "双联装128mmSKC41高平两用炮，伯鲁克科技新研发的驱逐舰主炮，加强了对空火力",
+		value_2 = 25,
+		icon = "41060",
+		attribute_2 = "cannon",
+		rarity = 4,
+		damage = "4 x 4",
+		nationality = 4,
+		ammo = 1,
+		value_3 = 0,
+		id = 41060,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			2
+		},
+		ammo_info = {
+			{
+				1,
+				1303
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			{
+				3,
+				1303
+			},
+			{
+				4,
+				1001
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			41060
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			19
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
+		equip_parameters = {},
+		label = {
+			"KMS",
+			"DD",
+			"MG",
+			"AP"
+		}
+	},
+	[41061] = {
+		damage = "5 x 4",
+		base = 41060,
+		id = 41061,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			41061
+		}
+	},
+	[41062] = {
+		damage = "5 x 4",
+		base = 41060,
+		id = 41062,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			41062
+		}
+	},
+	[41063] = {
+		damage = "6 x 4",
+		base = 41060,
+		id = 41063,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			41063
+		}
+	},
+	[41064] = {
+		damage = "6 x 4",
+		base = 41060,
+		id = 41064,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			41064
+		}
+	},
+	[41065] = {
+		damage = "7 x 4",
+		base = 41060,
+		id = 41065,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			41065
+		}
+	},
+	[41066] = {
+		damage = "7 x 4",
+		base = 41060,
+		id = 41066,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			41066
+		}
+	},
+	[41067] = {
+		damage = "8 x 4",
+		base = 41060,
+		id = 41067,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			41067
+		}
+	},
+	[41068] = {
+		damage = "8 x 4",
+		base = 41060,
+		id = 41068,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			41068
+		}
+	},
+	[41069] = {
+		damage = "9 x 4",
+		base = 41060,
+		id = 41069,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			41069
+		}
+	},
+	[41070] = {
+		damage = "10 x 4",
+		base = 41060,
+		id = 41070,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			41070
+		}
+	},
+	[41071] = {
+		anti_siren = 100,
+		damage = "10 x 4",
+		base = 41060,
+		id = 41071,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			41071
+		}
+	},
 	[41100] = {
 		name = "双联装128mmSKC41高平两用炮",
 		speciality = "锁定",
@@ -61239,7 +81788,7 @@ pg.equip_data_statistics = {
 		rarity = 2,
 		damage = "4 x 4",
 		nationality = 4,
-		ammo = "穿甲弹",
+		ammo = 1,
 		value_3 = 2,
 		id = 41100,
 		torpedo_ammo = 0,
@@ -61264,14 +81813,18 @@ pg.equip_data_statistics = {
 				4,
 				1001
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			41100
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -61333,7 +81886,7 @@ pg.equip_data_statistics = {
 		rarity = 3,
 		damage = "4 x 4",
 		nationality = 4,
-		ammo = "穿甲弹",
+		ammo = 1,
 		value_3 = 5,
 		id = 41120,
 		torpedo_ammo = 0,
@@ -61358,14 +81911,18 @@ pg.equip_data_statistics = {
 				4,
 				1001
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			41120
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -61457,7 +82014,7 @@ pg.equip_data_statistics = {
 		rarity = 4,
 		damage = "5 x 4",
 		nationality = 4,
-		ammo = "穿甲弹",
+		ammo = 1,
 		value_3 = 10,
 		id = 41140,
 		torpedo_ammo = 0,
@@ -61482,14 +82039,18 @@ pg.equip_data_statistics = {
 				4,
 				1001
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			41140
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -61608,6 +82169,218 @@ pg.equip_data_statistics = {
 			41150
 		}
 	},
+	[41151] = {
+		anti_siren = 100,
+		damage = "11 x 4",
+		base = 41140,
+		id = 41151,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			41151
+		}
+	},
+	[41160] = {
+		name = "双联装128mmSKC41高平两用炮改",
+		speciality = "锁定",
+		type = 1,
+		attribute_3 = "antiaircraft",
+		tech = 0,
+		value_2 = 30,
+		icon = "41160",
+		attribute_2 = "cannon",
+		descrip = "说明未填写",
+		rarity = 5,
+		damage = "6 x 4",
+		nationality = 4,
+		ammo = 1,
+		value_3 = 15,
+		id = 41160,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			2
+		},
+		ammo_info = {
+			{
+				1,
+				1303
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			{
+				3,
+				1303
+			},
+			{
+				4,
+				1001
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			41160
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			19
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
+		equip_parameters = {},
+		label = {
+			"KMS",
+			"DD",
+			"MG",
+			"AP"
+		}
+	},
+	[41161] = {
+		damage = "7 x 4",
+		base = 41160,
+		id = 41161,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			41161
+		}
+	},
+	[41162] = {
+		damage = "8 x 4",
+		base = 41160,
+		id = 41162,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			41162
+		}
+	},
+	[41163] = {
+		damage = "9 x 4",
+		base = 41160,
+		id = 41163,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			41163
+		}
+	},
+	[41164] = {
+		damage = "10 x 4",
+		base = 41160,
+		id = 41164,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			41164
+		}
+	},
+	[41165] = {
+		damage = "11 x 4",
+		base = 41160,
+		id = 41165,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			41165
+		}
+	},
+	[41166] = {
+		damage = "12 x 4",
+		base = 41160,
+		id = 41166,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			41166
+		}
+	},
+	[41167] = {
+		damage = "13 x 4",
+		base = 41160,
+		id = 41167,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			41167
+		}
+	},
+	[41168] = {
+		damage = "14 x 4",
+		base = 41160,
+		id = 41168,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			41168
+		}
+	},
+	[41169] = {
+		damage = "15 x 4",
+		base = 41160,
+		id = 41169,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			41169
+		}
+	},
+	[41170] = {
+		damage = "16 x 4",
+		base = 41160,
+		id = 41170,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			41170
+		}
+	},
+	[41171] = {
+		anti_siren = 100,
+		damage = "16 x 4",
+		base = 41160,
+		id = 41171,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			41171
+		}
+	},
+	[41172] = {
+		anti_siren = 200,
+		damage = "16 x 4",
+		base = 41160,
+		id = 41172,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			41172
+		}
+	},
+	[41173] = {
+		anti_siren = 300,
+		damage = "16 x 4",
+		base = 41160,
+		id = 41173,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			41173
+		}
+	},
 	[42000] = {
 		name = "单装SKC28式150mm主炮",
 		speciality = "锁定",
@@ -61620,7 +82393,7 @@ pg.equip_data_statistics = {
 		rarity = 2,
 		damage = "7 x 1",
 		nationality = 4,
-		ammo = "穿甲弹",
+		ammo = 1,
 		value_3 = 0,
 		id = 42000,
 		torpedo_ammo = 0,
@@ -61645,7 +82418,10 @@ pg.equip_data_statistics = {
 				4,
 				1000
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			42000
@@ -61707,7 +82483,7 @@ pg.equip_data_statistics = {
 		rarity = 3,
 		damage = "8 x 1",
 		nationality = 4,
-		ammo = "穿甲弹",
+		ammo = 1,
 		value_3 = 0,
 		id = 42020,
 		torpedo_ammo = 0,
@@ -61732,7 +82508,10 @@ pg.equip_data_statistics = {
 				4,
 				1000
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			42020
@@ -61824,7 +82603,7 @@ pg.equip_data_statistics = {
 		rarity = 4,
 		damage = "9 x 1",
 		nationality = 4,
-		ammo = "穿甲弹",
+		ammo = 1,
 		value_3 = 0,
 		id = 42040,
 		torpedo_ammo = 0,
@@ -61849,7 +82628,10 @@ pg.equip_data_statistics = {
 				4,
 				1000
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			42040
@@ -61969,6 +82751,188 @@ pg.equip_data_statistics = {
 			42050
 		}
 	},
+	[42051] = {
+		anti_siren = 100,
+		damage = "21 x 1",
+		base = 42040,
+		id = 42051,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			42051
+		}
+	},
+	[42060] = {
+		name = "双联装SKC28式150mm副炮",
+		speciality = "锁定",
+		type = 2,
+		tech = 0,
+		descrip = "单装SKC28式150mm主炮，轻巡和部分驱逐可以使用",
+		value_2 = 25,
+		icon = "42060",
+		attribute_2 = "cannon",
+		rarity = 4,
+		damage = "9 x 4",
+		nationality = 4,
+		ammo = 1,
+		value_3 = 0,
+		id = 42060,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			2
+		},
+		ammo_info = {
+			{
+				1,
+				1304
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			{
+				3,
+				1304
+			},
+			{
+				4,
+				1027
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			42060
+		},
+		skill_id = {},
+		part_main = {
+			2
+		},
+		part_sub = {
+			5
+		},
+		equip_parameters = {},
+		label = {
+			"KMS",
+			"CL",
+			"MG",
+			"AP"
+		}
+	},
+	[42061] = {
+		damage = "10 x 4",
+		base = 42060,
+		id = 42061,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			42061
+		}
+	},
+	[42062] = {
+		damage = "11 x 4",
+		base = 42060,
+		id = 42062,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			42062
+		}
+	},
+	[42063] = {
+		damage = "12 x 4",
+		base = 42060,
+		id = 42063,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			42063
+		}
+	},
+	[42064] = {
+		damage = "13 x 4",
+		base = 42060,
+		id = 42064,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			42064
+		}
+	},
+	[42065] = {
+		damage = "14 x 4",
+		base = 42060,
+		id = 42065,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			42065
+		}
+	},
+	[42066] = {
+		damage = "15 x 4",
+		base = 42060,
+		id = 42066,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			42066
+		}
+	},
+	[42067] = {
+		damage = "16 x 4",
+		base = 42060,
+		id = 42067,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			42067
+		}
+	},
+	[42068] = {
+		damage = "17 x 4",
+		base = 42060,
+		id = 42068,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			42068
+		}
+	},
+	[42069] = {
+		damage = "19 x 4",
+		base = 42060,
+		id = 42069,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			42069
+		}
+	},
+	[42070] = {
+		damage = "21 x 4",
+		base = 42060,
+		id = 42070,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			42070
+		}
+	},
+	[42071] = {
+		anti_siren = 100,
+		damage = "21 x 4",
+		base = 42060,
+		id = 42071,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			42071
+		}
+	},
 	[42100] = {
 		name = "三联装SKC25式150mm主炮",
 		speciality = "锁定",
@@ -61981,7 +82945,7 @@ pg.equip_data_statistics = {
 		rarity = 2,
 		damage = "7 x 3",
 		nationality = 4,
-		ammo = "穿甲弹",
+		ammo = 1,
 		value_3 = 0,
 		id = 42100,
 		torpedo_ammo = 0,
@@ -62006,7 +82970,10 @@ pg.equip_data_statistics = {
 				4,
 				1003
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			42100
@@ -62068,7 +83035,7 @@ pg.equip_data_statistics = {
 		rarity = 3,
 		damage = "8 x 3",
 		nationality = 4,
-		ammo = "穿甲弹",
+		ammo = 1,
 		value_3 = 0,
 		id = 42120,
 		torpedo_ammo = 0,
@@ -62093,7 +83060,10 @@ pg.equip_data_statistics = {
 				4,
 				1003
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			42120
@@ -62185,7 +83155,7 @@ pg.equip_data_statistics = {
 		rarity = 4,
 		damage = "9 x 3",
 		nationality = 4,
-		ammo = "穿甲弹",
+		ammo = 1,
 		value_3 = 0,
 		id = 42140,
 		torpedo_ammo = 0,
@@ -62210,7 +83180,10 @@ pg.equip_data_statistics = {
 				4,
 				1003
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			42140
@@ -62330,6 +83303,17 @@ pg.equip_data_statistics = {
 			42150
 		}
 	},
+	[42151] = {
+		anti_siren = 100,
+		damage = "21 x 3",
+		base = 42140,
+		id = 42151,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			42151
+		}
+	},
 	[42200] = {
 		name = "双联装TbtsKC36式150mm主炮",
 		speciality = "锁定",
@@ -62342,7 +83326,7 @@ pg.equip_data_statistics = {
 		rarity = 2,
 		damage = "7 x 4",
 		nationality = 4,
-		ammo = "穿甲弹",
+		ammo = 1,
 		value_3 = 0,
 		id = 42200,
 		torpedo_ammo = 0,
@@ -62367,7 +83351,10 @@ pg.equip_data_statistics = {
 				4,
 				1001
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			42200
@@ -62429,7 +83416,7 @@ pg.equip_data_statistics = {
 		rarity = 3,
 		damage = "8 x 4",
 		nationality = 4,
-		ammo = "穿甲弹",
+		ammo = 1,
 		value_3 = 0,
 		id = 42220,
 		torpedo_ammo = 0,
@@ -62454,7 +83441,10 @@ pg.equip_data_statistics = {
 				4,
 				1001
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			42220
@@ -62546,7 +83536,7 @@ pg.equip_data_statistics = {
 		rarity = 4,
 		damage = "9 x 4",
 		nationality = 4,
-		ammo = "穿甲弹",
+		ammo = 1,
 		value_3 = 0,
 		id = 42240,
 		torpedo_ammo = 0,
@@ -62571,7 +83561,10 @@ pg.equip_data_statistics = {
 				4,
 				1001
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			42240
@@ -62691,6 +83684,17 @@ pg.equip_data_statistics = {
 			42250
 		}
 	},
+	[42251] = {
+		anti_siren = 100,
+		damage = "21 x 4",
+		base = 42240,
+		id = 42251,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			42251
+		}
+	},
 	[42300] = {
 		name = "单装TbtsKC36式150mm主炮",
 		speciality = "锁定",
@@ -62703,7 +83707,7 @@ pg.equip_data_statistics = {
 		rarity = 2,
 		damage = "7 x 3",
 		nationality = 4,
-		ammo = "穿甲弹",
+		ammo = 1,
 		value_3 = 0,
 		id = 42300,
 		torpedo_ammo = 0,
@@ -62728,7 +83732,10 @@ pg.equip_data_statistics = {
 				4,
 				1003
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			42300
@@ -62778,6 +83785,176 @@ pg.equip_data_statistics = {
 			42303
 		}
 	},
+	[42340] = {
+		name = "单装TbtsKC36式150mm主炮",
+		speciality = "锁定",
+		type = 2,
+		tech = 3,
+		descrip = "双联装TbtsKC36式150mm主炮，1936A型驱逐舰主炮，轻巡和部分驱逐可以使用",
+		value_2 = 25,
+		icon = "42300",
+		attribute_2 = "cannon",
+		rarity = 4,
+		damage = "6 x 3",
+		nationality = 4,
+		ammo = 1,
+		value_3 = 0,
+		id = 42340,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			2
+		},
+		ammo_info = {
+			{
+				1,
+				1304
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			{
+				3,
+				1304
+			},
+			{
+				4,
+				1003
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			42340
+		},
+		skill_id = {},
+		part_main = {
+			2
+		},
+		part_sub = {
+			5
+		},
+		equip_parameters = {},
+		label = {
+			"KMS",
+			"CL",
+			"MG",
+			"AP"
+		}
+	},
+	[42341] = {
+		base = 42340,
+		id = 42341,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			42341
+		}
+	},
+	[42342] = {
+		damage = "7 x 3",
+		base = 42340,
+		id = 42342,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			42342
+		}
+	},
+	[42343] = {
+		damage = "8 x 3",
+		base = 42340,
+		id = 42343,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			42343
+		}
+	},
+	[42344] = {
+		damage = "9 x 3",
+		base = 42340,
+		id = 42344,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			42344
+		}
+	},
+	[42345] = {
+		damage = "10 x 3",
+		base = 42340,
+		id = 42345,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			42345
+		}
+	},
+	[42346] = {
+		damage = "11 x 3",
+		base = 42340,
+		id = 42346,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			42346
+		}
+	},
+	[42347] = {
+		damage = "12 x 3",
+		base = 42340,
+		id = 42347,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			42347
+		}
+	},
+	[42348] = {
+		damage = "13 x 3",
+		base = 42340,
+		id = 42348,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			42348
+		}
+	},
+	[42349] = {
+		damage = "14 x 3",
+		base = 42340,
+		id = 42349,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			42349
+		}
+	},
+	[42350] = {
+		damage = "15 x 3",
+		base = 42340,
+		id = 42350,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			42350
+		}
+	},
+	[42351] = {
+		anti_siren = 100,
+		damage = "15 x 3",
+		base = 42340,
+		id = 42351,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			42351
+		}
+	},
 	[43000] = {
 		name = "双联装203mmSKC主炮",
 		speciality = "锁定",
@@ -62790,7 +83967,7 @@ pg.equip_data_statistics = {
 		rarity = 3,
 		damage = "25 x 6",
 		nationality = 4,
-		ammo = "穿甲弹",
+		ammo = 1,
 		value_3 = 0,
 		id = 43000,
 		torpedo_ammo = 0,
@@ -62815,7 +83992,10 @@ pg.equip_data_statistics = {
 				4,
 				1206
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			43000
@@ -62906,7 +84086,7 @@ pg.equip_data_statistics = {
 		rarity = 4,
 		damage = "27 x 6",
 		nationality = 4,
-		ammo = "穿甲弹",
+		ammo = 1,
 		value_3 = 0,
 		id = 43020,
 		torpedo_ammo = 0,
@@ -62931,7 +84111,10 @@ pg.equip_data_statistics = {
 				4,
 				1206
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			43020
@@ -63062,7 +84245,7 @@ pg.equip_data_statistics = {
 		rarity = 5,
 		damage = "30 x 6",
 		nationality = 4,
-		ammo = "穿甲弹",
+		ammo = 1,
 		value_3 = 0,
 		id = 43040,
 		torpedo_ammo = 0,
@@ -63087,7 +84270,10 @@ pg.equip_data_statistics = {
 				4,
 				1206
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			43040
@@ -63206,6 +84392,39 @@ pg.equip_data_statistics = {
 			43050
 		}
 	},
+	[43051] = {
+		anti_siren = 100,
+		damage = "50 x 6",
+		base = 43040,
+		id = 43051,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			43051
+		}
+	},
+	[43052] = {
+		anti_siren = 200,
+		damage = "50 x 6",
+		base = 43040,
+		id = 43052,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			43052
+		}
+	},
+	[43053] = {
+		anti_siren = 300,
+		damage = "50 x 6",
+		base = 43040,
+		id = 43053,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			43053
+		}
+	},
 	[43060] = {
 		name = "试作型三联装203mmSKC主炮",
 		speciality = "锁定",
@@ -63218,7 +84437,7 @@ pg.equip_data_statistics = {
 		rarity = 5,
 		damage = "30 x 6",
 		nationality = 4,
-		ammo = "穿甲弹",
+		ammo = 1,
 		value_3 = 0,
 		id = 43060,
 		torpedo_ammo = 0,
@@ -63243,7 +84462,10 @@ pg.equip_data_statistics = {
 				4,
 				1214
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			43060
@@ -63362,6 +84584,39 @@ pg.equip_data_statistics = {
 			43070
 		}
 	},
+	[43071] = {
+		anti_siren = 100,
+		damage = "50 x 6",
+		base = 43060,
+		id = 43071,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			43071
+		}
+	},
+	[43072] = {
+		anti_siren = 200,
+		damage = "50 x 6",
+		base = 43060,
+		id = 43072,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			43072
+		}
+	},
+	[43073] = {
+		anti_siren = 300,
+		damage = "50 x 6",
+		base = 43060,
+		id = 43073,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			43073
+		}
+	},
 	[43100] = {
 		name = "三联283mmSKC28主炮",
 		speciality = "跨射",
@@ -63374,7 +84629,7 @@ pg.equip_data_statistics = {
 		rarity = 2,
 		damage = "30 x 6",
 		nationality = 4,
-		ammo = "穿甲弹",
+		ammo = 1,
 		value_3 = 0,
 		id = 43100,
 		torpedo_ammo = 0,
@@ -63391,7 +84646,10 @@ pg.equip_data_statistics = {
 		equip_info = {
 			1,
 			2,
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			43100
@@ -63451,7 +84709,7 @@ pg.equip_data_statistics = {
 		rarity = 3,
 		damage = "32 x 6",
 		nationality = 4,
-		ammo = "穿甲弹",
+		ammo = 1,
 		value_3 = 0,
 		id = 43120,
 		torpedo_ammo = 0,
@@ -63468,7 +84726,10 @@ pg.equip_data_statistics = {
 		equip_info = {
 			1,
 			2,
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			43120
@@ -63558,7 +84819,7 @@ pg.equip_data_statistics = {
 		rarity = 4,
 		damage = "35 x 6",
 		nationality = 4,
-		ammo = "穿甲弹",
+		ammo = 1,
 		value_3 = 0,
 		id = 43140,
 		torpedo_ammo = 0,
@@ -63575,7 +84836,10 @@ pg.equip_data_statistics = {
 		equip_info = {
 			1,
 			2,
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			43140
@@ -63693,6 +84957,17 @@ pg.equip_data_statistics = {
 			43150
 		}
 	},
+	[43151] = {
+		anti_siren = 100,
+		damage = "55 x 6",
+		base = 43140,
+		id = 43151,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			43151
+		}
+	},
 	[44000] = {
 		name = "三联283mmSKC34主炮",
 		speciality = "跨射",
@@ -63705,7 +84980,7 @@ pg.equip_data_statistics = {
 		rarity = 2,
 		damage = "34 x 3",
 		nationality = 4,
-		ammo = "通常弹",
+		ammo = 3,
 		value_3 = 0,
 		id = 44000,
 		torpedo_ammo = 0,
@@ -63722,7 +84997,10 @@ pg.equip_data_statistics = {
 		equip_info = {
 			1,
 			2,
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			44000
@@ -63784,7 +85062,7 @@ pg.equip_data_statistics = {
 		rarity = 3,
 		damage = "37 x 3",
 		nationality = 4,
-		ammo = "通常弹",
+		ammo = 3,
 		value_3 = 0,
 		id = 44020,
 		torpedo_ammo = 0,
@@ -63801,7 +85079,10 @@ pg.equip_data_statistics = {
 		equip_info = {
 			1,
 			2,
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			44020
@@ -63893,7 +85174,7 @@ pg.equip_data_statistics = {
 		rarity = 4,
 		damage = "40 x 3",
 		nationality = 4,
-		ammo = "通常弹",
+		ammo = 3,
 		value_3 = 0,
 		id = 44040,
 		torpedo_ammo = 0,
@@ -63910,7 +85191,10 @@ pg.equip_data_statistics = {
 		equip_info = {
 			1,
 			2,
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			44040
@@ -64030,6 +85314,17 @@ pg.equip_data_statistics = {
 			44050
 		}
 	},
+	[44051] = {
+		anti_siren = 100,
+		damage = "88 x 3",
+		base = 44040,
+		id = 44051,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			44051
+		}
+	},
 	[44100] = {
 		name = "双联380mmSKC主炮",
 		speciality = "跨射",
@@ -64042,7 +85337,7 @@ pg.equip_data_statistics = {
 		rarity = 3,
 		damage = "48 x 2",
 		nationality = 4,
-		ammo = "通常弹",
+		ammo = 3,
 		value_3 = 0,
 		id = 44100,
 		torpedo_ammo = 0,
@@ -64059,7 +85354,10 @@ pg.equip_data_statistics = {
 		equip_info = {
 			1,
 			2,
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			44100
@@ -64151,7 +85449,7 @@ pg.equip_data_statistics = {
 		rarity = 4,
 		damage = "55 x 2",
 		nationality = 4,
-		ammo = "穿甲弹",
+		ammo = 1,
 		value_3 = 0,
 		id = 44120,
 		torpedo_ammo = 0,
@@ -64168,7 +85466,10 @@ pg.equip_data_statistics = {
 		equip_info = {
 			1,
 			2,
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			44120
@@ -64301,7 +85602,7 @@ pg.equip_data_statistics = {
 		rarity = 5,
 		damage = "58 x 2",
 		nationality = 4,
-		ammo = "穿甲弹",
+		ammo = 1,
 		value_3 = 0,
 		id = 44140,
 		torpedo_ammo = 0,
@@ -64318,7 +85619,10 @@ pg.equip_data_statistics = {
 		equip_info = {
 			1,
 			2,
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			44140
@@ -64439,6 +85743,39 @@ pg.equip_data_statistics = {
 			44150
 		}
 	},
+	[44151] = {
+		anti_siren = 100,
+		damage = "132 x 2",
+		base = 44140,
+		id = 44151,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			44151
+		}
+	},
+	[44152] = {
+		anti_siren = 200,
+		damage = "132 x 2",
+		base = 44140,
+		id = 44152,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			44152
+		}
+	},
+	[44153] = {
+		anti_siren = 300,
+		damage = "132 x 2",
+		base = 44140,
+		id = 44153,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			44153
+		}
+	},
 	[44200] = {
 		name = "试作型双联装406mmSKC主炮",
 		speciality = "跨射",
@@ -64451,7 +85788,7 @@ pg.equip_data_statistics = {
 		rarity = 5,
 		damage = "58 x 2",
 		nationality = 4,
-		ammo = "高爆弹",
+		ammo = 2,
 		value_3 = 0,
 		id = 44200,
 		torpedo_ammo = 0,
@@ -64468,7 +85805,10 @@ pg.equip_data_statistics = {
 		equip_info = {
 			1,
 			2,
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			44200
@@ -64589,6 +85929,39 @@ pg.equip_data_statistics = {
 			44210
 		}
 	},
+	[44211] = {
+		anti_siren = 100,
+		damage = "154 x 2",
+		base = 44200,
+		id = 44211,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			44211
+		}
+	},
+	[44212] = {
+		anti_siren = 200,
+		damage = "154 x 2",
+		base = 44200,
+		id = 44212,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			44212
+		}
+	},
+	[44213] = {
+		anti_siren = 300,
+		damage = "154 x 2",
+		base = 44200,
+		id = 44213,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			44213
+		}
+	},
 	[44300] = {
 		name = "试作型三联装305mmSKC39主炮",
 		speciality = "跨射",
@@ -64601,7 +85974,7 @@ pg.equip_data_statistics = {
 		rarity = 5,
 		damage = "57 x 3",
 		nationality = 4,
-		ammo = "高爆弹",
+		ammo = 2,
 		value_3 = 0,
 		id = 44300,
 		torpedo_ammo = 0,
@@ -64618,7 +85991,10 @@ pg.equip_data_statistics = {
 		equip_info = {
 			1,
 			2,
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			44300
@@ -64739,6 +86115,39 @@ pg.equip_data_statistics = {
 			44310
 		}
 	},
+	[44311] = {
+		anti_siren = 100,
+		damage = "105 x 3",
+		base = 44300,
+		id = 44311,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			44311
+		}
+	},
+	[44312] = {
+		anti_siren = 200,
+		damage = "105 x 3",
+		base = 44300,
+		id = 44312,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			44312
+		}
+	},
+	[44313] = {
+		anti_siren = 300,
+		damage = "105 x 3",
+		base = 44300,
+		id = 44313,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			44313
+		}
+	},
 	[45000] = {
 		name = "三联装533mm磁性鱼雷",
 		speciality = "雷击",
@@ -64751,7 +86160,7 @@ pg.equip_data_statistics = {
 		rarity = 2,
 		damage = "63 x 3",
 		nationality = 4,
-		ammo = "声导",
+		ammo = 4,
 		value_3 = 0,
 		id = 45000,
 		torpedo_ammo = 0,
@@ -64772,7 +86181,10 @@ pg.equip_data_statistics = {
 				4,
 				1402
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			45000
@@ -64840,7 +86252,7 @@ pg.equip_data_statistics = {
 		rarity = 3,
 		damage = "66 x 3",
 		nationality = 4,
-		ammo = "声导",
+		ammo = 4,
 		value_3 = 0,
 		id = 45020,
 		torpedo_ammo = 0,
@@ -64861,7 +86273,10 @@ pg.equip_data_statistics = {
 				4,
 				1402
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			45020
@@ -64959,7 +86374,7 @@ pg.equip_data_statistics = {
 		rarity = 4,
 		damage = "70 x 3",
 		nationality = 4,
-		ammo = "声导",
+		ammo = 4,
 		value_3 = 0,
 		id = 45040,
 		torpedo_ammo = 0,
@@ -64980,7 +86395,10 @@ pg.equip_data_statistics = {
 				4,
 				1402
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			45040
@@ -65106,6 +86524,17 @@ pg.equip_data_statistics = {
 			45050
 		}
 	},
+	[45051] = {
+		anti_siren = 100,
+		damage = "145 x 3",
+		base = 45040,
+		id = 45051,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			45051
+		}
+	},
 	[45100] = {
 		name = "四联装533mm磁性鱼雷",
 		speciality = "雷击",
@@ -65118,7 +86547,7 @@ pg.equip_data_statistics = {
 		rarity = 3,
 		damage = "63 x 4",
 		nationality = 4,
-		ammo = "声导",
+		ammo = 4,
 		value_3 = 0,
 		id = 45100,
 		torpedo_ammo = 0,
@@ -65139,7 +86568,10 @@ pg.equip_data_statistics = {
 				4,
 				1403
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			45100
@@ -65237,7 +86669,7 @@ pg.equip_data_statistics = {
 		rarity = 4,
 		damage = "66 x 4",
 		nationality = 4,
-		ammo = "声导",
+		ammo = 4,
 		value_3 = 0,
 		id = 45120,
 		torpedo_ammo = 0,
@@ -65258,7 +86690,10 @@ pg.equip_data_statistics = {
 				4,
 				1403
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			45120
@@ -65396,7 +86831,7 @@ pg.equip_data_statistics = {
 		rarity = 5,
 		damage = "70 x 4",
 		nationality = 4,
-		ammo = "声导",
+		ammo = 4,
 		value_3 = 0,
 		id = 45140,
 		torpedo_ammo = 0,
@@ -65417,7 +86852,10 @@ pg.equip_data_statistics = {
 				4,
 				1403
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			45140
@@ -65543,6 +86981,39 @@ pg.equip_data_statistics = {
 			45150
 		}
 	},
+	[45151] = {
+		anti_siren = 100,
+		damage = "145 x 4",
+		base = 45140,
+		id = 45151,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			45151
+		}
+	},
+	[45152] = {
+		anti_siren = 200,
+		damage = "145 x 4",
+		base = 45140,
+		id = 45152,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			45152
+		}
+	},
+	[45153] = {
+		anti_siren = 300,
+		damage = "145 x 4",
+		base = 45140,
+		id = 45153,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			45153
+		}
+	},
 	[45200] = {
 		name = "五联装533mm磁性鱼雷",
 		speciality = "雷击",
@@ -65555,7 +87026,7 @@ pg.equip_data_statistics = {
 		rarity = 4,
 		damage = "63 x 5",
 		nationality = 4,
-		ammo = "声导",
+		ammo = 4,
 		value_3 = 0,
 		id = 45200,
 		torpedo_ammo = 0,
@@ -65576,7 +87047,10 @@ pg.equip_data_statistics = {
 				4,
 				1404
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			45200
@@ -65714,7 +87188,7 @@ pg.equip_data_statistics = {
 		rarity = 5,
 		damage = "66 x 5",
 		nationality = 4,
-		ammo = "声导",
+		ammo = 4,
 		value_3 = 0,
 		id = 45220,
 		torpedo_ammo = 0,
@@ -65735,7 +87209,10 @@ pg.equip_data_statistics = {
 				4,
 				1404
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			45220
@@ -65873,7 +87350,7 @@ pg.equip_data_statistics = {
 		rarity = 6,
 		damage = "70 x 5",
 		nationality = 4,
-		ammo = "声导",
+		ammo = 4,
 		value_3 = 0,
 		id = 45240,
 		torpedo_ammo = 0,
@@ -65894,7 +87371,10 @@ pg.equip_data_statistics = {
 				4,
 				1404
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			45240
@@ -66020,6 +87500,39 @@ pg.equip_data_statistics = {
 			45250
 		}
 	},
+	[45251] = {
+		anti_siren = 100,
+		damage = "145 x 5",
+		base = 45240,
+		id = 45251,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			45251
+		}
+	},
+	[45252] = {
+		anti_siren = 200,
+		damage = "145 x 5",
+		base = 45240,
+		id = 45252,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			45252
+		}
+	},
+	[45253] = {
+		anti_siren = 300,
+		damage = "145 x 5",
+		base = 45240,
+		id = 45253,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			45253
+		}
+	},
 	[45300] = {
 		name = "潜艇用G7a鱼雷",
 		speciality = "雷击",
@@ -66032,7 +87545,7 @@ pg.equip_data_statistics = {
 		rarity = 2,
 		damage = "46 x 2",
 		nationality = 4,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 45300,
 		torpedo_ammo = 0,
@@ -66055,7 +87568,10 @@ pg.equip_data_statistics = {
 				4,
 				1601
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			45300
@@ -66118,7 +87634,7 @@ pg.equip_data_statistics = {
 		rarity = 3,
 		damage = "52 x 2",
 		nationality = 4,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 45320,
 		torpedo_ammo = 0,
@@ -66141,7 +87657,10 @@ pg.equip_data_statistics = {
 				4,
 				1601
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			45320
@@ -66234,7 +87753,7 @@ pg.equip_data_statistics = {
 		rarity = 4,
 		damage = "58 x 2",
 		nationality = 4,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 45340,
 		torpedo_ammo = 0,
@@ -66257,7 +87776,10 @@ pg.equip_data_statistics = {
 				4,
 				1601
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			45340
@@ -66378,6 +87900,17 @@ pg.equip_data_statistics = {
 			45350
 		}
 	},
+	[45351] = {
+		anti_siren = 100,
+		damage = "144 x 2",
+		base = 45340,
+		id = 45351,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			45351
+		}
+	},
 	[45400] = {
 		name = "潜艇用G7e声导鱼雷",
 		speciality = "雷击",
@@ -66390,7 +87923,7 @@ pg.equip_data_statistics = {
 		rarity = 3,
 		damage = "52 x 2",
 		nationality = 4,
-		ammo = "声导",
+		ammo = 4,
 		value_3 = 0,
 		id = 45400,
 		torpedo_ammo = 0,
@@ -66413,7 +87946,10 @@ pg.equip_data_statistics = {
 				4,
 				1601
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			45400
@@ -66506,7 +88042,7 @@ pg.equip_data_statistics = {
 		rarity = 4,
 		damage = "58 x 2",
 		nationality = 4,
-		ammo = "声导",
+		ammo = 4,
 		value_3 = 0,
 		id = 45420,
 		torpedo_ammo = 0,
@@ -66529,7 +88065,10 @@ pg.equip_data_statistics = {
 				4,
 				1601
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			45420
@@ -66662,7 +88201,7 @@ pg.equip_data_statistics = {
 		rarity = 5,
 		damage = "64 x 2",
 		nationality = 4,
-		ammo = "声导",
+		ammo = 4,
 		value_3 = 0,
 		id = 45440,
 		torpedo_ammo = 0,
@@ -66685,7 +88224,10 @@ pg.equip_data_statistics = {
 				4,
 				1601
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			45440
@@ -66806,6 +88348,39 @@ pg.equip_data_statistics = {
 			45450
 		}
 	},
+	[45451] = {
+		anti_siren = 100,
+		damage = "160 x 2",
+		base = 45440,
+		id = 45451,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			45451
+		}
+	},
+	[45452] = {
+		anti_siren = 200,
+		damage = "160 x 2",
+		base = 45440,
+		id = 45452,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			45452
+		}
+	},
+	[45453] = {
+		anti_siren = 300,
+		damage = "160 x 2",
+		base = 45440,
+		id = 45453,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			45453
+		}
+	},
 	[46000] = {
 		name = "四联装20mm MG机枪",
 		speciality = "防空",
@@ -66817,7 +88392,7 @@ pg.equip_data_statistics = {
 		icon = "46000",
 		damage = "17/轮",
 		nationality = 4,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 46000,
 		torpedo_ammo = 0,
@@ -66827,7 +88402,8 @@ pg.equip_data_statistics = {
 		equip_info = {
 			1,
 			2,
-			6
+			6,
+			10
 		},
 		weapon_id = {
 			46000
@@ -66843,7 +88419,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			1,
@@ -66855,7 +88432,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -66906,7 +88484,7 @@ pg.equip_data_statistics = {
 		rarity = 2,
 		damage = "20/轮",
 		nationality = 4,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 46020,
 		torpedo_ammo = 0,
@@ -66916,7 +88494,8 @@ pg.equip_data_statistics = {
 		equip_info = {
 			1,
 			2,
-			6
+			6,
+			10
 		},
 		weapon_id = {
 			46020
@@ -66932,7 +88511,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			1,
@@ -66944,7 +88524,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -66995,7 +88576,7 @@ pg.equip_data_statistics = {
 		rarity = 3,
 		damage = "23/轮",
 		nationality = 4,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 46040,
 		torpedo_ammo = 0,
@@ -67005,7 +88586,8 @@ pg.equip_data_statistics = {
 		equip_info = {
 			1,
 			2,
-			6
+			6,
+			10
 		},
 		weapon_id = {
 			46040
@@ -67021,7 +88603,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			1,
@@ -67033,7 +88616,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -67102,6 +88686,189 @@ pg.equip_data_statistics = {
 			46046
 		}
 	},
+	[46047] = {
+		damage = "46/轮",
+		base = 46040,
+		id = 46047,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			46047
+		}
+	},
+	[46060] = {
+		name = "双联装88mmSKC32高炮",
+		speciality = "防空",
+		type = 6,
+		tech = 0,
+		descrip = "说明未填写",
+		value_2 = 25,
+		icon = "46060",
+		attribute_2 = "antiaircraft",
+		rarity = 4,
+		damage = "28/轮",
+		nationality = 4,
+		ammo = 5,
+		value_3 = 0,
+		id = 46060,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			1,
+			2,
+			6,
+			10
+		},
+		weapon_id = {
+			46060
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		equip_parameters = {},
+		label = {
+			"KMS",
+			"ST",
+			"AA"
+		}
+	},
+	[46061] = {
+		damage = "34/轮",
+		base = 46060,
+		id = 46061,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			46061
+		}
+	},
+	[46062] = {
+		damage = "40/轮",
+		base = 46060,
+		id = 46062,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			46062
+		}
+	},
+	[46063] = {
+		damage = "46/轮",
+		base = 46060,
+		id = 46063,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			46063
+		}
+	},
+	[46064] = {
+		damage = "52/轮",
+		base = 46060,
+		id = 46064,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			46064
+		}
+	},
+	[46065] = {
+		damage = "58/轮",
+		base = 46060,
+		id = 46065,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			46065
+		}
+	},
+	[46066] = {
+		damage = "64/轮",
+		base = 46060,
+		id = 46066,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			46066
+		}
+	},
+	[46067] = {
+		damage = "70/轮",
+		base = 46060,
+		id = 46067,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			46067
+		}
+	},
+	[46068] = {
+		damage = "76/轮",
+		base = 46060,
+		id = 46068,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			46068
+		}
+	},
+	[46069] = {
+		damage = "82/轮",
+		base = 46060,
+		id = 46069,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			46069
+		}
+	},
+	[46070] = {
+		damage = "89/轮",
+		base = 46060,
+		id = 46070,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			46070
+		}
+	},
+	[46071] = {
+		anti_siren = 100,
+		damage = "89/轮",
+		base = 46060,
+		id = 46071,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			46071
+		}
+	},
 	[46100] = {
 		name = "37mm机枪",
 		speciality = "防空",
@@ -67113,7 +88880,7 @@ pg.equip_data_statistics = {
 		icon = "46100",
 		damage = "8/轮",
 		nationality = 4,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 46100,
 		torpedo_ammo = 0,
@@ -67123,7 +88890,8 @@ pg.equip_data_statistics = {
 		equip_info = {
 			1,
 			2,
-			6
+			6,
+			10
 		},
 		weapon_id = {
 			46100
@@ -67139,7 +88907,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			1,
@@ -67151,7 +88920,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -67202,7 +88972,7 @@ pg.equip_data_statistics = {
 		rarity = 2,
 		damage = "11/轮",
 		nationality = 4,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 46120,
 		torpedo_ammo = 0,
@@ -67212,7 +88982,8 @@ pg.equip_data_statistics = {
 		equip_info = {
 			1,
 			2,
-			6
+			6,
+			10
 		},
 		weapon_id = {
 			46120
@@ -67228,7 +88999,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			1,
@@ -67240,7 +89012,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -67291,7 +89064,7 @@ pg.equip_data_statistics = {
 		rarity = 3,
 		damage = "12/轮",
 		nationality = 4,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 46140,
 		torpedo_ammo = 0,
@@ -67301,7 +89074,8 @@ pg.equip_data_statistics = {
 		equip_info = {
 			1,
 			2,
-			6
+			6,
+			10
 		},
 		weapon_id = {
 			46140
@@ -67317,7 +89091,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			1,
@@ -67329,7 +89104,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -67398,6 +89174,16 @@ pg.equip_data_statistics = {
 			46146
 		}
 	},
+	[46147] = {
+		damage = "24/轮",
+		base = 46140,
+		id = 46147,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			46147
+		}
+	},
 	[46200] = {
 		name = "双联37mm手拉机枪",
 		speciality = "防空",
@@ -67410,7 +89196,7 @@ pg.equip_data_statistics = {
 		rarity = 2,
 		damage = "15/轮",
 		nationality = 4,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 46200,
 		torpedo_ammo = 0,
@@ -67420,7 +89206,8 @@ pg.equip_data_statistics = {
 		equip_info = {
 			1,
 			2,
-			6
+			6,
+			10
 		},
 		weapon_id = {
 			46200
@@ -67436,7 +89223,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			1,
@@ -67448,7 +89236,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -67499,7 +89288,7 @@ pg.equip_data_statistics = {
 		rarity = 3,
 		damage = "17/轮",
 		nationality = 4,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 46220,
 		torpedo_ammo = 0,
@@ -67509,7 +89298,8 @@ pg.equip_data_statistics = {
 		equip_info = {
 			1,
 			2,
-			6
+			6,
+			10
 		},
 		weapon_id = {
 			46220
@@ -67525,7 +89315,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			1,
@@ -67537,7 +89328,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -67618,7 +89410,7 @@ pg.equip_data_statistics = {
 		rarity = 4,
 		damage = "20/轮",
 		nationality = 4,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 46240,
 		torpedo_ammo = 0,
@@ -67628,7 +89420,8 @@ pg.equip_data_statistics = {
 		equip_info = {
 			1,
 			2,
-			6
+			6,
+			10
 		},
 		weapon_id = {
 			46240
@@ -67644,7 +89437,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			1,
@@ -67656,7 +89450,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -67765,6 +89560,190 @@ pg.equip_data_statistics = {
 			46250
 		}
 	},
+	[46251] = {
+		anti_siren = 100,
+		damage = "50/轮",
+		base = 46240,
+		id = 46251,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			46251
+		}
+	},
+	[46260] = {
+		name = "双联37mm Flak M43机枪",
+		speciality = "防空",
+		type = 6,
+		tech = 0,
+		descrip = "说明未填写",
+		value_2 = 25,
+		icon = "46260",
+		attribute_2 = "antiaircraft",
+		rarity = 4,
+		damage = "26/轮",
+		nationality = 4,
+		ammo = 5,
+		value_3 = 0,
+		id = 46260,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			1,
+			2,
+			6,
+			10
+		},
+		weapon_id = {
+			46260
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		equip_parameters = {},
+		label = {
+			"KMS",
+			"ST",
+			"AA"
+		}
+	},
+	[46261] = {
+		damage = "29/轮",
+		base = 46260,
+		id = 46261,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			46261
+		}
+	},
+	[46262] = {
+		damage = "32/轮",
+		base = 46260,
+		id = 46262,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			46262
+		}
+	},
+	[46263] = {
+		damage = "35/轮",
+		base = 46260,
+		id = 46263,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			46263
+		}
+	},
+	[46264] = {
+		damage = "38/轮",
+		base = 46260,
+		id = 46264,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			46264
+		}
+	},
+	[46265] = {
+		damage = "41/轮",
+		base = 46260,
+		id = 46265,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			46265
+		}
+	},
+	[46266] = {
+		damage = "44/轮",
+		base = 46260,
+		id = 46266,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			46266
+		}
+	},
+	[46267] = {
+		damage = "47/轮",
+		base = 46260,
+		id = 46267,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			46267
+		}
+	},
+	[46268] = {
+		damage = "50/轮",
+		base = 46260,
+		id = 46268,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			46268
+		}
+	},
+	[46269] = {
+		damage = "53/轮",
+		base = 46260,
+		id = 46269,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			46269
+		}
+	},
+	[46270] = {
+		damage = "56/轮",
+		base = 46260,
+		id = 46270,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			46270
+		}
+	},
+	[46271] = {
+		anti_siren = 100,
+		damage = "56/轮",
+		base = 46260,
+		id = 46271,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			46271
+		}
+	},
 	[46300] = {
 		name = "双联105mmSKC高炮",
 		speciality = "防空",
@@ -67777,7 +89756,7 @@ pg.equip_data_statistics = {
 		rarity = 3,
 		damage = "34/轮",
 		nationality = 4,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 46300,
 		torpedo_ammo = 0,
@@ -67787,7 +89766,8 @@ pg.equip_data_statistics = {
 		equip_info = {
 			1,
 			2,
-			6
+			6,
+			10
 		},
 		weapon_id = {
 			46300
@@ -67803,7 +89783,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			1,
@@ -67815,7 +89796,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -67896,7 +89878,7 @@ pg.equip_data_statistics = {
 		rarity = 4,
 		damage = "41/轮",
 		nationality = 4,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 46320,
 		torpedo_ammo = 0,
@@ -67906,7 +89888,8 @@ pg.equip_data_statistics = {
 		equip_info = {
 			1,
 			2,
-			6
+			6,
+			10
 		},
 		weapon_id = {
 			46320
@@ -67922,7 +89905,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			1,
@@ -67934,7 +89918,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -68055,7 +90040,7 @@ pg.equip_data_statistics = {
 		rarity = 5,
 		damage = "49/轮",
 		nationality = 4,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 46340,
 		torpedo_ammo = 0,
@@ -68065,7 +90050,8 @@ pg.equip_data_statistics = {
 		equip_info = {
 			1,
 			2,
-			6
+			6,
+			10
 		},
 		weapon_id = {
 			46340
@@ -68081,7 +90067,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			1,
@@ -68093,7 +90080,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -68202,6 +90190,234 @@ pg.equip_data_statistics = {
 			46350
 		}
 	},
+	[46351] = {
+		anti_siren = 100,
+		damage = "122/轮",
+		base = 46340,
+		id = 46351,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			46351
+		}
+	},
+	[46352] = {
+		anti_siren = 200,
+		damage = "122/轮",
+		base = 46340,
+		id = 46352,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			46352
+		}
+	},
+	[46353] = {
+		anti_siren = 300,
+		damage = "122/轮",
+		base = 46340,
+		id = 46353,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			46353
+		}
+	},
+	[46360] = {
+		name = "双联105mmSKC高炮改进型",
+		speciality = "防空",
+		type = 6,
+		tech = 0,
+		descrip = "说明未填写",
+		value_2 = 45,
+		icon = "46360",
+		attribute_2 = "antiaircraft",
+		rarity = 5,
+		damage = "55/轮",
+		nationality = 4,
+		ammo = 5,
+		value_3 = 0,
+		id = 46360,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			1,
+			2,
+			6,
+			10
+		},
+		weapon_id = {
+			46360
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		equip_parameters = {},
+		label = {
+			"KMS",
+			"ST",
+			"AA"
+		}
+	},
+	[46361] = {
+		damage = "62/轮",
+		base = 46360,
+		id = 46361,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			46361
+		}
+	},
+	[46362] = {
+		damage = "69/轮",
+		base = 46360,
+		id = 46362,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			46362
+		}
+	},
+	[46363] = {
+		damage = "76/轮",
+		base = 46360,
+		id = 46363,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			46363
+		}
+	},
+	[46364] = {
+		damage = "83/轮",
+		base = 46360,
+		id = 46364,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			46364
+		}
+	},
+	[46365] = {
+		damage = "90/轮",
+		base = 46360,
+		id = 46365,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			46365
+		}
+	},
+	[46366] = {
+		damage = "97/轮",
+		base = 46360,
+		id = 46366,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			46366
+		}
+	},
+	[46367] = {
+		damage = "104/轮",
+		base = 46360,
+		id = 46367,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			46367
+		}
+	},
+	[46368] = {
+		damage = "112/轮",
+		base = 46360,
+		id = 46368,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			46368
+		}
+	},
+	[46369] = {
+		damage = "120/轮",
+		base = 46360,
+		id = 46369,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			46369
+		}
+	},
+	[46370] = {
+		damage = "128/轮",
+		base = 46360,
+		id = 46370,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			46370
+		}
+	},
+	[46371] = {
+		anti_siren = 100,
+		damage = "128/轮",
+		base = 46360,
+		id = 46371,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			46371
+		}
+	},
+	[46372] = {
+		anti_siren = 200,
+		damage = "128/轮",
+		base = 46360,
+		id = 46372,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			46372
+		}
+	},
+	[46373] = {
+		anti_siren = 300,
+		damage = "128/轮",
+		base = 46360,
+		id = 46373,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			46373
+		}
+	},
 	[47000] = {
 		name = "BF-109T舰载战斗机",
 		type = 7,
@@ -68213,7 +90429,7 @@ pg.equip_data_statistics = {
 		icon = "47000",
 		attribute_2 = "air",
 		nationality = 4,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 47000,
 		torpedo_ammo = 0,
@@ -68232,6 +90448,7 @@ pg.equip_data_statistics = {
 		equip_info = {
 			6,
 			7,
+			8,
 			9
 		},
 		weapon_id = {
@@ -68325,7 +90542,7 @@ pg.equip_data_statistics = {
 		icon = "47000",
 		attribute_2 = "air",
 		nationality = 4,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 47020,
 		torpedo_ammo = 0,
@@ -68344,6 +90561,7 @@ pg.equip_data_statistics = {
 		equip_info = {
 			6,
 			7,
+			8,
 			9
 		},
 		weapon_id = {
@@ -68497,7 +90715,7 @@ pg.equip_data_statistics = {
 		icon = "47000",
 		attribute_2 = "air",
 		nationality = 4,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 47040,
 		torpedo_ammo = 0,
@@ -68516,6 +90734,7 @@ pg.equip_data_statistics = {
 		equip_info = {
 			6,
 			7,
+			8,
 			9
 		},
 		weapon_id = {
@@ -68738,6 +90957,574 @@ pg.equip_data_statistics = {
 			84050
 		}
 	},
+	[47051] = {
+		anti_siren = 100,
+		base = 47040,
+		id = 47051,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				59051
+			},
+			{
+				6,
+				59451
+			}
+		},
+		weapon_id = {
+			47051,
+			84051
+		}
+	},
+	[47060] = {
+		name = "Ar-197舰载战斗机",
+		type = 7,
+		speciality = "空战",
+		rarity = 3,
+		tech = 0,
+		descrip = "说明未填写",
+		value_2 = 12,
+		icon = "47060",
+		attribute_2 = "air",
+		nationality = 4,
+		ammo = 5,
+		value_3 = 0,
+		id = 47060,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				6,
+				59040
+			},
+			{
+				6,
+				59440
+			},
+			{
+				5,
+				53040
+			}
+		},
+		equip_info = {
+			6,
+			7,
+			8,
+			9
+		},
+		weapon_id = {
+			47060,
+			84060
+		},
+		skill_id = {},
+		part_main = {
+			6,
+			7
+		},
+		part_sub = {
+			6,
+			7
+		},
+		equip_parameters = {},
+		label = {
+			"KMS",
+			"CV",
+			"FT"
+		}
+	},
+	[47061] = {
+		base = 47060,
+		id = 47061,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				59041
+			},
+			{
+				6,
+				59441
+			},
+			{
+				5,
+				53041
+			}
+		},
+		weapon_id = {
+			47061,
+			84061
+		}
+	},
+	[47062] = {
+		base = 47060,
+		id = 47062,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				59042
+			},
+			{
+				6,
+				59442
+			},
+			{
+				5,
+				53042
+			}
+		},
+		weapon_id = {
+			47062,
+			84062
+		}
+	},
+	[47063] = {
+		base = 47060,
+		id = 47063,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				59043
+			},
+			{
+				6,
+				59443
+			},
+			{
+				5,
+				53043
+			}
+		},
+		weapon_id = {
+			47063,
+			84063
+		}
+	},
+	[47064] = {
+		base = 47060,
+		id = 47064,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				59044
+			},
+			{
+				6,
+				59444
+			},
+			{
+				5,
+				53044
+			}
+		},
+		weapon_id = {
+			47064,
+			84064
+		}
+	},
+	[47065] = {
+		base = 47060,
+		id = 47065,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				59045
+			},
+			{
+				6,
+				59445
+			},
+			{
+				5,
+				53045
+			}
+		},
+		weapon_id = {
+			47065,
+			84065
+		}
+	},
+	[47066] = {
+		base = 47060,
+		id = 47066,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				59046
+			},
+			{
+				6,
+				59446
+			},
+			{
+				5,
+				53046
+			}
+		},
+		weapon_id = {
+			47066,
+			84066
+		}
+	},
+	[47067] = {
+		base = 47060,
+		id = 47067,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				59047
+			},
+			{
+				6,
+				59447
+			},
+			{
+				5,
+				53047
+			}
+		},
+		weapon_id = {
+			47067,
+			84067
+		}
+	},
+	[47080] = {
+		name = "试作型舰载FW-190 A-5",
+		type = 7,
+		speciality = "空战",
+		rarity = 4,
+		tech = 0,
+		descrip = "说明未填写",
+		value_2 = 25,
+		icon = "47080",
+		attribute_2 = "air",
+		nationality = 4,
+		ammo = 5,
+		value_3 = 0,
+		id = 47080,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				6,
+				59040
+			},
+			{
+				6,
+				59440
+			},
+			{
+				6,
+				59140
+			}
+		},
+		equip_info = {
+			6,
+			7,
+			8,
+			9
+		},
+		weapon_id = {
+			47080,
+			84080
+		},
+		skill_id = {},
+		part_main = {
+			6,
+			7
+		},
+		part_sub = {
+			6,
+			7
+		},
+		equip_parameters = {},
+		label = {
+			"KMS",
+			"CV",
+			"FT"
+		}
+	},
+	[47081] = {
+		base = 47080,
+		id = 47081,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				59041
+			},
+			{
+				6,
+				59441
+			},
+			{
+				6,
+				59141
+			}
+		},
+		weapon_id = {
+			47081,
+			84081
+		}
+	},
+	[47082] = {
+		base = 47080,
+		id = 47082,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				59042
+			},
+			{
+				6,
+				59442
+			},
+			{
+				6,
+				59142
+			}
+		},
+		weapon_id = {
+			47082,
+			84082
+		}
+	},
+	[47083] = {
+		base = 47080,
+		id = 47083,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				59043
+			},
+			{
+				6,
+				59443
+			},
+			{
+				6,
+				59143
+			}
+		},
+		weapon_id = {
+			47083,
+			84083
+		}
+	},
+	[47084] = {
+		base = 47080,
+		id = 47084,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				59044
+			},
+			{
+				6,
+				59444
+			},
+			{
+				6,
+				59144
+			}
+		},
+		weapon_id = {
+			47084,
+			84084
+		}
+	},
+	[47085] = {
+		base = 47080,
+		id = 47085,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				59045
+			},
+			{
+				6,
+				59445
+			},
+			{
+				6,
+				59145
+			}
+		},
+		weapon_id = {
+			47085,
+			84085
+		}
+	},
+	[47086] = {
+		base = 47080,
+		id = 47086,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				59046
+			},
+			{
+				6,
+				59446
+			},
+			{
+				6,
+				59146
+			}
+		},
+		weapon_id = {
+			47086,
+			84086
+		}
+	},
+	[47087] = {
+		base = 47080,
+		id = 47087,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				59047
+			},
+			{
+				6,
+				59447
+			},
+			{
+				6,
+				59147
+			}
+		},
+		weapon_id = {
+			47087,
+			84087
+		}
+	},
+	[47088] = {
+		base = 47080,
+		id = 47088,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				59048
+			},
+			{
+				6,
+				59448
+			},
+			{
+				6,
+				59148
+			}
+		},
+		weapon_id = {
+			47088,
+			84088
+		}
+	},
+	[47089] = {
+		base = 47080,
+		id = 47089,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				59049
+			},
+			{
+				6,
+				59449
+			},
+			{
+				6,
+				59149
+			}
+		},
+		weapon_id = {
+			47089,
+			84089
+		}
+	},
+	[47090] = {
+		base = 47080,
+		id = 47090,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				59050
+			},
+			{
+				6,
+				59450
+			},
+			{
+				6,
+				59150
+			}
+		},
+		weapon_id = {
+			47090,
+			84090
+		}
+	},
+	[47091] = {
+		anti_siren = 100,
+		base = 47080,
+		id = 47091,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				59051
+			},
+			{
+				6,
+				59451
+			},
+			{
+				6,
+				59151
+			}
+		},
+		weapon_id = {
+			47091,
+			84091
+		}
+	},
 	[47100] = {
 		name = "Me-155A舰载战斗机",
 		type = 7,
@@ -68749,7 +91536,7 @@ pg.equip_data_statistics = {
 		icon = "47100",
 		attribute_2 = "air",
 		nationality = 4,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 47100,
 		torpedo_ammo = 0,
@@ -68768,6 +91555,7 @@ pg.equip_data_statistics = {
 		equip_info = {
 			6,
 			7,
+			8,
 			9
 		},
 		weapon_id = {
@@ -68921,7 +91709,7 @@ pg.equip_data_statistics = {
 		icon = "47100",
 		attribute_2 = "air",
 		nationality = 4,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 47120,
 		torpedo_ammo = 0,
@@ -68940,6 +91728,7 @@ pg.equip_data_statistics = {
 		equip_info = {
 			6,
 			7,
+			8,
 			9
 		},
 		weapon_id = {
@@ -69173,7 +91962,7 @@ pg.equip_data_statistics = {
 		icon = "47100",
 		attribute_2 = "air",
 		nationality = 4,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 47140,
 		torpedo_ammo = 0,
@@ -69192,6 +91981,7 @@ pg.equip_data_statistics = {
 		equip_info = {
 			6,
 			7,
+			8,
 			9
 		},
 		weapon_id = {
@@ -69414,6 +92204,818 @@ pg.equip_data_statistics = {
 			84150
 		}
 	},
+	[47151] = {
+		anti_siren = 100,
+		base = 47140,
+		id = 47151,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				59151
+			},
+			{
+				6,
+				59251
+			}
+		},
+		weapon_id = {
+			47151,
+			84151
+		}
+	},
+	[47152] = {
+		anti_siren = 200,
+		base = 47140,
+		id = 47152,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				59152
+			},
+			{
+				6,
+				59252
+			}
+		},
+		weapon_id = {
+			47152,
+			84152
+		}
+	},
+	[47153] = {
+		anti_siren = 300,
+		base = 47140,
+		id = 47153,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				59153
+			},
+			{
+				6,
+				59253
+			}
+		},
+		weapon_id = {
+			47153,
+			84153
+		}
+	},
+	[48000] = {
+		name = "Ar-195舰载鱼雷机",
+		type = 8,
+		speciality = "雷击",
+		rarity = 3,
+		tech = 0,
+		descrip = "说明未填写",
+		value_2 = 12,
+		icon = "48000",
+		attribute_2 = "air",
+		nationality = 4,
+		ammo = 5,
+		value_3 = 0,
+		id = 48000,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				6,
+				59760
+			},
+			{
+				4,
+				59660
+			}
+		},
+		equip_info = {
+			6,
+			7,
+			8,
+			9
+		},
+		weapon_id = {
+			48000
+		},
+		skill_id = {},
+		part_main = {
+			6,
+			7
+		},
+		part_sub = {
+			6,
+			7
+		},
+		equip_parameters = {},
+		label = {
+			"KMS",
+			"CV",
+			"TB"
+		}
+	},
+	[48001] = {
+		base = 48000,
+		id = 48001,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				59761
+			},
+			{
+				4,
+				59661
+			}
+		},
+		weapon_id = {
+			48001
+		}
+	},
+	[48002] = {
+		base = 48000,
+		id = 48002,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				59762
+			},
+			{
+				4,
+				59662
+			}
+		},
+		weapon_id = {
+			48002
+		}
+	},
+	[48003] = {
+		base = 48000,
+		id = 48003,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				59763
+			},
+			{
+				4,
+				59663
+			}
+		},
+		weapon_id = {
+			48003
+		}
+	},
+	[48004] = {
+		base = 48000,
+		id = 48004,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				59764
+			},
+			{
+				4,
+				59664
+			}
+		},
+		weapon_id = {
+			48004
+		}
+	},
+	[48005] = {
+		base = 48000,
+		id = 48005,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				59765
+			},
+			{
+				4,
+				59665
+			}
+		},
+		weapon_id = {
+			48005
+		}
+	},
+	[48006] = {
+		base = 48000,
+		id = 48006,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				59766
+			},
+			{
+				4,
+				59666
+			}
+		},
+		weapon_id = {
+			48006
+		}
+	},
+	[48007] = {
+		base = 48000,
+		id = 48007,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				59767
+			},
+			{
+				4,
+				59667
+			}
+		},
+		weapon_id = {
+			48007
+		}
+	},
+	[48020] = {
+		name = "Fi-167舰载鱼雷机",
+		type = 8,
+		speciality = "雷击",
+		rarity = 4,
+		tech = 0,
+		descrip = "说明未填写",
+		value_2 = 25,
+		icon = "48020",
+		attribute_2 = "air",
+		nationality = 4,
+		ammo = 5,
+		value_3 = 0,
+		id = 48020,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				6,
+				59760
+			},
+			{
+				4,
+				59680
+			}
+		},
+		equip_info = {
+			6,
+			7,
+			8,
+			9
+		},
+		weapon_id = {
+			48020
+		},
+		skill_id = {},
+		part_main = {
+			6,
+			7
+		},
+		part_sub = {
+			6,
+			7
+		},
+		equip_parameters = {},
+		label = {
+			"KMS",
+			"CV",
+			"TB"
+		}
+	},
+	[48021] = {
+		base = 48020,
+		id = 48021,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				59761
+			},
+			{
+				4,
+				59681
+			}
+		},
+		weapon_id = {
+			48021
+		}
+	},
+	[48022] = {
+		base = 48020,
+		id = 48022,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				59762
+			},
+			{
+				4,
+				59682
+			}
+		},
+		weapon_id = {
+			48022
+		}
+	},
+	[48023] = {
+		base = 48020,
+		id = 48023,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				59763
+			},
+			{
+				4,
+				59683
+			}
+		},
+		weapon_id = {
+			48023
+		}
+	},
+	[48024] = {
+		base = 48020,
+		id = 48024,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				59764
+			},
+			{
+				4,
+				59684
+			}
+		},
+		weapon_id = {
+			48024
+		}
+	},
+	[48025] = {
+		base = 48020,
+		id = 48025,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				59765
+			},
+			{
+				4,
+				59685
+			}
+		},
+		weapon_id = {
+			48025
+		}
+	},
+	[48026] = {
+		base = 48020,
+		id = 48026,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				59766
+			},
+			{
+				4,
+				59686
+			}
+		},
+		weapon_id = {
+			48026
+		}
+	},
+	[48027] = {
+		base = 48020,
+		id = 48027,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				59767
+			},
+			{
+				4,
+				59687
+			}
+		},
+		weapon_id = {
+			48027
+		}
+	},
+	[48028] = {
+		base = 48020,
+		id = 48028,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				59768
+			},
+			{
+				4,
+				59688
+			}
+		},
+		weapon_id = {
+			48028
+		}
+	},
+	[48029] = {
+		base = 48020,
+		id = 48029,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				59769
+			},
+			{
+				4,
+				59689
+			}
+		},
+		weapon_id = {
+			48029
+		}
+	},
+	[48030] = {
+		base = 48020,
+		id = 48030,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				59770
+			},
+			{
+				4,
+				59690
+			}
+		},
+		weapon_id = {
+			48030
+		}
+	},
+	[48031] = {
+		anti_siren = 100,
+		base = 48020,
+		id = 48031,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				59771
+			},
+			{
+				4,
+				59691
+			}
+		},
+		weapon_id = {
+			48031
+		}
+	},
+	[48040] = {
+		name = "Ju-87 D-4",
+		type = 8,
+		speciality = "雷击",
+		rarity = 5,
+		tech = 0,
+		descrip = "说明未填写",
+		value_2 = 45,
+		icon = "48040",
+		attribute_2 = "air",
+		nationality = 4,
+		ammo = 5,
+		value_3 = 0,
+		id = 48040,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				6,
+				59340
+			},
+			{
+				4,
+				59700
+			}
+		},
+		equip_info = {
+			6,
+			7,
+			8,
+			9
+		},
+		weapon_id = {
+			48040
+		},
+		skill_id = {},
+		part_main = {
+			6,
+			7
+		},
+		part_sub = {
+			6,
+			7
+		},
+		equip_parameters = {},
+		label = {
+			"KMS",
+			"CV",
+			"TB"
+		}
+	},
+	[48041] = {
+		base = 48040,
+		id = 48041,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				59341
+			},
+			{
+				4,
+				59701
+			}
+		},
+		weapon_id = {
+			48041
+		}
+	},
+	[48042] = {
+		base = 48040,
+		id = 48042,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				59342
+			},
+			{
+				4,
+				59702
+			}
+		},
+		weapon_id = {
+			48042
+		}
+	},
+	[48043] = {
+		base = 48040,
+		id = 48043,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				59343
+			},
+			{
+				4,
+				59703
+			}
+		},
+		weapon_id = {
+			48043
+		}
+	},
+	[48044] = {
+		base = 48040,
+		id = 48044,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				59344
+			},
+			{
+				4,
+				59704
+			}
+		},
+		weapon_id = {
+			48044
+		}
+	},
+	[48045] = {
+		base = 48040,
+		id = 48045,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				59345
+			},
+			{
+				4,
+				59705
+			}
+		},
+		weapon_id = {
+			48045
+		}
+	},
+	[48046] = {
+		base = 48040,
+		id = 48046,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				59346
+			},
+			{
+				4,
+				59706
+			}
+		},
+		weapon_id = {
+			48046
+		}
+	},
+	[48047] = {
+		base = 48040,
+		id = 48047,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				59347
+			},
+			{
+				4,
+				59707
+			}
+		},
+		weapon_id = {
+			48047
+		}
+	},
+	[48048] = {
+		base = 48040,
+		id = 48048,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				59348
+			},
+			{
+				4,
+				59708
+			}
+		},
+		weapon_id = {
+			48048
+		}
+	},
+	[48049] = {
+		base = 48040,
+		id = 48049,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				59349
+			},
+			{
+				4,
+				59709
+			}
+		},
+		weapon_id = {
+			48049
+		}
+	},
+	[48050] = {
+		base = 48040,
+		id = 48050,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				59350
+			},
+			{
+				4,
+				59710
+			}
+		},
+		weapon_id = {
+			48050
+		}
+	},
+	[48051] = {
+		anti_siren = 100,
+		base = 48040,
+		id = 48051,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				59351
+			},
+			{
+				4,
+				59711
+			}
+		},
+		weapon_id = {
+			48051
+		}
+	},
+	[48052] = {
+		anti_siren = 200,
+		base = 48040,
+		id = 48052,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				59352
+			},
+			{
+				4,
+				59712
+			}
+		},
+		weapon_id = {
+			48052
+		}
+	},
+	[48053] = {
+		anti_siren = 300,
+		base = 48040,
+		id = 48053,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				59353
+			},
+			{
+				4,
+				59713
+			}
+		},
+		weapon_id = {
+			48053
+		}
+	},
 	[49000] = {
 		name = "Ju-87C俯冲轰炸机",
 		type = 9,
@@ -69425,7 +93027,7 @@ pg.equip_data_statistics = {
 		icon = "49000",
 		attribute_2 = "air",
 		nationality = 4,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 49000,
 		torpedo_ammo = 0,
@@ -69448,6 +93050,7 @@ pg.equip_data_statistics = {
 		equip_info = {
 			6,
 			7,
+			8,
 			9
 		},
 		weapon_id = {
@@ -69549,7 +93152,7 @@ pg.equip_data_statistics = {
 		icon = "49000",
 		attribute_2 = "air",
 		nationality = 4,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 49020,
 		torpedo_ammo = 0,
@@ -69572,6 +93175,7 @@ pg.equip_data_statistics = {
 		equip_info = {
 			6,
 			7,
+			8,
 			9
 		},
 		weapon_id = {
@@ -69742,7 +93346,7 @@ pg.equip_data_statistics = {
 		icon = "49000",
 		attribute_2 = "air",
 		nationality = 4,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 49040,
 		torpedo_ammo = 0,
@@ -69765,6 +93369,7 @@ pg.equip_data_statistics = {
 		equip_info = {
 			6,
 			7,
+			8,
 			9
 		},
 		weapon_id = {
@@ -70016,6 +93621,215 @@ pg.equip_data_statistics = {
 			49050
 		}
 	},
+	[49051] = {
+		anti_siren = 100,
+		base = 49040,
+		id = 49051,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				59351
+			},
+			{
+				5,
+				52651
+			},
+			{
+				5,
+				53051
+			}
+		},
+		weapon_id = {
+			49051
+		}
+	},
+	[49060] = {
+		name = "He-50b舰载轰炸机",
+		type = 9,
+		speciality = "轰炸",
+		rarity = 3,
+		tech = 0,
+		descrip = "说明未填写",
+		value_2 = 12,
+		icon = "49060",
+		attribute_2 = "air",
+		nationality = 4,
+		ammo = 5,
+		value_3 = 0,
+		id = 49060,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				6,
+				59760
+			},
+			{
+				5,
+				52240
+			}
+		},
+		equip_info = {
+			6,
+			7,
+			8,
+			9
+		},
+		weapon_id = {
+			49060
+		},
+		skill_id = {},
+		part_main = {
+			6,
+			7
+		},
+		part_sub = {
+			6,
+			7
+		},
+		equip_parameters = {},
+		label = {
+			"KMS",
+			"CV",
+			"DB"
+		}
+	},
+	[49061] = {
+		base = 49060,
+		id = 49061,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				59761
+			},
+			{
+				5,
+				52241
+			}
+		},
+		weapon_id = {
+			49061
+		}
+	},
+	[49062] = {
+		base = 49060,
+		id = 49062,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				59762
+			},
+			{
+				5,
+				52242
+			}
+		},
+		weapon_id = {
+			49062
+		}
+	},
+	[49063] = {
+		base = 49060,
+		id = 49063,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				59763
+			},
+			{
+				5,
+				52243
+			}
+		},
+		weapon_id = {
+			49063
+		}
+	},
+	[49064] = {
+		base = 49060,
+		id = 49064,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				59764
+			},
+			{
+				5,
+				52244
+			}
+		},
+		weapon_id = {
+			49064
+		}
+	},
+	[49065] = {
+		base = 49060,
+		id = 49065,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				59765
+			},
+			{
+				5,
+				52245
+			}
+		},
+		weapon_id = {
+			49065
+		}
+	},
+	[49066] = {
+		base = 49060,
+		id = 49066,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				59766
+			},
+			{
+				5,
+				52246
+			}
+		},
+		weapon_id = {
+			49066
+		}
+	},
+	[49067] = {
+		base = 49060,
+		id = 49067,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				59767
+			},
+			{
+				5,
+				52247
+			}
+		},
+		weapon_id = {
+			49067
+		}
+	},
 	[54010] = {
 		name = "轻航专用空中支援技能-轰炸Lv1",
 		tech = 1,
@@ -70027,18 +93841,14 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "航母空袭展示用",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 54010,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			54010
 		},
@@ -70109,18 +93919,14 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "航母空袭展示用",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 60001,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			60001
 		},
@@ -70161,18 +93967,14 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "航母空袭展示用",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 60011,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			60011
 		},
@@ -70213,18 +94015,14 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "航母空袭展示用",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 60021,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			60021
 		},
@@ -70265,18 +94063,14 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "航母空袭展示用",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 60031,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			60031
 		},
@@ -70317,18 +94111,14 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "航母空袭展示用",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 60041,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			60041
 		},
@@ -70369,18 +94159,14 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "航母空袭展示用",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 60051,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			60051
 		},
@@ -70421,18 +94207,14 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "航母空袭展示用",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 60061,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			60061
 		},
@@ -70473,18 +94255,14 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "航母空袭展示用",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 60071,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			60071
 		},
@@ -70525,18 +94303,14 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "航母空袭展示用",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 60081,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			60081
 		},
@@ -70577,18 +94351,14 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "航母空袭展示用",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 60091,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			60091
 		},
@@ -70619,18 +94389,14 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "航母空袭展示用",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 60101,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			60101
 		},
@@ -70671,18 +94437,14 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "航母空袭展示用",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 60111,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			60111
 		},
@@ -70723,18 +94485,14 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "航母空袭展示用",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 60121,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			60121
 		},
@@ -70775,18 +94533,14 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "航母空袭展示用",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 60131,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			60131
 		},
@@ -70827,18 +94581,14 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "航母空袭展示用",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 60141,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			60141
 		},
@@ -70879,18 +94629,14 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "航母空袭展示用",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 60151,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			60151
 		},
@@ -70931,18 +94677,14 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "航母空袭展示用",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 60161,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			60161
 		},
@@ -70983,18 +94725,14 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "航母空袭展示用",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 60171,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			60171
 		},
@@ -71035,18 +94773,14 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "航母空袭展示用",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 60181,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			60181
 		},
@@ -71087,18 +94821,14 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "航母空袭展示用",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 60191,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			60191
 		},
@@ -71139,18 +94869,14 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "航母空袭展示用",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 60201,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			60201
 		},
@@ -71191,18 +94917,14 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "航母空袭展示用",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 60211,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			60211
 		},
@@ -71243,18 +94965,14 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "航母空袭展示用",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 60221,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			60221
 		},
@@ -71295,24 +95013,21 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "技能弹幕展示用",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 60231,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			60231
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -71337,24 +95052,21 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "技能弹幕展示用",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 60232,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			60232
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -71379,24 +95091,21 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "技能弹幕展示用",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 60233,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			60233
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -71421,18 +95130,14 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "技能弹幕展示用",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 60234,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			60234
 		},
@@ -71463,18 +95168,14 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "技能弹幕展示用",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 60236,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			60236
 		},
@@ -71505,18 +95206,14 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "技能弹幕展示用",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 60238,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			60238
 		},
@@ -71547,18 +95244,14 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "航母空袭展示用",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 60241,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			60241
 		},
@@ -71599,18 +95292,14 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "航母空袭展示用",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 60251,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			60251
 		},
@@ -71651,18 +95340,14 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "航母空袭展示用",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 60261,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			60261
 		},
@@ -71703,18 +95388,14 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "航母空袭展示用",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 60271,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			60271
 		},
@@ -71755,18 +95436,14 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "航母空袭展示用",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 60281,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			60281
 		},
@@ -71807,18 +95484,14 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "航母空袭展示用",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 60291,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			60291
 		},
@@ -71859,18 +95532,14 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "技能弹幕展示用",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 60301,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			60301
 		},
@@ -71901,18 +95570,14 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "航母空袭展示用",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 60311,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			60311
 		},
@@ -71953,18 +95618,14 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "航母空袭展示用",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 60321,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			60321
 		},
@@ -72005,18 +95666,14 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "航母空袭展示用",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 60331,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			60331
 		},
@@ -72057,18 +95714,14 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "航母空袭展示用",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 60341,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			60341
 		},
@@ -72109,18 +95762,14 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "航母空袭展示用",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 60351,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			60351
 		},
@@ -72161,18 +95810,14 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "航母空袭展示用",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 60361,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			60361
 		},
@@ -72213,18 +95858,14 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "航母空袭展示用",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 60371,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			60371
 		},
@@ -72265,18 +95906,14 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "航母空袭展示用",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 60381,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			60381
 		},
@@ -72317,18 +95954,14 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "航母空袭展示用",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 60391,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			60391
 		},
@@ -72369,18 +96002,14 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "航母空袭展示用",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 60401,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			60401
 		},
@@ -72421,18 +96050,14 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "航母空袭展示用",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 60411,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			60411
 		},
@@ -72473,18 +96098,14 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "航母空袭展示用",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 60421,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			60421
 		},
@@ -72525,18 +96146,14 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "航母空袭展示用",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 60431,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			60431
 		},
@@ -72577,18 +96194,14 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "航母空袭展示用",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 60441,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			60441
 		},
@@ -72629,18 +96242,14 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "航母空袭展示用",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 60451,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			60451
 		},
@@ -72681,18 +96290,14 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "航母空袭展示用",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 60461,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			60461
 		},
@@ -72713,18 +96318,14 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "航母空袭展示用",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 60471,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			60471
 		},
@@ -72765,18 +96366,14 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "航母空袭展示用",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 60491,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			60491
 		},
@@ -72817,18 +96414,14 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "航母空袭展示用",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 60511,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			60511
 		},
@@ -72869,18 +96462,14 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "航母空袭展示用",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 60521,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			60521
 		},
@@ -72921,18 +96510,14 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "航母空袭展示用",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 60531,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			60531
 		},
@@ -72962,6 +96547,246 @@ pg.equip_data_statistics = {
 			60533
 		}
 	},
+	[60541] = {
+		name = "航空攻击展示-千岁I",
+		tech = 1,
+		speciality = "无",
+		type = 99,
+		rarity = 1,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		descrip = "航母空袭展示用",
+		nationality = 0,
+		ammo = 10,
+		value_3 = 0,
+		id = 60541,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {},
+		weapon_id = {
+			60541
+		},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {}
+	},
+	[60542] = {
+		name = "航空攻击展示-千岁II",
+		base = 60541,
+		id = 60542,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			60542
+		}
+	},
+	[60543] = {
+		name = "航空攻击展示-千岁III",
+		base = 60541,
+		id = 60543,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			60543
+		}
+	},
+	[60551] = {
+		name = "航空攻击展示-千代田I",
+		tech = 1,
+		speciality = "无",
+		type = 99,
+		rarity = 1,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		descrip = "航母空袭展示用",
+		nationality = 0,
+		ammo = 10,
+		value_3 = 0,
+		id = 60551,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {},
+		weapon_id = {
+			60551
+		},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {}
+	},
+	[60552] = {
+		name = "航空攻击展示-千代田II",
+		base = 60551,
+		id = 60552,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			60552
+		}
+	},
+	[60553] = {
+		name = "航空攻击展示-千代田III",
+		base = 60551,
+		id = 60553,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			60553
+		}
+	},
+	[60561] = {
+		name = "航空攻击展示-信浓I",
+		tech = 1,
+		speciality = "无",
+		type = 99,
+		rarity = 1,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		descrip = "航母空袭展示用",
+		nationality = 0,
+		ammo = 10,
+		value_3 = 0,
+		id = 60561,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {},
+		weapon_id = {
+			60561
+		},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {}
+	},
+	[60562] = {
+		name = "航空攻击展示-信浓II",
+		base = 60561,
+		id = 60562,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			60562
+		}
+	},
+	[60563] = {
+		name = "航空攻击展示-信浓III",
+		base = 60561,
+		id = 60563,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			60563
+		}
+	},
+	[60591] = {
+		name = "航空攻击展示-威悉II",
+		tech = 1,
+		speciality = "无",
+		type = 99,
+		rarity = 1,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		descrip = "航母空袭展示用",
+		nationality = 0,
+		ammo = 10,
+		value_3 = 0,
+		id = 60591,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {},
+		weapon_id = {
+			60591
+		},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {}
+	},
+	[60592] = {
+		name = "航空攻击展示-威悉III",
+		base = 60591,
+		id = 60592,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			60592
+		}
+	},
+	[60593] = {
+		name = "航空攻击展示-威悉III",
+		base = 60591,
+		id = 60593,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			60593
+		}
+	},
+	[60601] = {
+		name = "航空攻击展示-彼得史特拉塞I",
+		tech = 1,
+		speciality = "无",
+		type = 99,
+		rarity = 1,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		descrip = "航母空袭展示用",
+		nationality = 0,
+		ammo = 10,
+		value_3 = 0,
+		id = 60601,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {},
+		weapon_id = {
+			60601
+		},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {}
+	},
+	[60602] = {
+		name = "航空攻击展示-彼得史特拉塞II",
+		base = 60601,
+		id = 60602,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			60602
+		}
+	},
+	[60603] = {
+		name = "航空攻击展示-彼得史特拉塞III",
+		base = 60601,
+		id = 60603,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			60603
+		}
+	},
 	[61007] = {
 		name = "约克城技能随机扫射海面LV1",
 		tech = 1,
@@ -72973,24 +96798,21 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "技能弹幕",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 61007,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			61007
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -73035,24 +96857,21 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "技能弹幕",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 61010,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			61010
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -73097,24 +96916,21 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "技能弹幕展示用",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 61031,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			61031
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -73139,24 +96955,21 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "技能弹幕展示用",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 61041,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			61041
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -73181,18 +96994,14 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "技能弹幕展示用",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 61051,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			61051
 		},
@@ -73223,18 +97032,14 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "技能弹幕展示用",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 61052,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			61052
 		},
@@ -73265,18 +97070,14 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "技能弹幕展示用",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 61053,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			61053
 		},
@@ -73307,18 +97108,14 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "技能弹幕展示用",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 61054,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			61054
 		},
@@ -73343,18 +97140,14 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "外观空袭展示用",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 61501,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			61501
 		},
@@ -73375,18 +97168,14 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "外观空袭展示用",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 61503,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			61503
 		},
@@ -73407,18 +97196,14 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "外观空袭展示用",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 61504,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			61504
 		},
@@ -73439,18 +97224,14 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "外观空袭展示用",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 61505,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			61505
 		},
@@ -73471,24 +97252,21 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "技能弹幕",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 66200,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			66200
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -73513,24 +97291,21 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "技能弹幕",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 66220,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			66220
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -73555,24 +97330,21 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "技能弹幕",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 70011,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			70011
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -73607,24 +97379,21 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "技能弹幕",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 70021,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			70021
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -73659,24 +97428,21 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "技能弹幕",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 70031,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			70031
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -73711,24 +97477,21 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "技能弹幕",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 70041,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			70041
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -73763,24 +97526,21 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "技能弹幕",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 70051,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			70051
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -73815,24 +97575,21 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "技能弹幕",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 70061,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			70061
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -73867,24 +97624,21 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "技能弹幕",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 70071,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			70071
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -73919,24 +97673,21 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "技能弹幕",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 70081,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			70081
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -73971,24 +97722,21 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "技能弹幕",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 70111,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			70111
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -74023,24 +97771,21 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "技能弹幕",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 70121,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			70121
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -74075,24 +97820,21 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "技能弹幕",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 70131,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			70131
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -74127,24 +97869,21 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "技能弹幕",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 70141,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			70141
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -74179,24 +97918,21 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "技能弹幕",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 70211,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			70211
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -74231,24 +97967,21 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "技能弹幕",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 70221,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			70221
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -74283,24 +98016,21 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "技能弹幕",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 70231,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			70231
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -74335,24 +98065,21 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "技能弹幕",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 70241,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			70241
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -74387,24 +98114,21 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "技能弹幕",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 70251,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			70251
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -74439,24 +98163,21 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "技能弹幕",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 70261,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			70261
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -74491,24 +98212,21 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "技能弹幕",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 70271,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			70271
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -74543,24 +98261,21 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "技能弹幕",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 70311,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			70311
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -74595,24 +98310,21 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "技能弹幕",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 71011,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			71011
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -74647,24 +98359,21 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "技能弹幕",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 71021,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			71021
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -74699,24 +98408,21 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "技能弹幕",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 71031,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			71031
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -74751,24 +98457,21 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "技能弹幕",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 71041,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			71041
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -74803,24 +98506,21 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "技能弹幕",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 71051,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			71051
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -74855,24 +98555,21 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "技能弹幕",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 71061,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			71061
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -74907,24 +98604,21 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "技能弹幕",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 71026,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			71026
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -74959,24 +98653,21 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "技能弹幕",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 71071,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			71071
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -75011,24 +98702,21 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "技能弹幕",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 71081,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			71081
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -75063,24 +98751,21 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "技能弹幕",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 71091,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			71091
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -75115,24 +98800,21 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "技能弹幕",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 71016,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			71016
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -75167,24 +98849,21 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "技能弹幕",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 71111,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			71111
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -75219,24 +98898,21 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "技能弹幕",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 71121,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			71121
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -75271,24 +98947,21 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "技能弹幕",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 71131,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			71131
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -75323,24 +98996,21 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "技能弹幕",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 71141,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			71141
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -75375,24 +99045,21 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "技能弹幕",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 71151,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			71151
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -75427,24 +99094,21 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "技能弹幕",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 71161,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			71161
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -75479,24 +99143,21 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "技能弹幕",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 71171,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			71171
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -75531,24 +99192,21 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "技能弹幕",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 71181,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			71181
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -75583,24 +99241,21 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "技能弹幕",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 71211,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			71211
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -75635,24 +99290,21 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "技能弹幕",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 71221,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			71221
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -75687,24 +99339,21 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "技能弹幕",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 71231,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			71231
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -75739,24 +99388,21 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "技能弹幕",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 71241,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			71241
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -75791,24 +99437,21 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "技能弹幕",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 72011,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			72011
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -75843,24 +99486,21 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "技能弹幕",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 72021,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			72021
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -75895,24 +99535,21 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "技能弹幕",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 72031,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			72031
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -75947,24 +99584,21 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "技能弹幕",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 72041,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			72041
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -75999,24 +99633,21 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "技能弹幕",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 72051,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			72051
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -76051,24 +99682,21 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "技能弹幕",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 72056,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			72056
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -76103,24 +99731,21 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "技能弹幕",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 72061,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			72061
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -76155,24 +99780,21 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "技能弹幕",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 72071,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			72071
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -76207,24 +99829,21 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "技能弹幕",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 72081,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			72081
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -76259,24 +99878,21 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "技能弹幕",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 72091,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			72091
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -76311,24 +99927,21 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "技能弹幕",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 72111,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			72111
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -76363,24 +99976,21 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "技能弹幕",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 72121,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			72121
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -76415,24 +100025,21 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "技能弹幕",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 72131,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			72131
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -76467,24 +100074,21 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "技能弹幕",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 72141,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			72141
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -76519,24 +100123,21 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "技能弹幕",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 72151,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			72151
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -76571,24 +100172,21 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "技能弹幕",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 72161,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			72161
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -76623,24 +100221,21 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "技能弹幕",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 72211,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			72211
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -76675,24 +100270,21 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "技能弹幕",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 72221,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			72221
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -76727,24 +100319,21 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "技能弹幕",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 72231,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			72231
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -76779,24 +100368,21 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "技能弹幕",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 72241,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			72241
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -76831,24 +100417,21 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "技能弹幕",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 72251,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			72251
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -76884,18 +100467,14 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		rarity = 1,
 		base = 72251,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 72254,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			72254
 		},
@@ -76925,18 +100504,14 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		rarity = 1,
 		base = 72251,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 72256,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			72256
 		},
@@ -76965,24 +100540,21 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "技能弹幕",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 72261,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			72261
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -77017,24 +100589,21 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "技能弹幕",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 72311,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			72311
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -77058,6 +100627,55 @@ pg.equip_data_statistics = {
 			72312
 		}
 	},
+	[72411] = {
+		name = "全弹发射-樫野I",
+		tech = 1,
+		speciality = "无",
+		type = 1,
+		rarity = 1,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		descrip = "技能弹幕",
+		nationality = 0,
+		ammo = 10,
+		value_3 = 0,
+		id = 72411,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {},
+		weapon_id = {
+			72411
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			19
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
+		equip_parameters = {},
+		label = {}
+	},
+	[72412] = {
+		name = "全弹发射-樫野II",
+		base = 72411,
+		id = 72412,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			72412
+		}
+	},
 	[73011] = {
 		name = "全弹发射-1934型I",
 		tech = 1,
@@ -77069,24 +100687,21 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "技能弹幕",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 73011,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			73011
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -77121,24 +100736,21 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "技能弹幕",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 73031,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			73031
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -77173,24 +100785,21 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "技能弹幕",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 73041,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			73041
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -77225,24 +100834,21 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "技能弹幕",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 73051,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			73051
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -77277,24 +100883,21 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "技能弹幕",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 73111,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			73111
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -77329,24 +100932,21 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "技能弹幕",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 73121,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			73111
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -77381,24 +100981,21 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "技能弹幕",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 73211,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			73211
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -77433,24 +101030,21 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "技能弹幕",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 73221,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			73221
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -77474,6 +101068,55 @@ pg.equip_data_statistics = {
 			73222
 		}
 	},
+	[73231] = {
+		name = "全弹发射-P级I",
+		tech = 1,
+		speciality = "无",
+		type = 1,
+		rarity = 1,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		descrip = "技能弹幕",
+		nationality = 0,
+		ammo = 10,
+		value_3 = 0,
+		id = 73231,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {},
+		weapon_id = {
+			73231
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			19
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
+		equip_parameters = {},
+		label = {}
+	},
+	[73232] = {
+		name = "全弹发射-P级II",
+		base = 73231,
+		id = 73232,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			73232
+		}
+	},
 	[73311] = {
 		name = "全弹发射-Type VIIC型I",
 		tech = 1,
@@ -77485,24 +101128,21 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "技能弹幕",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 73311,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			73311
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -77537,24 +101177,21 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "技能弹幕",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 73321,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			73321
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -77589,24 +101226,21 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "技能弹幕",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 73411,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			73411
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -77641,24 +101275,21 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "技能弹幕",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 73511,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			73511
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -77693,24 +101324,21 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "技能弹幕",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 74011,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			74011
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -77745,24 +101373,21 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "技能弹幕",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 74111,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			74111
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -77797,24 +101422,21 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "技能弹幕",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 74121,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			74121
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -77849,24 +101471,21 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "技能弹幕",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 75011,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			75011
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -77901,24 +101520,21 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "技能弹幕",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 75211,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			75211
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -77953,24 +101569,21 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "技能弹幕",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 75221,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			75221
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -78005,24 +101618,21 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "技能弹幕",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 76011,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			76011
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -78057,24 +101667,21 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "技能弹幕",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 76021,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			76021
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -78109,24 +101716,21 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "技能弹幕",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 76111,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			76111
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -78161,24 +101765,21 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "技能弹幕",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 78011,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			78011
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -78213,24 +101814,21 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "技能弹幕",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 78021,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			78021
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -78265,24 +101863,21 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "技能弹幕",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 78031,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			78031
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -78317,24 +101912,21 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "技能弹幕",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 78111,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			78111
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -78369,24 +101961,21 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "技能弹幕",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 78121,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			78121
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -78421,24 +102010,21 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "技能弹幕",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 78211,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			78211
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -78473,24 +102059,21 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "技能弹幕",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 79011,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			79011
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -78525,24 +102108,21 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "技能弹幕",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 79021,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			79021
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -78577,24 +102157,21 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "技能弹幕",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 79031,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			79031
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -78629,24 +102206,21 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "技能弹幕",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 79041,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			79041
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -78681,24 +102255,21 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "技能弹幕",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 79051,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			79051
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -78733,24 +102304,21 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "技能弹幕",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 79061,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			79061
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -78785,24 +102353,21 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "技能弹幕",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 79071,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			79071
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -78837,24 +102402,21 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "技能弹幕",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 79081,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			79081
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -78889,24 +102451,21 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "技能弹幕",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 79091,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			79091
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -78941,24 +102500,21 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "技能弹幕",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 79101,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			79101
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -78993,24 +102549,21 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "技能弹幕",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 79111,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			79111
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -79045,24 +102598,21 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "技能弹幕",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 79121,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			79121
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -79097,24 +102647,21 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "技能弹幕",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 79131,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			79131
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -79149,24 +102696,21 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "技能弹幕",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 79141,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			79141
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -79201,24 +102745,21 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "技能弹幕",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 79151,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			79151
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -79253,24 +102794,21 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "技能弹幕",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 79161,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			79161
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -79305,24 +102843,21 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "技能弹幕",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 79171,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			79171
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -79357,24 +102892,21 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "技能弹幕",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 79181,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			79181
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -79409,24 +102941,21 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "技能弹幕",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 79191,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			79191
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -79461,24 +102990,21 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "技能弹幕",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 79201,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			79201
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -79513,24 +103039,21 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "技能弹幕",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 79211,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			79211
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -79565,24 +103088,21 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "技能弹幕",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 79221,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			79221
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -79617,24 +103137,21 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "技能弹幕",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 79231,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			79231
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -79669,24 +103186,21 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "技能弹幕",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 79241,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			79241
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -79721,24 +103235,21 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "技能弹幕",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 79251,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			79251
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -79773,24 +103284,21 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "技能弹幕",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 79261,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			79261
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -79825,24 +103333,21 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "技能弹幕",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 79271,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			79271
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -79877,24 +103382,21 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "技能弹幕",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 79291,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			79291
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -79929,24 +103431,21 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "技能弹幕",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 79301,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			79301
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -79981,24 +103480,21 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "技能弹幕",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 79311,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			79311
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -80033,24 +103529,21 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "技能弹幕",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 79321,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			79321
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -80085,24 +103578,21 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "技能弹幕",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 79331,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			60303
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -80137,24 +103627,21 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "技能弹幕",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 79341,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			79341
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -80189,24 +103676,21 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "技能弹幕",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 79361,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			79361
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -80241,24 +103725,21 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "技能弹幕",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 79371,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			79371
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -80293,24 +103774,21 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "技能弹幕",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 79381,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			79381
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -80345,24 +103823,21 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "技能弹幕",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 79383,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			79383
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -80397,24 +103872,21 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "技能弹幕",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 79391,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			79391
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -80449,24 +103921,21 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "技能弹幕",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 79401,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			79401
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -80501,24 +103970,21 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "技能弹幕",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 79411,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			79411
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -80553,24 +104019,21 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "技能弹幕",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 79421,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			79421
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -80605,24 +104068,21 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "技能弹幕",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 79431,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			79431
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -80657,24 +104117,21 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "技能弹幕",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 79441,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			79441
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -80709,24 +104166,21 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "技能弹幕",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 79451,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			79451
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -80761,24 +104215,21 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "技能弹幕",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 79461,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			79461
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -80813,24 +104264,21 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "技能弹幕",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 79471,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			79471
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -80865,24 +104313,21 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "技能弹幕",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 79481,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			60481
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -80917,24 +104362,21 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "技能弹幕",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 79491,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			79491
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -80969,24 +104411,21 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "技能弹幕",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 79501,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			79501
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -81021,24 +104460,21 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "技能弹幕",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 79511,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			79511
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -81073,24 +104509,21 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "技能弹幕",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 79521,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			79521
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -81125,24 +104558,21 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "技能弹幕",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 79541,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			60501
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -81168,32 +104598,29 @@ pg.equip_data_statistics = {
 	},
 	[79551] = {
 		name = "专属弹幕-柴郡I",
+		tech = 1,
 		speciality = "无",
 		type = 1,
 		rarity = 1,
-		tech = 1,
 		descrip = "技能弹幕",
 		value_2 = 0,
 		icon = "1",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 79551,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			79551
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -81219,32 +104646,29 @@ pg.equip_data_statistics = {
 	},
 	[79561] = {
 		name = "专属弹幕-德雷克I",
+		tech = 1,
 		speciality = "无",
 		type = 1,
 		rarity = 1,
-		tech = 1,
 		descrip = "技能弹幕",
 		value_2 = 0,
 		icon = "1",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 79561,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			79561
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -81270,32 +104694,29 @@ pg.equip_data_statistics = {
 	},
 	[79571] = {
 		name = "专属弹幕-美因茨I",
+		tech = 1,
 		speciality = "无",
 		type = 1,
 		rarity = 1,
-		tech = 1,
 		descrip = "技能弹幕",
 		value_2 = 0,
 		icon = "1",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 79571,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			79571
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -81330,24 +104751,21 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "技能弹幕",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 79581,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			79581
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -81382,18 +104800,14 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "技能弹幕",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 79591,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			{
-				6
-			}
-		},
+		equip_info = {},
 		weapon_id = {
 			79591
 		},
@@ -81423,6 +104837,397 @@ pg.equip_data_statistics = {
 			79592
 		}
 	},
+	[79601] = {
+		name = "专属弹幕-凉月I",
+		tech = 1,
+		speciality = "无",
+		type = 1,
+		rarity = 1,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		descrip = "技能弹幕",
+		nationality = 0,
+		ammo = 10,
+		value_3 = 0,
+		id = 79601,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {},
+		weapon_id = {
+			60571
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			19
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
+		equip_parameters = {},
+		label = {}
+	},
+	[79602] = {
+		name = "专属弹幕-凉月II",
+		base = 79601,
+		id = 79602,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			60572
+		}
+	},
+	[79611] = {
+		name = "专属弹幕-罗恩μI",
+		tech = 1,
+		speciality = "无",
+		type = 1,
+		rarity = 1,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		descrip = "技能弹幕",
+		nationality = 0,
+		ammo = 10,
+		value_3 = 0,
+		id = 79611,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {},
+		weapon_id = {
+			79611
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			19
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
+		equip_parameters = {},
+		label = {}
+	},
+	[79612] = {
+		name = "专属弹幕-罗恩μII",
+		base = 79611,
+		id = 79612,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			79612
+		}
+	},
+	[79621] = {
+		name = "专属弹幕-恶毒μI",
+		tech = 1,
+		speciality = "无",
+		type = 1,
+		rarity = 1,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		descrip = "技能弹幕",
+		nationality = 0,
+		ammo = 10,
+		value_3 = 0,
+		id = 79621,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {},
+		weapon_id = {
+			60581
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			19
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
+		equip_parameters = {},
+		label = {}
+	},
+	[79622] = {
+		name = "专属弹幕-恶毒μII",
+		base = 79621,
+		id = 79622,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			60582
+		}
+	},
+	[79631] = {
+		name = "专属弹幕-黛朵μI",
+		tech = 1,
+		speciality = "无",
+		type = 1,
+		rarity = 1,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		descrip = "技能弹幕",
+		nationality = 0,
+		ammo = 10,
+		value_3 = 0,
+		id = 79631,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {},
+		weapon_id = {
+			79631
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			19
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
+		equip_parameters = {},
+		label = {}
+	},
+	[79632] = {
+		name = "专属弹幕-黛朵μII",
+		base = 79631,
+		id = 79632,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			79632
+		}
+	},
+	[79641] = {
+		name = "专属弹幕-塔什干μI",
+		tech = 1,
+		speciality = "无",
+		type = 1,
+		rarity = 1,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		descrip = "技能弹幕",
+		nationality = 0,
+		ammo = 10,
+		value_3 = 0,
+		id = 79641,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {},
+		weapon_id = {
+			79641
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			19
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
+		equip_parameters = {},
+		label = {}
+	},
+	[79642] = {
+		name = "专属弹幕-塔什干μII",
+		base = 79641,
+		id = 79642,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			79642
+		}
+	},
+	[79651] = {
+		name = "专属弹幕-大青花鱼μI",
+		tech = 1,
+		speciality = "无",
+		type = 1,
+		rarity = 1,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		descrip = "技能弹幕",
+		nationality = 0,
+		ammo = 10,
+		value_3 = 0,
+		id = 79651,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {},
+		weapon_id = {
+			79651
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			19
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
+		equip_parameters = {},
+		label = {}
+	},
+	[79652] = {
+		name = "专属弹幕-大青花鱼μII",
+		base = 79651,
+		id = 79652,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			79652
+		}
+	},
+	[79661] = {
+		name = "专属弹幕-巴尔的摩μI",
+		tech = 1,
+		speciality = "无",
+		type = 1,
+		rarity = 1,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		descrip = "技能弹幕",
+		nationality = 0,
+		ammo = 10,
+		value_3 = 0,
+		id = 79661,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {},
+		weapon_id = {
+			79661
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			19
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
+		equip_parameters = {},
+		label = {}
+	},
+	[79662] = {
+		name = "专属弹幕-巴尔的摩μII",
+		base = 79661,
+		id = 79662,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			79662
+		}
+	},
+	[79671] = {
+		name = "专属弹幕-U37I",
+		tech = 1,
+		speciality = "无",
+		type = 1,
+		rarity = 1,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		descrip = "技能弹幕",
+		nationality = 0,
+		ammo = 10,
+		value_3 = 0,
+		id = 79671,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {},
+		weapon_id = {
+			79671
+		},
+		skill_id = {},
+		part_main = {
+			1
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
+		equip_parameters = {},
+		label = {}
+	},
+	[79672] = {
+		name = "专属弹幕-U37II",
+		base = 79671,
+		id = 79672,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			79672
+		}
+	},
 	[85000] = {
 		name = "B-13 双联装130mm主炮B-2LM",
 		speciality = "锁定",
@@ -81435,7 +105240,7 @@ pg.equip_data_statistics = {
 		rarity = 3,
 		damage = "3 x 6",
 		nationality = 7,
-		ammo = "通常弹",
+		ammo = 3,
 		value_3 = 0,
 		id = 85000,
 		torpedo_ammo = 0,
@@ -81460,14 +105265,18 @@ pg.equip_data_statistics = {
 				4,
 				1024
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			85000
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -81557,7 +105366,7 @@ pg.equip_data_statistics = {
 		rarity = 5,
 		damage = "6 x 6",
 		nationality = 7,
-		ammo = "通常弹",
+		ammo = 3,
 		value_3 = 0,
 		id = 85040,
 		torpedo_ammo = 0,
@@ -81582,14 +105391,18 @@ pg.equip_data_statistics = {
 				4,
 				1024
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			85040
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -81707,6 +105520,39 @@ pg.equip_data_statistics = {
 			85050
 		}
 	},
+	[85051] = {
+		anti_siren = 100,
+		damage = "15 x 6",
+		base = 85040,
+		id = 85051,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			85051
+		}
+	},
+	[85052] = {
+		anti_siren = 200,
+		damage = "15 x 6",
+		base = 85040,
+		id = 85052,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			85052
+		}
+	},
+	[85053] = {
+		anti_siren = 300,
+		damage = "15 x 6",
+		base = 85040,
+		id = 85053,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			85053
+		}
+	},
 	[85060] = {
 		name = "100mm双联装防空炮SM-5-1s",
 		speciality = "防空",
@@ -81719,7 +105565,7 @@ pg.equip_data_statistics = {
 		rarity = 3,
 		damage = "35/轮",
 		nationality = 7,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 85060,
 		torpedo_ammo = 0,
@@ -81729,7 +105575,8 @@ pg.equip_data_statistics = {
 		equip_info = {
 			1,
 			2,
-			6
+			6,
+			10
 		},
 		weapon_id = {
 			85060
@@ -81745,7 +105592,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			1,
@@ -81757,7 +105605,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -81827,7 +105676,7 @@ pg.equip_data_statistics = {
 		}
 	},
 	[85120] = {
-		name = "B-38 三联装152mm主炮MK5",
+		name = "B-38 三联装152mm主炮Mk5",
 		speciality = "锁定",
 		type = 2,
 		tech = 1,
@@ -81838,7 +105687,7 @@ pg.equip_data_statistics = {
 		rarity = 3,
 		damage = "5 x 6",
 		nationality = 7,
-		ammo = "通常弹",
+		ammo = 3,
 		value_3 = 0,
 		id = 85120,
 		torpedo_ammo = 0,
@@ -81863,7 +105712,10 @@ pg.equip_data_statistics = {
 				4,
 				1110
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			85120
@@ -81943,7 +105795,7 @@ pg.equip_data_statistics = {
 		}
 	},
 	[85140] = {
-		name = "B-38 三联装152mm主炮MK5",
+		name = "B-38 三联装152mm主炮Mk5",
 		speciality = "锁定",
 		type = 2,
 		tech = 2,
@@ -81954,7 +105806,7 @@ pg.equip_data_statistics = {
 		rarity = 4,
 		damage = "6 x 6",
 		nationality = 7,
-		ammo = "高爆弹",
+		ammo = 2,
 		value_3 = 0,
 		id = 85140,
 		torpedo_ammo = 0,
@@ -81979,7 +105831,10 @@ pg.equip_data_statistics = {
 				4,
 				1110
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			85140
@@ -82100,7 +105955,7 @@ pg.equip_data_statistics = {
 		}
 	},
 	[85160] = {
-		name = "B-38 三联装152mm主炮MK5",
+		name = "B-38 三联装152mm主炮Mk5",
 		speciality = "锁定",
 		type = 2,
 		tech = 3,
@@ -82111,7 +105966,7 @@ pg.equip_data_statistics = {
 		rarity = 5,
 		damage = "7 x 6",
 		nationality = 7,
-		ammo = "高爆弹",
+		ammo = 2,
 		value_3 = 0,
 		id = 85160,
 		torpedo_ammo = 0,
@@ -82136,7 +105991,10 @@ pg.equip_data_statistics = {
 				4,
 				1110
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			85160
@@ -82256,6 +106114,39 @@ pg.equip_data_statistics = {
 			85170
 		}
 	},
+	[85171] = {
+		anti_siren = 100,
+		damage = "16 x 6",
+		base = 85160,
+		id = 85171,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			85171
+		}
+	},
+	[85172] = {
+		anti_siren = 200,
+		damage = "16 x 6",
+		base = 85160,
+		id = 85172,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			85172
+		}
+	},
+	[85173] = {
+		anti_siren = 300,
+		damage = "16 x 6",
+		base = 85160,
+		id = 85173,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			85173
+		}
+	},
 	[85180] = {
 		name = "37mm防空炮70-K",
 		speciality = "防空",
@@ -82268,7 +106159,7 @@ pg.equip_data_statistics = {
 		rarity = 2,
 		damage = "9/轮",
 		nationality = 7,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 85180,
 		torpedo_ammo = 0,
@@ -82278,7 +106169,8 @@ pg.equip_data_statistics = {
 		equip_info = {
 			1,
 			2,
-			6
+			6,
+			10
 		},
 		weapon_id = {
 			85180
@@ -82294,7 +106186,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			1,
@@ -82306,7 +106199,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -82357,7 +106251,7 @@ pg.equip_data_statistics = {
 		rarity = 3,
 		damage = "11/轮",
 		nationality = 7,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 85200,
 		torpedo_ammo = 0,
@@ -82367,7 +106261,8 @@ pg.equip_data_statistics = {
 		equip_info = {
 			1,
 			2,
-			6
+			6,
+			10
 		},
 		weapon_id = {
 			85200
@@ -82383,7 +106278,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			1,
@@ -82395,7 +106291,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -82476,7 +106373,7 @@ pg.equip_data_statistics = {
 		rarity = 4,
 		damage = "14/轮",
 		nationality = 7,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 85220,
 		torpedo_ammo = 0,
@@ -82486,7 +106383,8 @@ pg.equip_data_statistics = {
 		equip_info = {
 			1,
 			2,
-			6
+			6,
+			10
 		},
 		weapon_id = {
 			85220
@@ -82502,7 +106400,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			1,
@@ -82514,7 +106413,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -82623,6 +106523,17 @@ pg.equip_data_statistics = {
 			85230
 		}
 	},
+	[85231] = {
+		anti_siren = 100,
+		damage = "44/轮",
+		base = 85220,
+		id = 85231,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			85231
+		}
+	},
 	[85260] = {
 		name = "B-54 100mm双联装防空炮",
 		speciality = "防空",
@@ -82635,7 +106546,7 @@ pg.equip_data_statistics = {
 		rarity = 3,
 		damage = "36/轮",
 		nationality = 7,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 85260,
 		torpedo_ammo = 0,
@@ -82645,7 +106556,8 @@ pg.equip_data_statistics = {
 		equip_info = {
 			1,
 			2,
-			6
+			6,
+			10
 		},
 		weapon_id = {
 			85260
@@ -82661,7 +106573,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			1,
@@ -82673,7 +106586,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -82754,7 +106668,7 @@ pg.equip_data_statistics = {
 		rarity = 4,
 		damage = "43/轮",
 		nationality = 7,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 85280,
 		torpedo_ammo = 0,
@@ -82764,7 +106678,8 @@ pg.equip_data_statistics = {
 		equip_info = {
 			1,
 			2,
-			6
+			6,
+			10
 		},
 		weapon_id = {
 			85280
@@ -82780,7 +106695,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			1,
@@ -82792,7 +106708,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -82901,8 +106818,19 @@ pg.equip_data_statistics = {
 			85290
 		}
 	},
+	[85291] = {
+		anti_siren = 100,
+		damage = "110/轮",
+		base = 85280,
+		id = 85291,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			85291
+		}
+	},
 	[85300] = {
-		name = "B-37 三联装406mm主炮MK-1",
+		name = "B-37 三联装406mm主炮Mk-1",
 		speciality = "跨射",
 		type = 4,
 		tech = 1,
@@ -82913,7 +106841,7 @@ pg.equip_data_statistics = {
 		rarity = 3,
 		damage = "50 x 3",
 		nationality = 7,
-		ammo = "通常弹",
+		ammo = 3,
 		value_3 = 0,
 		id = 85300,
 		torpedo_ammo = 0,
@@ -82930,7 +106858,10 @@ pg.equip_data_statistics = {
 		equip_info = {
 			1,
 			2,
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			85300
@@ -83011,7 +106942,7 @@ pg.equip_data_statistics = {
 		}
 	},
 	[85320] = {
-		name = "B-37 三联装406mm主炮MK-1",
+		name = "B-37 三联装406mm主炮Mk-1",
 		speciality = "跨射",
 		type = 4,
 		tech = 2,
@@ -83022,7 +106953,7 @@ pg.equip_data_statistics = {
 		rarity = 4,
 		damage = "56 x 3",
 		nationality = 7,
-		ammo = "通常弹",
+		ammo = 3,
 		value_3 = 0,
 		id = 85320,
 		torpedo_ammo = 0,
@@ -83039,7 +106970,10 @@ pg.equip_data_statistics = {
 		equip_info = {
 			1,
 			2,
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			85320
@@ -83172,7 +107106,7 @@ pg.equip_data_statistics = {
 		rarity = 2,
 		damage = "14/轮",
 		nationality = 7,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 85360,
 		torpedo_ammo = 0,
@@ -83182,7 +107116,8 @@ pg.equip_data_statistics = {
 		equip_info = {
 			1,
 			2,
-			6
+			6,
+			10
 		},
 		weapon_id = {
 			85360
@@ -83198,7 +107133,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			1,
@@ -83210,7 +107146,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -83261,7 +107198,7 @@ pg.equip_data_statistics = {
 		rarity = 3,
 		damage = "33/轮",
 		nationality = 7,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 85380,
 		torpedo_ammo = 0,
@@ -83271,7 +107208,8 @@ pg.equip_data_statistics = {
 		equip_info = {
 			1,
 			2,
-			6
+			6,
+			10
 		},
 		weapon_id = {
 			85380
@@ -83287,7 +107225,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			1,
@@ -83299,7 +107238,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -83380,7 +107320,7 @@ pg.equip_data_statistics = {
 		rarity = 4,
 		damage = "38/轮",
 		nationality = 7,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 85400,
 		torpedo_ammo = 0,
@@ -83390,7 +107330,8 @@ pg.equip_data_statistics = {
 		equip_info = {
 			1,
 			2,
-			6
+			6,
+			10
 		},
 		weapon_id = {
 			85400
@@ -83406,7 +107347,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			1,
@@ -83418,7 +107360,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -83527,6 +107470,17 @@ pg.equip_data_statistics = {
 			85410
 		}
 	},
+	[85411] = {
+		anti_siren = 100,
+		damage = "96/轮",
+		base = 85400,
+		id = 85411,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			85411
+		}
+	},
 	[85420] = {
 		name = "三联装305mm主炮Model1907",
 		speciality = "跨射",
@@ -83539,7 +107493,7 @@ pg.equip_data_statistics = {
 		rarity = 3,
 		damage = "54 x 3",
 		nationality = 7,
-		ammo = "高爆弹",
+		ammo = 2,
 		value_3 = 0,
 		id = 85420,
 		torpedo_ammo = 0,
@@ -83556,7 +107510,10 @@ pg.equip_data_statistics = {
 		equip_info = {
 			1,
 			2,
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			85420
@@ -83637,6 +107594,16 @@ pg.equip_data_statistics = {
 			85426
 		}
 	},
+	[85427] = {
+		damage = "92 x 3",
+		base = 85420,
+		id = 85427,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			85427
+		}
+	},
 	[85440] = {
 		name = "双联装152mm主炮Model1892",
 		speciality = "锁定",
@@ -83649,7 +107616,7 @@ pg.equip_data_statistics = {
 		rarity = 3,
 		damage = "8 x 4",
 		nationality = 7,
-		ammo = "通常弹",
+		ammo = 3,
 		value_3 = 0,
 		id = 85440,
 		torpedo_ammo = 0,
@@ -83674,7 +107641,10 @@ pg.equip_data_statistics = {
 				4,
 				1101
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			85440
@@ -83753,6 +107723,16 @@ pg.equip_data_statistics = {
 			85446
 		}
 	},
+	[85447] = {
+		damage = "14 x 4",
+		base = 85440,
+		id = 85447,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			85447
+		}
+	},
 	[89000] = {
 		name = "随机单词生成器",
 		tech = 0,
@@ -83766,7 +107746,7 @@ pg.equip_data_statistics = {
 		rarity = 5,
 		descrip = "在构思企划时非常好用的道具。据说在在很稀有的情况下会开口说话…？",
 		nationality = 104,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		attribute_1 = "hit",
 		torpedo_ammo = 0,
@@ -83774,9 +107754,7 @@ pg.equip_data_statistics = {
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {
-			{
-				6
-			}
+			6
 		},
 		weapon_id = {},
 		skill_id = {
@@ -83867,6 +107845,33 @@ pg.equip_data_statistics = {
 		torpedo_ammo = 0,
 		property_rate = {}
 	},
+	[89011] = {
+		id = 89011,
+		anti_siren = 100,
+		base = 89000,
+		value_2 = 16,
+		value_1 = "26",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[89012] = {
+		id = 89012,
+		anti_siren = 200,
+		base = 89000,
+		value_2 = 17,
+		value_1 = "27",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[89013] = {
+		id = 89013,
+		anti_siren = 300,
+		base = 89000,
+		value_2 = 18,
+		value_1 = "28",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
 	[89020] = {
 		name = "晃悠悠",
 		tech = 0,
@@ -83880,7 +107885,7 @@ pg.equip_data_statistics = {
 		rarity = 5,
 		descrip = "绊爱的发箍。有一种说法是晃悠悠才是本体。拿掉晃悠悠的话会怎么样呢…话说真的拿得掉么？",
 		nationality = 104,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		attribute_1 = "durability",
 		torpedo_ammo = 0,
@@ -83888,9 +107893,7 @@ pg.equip_data_statistics = {
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {
-			{
-				6
-			}
+			6
 		},
 		weapon_id = {},
 		skill_id = {
@@ -83983,6 +107986,33 @@ pg.equip_data_statistics = {
 		torpedo_ammo = 0,
 		property_rate = {}
 	},
+	[89031] = {
+		id = 89031,
+		anti_siren = 100,
+		base = 89020,
+		value_2 = 2,
+		value_1 = "530",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[89032] = {
+		id = 89032,
+		anti_siren = 200,
+		base = 89020,
+		value_2 = 2,
+		value_1 = "560",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[89033] = {
+		id = 89033,
+		anti_siren = 300,
+		base = 89020,
+		value_2 = 2,
+		value_1 = "590",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
 	[89040] = {
 		name = "智慧模块",
 		tech = 0,
@@ -83996,7 +108026,7 @@ pg.equip_data_statistics = {
 		rarity = 5,
 		descrip = "绊爱在导入插件时使用的芯片…？——不会再让人说废柴了！<color=#ff5c5c>（该装备绊爱联动活动结束后装备技能失效）</color>",
 		nationality = 104,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		attribute_1 = "durability",
 		torpedo_ammo = 0,
@@ -84004,9 +108034,7 @@ pg.equip_data_statistics = {
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {
-			{
-				6
-			}
+			6
 		},
 		weapon_id = {},
 		skill_id = {
@@ -84098,6 +108126,33 @@ pg.equip_data_statistics = {
 		torpedo_ammo = 0,
 		property_rate = {}
 	},
+	[89051] = {
+		id = 89051,
+		anti_siren = 100,
+		base = 89040,
+		value_2 = 8,
+		value_1 = "260",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[89052] = {
+		id = 89052,
+		anti_siren = 200,
+		base = 89040,
+		value_2 = 8,
+		value_1 = "275",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[89053] = {
+		id = 89053,
+		anti_siren = 300,
+		base = 89040,
+		value_2 = 8,
+		value_1 = "290",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
 	[89060] = {
 		name = "组徽",
 		tech = 0,
@@ -84111,7 +108166,7 @@ pg.equip_data_statistics = {
 		rarity = 5,
 		descrip = "本来应该作为组徽设计的才对，变...变身？",
 		nationality = 105,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		attribute_1 = "dodge",
 		torpedo_ammo = 0,
@@ -84119,9 +108174,7 @@ pg.equip_data_statistics = {
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {
-			{
-				6
-			}
+			6
 		},
 		weapon_id = {},
 		skill_id = {
@@ -84213,29 +108266,54 @@ pg.equip_data_statistics = {
 		torpedo_ammo = 0,
 		property_rate = {}
 	},
+	[89071] = {
+		id = 89071,
+		anti_siren = 100,
+		base = 89060,
+		value_2 = 26,
+		value_1 = "16",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[89072] = {
+		id = 89072,
+		anti_siren = 200,
+		base = 89060,
+		value_2 = 27,
+		value_1 = "17",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[89073] = {
+		id = 89073,
+		anti_siren = 300,
+		base = 89060,
+		value_2 = 28,
+		value_1 = "18",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
 	[89080] = {
 		name = "Gamers的证明",
 		tech = 0,
 		type = 10,
 		speciality = "无",
-		id = 89080,
+		attribute_1 = "durability",
 		value_2 = 0,
 		icon = "89080",
 		value_1 = "245",
 		descrip = "hololivegamers成员的证明徽章！ ",
 		rarity = 5,
 		nationality = 105,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
-		attribute_1 = "durability",
+		id = 89080,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {
-			{
-				6
-			}
+			6
 		},
 		weapon_id = {},
 		skill_id = {
@@ -84318,6 +108396,30 @@ pg.equip_data_statistics = {
 		torpedo_ammo = 0,
 		property_rate = {}
 	},
+	[89091] = {
+		anti_siren = 100,
+		base = 89080,
+		id = 89091,
+		value_1 = "580",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[89092] = {
+		anti_siren = 200,
+		base = 89080,
+		id = 89092,
+		value_1 = "610",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[89093] = {
+		anti_siren = 300,
+		base = 89080,
+		id = 89093,
+		value_1 = "640",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
 	[89100] = {
 		name = "玉米灯笼",
 		tech = 0,
@@ -84331,7 +108433,7 @@ pg.equip_data_statistics = {
 		rarity = 5,
 		descrip = "印着玉米图案的灯笼.......夏色吹雪？！ ",
 		nationality = 105,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		attribute_1 = "antisub",
 		torpedo_ammo = 0,
@@ -84339,9 +108441,7 @@ pg.equip_data_statistics = {
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {
-			{
-				6
-			}
+			6
 		},
 		weapon_id = {},
 		skill_id = {
@@ -84434,6 +108534,33 @@ pg.equip_data_statistics = {
 		torpedo_ammo = 0,
 		property_rate = {}
 	},
+	[89111] = {
+		id = 89111,
+		anti_siren = 100,
+		base = 89100,
+		value_2 = 130,
+		value_1 = "26",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[89112] = {
+		id = 89112,
+		anti_siren = 200,
+		base = 89100,
+		value_2 = 140,
+		value_1 = "28",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[89113] = {
+		id = 89113,
+		anti_siren = 300,
+		base = 89100,
+		value_2 = 150,
+		value_1 = "30",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
 	[89120] = {
 		name = "鮟鱇肝",
 		tech = 0,
@@ -84447,7 +108574,7 @@ pg.equip_data_statistics = {
 		rarity = 5,
 		descrip = "hololive社内自由行动的吉祥物...不动的时候会埋在地里！？",
 		nationality = 105,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		attribute_1 = "durability",
 		torpedo_ammo = 0,
@@ -84455,9 +108582,7 @@ pg.equip_data_statistics = {
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {
-			{
-				6
-			}
+			6
 		},
 		weapon_id = {},
 		skill_id = {
@@ -84549,6 +108674,1003 @@ pg.equip_data_statistics = {
 		torpedo_ammo = 0,
 		property_rate = {}
 	},
+	[89131] = {
+		id = 89131,
+		anti_siren = 100,
+		base = 89120,
+		value_2 = 8,
+		value_1 = "260",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[89132] = {
+		id = 89132,
+		anti_siren = 200,
+		base = 89120,
+		value_2 = 8,
+		value_1 = "275",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[89133] = {
+		id = 89133,
+		anti_siren = 300,
+		base = 89120,
+		value_2 = 8,
+		value_1 = "290",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[89140] = {
+		name = "炽烈之歌",
+		tech = 0,
+		type = 10,
+		speciality = "无",
+		id = 89140,
+		value_2 = 15,
+		icon = "89140",
+		value_1 = "14",
+		attribute_2 = "hit",
+		rarity = 5,
+		descrip = "偶像组合「Verheerender」所使用的麦克风",
+		nationality = 0,
+		ammo = 10,
+		value_3 = 0,
+		attribute_1 = "antiaircraft",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			6
+		},
+		weapon_id = {},
+		skill_id = {
+			6710
+		},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
+	},
+	[89141] = {
+		id = 89141,
+		base = 89140,
+		value_2 = 16,
+		value_1 = "16",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[89142] = {
+		id = 89142,
+		base = 89140,
+		value_2 = 17,
+		value_1 = "18",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[89143] = {
+		id = 89143,
+		base = 89140,
+		value_2 = 18,
+		value_1 = "20",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[89144] = {
+		id = 89144,
+		base = 89140,
+		value_2 = 19,
+		value_1 = "22",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[89145] = {
+		id = 89145,
+		base = 89140,
+		value_2 = 20,
+		value_1 = "24",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[89146] = {
+		id = 89146,
+		base = 89140,
+		value_2 = 22,
+		value_1 = "26",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[89147] = {
+		id = 89147,
+		base = 89140,
+		value_2 = 24,
+		value_1 = "28",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[89148] = {
+		id = 89148,
+		base = 89140,
+		value_2 = 26,
+		value_1 = "30",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[89149] = {
+		id = 89149,
+		base = 89140,
+		value_2 = 28,
+		value_1 = "32",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[89150] = {
+		id = 89150,
+		base = 89140,
+		value_2 = 30,
+		value_1 = "35",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[89151] = {
+		id = 89151,
+		anti_siren = 100,
+		base = 89140,
+		value_2 = 32,
+		value_1 = "38",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[89152] = {
+		id = 89152,
+		anti_siren = 200,
+		base = 89140,
+		value_2 = 34,
+		value_1 = "41",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[89153] = {
+		id = 89153,
+		anti_siren = 300,
+		base = 89140,
+		value_2 = 36,
+		value_1 = "44",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[89160] = {
+		name = "活力之歌",
+		tech = 0,
+		type = 10,
+		speciality = "无",
+		id = 89160,
+		value_2 = 15,
+		icon = "89160",
+		value_1 = "14",
+		attribute_2 = "hit",
+		rarity = 5,
+		descrip = "偶像组合「Lumière」所使用的麦克风",
+		nationality = 0,
+		ammo = 10,
+		value_3 = 0,
+		attribute_1 = "antiaircraft",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			6
+		},
+		weapon_id = {},
+		skill_id = {
+			6711
+		},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
+	},
+	[89161] = {
+		id = 89161,
+		base = 89160,
+		value_2 = 16,
+		value_1 = "16",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[89162] = {
+		id = 89162,
+		base = 89160,
+		value_2 = 17,
+		value_1 = "18",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[89163] = {
+		id = 89163,
+		base = 89160,
+		value_2 = 18,
+		value_1 = "20",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[89164] = {
+		id = 89164,
+		base = 89160,
+		value_2 = 19,
+		value_1 = "22",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[89165] = {
+		id = 89165,
+		base = 89160,
+		value_2 = 20,
+		value_1 = "24",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[89166] = {
+		id = 89166,
+		base = 89160,
+		value_2 = 22,
+		value_1 = "26",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[89167] = {
+		id = 89167,
+		base = 89160,
+		value_2 = 24,
+		value_1 = "28",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[89168] = {
+		id = 89168,
+		base = 89160,
+		value_2 = 26,
+		value_1 = "30",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[89169] = {
+		id = 89169,
+		base = 89160,
+		value_2 = 28,
+		value_1 = "32",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[89170] = {
+		id = 89170,
+		base = 89160,
+		value_2 = 30,
+		value_1 = "35",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[89171] = {
+		id = 89171,
+		anti_siren = 100,
+		base = 89160,
+		value_2 = 32,
+		value_1 = "38",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[89172] = {
+		id = 89172,
+		anti_siren = 200,
+		base = 89160,
+		value_2 = 34,
+		value_1 = "41",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[89173] = {
+		id = 89173,
+		anti_siren = 300,
+		base = 89160,
+		value_2 = 36,
+		value_1 = "44",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[89180] = {
+		name = "闪耀之歌",
+		tech = 0,
+		type = 10,
+		speciality = "无",
+		id = 89180,
+		value_2 = 15,
+		icon = "89180",
+		value_1 = "14",
+		attribute_2 = "hit",
+		rarity = 5,
+		descrip = "偶像组合「Astrum」所使用的麦克风",
+		nationality = 0,
+		ammo = 10,
+		value_3 = 0,
+		attribute_1 = "antiaircraft",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			6
+		},
+		weapon_id = {},
+		skill_id = {
+			6712
+		},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
+	},
+	[89181] = {
+		id = 89181,
+		base = 89180,
+		value_2 = 16,
+		value_1 = "16",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[89182] = {
+		id = 89182,
+		base = 89180,
+		value_2 = 17,
+		value_1 = "18",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[89183] = {
+		id = 89183,
+		base = 89180,
+		value_2 = 18,
+		value_1 = "20",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[89184] = {
+		id = 89184,
+		base = 89180,
+		value_2 = 19,
+		value_1 = "22",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[89185] = {
+		id = 89185,
+		base = 89180,
+		value_2 = 20,
+		value_1 = "24",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[89186] = {
+		id = 89186,
+		base = 89180,
+		value_2 = 22,
+		value_1 = "26",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[89187] = {
+		id = 89187,
+		base = 89180,
+		value_2 = 24,
+		value_1 = "28",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[89188] = {
+		id = 89188,
+		base = 89180,
+		value_2 = 26,
+		value_1 = "30",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[89189] = {
+		id = 89189,
+		base = 89180,
+		value_2 = 28,
+		value_1 = "32",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[89190] = {
+		id = 89190,
+		base = 89180,
+		value_2 = 30,
+		value_1 = "35",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[89191] = {
+		id = 89191,
+		anti_siren = 100,
+		base = 89180,
+		value_2 = 32,
+		value_1 = "38",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[89192] = {
+		id = 89192,
+		anti_siren = 200,
+		base = 89180,
+		value_2 = 34,
+		value_1 = "41",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[89193] = {
+		id = 89193,
+		anti_siren = 300,
+		base = 89180,
+		value_2 = 36,
+		value_1 = "44",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[89200] = {
+		name = "引力舞鞋",
+		tech = 0,
+		type = 10,
+		speciality = "无",
+		id = 89200,
+		value_2 = 1,
+		icon = "89200",
+		value_1 = "13",
+		attribute_2 = "speed",
+		rarity = 5,
+		descrip = "引人瞩目的舞鞋，穿上以后似乎能够成为……偶像？",
+		nationality = 0,
+		ammo = 10,
+		value_3 = 0,
+		attribute_1 = "dodge",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			6
+		},
+		weapon_id = {},
+		skill_id = {
+			6690
+		},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
+	},
+	[89201] = {
+		base = 89200,
+		id = 89201,
+		value_1 = "14",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[89202] = {
+		base = 89200,
+		id = 89202,
+		value_1 = "15",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[89203] = {
+		id = 89203,
+		base = 89200,
+		value_2 = 2,
+		value_1 = "16",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[89204] = {
+		id = 89204,
+		base = 89200,
+		value_2 = 2,
+		value_1 = "17",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[89205] = {
+		id = 89205,
+		base = 89200,
+		value_2 = 2,
+		value_1 = "18",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[89206] = {
+		id = 89206,
+		base = 89200,
+		value_2 = 3,
+		value_1 = "20",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[89207] = {
+		id = 89207,
+		base = 89200,
+		value_2 = 3,
+		value_1 = "22",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[89208] = {
+		id = 89208,
+		base = 89200,
+		value_2 = 4,
+		value_1 = "24",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[89209] = {
+		id = 89209,
+		base = 89200,
+		value_2 = 4,
+		value_1 = "26",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[89210] = {
+		id = 89210,
+		base = 89200,
+		value_2 = 5,
+		value_1 = "28",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[89211] = {
+		id = 89211,
+		anti_siren = 100,
+		base = 89200,
+		value_2 = 5,
+		value_1 = "30",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[89212] = {
+		id = 89212,
+		anti_siren = 200,
+		base = 89200,
+		value_2 = 5,
+		value_1 = "32",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[89213] = {
+		id = 89213,
+		anti_siren = 300,
+		base = 89200,
+		value_2 = 5,
+		value_1 = "34",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[89220] = {
+		name = "星云舞裙",
+		tech = 0,
+		type = 10,
+		speciality = "无",
+		attribute_1 = "durability",
+		value_2 = 0,
+		icon = "89220",
+		value_1 = "250",
+		descrip = "星云般华丽的舞裙，穿上以后似乎能够成为…偶像？",
+		rarity = 5,
+		nationality = 0,
+		ammo = 10,
+		value_3 = 0,
+		id = 89220,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			6
+		},
+		weapon_id = {},
+		skill_id = {
+			6700
+		},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
+	},
+	[89221] = {
+		base = 89220,
+		id = 89221,
+		value_1 = "280",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[89222] = {
+		base = 89220,
+		id = 89222,
+		value_1 = "310",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[89223] = {
+		base = 89220,
+		id = 89223,
+		value_1 = "340",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[89224] = {
+		base = 89220,
+		id = 89224,
+		value_1 = "370",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[89225] = {
+		base = 89220,
+		id = 89225,
+		value_1 = "400",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[89226] = {
+		base = 89220,
+		id = 89226,
+		value_1 = "430",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[89227] = {
+		base = 89220,
+		id = 89227,
+		value_1 = "460",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[89228] = {
+		base = 89220,
+		id = 89228,
+		value_1 = "490",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[89229] = {
+		base = 89220,
+		id = 89229,
+		value_1 = "520",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[89230] = {
+		base = 89220,
+		id = 89230,
+		value_1 = "550",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[89231] = {
+		anti_siren = 100,
+		base = 89220,
+		id = 89231,
+		value_1 = "580",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[89232] = {
+		anti_siren = 200,
+		base = 89220,
+		id = 89232,
+		value_1 = "610",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[89233] = {
+		anti_siren = 300,
+		base = 89220,
+		id = 89233,
+		value_1 = "640",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[89240] = {
+		name = "觉醒宝珠",
+		tech = 0,
+		type = 10,
+		speciality = "无",
+		id = 89240,
+		value_2 = 16,
+		icon = "89240",
+		value_1 = "6",
+		attribute_2 = "hit",
+		rarity = 5,
+		descrip = "说明占坑",
+		nationality = 106,
+		ammo = 10,
+		value_3 = 0,
+		attribute_1 = "dodge",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			6
+		},
+		weapon_id = {},
+		skill_id = {
+			6720
+		},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
+	},
+	[89241] = {
+		base = 89240,
+		id = 89241,
+		value_1 = "7",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[89242] = {
+		id = 89242,
+		base = 89240,
+		value_2 = 17,
+		value_1 = "7",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[89243] = {
+		id = 89243,
+		base = 89240,
+		value_2 = 18,
+		value_1 = "8",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[89244] = {
+		id = 89244,
+		base = 89240,
+		value_2 = 19,
+		value_1 = "9",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[89245] = {
+		id = 89245,
+		base = 89240,
+		value_2 = 20,
+		value_1 = "10",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[89246] = {
+		id = 89246,
+		base = 89240,
+		value_2 = 21,
+		value_1 = "11",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[89247] = {
+		id = 89247,
+		base = 89240,
+		value_2 = 22,
+		value_1 = "12",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[89248] = {
+		id = 89248,
+		base = 89240,
+		value_2 = 23,
+		value_1 = "13",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[89249] = {
+		id = 89249,
+		base = 89240,
+		value_2 = 24,
+		value_1 = "14",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[89250] = {
+		id = 89250,
+		base = 89240,
+		value_2 = 25,
+		value_1 = "15",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[89251] = {
+		id = 89251,
+		anti_siren = 100,
+		base = 89240,
+		value_2 = 26,
+		value_1 = "16",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[89252] = {
+		id = 89252,
+		anti_siren = 200,
+		base = 89240,
+		value_2 = 27,
+		value_1 = "17",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[89253] = {
+		id = 89253,
+		anti_siren = 300,
+		base = 89240,
+		value_2 = 28,
+		value_1 = "18",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[89260] = {
+		name = "心之钥匙",
+		tech = 0,
+		type = 10,
+		speciality = "无",
+		id = 89260,
+		value_2 = 15,
+		icon = "89260",
+		value_1 = "14",
+		attribute_2 = "hit",
+		rarity = 5,
+		descrip = "说明占坑",
+		nationality = 0,
+		ammo = 10,
+		value_3 = 0,
+		attribute_1 = "antiaircraft",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			6
+		},
+		weapon_id = {},
+		skill_id = {
+			6730
+		},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
+	},
+	[89261] = {
+		id = 89261,
+		base = 89260,
+		value_2 = 16,
+		value_1 = "16",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[89262] = {
+		id = 89262,
+		base = 89260,
+		value_2 = 17,
+		value_1 = "18",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[89263] = {
+		id = 89263,
+		base = 89260,
+		value_2 = 18,
+		value_1 = "20",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[89264] = {
+		id = 89264,
+		base = 89260,
+		value_2 = 19,
+		value_1 = "22",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[89265] = {
+		id = 89265,
+		base = 89260,
+		value_2 = 20,
+		value_1 = "24",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[89266] = {
+		id = 89266,
+		base = 89260,
+		value_2 = 22,
+		value_1 = "26",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[89267] = {
+		id = 89267,
+		base = 89260,
+		value_2 = 24,
+		value_1 = "28",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[89268] = {
+		id = 89268,
+		base = 89260,
+		value_2 = 26,
+		value_1 = "30",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[89269] = {
+		id = 89269,
+		base = 89260,
+		value_2 = 28,
+		value_1 = "32",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[89270] = {
+		id = 89270,
+		base = 89260,
+		value_2 = 30,
+		value_1 = "35",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[89271] = {
+		id = 89271,
+		anti_siren = 100,
+		base = 89260,
+		value_2 = 32,
+		value_1 = "38",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[89272] = {
+		id = 89272,
+		anti_siren = 200,
+		base = 89260,
+		value_2 = 34,
+		value_1 = "41",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[89273] = {
+		id = 89273,
+		anti_siren = 300,
+		base = 89260,
+		value_2 = 36,
+		value_1 = "44",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
 	[90000] = {
 		name = "130mm单装炮Mle1924",
 		speciality = "锁定",
@@ -84560,7 +109682,7 @@ pg.equip_data_statistics = {
 		icon = "50000",
 		damage = "3 x 5",
 		nationality = 8,
-		ammo = "通常弹",
+		ammo = 3,
 		value_3 = 0,
 		id = 90000,
 		torpedo_ammo = 0,
@@ -84585,14 +109707,18 @@ pg.equip_data_statistics = {
 				4,
 				1021
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			90000
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -84652,7 +109778,7 @@ pg.equip_data_statistics = {
 		rarity = 2,
 		damage = "3 x 5",
 		nationality = 8,
-		ammo = "通常弹",
+		ammo = 3,
 		value_3 = 0,
 		id = 90020,
 		torpedo_ammo = 0,
@@ -84677,14 +109803,18 @@ pg.equip_data_statistics = {
 				4,
 				1021
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			90020
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -84744,7 +109874,7 @@ pg.equip_data_statistics = {
 		rarity = 3,
 		damage = "4 x 5",
 		nationality = 8,
-		ammo = "通常弹",
+		ammo = 3,
 		value_3 = 0,
 		id = 90040,
 		torpedo_ammo = 0,
@@ -84769,14 +109899,18 @@ pg.equip_data_statistics = {
 				4,
 				1021
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			90040
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -84854,6 +109988,16 @@ pg.equip_data_statistics = {
 			90046
 		}
 	},
+	[90047] = {
+		damage = "8 x 5",
+		base = 90040,
+		id = 90047,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			90047
+		}
+	},
 	[90100] = {
 		name = "138.6mm单装炮Mle1929",
 		speciality = "锁定",
@@ -84866,7 +110010,7 @@ pg.equip_data_statistics = {
 		rarity = 3,
 		damage = "4 x 5",
 		nationality = 8,
-		ammo = "通常弹",
+		ammo = 3,
 		value_3 = 0,
 		id = 90100,
 		torpedo_ammo = 0,
@@ -84891,14 +110035,18 @@ pg.equip_data_statistics = {
 				4,
 				1021
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			90100
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -84988,7 +110136,7 @@ pg.equip_data_statistics = {
 		rarity = 4,
 		damage = "4 x 5",
 		nationality = 8,
-		ammo = "高爆弹",
+		ammo = 2,
 		value_3 = 0,
 		id = 90120,
 		torpedo_ammo = 0,
@@ -85013,14 +110161,18 @@ pg.equip_data_statistics = {
 				4,
 				1021
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			90120
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -85151,7 +110303,7 @@ pg.equip_data_statistics = {
 		rarity = 5,
 		damage = "5 x 5",
 		nationality = 8,
-		ammo = "高爆弹",
+		ammo = 2,
 		value_3 = 0,
 		id = 90140,
 		torpedo_ammo = 0,
@@ -85176,14 +110328,18 @@ pg.equip_data_statistics = {
 				4,
 				1021
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			90140
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -85302,6 +110458,39 @@ pg.equip_data_statistics = {
 			90150
 		}
 	},
+	[90151] = {
+		anti_siren = 100,
+		damage = "15 x 5",
+		base = 90140,
+		id = 90151,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			90151
+		}
+	},
+	[90152] = {
+		anti_siren = 200,
+		damage = "15 x 5",
+		base = 90140,
+		id = 90152,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			90152
+		}
+	},
+	[90153] = {
+		anti_siren = 300,
+		damage = "15 x 5",
+		base = 90140,
+		id = 90153,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			90153
+		}
+	},
 	[90200] = {
 		name = "三联装152mm主炮Mle1930",
 		speciality = "散射",
@@ -85313,7 +110502,7 @@ pg.equip_data_statistics = {
 		icon = "50200",
 		damage = "7 x 6",
 		nationality = 8,
-		ammo = "通常弹",
+		ammo = 3,
 		value_3 = 0,
 		id = 90200,
 		torpedo_ammo = 0,
@@ -85338,7 +110527,10 @@ pg.equip_data_statistics = {
 				4,
 				1102
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			90200
@@ -85399,7 +110591,7 @@ pg.equip_data_statistics = {
 		rarity = 2,
 		damage = "8 x 6",
 		nationality = 8,
-		ammo = "通常弹",
+		ammo = 3,
 		value_3 = 0,
 		id = 90220,
 		torpedo_ammo = 0,
@@ -85424,7 +110616,10 @@ pg.equip_data_statistics = {
 				4,
 				1102
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			90220
@@ -85485,7 +110680,7 @@ pg.equip_data_statistics = {
 		rarity = 3,
 		damage = "9 x 6",
 		nationality = 8,
-		ammo = "穿甲弹",
+		ammo = 1,
 		value_3 = 0,
 		id = 90240,
 		torpedo_ammo = 0,
@@ -85510,7 +110705,10 @@ pg.equip_data_statistics = {
 				4,
 				1102
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			90240
@@ -85590,6 +110788,16 @@ pg.equip_data_statistics = {
 			90246
 		}
 	},
+	[90247] = {
+		damage = "15 x 6",
+		base = 90240,
+		id = 90247,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			90247
+		}
+	},
 	[90300] = {
 		name = "四联装330mm主炮Mle1931",
 		speciality = "跨射",
@@ -85602,7 +110810,7 @@ pg.equip_data_statistics = {
 		rarity = 2,
 		damage = "34 x 4",
 		nationality = 8,
-		ammo = "通常弹",
+		ammo = 3,
 		value_3 = 0,
 		id = 90300,
 		torpedo_ammo = 0,
@@ -85619,7 +110827,10 @@ pg.equip_data_statistics = {
 		equip_info = {
 			1,
 			2,
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			90300
@@ -85681,7 +110892,7 @@ pg.equip_data_statistics = {
 		rarity = 3,
 		damage = "37 x 4",
 		nationality = 8,
-		ammo = "通常弹",
+		ammo = 3,
 		value_3 = 0,
 		id = 90320,
 		torpedo_ammo = 0,
@@ -85698,7 +110909,10 @@ pg.equip_data_statistics = {
 		equip_info = {
 			1,
 			2,
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			90320
@@ -85790,7 +111004,7 @@ pg.equip_data_statistics = {
 		rarity = 4,
 		damage = "41 x 4",
 		nationality = 8,
-		ammo = "穿甲弹",
+		ammo = 1,
 		value_3 = 0,
 		id = 90340,
 		torpedo_ammo = 0,
@@ -85807,7 +111021,10 @@ pg.equip_data_statistics = {
 		equip_info = {
 			1,
 			2,
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			90340
@@ -85928,6 +111145,17 @@ pg.equip_data_statistics = {
 			90350
 		}
 	},
+	[90351] = {
+		anti_siren = 100,
+		damage = "102 x 4",
+		base = 90340,
+		id = 90351,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			90351
+		}
+	},
 	[90400] = {
 		name = "四联装380mm主炮Mle1935",
 		speciality = "跨射",
@@ -85940,7 +111168,7 @@ pg.equip_data_statistics = {
 		rarity = 3,
 		damage = "40 x 4",
 		nationality = 8,
-		ammo = "通常弹",
+		ammo = 3,
 		value_3 = 0,
 		id = 90400,
 		torpedo_ammo = 0,
@@ -85957,7 +111185,10 @@ pg.equip_data_statistics = {
 		equip_info = {
 			1,
 			2,
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			90400
@@ -86050,7 +111281,7 @@ pg.equip_data_statistics = {
 		rarity = 4,
 		damage = "44 x 4",
 		nationality = 8,
-		ammo = "高爆弹",
+		ammo = 2,
 		value_3 = 0,
 		id = 90420,
 		torpedo_ammo = 0,
@@ -86067,7 +111298,10 @@ pg.equip_data_statistics = {
 		equip_info = {
 			1,
 			2,
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			90420
@@ -86200,7 +111434,7 @@ pg.equip_data_statistics = {
 		rarity = 5,
 		damage = "48 x 4",
 		nationality = 8,
-		ammo = "高爆弹",
+		ammo = 2,
 		value_3 = 0,
 		id = 90440,
 		torpedo_ammo = 0,
@@ -86217,7 +111451,10 @@ pg.equip_data_statistics = {
 		equip_info = {
 			1,
 			2,
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			90440
@@ -86338,6 +111575,39 @@ pg.equip_data_statistics = {
 			90450
 		}
 	},
+	[90451] = {
+		anti_siren = 100,
+		damage = "120 x 4",
+		base = 90440,
+		id = 90451,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			90451
+		}
+	},
+	[90452] = {
+		anti_siren = 200,
+		damage = "120 x 4",
+		base = 90440,
+		id = 90452,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			90452
+		}
+	},
+	[90453] = {
+		anti_siren = 300,
+		damage = "120 x 4",
+		base = 90440,
+		id = 90453,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			90453
+		}
+	},
 	[90500] = {
 		name = "双联装130mm主炮Mle1935",
 		speciality = "锁定",
@@ -86350,7 +111620,7 @@ pg.equip_data_statistics = {
 		rarity = 2,
 		damage = "9 x 2",
 		nationality = 8,
-		ammo = "通常弹",
+		ammo = 3,
 		value_3 = 0,
 		id = 90500,
 		torpedo_ammo = 0,
@@ -86375,14 +111645,18 @@ pg.equip_data_statistics = {
 				4,
 				1011
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			90500
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -86441,7 +111715,7 @@ pg.equip_data_statistics = {
 		rarity = 5,
 		damage = "38/轮",
 		nationality = 8,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 90600,
 		torpedo_ammo = 0,
@@ -86451,7 +111725,8 @@ pg.equip_data_statistics = {
 		equip_info = {
 			1,
 			2,
-			6
+			6,
+			10
 		},
 		weapon_id = {
 			90600
@@ -86467,7 +111742,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			1,
@@ -86479,7 +111755,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -86588,6 +111865,39 @@ pg.equip_data_statistics = {
 			90610
 		}
 	},
+	[90611] = {
+		anti_siren = 100,
+		damage = "78/轮",
+		base = 90600,
+		id = 90611,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			90611
+		}
+	},
+	[90612] = {
+		anti_siren = 200,
+		damage = "78/轮",
+		base = 90600,
+		id = 90612,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			90612
+		}
+	},
+	[90613] = {
+		anti_siren = 300,
+		damage = "78/轮",
+		base = 90600,
+		id = 90613,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			90613
+		}
+	},
 	[90700] = {
 		name = "138.6mm单装炮Mle1927",
 		speciality = "锁定",
@@ -86600,7 +111910,7 @@ pg.equip_data_statistics = {
 		rarity = 2,
 		damage = "4 x 4",
 		nationality = 8,
-		ammo = "通常弹",
+		ammo = 3,
 		value_3 = 0,
 		id = 90700,
 		torpedo_ammo = 0,
@@ -86625,14 +111935,18 @@ pg.equip_data_statistics = {
 				4,
 				1025
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			90700
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -86692,7 +112006,7 @@ pg.equip_data_statistics = {
 		rarity = 3,
 		damage = "6 x 4",
 		nationality = 8,
-		ammo = "通常弹",
+		ammo = 3,
 		value_3 = 0,
 		id = 90720,
 		torpedo_ammo = 0,
@@ -86717,14 +112031,18 @@ pg.equip_data_statistics = {
 				4,
 				1025
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			90720
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -86814,7 +112132,7 @@ pg.equip_data_statistics = {
 		rarity = 4,
 		damage = "6 x 4",
 		nationality = 8,
-		ammo = "通常弹",
+		ammo = 3,
 		value_3 = 0,
 		id = 90740,
 		torpedo_ammo = 0,
@@ -86839,14 +112157,18 @@ pg.equip_data_statistics = {
 				4,
 				1025
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			90740
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -86964,6 +112286,17 @@ pg.equip_data_statistics = {
 			90750
 		}
 	},
+	[90751] = {
+		anti_siren = 100,
+		damage = "19 x 4",
+		base = 90740,
+		id = 90751,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			90751
+		}
+	},
 	[90780] = {
 		name = "双联装155mm主炮Mle1920",
 		speciality = "锁定",
@@ -86976,7 +112309,7 @@ pg.equip_data_statistics = {
 		rarity = 3,
 		damage = "10 x 4",
 		nationality = 8,
-		ammo = "通常弹",
+		ammo = 3,
 		value_3 = 0,
 		id = 90780,
 		torpedo_ammo = 0,
@@ -87001,7 +112334,10 @@ pg.equip_data_statistics = {
 				4,
 				1001
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			90780
@@ -87081,6 +112417,16 @@ pg.equip_data_statistics = {
 			90786
 		}
 	},
+	[90787] = {
+		damage = "19 x 4",
+		base = 90780,
+		id = 90787,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			90787
+		}
+	},
 	[90800] = {
 		name = "单装155mm副炮Mle1920",
 		speciality = "锁定",
@@ -87093,7 +112439,7 @@ pg.equip_data_statistics = {
 		rarity = 3,
 		damage = "10 x 4",
 		nationality = 8,
-		ammo = "通常弹",
+		ammo = 3,
 		value_3 = 0,
 		id = 90800,
 		torpedo_ammo = 0,
@@ -87118,7 +112464,10 @@ pg.equip_data_statistics = {
 				4,
 				1025
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			90800
@@ -87198,6 +112547,16 @@ pg.equip_data_statistics = {
 			90806
 		}
 	},
+	[90807] = {
+		damage = "19 x 4",
+		base = 90800,
+		id = 90807,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			90807
+		}
+	},
 	[90820] = {
 		name = "GL.2舰载战斗机",
 		type = 7,
@@ -87209,7 +112568,7 @@ pg.equip_data_statistics = {
 		icon = "50820",
 		attribute_2 = "air",
 		nationality = 8,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 90820,
 		torpedo_ammo = 0,
@@ -87224,6 +112583,7 @@ pg.equip_data_statistics = {
 		equip_info = {
 			6,
 			7,
+			8,
 			9
 		},
 		weapon_id = {
@@ -87342,6 +112702,22 @@ pg.equip_data_statistics = {
 			88006
 		}
 	},
+	[90827] = {
+		base = 90820,
+		id = 90827,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50027
+			}
+		},
+		weapon_id = {
+			90827,
+			88007
+		}
+	},
 	[90840] = {
 		name = "PL.7舰载鱼雷机",
 		type = 8,
@@ -87353,7 +112729,7 @@ pg.equip_data_statistics = {
 		icon = "50840",
 		attribute_2 = "air",
 		nationality = 8,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 90840,
 		torpedo_ammo = 0,
@@ -87372,6 +112748,7 @@ pg.equip_data_statistics = {
 		equip_info = {
 			6,
 			7,
+			8,
 			9
 		},
 		weapon_id = {
@@ -87507,6 +112884,25 @@ pg.equip_data_statistics = {
 			90846
 		}
 	},
+	[90847] = {
+		base = 90840,
+		id = 90847,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50027
+			},
+			{
+				4,
+				51567
+			}
+		},
+		weapon_id = {
+			90847
+		}
+	},
 	[90860] = {
 		name = "双联装203mm主炮Mle1924",
 		speciality = "锁定",
@@ -87519,7 +112915,7 @@ pg.equip_data_statistics = {
 		rarity = 3,
 		damage = "26 x 4",
 		nationality = 8,
-		ammo = "高爆弹",
+		ammo = 2,
 		value_3 = 0,
 		id = 90860,
 		torpedo_ammo = 0,
@@ -87544,7 +112940,10 @@ pg.equip_data_statistics = {
 				4,
 				1205
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			90860
@@ -87635,7 +113034,7 @@ pg.equip_data_statistics = {
 		rarity = 4,
 		damage = "28 x 4",
 		nationality = 8,
-		ammo = "高爆弹",
+		ammo = 2,
 		value_3 = 0,
 		id = 90880,
 		torpedo_ammo = 0,
@@ -87660,7 +113059,10 @@ pg.equip_data_statistics = {
 				4,
 				1205
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			90880
@@ -87791,7 +113193,7 @@ pg.equip_data_statistics = {
 		rarity = 5,
 		damage = "30 x 4",
 		nationality = 8,
-		ammo = "高爆弹",
+		ammo = 2,
 		value_3 = 0,
 		id = 90900,
 		torpedo_ammo = 0,
@@ -87816,7 +113218,10 @@ pg.equip_data_statistics = {
 				4,
 				1205
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			90900
@@ -87935,6 +113340,39 @@ pg.equip_data_statistics = {
 			90910
 		}
 	},
+	[90911] = {
+		anti_siren = 100,
+		damage = "52 x 4",
+		base = 90900,
+		id = 90911,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			90911
+		}
+	},
+	[90912] = {
+		anti_siren = 200,
+		damage = "52 x 4",
+		base = 90900,
+		id = 90912,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			90912
+		}
+	},
+	[90913] = {
+		anti_siren = 300,
+		damage = "52 x 4",
+		base = 90900,
+		id = 90913,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			90913
+		}
+	},
 	[91000] = {
 		name = "试作型三联装406mm/50主炮",
 		speciality = "跨射",
@@ -87947,7 +113385,7 @@ pg.equip_data_statistics = {
 		rarity = 5,
 		damage = "54 x 3",
 		nationality = 8,
-		ammo = "穿甲弹",
+		ammo = 1,
 		value_3 = 0,
 		id = 91000,
 		torpedo_ammo = 0,
@@ -87964,7 +113402,10 @@ pg.equip_data_statistics = {
 		equip_info = {
 			1,
 			2,
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			91000
@@ -88085,6 +113526,39 @@ pg.equip_data_statistics = {
 			91010
 		}
 	},
+	[91011] = {
+		anti_siren = 100,
+		damage = "150 x 3",
+		base = 91000,
+		id = 91011,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			91011
+		}
+	},
+	[91012] = {
+		anti_siren = 200,
+		damage = "150 x 3",
+		base = 91000,
+		id = 91012,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			91012
+		}
+	},
+	[91013] = {
+		anti_siren = 300,
+		damage = "150 x 3",
+		base = 91000,
+		id = 91013,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			91013
+		}
+	},
 	[95000] = {
 		name = "三联装381mm主炮Model1934",
 		speciality = "跨射",
@@ -88097,7 +113571,7 @@ pg.equip_data_statistics = {
 		rarity = 3,
 		damage = "42 x 3",
 		nationality = 6,
-		ammo = "通常弹",
+		ammo = 3,
 		value_3 = 0,
 		id = 95000,
 		torpedo_ammo = 0,
@@ -88114,7 +113588,10 @@ pg.equip_data_statistics = {
 		equip_info = {
 			1,
 			2,
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			95000
@@ -88206,7 +113683,7 @@ pg.equip_data_statistics = {
 		rarity = 4,
 		damage = "47 x 3",
 		nationality = 6,
-		ammo = "穿甲弹",
+		ammo = 1,
 		value_3 = 0,
 		id = 95020,
 		torpedo_ammo = 0,
@@ -88223,7 +113700,10 @@ pg.equip_data_statistics = {
 		equip_info = {
 			1,
 			2,
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			95020
@@ -88356,7 +113836,7 @@ pg.equip_data_statistics = {
 		rarity = 5,
 		damage = "52 x 3",
 		nationality = 6,
-		ammo = "穿甲弹",
+		ammo = 1,
 		value_3 = 0,
 		id = 95040,
 		torpedo_ammo = 0,
@@ -88373,7 +113853,10 @@ pg.equip_data_statistics = {
 		equip_info = {
 			1,
 			2,
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			95040
@@ -88496,6 +113979,39 @@ pg.equip_data_statistics = {
 			95050
 		}
 	},
+	[95051] = {
+		anti_siren = 100,
+		damage = "148 x 3",
+		base = 95040,
+		id = 95051,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			95051
+		}
+	},
+	[95052] = {
+		anti_siren = 200,
+		damage = "148 x 3",
+		base = 95040,
+		id = 95052,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			95052
+		}
+	},
+	[95053] = {
+		anti_siren = 300,
+		damage = "148 x 3",
+		base = 95040,
+		id = 95053,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			95053
+		}
+	},
 	[95100] = {
 		name = "90mm单装高角炮Model1939",
 		speciality = "防空",
@@ -88508,7 +114024,7 @@ pg.equip_data_statistics = {
 		rarity = 3,
 		damage = "34/轮",
 		nationality = 6,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 95100,
 		torpedo_ammo = 0,
@@ -88518,7 +114034,8 @@ pg.equip_data_statistics = {
 		equip_info = {
 			1,
 			2,
-			6
+			6,
+			10
 		},
 		weapon_id = {
 			95100
@@ -88534,7 +114051,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			1,
@@ -88546,7 +114064,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -88627,7 +114146,7 @@ pg.equip_data_statistics = {
 		rarity = 4,
 		damage = "35/轮",
 		nationality = 6,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 95120,
 		torpedo_ammo = 0,
@@ -88637,7 +114156,8 @@ pg.equip_data_statistics = {
 		equip_info = {
 			1,
 			2,
-			6
+			6,
+			10
 		},
 		weapon_id = {
 			95120
@@ -88653,7 +114173,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			1,
@@ -88665,7 +114186,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -88786,7 +114308,7 @@ pg.equip_data_statistics = {
 		rarity = 5,
 		damage = "40/轮",
 		nationality = 6,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 95140,
 		torpedo_ammo = 0,
@@ -88796,7 +114318,8 @@ pg.equip_data_statistics = {
 		equip_info = {
 			1,
 			2,
-			6
+			6,
+			10
 		},
 		weapon_id = {
 			95140
@@ -88812,7 +114335,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			1,
@@ -88824,7 +114348,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -88933,6 +114458,39 @@ pg.equip_data_statistics = {
 			95150
 		}
 	},
+	[95151] = {
+		anti_siren = 100,
+		damage = "98/轮",
+		base = 95140,
+		id = 95151,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			95151
+		}
+	},
+	[95152] = {
+		anti_siren = 200,
+		damage = "98/轮",
+		base = 95140,
+		id = 95152,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			95152
+		}
+	},
+	[95153] = {
+		anti_siren = 300,
+		damage = "98/轮",
+		base = 95140,
+		id = 95153,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			95153
+		}
+	},
 	[95200] = {
 		name = "双联203mm主炮Model1927",
 		speciality = "锁定",
@@ -88945,7 +114503,7 @@ pg.equip_data_statistics = {
 		rarity = 3,
 		damage = "19 x 8",
 		nationality = 6,
-		ammo = "通常弹",
+		ammo = 3,
 		value_3 = 0,
 		id = 95200,
 		torpedo_ammo = 0,
@@ -88970,7 +114528,10 @@ pg.equip_data_statistics = {
 				4,
 				1221
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			95200
@@ -89061,7 +114622,7 @@ pg.equip_data_statistics = {
 		rarity = 4,
 		damage = "26 x 8",
 		nationality = 6,
-		ammo = "穿甲弹",
+		ammo = 1,
 		value_3 = 0,
 		id = 95220,
 		torpedo_ammo = 0,
@@ -89086,7 +114647,10 @@ pg.equip_data_statistics = {
 				4,
 				1221
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			95220
@@ -89217,7 +114781,7 @@ pg.equip_data_statistics = {
 		rarity = 5,
 		damage = "36 x 8",
 		nationality = 6,
-		ammo = "半穿甲弹",
+		ammo = 7,
 		value_3 = 0,
 		id = 95240,
 		torpedo_ammo = 0,
@@ -89242,7 +114806,10 @@ pg.equip_data_statistics = {
 				4,
 				1221
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			95240
@@ -89361,6 +114928,39 @@ pg.equip_data_statistics = {
 			95250
 		}
 	},
+	[95251] = {
+		anti_siren = 100,
+		damage = "43 x 8",
+		base = 95240,
+		id = 95251,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			95251
+		}
+	},
+	[95252] = {
+		anti_siren = 200,
+		damage = "43 x 8",
+		base = 95240,
+		id = 95252,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			95252
+		}
+	},
+	[95253] = {
+		anti_siren = 300,
+		damage = "43 x 8",
+		base = 95240,
+		id = 95253,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			95253
+		}
+	},
 	[95300] = {
 		name = "双联203mm主炮Model1924",
 		speciality = "锁定",
@@ -89373,7 +114973,7 @@ pg.equip_data_statistics = {
 		rarity = 2,
 		damage = "22 x 6",
 		nationality = 6,
-		ammo = "通常弹",
+		ammo = 3,
 		value_3 = 0,
 		id = 95300,
 		torpedo_ammo = 0,
@@ -89398,7 +114998,10 @@ pg.equip_data_statistics = {
 				4,
 				1205
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			95300
@@ -89459,7 +115062,7 @@ pg.equip_data_statistics = {
 		rarity = 3,
 		damage = "24 x 6",
 		nationality = 6,
-		ammo = "高爆弹",
+		ammo = 2,
 		value_3 = 0,
 		id = 95320,
 		torpedo_ammo = 0,
@@ -89484,7 +115087,10 @@ pg.equip_data_statistics = {
 				4,
 				1205
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			95320
@@ -89575,7 +115181,7 @@ pg.equip_data_statistics = {
 		rarity = 4,
 		damage = "26 x 6",
 		nationality = 6,
-		ammo = "高爆弹",
+		ammo = 2,
 		value_3 = 0,
 		id = 95340,
 		torpedo_ammo = 0,
@@ -89600,7 +115206,10 @@ pg.equip_data_statistics = {
 				4,
 				1205
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			95340
@@ -89719,6 +115328,17 @@ pg.equip_data_statistics = {
 			95350
 		}
 	},
+	[95351] = {
+		anti_siren = 100,
+		damage = "46 x 6",
+		base = 95340,
+		id = 95351,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			95351
+		}
+	},
 	[95400] = {
 		name = "双联装120mm炮Model1936",
 		speciality = "锁定",
@@ -89731,7 +115351,7 @@ pg.equip_data_statistics = {
 		rarity = 2,
 		damage = "6 x 4",
 		nationality = 6,
-		ammo = "通常弹",
+		ammo = 3,
 		value_3 = 0,
 		id = 95400,
 		torpedo_ammo = 0,
@@ -89756,14 +115376,18 @@ pg.equip_data_statistics = {
 				4,
 				1022
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			95400
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -89823,7 +115447,7 @@ pg.equip_data_statistics = {
 		rarity = 3,
 		damage = "6 x 4",
 		nationality = 6,
-		ammo = "通常弹",
+		ammo = 3,
 		value_3 = 0,
 		id = 95420,
 		torpedo_ammo = 0,
@@ -89848,14 +115472,18 @@ pg.equip_data_statistics = {
 				4,
 				1022
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			95420
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -89945,7 +115573,7 @@ pg.equip_data_statistics = {
 		rarity = 4,
 		damage = "6 x 4",
 		nationality = 6,
-		ammo = "通常弹",
+		ammo = 3,
 		value_3 = 0,
 		id = 95440,
 		torpedo_ammo = 0,
@@ -89970,14 +115598,18 @@ pg.equip_data_statistics = {
 				4,
 				1022
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			95440
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -90096,6 +115728,17 @@ pg.equip_data_statistics = {
 			95450
 		}
 	},
+	[95451] = {
+		anti_siren = 100,
+		damage = "17 x 4",
+		base = 95440,
+		id = 95451,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			95451
+		}
+	},
 	[95460] = {
 		name = "双联装120mm炮Model1933",
 		speciality = "锁定",
@@ -90108,7 +115751,7 @@ pg.equip_data_statistics = {
 		rarity = 3,
 		damage = "4 x 4",
 		nationality = 6,
-		ammo = "高爆弹",
+		ammo = 2,
 		value_3 = 0,
 		id = 95460,
 		torpedo_ammo = 0,
@@ -90133,14 +115776,18 @@ pg.equip_data_statistics = {
 				4,
 				1022
 			},
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			95460
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -90217,6 +115864,16 @@ pg.equip_data_statistics = {
 			95466
 		}
 	},
+	[95467] = {
+		damage = "9 x 4",
+		base = 95460,
+		id = 95467,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			95467
+		}
+	},
 	[95480] = {
 		name = "三联装320mm主炮Model1934",
 		speciality = "跨射",
@@ -90229,7 +115886,7 @@ pg.equip_data_statistics = {
 		rarity = 3,
 		damage = "34 x 3",
 		nationality = 6,
-		ammo = "穿甲弹",
+		ammo = 1,
 		value_3 = 0,
 		id = 95480,
 		torpedo_ammo = 0,
@@ -90246,7 +115903,10 @@ pg.equip_data_statistics = {
 		equip_info = {
 			1,
 			2,
-			6
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
 			95480
@@ -90327,6 +115987,16 @@ pg.equip_data_statistics = {
 			95486
 		}
 	},
+	[95487] = {
+		damage = "80 x 3",
+		base = 95480,
+		id = 95487,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			95487
+		}
+	},
 	[95500] = {
 		name = "双联37mm机枪Model1932",
 		speciality = "防空",
@@ -90339,7 +116009,7 @@ pg.equip_data_statistics = {
 		rarity = 2,
 		damage = "15/轮",
 		nationality = 6,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 95500,
 		torpedo_ammo = 0,
@@ -90349,7 +116019,8 @@ pg.equip_data_statistics = {
 		equip_info = {
 			1,
 			2,
-			6
+			6,
+			10
 		},
 		weapon_id = {
 			95500
@@ -90365,7 +116036,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			1,
@@ -90377,7 +116049,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -90428,7 +116101,7 @@ pg.equip_data_statistics = {
 		rarity = 3,
 		damage = "17/轮",
 		nationality = 6,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 95520,
 		torpedo_ammo = 0,
@@ -90438,7 +116111,8 @@ pg.equip_data_statistics = {
 		equip_info = {
 			1,
 			2,
-			6
+			6,
+			10
 		},
 		weapon_id = {
 			95520
@@ -90454,7 +116128,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			1,
@@ -90466,7 +116141,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -90547,7 +116223,7 @@ pg.equip_data_statistics = {
 		rarity = 4,
 		damage = "20/轮",
 		nationality = 6,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 95540,
 		torpedo_ammo = 0,
@@ -90557,7 +116233,8 @@ pg.equip_data_statistics = {
 		equip_info = {
 			1,
 			2,
-			6
+			6,
+			10
 		},
 		weapon_id = {
 			95540
@@ -90573,7 +116250,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		part_sub = {
 			1,
@@ -90585,7 +116263,8 @@ pg.equip_data_statistics = {
 			10,
 			12,
 			13,
-			18
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
@@ -90694,6 +116373,17 @@ pg.equip_data_statistics = {
 			95550
 		}
 	},
+	[95551] = {
+		anti_siren = 100,
+		damage = "50/轮",
+		base = 95540,
+		id = 95551,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			95551
+		}
+	},
 	[100000] = {
 		name = "装备模板",
 		tech = 1,
@@ -90705,7 +116395,7 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "敌人用武器",
 		nationality = 0,
-		ammo = "无",
+		ammo = 10,
 		value_3 = 0,
 		id = 100000,
 		torpedo_ammo = 0,
@@ -90736,7 +116426,7 @@ pg.equip_data_statistics = {
 		rarity = 4,
 		damage = "9 x 6",
 		nationality = 1,
-		ammo = "高爆弹",
+		ammo = 2,
 		value_3 = 0,
 		id = 594017,
 		torpedo_ammo = 0,
@@ -90775,7 +116465,7 @@ pg.equip_data_statistics = {
 		rarity = 4,
 		damage = "60 x 3",
 		nationality = 1,
-		ammo = "高爆弹",
+		ammo = 2,
 		value_3 = 0,
 		id = 594018,
 		torpedo_ammo = 0,
@@ -90815,7 +116505,7 @@ pg.equip_data_statistics = {
 		rarity = 4,
 		damage = "60 x 3",
 		nationality = 1,
-		ammo = "高爆弹",
+		ammo = 2,
 		value_3 = 0,
 		id = 594019,
 		torpedo_ammo = 0,
@@ -90854,7 +116544,7 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "说明未填写",
 		nationality = 1,
-		ammo = "高爆弹",
+		ammo = 2,
 		value_3 = 0,
 		id = 630011,
 		torpedo_ammo = 0,
@@ -90892,7 +116582,7 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		descrip = "说明未填写",
 		nationality = 1,
-		ammo = "高爆弹",
+		ammo = 2,
 		value_3 = 0,
 		id = 630012,
 		torpedo_ammo = 0,
@@ -90931,7 +116621,7 @@ pg.equip_data_statistics = {
 		rarity = 3,
 		damage = "10 x 4",
 		nationality = 8,
-		ammo = "通常弹",
+		ammo = 3,
 		value_3 = 0,
 		id = 650601,
 		torpedo_ammo = 0,
@@ -90975,7 +116665,7 @@ pg.equip_data_statistics = {
 		rarity = 2,
 		damage = "9 x 2",
 		nationality = 8,
-		ammo = "通常弹",
+		ammo = 3,
 		value_3 = 0,
 		id = 650602,
 		torpedo_ammo = 0,
@@ -90994,7 +116684,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -91023,7 +116714,7 @@ pg.equip_data_statistics = {
 		icon = "5300",
 		damage = "42 x 2",
 		nationality = 8,
-		ammo = "通常",
+		ammo = 5,
 		value_3 = 0,
 		id = 650603,
 		torpedo_ammo = 0,
@@ -91070,7 +116761,7 @@ pg.equip_data_statistics = {
 		rarity = 5,
 		damage = "48 x 4",
 		nationality = 8,
-		ammo = "高爆弹",
+		ammo = 2,
 		value_3 = 0,
 		id = 650604,
 		torpedo_ammo = 0,
@@ -91233,6 +116924,673 @@ pg.equip_data_statistics = {
 		},
 		label = {}
 	},
+	[960001] = {
+		name = "【翻格子活动】驱逐主炮",
+		damage = "15 x 5",
+		base = 90140,
+		id = 960001,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			90150
+		}
+	},
+	[960002] = {
+		name = "【翻格子活动】驱逐三联鱼雷",
+		damage = "206 x 3",
+		base = 35140,
+		id = 960002,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			35150
+		}
+	},
+	[960003] = {
+		name = "【翻格子活动】驱逐四联磁雷",
+		damage = "156 x 4",
+		base = 5140,
+		id = 960003,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			5150
+		}
+	},
+	[960004] = {
+		name = "【翻格子活动】驱逐五联鱼雷",
+		damage = "156 x 5",
+		base = 5240,
+		id = 960004,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			5250
+		}
+	},
+	[960005] = {
+		name = "【翻格子活动】战列双联主炮",
+		damage = "132 x 2",
+		base = 44140,
+		id = 960005,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			44150
+		}
+	},
+	[960006] = {
+		name = "【翻格子活动】战列三联主炮",
+		damage = "156 x 3",
+		base = 14340,
+		id = 960006,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			14350
+		}
+	},
+	[960007] = {
+		name = "【翻格子活动】战列四联主炮（法）",
+		damage = "120 x 4",
+		base = 90440,
+		id = 960007,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			90450
+		}
+	},
+	[960008] = {
+		name = "【翻格子活动】战列四联主炮（英）",
+		damage = "108 x 4",
+		base = 24040,
+		id = 960008,
+		torpedo_ammo = 0,
+		property_rate = {},
+		weapon_id = {
+			24050
+		}
+	},
+	[960009] = {
+		name = "【翻格子活动】铁血战斗机",
+		tech = 1,
+		speciality = "空战",
+		type = 7,
+		rarity = 1,
+		descrip = "默认装备",
+		value_2 = 0,
+		icon = "1",
+		nationality = 3,
+		ammo = 5,
+		value_3 = 0,
+		id = 960009,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			{
+				6
+			}
+		},
+		weapon_id = {
+			121,
+			124
+		},
+		skill_id = {},
+		part_main = {
+			6,
+			7
+		},
+		part_sub = {
+			6,
+			7
+		},
+		equip_parameters = {},
+		label = {
+			"KMS",
+			"CV",
+			"FT"
+		}
+	},
+	[960010] = {
+		name = "【翻格子活动】铁血轰炸机",
+		tech = 1,
+		speciality = "轰炸",
+		type = 9,
+		rarity = 1,
+		descrip = "默认装备",
+		value_2 = 0,
+		icon = "1",
+		nationality = 3,
+		ammo = 5,
+		value_3 = 0,
+		id = 960010,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			{
+				6
+			}
+		},
+		weapon_id = {
+			123
+		},
+		skill_id = {},
+		part_main = {
+			6,
+			7
+		},
+		part_sub = {
+			6,
+			7
+		},
+		equip_parameters = {},
+		label = {
+			"KMS",
+			"CV",
+			"DB"
+		}
+	},
+	[960011] = {
+		name = "【翻格子活动】重樱战斗机",
+		tech = 1,
+		speciality = "空战",
+		type = 7,
+		rarity = 1,
+		descrip = "默认装备",
+		value_2 = 0,
+		icon = "1",
+		nationality = 3,
+		ammo = 5,
+		value_3 = 0,
+		id = 960011,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			{
+				6
+			}
+		},
+		weapon_id = {
+			117,
+			120
+		},
+		skill_id = {},
+		part_main = {
+			6,
+			7
+		},
+		part_sub = {
+			6,
+			7
+		},
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"CV",
+			"FT"
+		}
+	},
+	[960012] = {
+		name = "【翻格子活动】重樱鱼雷机",
+		tech = 1,
+		speciality = "雷击",
+		type = 8,
+		rarity = 1,
+		descrip = "默认装备",
+		value_2 = 0,
+		icon = "1",
+		nationality = 3,
+		ammo = 5,
+		value_3 = 0,
+		id = 960012,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			{
+				6
+			}
+		},
+		weapon_id = {
+			118
+		},
+		skill_id = {},
+		part_main = {
+			6,
+			7
+		},
+		part_sub = {
+			6,
+			7
+		},
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"CV",
+			"TB"
+		}
+	},
+	[960013] = {
+		name = "【翻格子活动】重樱轰炸机",
+		tech = 1,
+		speciality = "轰炸",
+		type = 9,
+		rarity = 1,
+		descrip = "默认装备",
+		value_2 = 0,
+		icon = "1",
+		nationality = 3,
+		ammo = 5,
+		value_3 = 0,
+		id = 960013,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			{
+				6
+			}
+		},
+		weapon_id = {
+			119
+		},
+		skill_id = {},
+		part_main = {
+			6,
+			7
+		},
+		part_sub = {
+			6,
+			7
+		},
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"CV",
+			"DB"
+		}
+	},
+	[960014] = {
+		name = "【翻格子活动】白鹰战斗机",
+		tech = 1,
+		speciality = "空战",
+		type = 7,
+		rarity = 1,
+		descrip = "默认装备",
+		value_2 = 0,
+		icon = "1",
+		nationality = 1,
+		ammo = 5,
+		value_3 = 0,
+		id = 960014,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			{
+				6
+			}
+		},
+		weapon_id = {
+			109,
+			112
+		},
+		skill_id = {},
+		part_main = {
+			6,
+			7
+		},
+		part_sub = {
+			6,
+			7
+		},
+		equip_parameters = {},
+		label = {
+			"USS",
+			"CV",
+			"FT"
+		}
+	},
+	[960015] = {
+		name = "【翻格子活动】白鹰鱼雷机",
+		tech = 1,
+		speciality = "雷击",
+		type = 8,
+		rarity = 1,
+		descrip = "默认装备",
+		value_2 = 0,
+		icon = "1",
+		nationality = 1,
+		ammo = 5,
+		value_3 = 0,
+		id = 960015,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			{
+				6
+			}
+		},
+		weapon_id = {
+			110
+		},
+		skill_id = {},
+		part_main = {
+			6,
+			7
+		},
+		part_sub = {
+			6,
+			7
+		},
+		equip_parameters = {},
+		label = {
+			"USS",
+			"CV",
+			"TB"
+		}
+	},
+	[960016] = {
+		name = "【翻格子活动】白鹰轰炸机",
+		tech = 1,
+		speciality = "轰炸",
+		type = 9,
+		rarity = 1,
+		descrip = "默认装备",
+		value_2 = 0,
+		icon = "1",
+		nationality = 1,
+		ammo = 5,
+		value_3 = 0,
+		id = 960016,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			{
+				6
+			}
+		},
+		weapon_id = {
+			111
+		},
+		skill_id = {},
+		part_main = {
+			6,
+			7
+		},
+		part_sub = {
+			6,
+			7
+		},
+		equip_parameters = {},
+		label = {
+			"USS",
+			"CV",
+			"DB"
+		}
+	},
+	[960017] = {
+		name = "【翻格子活动】皇家战斗机",
+		tech = 1,
+		speciality = "空战",
+		type = 7,
+		rarity = 1,
+		descrip = "默认装备",
+		value_2 = 0,
+		icon = "1",
+		nationality = 2,
+		ammo = 5,
+		value_3 = 0,
+		id = 960017,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			{
+				6
+			}
+		},
+		weapon_id = {
+			113,
+			116
+		},
+		skill_id = {},
+		part_main = {
+			6,
+			7
+		},
+		part_sub = {
+			6,
+			7
+		},
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"CV",
+			"FT"
+		}
+	},
+	[960018] = {
+		name = "【翻格子活动】皇家鱼雷机",
+		tech = 1,
+		speciality = "雷击",
+		type = 8,
+		rarity = 1,
+		descrip = "默认装备",
+		value_2 = 0,
+		icon = "1",
+		nationality = 2,
+		ammo = 5,
+		value_3 = 0,
+		id = 960018,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			{
+				6
+			}
+		},
+		weapon_id = {
+			114
+		},
+		skill_id = {},
+		part_main = {
+			6,
+			7
+		},
+		part_sub = {
+			6,
+			7
+		},
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"CV",
+			"TB"
+		}
+	},
+	[960019] = {
+		name = "【翻格子活动】皇家轰炸机",
+		tech = 1,
+		speciality = "轰炸",
+		type = 9,
+		rarity = 1,
+		descrip = "默认装备",
+		value_2 = 0,
+		icon = "1",
+		nationality = 2,
+		ammo = 5,
+		value_3 = 0,
+		id = 960019,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			{
+				6
+			}
+		},
+		weapon_id = {
+			115
+		},
+		skill_id = {},
+		part_main = {
+			6,
+			7
+		},
+		part_sub = {
+			6,
+			7
+		},
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"CV",
+			"DB"
+		}
+	},
+	[960020] = {
+		name = "【翻格子活动】鸢尾战斗机",
+		tech = 1,
+		speciality = "空战",
+		type = 7,
+		rarity = 1,
+		descrip = "默认装备",
+		value_2 = 0,
+		icon = "1",
+		nationality = 3,
+		ammo = 5,
+		value_3 = 0,
+		id = 960020,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			{
+				6
+			}
+		},
+		weapon_id = {
+			125,
+			128
+		},
+		skill_id = {},
+		part_main = {
+			6,
+			7
+		},
+		part_sub = {
+			6,
+			7
+		},
+		equip_parameters = {},
+		label = {
+			"FFNF",
+			"CV",
+			"FT"
+		}
+	},
+	[960021] = {
+		name = "【翻格子活动】鸢尾鱼雷机",
+		tech = 1,
+		speciality = "雷击",
+		type = 8,
+		rarity = 1,
+		descrip = "默认装备",
+		value_2 = 0,
+		icon = "1",
+		nationality = 3,
+		ammo = 5,
+		value_3 = 0,
+		id = 960021,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			{
+				6
+			}
+		},
+		weapon_id = {
+			126
+		},
+		skill_id = {},
+		part_main = {
+			6,
+			7
+		},
+		part_sub = {
+			6,
+			7
+		},
+		equip_parameters = {},
+		label = {
+			"FFNF",
+			"CV",
+			"TB"
+		}
+	},
+	[960022] = {
+		name = "【翻格子活动】鸢尾轰炸机",
+		tech = 1,
+		speciality = "轰炸",
+		type = 9,
+		rarity = 1,
+		descrip = "默认装备",
+		value_2 = 0,
+		icon = "1",
+		nationality = 3,
+		ammo = 5,
+		value_3 = 0,
+		id = 960022,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			{
+				6
+			}
+		},
+		weapon_id = {
+			127
+		},
+		skill_id = {},
+		part_main = {
+			6,
+			7
+		},
+		part_sub = {
+			6,
+			7
+		},
+		equip_parameters = {},
+		label = {
+			"FFNF",
+			"CV",
+			"DB"
+		}
+	},
 	all = {
 		2,
 		3,
@@ -91244,6 +117602,10 @@ pg.equip_data_statistics = {
 		20,
 		21,
 		22,
+		23,
+		24,
+		25,
+		26,
 		98,
 		99,
 		100,
@@ -91273,6 +117635,7 @@ pg.equip_data_statistics = {
 		140,
 		141,
 		144,
+		147,
 		201,
 		202,
 		203,
@@ -91331,6 +117694,7 @@ pg.equip_data_statistics = {
 		433,
 		434,
 		435,
+		436,
 		500,
 		501,
 		502,
@@ -91342,6 +117706,9 @@ pg.equip_data_statistics = {
 		508,
 		509,
 		510,
+		511,
+		512,
+		513,
 		520,
 		521,
 		522,
@@ -91353,6 +117720,9 @@ pg.equip_data_statistics = {
 		528,
 		529,
 		530,
+		531,
+		532,
+		533,
 		540,
 		541,
 		542,
@@ -91364,6 +117734,9 @@ pg.equip_data_statistics = {
 		548,
 		549,
 		550,
+		551,
+		552,
+		553,
 		560,
 		561,
 		562,
@@ -91375,6 +117748,7 @@ pg.equip_data_statistics = {
 		568,
 		569,
 		570,
+		571,
 		580,
 		581,
 		582,
@@ -91386,6 +117760,7 @@ pg.equip_data_statistics = {
 		588,
 		589,
 		590,
+		591,
 		600,
 		601,
 		602,
@@ -91397,6 +117772,9 @@ pg.equip_data_statistics = {
 		608,
 		609,
 		610,
+		611,
+		612,
+		613,
 		620,
 		621,
 		622,
@@ -91408,6 +117786,9 @@ pg.equip_data_statistics = {
 		628,
 		629,
 		630,
+		631,
+		632,
+		633,
 		640,
 		641,
 		642,
@@ -91419,6 +117800,9 @@ pg.equip_data_statistics = {
 		648,
 		649,
 		650,
+		651,
+		652,
+		653,
 		660,
 		661,
 		662,
@@ -91430,6 +117814,7 @@ pg.equip_data_statistics = {
 		668,
 		669,
 		670,
+		671,
 		680,
 		681,
 		682,
@@ -91441,6 +117826,7 @@ pg.equip_data_statistics = {
 		688,
 		689,
 		690,
+		691,
 		700,
 		701,
 		702,
@@ -91452,6 +117838,7 @@ pg.equip_data_statistics = {
 		708,
 		709,
 		710,
+		711,
 		720,
 		721,
 		722,
@@ -91463,6 +117850,9 @@ pg.equip_data_statistics = {
 		728,
 		729,
 		730,
+		731,
+		732,
+		733,
 		740,
 		741,
 		742,
@@ -91474,6 +117864,7 @@ pg.equip_data_statistics = {
 		748,
 		749,
 		750,
+		751,
 		760,
 		761,
 		762,
@@ -91485,6 +117876,7 @@ pg.equip_data_statistics = {
 		768,
 		769,
 		770,
+		771,
 		780,
 		781,
 		782,
@@ -91496,6 +117888,7 @@ pg.equip_data_statistics = {
 		788,
 		789,
 		790,
+		791,
 		800,
 		801,
 		802,
@@ -91507,6 +117900,62 @@ pg.equip_data_statistics = {
 		808,
 		809,
 		810,
+		820,
+		821,
+		822,
+		823,
+		824,
+		825,
+		826,
+		827,
+		828,
+		829,
+		830,
+		831,
+		832,
+		833,
+		840,
+		841,
+		842,
+		843,
+		844,
+		845,
+		846,
+		847,
+		848,
+		849,
+		850,
+		851,
+		852,
+		853,
+		860,
+		861,
+		862,
+		863,
+		864,
+		865,
+		866,
+		867,
+		868,
+		869,
+		870,
+		871,
+		872,
+		873,
+		880,
+		881,
+		882,
+		883,
+		884,
+		885,
+		886,
+		887,
+		888,
+		889,
+		890,
+		891,
+		892,
+		893,
 		1000,
 		1001,
 		1002,
@@ -91536,6 +117985,9 @@ pg.equip_data_statistics = {
 		1048,
 		1049,
 		1050,
+		1051,
+		1052,
+		1053,
 		1100,
 		1101,
 		1102,
@@ -91558,6 +118010,7 @@ pg.equip_data_statistics = {
 		1148,
 		1149,
 		1150,
+		1151,
 		1160,
 		1161,
 		1162,
@@ -91569,6 +118022,9 @@ pg.equip_data_statistics = {
 		1168,
 		1169,
 		1170,
+		1171,
+		1172,
+		1173,
 		1200,
 		1201,
 		1202,
@@ -91591,6 +118047,7 @@ pg.equip_data_statistics = {
 		1248,
 		1249,
 		1250,
+		1251,
 		1260,
 		1261,
 		1262,
@@ -91602,6 +118059,9 @@ pg.equip_data_statistics = {
 		1268,
 		1269,
 		1270,
+		1271,
+		1272,
+		1273,
 		1300,
 		1301,
 		1302,
@@ -91624,6 +118084,7 @@ pg.equip_data_statistics = {
 		1348,
 		1349,
 		1350,
+		1351,
 		1400,
 		1401,
 		1402,
@@ -91653,6 +118114,9 @@ pg.equip_data_statistics = {
 		1448,
 		1449,
 		1450,
+		1451,
+		1452,
+		1453,
 		1500,
 		1501,
 		1502,
@@ -91682,6 +118146,9 @@ pg.equip_data_statistics = {
 		1548,
 		1549,
 		1550,
+		1551,
+		1552,
+		1553,
 		1600,
 		1601,
 		1602,
@@ -91697,6 +118164,7 @@ pg.equip_data_statistics = {
 		1644,
 		1645,
 		1646,
+		1647,
 		1700,
 		1701,
 		1702,
@@ -91712,6 +118180,7 @@ pg.equip_data_statistics = {
 		1744,
 		1745,
 		1746,
+		1747,
 		1760,
 		1761,
 		1762,
@@ -91723,6 +118192,9 @@ pg.equip_data_statistics = {
 		1768,
 		1769,
 		1770,
+		1771,
+		1772,
+		1773,
 		1800,
 		1801,
 		1802,
@@ -91745,6 +118217,7 @@ pg.equip_data_statistics = {
 		1848,
 		1849,
 		1850,
+		1851,
 		1900,
 		1901,
 		1902,
@@ -91760,6 +118233,7 @@ pg.equip_data_statistics = {
 		1944,
 		1945,
 		1946,
+		1947,
 		1960,
 		1961,
 		1962,
@@ -91771,6 +118245,7 @@ pg.equip_data_statistics = {
 		1968,
 		1969,
 		1970,
+		1971,
 		2000,
 		2001,
 		2002,
@@ -91793,6 +118268,7 @@ pg.equip_data_statistics = {
 		2048,
 		2049,
 		2050,
+		2051,
 		2100,
 		2101,
 		2102,
@@ -91815,6 +118291,7 @@ pg.equip_data_statistics = {
 		2148,
 		2149,
 		2150,
+		2151,
 		2200,
 		2201,
 		2202,
@@ -91837,6 +118314,7 @@ pg.equip_data_statistics = {
 		2248,
 		2249,
 		2250,
+		2251,
 		2300,
 		2301,
 		2302,
@@ -91859,6 +118337,7 @@ pg.equip_data_statistics = {
 		2348,
 		2349,
 		2350,
+		2351,
 		2400,
 		2401,
 		2402,
@@ -91881,6 +118360,7 @@ pg.equip_data_statistics = {
 		2448,
 		2449,
 		2450,
+		2451,
 		2500,
 		2501,
 		2502,
@@ -91896,6 +118376,7 @@ pg.equip_data_statistics = {
 		2544,
 		2545,
 		2546,
+		2547,
 		2600,
 		2601,
 		2602,
@@ -91929,6 +118410,9 @@ pg.equip_data_statistics = {
 		2648,
 		2649,
 		2650,
+		2651,
+		2652,
+		2653,
 		2700,
 		2701,
 		2702,
@@ -91958,6 +118442,9 @@ pg.equip_data_statistics = {
 		2748,
 		2749,
 		2750,
+		2751,
+		2752,
+		2753,
 		2800,
 		2801,
 		2802,
@@ -91969,6 +118456,7 @@ pg.equip_data_statistics = {
 		2808,
 		2809,
 		2810,
+		2811,
 		2900,
 		2901,
 		2902,
@@ -91991,6 +118479,7 @@ pg.equip_data_statistics = {
 		2948,
 		2949,
 		2950,
+		2951,
 		3000,
 		3001,
 		3002,
@@ -92020,6 +118509,9 @@ pg.equip_data_statistics = {
 		3048,
 		3049,
 		3050,
+		3051,
+		3052,
+		3053,
 		3100,
 		3101,
 		3102,
@@ -92031,6 +118523,7 @@ pg.equip_data_statistics = {
 		3108,
 		3109,
 		3110,
+		3111,
 		3120,
 		3121,
 		3122,
@@ -92042,6 +118535,9 @@ pg.equip_data_statistics = {
 		3128,
 		3129,
 		3130,
+		3131,
+		3132,
+		3133,
 		3140,
 		3141,
 		3142,
@@ -92053,6 +118549,9 @@ pg.equip_data_statistics = {
 		3148,
 		3149,
 		3150,
+		3151,
+		3152,
+		3153,
 		3200,
 		3201,
 		3202,
@@ -92064,6 +118563,9 @@ pg.equip_data_statistics = {
 		3208,
 		3209,
 		3210,
+		3211,
+		3212,
+		3213,
 		3220,
 		3221,
 		3222,
@@ -92075,6 +118577,7 @@ pg.equip_data_statistics = {
 		3228,
 		3229,
 		3230,
+		3231,
 		3300,
 		3301,
 		3302,
@@ -92086,6 +118589,59 @@ pg.equip_data_statistics = {
 		3308,
 		3309,
 		3310,
+		3311,
+		3312,
+		3313,
+		3400,
+		3401,
+		3402,
+		3403,
+		3404,
+		3405,
+		3406,
+		3407,
+		3408,
+		3409,
+		3410,
+		3411,
+		3412,
+		3413,
+		3500,
+		3501,
+		3502,
+		3503,
+		3504,
+		3505,
+		3506,
+		3507,
+		3508,
+		3509,
+		3510,
+		3511,
+		3520,
+		3521,
+		3522,
+		3523,
+		3524,
+		3525,
+		3526,
+		3527,
+		3528,
+		3529,
+		3530,
+		3531,
+		3540,
+		3541,
+		3542,
+		3543,
+		3544,
+		3545,
+		3546,
+		3547,
+		3548,
+		3549,
+		3550,
+		3551,
 		4000,
 		4001,
 		4002,
@@ -92101,6 +118657,7 @@ pg.equip_data_statistics = {
 		4044,
 		4045,
 		4046,
+		4047,
 		4100,
 		4101,
 		4102,
@@ -92123,6 +118680,7 @@ pg.equip_data_statistics = {
 		4148,
 		4149,
 		4150,
+		4151,
 		4200,
 		4201,
 		4202,
@@ -92145,6 +118703,7 @@ pg.equip_data_statistics = {
 		4248,
 		4249,
 		4250,
+		4251,
 		4300,
 		4301,
 		4302,
@@ -92167,6 +118726,7 @@ pg.equip_data_statistics = {
 		4348,
 		4349,
 		4350,
+		4351,
 		5000,
 		5001,
 		5002,
@@ -92182,6 +118742,7 @@ pg.equip_data_statistics = {
 		5044,
 		5045,
 		5046,
+		5047,
 		5100,
 		5101,
 		5102,
@@ -92204,6 +118765,7 @@ pg.equip_data_statistics = {
 		5148,
 		5149,
 		5150,
+		5151,
 		5200,
 		5201,
 		5202,
@@ -92233,6 +118795,9 @@ pg.equip_data_statistics = {
 		5248,
 		5249,
 		5250,
+		5251,
+		5252,
+		5253,
 		5300,
 		5301,
 		5302,
@@ -92248,6 +118813,7 @@ pg.equip_data_statistics = {
 		5344,
 		5345,
 		5346,
+		5347,
 		5400,
 		5401,
 		5402,
@@ -92270,6 +118836,7 @@ pg.equip_data_statistics = {
 		5448,
 		5449,
 		5450,
+		5451,
 		5500,
 		5501,
 		5502,
@@ -92292,6 +118859,7 @@ pg.equip_data_statistics = {
 		5548,
 		5549,
 		5550,
+		5551,
 		6000,
 		6001,
 		6002,
@@ -92307,6 +118875,7 @@ pg.equip_data_statistics = {
 		6044,
 		6045,
 		6046,
+		6047,
 		6100,
 		6101,
 		6102,
@@ -92322,6 +118891,7 @@ pg.equip_data_statistics = {
 		6144,
 		6145,
 		6146,
+		6147,
 		7000,
 		7001,
 		7002,
@@ -92337,6 +118907,7 @@ pg.equip_data_statistics = {
 		7044,
 		7045,
 		7046,
+		7047,
 		7100,
 		7101,
 		7102,
@@ -92352,6 +118923,7 @@ pg.equip_data_statistics = {
 		7144,
 		7145,
 		7146,
+		7147,
 		7200,
 		7201,
 		7202,
@@ -92374,6 +118946,7 @@ pg.equip_data_statistics = {
 		7248,
 		7249,
 		7250,
+		7251,
 		7300,
 		7301,
 		7302,
@@ -92385,6 +118958,9 @@ pg.equip_data_statistics = {
 		7308,
 		7309,
 		7310,
+		7311,
+		7312,
+		7313,
 		7320,
 		7321,
 		7322,
@@ -92392,6 +118968,7 @@ pg.equip_data_statistics = {
 		7324,
 		7325,
 		7326,
+		7327,
 		7340,
 		7341,
 		7342,
@@ -92399,6 +118976,7 @@ pg.equip_data_statistics = {
 		7344,
 		7345,
 		7346,
+		7347,
 		11000,
 		11001,
 		11002,
@@ -92414,6 +118992,15 @@ pg.equip_data_statistics = {
 		11044,
 		11045,
 		11046,
+		11047,
+		11060,
+		11061,
+		11062,
+		11063,
+		11064,
+		11065,
+		11066,
+		11067,
 		11100,
 		11101,
 		11102,
@@ -92436,6 +119023,19 @@ pg.equip_data_statistics = {
 		11148,
 		11149,
 		11150,
+		11151,
+		11160,
+		11161,
+		11162,
+		11163,
+		11164,
+		11165,
+		11166,
+		11167,
+		11168,
+		11169,
+		11170,
+		11171,
 		11200,
 		11201,
 		11202,
@@ -92465,6 +119065,9 @@ pg.equip_data_statistics = {
 		11248,
 		11249,
 		11250,
+		11251,
+		11252,
+		11253,
 		12000,
 		12001,
 		12002,
@@ -92480,6 +119083,15 @@ pg.equip_data_statistics = {
 		12044,
 		12045,
 		12046,
+		12047,
+		12060,
+		12061,
+		12062,
+		12063,
+		12064,
+		12065,
+		12066,
+		12067,
 		12100,
 		12101,
 		12102,
@@ -92502,6 +119114,21 @@ pg.equip_data_statistics = {
 		12148,
 		12149,
 		12150,
+		12151,
+		12160,
+		12161,
+		12162,
+		12163,
+		12164,
+		12165,
+		12166,
+		12167,
+		12168,
+		12169,
+		12170,
+		12171,
+		12172,
+		12173,
 		12200,
 		12201,
 		12202,
@@ -92513,6 +119140,9 @@ pg.equip_data_statistics = {
 		12208,
 		12209,
 		12210,
+		12211,
+		12212,
+		12213,
 		13000,
 		13001,
 		13002,
@@ -92528,6 +119158,15 @@ pg.equip_data_statistics = {
 		13044,
 		13045,
 		13046,
+		13047,
+		13060,
+		13061,
+		13062,
+		13063,
+		13064,
+		13065,
+		13066,
+		13067,
 		13100,
 		13101,
 		13102,
@@ -92550,6 +119189,21 @@ pg.equip_data_statistics = {
 		13148,
 		13149,
 		13150,
+		13151,
+		13160,
+		13161,
+		13162,
+		13163,
+		13164,
+		13165,
+		13166,
+		13167,
+		13168,
+		13169,
+		13170,
+		13171,
+		13172,
+		13173,
 		14000,
 		14001,
 		14002,
@@ -92579,6 +119233,9 @@ pg.equip_data_statistics = {
 		14048,
 		14049,
 		14050,
+		14051,
+		14052,
+		14053,
 		14100,
 		14101,
 		14102,
@@ -92594,6 +119251,27 @@ pg.equip_data_statistics = {
 		14144,
 		14145,
 		14146,
+		14147,
+		14160,
+		14161,
+		14162,
+		14163,
+		14164,
+		14165,
+		14166,
+		14167,
+		14168,
+		14169,
+		14170,
+		14171,
+		14180,
+		14181,
+		14182,
+		14183,
+		14184,
+		14185,
+		14186,
+		14187,
 		14200,
 		14201,
 		14202,
@@ -92616,6 +119294,19 @@ pg.equip_data_statistics = {
 		14248,
 		14249,
 		14250,
+		14251,
+		14260,
+		14261,
+		14262,
+		14263,
+		14264,
+		14265,
+		14266,
+		14267,
+		14268,
+		14269,
+		14270,
+		14271,
 		14300,
 		14301,
 		14302,
@@ -92638,6 +119329,33 @@ pg.equip_data_statistics = {
 		14348,
 		14349,
 		14350,
+		14351,
+		14360,
+		14361,
+		14362,
+		14363,
+		14364,
+		14365,
+		14366,
+		14367,
+		14368,
+		14369,
+		14370,
+		14371,
+		14372,
+		14373,
+		14380,
+		14381,
+		14382,
+		14383,
+		14384,
+		14385,
+		14386,
+		14387,
+		14388,
+		14389,
+		14390,
+		14391,
 		14400,
 		14401,
 		14402,
@@ -92667,6 +119385,9 @@ pg.equip_data_statistics = {
 		14448,
 		14449,
 		14450,
+		14451,
+		14452,
+		14453,
 		14500,
 		14501,
 		14502,
@@ -92678,6 +119399,9 @@ pg.equip_data_statistics = {
 		14508,
 		14509,
 		14510,
+		14511,
+		14512,
+		14513,
 		15000,
 		15001,
 		15002,
@@ -92700,6 +119424,19 @@ pg.equip_data_statistics = {
 		15048,
 		15049,
 		15050,
+		15051,
+		15060,
+		15061,
+		15062,
+		15063,
+		15064,
+		15065,
+		15066,
+		15067,
+		15068,
+		15069,
+		15070,
+		15071,
 		15100,
 		15101,
 		15102,
@@ -92729,6 +119466,57 @@ pg.equip_data_statistics = {
 		15148,
 		15149,
 		15150,
+		15151,
+		15152,
+		15153,
+		15160,
+		15161,
+		15162,
+		15163,
+		15164,
+		15165,
+		15166,
+		15167,
+		15168,
+		15169,
+		15170,
+		15171,
+		15172,
+		15173,
+		15200,
+		15201,
+		15202,
+		15203,
+		15204,
+		15205,
+		15206,
+		15207,
+		15220,
+		15221,
+		15222,
+		15223,
+		15224,
+		15225,
+		15226,
+		15227,
+		15228,
+		15229,
+		15230,
+		15231,
+		15240,
+		15241,
+		15242,
+		15243,
+		15244,
+		15245,
+		15246,
+		15247,
+		15248,
+		15249,
+		15250,
+		15251,
+		15252,
+		15253,
 		15500,
 		15501,
 		15502,
@@ -92740,6 +119528,7 @@ pg.equip_data_statistics = {
 		15508,
 		15509,
 		15510,
+		15511,
 		16000,
 		16001,
 		16002,
@@ -92755,6 +119544,33 @@ pg.equip_data_statistics = {
 		16044,
 		16045,
 		16046,
+		16047,
+		16060,
+		16061,
+		16062,
+		16063,
+		16064,
+		16065,
+		16066,
+		16067,
+		16068,
+		16069,
+		16070,
+		16071,
+		16080,
+		16081,
+		16082,
+		16083,
+		16084,
+		16085,
+		16086,
+		16087,
+		16088,
+		16089,
+		16090,
+		16091,
+		16092,
+		16093,
 		16100,
 		16101,
 		16102,
@@ -92777,6 +119593,19 @@ pg.equip_data_statistics = {
 		16148,
 		16149,
 		16150,
+		16151,
+		16160,
+		16161,
+		16162,
+		16163,
+		16164,
+		16165,
+		16166,
+		16167,
+		16168,
+		16169,
+		16170,
+		16171,
 		16200,
 		16201,
 		16202,
@@ -92799,6 +119628,7 @@ pg.equip_data_statistics = {
 		16248,
 		16249,
 		16250,
+		16251,
 		16300,
 		16301,
 		16302,
@@ -92821,6 +119651,7 @@ pg.equip_data_statistics = {
 		16348,
 		16349,
 		16350,
+		16351,
 		16400,
 		16401,
 		16402,
@@ -92850,6 +119681,9 @@ pg.equip_data_statistics = {
 		16448,
 		16449,
 		16450,
+		16451,
+		16452,
+		16453,
 		17000,
 		17001,
 		17002,
@@ -92865,6 +119699,7 @@ pg.equip_data_statistics = {
 		17044,
 		17045,
 		17046,
+		17047,
 		17060,
 		17061,
 		17062,
@@ -92876,6 +119711,21 @@ pg.equip_data_statistics = {
 		17068,
 		17069,
 		17070,
+		17071,
+		17072,
+		17073,
+		17080,
+		17081,
+		17082,
+		17083,
+		17084,
+		17085,
+		17086,
+		17087,
+		17088,
+		17089,
+		17090,
+		17091,
 		17100,
 		17101,
 		17102,
@@ -92898,6 +119748,7 @@ pg.equip_data_statistics = {
 		17148,
 		17149,
 		17150,
+		17151,
 		17200,
 		17201,
 		17202,
@@ -92920,6 +119771,7 @@ pg.equip_data_statistics = {
 		17248,
 		17249,
 		17250,
+		17251,
 		17260,
 		17261,
 		17262,
@@ -92931,6 +119783,9 @@ pg.equip_data_statistics = {
 		17268,
 		17269,
 		17270,
+		17271,
+		17272,
+		17273,
 		17300,
 		17301,
 		17302,
@@ -92960,6 +119815,37 @@ pg.equip_data_statistics = {
 		17348,
 		17349,
 		17350,
+		17351,
+		17352,
+		17353,
+		17360,
+		17361,
+		17362,
+		17363,
+		17364,
+		17365,
+		17366,
+		17367,
+		17368,
+		17369,
+		17370,
+		17371,
+		17372,
+		17373,
+		17380,
+		17381,
+		17382,
+		17383,
+		17384,
+		17385,
+		17386,
+		17387,
+		17388,
+		17389,
+		17390,
+		17391,
+		17392,
+		17393,
 		17400,
 		17401,
 		17402,
@@ -92971,6 +119857,7 @@ pg.equip_data_statistics = {
 		17408,
 		17409,
 		17410,
+		17411,
 		18000,
 		18001,
 		18002,
@@ -92986,6 +119873,7 @@ pg.equip_data_statistics = {
 		18044,
 		18045,
 		18046,
+		18047,
 		18060,
 		18061,
 		18062,
@@ -92997,6 +119885,9 @@ pg.equip_data_statistics = {
 		18068,
 		18069,
 		18070,
+		18071,
+		18072,
+		18073,
 		18100,
 		18101,
 		18102,
@@ -93019,6 +119910,7 @@ pg.equip_data_statistics = {
 		18148,
 		18149,
 		18150,
+		18151,
 		18180,
 		18181,
 		18182,
@@ -93030,6 +119922,23 @@ pg.equip_data_statistics = {
 		18188,
 		18189,
 		18190,
+		18191,
+		18192,
+		18193,
+		18220,
+		18221,
+		18222,
+		18223,
+		18224,
+		18225,
+		18226,
+		18227,
+		18228,
+		18229,
+		18230,
+		18231,
+		18232,
+		18233,
 		19000,
 		19001,
 		19002,
@@ -93045,6 +119954,7 @@ pg.equip_data_statistics = {
 		19044,
 		19045,
 		19046,
+		19047,
 		19060,
 		19061,
 		19062,
@@ -93056,6 +119966,9 @@ pg.equip_data_statistics = {
 		19068,
 		19069,
 		19070,
+		19071,
+		19072,
+		19073,
 		19100,
 		19101,
 		19102,
@@ -93078,6 +119991,21 @@ pg.equip_data_statistics = {
 		19148,
 		19149,
 		19150,
+		19151,
+		19160,
+		19161,
+		19162,
+		19163,
+		19164,
+		19165,
+		19166,
+		19167,
+		19168,
+		19169,
+		19170,
+		19171,
+		19172,
+		19173,
 		19200,
 		19201,
 		19202,
@@ -93107,6 +120035,9 @@ pg.equip_data_statistics = {
 		19248,
 		19249,
 		19250,
+		19251,
+		19252,
+		19253,
 		21000,
 		21001,
 		21002,
@@ -93122,6 +120053,7 @@ pg.equip_data_statistics = {
 		21044,
 		21045,
 		21046,
+		21047,
 		21100,
 		21101,
 		21102,
@@ -93137,6 +120069,19 @@ pg.equip_data_statistics = {
 		21144,
 		21145,
 		21146,
+		21147,
+		21160,
+		21161,
+		21162,
+		21163,
+		21164,
+		21165,
+		21166,
+		21167,
+		21168,
+		21169,
+		21170,
+		21171,
 		21200,
 		21201,
 		21202,
@@ -93159,6 +120104,7 @@ pg.equip_data_statistics = {
 		21248,
 		21249,
 		21250,
+		21251,
 		21300,
 		21301,
 		21302,
@@ -93174,6 +120120,7 @@ pg.equip_data_statistics = {
 		21344,
 		21345,
 		21346,
+		21347,
 		21400,
 		21401,
 		21402,
@@ -93196,6 +120143,21 @@ pg.equip_data_statistics = {
 		21448,
 		21449,
 		21450,
+		21451,
+		21460,
+		21461,
+		21462,
+		21463,
+		21464,
+		21465,
+		21466,
+		21467,
+		21468,
+		21469,
+		21470,
+		21471,
+		21472,
+		21473,
 		21500,
 		21501,
 		21502,
@@ -93218,6 +120180,7 @@ pg.equip_data_statistics = {
 		21548,
 		21549,
 		21550,
+		21551,
 		21600,
 		21601,
 		21602,
@@ -93229,6 +120192,9 @@ pg.equip_data_statistics = {
 		21608,
 		21609,
 		21610,
+		21611,
+		21612,
+		21613,
 		22000,
 		22001,
 		22002,
@@ -93244,6 +120210,15 @@ pg.equip_data_statistics = {
 		22044,
 		22045,
 		22046,
+		22047,
+		22060,
+		22061,
+		22062,
+		22063,
+		22064,
+		22065,
+		22066,
+		22067,
 		22100,
 		22101,
 		22102,
@@ -93266,6 +120241,7 @@ pg.equip_data_statistics = {
 		22148,
 		22149,
 		22150,
+		22151,
 		22200,
 		22201,
 		22202,
@@ -93288,6 +120264,7 @@ pg.equip_data_statistics = {
 		22248,
 		22249,
 		22250,
+		22251,
 		22260,
 		22261,
 		22262,
@@ -93299,6 +120276,9 @@ pg.equip_data_statistics = {
 		22268,
 		22269,
 		22270,
+		22271,
+		22272,
+		22273,
 		23000,
 		23001,
 		23002,
@@ -93321,6 +120301,7 @@ pg.equip_data_statistics = {
 		23048,
 		23049,
 		23050,
+		23051,
 		23100,
 		23101,
 		23102,
@@ -93332,6 +120313,9 @@ pg.equip_data_statistics = {
 		23108,
 		23109,
 		23110,
+		23111,
+		23112,
+		23113,
 		23120,
 		23121,
 		23122,
@@ -93343,6 +120327,23 @@ pg.equip_data_statistics = {
 		23128,
 		23129,
 		23130,
+		23131,
+		23132,
+		23133,
+		23200,
+		23201,
+		23202,
+		23203,
+		23204,
+		23205,
+		23206,
+		23207,
+		23208,
+		23209,
+		23210,
+		23211,
+		23212,
+		23213,
 		24000,
 		24001,
 		24002,
@@ -93372,6 +120373,21 @@ pg.equip_data_statistics = {
 		24048,
 		24049,
 		24050,
+		24051,
+		24052,
+		24053,
+		24060,
+		24061,
+		24062,
+		24063,
+		24064,
+		24065,
+		24066,
+		24067,
+		24068,
+		24069,
+		24070,
+		24071,
 		24100,
 		24101,
 		24102,
@@ -93394,6 +120410,7 @@ pg.equip_data_statistics = {
 		24148,
 		24149,
 		24150,
+		24151,
 		24160,
 		24161,
 		24162,
@@ -93405,6 +120422,9 @@ pg.equip_data_statistics = {
 		24168,
 		24169,
 		24170,
+		24171,
+		24172,
+		24173,
 		24200,
 		24201,
 		24202,
@@ -93434,6 +120454,9 @@ pg.equip_data_statistics = {
 		24248,
 		24249,
 		24250,
+		24251,
+		24252,
+		24253,
 		24300,
 		24301,
 		24302,
@@ -93463,6 +120486,108 @@ pg.equip_data_statistics = {
 		24348,
 		24349,
 		24350,
+		24351,
+		24352,
+		24353,
+		25000,
+		25001,
+		25002,
+		25003,
+		25004,
+		25005,
+		25006,
+		25007,
+		25020,
+		25021,
+		25022,
+		25023,
+		25024,
+		25025,
+		25026,
+		25027,
+		25028,
+		25029,
+		25030,
+		25031,
+		25040,
+		25041,
+		25042,
+		25043,
+		25044,
+		25045,
+		25046,
+		25047,
+		25048,
+		25049,
+		25050,
+		25051,
+		25052,
+		25053,
+		25100,
+		25101,
+		25102,
+		25103,
+		25120,
+		25121,
+		25122,
+		25123,
+		25124,
+		25125,
+		25126,
+		25140,
+		25141,
+		25142,
+		25143,
+		25144,
+		25145,
+		25146,
+		25147,
+		25148,
+		25149,
+		25150,
+		25151,
+		25200,
+		25201,
+		25202,
+		25203,
+		25204,
+		25205,
+		25206,
+		25207,
+		25208,
+		25209,
+		25210,
+		25211,
+		25212,
+		25213,
+		25300,
+		25301,
+		25302,
+		25303,
+		25304,
+		25305,
+		25306,
+		25307,
+		25308,
+		25309,
+		25310,
+		25311,
+		25312,
+		25313,
+		25800,
+		25801,
+		25802,
+		25803,
+		25804,
+		25805,
+		25806,
+		25807,
+		25808,
+		25809,
+		25810,
+		25811,
+		25812,
+		25813,
 		26000,
 		26001,
 		26002,
@@ -93478,6 +120603,19 @@ pg.equip_data_statistics = {
 		26044,
 		26045,
 		26046,
+		26047,
+		26060,
+		26061,
+		26062,
+		26063,
+		26064,
+		26065,
+		26066,
+		26067,
+		26068,
+		26069,
+		26070,
+		26071,
 		26100,
 		26101,
 		26102,
@@ -93500,6 +120638,7 @@ pg.equip_data_statistics = {
 		26148,
 		26149,
 		26150,
+		26151,
 		26200,
 		26201,
 		26202,
@@ -93529,6 +120668,9 @@ pg.equip_data_statistics = {
 		26248,
 		26249,
 		26250,
+		26251,
+		26252,
+		26253,
 		26300,
 		26301,
 		26302,
@@ -93551,6 +120693,19 @@ pg.equip_data_statistics = {
 		26348,
 		26349,
 		26350,
+		26351,
+		26360,
+		26361,
+		26362,
+		26363,
+		26364,
+		26365,
+		26366,
+		26367,
+		26368,
+		26369,
+		26370,
+		26371,
 		26400,
 		26401,
 		26402,
@@ -93573,6 +120728,19 @@ pg.equip_data_statistics = {
 		26448,
 		26449,
 		26450,
+		26451,
+		26460,
+		26461,
+		26462,
+		26463,
+		26464,
+		26465,
+		26466,
+		26467,
+		26468,
+		26469,
+		26470,
+		26471,
 		26500,
 		26501,
 		26502,
@@ -93602,6 +120770,9 @@ pg.equip_data_statistics = {
 		26548,
 		26549,
 		26550,
+		26551,
+		26552,
+		26553,
 		26600,
 		26601,
 		26602,
@@ -93613,6 +120784,9 @@ pg.equip_data_statistics = {
 		26608,
 		26609,
 		26610,
+		26611,
+		26612,
+		26613,
 		26620,
 		26621,
 		26622,
@@ -93624,6 +120798,9 @@ pg.equip_data_statistics = {
 		26628,
 		26629,
 		26630,
+		26631,
+		26632,
+		26633,
 		26640,
 		26641,
 		26642,
@@ -93635,6 +120812,9 @@ pg.equip_data_statistics = {
 		26648,
 		26649,
 		26650,
+		26651,
+		26652,
+		26653,
 		26660,
 		26661,
 		26662,
@@ -93646,6 +120826,9 @@ pg.equip_data_statistics = {
 		26668,
 		26669,
 		26670,
+		26671,
+		26672,
+		26673,
 		27000,
 		27001,
 		27002,
@@ -93668,6 +120851,21 @@ pg.equip_data_statistics = {
 		27048,
 		27049,
 		27050,
+		27051,
+		27060,
+		27061,
+		27062,
+		27063,
+		27064,
+		27065,
+		27066,
+		27067,
+		27068,
+		27069,
+		27070,
+		27071,
+		27072,
+		27073,
 		27100,
 		27101,
 		27102,
@@ -93697,6 +120895,9 @@ pg.equip_data_statistics = {
 		27148,
 		27149,
 		27150,
+		27151,
+		27152,
+		27153,
 		27200,
 		27201,
 		27202,
@@ -93712,6 +120913,15 @@ pg.equip_data_statistics = {
 		27244,
 		27245,
 		27246,
+		27247,
+		27260,
+		27261,
+		27262,
+		27263,
+		27264,
+		27265,
+		27266,
+		27267,
 		27300,
 		27301,
 		27302,
@@ -93723,6 +120933,9 @@ pg.equip_data_statistics = {
 		27308,
 		27309,
 		27310,
+		27311,
+		27312,
+		27313,
 		27320,
 		27321,
 		27322,
@@ -93734,6 +120947,9 @@ pg.equip_data_statistics = {
 		27328,
 		27329,
 		27330,
+		27331,
+		27332,
+		27333,
 		28000,
 		28001,
 		28002,
@@ -93756,6 +120972,7 @@ pg.equip_data_statistics = {
 		28048,
 		28049,
 		28050,
+		28051,
 		28060,
 		28061,
 		28062,
@@ -93767,6 +120984,9 @@ pg.equip_data_statistics = {
 		28068,
 		28069,
 		28070,
+		28071,
+		28072,
+		28073,
 		28100,
 		28101,
 		28102,
@@ -93796,6 +121016,9 @@ pg.equip_data_statistics = {
 		28148,
 		28149,
 		28150,
+		28151,
+		28152,
+		28153,
 		28200,
 		28201,
 		28202,
@@ -93807,6 +121030,23 @@ pg.equip_data_statistics = {
 		28208,
 		28209,
 		28210,
+		28211,
+		28212,
+		28213,
+		28220,
+		28221,
+		28222,
+		28223,
+		28224,
+		28225,
+		28226,
+		28227,
+		28228,
+		28229,
+		28230,
+		28231,
+		28232,
+		28233,
 		28300,
 		28301,
 		28302,
@@ -93829,6 +121069,21 @@ pg.equip_data_statistics = {
 		28348,
 		28349,
 		28350,
+		28351,
+		28400,
+		28401,
+		28402,
+		28403,
+		28404,
+		28405,
+		28406,
+		28407,
+		28408,
+		28409,
+		28410,
+		28411,
+		28412,
+		28413,
 		29000,
 		29001,
 		29002,
@@ -93844,6 +121099,7 @@ pg.equip_data_statistics = {
 		29044,
 		29045,
 		29046,
+		29047,
 		29100,
 		29101,
 		29102,
@@ -93866,6 +121122,7 @@ pg.equip_data_statistics = {
 		29148,
 		29149,
 		29150,
+		29151,
 		29200,
 		29201,
 		29202,
@@ -93877,6 +121134,9 @@ pg.equip_data_statistics = {
 		29208,
 		29209,
 		29210,
+		29211,
+		29212,
+		29213,
 		29300,
 		29301,
 		29302,
@@ -93888,6 +121148,9 @@ pg.equip_data_statistics = {
 		29308,
 		29309,
 		29310,
+		29311,
+		29312,
+		29313,
 		30000,
 		30001,
 		30002,
@@ -93895,6 +121158,7 @@ pg.equip_data_statistics = {
 		30004,
 		30005,
 		30006,
+		30007,
 		31000,
 		31001,
 		31002,
@@ -93924,6 +121188,21 @@ pg.equip_data_statistics = {
 		31048,
 		31049,
 		31050,
+		31051,
+		31052,
+		31053,
+		31060,
+		31061,
+		31062,
+		31063,
+		31064,
+		31065,
+		31066,
+		31067,
+		31068,
+		31069,
+		31070,
+		31071,
 		31100,
 		31101,
 		31102,
@@ -93939,6 +121218,27 @@ pg.equip_data_statistics = {
 		31144,
 		31145,
 		31146,
+		31147,
+		31160,
+		31161,
+		31162,
+		31163,
+		31164,
+		31165,
+		31166,
+		31167,
+		31180,
+		31181,
+		31182,
+		31183,
+		31184,
+		31185,
+		31186,
+		31187,
+		31188,
+		31189,
+		31190,
+		31191,
 		31200,
 		31201,
 		31202,
@@ -93961,6 +121261,27 @@ pg.equip_data_statistics = {
 		31248,
 		31249,
 		31250,
+		31251,
+		31260,
+		31261,
+		31262,
+		31263,
+		31264,
+		31265,
+		31266,
+		31267,
+		31280,
+		31281,
+		31282,
+		31283,
+		31284,
+		31285,
+		31286,
+		31287,
+		31288,
+		31289,
+		31290,
+		31291,
 		32000,
 		32001,
 		32002,
@@ -93976,6 +121297,15 @@ pg.equip_data_statistics = {
 		32044,
 		32045,
 		32046,
+		32047,
+		32060,
+		32061,
+		32062,
+		32063,
+		32064,
+		32065,
+		32066,
+		32067,
 		32100,
 		32101,
 		32102,
@@ -93998,6 +121328,7 @@ pg.equip_data_statistics = {
 		32148,
 		32149,
 		32150,
+		32151,
 		32200,
 		32201,
 		32202,
@@ -94027,6 +121358,9 @@ pg.equip_data_statistics = {
 		32248,
 		32249,
 		32250,
+		32251,
+		32252,
+		32253,
 		32300,
 		32301,
 		32302,
@@ -94049,6 +121383,7 @@ pg.equip_data_statistics = {
 		32348,
 		32349,
 		32350,
+		32351,
 		33000,
 		33001,
 		33002,
@@ -94071,6 +121406,7 @@ pg.equip_data_statistics = {
 		33048,
 		33049,
 		33050,
+		33051,
 		33060,
 		33061,
 		33062,
@@ -94082,6 +121418,21 @@ pg.equip_data_statistics = {
 		33068,
 		33069,
 		33070,
+		33071,
+		33072,
+		33073,
+		33080,
+		33081,
+		33082,
+		33083,
+		33084,
+		33085,
+		33086,
+		33087,
+		33088,
+		33089,
+		33090,
+		33091,
 		33100,
 		33101,
 		33102,
@@ -94093,6 +121444,9 @@ pg.equip_data_statistics = {
 		33108,
 		33109,
 		33110,
+		33111,
+		33112,
+		33113,
 		34000,
 		34001,
 		34002,
@@ -94108,6 +121462,15 @@ pg.equip_data_statistics = {
 		34044,
 		34045,
 		34046,
+		34047,
+		34060,
+		34061,
+		34062,
+		34063,
+		34064,
+		34065,
+		34066,
+		34067,
 		34100,
 		34101,
 		34102,
@@ -94130,6 +121493,7 @@ pg.equip_data_statistics = {
 		34148,
 		34149,
 		34150,
+		34151,
 		34160,
 		34161,
 		34162,
@@ -94141,6 +121505,9 @@ pg.equip_data_statistics = {
 		34168,
 		34169,
 		34170,
+		34171,
+		34172,
+		34173,
 		34180,
 		34181,
 		34182,
@@ -94152,6 +121519,9 @@ pg.equip_data_statistics = {
 		34188,
 		34189,
 		34190,
+		34191,
+		34192,
+		34193,
 		34200,
 		34201,
 		34202,
@@ -94185,6 +121555,21 @@ pg.equip_data_statistics = {
 		34248,
 		34249,
 		34250,
+		34251,
+		34252,
+		34253,
+		34300,
+		34301,
+		34302,
+		34303,
+		34304,
+		34305,
+		34306,
+		34307,
+		34308,
+		34309,
+		34310,
+		34311,
 		35000,
 		35001,
 		35002,
@@ -94200,6 +121585,7 @@ pg.equip_data_statistics = {
 		35044,
 		35045,
 		35046,
+		35047,
 		35100,
 		35101,
 		35102,
@@ -94222,6 +121608,19 @@ pg.equip_data_statistics = {
 		35148,
 		35149,
 		35150,
+		35151,
+		35160,
+		35161,
+		35162,
+		35163,
+		35164,
+		35165,
+		35166,
+		35167,
+		35168,
+		35169,
+		35170,
+		35171,
 		35200,
 		35201,
 		35202,
@@ -94251,6 +121650,23 @@ pg.equip_data_statistics = {
 		35248,
 		35249,
 		35250,
+		35251,
+		35252,
+		35253,
+		35260,
+		35261,
+		35262,
+		35263,
+		35264,
+		35265,
+		35266,
+		35267,
+		35268,
+		35269,
+		35270,
+		35271,
+		35272,
+		35273,
 		35300,
 		35301,
 		35302,
@@ -94284,6 +121700,9 @@ pg.equip_data_statistics = {
 		35348,
 		35349,
 		35350,
+		35351,
+		35352,
+		35353,
 		35400,
 		35401,
 		35402,
@@ -94306,6 +121725,19 @@ pg.equip_data_statistics = {
 		35448,
 		35449,
 		35450,
+		35451,
+		35460,
+		35461,
+		35462,
+		35463,
+		35464,
+		35465,
+		35466,
+		35467,
+		35468,
+		35469,
+		35470,
+		35471,
 		35500,
 		35501,
 		35502,
@@ -94335,6 +121767,23 @@ pg.equip_data_statistics = {
 		35548,
 		35549,
 		35550,
+		35551,
+		35552,
+		35553,
+		35560,
+		35561,
+		35562,
+		35563,
+		35564,
+		35565,
+		35566,
+		35567,
+		35568,
+		35569,
+		35570,
+		35571,
+		35572,
+		35573,
 		36100,
 		36101,
 		36102,
@@ -94350,6 +121799,7 @@ pg.equip_data_statistics = {
 		36144,
 		36145,
 		36146,
+		36147,
 		36200,
 		36201,
 		36202,
@@ -94372,6 +121822,7 @@ pg.equip_data_statistics = {
 		36248,
 		36249,
 		36250,
+		36251,
 		36300,
 		36301,
 		36302,
@@ -94394,6 +121845,21 @@ pg.equip_data_statistics = {
 		36348,
 		36349,
 		36350,
+		36351,
+		36360,
+		36361,
+		36362,
+		36363,
+		36364,
+		36365,
+		36366,
+		36367,
+		36368,
+		36369,
+		36370,
+		36371,
+		36372,
+		36373,
 		36400,
 		36401,
 		36402,
@@ -94416,6 +121882,7 @@ pg.equip_data_statistics = {
 		36448,
 		36449,
 		36450,
+		36451,
 		36500,
 		36501,
 		36502,
@@ -94438,6 +121905,7 @@ pg.equip_data_statistics = {
 		36548,
 		36549,
 		36550,
+		36551,
 		36560,
 		36561,
 		36562,
@@ -94449,6 +121917,21 @@ pg.equip_data_statistics = {
 		36568,
 		36569,
 		36570,
+		36571,
+		36572,
+		36573,
+		36580,
+		36581,
+		36582,
+		36583,
+		36584,
+		36585,
+		36586,
+		36587,
+		36588,
+		36589,
+		36590,
+		36591,
 		36600,
 		36601,
 		36602,
@@ -94471,6 +121954,21 @@ pg.equip_data_statistics = {
 		36648,
 		36649,
 		36650,
+		36651,
+		36660,
+		36661,
+		36662,
+		36663,
+		36664,
+		36665,
+		36666,
+		36667,
+		36668,
+		36669,
+		36670,
+		36671,
+		36672,
+		36673,
 		36700,
 		36701,
 		36702,
@@ -94482,6 +121980,9 @@ pg.equip_data_statistics = {
 		36708,
 		36709,
 		36710,
+		36711,
+		36712,
+		36713,
 		37000,
 		37001,
 		37002,
@@ -94497,6 +121998,7 @@ pg.equip_data_statistics = {
 		37044,
 		37045,
 		37046,
+		37047,
 		37100,
 		37101,
 		37102,
@@ -94519,6 +122021,19 @@ pg.equip_data_statistics = {
 		37148,
 		37149,
 		37150,
+		37151,
+		37160,
+		37161,
+		37162,
+		37163,
+		37164,
+		37165,
+		37166,
+		37167,
+		37168,
+		37169,
+		37170,
+		37171,
 		37200,
 		37201,
 		37202,
@@ -94548,6 +122063,9 @@ pg.equip_data_statistics = {
 		37248,
 		37249,
 		37250,
+		37251,
+		37252,
+		37253,
 		37300,
 		37301,
 		37302,
@@ -94577,6 +122095,47 @@ pg.equip_data_statistics = {
 		37348,
 		37349,
 		37350,
+		37351,
+		37352,
+		37353,
+		37400,
+		37401,
+		37402,
+		37403,
+		37404,
+		37405,
+		37406,
+		37407,
+		37408,
+		37409,
+		37410,
+		37411,
+		37412,
+		37413,
+		37420,
+		37421,
+		37422,
+		37423,
+		37424,
+		37425,
+		37426,
+		37427,
+		37428,
+		37429,
+		37430,
+		37431,
+		37440,
+		37441,
+		37442,
+		37443,
+		37444,
+		37445,
+		37446,
+		37447,
+		37448,
+		37449,
+		37450,
+		37451,
 		38000,
 		38001,
 		38002,
@@ -94592,6 +122151,15 @@ pg.equip_data_statistics = {
 		38044,
 		38045,
 		38046,
+		38047,
+		38060,
+		38061,
+		38062,
+		38063,
+		38064,
+		38065,
+		38066,
+		38067,
 		38100,
 		38101,
 		38102,
@@ -94614,6 +122182,19 @@ pg.equip_data_statistics = {
 		38148,
 		38149,
 		38150,
+		38151,
+		38160,
+		38161,
+		38162,
+		38163,
+		38164,
+		38165,
+		38166,
+		38167,
+		38168,
+		38169,
+		38170,
+		38171,
 		38200,
 		38201,
 		38202,
@@ -94643,6 +122224,9 @@ pg.equip_data_statistics = {
 		38248,
 		38249,
 		38250,
+		38251,
+		38252,
+		38253,
 		39000,
 		39001,
 		39002,
@@ -94665,6 +122249,19 @@ pg.equip_data_statistics = {
 		39048,
 		39049,
 		39050,
+		39051,
+		39060,
+		39061,
+		39062,
+		39063,
+		39064,
+		39065,
+		39066,
+		39067,
+		39068,
+		39069,
+		39070,
+		39071,
 		39100,
 		39101,
 		39102,
@@ -94694,6 +122291,23 @@ pg.equip_data_statistics = {
 		39148,
 		39149,
 		39150,
+		39151,
+		39152,
+		39153,
+		39160,
+		39161,
+		39162,
+		39163,
+		39164,
+		39165,
+		39166,
+		39167,
+		39168,
+		39169,
+		39170,
+		39171,
+		39172,
+		39173,
 		39200,
 		39201,
 		39202,
@@ -94716,6 +122330,7 @@ pg.equip_data_statistics = {
 		39248,
 		39249,
 		39250,
+		39251,
 		39300,
 		39301,
 		39302,
@@ -94727,6 +122342,21 @@ pg.equip_data_statistics = {
 		39308,
 		39309,
 		39310,
+		39311,
+		39320,
+		39321,
+		39322,
+		39323,
+		39324,
+		39325,
+		39326,
+		39327,
+		39328,
+		39329,
+		39330,
+		39331,
+		39332,
+		39333,
 		41000,
 		41001,
 		41002,
@@ -94742,6 +122372,19 @@ pg.equip_data_statistics = {
 		41044,
 		41045,
 		41046,
+		41047,
+		41060,
+		41061,
+		41062,
+		41063,
+		41064,
+		41065,
+		41066,
+		41067,
+		41068,
+		41069,
+		41070,
+		41071,
 		41100,
 		41101,
 		41102,
@@ -94764,6 +122407,21 @@ pg.equip_data_statistics = {
 		41148,
 		41149,
 		41150,
+		41151,
+		41160,
+		41161,
+		41162,
+		41163,
+		41164,
+		41165,
+		41166,
+		41167,
+		41168,
+		41169,
+		41170,
+		41171,
+		41172,
+		41173,
 		42000,
 		42001,
 		42002,
@@ -94786,6 +122444,19 @@ pg.equip_data_statistics = {
 		42048,
 		42049,
 		42050,
+		42051,
+		42060,
+		42061,
+		42062,
+		42063,
+		42064,
+		42065,
+		42066,
+		42067,
+		42068,
+		42069,
+		42070,
+		42071,
 		42100,
 		42101,
 		42102,
@@ -94808,6 +122479,7 @@ pg.equip_data_statistics = {
 		42148,
 		42149,
 		42150,
+		42151,
 		42200,
 		42201,
 		42202,
@@ -94830,10 +122502,23 @@ pg.equip_data_statistics = {
 		42248,
 		42249,
 		42250,
+		42251,
 		42300,
 		42301,
 		42302,
 		42303,
+		42340,
+		42341,
+		42342,
+		42343,
+		42344,
+		42345,
+		42346,
+		42347,
+		42348,
+		42349,
+		42350,
+		42351,
 		43000,
 		43001,
 		43002,
@@ -94863,6 +122548,9 @@ pg.equip_data_statistics = {
 		43048,
 		43049,
 		43050,
+		43051,
+		43052,
+		43053,
 		43060,
 		43061,
 		43062,
@@ -94874,6 +122562,9 @@ pg.equip_data_statistics = {
 		43068,
 		43069,
 		43070,
+		43071,
+		43072,
+		43073,
 		43100,
 		43101,
 		43102,
@@ -94896,6 +122587,7 @@ pg.equip_data_statistics = {
 		43148,
 		43149,
 		43150,
+		43151,
 		44000,
 		44001,
 		44002,
@@ -94918,6 +122610,7 @@ pg.equip_data_statistics = {
 		44048,
 		44049,
 		44050,
+		44051,
 		44100,
 		44101,
 		44102,
@@ -94947,6 +122640,9 @@ pg.equip_data_statistics = {
 		44148,
 		44149,
 		44150,
+		44151,
+		44152,
+		44153,
 		44200,
 		44201,
 		44202,
@@ -94958,6 +122654,9 @@ pg.equip_data_statistics = {
 		44208,
 		44209,
 		44210,
+		44211,
+		44212,
+		44213,
 		44300,
 		44301,
 		44302,
@@ -94969,6 +122668,9 @@ pg.equip_data_statistics = {
 		44308,
 		44309,
 		44310,
+		44311,
+		44312,
+		44313,
 		45000,
 		45001,
 		45002,
@@ -94991,6 +122693,7 @@ pg.equip_data_statistics = {
 		45048,
 		45049,
 		45050,
+		45051,
 		45100,
 		45101,
 		45102,
@@ -95020,6 +122723,9 @@ pg.equip_data_statistics = {
 		45148,
 		45149,
 		45150,
+		45151,
+		45152,
+		45153,
 		45200,
 		45201,
 		45202,
@@ -95053,6 +122759,9 @@ pg.equip_data_statistics = {
 		45248,
 		45249,
 		45250,
+		45251,
+		45252,
+		45253,
 		45300,
 		45301,
 		45302,
@@ -95075,6 +122784,7 @@ pg.equip_data_statistics = {
 		45348,
 		45349,
 		45350,
+		45351,
 		45400,
 		45401,
 		45402,
@@ -95104,6 +122814,9 @@ pg.equip_data_statistics = {
 		45448,
 		45449,
 		45450,
+		45451,
+		45452,
+		45453,
 		46000,
 		46001,
 		46002,
@@ -95119,6 +122832,19 @@ pg.equip_data_statistics = {
 		46044,
 		46045,
 		46046,
+		46047,
+		46060,
+		46061,
+		46062,
+		46063,
+		46064,
+		46065,
+		46066,
+		46067,
+		46068,
+		46069,
+		46070,
+		46071,
 		46100,
 		46101,
 		46102,
@@ -95134,6 +122860,7 @@ pg.equip_data_statistics = {
 		46144,
 		46145,
 		46146,
+		46147,
 		46200,
 		46201,
 		46202,
@@ -95156,6 +122883,19 @@ pg.equip_data_statistics = {
 		46248,
 		46249,
 		46250,
+		46251,
+		46260,
+		46261,
+		46262,
+		46263,
+		46264,
+		46265,
+		46266,
+		46267,
+		46268,
+		46269,
+		46270,
+		46271,
 		46300,
 		46301,
 		46302,
@@ -95185,6 +122925,23 @@ pg.equip_data_statistics = {
 		46348,
 		46349,
 		46350,
+		46351,
+		46352,
+		46353,
+		46360,
+		46361,
+		46362,
+		46363,
+		46364,
+		46365,
+		46366,
+		46367,
+		46368,
+		46369,
+		46370,
+		46371,
+		46372,
+		46373,
 		47000,
 		47001,
 		47002,
@@ -95207,6 +122964,27 @@ pg.equip_data_statistics = {
 		47048,
 		47049,
 		47050,
+		47051,
+		47060,
+		47061,
+		47062,
+		47063,
+		47064,
+		47065,
+		47066,
+		47067,
+		47080,
+		47081,
+		47082,
+		47083,
+		47084,
+		47085,
+		47086,
+		47087,
+		47088,
+		47089,
+		47090,
+		47091,
 		47100,
 		47101,
 		47102,
@@ -95236,6 +123014,43 @@ pg.equip_data_statistics = {
 		47148,
 		47149,
 		47150,
+		47151,
+		47152,
+		47153,
+		48000,
+		48001,
+		48002,
+		48003,
+		48004,
+		48005,
+		48006,
+		48007,
+		48020,
+		48021,
+		48022,
+		48023,
+		48024,
+		48025,
+		48026,
+		48027,
+		48028,
+		48029,
+		48030,
+		48031,
+		48040,
+		48041,
+		48042,
+		48043,
+		48044,
+		48045,
+		48046,
+		48047,
+		48048,
+		48049,
+		48050,
+		48051,
+		48052,
+		48053,
 		49000,
 		49001,
 		49002,
@@ -95258,6 +123073,15 @@ pg.equip_data_statistics = {
 		49048,
 		49049,
 		49050,
+		49051,
+		49060,
+		49061,
+		49062,
+		49063,
+		49064,
+		49065,
+		49066,
+		49067,
 		54010,
 		54011,
 		54012,
@@ -95422,6 +123246,21 @@ pg.equip_data_statistics = {
 		60531,
 		60532,
 		60533,
+		60541,
+		60542,
+		60543,
+		60551,
+		60552,
+		60553,
+		60561,
+		60562,
+		60563,
+		60591,
+		60592,
+		60593,
+		60601,
+		60602,
+		60603,
 		61007,
 		61008,
 		61009,
@@ -95576,6 +123415,8 @@ pg.equip_data_statistics = {
 		72262,
 		72311,
 		72312,
+		72411,
+		72412,
 		73011,
 		73012,
 		73031,
@@ -95592,6 +123433,8 @@ pg.equip_data_statistics = {
 		73212,
 		73221,
 		73222,
+		73231,
+		73232,
 		73311,
 		73312,
 		73321,
@@ -95744,6 +123587,22 @@ pg.equip_data_statistics = {
 		79582,
 		79591,
 		79592,
+		79601,
+		79602,
+		79611,
+		79612,
+		79621,
+		79622,
+		79631,
+		79632,
+		79641,
+		79642,
+		79651,
+		79652,
+		79661,
+		79662,
+		79671,
+		79672,
 		85000,
 		85001,
 		85002,
@@ -95762,6 +123621,9 @@ pg.equip_data_statistics = {
 		85048,
 		85049,
 		85050,
+		85051,
+		85052,
+		85053,
 		85060,
 		85061,
 		85062,
@@ -95798,6 +123660,9 @@ pg.equip_data_statistics = {
 		85168,
 		85169,
 		85170,
+		85171,
+		85172,
+		85173,
 		85180,
 		85181,
 		85182,
@@ -95820,6 +123685,7 @@ pg.equip_data_statistics = {
 		85228,
 		85229,
 		85230,
+		85231,
 		85260,
 		85261,
 		85262,
@@ -95838,6 +123704,7 @@ pg.equip_data_statistics = {
 		85288,
 		85289,
 		85290,
+		85291,
 		85300,
 		85301,
 		85302,
@@ -95878,6 +123745,7 @@ pg.equip_data_statistics = {
 		85408,
 		85409,
 		85410,
+		85411,
 		85420,
 		85421,
 		85422,
@@ -95885,6 +123753,7 @@ pg.equip_data_statistics = {
 		85424,
 		85425,
 		85426,
+		85427,
 		85440,
 		85441,
 		85442,
@@ -95892,6 +123761,7 @@ pg.equip_data_statistics = {
 		85444,
 		85445,
 		85446,
+		85447,
 		89000,
 		89001,
 		89002,
@@ -95903,6 +123773,9 @@ pg.equip_data_statistics = {
 		89008,
 		89009,
 		89010,
+		89011,
+		89012,
+		89013,
 		89020,
 		89021,
 		89022,
@@ -95914,6 +123787,9 @@ pg.equip_data_statistics = {
 		89028,
 		89029,
 		89030,
+		89031,
+		89032,
+		89033,
 		89040,
 		89041,
 		89042,
@@ -95925,6 +123801,9 @@ pg.equip_data_statistics = {
 		89048,
 		89049,
 		89050,
+		89051,
+		89052,
+		89053,
 		89060,
 		89061,
 		89062,
@@ -95936,6 +123815,9 @@ pg.equip_data_statistics = {
 		89068,
 		89069,
 		89070,
+		89071,
+		89072,
+		89073,
 		89080,
 		89081,
 		89082,
@@ -95947,6 +123829,9 @@ pg.equip_data_statistics = {
 		89088,
 		89089,
 		89090,
+		89091,
+		89092,
+		89093,
 		89100,
 		89101,
 		89102,
@@ -95958,6 +123843,9 @@ pg.equip_data_statistics = {
 		89108,
 		89109,
 		89110,
+		89111,
+		89112,
+		89113,
 		89120,
 		89121,
 		89122,
@@ -95969,6 +123857,107 @@ pg.equip_data_statistics = {
 		89128,
 		89129,
 		89130,
+		89131,
+		89132,
+		89133,
+		89140,
+		89141,
+		89142,
+		89143,
+		89144,
+		89145,
+		89146,
+		89147,
+		89148,
+		89149,
+		89150,
+		89151,
+		89152,
+		89153,
+		89160,
+		89161,
+		89162,
+		89163,
+		89164,
+		89165,
+		89166,
+		89167,
+		89168,
+		89169,
+		89170,
+		89171,
+		89172,
+		89173,
+		89180,
+		89181,
+		89182,
+		89183,
+		89184,
+		89185,
+		89186,
+		89187,
+		89188,
+		89189,
+		89190,
+		89191,
+		89192,
+		89193,
+		89200,
+		89201,
+		89202,
+		89203,
+		89204,
+		89205,
+		89206,
+		89207,
+		89208,
+		89209,
+		89210,
+		89211,
+		89212,
+		89213,
+		89220,
+		89221,
+		89222,
+		89223,
+		89224,
+		89225,
+		89226,
+		89227,
+		89228,
+		89229,
+		89230,
+		89231,
+		89232,
+		89233,
+		89240,
+		89241,
+		89242,
+		89243,
+		89244,
+		89245,
+		89246,
+		89247,
+		89248,
+		89249,
+		89250,
+		89251,
+		89252,
+		89253,
+		89260,
+		89261,
+		89262,
+		89263,
+		89264,
+		89265,
+		89266,
+		89267,
+		89268,
+		89269,
+		89270,
+		89271,
+		89272,
+		89273,
 		90000,
 		90001,
 		90002,
@@ -95984,6 +123973,7 @@ pg.equip_data_statistics = {
 		90044,
 		90045,
 		90046,
+		90047,
 		90100,
 		90101,
 		90102,
@@ -96013,6 +124003,9 @@ pg.equip_data_statistics = {
 		90148,
 		90149,
 		90150,
+		90151,
+		90152,
+		90153,
 		90200,
 		90201,
 		90202,
@@ -96028,6 +124021,7 @@ pg.equip_data_statistics = {
 		90244,
 		90245,
 		90246,
+		90247,
 		90300,
 		90301,
 		90302,
@@ -96050,6 +124044,7 @@ pg.equip_data_statistics = {
 		90348,
 		90349,
 		90350,
+		90351,
 		90400,
 		90401,
 		90402,
@@ -96079,6 +124074,9 @@ pg.equip_data_statistics = {
 		90448,
 		90449,
 		90450,
+		90451,
+		90452,
+		90453,
 		90500,
 		90501,
 		90502,
@@ -96094,6 +124092,9 @@ pg.equip_data_statistics = {
 		90608,
 		90609,
 		90610,
+		90611,
+		90612,
+		90613,
 		90700,
 		90701,
 		90702,
@@ -96116,6 +124117,7 @@ pg.equip_data_statistics = {
 		90748,
 		90749,
 		90750,
+		90751,
 		90780,
 		90781,
 		90782,
@@ -96123,6 +124125,7 @@ pg.equip_data_statistics = {
 		90784,
 		90785,
 		90786,
+		90787,
 		90800,
 		90801,
 		90802,
@@ -96130,6 +124133,7 @@ pg.equip_data_statistics = {
 		90804,
 		90805,
 		90806,
+		90807,
 		90820,
 		90821,
 		90822,
@@ -96137,6 +124141,7 @@ pg.equip_data_statistics = {
 		90824,
 		90825,
 		90826,
+		90827,
 		90840,
 		90841,
 		90842,
@@ -96144,6 +124149,7 @@ pg.equip_data_statistics = {
 		90844,
 		90845,
 		90846,
+		90847,
 		90860,
 		90861,
 		90862,
@@ -96173,6 +124179,9 @@ pg.equip_data_statistics = {
 		90908,
 		90909,
 		90910,
+		90911,
+		90912,
+		90913,
 		91000,
 		91001,
 		91002,
@@ -96184,6 +124193,9 @@ pg.equip_data_statistics = {
 		91008,
 		91009,
 		91010,
+		91011,
+		91012,
+		91013,
 		95000,
 		95001,
 		95002,
@@ -96213,6 +124225,9 @@ pg.equip_data_statistics = {
 		95048,
 		95049,
 		95050,
+		95051,
+		95052,
+		95053,
 		95100,
 		95101,
 		95102,
@@ -96242,6 +124257,9 @@ pg.equip_data_statistics = {
 		95148,
 		95149,
 		95150,
+		95151,
+		95152,
+		95153,
 		95200,
 		95201,
 		95202,
@@ -96271,6 +124289,9 @@ pg.equip_data_statistics = {
 		95248,
 		95249,
 		95250,
+		95251,
+		95252,
+		95253,
 		95300,
 		95301,
 		95302,
@@ -96293,6 +124314,7 @@ pg.equip_data_statistics = {
 		95348,
 		95349,
 		95350,
+		95351,
 		95400,
 		95401,
 		95402,
@@ -96315,6 +124337,7 @@ pg.equip_data_statistics = {
 		95448,
 		95449,
 		95450,
+		95451,
 		95460,
 		95461,
 		95462,
@@ -96322,6 +124345,7 @@ pg.equip_data_statistics = {
 		95464,
 		95465,
 		95466,
+		95467,
 		95480,
 		95481,
 		95482,
@@ -96329,6 +124353,7 @@ pg.equip_data_statistics = {
 		95484,
 		95485,
 		95486,
+		95487,
 		95500,
 		95501,
 		95502,
@@ -96351,6 +124376,7 @@ pg.equip_data_statistics = {
 		95548,
 		95549,
 		95550,
+		95551,
 		100000,
 		594017,
 		594018,
@@ -96370,6 +124396,28 @@ pg.equip_data_statistics = {
 		800006,
 		800007,
 		800008,
-		800009
+		800009,
+		960001,
+		960002,
+		960003,
+		960004,
+		960005,
+		960006,
+		960007,
+		960008,
+		960009,
+		960010,
+		960011,
+		960012,
+		960013,
+		960014,
+		960015,
+		960016,
+		960017,
+		960018,
+		960019,
+		960020,
+		960021,
+		960022
 	}
 }

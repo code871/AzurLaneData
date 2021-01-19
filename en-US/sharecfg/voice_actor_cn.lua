@@ -967,5 +967,73 @@ pg.voice_actor_CN = {
 	{
 		actor_name = "Hiroko Taguchi",
 		code = 242
+	},
+	{
+		actor_name = "Reina Kondo",
+		code = 243
+	},
+	{
+		actor_name = "Sekine Hitomi",
+		code = 244
+	},
+	{
+		actor_name = "Koiwai Kotori",
+		code = 245
+	},
+	{
+		actor_name = "Mayu Mineda",
+		code = 246
+	},
+	{
+		actor_name = "Amano Satomi",
+		code = 247
+	},
+	{
+		actor_name = "Haruka Chisuga ",
+		code = 248
+	},
+	{
+		actor_name = "Yukina Shiomi ",
+		code = 249
+	},
+	{
+		actor_name = "Houko Kuwashima ",
+		code = 250
+	},
+	{
+		actor_name = "Ai Nonaka  ",
+		code = 251
+	},
+	{
+		actor_name = "Mai Aizawa ",
+		code = 252
+	},
+	{
+		actor_name = "Akemi Sato",
+		code = 253
+	},
+	{
+		actor_name = "Hara Yumi ",
+		code = 254
+	},
+	{
+		actor_name = "Nitta Hiyori ",
+		code = 255
+	},
+	{
+		actor_name = "Nanase Ayaka ",
+		code = 256
+	},
+	{
+		actor_name = "Kimura Chisa ",
+		code = 257
+	},
+	{
+		actor_name = "Tono Hikaru ",
+		code = 258
+	},
+	{
+		actor_name = "Nishimoto Rimi",
+		code = 259
 	}
 }

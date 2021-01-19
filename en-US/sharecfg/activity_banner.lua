@@ -1,16 +1,16 @@
 pg = pg or {}
 pg.activity_banner = {
 	{
-		param = "30499",
+		param = "841",
 		type = 3,
 		id = 1,
 		pic = "temp1",
 		time = {
 			{
 				{
-					2020,
-					9,
-					3
+					2021,
+					1,
+					12
 				},
 				{
 					0,
@@ -20,41 +20,9 @@ pg.activity_banner = {
 			},
 			{
 				{
-					2020,
-					9,
-					16
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	{
-		param = "30701",
-		type = 3,
-		id = 2,
-		pic = "temp2",
-		time = {
-			{
-				{
-					2020,
-					9,
-					3
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					9,
-					16
+					2021,
+					2,
+					10
 				},
 				{
 					23,
@@ -66,20 +34,18 @@ pg.activity_banner = {
 	},
 	{
 		type = 2,
-		id = 3,
-		pic = "temp3",
+		id = 2,
+		pic = "temp5",
 		param = {
-			"scene get boat",
-			{
-				projectName = "light"
-			}
+			"scene skinshop",
+			{}
 		},
 		time = {
 			{
 				{
-					2020,
-					9,
-					3
+					2021,
+					1,
+					12
 				},
 				{
 					0,
@@ -89,9 +55,41 @@ pg.activity_banner = {
 			},
 			{
 				{
-					2020,
-					9,
-					16
+					2021,
+					1,
+					25
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		param = "588",
+		type = 3,
+		id = 3,
+		pic = "temp6",
+		time = {
+			{
+				{
+					2021,
+					1,
+					12
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					1,
+					25
 				},
 				{
 					23,
@@ -106,15 +104,14 @@ pg.activity_banner = {
 		id = 4,
 		pic = "temp7",
 		param = {
-			"scene skinshop",
-			{}
+			"scene back yard"
 		},
 		time = {
 			{
 				{
-					2020,
-					8,
-					27
+					2021,
+					1,
+					12
 				},
 				{
 					0,
@@ -124,9 +121,9 @@ pg.activity_banner = {
 			},
 			{
 				{
-					2020,
-					9,
-					9
+					2021,
+					1,
+					25
 				},
 				{
 					23,
@@ -137,18 +134,16 @@ pg.activity_banner = {
 		}
 	},
 	{
-		type = 2,
+		param = "813",
+		type = 3,
 		id = 5,
-		pic = "temp6",
-		param = {
-			"scene back yard"
-		},
+		pic = "temp3",
 		time = {
 			{
 				{
-					2020,
-					8,
-					27
+					2021,
+					1,
+					12
 				},
 				{
 					0,
@@ -158,9 +153,9 @@ pg.activity_banner = {
 			},
 			{
 				{
-					2020,
-					9,
-					9
+					2021,
+					1,
+					20
 				},
 				{
 					23,

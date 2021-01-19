@@ -1632,7 +1632,8 @@ pg.commander_ability_template = {
 				{},
 				{
 					12,
-					13
+					13,
+					19
 				},
 				6,
 				3
@@ -1664,7 +1665,8 @@ pg.commander_ability_template = {
 				{},
 				{
 					12,
-					13
+					13,
+					19
 				},
 				6,
 				4
@@ -1696,7 +1698,8 @@ pg.commander_ability_template = {
 				{},
 				{
 					12,
-					13
+					13,
+					19
 				},
 				6,
 				6
@@ -2211,7 +2214,8 @@ pg.commander_ability_template = {
 				{},
 				{
 					12,
-					13
+					13,
+					19
 				},
 				1,
 				40
@@ -2243,7 +2247,8 @@ pg.commander_ability_template = {
 				{},
 				{
 					12,
-					13
+					13,
+					19
 				},
 				1,
 				56
@@ -2275,7 +2280,8 @@ pg.commander_ability_template = {
 				{},
 				{
 					12,
-					13
+					13,
+					19
 				},
 				1,
 				80
@@ -2682,7 +2688,8 @@ pg.commander_ability_template = {
 					3,
 					6,
 					12,
-					13
+					13,
+					19
 				},
 				9,
 				3
@@ -2729,7 +2736,8 @@ pg.commander_ability_template = {
 					3,
 					6,
 					12,
-					13
+					13,
+					19
 				},
 				9,
 				4
@@ -2776,7 +2784,8 @@ pg.commander_ability_template = {
 					3,
 					6,
 					12,
-					13
+					13,
+					19
 				},
 				9,
 				6
@@ -3635,7 +3644,7 @@ pg.commander_ability_template = {
 		name = "新人参謀·ユニオン",
 		group_id = 211,
 		worth = 1,
-		desc = "<color=#ffde38>ユニオン</color>の対空が8アップ、航空が8アップ、装填が3アップ",
+		desc = "<color=#3dc6ff>ユニオン</color>の対空が8アップ、航空が8アップ、装填が3アップ",
 		next = 2112,
 		id = 2111,
 		icon = "baiying_two_1",
@@ -3688,7 +3697,7 @@ pg.commander_ability_template = {
 		name = "熟練参謀·ユニオン",
 		group_id = 211,
 		worth = 2,
-		desc = "<color=#ffde38>ユニオン</color>の対空が11アップ、航空が11アップ、装填が4アップ",
+		desc = "<color=#3dc6ff>ユニオン</color>の対空が11アップ、航空が11アップ、装填が4アップ",
 		next = 2113,
 		id = 2112,
 		icon = "baiying_two_2",
@@ -3741,7 +3750,7 @@ pg.commander_ability_template = {
 		name = "歴戦参謀·ユニオン",
 		group_id = 211,
 		worth = 3,
-		desc = "<color=#ffde38>ユニオン</color>の対空が16アップ、航空が16アップ、装填が6アップ",
+		desc = "<color=#3dc6ff>ユニオン</color>の対空が16アップ、航空が16アップ、装填が6アップ",
 		next = 0,
 		id = 2113,
 		icon = "baiying_two_3",
@@ -3794,7 +3803,7 @@ pg.commander_ability_template = {
 		name = "新人参謀·ロイヤル",
 		group_id = 212,
 		worth = 1,
-		desc = "<color=#ffde38>ロイヤル</color>の火力が7アップ、対空が8アップ、回避が1アップ",
+		desc = "<color=#3dc6ff>ロイヤル</color>の火力が7アップ、対空が8アップ、回避が1アップ",
 		next = 2122,
 		id = 2121,
 		icon = "huangjia_two_1",
@@ -3847,7 +3856,7 @@ pg.commander_ability_template = {
 		name = "熟練参謀·ロイヤル",
 		group_id = 212,
 		worth = 2,
-		desc = "<color=#ffde38>ロイヤル</color>の火力が10アップ、対空が11アップ、回避が2アップ",
+		desc = "<color=#3dc6ff>ロイヤル</color>の火力が10アップ、対空が11アップ、回避が2アップ",
 		next = 2123,
 		id = 2122,
 		icon = "huangjia_two_2",
@@ -3900,7 +3909,7 @@ pg.commander_ability_template = {
 		name = "歴戦参謀·ロイヤル",
 		group_id = 212,
 		worth = 3,
-		desc = "<color=#ffde38>ロイヤル</color>の火力が14アップ、対空が16アップ、回避が3アップ",
+		desc = "<color=#3dc6ff>ロイヤル</color>の火力が14アップ、対空が16アップ、回避が3アップ",
 		next = 0,
 		id = 2123,
 		icon = "huangjia_two_3",
@@ -3953,7 +3962,7 @@ pg.commander_ability_template = {
 		name = "新人参謀·重桜",
 		group_id = 213,
 		worth = 1,
-		desc = "<color=#ffde38>重桜</color>の雷装が8アップ、航空が6アップ、回避が1アップ",
+		desc = "<color=#3dc6ff>重桜</color>の雷装が8アップ、航空が6アップ、回避が1アップ",
 		next = 2132,
 		id = 2131,
 		icon = "chongying_two_1",
@@ -4006,7 +4015,7 @@ pg.commander_ability_template = {
 		name = "熟練参謀·重桜",
 		group_id = 213,
 		worth = 2,
-		desc = "<color=#ffde38>重桜</color>の雷装が11アップ、航空が8アップ、回避が2アップ",
+		desc = "<color=#3dc6ff>重桜</color>の雷装が11アップ、航空が8アップ、回避が2アップ",
 		next = 2133,
 		id = 2132,
 		icon = "chongying_two_2",
@@ -4059,7 +4068,7 @@ pg.commander_ability_template = {
 		name = "歴戦参謀·重桜",
 		group_id = 213,
 		worth = 3,
-		desc = "<color=#ffde38>重桜</color>の雷装が16アップ、航空が12アップ、回避が3アップ",
+		desc = "<color=#3dc6ff>重桜</color>の雷装が16アップ、航空が12アップ、回避が3アップ",
 		next = 0,
 		id = 2133,
 		icon = "chongying_two_3",
@@ -4112,7 +4121,7 @@ pg.commander_ability_template = {
 		name = "新人参謀·鉄血",
 		group_id = 214,
 		worth = 1,
-		desc = "<color=#ffde38>鉄血</color>の火力が6アップ、雷装が7アップ、命中が1アップ",
+		desc = "<color=#3dc6ff>鉄血</color>の火力が6アップ、雷装が7アップ、命中が1アップ",
 		next = 2142,
 		id = 2141,
 		icon = "tiexue_two_1",
@@ -4163,7 +4172,7 @@ pg.commander_ability_template = {
 		name = "熟練参謀·鉄血",
 		group_id = 214,
 		worth = 2,
-		desc = "<color=#ffde38>鉄血</color>の火力が8アップ、雷装が10アップ、命中が2アップ",
+		desc = "<color=#3dc6ff>鉄血</color>の火力が8アップ、雷装が10アップ、命中が2アップ",
 		next = 2143,
 		id = 2142,
 		icon = "tiexue_two_2",
@@ -4214,7 +4223,7 @@ pg.commander_ability_template = {
 		name = "歴戦参謀·鉄血",
 		group_id = 214,
 		worth = 3,
-		desc = "<color=#ffde38>鉄血</color>の火力が12アップ、雷装が14アップ、命中が3アップ",
+		desc = "<color=#3dc6ff>鉄血</color>の火力が12アップ、雷装が14アップ、命中が3アップ",
 		next = 0,
 		id = 2143,
 		icon = "tiexue_two_3",
@@ -4265,7 +4274,7 @@ pg.commander_ability_template = {
 		name = "新人参謀·東煌",
 		group_id = 215,
 		worth = 1,
-		desc = "<color=#ffde38>東煌</color>の火力が7アップ、対空が8アップ、装填が3アップ",
+		desc = "<color=#3dc6ff>東煌</color>の火力が7アップ、対空が8アップ、装填が3アップ",
 		next = 2152,
 		id = 2151,
 		icon = "",
@@ -4318,7 +4327,7 @@ pg.commander_ability_template = {
 		name = "熟練参謀·東煌",
 		group_id = 215,
 		worth = 2,
-		desc = "<color=#ffde38>東煌</color>の火力が10アップ、対空が11アップ、装填が4アップ",
+		desc = "<color=#3dc6ff>東煌</color>の火力が10アップ、対空が11アップ、装填が4アップ",
 		next = 2153,
 		id = 2152,
 		icon = "",
@@ -4371,7 +4380,7 @@ pg.commander_ability_template = {
 		name = "歴戦参謀·東煌",
 		group_id = 215,
 		worth = 3,
-		desc = "<color=#ffde38>東煌</color>の火力が14アップ、対空が16アップ、装填が6アップ",
+		desc = "<color=#3dc6ff>東煌</color>の火力が14アップ、対空が16アップ、装填が6アップ",
 		next = 0,
 		id = 2153,
 		icon = "",
@@ -4424,7 +4433,7 @@ pg.commander_ability_template = {
 		name = "新人参謀·北連",
 		group_id = 217,
 		worth = 1,
-		desc = "<color=#ffde38>北方連合</color>の火力が8アップ、装填が3アップ、命中が1アップ",
+		desc = "<color=#3dc6ff>北方連合</color>の火力が8アップ、装填が3アップ、命中が1アップ",
 		next = 2172,
 		id = 2171,
 		icon = "",
@@ -4477,7 +4486,7 @@ pg.commander_ability_template = {
 		name = "熟練参謀·北連",
 		group_id = 217,
 		worth = 2,
-		desc = "<color=#ffde38>北方連合</color>の火力が11アップ、装填が4アップ、命中が2アップ",
+		desc = "<color=#3dc6ff>北方連合</color>の火力が11アップ、装填が4アップ、命中が2アップ",
 		next = 2173,
 		id = 2172,
 		icon = "",
@@ -4530,7 +4539,7 @@ pg.commander_ability_template = {
 		name = "歴戦参謀·北連",
 		group_id = 217,
 		worth = 3,
-		desc = "<color=#ffde38>北方連合</color>の火力が16アップ、装填が6アップ、命中が3アップ",
+		desc = "<color=#3dc6ff>北方連合</color>の火力が16アップ、装填が6アップ、命中が3アップ",
 		next = 0,
 		id = 2173,
 		icon = "",
@@ -4583,7 +4592,7 @@ pg.commander_ability_template = {
 		name = "新人参謀·アイリス",
 		group_id = 218,
 		worth = 1,
-		desc = "<color=#ffde38>アイリス</color>の火力が8アップ、装填が3アップ、回避が2アップ",
+		desc = "<color=#3dc6ff>アイリス</color>の火力が8アップ、装填が3アップ、回避が2アップ",
 		next = 2182,
 		id = 2181,
 		icon = "",
@@ -4636,7 +4645,7 @@ pg.commander_ability_template = {
 		name = "熟練参謀·アイリス",
 		group_id = 218,
 		worth = 2,
-		desc = "<color=#ffde38>アイリス</color>の火力が11アップ、装填が4アップ、回避が3アップ",
+		desc = "<color=#3dc6ff>アイリス</color>の火力が11アップ、装填が4アップ、回避が3アップ",
 		next = 2183,
 		id = 2182,
 		icon = "",
@@ -4689,7 +4698,7 @@ pg.commander_ability_template = {
 		name = "歴戦参謀·アイリス",
 		group_id = 218,
 		worth = 3,
-		desc = "<color=#ffde38>アイリス</color>の火力が16アップ、装填が6アップ、回避が5アップ",
+		desc = "<color=#3dc6ff>アイリス</color>の火力が16アップ、装填が6アップ、回避が5アップ",
 		next = 0,
 		id = 2183,
 		icon = "",
@@ -4742,7 +4751,7 @@ pg.commander_ability_template = {
 		name = "新人参謀·ヴィシア",
 		group_id = 219,
 		worth = 1,
-		desc = "<color=#ffde38>ヴィシア</color>の火力が8アップ、装填が3アップ、命中が2アップ",
+		desc = "<color=#3dc6ff>ヴィシア</color>の火力が8アップ、装填が3アップ、命中が2アップ",
 		next = 2192,
 		id = 2191,
 		icon = "",
@@ -4795,7 +4804,7 @@ pg.commander_ability_template = {
 		name = "熟練参謀·ヴィシア",
 		group_id = 219,
 		worth = 2,
-		desc = "<color=#ffde38>ヴィシア</color>の火力が11アップ、装填が4アップ、命中が3アップ",
+		desc = "<color=#3dc6ff>ヴィシア</color>の火力が11アップ、装填が4アップ、命中が3アップ",
 		next = 2193,
 		id = 2192,
 		icon = "",
@@ -4848,7 +4857,7 @@ pg.commander_ability_template = {
 		name = "歴戦参謀·ヴィシア",
 		group_id = 219,
 		worth = 3,
-		desc = "<color=#ffde38>ヴィシア</color>の火力が16アップ、装填が6アップ、命中が5アップ",
+		desc = "<color=#3dc6ff>ヴィシア</color>の火力が16アップ、装填が6アップ、命中が5アップ",
 		next = 0,
 		id = 2193,
 		icon = "",

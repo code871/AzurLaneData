@@ -46,18 +46,21 @@ end
 
 function slot0.initSummaryInfo(slot0)
 	slot0.loadingPage = SecondSummaryPage1.New(slot0:findTF("page1", slot0.pageContainer))
+	slot4 = slot0
+	slot5 = "page5"
 	slot0.pages = {
 		SecondSummaryPage2.New(slot0:findTF("page2", slot0.pageContainer)),
 		SecondSummaryPage3.New(slot0:findTF("page3", slot0.pageContainer)),
 		SecondSummaryPage4.New(slot0:findTF("page4", slot0.pageContainer)),
 		SecondSummaryPage4.New(cloneTplTo(slot0:findTF("page4", slot0.pageContainer), slot0.pageContainer, "page4_2")),
 		SecondSummaryPage4.New(cloneTplTo(slot0:findTF("page4", slot0.pageContainer), slot0.pageContainer, "page4_3")),
-		SecondSummaryPage5.New(slot0:findTF("page5", slot0.pageContainer))
+		SecondSummaryPage4.New(cloneTplTo(slot0:findTF("page4", slot0.pageContainer), slot0.pageContainer, "page4_4")),
+		SecondSummaryPage5.New(slot0.findTF(slot4, slot5, slot0.pageContainer))
 	}
 
-	table.foreachi(slot0.pages, function (slot0, slot1)
-		setActive(slot1._tf, false)
-	end)
+	for slot4, slot5 in ipairs(slot0.pages) do
+		setActive(slot5._tf, false)
+	end
 
 	function slot1()
 		for slot4, slot5 in ipairs(uv0.pages) do

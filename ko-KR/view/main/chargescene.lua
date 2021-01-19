@@ -154,8 +154,6 @@ function slot0.didEnter(slot0)
 		slot0:switchPage(slot0.contextData.wrap)
 
 		slot0.contextData.wrap = nil
-
-		slot0:TriggerMonthCardItem()
 	else
 		slot0:switchPage(uv0.TYPE_MENU)
 	end
@@ -298,7 +296,9 @@ function slot0.initDamondsData(slot0)
 	slot0.damondItemVOs = {}
 
 	for slot5, slot6 in pairs(pg.pay_data_display.all) do
-		if PLATFORM_CODE ~= PLATFORM_JP and PLATFORM_CODE ~= PLATFORM_US or not pg.SdkMgr.GetInstance():CheckAudit() or slot6 ~= 1 then
+		if (PLATFORM_CODE == PLATFORM_JP or PLATFORM_CODE == PLATFORM_US) and pg.SdkMgr.GetInstance():CheckAudit() and slot6 == 1 then
+			-- Nothing
+		elseif not pg.SdkMgr.GetInstance():IgnorePlatform(slot1[slot6].ignorePlatform) then
 			table.insert(slot0.damondItemVOs, Goods.Create({
 				shop_id = slot6
 			}, Goods.TYPE_CHARGE))
@@ -325,7 +325,7 @@ function slot0.initDamonds(slot0)
 		slot1 = uv0:createGoods(slot0)
 
 		onButton(uv0, slot1.tr, function ()
-			uv0:confirm(uv1)
+			uv0:confirm(uv1.goods)
 		end, SFX_PANEL)
 		onButton(uv0, slot1.mask, function ()
 		end, SFX_PANEL)
@@ -345,13 +345,20 @@ function slot0.initDamonds(slot0)
 end
 
 function slot0.initDiamondList(slot0, slot1)
-	slot4 = slot0:findTF("content/ItemMonth", slot1)
+	slot2 = slot0:findTF("content/ItemList", slot1)
+	slot3 = slot0:findTF("ItemTpl", slot1)
+
+	if (PLATFORM_CODE == PLATFORM_JP or PLATFORM_CODE == PLATFORM_US) and pg.SdkMgr.GetInstance():CheckAudit() then
+		setActive(slot0:findTF("content/ItemMonth", slot1), false)
+	else
+		setActive(slot4, true)
+	end
 
 	function slot5(slot0)
 		slot1 = ChargeDiamondCard.New(slot0, uv0, uv1)
 
 		onButton(uv1, slot1.tr, function ()
-			uv0:confirm(uv1)
+			uv0:confirm(uv1.goods)
 		end, SFX_PANEL)
 
 		uv1.damondItems[slot0] = slot1
@@ -369,7 +376,7 @@ function slot0.initDiamondList(slot0, slot1)
 		end
 	end
 
-	slot7 = UIItemList.New(slot0:findTF("content/ItemList", slot1), slot0:findTF("ItemTpl", slot1))
+	slot7 = UIItemList.New(slot2, slot3)
 
 	slot7:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventInit then
@@ -383,11 +390,15 @@ function slot0.initDiamondList(slot0, slot1)
 end
 
 function slot0.confirm(slot0, slot1)
-	if slot1.goods:isChargeType() then
-		slot4 = (table.contains(slot0.firstChargeIds, slot1.goods.id) or slot1.goods:firstPayDouble()) and 4 or slot1.goods:getConfig("tag")
+	if not slot1 then
+		return
+	end
 
-		if slot1.goods:isMonthCard() or slot1.goods:isGiftBox() or slot1.goods:isItemBox() then
-			for slot11, slot12 in ipairs(slot1.goods:getConfig("extra_service_item")) do
+	if Clone(slot1):isChargeType() then
+		slot4 = (table.contains(slot0.firstChargeIds, slot1.id) or slot1:firstPayDouble()) and 4 or slot1:getConfig("tag")
+
+		if slot1:isMonthCard() or slot1:isGiftBox() or slot1:isItemBox() then
+			for slot11, slot12 in ipairs(slot1:getConfig("extra_service_item")) do
 				table.insert({}, {
 					type = slot12[1],
 					id = slot12[2],
@@ -395,7 +406,7 @@ function slot0.confirm(slot0, slot1)
 				})
 			end
 
-			slot8 = slot1.goods:getConfig("gem") + slot1.goods:getConfig("extra_gem")
+			slot8 = slot1:getConfig("gem") + slot1:getConfig("extra_gem")
 
 			if not slot5 and slot8 > 0 then
 				table.insert(slot6, {
@@ -417,37 +428,37 @@ function slot0.confirm(slot0, slot1)
 
 			slot0:showItemDetail({
 				isChargeType = true,
-				icon = "chargeicon/" .. slot1.goods:getConfig("picture"),
-				name = slot1.goods:getConfig("name"),
+				icon = "chargeicon/" .. slot1:getConfig("picture"),
+				name = slot1:getConfig("name"),
 				tipExtra = slot5 and i18n("charge_title_getitem_month") or i18n("charge_title_getitem"),
 				extraItems = slot6,
-				price = numberFormat(slot1.goods:getConfig("money"), ","),
+				price = slot1:getConfig("money"),
 				tagType = slot4,
 				isMonthCard = slot5,
 				tipBonus = slot5 and i18n("charge_title_getitem_soon") or "",
 				bonusItem = slot9,
-				descExtra = slot1.goods:getConfig("descrip_extra"),
+				descExtra = slot1:getConfig("descrip_extra"),
 				onYes = function ()
 					if uv0:checkSetBirth() then
-						uv0:emit(ChargeMediator.CHARGE, uv1.goods.id)
+						uv0:emit(ChargeMediator.CHARGE, uv1.id)
 						SetActive(uv0.detail, false)
 						uv0:revertDetailBlur()
 					end
 				end
 			})
-		elseif slot1.goods:isGem() then
-			slot7 = slot1.goods:getConfig("gem")
+		elseif slot1:isGem() then
+			slot7 = slot1:getConfig("gem")
 
 			slot0:showItemDetail({
 				isChargeType = true,
-				icon = "chargeicon/" .. slot1.goods:getConfig("picture"),
-				name = slot1.goods:getConfig("name"),
-				price = numberFormat(slot1.goods:getConfig("money"), ","),
+				icon = "chargeicon/" .. slot1:getConfig("picture"),
+				name = slot1:getConfig("name"),
+				price = slot1:getConfig("money"),
 				tagType = slot4,
-				normalTip = i18n("charge_start_tip", numberFormat(slot1.goods:getConfig("money"), ","), slot3 and slot7 + slot1.goods:getConfig("gem") or slot7 + slot1.goods:getConfig("extra_gem")),
+				normalTip = i18n("charge_start_tip", slot1:getConfig("money"), slot3 and slot7 + slot1:getConfig("gem") or slot7 + slot1:getConfig("extra_gem")),
 				onYes = function ()
 					if uv0:checkSetBirth() then
-						uv0:emit(ChargeMediator.CHARGE, uv1.goods.id)
+						uv0:emit(ChargeMediator.CHARGE, uv1.id)
 						SetActive(uv0.detail, false)
 						uv0:revertDetailBlur()
 					end
@@ -457,7 +468,7 @@ function slot0.confirm(slot0, slot1)
 	else
 		slot2 = {}
 
-		if type(pg.item_data_statistics[slot1.goods:getConfig("effect_args")[1]].display_icon) == "table" then
+		if type(pg.item_data_statistics[slot1:getConfig("effect_args")[1]].display_icon) == "table" then
 			for slot9, slot10 in ipairs(slot5) do
 				table.insert(slot2, {
 					type = slot10[1],
@@ -474,14 +485,14 @@ function slot0.confirm(slot0, slot1)
 			name = slot4.name,
 			tipExtra = i18n("charge_title_getitem"),
 			extraItems = slot2,
-			price = slot1.goods:getConfig("resource_num"),
-			tagType = slot1.goods:getConfig("tag"),
+			price = slot1:getConfig("resource_num"),
+			tagType = slot1:getConfig("tag"),
 			onYes = function ()
 				pg.MsgboxMgr.GetInstance():ShowMsgBox({
-					content = i18n("charge_scene_buy_confirm", uv0.goods:getConfig("resource_num"), uv1.name),
+					content = i18n("charge_scene_buy_confirm", uv0:getConfig("resource_num"), uv1.name),
 					onYes = function ()
 						uv0:revertDetailBlur()
-						uv0:emit(ChargeMediator.BUY_ITEM, uv1.goods.id, 1)
+						uv0:emit(ChargeMediator.BUY_ITEM, uv1.id, 1)
 						SetActive(uv0.detail, false)
 					end
 				})
@@ -599,7 +610,7 @@ function slot0.setItemVOs(slot0)
 			end
 
 			if slot7 == "ship_bag_size" and slot9 and slot10 then
-				if slot9 <= slot0.player.ship_bag_max and slot0.player.ship_bag_max <= slot10 then
+				if slot9 <= slot0.player:getMaxShipBag() and slot0.player:getMaxShipBag() <= slot10 then
 					print("ship_bag_size type shop id", slot6)
 					table.insert(slot0.itemVOs, Goods.Create({
 						count = 0,
@@ -607,7 +618,7 @@ function slot0.setItemVOs(slot0)
 					}, Goods.TYPE_MILITARY))
 				end
 			elseif slot7 == "equip_bag_max" and slot9 and slot10 then
-				if slot9 <= slot0.player.equip_bag_max and slot0.player.equip_bag_max <= slot10 then
+				if slot9 <= slot0.player:getMaxEquipmentBag() and slot0.player:getMaxEquipmentBag() <= slot10 then
 					print("equip_bag_max type shop id", slot6)
 					table.insert(slot0.itemVOs, Goods.Create({
 						count = 0,
@@ -650,7 +661,7 @@ function slot0.initItems(slot0)
 			slot2 = nil
 
 			if uv0.goodsVO:getConfig("effect_args") == "ship_bag_size" then
-				if Player.MAX_SHIP_BAG <= uv1.player.ship_bag_max then
+				if Player.MAX_SHIP_BAG <= uv1.player:getMaxShipBag() then
 					pg.TipsMgr.GetInstance():ShowTips(i18n("charge_ship_bag_max"))
 
 					return
@@ -662,7 +673,7 @@ function slot0.initItems(slot0)
 					id = Goods.SHIP_BAG_SIZE_ITEM
 				}).id
 			elseif slot0 == "equip_bag_size" then
-				if Player.MAX_EQUIP_BAG <= uv1.player.equip_bag_max then
+				if Player.MAX_EQUIP_BAG <= uv1.player:getMaxEquipmentBag() then
 					pg.TipsMgr.GetInstance():ShowTips(i18n("charge_equip_bag_max"))
 
 					return
@@ -1323,14 +1334,6 @@ function slot0.activeUserAgree(slot0, slot1, slot2)
 		scrollTo(slot0:findTF("container/scrollrect", slot0.userAgreeContainer), 0, 1)
 	else
 		pg.UIMgr.GetInstance():UnblurPanel(slot0.userAgreeContainer, slot0.frame)
-	end
-end
-
-function slot0.TriggerMonthCardItem(slot0)
-	if slot0.contextData.confirmMonthCard then
-		for slot4, slot5 in pairs(slot0.damondItems) do
-			-- Nothing
-		end
 	end
 end
 

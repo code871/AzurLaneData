@@ -1,12 +1,12 @@
 slot0 = class("ChatConst")
 slot0.CODE_BANED = 100
-slot0.CODE_GUILDBOSS_OPEN = 200
 slot0.CODE_ACTOBSS_MSG_WORD = 1000
 slot0.ChannelAll = 1
 slot0.ChannelWorld = 2
 slot0.ChannelPublic = 3
 slot0.ChannelFriend = 4
 slot0.ChannelGuild = 5
+slot0.ChannelWorldBoss = 6
 slot0.SendChannels = {
 	slot0.ChannelWorld,
 	slot0.ChannelGuild
@@ -16,7 +16,8 @@ slot0.RecvChannels = {
 	slot0.ChannelWorld,
 	slot0.ChannelPublic,
 	slot0.ChannelFriend,
-	slot0.ChannelGuild
+	slot0.ChannelGuild,
+	slot0.ChannelWorldBoss
 }
 
 function slot0.GetChannelName(slot0)
@@ -34,6 +35,8 @@ function slot0.GetChannelSprite(slot0)
 		return "guild"
 	elseif slot0 == uv0.ChannelAll then
 		return "total"
+	elseif slot0 == uv0.ChannelWorldBoss then
+		return "worldboss"
 	end
 end
 

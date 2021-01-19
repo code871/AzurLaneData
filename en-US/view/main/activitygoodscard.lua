@@ -1,11 +1,5 @@
 slot0 = class("ActivityGoodsCard")
-slot0.Color = {
-	[3] = {
-		0.8745098039215686,
-		0.9294117647058824,
-		1
-	}
-}
+slot0.Color = {}
 slot0.DefaultColor = {
 	0.8745098039215686,
 	0.9294117647058824,
@@ -140,6 +134,11 @@ function slot0.StaticUpdate(slot0, slot1, slot2, slot3)
 	slot22 = uv0.Color[slot2] or uv0.DefaultColor
 	slot12.color = slot3 or Color.New(slot22[1], slot22[2], slot22[3], 1)
 	slot13.color = slot3 or Color.New(slot22[1], slot22[2], slot22[3], 1)
+
+	if slot1:getConfig("num_limit") >= 99 then
+		slot13.text = i18n("shop_label_unlimt_cnt")
+		slot12.text = ""
+	end
 end
 
 function slot0.dispose(slot0)

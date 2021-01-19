@@ -26,7 +26,7 @@ function slot0.loginProcessHandler(slot0)
 	slot0.process = coroutine.wrap(function ()
 		uv0.viewComponent:switchSubView({})
 
-		if not uv1:getUserAgreement() and PLATFORM_KR ~= PLATFORM_CODE then
+		if uv1:CheckNeedUserAgreement() and not uv1:getUserAgreement() then
 			uv0.viewComponent:showUserAgreement(uv0.process)
 			coroutine.yield()
 			uv1:setUserAgreement()
@@ -60,6 +60,9 @@ function slot0.loginProcessHandler(slot0)
 			})
 			coroutine.yield()
 		end
+
+		uv0:CheckMaintain()
+		coroutine.yield()
 
 		if uv0.contextData.code then
 			if uv0.contextData.code ~= 0 then
@@ -187,9 +190,13 @@ function slot0.handleNotification(slot0, slot1)
 		})
 	elseif slot2 == GAME.SERVER_LOGIN_SUCCESS then
 		if slot3.uid == 0 then
-			slot0:sendNotification(GAME.BEGIN_STAGE, {
-				system = SYSTEM_PROLOGUE
-			})
+			if EPILOGUE_SKIPPABLE then
+				slot0:sendNotification(GAME.GO_SCENE, SCENE.CREATE_PLAYER)
+			else
+				slot0:sendNotification(GAME.BEGIN_STAGE, {
+					system = SYSTEM_PROLOGUE
+				})
+			end
 		else
 			slot0.facade:sendNotification(GAME.LOAD_PLAYER_DATA, {
 				id = slot3.uid

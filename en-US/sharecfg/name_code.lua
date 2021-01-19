@@ -872,8 +872,8 @@ pg.name_code = {
 	},
 	{
 		id = 175,
-		name = "Suruga ",
-		code = "Suruga "
+		name = "Suruga",
+		code = "Suruga"
 	},
 	{
 		id = 176,
@@ -907,13 +907,13 @@ pg.name_code = {
 	},
 	{
 		id = 182,
-		name = "Shinano ",
-		code = "Shinano "
+		name = "Shinano",
+		code = "Shinano"
 	},
 	{
 		id = 183,
-		name = "大鲸",
-		code = "迖"
+		name = "Taigei",
+		code = "Taigei"
 	},
 	{
 		id = 184,
@@ -927,12 +927,32 @@ pg.name_code = {
 	},
 	{
 		id = 186,
-		name = "冬月",
-		code = "㮔"
+		name = "Fuyutsuki",
+		code = "Fuyutsuki"
 	},
 	{
 		id = 187,
-		name = "满月",
-		code = "槾"
+		name = "Michitsuki",
+		code = "Michitsuki"
+	},
+	{
+		id = 188,
+		name = "Kashino",
+		code = "Kashino"
+	},
+	{
+		id = 189,
+		name = "Hatsuzuki",
+		code = "Hatsuzuki"
+	},
+	{
+		id = 190,
+		name = "Taihou μ ",
+		code = "Taihou μ "
+	},
+	{
+		id = 191,
+		name = "飞龙·META",
+		code = "龙·META"
 	}
 }

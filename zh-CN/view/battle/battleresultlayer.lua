@@ -66,7 +66,12 @@ function slot0.setPlayer(slot0, slot1)
 	setText(slot0._playerBonusExp, "+0")
 
 	slot0.calcPlayerProgress = slot0.calcPlayerExp
-	slot3 = slot0.contextData.extraBuffList
+
+	for slot7, slot8 in ipairs(slot0.contextData.extraBuffList) do
+		if pg.benefit_buff_template[slot8].benefit_type == Chapter.OPERATION_BUFF_TYPE_EXP then
+			setActive(slot0._playerExpExtra, true)
+		end
+	end
 end
 
 function slot0.setExpBuff(slot0, slot1, slot2)
@@ -200,8 +205,9 @@ function slot0.didEnter(slot0)
 	slot1 = rtf(slot0._grade)
 	slot0._gradeUpperLeftPos = slot1.localPosition
 	slot1.localPosition = Vector3(0, 25, 0)
+	slot0.blurRt = pg.UIMgr.GetInstance():SetMainCamBlurTexture(GetComponent(slot0:findTF("blur_img", slot0._tf), "RawImage"))
 
-	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
+	setActive(slot0:findTF("blur_img", slot0._tf), true)
 
 	slot0._grade.transform.localScale = Vector3(1.5, 1.5, 0)
 
@@ -340,12 +346,20 @@ function slot0.showRewardInfo(slot0)
 		end
 
 		slot4 = false
-		slot5 = uv0.contextData.extraBuffList
 
-		if table.getCount(slot0) > 0 then
+		for slot9, slot10 in ipairs(uv0.contextData.extraBuffList) do
+			if pg.benefit_buff_template[slot10].benefit_type == Chapter.OPERATION_BUFF_TYPE_REWARD then
+				slot4 = true
+
+				break
+			end
+		end
+
+		if table.getCount(PlayerConst.BonusItemMarker(slot0)) > 0 then
 			uv0:emit(BaseUI.ON_AWARD, {
-				items = slot0,
-				onYes = uv1
+				items = slot3,
+				extraBonus = slot4,
+				removeFunc = uv1
 			})
 			coroutine.yield()
 
@@ -682,7 +696,7 @@ function slot0.showPainting(slot0)
 
 		setPaintingPrefabAsync(slot0._painting, slot0.paintingName, "jiesuan", function ()
 			if findTF(uv0._painting, "fitter").childCount > 0 then
-				Ship.SetExpression(findTF(uv0._painting, "fitter"):GetChild(0), uv0.paintingName, "win_mvp", uv1)
+				ShipExpressionHelper.SetExpression(findTF(uv0._painting, "fitter"):GetChild(0), uv0.paintingName, "win_mvp", uv1)
 			end
 		end)
 
@@ -898,7 +912,11 @@ function slot0.willExit(slot0)
 		slot0._rightTimer:Stop()
 	end
 
-	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf)
+	ReflectionHelp.RefCallStaticMethod(typeof("UnityEngine.RenderTexture"), "ReleaseTemporary", {
+		typeof("UnityEngine.RenderTexture")
+	}, {
+		slot0.blurRt
+	})
 	slot0:stopVoice()
 end
 

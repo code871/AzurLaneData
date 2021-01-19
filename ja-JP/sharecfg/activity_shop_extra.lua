@@ -1470,6 +1470,42 @@ pg.activity_shop_extra = {
 			}
 		}
 	},
+	[53] = {
+		num_limit = 1,
+		activity = 588,
+		commodity_type = 7,
+		num = 1,
+		commodity_id = 301015,
+		scene = "",
+		id = 53,
+		order = 7,
+		time = {
+			{
+				{
+					2021,
+					1,
+					12
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					1,
+					25
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
 	[54] = {
 		num_limit = 1,
 		activity = 606,
@@ -1516,6 +1552,47 @@ pg.activity_shop_extra = {
 		scene = "",
 		id = 55,
 		order = 2
+	},
+	[56] = {
+		num_limit = 1,
+		activity = 663,
+		commodity_type = 7,
+		num = 1,
+		commodity_id = 103072,
+		id = 56,
+		order = 10,
+		scene = {
+			"scene shop",
+			{
+				warp = 1
+			}
+		},
+		time = {
+			{
+				{
+					2020,
+					9,
+					24
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					10,
+					18
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
 	},
 	[57] = {
 		num_limit = 1,
@@ -1564,6 +1641,280 @@ pg.activity_shop_extra = {
 		id = 58,
 		order = 5
 	},
+	[59] = {
+		num_limit = 1,
+		activity = 724,
+		time = "stop",
+		commodity_type = 7,
+		num = 1,
+		commodity_id = 301181,
+		scene = "",
+		id = 59,
+		order = 10
+	},
+	[60] = {
+		num_limit = 1,
+		activity = 740,
+		commodity_type = 7,
+		num = 1,
+		commodity_id = 102162,
+		scene = "",
+		id = 60,
+		order = 7,
+		time = {
+			{
+				{
+					2020,
+					10,
+					22
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					11,
+					5
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[61] = {
+		num_limit = 1,
+		activity = 741,
+		commodity_type = 7,
+		num = 1,
+		commodity_id = 101291,
+		scene = "",
+		id = 61,
+		order = 7,
+		time = {
+			{
+				{
+					2020,
+					10,
+					22
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					11,
+					5
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[62] = {
+		num_limit = 1,
+		activity = 771,
+		commodity_type = 7,
+		num = 1,
+		commodity_id = 205013,
+		id = 62,
+		order = 4,
+		scene = {
+			"scene coloring",
+			{}
+		},
+		time = {
+			{
+				{
+					2020,
+					11,
+					12
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					11,
+					26
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[63] = {
+		num_limit = 1,
+		activity = 495,
+		commodity_type = 7,
+		num = 1,
+		commodity_id = 401237,
+		id = 63,
+		order = 8,
+		scene = {
+			"scene coloring",
+			{}
+		},
+		time = {
+			{
+				{
+					2020,
+					12,
+					10
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					12,
+					24
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[64] = {
+		num_limit = 1,
+		activity = 815,
+		commodity_type = 7,
+		num = 1,
+		commodity_id = 102272,
+		scene = "",
+		id = 64,
+		order = 15,
+		time = {
+			{
+				{
+					2020,
+					12,
+					22
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					1,
+					5
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[65] = {
+		num_limit = 1,
+		activity = 814,
+		commodity_type = 7,
+		num = 1,
+		commodity_id = 301231,
+		scene = "",
+		id = 65,
+		order = 15,
+		time = {
+			{
+				{
+					2020,
+					12,
+					22
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					1,
+					5
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[66] = {
+		num_limit = 1,
+		activity = 829,
+		commodity_type = 7,
+		num = 1,
+		commodity_id = 301571,
+		id = 66,
+		order = 7,
+		scene = {
+			"scene NEWYEAR BACKHILL",
+			{
+				miniGameID = 18
+			}
+		},
+		time = {
+			{
+				{
+					2020,
+					12,
+					29
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					1,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -1610,9 +1961,19 @@ pg.activity_shop_extra = {
 		48,
 		51,
 		52,
+		53,
 		54,
 		55,
+		56,
 		57,
-		58
+		58,
+		59,
+		60,
+		61,
+		62,
+		63,
+		64,
+		65,
+		66
 	}
 }
